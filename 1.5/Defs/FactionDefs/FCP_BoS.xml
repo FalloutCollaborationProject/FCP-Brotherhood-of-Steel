@@ -9,8 +9,8 @@
 			<li>(1, 1, 1)</li>
 		</colorSpectrum>
 		<maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
-		<pawnSingular>member</pawnSingular>		<!-- Don't know what to call them, please change -->
-		<pawnsPlural>members</pawnsPlural>
+		<pawnSingular>Sodalem</pawnSingular>		<!-- Don't know what to call them, please change -->
+		<pawnsPlural>Sodalis</pawnsPlural>
 		<categoryTag>Outlander</categoryTag>
 		<settlementGenerationWeight>1</settlementGenerationWeight>
 		<requiredCountAtGameStart>1</requiredCountAtGameStart>

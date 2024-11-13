@@ -5,8 +5,8 @@
 		<defName>FCP_BoS_Chapter</defName>
 		<label>Brotherhood of Steel chapter</label>
 		<description>Description</description>
-		<pawnNameMaker>NamerPersonCorunan</pawnNameMaker>
-		<pawnNameMakerFemale>NamerPersonCorunan</pawnNameMakerFemale>
+		<pawnNameMaker>FCP_Retro_Namer_Male</pawnNameMaker>
+		<pawnNameMakerFemale>FCP_Retro_Namer_Female</pawnNameMakerFemale>
 		<ideoNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerIdeoAstropolitan</ideoNameMaker>
 		<deityNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerDeityAstropolitan</deityNameMaker>
 		<deityTypeMaker MayRequire="Ludeon.RimWorld.Ideology">DeityTypeMakerAstropolitan</deityTypeMaker>
