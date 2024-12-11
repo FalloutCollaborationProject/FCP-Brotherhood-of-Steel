@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
 
-    <packageId>Rick.FCP.BoS</packageId>
+    <!-- About Information -->
+
+    <packageId>Rick.FCP.BOS</packageId>
     <author>Rick</author>
     <name>FCP - Brotherhood of Steel</name>
     <description>The Fallout Collaboration Project Presents: Brotherhood of Steel, a Faction and Armory Mod.</description>
@@ -9,10 +11,13 @@
         <li>1.5</li>
     </supportedVersions>
     <modDependencies>
-		<li>
-			<packageId>Rick.FCP.Core.Tools</packageId>
-			<displayName>FCP - Tools</displayName>
-		</li>
-	</modDependencies>
+        <li>
+            <packageId>Rick.FCP.Core.Tools</packageId>
+            <displayName>FCP - Tools</displayName>
+        </li>
+    </modDependencies>
+    <loadAfter>
+        <li>Rick.FCP.Core.Tools</li>
+    </loadAfter>
 
 </ModMetaData>
