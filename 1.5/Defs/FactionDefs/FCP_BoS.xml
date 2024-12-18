@@ -9,14 +9,14 @@
 			<li>(1, 1, 1)</li>
 		</colorSpectrum>
 		<maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
-		<pawnSingular>Sodalem</pawnSingular>		<!-- Don't know what to call them, please change -->
-		<pawnsPlural>Sodalis</pawnsPlural>
+		<pawnSingular>Brother</pawnSingular>		<!-- Don't know what to call them, please change -->
+		<pawnsPlural>Brothers</pawnsPlural>
 		<categoryTag>Outlander</categoryTag>
 		<settlementGenerationWeight>1</settlementGenerationWeight>
 		<requiredCountAtGameStart>1</requiredCountAtGameStart>
 		<canSiege>true</canSiege>
 		<canStageAttacks>true</canStageAttacks>
-		<leaderTitle>elder</leaderTitle>
+		<leaderTitle>Elder</leaderTitle>
 		<factionIconPath>World_Icon/BoS_Icon/FCP_BoS_World_Icon</factionIconPath>
 		<techLevel>Industrial</techLevel>
 		<fixedName>Brotherhood of Steel</fixedName>
