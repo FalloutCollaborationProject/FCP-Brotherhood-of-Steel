@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
+	<!--__________ Factions __________-->
+
+	<!-- BoS -->
+
 	<FactionDef ParentName="FactionBase">
 		<defName>FCP_Faction_BoS</defName>
 		<label>Brotherhood of Steel</label>
