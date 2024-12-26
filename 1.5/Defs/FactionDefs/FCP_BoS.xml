@@ -2,7 +2,7 @@
 <Defs>
 
 	<FactionDef ParentName="FactionBase">
-		<defName>FCP_BoS_Faction_BoS</defName>
+		<defName>FCP_Faction_BoS</defName>
 		<label>Brotherhood of Steel</label>
 		<description>The Brotherhood of Steel is one of the oldest still existing factions in the wasteland. It was founded just before and during the great war itself. True to its army origin, the Brotherhood is a militarised society, based on discipline, prowess, and reliability. However, there are a great number of Brotherhood chapters with often strongly deviating philosophies. Some might see themselves as the sole protectors of humanity and act noble and chivalrous, while others might see outsiders as clueless degenerates unfit for the technological marvels they might possess. Among the few things shared by all chapters of the Brotherhood is their obsession with technology (and the safeguarding of it) and their imposing suits of power armour which make them, despite their small numbers, one of the most powerful groups in the wasteland.</description>
 		<colorSpectrum>
