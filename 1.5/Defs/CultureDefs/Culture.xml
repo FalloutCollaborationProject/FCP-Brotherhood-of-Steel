@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
+    <!--__________ Cultures and Styles __________-->
+
+    <!--_____ BoS _____-->
+
+    <!-- Cultures -->
+
 	<CultureDef>
-		<defName>FCP_BoS_Chapter</defName>
+		<defName>FCP_Culture_BoS</defName>
 		<label>Brotherhood of Steel chapter</label>
 		<description>Description</description>
 		<pawnNameMaker>FCP_Retro_Namer_Male</pawnNameMaker>
@@ -10,7 +16,7 @@
 		<ideoNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerIdeoAstropolitan</ideoNameMaker>
 		<deityNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerDeityAstropolitan</deityNameMaker>
 		<deityTypeMaker MayRequire="Ludeon.RimWorld.Ideology">DeityTypeMakerAstropolitan</deityTypeMaker>
-		<leaderTitleMaker MayRequire="Ludeon.RimWorld.Ideology">FCP_LeaderTitleMaker_NCR</leaderTitleMaker>
+		<leaderTitleMaker MayRequire="Ludeon.RimWorld.Ideology">FCP_LeaderTitleMaker_BoS</leaderTitleMaker>
 		<festivalNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerFestivalAstropolitan</festivalNameMaker>
 		<allowedPlaceTags>
 			<li>OriginSpacer</li>
