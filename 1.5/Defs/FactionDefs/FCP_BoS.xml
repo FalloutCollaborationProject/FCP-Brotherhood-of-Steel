@@ -22,7 +22,7 @@
 		<fixedName>Brotherhood of Steel</fixedName>
 		<settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
 		<allowedCultures>
-			<li>FCP_BoS_Chapter</li>
+			<li>FCP_Culture_BoS</li>
 		</allowedCultures>
 		<disallowedPrecepts>
 			<li MayRequire="Ludeon.RimWorld.Ideology">DrugUse_MedicalOnly</li>
@@ -71,8 +71,8 @@
 				<!-- Normal fights, standard mix -->
 				<kindDef>Combat</kindDef>
 				<options>
-					<FCP_BoS_Initiate_Fatigues>8</FCP_BoS_Initiate_Fatigues>
-					<FCP_BoS_Initiate_Recon>8</FCP_BoS_Initiate_Recon>
+					<FCP_BoS_Initiate>8</FCP_BoS_Initiate>
+					<FCP_BoS_Recon>8</FCP_BoS_Recon>
 					<FCP_BoS_Scribe_Field>5</FCP_BoS_Scribe_Field>
 					<FCP_BoS_Knight>2</FCP_BoS_Knight>
 					<FCP_BoS_Paladin>1</FCP_BoS_Paladin>
@@ -83,8 +83,8 @@
 			<li>
 				<kindDef>Peaceful</kindDef>
 				<options>
-					<FCP_BoS_Initiate_Fatigues>8</FCP_BoS_Initiate_Fatigues>
-					<FCP_BoS_Initiate_Recon>8</FCP_BoS_Initiate_Recon>
+					<FCP_BoS_Initiate>8</FCP_BoS_Initiate>
+					<FCP_BoS_Recon>8</FCP_BoS_Recon>
 					<FCP_BoS_Scribe_Field>5</FCP_BoS_Scribe_Field>
 					<FCP_BoS_Knight>2</FCP_BoS_Knight>
 					<FCP_BoS_Paladin>1</FCP_BoS_Paladin>
@@ -101,9 +101,9 @@
 					<Brahmin>6</Brahmin>
 				</carriers>
 				<guards>
-					<FCP_BoS_Initiate_Fatigues>8</FCP_BoS_Initiate_Fatigues>
+					<FCP_BoS_Initiate>8</FCP_BoS_Initiate>
 					<FCP_BoS_Scribe_Field>7</FCP_BoS_Scribe_Field>
-					<FCP_BoS_Initiate_Recon>3</FCP_BoS_Initiate_Recon>
+					<FCP_BoS_Recon>3</FCP_BoS_Recon>
 					<FCP_BoS_Knight>2</FCP_BoS_Knight>
 					<FCP_BoS_Paladin>1</FCP_BoS_Paladin>
 					<FCP_BoS_Elder>1</FCP_BoS_Elder>
@@ -115,8 +115,8 @@
 					<FCP_BoS_Hopeful>10</FCP_BoS_Hopeful>
 					<FCP_BoS_Squire>6</FCP_BoS_Squire>
 					<FCP_BoS_Lancer>4</FCP_BoS_Lancer>
-					<FCP_BoS_Initiate_Fatigues>8</FCP_BoS_Initiate_Fatigues>
-					<FCP_BoS_Initiate_Recon>8</FCP_BoS_Initiate_Recon>
+					<FCP_BoS_Initiate>8</FCP_BoS_Initiate>
+					<FCP_BoS_Recon>8</FCP_BoS_Recon>
 					<FCP_BoS_Scribe>7</FCP_BoS_Scribe>
 					<FCP_BoS_Scribe_Field>5</FCP_BoS_Scribe_Field>
 					<FCP_BoS_Scribe_Science>4</FCP_BoS_Scribe_Science>
