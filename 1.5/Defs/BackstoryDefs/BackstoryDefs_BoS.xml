@@ -335,6 +335,387 @@
         </possessions>
     </BackstoryDef>
 
+    <!--_ Brotherhood Aspirants _-->
+
+    <!-- Brotherhood Aspirant a -->
+
+    <BackstoryDef>
+        <defName>FCP_BoS_Aspirant_a</defName>
+        <identifier>FCP_BoS_Aspirant_a</identifier>
+        <slot>Adulthood</slot>
+        <title>Brotherhood Aspirant</title>
+        <titleShort>Aspirant</titleShort>
+        <description>Raised within the fortified halls of a Brotherhood bunker, [PAWN_nameDef] was expected to follow [PAWN_possessive] parents into the Scribes, dedicating a life to maintaining technology. But [PAWN_pronoun] longed for the battlefield, inspired by stories of Paladins reclaiming lost knowledge from the wasteland. Defying expectations, [PAWN_pronoun] fought to join the initiates, proving [PAWN_possessive] worth through relentless training and a hunger for fieldwork. While [PAWN_possessive] technical knowledge remains sharp, [PAWN_pronoun] now seeks to earn a place among the Brotherhood’s elite warriors.</description>
+        <skillGains>
+            <Shooting>1</Shooting>
+            <Social>-1</Social>
+            <Intellectual>3</Intellectual>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_BoS_Aspirants</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions>
+        </possessions>
+    </BackstoryDef>
+
+    <!-- Brotherhood Aspirant b -->
+
+    <BackstoryDef>
+        <defName>FCP_BoS_Aspirant_b</defName>
+        <identifier>FCP_BoS_Aspirant_b</identifier>
+        <slot>Adulthood</slot>
+        <title>Brotherhood Aspirant</title>
+        <titleShort>Aspirant</titleShort>
+        <description>Born in the unforgiving wasteland, [PAWN_nameDef] grew up scavenging ruins and avoiding raider gangs. When a Brotherhood patrol found [PAWN_pronoun] fending off a group of feral ghouls with nothing but a rusted pistol, they saw potential. Given the choice between enlistment or exile, [PAWN_pronoun] embraced the Brotherhood’s ideals, eager to trade a life of survival for one of purpose. Now, as an aspirant, [PAWN_pronoun] trains to uphold the Brotherhood’s doctrine and earn the right to wear power armor.</description>
+        <skillGains>
+            <Shooting>3</Shooting>
+            <Melee>2</Melee>
+            <Medicine>-1</Medicine>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_BoS_Aspirants</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions>
+        </possessions>
+    </BackstoryDef>
+
+    <!-- Brotherhood Aspirant c -->
+
+    <BackstoryDef>
+        <defName>FCP_BoS_Aspirant_c</defName>
+        <identifier>FCP_BoS_Aspirant_c</identifier>
+        <slot>Adulthood</slot>
+        <title>Brotherhood Aspirant</title>
+        <titleShort>Aspirant</titleShort>
+        <description>From an early age, [PAWN_nameDef] was immersed in the Brotherhood’s teachings not just in battle, but in the knowledge that technology must be preserved at all costs. Unlike the wastelanders who fumbled with old world machines, [PAWN_possessive] lessons came from preserved databanks and the Brotherhood’s most skilled Scribes. Though [PAWN_pronoun] has trained in combat like all Brotherhood recruits, [PAWN_possessive] true passion lies in deciphering ancient schematics and uncovering lost technology. But in a world where knowledge alone won’t keep [PAWN_pronoun] alive, [PAWN_pronoun] is determined to prove [PAWN_possessive] worth as a warrior and a scholar.</description>
+        <skillGains>
+            <Intellectual>2</Intellectual>
+            <Crafting>3</Crafting>
+            <Animals>-1</Animals>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_BoS_Aspirants</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions>
+        </possessions>
+    </BackstoryDef>
+
+    <!-- Brotherhood Aspirant d -->
+
+    <BackstoryDef>
+        <defName>FCP_BoS_Aspirant_d</defName>
+        <identifier>FCP_BoS_Aspirant_d</identifier>
+        <slot>Adulthood</slot>
+        <title>Brotherhood Aspirant</title>
+        <titleShort>Aspirant</titleShort>
+        <description>Unlike most aspirants, [PAWN_nameDef] wasn’t drawn to war, but to the machines that powered it. From childhood, [PAWN_possessive] days were spent studying fusion cores, repairing damaged laser rifles, and testing salvaged pre-war technology. While the Brotherhood needed warriors, it also needed minds capable of keeping their advanced arsenal operational. Though [PAWN_pronoun] trained in combat like all aspirants, [PAWN_pronoun] finds just as much satisfaction in the hum of a properly calibrated laser as [PAWN_pronoun] does in the heat of battle.</description>
+        <skillGains>
+            <Crafting>3</Crafting>
+            <Artistic>2</Artistic>
+            <Cooking>-3</Cooking>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_BoS_Aspirants</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions>
+        </possessions>
+    </BackstoryDef>
+
+    <!--_ Brotherhood Knights _-->
+
+    <!-- Brotherhood Knight a -->
+
+    <BackstoryDef>
+        <defName>FCP_BoS_Knight_a</defName>
+        <identifier>FCP_BoS_Knight_a</identifier>
+        <slot>Adulthood</slot>
+        <title>Brotherhood Knight</title>
+        <titleShort>Knight</titleShort>
+        <description>From the moment [PAWN_nameDef] was deemed worthy of Knight status, [PAWN_pronoun] dedicated [PAWN_possessive] life to perfecting battlefield tactics. While others sought glory, [PAWN_pronoun] understood that the Brotherhood’s true strength was in strategy and discipline. Every battle was another test, every engagement another lesson. Though [PAWN_pronoun] holds respect for Brotherhood ideals, [PAWN_pronoun] values cold efficiency over blind loyalty. In the end, only the strongest deserve survival.</description>
+        <skillGains>
+            <Shooting>7</Shooting>
+            <Melee>3</Melee>
+            <Intellectual>-5</Intellectual>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_BoS_Knights</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions>
+        </possessions>
+    </BackstoryDef>
+
+    <!-- Brotherhood Knight b -->
+
+    <BackstoryDef>
+        <defName>FCP_BoS_Knight_b</defName>
+        <identifier>FCP_BoS_Knight_b</identifier>
+        <slot>Adulthood</slot>
+        <title>Brotherhood Knight</title>
+        <titleShort>Knight</titleShort>
+        <description>Unlike many of [PAWN_possessive] peers, [PAWN_nameDef] never saw battle as duty it was a privilege. From [PAWN_possessive] first kill as an Initiate, [PAWN_pronoun] learned to revel in combat, the thrill of watching enemies fall beneath superior firepower. While others spoke of honor, [PAWN_pronoun] focused on efficiency. If the Brotherhood demanded violence, then [PAWN_pronoun] would be the first to deliver it, without hesitation or remorse. Some whisper that [PAWN_pronoun] enjoys war too much but the Brotherhood needs killers just as much as it needs strategists.</description>
+        <skillGains>
+            <Shooting>2</Shooting>
+            <Cooking>5</Cooking>
+            <Medicine>-5</Medicine>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_BoS_Knights</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions>
+        </possessions>
+    </BackstoryDef>
+
+    <!-- Brotherhood Knight c -->
+
+    <BackstoryDef>
+        <defName>FCP_BoS_Knight_c</defName>
+        <identifier>FCP_BoS_Knight_c</identifier>
+        <slot>Adulthood</slot>
+        <title>Brotherhood Knight</title>
+        <titleShort>Knight</titleShort>
+        <description>[PAWN_nameDef] has lived by one philosophy: weakness is death. Raised by a Paladin who survived countless campaigns, [PAWN_pronoun] was taught that mercy was just another form of hesitation. By the time [PAWN_pronoun] became a Knight, [PAWN_pronoun] had already survived more firefights than many ever would. Now, clad in Brotherhood armor, [PAWN_pronoun] fights without fear, believing that only war can shape a soldier into something greater.</description>
+        <skillGains>
+            <Shooting>4</Shooting>
+            <Construction>3</Construction>
+            <Artistic>-3</Artistic>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_BoS_Knights</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions>
+        </possessions>
+    </BackstoryDef>
+
+    <!-- Brotherhood Knight d -->
+
+    <BackstoryDef>
+        <defName>FCP_BoS_Knight_d</defName>
+        <identifier>FCP_BoS_Knight_d</identifier>
+        <slot>Adulthood</slot>
+        <title>Brotherhood Knight</title>
+        <titleShort>Knight</titleShort>
+        <description>There was a time when [PAWN_nameDef] believed in the Brotherhood’s mission without question. Technology was sacred, and its protection was a noble duty. But after years on the battlefield, after watching good soldiers die over scraps of machinery, doubt crept in. Was the Brotherhood truly saving humanity, or just hoarding power? Though [PAWN_pronoun] still fights, a deep cynicism has set in. The mission continues, but faith is a distant memory.</description>
+        <skillGains>
+            <Shooting>5</Shooting>
+            <Medicine>2</Medicine>
+            <Social>-4</Social>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_BoS_Knights</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions>
+        </possessions>
+    </BackstoryDef>
+
+    <!-- Brotherhood Knight e -->
+
+    <BackstoryDef>
+        <defName>FCP_BoS_Knight_e</defName>
+        <identifier>FCP_BoS_Knight_e</identifier>
+        <slot>Adulthood</slot>
+        <title>Brotherhood Knight</title>
+        <titleShort>Knight</titleShort>
+        <description>To [PAWN_nameDef], the wasteland is a plague, and it must be cleansed. Mutants, raiders, ghouls none of them deserve to exist. [PAWN_pronoun] believes the Brotherhood’s true mission is extermination, a purge to restore what humanity once was. Where others hesitate, [PAWN_pronoun] strikes without mercy, convinced that every kill brings the world one step closer to order.</description>
+        <skillGains>
+            <Shooting>4</Shooting>
+            <Social>3</Social>
+            <Medicine>-3</Medicine>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_BoS_Knights</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions>
+        </possessions>
+    </BackstoryDef>
+
+    <!--_ Brotherhood Paladins _-->
+
+    <!-- Brotherhood Paladin a -->
+
+    <BackstoryDef>
+        <defName>FCP_BoS_Paladin_a</defName>
+        <identifier>FCP_BoS_Paladin_a</identifier>
+        <slot>Adulthood</slot>
+        <title>Brotherhood Paladin</title>
+        <titleShort>Paladin</titleShort>
+        <description>Years of wasteland warfare have taken their toll on [PAWN_nameDef]. Once, [PAWN_pronoun] fought alongside comrades, shared war stories, and believed in Brotherhood unity. But too many battles, too many losses, and too many betrayals have left [PAWN_pronoun] withdrawn. Words are useless actions are all that matter. Now, [PAWN_pronoun] speaks only when absolutely necessary, giving orders with curt nods and executing missions with cold efficiency. Others see [PAWN_pronoun] as distant, even callous, but in truth, [PAWN_pronoun] simply no longer sees the point in meaningless conversation.</description>
+        <skillGains>
+            <Shooting>8</Shooting>
+            <Melee>3</Melee>
+            <Social>-9</Social>
+        </skillGains>
+        <workDisables>ManualDumb</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_BoS_Paladins</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions>
+        </possessions>
+    </BackstoryDef>
+
+    <!-- Brotherhood Paladin b -->
+
+    <BackstoryDef>
+        <defName>FCP_BoS_Paladin_b</defName>
+        <identifier>FCP_BoS_Paladin_b</identifier>
+        <slot>Adulthood</slot>
+        <title>Brotherhood Paladin</title>
+        <titleShort>Paladin</titleShort>
+        <description>Respect is earned through power, and [PAWN_nameDef] has spent a lifetime proving it. The Brotherhood must be ruled with an iron fist, and those who challenge it must be crushed. Mercy is weakness. Disobedience is death. The wasteland is not a place for kindness it is a place where only the strongest survive. And under [PAWN_possessive] leadership, the Brotherhood will not just survive. It will dominate.</description>
+        <skillGains>
+            <Shooting>7</Shooting>
+            <Social>2</Social>
+            <Medicine>-7</Medicine>
+        </skillGains>
+        <workDisables>ManualDumb</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_BoS_Paladins</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions>
+        </possessions>
+    </BackstoryDef>
+
+    <!-- Brotherhood Paladin c -->
+
+    <BackstoryDef>
+        <defName>FCP_BoS_Paladin_c</defName>
+        <identifier>FCP_BoS_Paladin_c</identifier>
+        <slot>Adulthood</slot>
+        <title>Brotherhood Paladin</title>
+        <titleShort>Paladin</titleShort>
+        <description>[PAWN_nameDef] stopped thinking of [PAWN_possessive]self as human long ago. Battlefields are all [PAWN_pronoun] knows, and power armor is the only thing that feels like home. The Brotherhood gives [PAWN_pronoun] orders, and [PAWN_pronoun] executes them, no questions asked. Emotions are a distraction, doubts are for the weak. A Paladin exists to fight, to kill, and to win. Nothing else matters.</description>
+        <skillGains>
+            <Shooting>5</Shooting>
+            <Melee>3</Melee>
+            <Social>-7</Social>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_BoS_Paladins</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions>
+        </possessions>
+    </BackstoryDef>
+
+    <!-- Brotherhood Paladin d -->
+
+    <BackstoryDef>
+        <defName>FCP_BoS_Paladin_d</defName>
+        <identifier>FCP_BoS_Paladin_d</identifier>
+        <slot>Adulthood</slot>
+        <title>Brotherhood Paladin</title>
+        <titleShort>Paladin</titleShort>
+        <description>To most Paladins, war is about territory and power. To [PAWN_nameDef], war is about preservation. Every Brotherhood battle is another step toward reclaiming what was lost. While others waste their time with bloodshed, [PAWN_pronoun] ensures that old-world technology is protected. Whether it be a crashed Enclave vertibird or a pre-war archive, [PAWN_pronoun] will stop at nothing to secure it—even if it means disobeying orders.</description>
+        <skillGains>
+            <Shooting>5</Shooting>
+            <Intellectual>3</Intellectual>
+            <Animals>-4</Animals>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_BoS_Paladins</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions>
+        </possessions>
+    </BackstoryDef>
+
+    <!-- Brotherhood Paladin e -->
+
+    <BackstoryDef>
+        <defName>FCP_BoS_Paladin_e</defName>
+        <identifier>FCP_BoS_Paladin_e</identifier>
+        <slot>Adulthood</slot>
+        <title>Brotherhood Paladin</title>
+        <titleShort>Paladin</titleShort>
+        <description>War is all [PAWN_nameDef] has ever known. As a Knight, [PAWN_pronoun] was relentless in battle, crushing raiders, mutants, and heretics without mercy. As a Paladin, [PAWN_pronoun] became a force of destruction, leading squads to burn down NCR strongholds and wipe out Mutant threats before they could rise. The Brotherhood does not ask for diplomacy it asks for war. And [PAWN_pronoun] is always ready to deliver.</description>
+        <skillGains>
+            <Shooting>5</Shooting>
+            <Melee>2</Melee>
+            <Intellectual>-2</Intellectual>
+        </skillGains>
+        <workDisables>Cooking</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_BoS_Paladins</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions>
+        </possessions>
+    </BackstoryDef>
+
+    <!-- Brotherhood Paladin f -->
+
+    <BackstoryDef>
+        <defName>FCP_BoS_Paladin_f</defName>
+        <identifier>FCP_BoS_Paladin_f</identifier>
+        <slot>Adulthood</slot>
+        <title>Brotherhood Paladin</title>
+        <titleShort>Paladin</titleShort>
+        <description>For decades, [PAWN_nameDef] has stood as a wall between the Brotherhood and its enemies. While others sought glory, [PAWN_pronoun] sought only to endure. Through gunfire, explosions, and the deaths of countless comrades, [PAWN_pronoun] never wavered. Battle scars cover [PAWN_possessive] body, but none have broken [PAWN_pronoun] yet. If the Brotherhood must survive, it needs Paladins who refuse to fall, Paladins like [PAWN_nameDef]..</description>
+        <skillGains>
+            <Shooting>6</Shooting>
+            <Medicine>3</Medicine>
+            <Construction>-6</Construction>
+        </skillGains>
+        <workDisables>Cooking</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_BoS_Paladins</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions>
+        </possessions>
+    </BackstoryDef>
+
     <!--__ Children __-->
 
     <!-- Junior Scribe -->
@@ -572,7 +953,7 @@
         </possessions>
     </BackstoryDef>
 
-    <!-- Zealous Aspirant -->
+    <!-- Outsider Recruit -->
 
     <BackstoryDef>
         <defName>FCP_BoS_Outsider_Recruit</defName>
