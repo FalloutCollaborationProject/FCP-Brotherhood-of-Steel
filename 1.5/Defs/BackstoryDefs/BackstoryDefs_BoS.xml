@@ -699,16 +699,144 @@
         <slot>Adulthood</slot>
         <title>Brotherhood Paladin</title>
         <titleShort>Paladin</titleShort>
-        <description>For decades, [PAWN_nameDef] has stood as a wall between the Brotherhood and its enemies. While others sought glory, [PAWN_pronoun] sought only to endure. Through gunfire, explosions, and the deaths of countless comrades, [PAWN_pronoun] never wavered. Battle scars cover [PAWN_possessive] body, but none have broken [PAWN_pronoun] yet. If the Brotherhood must survive, it needs Paladins who refuse to fall, Paladins like [PAWN_nameDef]..</description>
+        <description>For decades, [PAWN_nameDef] has stood as a wall between the Brotherhood and its enemies. While others sought glory, [PAWN_pronoun] sought only to endure. Through gunfire, explosions, and the deaths of countless comrades, [PAWN_pronoun] never wavered. Battle scars cover [PAWN_possessive] body, but none have broken [PAWN_pronoun] yet. If the Brotherhood must survive, it needs Paladins who refuse to fall, Paladins like [PAWN_nameDef].</description>
         <skillGains>
             <Shooting>6</Shooting>
             <Medicine>3</Medicine>
             <Construction>-6</Construction>
         </skillGains>
-        <workDisables>Cooking</workDisables>
+        <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
             <li>FCP_BoS_Paladins</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions>
+        </possessions>
+    </BackstoryDef>
+
+    <!--_ Brotherhood Scribes _-->
+
+    <!-- Brotherhood Scribe a -->
+
+    <BackstoryDef>
+        <defName>FCP_BoS_Scribe_a</defName>
+        <identifier>FCP_BoS_Paladin_a</identifier>
+        <slot>Adulthood</slot>
+        <title>Brotherhood Scribe</title>
+        <titleShort>Scribe</titleShort>
+        <description>The Brotherhood hoards technology, but does it truly understand it? [PAWN_nameDef] always questioned this. Why destroy AI cores instead of using them? Why limit cybernetics instead of embracing them? The Brotherhood clings to the past, fearing what it does not control. But [PAWN_pronoun] sees potential where others see danger. If [PAWN_pronoun] is discovered, [PAWN_possessive] research will be burned, [PAWN_possessive] name erased from history. But progress demands risk. And [PAWN_nameDef] is willing to take it.</description>
+        <skillGains>
+            <Intellectual>5</Intellectual>
+            <Crafting>3</Crafting>
+            <Social>-4</Social>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_BoS_Scribes</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions>
+        </possessions>
+    </BackstoryDef>
+
+    <!-- Brotherhood Scribe b -->
+
+    <BackstoryDef>
+        <defName>FCP_BoS_Scribe_b</defName>
+        <identifier>FCP_BoS_Paladin_b</identifier>
+        <slot>Adulthood</slot>
+        <title>Brotherhood Scribe</title>
+        <titleShort>Scribe</titleShort>
+        <description>At first, [PAWN_nameDef] believed in the Brotherhood’s mission. Knowledge must be preserved. Technology must be controlled. But years of restricted research, censored discoveries, and lost breakthroughs wore [PAWN_pronoun] down. [PAWN_possessive] work was buried, [PAWN_possessive] theories ignored, and for what? Brotherhood dogma? [PAWN_pronoun] still serves, still researches, but the passion is gone. Now, [PAWN_pronoun] simply follows orders, wondering what could have been if the Brotherhood truly embraced progress.</description>
+        <skillGains>
+            <Intellectual>4</Intellectual>
+            <Cooking>4</Cooking>
+            <Construction>-3</Construction>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_BoS_Scribes</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions>
+        </possessions>
+    </BackstoryDef>
+
+    <!-- Brotherhood Scribe c -->
+
+    <BackstoryDef>
+        <defName>FCP_BoS_Scribe_c</defName>
+        <identifier>FCP_BoS_Paladin_c</identifier>
+        <slot>Adulthood</slot>
+        <title>Brotherhood Scribe</title>
+        <titleShort>Scribe</titleShort>
+        <description>Unlike most Scribes, [PAWN_nameDef] never felt at home in the archives. Instead of musty books and lab equipment, [PAWN_pronoun] preferred the wasteland, the ruined cities, the lost bunkers, the places where history still lingers. [PAWN_possessive] research is done in the field, often alongside Knights and Paladins, scavenging for lost knowledge firsthand. Some say [PAWN_pronoun] is reckless, but [PAWN_possessive] work has uncovered more than any Scribe confined to a desk ever could.</description>
+        <skillGains>
+            <Intellectual>2</Intellectual>
+            <Shooting>4</Shooting>
+            <Animals>-3</Animals>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_BoS_Scribes</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions>
+        </possessions>
+    </BackstoryDef>
+
+    <!-- Brotherhood Scribe d -->
+
+    <BackstoryDef>
+        <defName>FCP_BoS_Scribe_d</defName>
+        <identifier>FCP_BoS_Paladin_d</identifier>
+        <slot>Adulthood</slot>
+        <title>Brotherhood Scribe</title>
+        <titleShort>Scribe</titleShort>
+        <description>The Brotherhood’s history is as valuable as its technology, and [PAWN_nameDef] has dedicated [PAWN_possessive] life to preserving both. While others see combat as the Brotherhood’s true mission, [PAWN_pronoun] knows that without records, without archives, all they are is another warband doomed to be forgotten. [PAWN_pronoun] has spent years studying old world data, compiling Brotherhood reports, and ensuring that no knowledge, no matter how minor is ever lost again.</description>
+        <skillGains>
+            <Intellectual>10</Intellectual>
+            <Social>3</Social>
+            <Melee>-5</Melee>
+            <Shooting>-5</Shooting>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_BoS_Scribes</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions>
+        </possessions>
+    </BackstoryDef>
+
+    <!-- Brotherhood Scribe e -->
+
+    <BackstoryDef>
+        <defName>FCP_BoS_Scribe_e</defName>
+        <identifier>FCP_BoS_Paladin_e</identifier>
+        <slot>Adulthood</slot>
+        <title>Brotherhood Scribe</title>
+        <titleShort>Scribe</titleShort>
+        <description>The Brotherhood was built on war, but [PAWN_nameDef] has always believed their mission was preservation, not destruction. While others study weapons and armor, [PAWN_pronoun] has focused on medicine, clean energy, and agricultural advancements. The wasteland does not need more warriors; it needs healers, scientists, and builders. But the Brotherhood does not tolerate dissent, and so [PAWN_pronoun] keeps [PAWN_possessive] views to [PAWN_possessive]self, working in secret to preserve life rather than take it.</description>
+        <skillGains>
+            <Intellectual>4</Intellectual>
+            <Medicine>10</Medicine>
+            <Shooting>-7</Shooting>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_BoS_Scribes</li>
         </spawnCategories>
         <bodyTypeFemale>Female</bodyTypeFemale>
         <bodyTypeMale>Male</bodyTypeMale>
@@ -1013,6 +1141,101 @@
             <Cooking>3</Cooking>
             <Animals>2</Animals>
             <Social>1</Social>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_BoS_Child</li>
+        </spawnCategories>
+        <possessions>
+        </possessions>
+    </BackstoryDef>
+
+    <!--_ Brotherhood Squires _-->
+
+    <!-- Brotherhood Squire a -->
+
+    <BackstoryDef>
+        <defName>FCP_BoS_Squire_a</defName>
+        <identifier>FCP_BoS_Squire_a</identifier>
+        <slot>Childhood</slot>
+        <title>Brotherhood Squire</title>
+        <titleShort>Squire</titleShort>
+        <description>[PAWN_nameDef] was born into the Brotherhood deep in a bunker underground. As [PAWN_pronoun] grew up within the bunker, [PAWN_pronoun] was assigned Knight that worked in the workshop. [PAWN_nameDef] gained valuable knowledge with tools but came at a cost of weapons proficiency. [PAWN_nameDef] rarely saw the surface during childhood.</description>
+        <skillGains>
+            <Construction>1</Construction>
+            <Crafting>4</Crafting>
+            <Shooting>-2</Shooting>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_BoS_Child</li>
+        </spawnCategories>
+        <possessions>
+        </possessions>
+    </BackstoryDef>
+
+    <!-- Brotherhood Squire b -->
+
+    <BackstoryDef>
+        <defName>FCP_BoS_Squire_b</defName>
+        <identifier>FCP_BoS_Squire_b</identifier>
+        <slot>Childhood</slot>
+        <title>Brotherhood Squire</title>
+        <titleShort>Squire</titleShort>
+        <description>[PAWN_nameDef] was born in the wasteland. Abandoned as an infant, [PAWN_nameDef] was found by a Brotherhood squad on an assignment to locate salvage for the bunker. [PAWN_pronoun] was raised as a Squire within the Chapter. [PAWN_nameDef] was later assigned to a Knight that saw extensive combat on the surface, when [PAWN_pronoun] reached the age of 13. This helped [PAWN_possessive] with combat prowess and endurance training even at a younger age.</description>
+        <skillGains>
+            <Shooting>3</Shooting>
+            <Melee>2</Melee>
+            <Medicine>1</Medicine>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_BoS_Child</li>
+        </spawnCategories>
+        <possessions>
+        </possessions>
+    </BackstoryDef>
+
+    <!-- Brotherhood Squire c -->
+
+    <BackstoryDef>
+        <defName>FCP_BoS_Squire_c</defName>
+        <identifier>FCP_BoS_Squire_c</identifier>
+        <slot>Childhood</slot>
+        <title>Brotherhood Squire</title>
+        <titleShort>Squire</titleShort>
+        <description>[PAWN_nameDef] was born to prominent pair of Brotherhood members. Expectations were high for the child. The father who was a Paladin, wanted [PAWN_nameDef] to become a strong Knight. [PAWN_possessive] intelligence was high as a child, but caused problems when in combat situations. [PAWN_pronoun] was assigned to the Knight that handled base security and maintenance. On one security patrol within the bunker, a pipe burst and fell onto [PAWN_nameDef] causing lasting damage.</description>
+        <skillGains>
+            <Construction>1</Construction>
+            <Cooking>1</Cooking>
+            <Intellectual>4</Intellectual>
+            <Shooting>-3</Shooting>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_BoS_Child</li>
+        </spawnCategories>
+        <possessions>
+        </possessions>
+    </BackstoryDef>
+
+    <!-- Brotherhood Squire d -->
+
+    <BackstoryDef>
+        <defName>FCP_BoS_Squire_d</defName>
+        <identifier>FCP_BoS_Squire_d</identifier>
+        <slot>Childhood</slot>
+        <title>Brotherhood Squire</title>
+        <titleShort>Squire</titleShort>
+        <description>[PAWN_nameDef] lost both of [PAWN_possessive] parents early in their childhood during a skirmish with Super Mutants. [PAWN_pronoun] heard stories about [PAWN_possessive] parents from the leading Archivist in the bunker. That inspired [PAWN_possessive] dream of becoming a great Paladin in the future. That road was far off but [PAWN_nameDef] was assigned to a well respected Knight with a decade of combat experience. Once [PAWN_nameDef] old enough, [PAWN_pronoun] traveled on every wasteland expedition that the Knight was attached to. [PAWN_nameDef] was credited with several Super Mutant kills at the age of 14.</description>
+        <skillGains>
+            <Shooting>4</Shooting>
+            <Intellectual>-1</Intellectual>
+            <Melee>1</Melee>
         </skillGains>
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
