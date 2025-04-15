@@ -136,6 +136,11 @@
 			<li Class="FalloutCurrencies.FactionCurrency">
 				<currency>FCP_Currency_BoS_Scrip</currency>				<!-- Change this to correct defName -->
 			</li>
+			<li Class="FCP_Shuttles.FactionModExtension">
+				<transportShipDef>FCP_BoS_Vertibird</transportShipDef>
+				<minDistanceBetweenShuttles>10</minDistanceBetweenShuttles>
+				<maxPawnCountInOneShuttle>6</maxPawnCountInOneShuttle>
+			</li>
 		</modExtensions>
 	</FactionDef>
 
