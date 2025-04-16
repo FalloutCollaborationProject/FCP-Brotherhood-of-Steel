@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<!--__________ Factions __________-->
+
+	<!-- Lyons' Pride Remnants -->
+
+	<FactionDef ParentName="FactionBase">
+		<defName>FCP_Faction_BoS_Lyons_Pride_Remnants</defName>
+		<label>Lyons' Pride Remnants</label>
+		<description>The Lyons' Pride remnants are a faction of disciplined and technologically advanced warriors, striving to preserve the ideals of their late leader, Elder Lyons. Once a proud and unified chapter, they now operate as a fragmented yet determined group, clinging to their mission of protecting humanity and safeguarding advanced technology. Though their numbers have dwindled, their resolve remains unshaken, and they continue to uphold their code of honor amidst the chaos of the wasteland. Their advanced weaponry, power armor, and tactical expertise make them a formidable force, whether as allies or adversaries.</description>
+		<colorSpectrum>
+			<li>(1, 1, 1)</li>
+		</colorSpectrum>
+		<maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
+		<pawnSingular>Brother</pawnSingular>
+		<pawnsPlural>Brothers</pawnsPlural>
+		<categoryTag>Outlander</categoryTag>
+		<settlementGenerationWeight>1</settlementGenerationWeight>
+		<requiredCountAtGameStart>1</requiredCountAtGameStart>
+		<canSiege>true</canSiege>
+		<canStageAttacks>true</canStageAttacks>
+		<leaderTitle>Elder</leaderTitle>
+		<factionIconPath>World_Icon/BoS_Icon/FCP_BoS_Lyons_Pride_Remnants_World_Icon</factionIconPath>
+		<techLevel>Industrial</techLevel>
+		<fixedName>Lyons' Pride Remnants</fixedName>
+		<settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
+		<allowedCultures>
+			<li>FCP_Culture_Lyons_BoS</li>
+		</allowedCultures>
+		<disallowedPrecepts>
+			<li MayRequire="Ludeon.RimWorld.Ideology">DrugUse_MedicalOnly</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">DrugUse_Prohibited</li>
+		</disallowedPrecepts>
+		<requiredMemes>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Structure_Ideological</li>
+		</requiredMemes>
+		<disallowedMemes>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Nudism</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Blindsight</li>
+		</disallowedMemes>
+		<backstoryFilters>
+			<li>
+				<categories>
+					<li>FCP_Lyons_BoS</li>
+					<li>FCP_Lyons_Child</li>
+				</categories>
+			</li>
+		</backstoryFilters>
+		<caravanTraderKinds>
+			<li>Caravan_Outlander_BulkGoods</li>
+			<li>Caravan_Outlander_CombatSupplier</li>
+			<li>Caravan_Outlander_Exotic</li>
+			<li>Caravan_Outlander_PirateMerchant</li>
+		</caravanTraderKinds>
+		<visitorTraderKinds>
+			<li>Visitor_Outlander_Standard</li>
+		</visitorTraderKinds>
+		<baseTraderKinds>
+			<li>Base_Outlander_Standard</li>
+		</baseTraderKinds>
+		<allowedArrivalTemperatureRange>-40~45</allowedArrivalTemperatureRange>
+		<raidLootMaker>FCP_BoSRaidLootMaker</raidLootMaker>
+		<maxPawnCostPerTotalPointsCurve>
+			<points>
+				<li>(0,35)</li>
+				<li>(70, 50)</li>
+				<li>(700, 100)</li>
+				<li>(1300, 150)</li>
+				<li>(100000, 10000)</li>
+			</points>
+		</maxPawnCostPerTotalPointsCurve>
+		<pawnGroupMakers>
+			<li>
+				<!-- Normal fights, standard mix -->
+				<kindDef>Combat</kindDef>
+				<options>
+					<FCP_BoS_Initiate>8</FCP_BoS_Initiate>
+					<FCP_BoS_Recon>8</FCP_BoS_Recon>
+					<FCP_BoS_Scribe_Field>5</FCP_BoS_Scribe_Field>
+					<FCP_BoS_Knight>2</FCP_BoS_Knight>
+					<FCP_BoS_Paladin>1</FCP_BoS_Paladin>
+					<FCP_BoS_Sentinel>1</FCP_BoS_Sentinel>
+					<FCP_BoS_Elder>1</FCP_BoS_Elder>
+				</options>
+			</li>
+			<li>
+				<kindDef>Peaceful</kindDef>
+				<options>
+					<FCP_BoS_Initiate>8</FCP_BoS_Initiate>
+					<FCP_BoS_Recon>8</FCP_BoS_Recon>
+					<FCP_BoS_Scribe_Field>5</FCP_BoS_Scribe_Field>
+					<FCP_BoS_Knight>2</FCP_BoS_Knight>
+					<FCP_BoS_Paladin>1</FCP_BoS_Paladin>
+					<FCP_BoS_Sentinel>1</FCP_BoS_Sentinel>
+					<FCP_BoS_Elder>1</FCP_BoS_Elder>
+				</options>
+			</li>
+			<li>
+				<kindDef>Trader</kindDef>
+				<traders>
+					<FCP_BoS_Scribe_Trader>1</FCP_BoS_Scribe_Trader>
+				</traders>
+				<carriers>
+					<Brahmin>6</Brahmin>
+				</carriers>
+				<guards>
+					<FCP_BoS_Initiate>8</FCP_BoS_Initiate>
+					<FCP_BoS_Scribe_Field>7</FCP_BoS_Scribe_Field>
+					<FCP_BoS_Recon>3</FCP_BoS_Recon>
+					<FCP_BoS_Knight>2</FCP_BoS_Knight>
+					<FCP_BoS_Paladin>1</FCP_BoS_Paladin>
+					<FCP_BoS_Elder>1</FCP_BoS_Elder>
+				</guards>
+			</li>
+			<li>
+				<kindDef>Settlement</kindDef>
+				<options>
+					<FCP_BoS_Hopeful>10</FCP_BoS_Hopeful>
+					<FCP_BoS_Squire>6</FCP_BoS_Squire>
+					<FCP_BoS_Lancer>4</FCP_BoS_Lancer>
+					<FCP_BoS_Initiate>8</FCP_BoS_Initiate>
+					<FCP_BoS_Recon>8</FCP_BoS_Recon>
+					<FCP_BoS_Scribe>7</FCP_BoS_Scribe>
+					<FCP_BoS_Scribe_Field>5</FCP_BoS_Scribe_Field>
+					<FCP_BoS_Scribe_Science>4</FCP_BoS_Scribe_Science>
+					<FCP_BoS_Knight>3</FCP_BoS_Knight>
+					<FCP_BoS_Paladin>2</FCP_BoS_Paladin>
+					<FCP_BoS_Sentinel>1</FCP_BoS_Sentinel>
+					<FCP_BoS_Elder>1</FCP_BoS_Elder>
+				</options>
+			</li>
+		</pawnGroupMakers>
+		<settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
+		<modExtensions>
+			<li Class="FCP_Shuttles.FactionModExtension">
+				<transportShipDef>FCP_BoS_Lyons_Pride_Vertibird</transportShipDef>
+				<minDistanceBetweenShuttles>10</minDistanceBetweenShuttles>
+				<maxPawnCountInOneShuttle>6</maxPawnCountInOneShuttle>
+			</li>
+		</modExtensions>
+	</FactionDef>
+
+	<ThingSetMakerDef>
+		<defName>FCP_BoSRaidLootMaker</defName>
+		<root Class="ThingSetMaker_MarketValue">
+			<fixedParams>
+				<filter>
+					<thingDefs>
+						<li>MedicineIndustrial</li>
+						<li>ComponentIndustrial</li>
+						<li>MealSurvivalPack</li>
+						<li>Neutroamine</li>
+					</thingDefs>
+				</filter>
+			</fixedParams>
+		</root>
+	</ThingSetMakerDef>
+
+</Defs>
