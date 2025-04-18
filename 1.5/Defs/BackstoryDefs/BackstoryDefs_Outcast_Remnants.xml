@@ -26,7 +26,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Outcasts</li>
+            <li>FCP_Outcast_Defender</li>
         </spawnCategories>
         <possessions />
     </BackstoryDef>
@@ -48,7 +48,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Outcasts</li>
+            <li>FCP_Outcast_Defender</li>
         </spawnCategories>
         <possessions />
     </BackstoryDef>
@@ -70,7 +70,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Outcasts</li>
+            <li>FCP_Outcast_Specialist</li>
         </spawnCategories>
         <possessions />
     </BackstoryDef>
@@ -92,7 +92,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Outcasts</li>
+            <li>FCP_Outcast_Defender</li>
         </spawnCategories>
         <possessions />
     </BackstoryDef>
@@ -114,7 +114,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Outcasts</li>
+            <li>FCP_Outcast_Recon</li>
         </spawnCategories>
         <possessions />
     </BackstoryDef>
@@ -135,7 +135,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Outcasts</li>
+            <li>FCP_Outcast_Specialist</li>
         </spawnCategories>
         <possessions />
     </BackstoryDef>
@@ -157,7 +157,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Outcasts</li>
+            <li>FCP_Outcast_Defender</li>
         </spawnCategories>
         <possessions />
     </BackstoryDef>
@@ -179,7 +179,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Outcasts</li>
+            <li>FCP_Outcast_Defender</li>
         </spawnCategories>
         <possessions />
     </BackstoryDef>
@@ -201,7 +201,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Outcasts</li>
+            <li>FCP_Outcast_Defender</li>
         </spawnCategories>
         <possessions />
     </BackstoryDef>
@@ -222,7 +222,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Outcasts</li>
+            <li>FCP_Outcast_Specialist</li>
         </spawnCategories>
         <possessions />
     </BackstoryDef>
@@ -264,7 +264,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Outcasts</li>
+            <li>FCP_Outcast_Specialist</li>
         </spawnCategories>
         <possessions />
     </BackstoryDef>
@@ -285,7 +285,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Outcasts</li>
+            <li>FCP_Outcast_Specialist</li>
         </spawnCategories>
         <possessions />
     </BackstoryDef>
@@ -307,7 +307,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Outcasts</li>
+            <li>FCP_Outcast_Recon</li>
         </spawnCategories>
         <possessions />
     </BackstoryDef>
@@ -328,7 +328,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Outcasts</li>
+            <li>FCP_Outcast_Recon</li>
         </spawnCategories>
         <possessions />
     </BackstoryDef>
@@ -350,7 +350,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Outcasts</li>
+            <li>FCP_Outcast_Recon</li>
         </spawnCategories>
         <possessions />
     </BackstoryDef>
@@ -371,7 +371,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Outcasts</li>
+            <li>FCP_Outcast_Specialist</li>
         </spawnCategories>
         <possessions />
     </BackstoryDef>
@@ -393,7 +393,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Outcasts</li>
+            <li>FCP_Outcast_Defender</li>
         </spawnCategories>
         <possessions />
     </BackstoryDef>
@@ -415,7 +415,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Outcasts</li>
+            <li>FCP_Outcast_Defender</li>
         </spawnCategories>
         <possessions />
     </BackstoryDef>
@@ -437,7 +437,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Outcasts</li>
+            <li>FCP_Outcast_Defender</li>
         </spawnCategories>
         <possessions />
     </BackstoryDef>
