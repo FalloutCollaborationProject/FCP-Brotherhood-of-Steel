@@ -12,8 +12,8 @@
     <!-- Requisitioner -->
 
     <BackstoryDef>
-        <defName>FCP_BoS_Requisitioner</defName>
-        <identifier>FCP_BoS_Requisitioner</identifier>
+        <defName>FCP_Backstory_BoS_Requisitioner</defName>
+        <identifier>FCP_Backstory_BoS_Requisitioner</identifier>
         <slot>Adulthood</slot>
         <title>Requisitioner</title>
         <titleShort>Requisitioner</titleShort>
@@ -27,7 +27,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_BoS</li>
+            <li>FCP_Backstory_BoS</li>
         </spawnCategories>
         <bodyTypeFemale>Female</bodyTypeFemale>
         <bodyTypeMale>Male</bodyTypeMale>
@@ -38,8 +38,8 @@
     <!-- Brotherhood Educator -->
 
     <BackstoryDef>
-        <defName>FCP_BoS_Brotherhood_Educator</defName>
-        <identifier>FCP_BoS_Brotherhood_Educator</identifier>
+        <defName>FCP_Backstory_BoS_Brotherhood_Educator</defName>
+        <identifier>FCP_Backstory_BoS_Brotherhood_Educator</identifier>
         <slot>Adulthood</slot>
         <title>Brotherhood Educator</title>
         <titleShort>Brotherhood Educator</titleShort>
@@ -55,7 +55,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_BoS</li>
+            <li>FCP_Backstory_BoS</li>
         </spawnCategories>
         <bodyTypeFemale>Female</bodyTypeFemale>
         <bodyTypeMale>Male</bodyTypeMale>
@@ -66,8 +66,8 @@
     <!-- Brotherhood Cleanser -->
 
     <BackstoryDef>
-        <defName>FCP_BoS_Brotherhood_Cleanser</defName>
-        <identifier>FCP_BoS_Brotherhood_Cleanser</identifier>
+        <defName>FCP_Backstory_BoS_Brotherhood_Cleanser</defName>
+        <identifier>FCP_Backstory_BoS_Brotherhood_Cleanser</identifier>
         <slot>Adulthood</slot>
         <title>Brotherhood Cleanser</title>
         <titleShort>Brotherhood Cleanser</titleShort>
@@ -82,7 +82,7 @@
         <workDisables>Artistic</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_BoS</li>
+            <li>FCP_Backstory_BoS</li>
         </spawnCategories>
         <bodyTypeFemale>Female</bodyTypeFemale>
         <bodyTypeMale>Male</bodyTypeMale>
@@ -93,8 +93,8 @@
     <!-- Brotherhood Cleanser -->
 
     <BackstoryDef>
-        <defName>FCP_BoS_Brotherhood_Cleanser</defName>
-        <identifier>FCP_BoS_Brotherhood_Cleanser</identifier>
+        <defName>FCP_Backstory_BoS_Brotherhood_Cleanser</defName>
+        <identifier>FCP_Backstory_BoS_Brotherhood_Cleanser</identifier>
         <slot>Adulthood</slot>
         <title>Brotherhood Cleanser</title>
         <titleShort>Brotherhood Cleanser</titleShort>
@@ -109,7 +109,7 @@
         <workDisables>Artistic</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_BoS</li>
+            <li>FCP_Backstory_BoS</li>
         </spawnCategories>
         <bodyTypeFemale>Female</bodyTypeFemale>
         <bodyTypeMale>Male</bodyTypeMale>
@@ -120,8 +120,8 @@
     <!-- Brotherhood Quartermaster -->
 
     <BackstoryDef>
-        <defName>FCP_BoS_Brotherhood_Quartermaster</defName>
-        <identifier>FCP_BoS_Brotherhood_Quartermaster</identifier>
+        <defName>FCP_Backstory_BoS_Brotherhood_Quartermaster</defName>
+        <identifier>FCP_Backstory_BoS_Brotherhood_Quartermaster</identifier>
         <slot>Adulthood</slot>
         <title>Brotherhood Quartermaster</title>
         <titleShort>Brotherhood Quartermaster</titleShort>
@@ -135,7 +135,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_BoS</li>
+            <li>FCP_Backstory_BoS</li>
         </spawnCategories>
         <bodyTypeFemale>Female</bodyTypeFemale>
         <bodyTypeMale>Male</bodyTypeMale>
@@ -146,8 +146,8 @@
     <!-- Brotherhood Scribe -->
 
     <BackstoryDef>
-        <defName>FCP_BoS_Brotherhood_Scribe</defName>
-        <identifier>FCP_BoS_Brotherhood_Scribe</identifier>
+        <defName>FCP_Backstory_BoS_Brotherhood_Scribe</defName>
+        <identifier>FCP_Backstory_BoS_Brotherhood_Scribe</identifier>
         <slot>Adulthood</slot>
         <title>Brotherhood Scribe</title>
         <titleShort>Brotherhood Scribe</titleShort>
@@ -162,7 +162,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_BoS</li>
+            <li>FCP_Backstory_BoS</li>
         </spawnCategories>
         <bodyTypeFemale>Female</bodyTypeFemale>
         <bodyTypeMale>Male</bodyTypeMale>
@@ -173,8 +173,8 @@
     <!-- Brotherhood Reclaimer -->
 
     <BackstoryDef>
-        <defName>FCP_BoS_Brotherhood_Reclaimer</defName>
-        <identifier>FCP_BoS_Brotherhood_Reclaimer</identifier>
+        <defName>FCP_Backstory_BoS_Brotherhood_Reclaimer</defName>
+        <identifier>FCP_Backstory_BoS_Brotherhood_Reclaimer</identifier>
         <slot>Adulthood</slot>
         <title>Brotherhood Reclaimer</title>
         <titleShort>Brotherhood Reclaimer</titleShort>
@@ -188,7 +188,7 @@
         <workDisables>Artistic</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_BoS</li>
+            <li>FCP_Backstory_BoS</li>
         </spawnCategories>
         <bodyTypeFemale>Female</bodyTypeFemale>
         <bodyTypeMale>Male</bodyTypeMale>
@@ -199,8 +199,8 @@
     <!-- Patrol Leader -->
 
     <BackstoryDef>
-        <defName>FCP_BoS_Patrol_Leader</defName>
-        <identifier>FCP_BoS_Patrol_Leader</identifier>
+        <defName>FCP_Backstory_BoS_Patrol_Leader</defName>
+        <identifier>FCP_Backstory_BoS_Patrol_Leader</identifier>
         <slot>Adulthood</slot>
         <title>Patrol Leader</title>
         <titleShort>Patrol Leader</titleShort>
@@ -215,7 +215,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_BoS</li>
+            <li>FCP_Backstory_BoS</li>
         </spawnCategories>
         <bodyTypeFemale>Female</bodyTypeFemale>
         <bodyTypeMale>Male</bodyTypeMale>
@@ -226,8 +226,8 @@
     <!-- BoS Advisor -->
 
     <BackstoryDef>
-        <defName>FCP_BoS_Advisor</defName>
-        <identifier>FCP_BoS_Advisor</identifier>
+        <defName>FCP_Backstory_BoS_Advisor</defName>
+        <identifier>FCP_Backstory_BoS_Advisor</identifier>
         <slot>Adulthood</slot>
         <title>BoS Advisor</title>
         <titleShort>BoS Advisor</titleShort>
@@ -242,7 +242,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_BoS</li>
+            <li>FCP_Backstory_BoS</li>
         </spawnCategories>
         <bodyTypeFemale>Female</bodyTypeFemale>
         <bodyTypeMale>Male</bodyTypeMale>
@@ -253,8 +253,8 @@
     <!-- Brotherhood Preservationist -->
 
     <BackstoryDef>
-        <defName>FCP_BoS_Brotherhood_Preservationist</defName>
-        <identifier>FCP_BoS_Brotherhood_Preservationist</identifier>
+        <defName>FCP_Backstory_BoS_Brotherhood_Preservationist</defName>
+        <identifier>FCP_Backstory_BoS_Brotherhood_Preservationist</identifier>
         <slot>Adulthood</slot>
         <title>Brotherhood Preservationist</title>
         <titleShort>Brotherhood Preservationist</titleShort>
@@ -270,7 +270,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_BoS_Preservationist</li>
+            <li>FCP_Backstory_BoS_Preservationist</li>
         </spawnCategories>
         <bodyTypeFemale>Female</bodyTypeFemale>
         <bodyTypeMale>Male</bodyTypeMale>
@@ -281,8 +281,8 @@
     <!-- Brotherhood Reactionary -->
 
     <BackstoryDef>
-        <defName>FCP_BoS_Brotherhood_Reactionary</defName>
-        <identifier>FCP_BoS_Brotherhood_Reactionary</identifier>
+        <defName>FCP_Backstory_BoS_Brotherhood_Reactionary</defName>
+        <identifier>FCP_Backstory_BoS_Brotherhood_Reactionary</identifier>
         <slot>Adulthood</slot>
         <title>Brotherhood Reactionary</title>
         <titleShort>Brotherhood Reactionary</titleShort>
@@ -299,7 +299,7 @@
         <workDisables>Artistic</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_BoS_Reactionary</li>
+            <li>FCP_Backstory_BoS_Reactionary</li>
         </spawnCategories>
         <bodyTypeFemale>Female</bodyTypeFemale>
         <bodyTypeMale>Male</bodyTypeMale>
@@ -310,8 +310,8 @@
     <!-- Brotherhood Restorer -->
 
     <BackstoryDef>
-        <defName>FCP_BoS_Brotherhood_Restorer</defName>
-        <identifier>FCP_BoS_Brotherhood_Restorer</identifier>
+        <defName>FCP_Backstory_BoS_Brotherhood_Restorer</defName>
+        <identifier>FCP_Backstory_BoS_Brotherhood_Restorer</identifier>
         <slot>Adulthood</slot>
         <title>Brotherhood Restorer</title>
         <titleShort>Brotherhood Restorer</titleShort>
@@ -327,7 +327,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_BoS_Restorer</li>
+            <li>FCP_Backstory_BoS_Restorer</li>
         </spawnCategories>
         <bodyTypeFemale>Female</bodyTypeFemale>
         <bodyTypeMale>Male</bodyTypeMale>
@@ -340,8 +340,8 @@
     <!-- Brotherhood Aspirant a -->
 
     <BackstoryDef>
-        <defName>FCP_BoS_Aspirant_a</defName>
-        <identifier>FCP_BoS_Aspirant_a</identifier>
+        <defName>FCP_Backstory_BoS_Aspirant_a</defName>
+        <identifier>FCP_Backstory_BoS_Aspirant_a</identifier>
         <slot>Adulthood</slot>
         <title>Brotherhood Aspirant</title>
         <titleShort>Aspirant</titleShort>
@@ -354,7 +354,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_BoS_Aspirants</li>
+            <li>FCP_Backstory_BoS_Aspirants</li>
         </spawnCategories>
         <bodyTypeFemale>Female</bodyTypeFemale>
         <bodyTypeMale>Male</bodyTypeMale>
@@ -365,8 +365,8 @@
     <!-- Brotherhood Aspirant b -->
 
     <BackstoryDef>
-        <defName>FCP_BoS_Aspirant_b</defName>
-        <identifier>FCP_BoS_Aspirant_b</identifier>
+        <defName>FCP_Backstory_BoS_Aspirant_b</defName>
+        <identifier>FCP_Backstory_BoS_Aspirant_b</identifier>
         <slot>Adulthood</slot>
         <title>Brotherhood Aspirant</title>
         <titleShort>Aspirant</titleShort>
@@ -379,7 +379,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_BoS_Aspirants</li>
+            <li>FCP_Backstory_BoS_Aspirants</li>
         </spawnCategories>
         <bodyTypeFemale>Female</bodyTypeFemale>
         <bodyTypeMale>Male</bodyTypeMale>
@@ -390,8 +390,8 @@
     <!-- Brotherhood Aspirant c -->
 
     <BackstoryDef>
-        <defName>FCP_BoS_Aspirant_c</defName>
-        <identifier>FCP_BoS_Aspirant_c</identifier>
+        <defName>FCP_Backstory_BoS_Aspirant_c</defName>
+        <identifier>FCP_Backstory_BoS_Aspirant_c</identifier>
         <slot>Adulthood</slot>
         <title>Brotherhood Aspirant</title>
         <titleShort>Aspirant</titleShort>
@@ -404,7 +404,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_BoS_Aspirants</li>
+            <li>FCP_Backstory_BoS_Aspirants</li>
         </spawnCategories>
         <bodyTypeFemale>Female</bodyTypeFemale>
         <bodyTypeMale>Male</bodyTypeMale>
@@ -415,8 +415,8 @@
     <!-- Brotherhood Aspirant d -->
 
     <BackstoryDef>
-        <defName>FCP_BoS_Aspirant_d</defName>
-        <identifier>FCP_BoS_Aspirant_d</identifier>
+        <defName>FCP_Backstory_BoS_Aspirant_d</defName>
+        <identifier>FCP_Backstory_BoS_Aspirant_d</identifier>
         <slot>Adulthood</slot>
         <title>Brotherhood Aspirant</title>
         <titleShort>Aspirant</titleShort>
@@ -429,7 +429,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_BoS_Aspirants</li>
+            <li>FCP_Backstory_BoS_Aspirants</li>
         </spawnCategories>
         <bodyTypeFemale>Female</bodyTypeFemale>
         <bodyTypeMale>Male</bodyTypeMale>
@@ -442,8 +442,8 @@
     <!-- Brotherhood Knight a -->
 
     <BackstoryDef>
-        <defName>FCP_BoS_Knight_a</defName>
-        <identifier>FCP_BoS_Knight_a</identifier>
+        <defName>FCP_Backstory_BoS_Knight_a</defName>
+        <identifier>FCP_Backstory_BoS_Knight_a</identifier>
         <slot>Adulthood</slot>
         <title>Brotherhood Knight</title>
         <titleShort>Knight</titleShort>
@@ -456,7 +456,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_BoS_Knights</li>
+            <li>FCP_Backstory_BoS_Knights</li>
         </spawnCategories>
         <bodyTypeFemale>Female</bodyTypeFemale>
         <bodyTypeMale>Male</bodyTypeMale>
@@ -467,8 +467,8 @@
     <!-- Brotherhood Knight b -->
 
     <BackstoryDef>
-        <defName>FCP_BoS_Knight_b</defName>
-        <identifier>FCP_BoS_Knight_b</identifier>
+        <defName>FCP_Backstory_BoS_Knight_b</defName>
+        <identifier>FCP_Backstory_BoS_Knight_b</identifier>
         <slot>Adulthood</slot>
         <title>Brotherhood Knight</title>
         <titleShort>Knight</titleShort>
@@ -481,7 +481,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_BoS_Knights</li>
+            <li>FCP_Backstory_BoS_Knights</li>
         </spawnCategories>
         <bodyTypeFemale>Female</bodyTypeFemale>
         <bodyTypeMale>Male</bodyTypeMale>
@@ -492,8 +492,8 @@
     <!-- Brotherhood Knight c -->
 
     <BackstoryDef>
-        <defName>FCP_BoS_Knight_c</defName>
-        <identifier>FCP_BoS_Knight_c</identifier>
+        <defName>FCP_Backstory_BoS_Knight_c</defName>
+        <identifier>FCP_Backstory_BoS_Knight_c</identifier>
         <slot>Adulthood</slot>
         <title>Brotherhood Knight</title>
         <titleShort>Knight</titleShort>
@@ -506,7 +506,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_BoS_Knights</li>
+            <li>FCP_Backstory_BoS_Knights</li>
         </spawnCategories>
         <bodyTypeFemale>Female</bodyTypeFemale>
         <bodyTypeMale>Male</bodyTypeMale>
@@ -517,8 +517,8 @@
     <!-- Brotherhood Knight d -->
 
     <BackstoryDef>
-        <defName>FCP_BoS_Knight_d</defName>
-        <identifier>FCP_BoS_Knight_d</identifier>
+        <defName>FCP_Backstory_BoS_Knight_d</defName>
+        <identifier>FCP_Backstory_BoS_Knight_d</identifier>
         <slot>Adulthood</slot>
         <title>Brotherhood Knight</title>
         <titleShort>Knight</titleShort>
@@ -531,7 +531,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_BoS_Knights</li>
+            <li>FCP_Backstory_BoS_Knights</li>
         </spawnCategories>
         <bodyTypeFemale>Female</bodyTypeFemale>
         <bodyTypeMale>Male</bodyTypeMale>
@@ -542,8 +542,8 @@
     <!-- Brotherhood Knight e -->
 
     <BackstoryDef>
-        <defName>FCP_BoS_Knight_e</defName>
-        <identifier>FCP_BoS_Knight_e</identifier>
+        <defName>FCP_Backstory_BoS_Knight_e</defName>
+        <identifier>FCP_Backstory_BoS_Knight_e</identifier>
         <slot>Adulthood</slot>
         <title>Brotherhood Knight</title>
         <titleShort>Knight</titleShort>
@@ -556,7 +556,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_BoS_Knights</li>
+            <li>FCP_Backstory_BoS_Knights</li>
         </spawnCategories>
         <bodyTypeFemale>Female</bodyTypeFemale>
         <bodyTypeMale>Male</bodyTypeMale>
@@ -569,8 +569,8 @@
     <!-- Brotherhood Paladin a -->
 
     <BackstoryDef>
-        <defName>FCP_BoS_Paladin_a</defName>
-        <identifier>FCP_BoS_Paladin_a</identifier>
+        <defName>FCP_Backstory_BoS_Paladin_a</defName>
+        <identifier>FCP_Backstory_BoS_Paladin_a</identifier>
         <slot>Adulthood</slot>
         <title>Brotherhood Paladin</title>
         <titleShort>Paladin</titleShort>
@@ -583,7 +583,7 @@
         <workDisables>ManualDumb</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_BoS_Paladins</li>
+            <li>FCP_Backstory_BoS_Paladins</li>
         </spawnCategories>
         <bodyTypeFemale>Female</bodyTypeFemale>
         <bodyTypeMale>Male</bodyTypeMale>
@@ -594,8 +594,8 @@
     <!-- Brotherhood Paladin b -->
 
     <BackstoryDef>
-        <defName>FCP_BoS_Paladin_b</defName>
-        <identifier>FCP_BoS_Paladin_b</identifier>
+        <defName>FCP_Backstory_BoS_Paladin_b</defName>
+        <identifier>FCP_Backstory_BoS_Paladin_b</identifier>
         <slot>Adulthood</slot>
         <title>Brotherhood Paladin</title>
         <titleShort>Paladin</titleShort>
@@ -608,7 +608,7 @@
         <workDisables>ManualDumb</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_BoS_Paladins</li>
+            <li>FCP_Backstory_BoS_Paladins</li>
         </spawnCategories>
         <bodyTypeFemale>Female</bodyTypeFemale>
         <bodyTypeMale>Male</bodyTypeMale>
@@ -619,8 +619,8 @@
     <!-- Brotherhood Paladin c -->
 
     <BackstoryDef>
-        <defName>FCP_BoS_Paladin_c</defName>
-        <identifier>FCP_BoS_Paladin_c</identifier>
+        <defName>FCP_Backstory_BoS_Paladin_c</defName>
+        <identifier>FCP_Backstory_BoS_Paladin_c</identifier>
         <slot>Adulthood</slot>
         <title>Brotherhood Paladin</title>
         <titleShort>Paladin</titleShort>
@@ -633,7 +633,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_BoS_Paladins</li>
+            <li>FCP_Backstory_BoS_Paladins</li>
         </spawnCategories>
         <bodyTypeFemale>Female</bodyTypeFemale>
         <bodyTypeMale>Male</bodyTypeMale>
@@ -644,8 +644,8 @@
     <!-- Brotherhood Paladin d -->
 
     <BackstoryDef>
-        <defName>FCP_BoS_Paladin_d</defName>
-        <identifier>FCP_BoS_Paladin_d</identifier>
+        <defName>FCP_Backstory_BoS_Paladin_d</defName>
+        <identifier>FCP_Backstory_BoS_Paladin_d</identifier>
         <slot>Adulthood</slot>
         <title>Brotherhood Paladin</title>
         <titleShort>Paladin</titleShort>
@@ -658,7 +658,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_BoS_Paladins</li>
+            <li>FCP_Backstory_BoS_Paladins</li>
         </spawnCategories>
         <bodyTypeFemale>Female</bodyTypeFemale>
         <bodyTypeMale>Male</bodyTypeMale>
@@ -669,8 +669,8 @@
     <!-- Brotherhood Paladin e -->
 
     <BackstoryDef>
-        <defName>FCP_BoS_Paladin_e</defName>
-        <identifier>FCP_BoS_Paladin_e</identifier>
+        <defName>FCP_Backstory_BoS_Paladin_e</defName>
+        <identifier>FCP_Backstory_BoS_Paladin_e</identifier>
         <slot>Adulthood</slot>
         <title>Brotherhood Paladin</title>
         <titleShort>Paladin</titleShort>
@@ -683,7 +683,7 @@
         <workDisables>Cooking</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_BoS_Paladins</li>
+            <li>FCP_Backstory_BoS_Paladins</li>
         </spawnCategories>
         <bodyTypeFemale>Female</bodyTypeFemale>
         <bodyTypeMale>Male</bodyTypeMale>
@@ -694,8 +694,8 @@
     <!-- Brotherhood Paladin f -->
 
     <BackstoryDef>
-        <defName>FCP_BoS_Paladin_f</defName>
-        <identifier>FCP_BoS_Paladin_f</identifier>
+        <defName>FCP_Backstory_BoS_Paladin_f</defName>
+        <identifier>FCP_Backstory_BoS_Paladin_f</identifier>
         <slot>Adulthood</slot>
         <title>Brotherhood Paladin</title>
         <titleShort>Paladin</titleShort>
@@ -708,7 +708,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_BoS_Paladins</li>
+            <li>FCP_Backstory_BoS_Paladins</li>
         </spawnCategories>
         <bodyTypeFemale>Female</bodyTypeFemale>
         <bodyTypeMale>Male</bodyTypeMale>
@@ -721,8 +721,8 @@
     <!-- Brotherhood Scribe a -->
 
     <BackstoryDef>
-        <defName>FCP_BoS_Scribe_a</defName>
-        <identifier>FCP_BoS_Paladin_a</identifier>
+        <defName>FCP_Backstory_BoS_Scribe_a</defName>
+        <identifier>FCP_Backstory_BoS_Paladin_a</identifier>
         <slot>Adulthood</slot>
         <title>Brotherhood Scribe</title>
         <titleShort>Scribe</titleShort>
@@ -735,7 +735,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_BoS_Scribes</li>
+            <li>FCP_Backstory_BoS_Scribes</li>
         </spawnCategories>
         <bodyTypeFemale>Female</bodyTypeFemale>
         <bodyTypeMale>Male</bodyTypeMale>
@@ -746,8 +746,8 @@
     <!-- Brotherhood Scribe b -->
 
     <BackstoryDef>
-        <defName>FCP_BoS_Scribe_b</defName>
-        <identifier>FCP_BoS_Paladin_b</identifier>
+        <defName>FCP_Backstory_BoS_Scribe_b</defName>
+        <identifier>FCP_Backstory_BoS_Paladin_b</identifier>
         <slot>Adulthood</slot>
         <title>Brotherhood Scribe</title>
         <titleShort>Scribe</titleShort>
@@ -760,7 +760,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_BoS_Scribes</li>
+            <li>FCP_Backstory_BoS_Scribes</li>
         </spawnCategories>
         <bodyTypeFemale>Female</bodyTypeFemale>
         <bodyTypeMale>Male</bodyTypeMale>
@@ -771,8 +771,8 @@
     <!-- Brotherhood Scribe c -->
 
     <BackstoryDef>
-        <defName>FCP_BoS_Scribe_c</defName>
-        <identifier>FCP_BoS_Paladin_c</identifier>
+        <defName>FCP_Backstory_BoS_Scribe_c</defName>
+        <identifier>FCP_Backstory_BoS_Paladin_c</identifier>
         <slot>Adulthood</slot>
         <title>Brotherhood Scribe</title>
         <titleShort>Scribe</titleShort>
@@ -785,7 +785,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_BoS_Scribes</li>
+            <li>FCP_Backstory_BoS_Scribes</li>
         </spawnCategories>
         <bodyTypeFemale>Female</bodyTypeFemale>
         <bodyTypeMale>Male</bodyTypeMale>
@@ -796,8 +796,8 @@
     <!-- Brotherhood Scribe d -->
 
     <BackstoryDef>
-        <defName>FCP_BoS_Scribe_d</defName>
-        <identifier>FCP_BoS_Paladin_d</identifier>
+        <defName>FCP_Backstory_BoS_Scribe_d</defName>
+        <identifier>FCP_Backstory_BoS_Paladin_d</identifier>
         <slot>Adulthood</slot>
         <title>Brotherhood Scribe</title>
         <titleShort>Scribe</titleShort>
@@ -811,7 +811,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_BoS_Scribes</li>
+            <li>FCP_Backstory_BoS_Scribes</li>
         </spawnCategories>
         <bodyTypeFemale>Female</bodyTypeFemale>
         <bodyTypeMale>Male</bodyTypeMale>
@@ -822,8 +822,8 @@
     <!-- Brotherhood Scribe e -->
 
     <BackstoryDef>
-        <defName>FCP_BoS_Scribe_e</defName>
-        <identifier>FCP_BoS_Paladin_e</identifier>
+        <defName>FCP_Backstory_BoS_Scribe_e</defName>
+        <identifier>FCP_Backstory_BoS_Paladin_e</identifier>
         <slot>Adulthood</slot>
         <title>Brotherhood Scribe</title>
         <titleShort>Scribe</titleShort>
@@ -836,7 +836,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_BoS_Scribes</li>
+            <li>FCP_Backstory_BoS_Scribes</li>
         </spawnCategories>
         <bodyTypeFemale>Female</bodyTypeFemale>
         <bodyTypeMale>Male</bodyTypeMale>
@@ -849,8 +849,8 @@
     <!-- Junior Scribe -->
 
     <BackstoryDef>
-        <defName>FCP_BoS_Junior_Scribe</defName>
-        <identifier>FCP_BoS_Junior_Scribe</identifier>
+        <defName>FCP_Backstory_BoS_Junior_Scribe</defName>
+        <identifier>FCP_Backstory_BoS_Junior_Scribe</identifier>
         <slot>Childhood</slot>
         <title>Junior Scribe</title>
         <titleShort>Junior Scribe</titleShort>
@@ -865,7 +865,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_BoS_Child</li>
+            <li>FCP_Backstory_BoS_Child</li>
         </spawnCategories>
         <possessions>
         </possessions>
@@ -874,8 +874,8 @@
     <!-- Brotherhood Squire -->
 
     <BackstoryDef>
-        <defName>FCP_BoS_Brotherhood_Squire</defName>
-        <identifier>FCP_BoS_JBrotherhood_Squire</identifier>
+        <defName>FCP_Backstory_BoS_Brotherhood_Squire</defName>
+        <identifier>FCP_Backstory_BoS_JBrotherhood_Squire</identifier>
         <slot>Childhood</slot>
         <title>Brotherhood Squire</title>
         <titleShort>Brotherhood Squire</titleShort>
@@ -889,7 +889,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_BoS_Child</li>
+            <li>FCP_Backstory_BoS_Child</li>
         </spawnCategories>
         <possessions>
         </possessions>
@@ -898,8 +898,8 @@
     <!-- Brotherhood Loner -->
 
     <BackstoryDef>
-        <defName>FCP_BoS_Brotherhood_Loner</defName>
-        <identifier>FCP_BoS_JBrotherhood_Loner</identifier>
+        <defName>FCP_Backstory_BoS_Brotherhood_Loner</defName>
+        <identifier>FCP_Backstory_BoS_JBrotherhood_Loner</identifier>
         <slot>Childhood</slot>
         <title>Brotherhood Loner</title>
         <titleShort>Brotherhood Loner</titleShort>
@@ -911,7 +911,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_BoS_Child</li>
+            <li>FCP_Backstory_BoS_Child</li>
         </spawnCategories>
         <possessions>
         </possessions>
@@ -920,8 +920,8 @@
     <!-- Paladin’s Kid -->
 
     <BackstoryDef>
-        <defName>FCP_BoS_Paladins_Kid</defName>
-        <identifier>FCP_BoS_Paladins_Kid</identifier>
+        <defName>FCP_Backstory_BoS_Paladins_Kid</defName>
+        <identifier>FCP_Backstory_BoS_Paladins_Kid</identifier>
         <slot>Childhood</slot>
         <title>Paladin’s Kid</title>
         <titleShort>Paladin’s Kid</titleShort>
@@ -935,7 +935,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_BoS_Child</li>
+            <li>FCP_Backstory_BoS_Child</li>
         </spawnCategories>
         <possessions>
         </possessions>
@@ -944,8 +944,8 @@
     <!-- Born Wastelander -->
 
     <BackstoryDef>
-        <defName>FCP_BoS_Born_Wastelander</defName>
-        <identifier>FCP_BoS_Born_Wastelander</identifier>
+        <defName>FCP_Backstory_BoS_Born_Wastelander</defName>
+        <identifier>FCP_Backstory_BoS_Born_Wastelander</identifier>
         <slot>Childhood</slot>
         <title>Born Wastelander</title>
         <titleShort>Born Wastelander</titleShort>
@@ -959,7 +959,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Wastelander_Child</li>
+            <li>FCP_Backstory_Wastelander_Child</li>
         </spawnCategories>
         <possessions>
         </possessions>
@@ -968,8 +968,8 @@
     <!-- Rebellious Youth -->
 
     <BackstoryDef>
-        <defName>FCP_BoS_Rebellious_Youth</defName>
-        <identifier>FCP_BoS_Rebellious_Youth</identifier>
+        <defName>FCP_Backstory_BoS_Rebellious_Youth</defName>
+        <identifier>FCP_Backstory_BoS_Rebellious_Youth</identifier>
         <slot>Childhood</slot>
         <title>Rebellious Youth</title>
         <titleShort>Rebellious Youth</titleShort>
@@ -982,7 +982,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_BoS_Child</li>
+            <li>FCP_Backstory_BoS_Child</li>
         </spawnCategories>
         <possessions>
         </possessions>
@@ -991,8 +991,8 @@
     <!-- Scarred Survivor -->
 
     <BackstoryDef>
-        <defName>FCP_BoS_Scarred_Survivor</defName>
-        <identifier>FCP_BoS_Scarred_Survivor</identifier>
+        <defName>FCP_Backstory_BoS_Scarred_Survivor</defName>
+        <identifier>FCP_Backstory_BoS_Scarred_Survivor</identifier>
         <slot>Childhood</slot>
         <title>Scarred Survivor</title>
         <titleShort>Scarred Survivor</titleShort>
@@ -1006,7 +1006,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_BoS_Child</li>
+            <li>FCP_Backstory_BoS_Child</li>
         </spawnCategories>
         <possessions>
         </possessions>
@@ -1015,8 +1015,8 @@
     <!-- Born Leader -->
 
     <BackstoryDef>
-        <defName>FCP_BoS_Born_Leader</defName>
-        <identifier>FCP_BoS_Born_Leader</identifier>
+        <defName>FCP_Backstory_BoS_Born_Leader</defName>
+        <identifier>FCP_Backstory_BoS_Born_Leader</identifier>
         <slot>Childhood</slot>
         <title>Born Leader</title>
         <titleShort>Born Leader</titleShort>
@@ -1030,7 +1030,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_BoS_Child</li>
+            <li>FCP_Backstory_BoS_Child</li>
         </spawnCategories>
         <possessions>
         </possessions>
@@ -1039,8 +1039,8 @@
     <!-- Aspiring Knight -->
 
     <BackstoryDef>
-        <defName>FCP_BoS_Aspiring_Knight</defName>
-        <identifier>FCP_BoS_Aspiring_Knight</identifier>
+        <defName>FCP_Backstory_BoS_Aspiring_Knight</defName>
+        <identifier>FCP_Backstory_BoS_Aspiring_Knight</identifier>
         <slot>Childhood</slot>
         <title>Aspiring Knight</title>
         <titleShort>Aspiring Knight</titleShort>
@@ -1052,7 +1052,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_BoS_Child</li>
+            <li>FCP_Backstory_BoS_Child</li>
         </spawnCategories>
         <possessions>
         </possessions>
@@ -1061,8 +1061,8 @@
     <!-- Zealous Aspirant -->
 
     <BackstoryDef>
-        <defName>FCP_BoS_Zealous_Aspirant</defName>
-        <identifier>FCP_BoS_Zealous_Aspirant</identifier>
+        <defName>FCP_Backstory_BoS_Zealous_Aspirant</defName>
+        <identifier>FCP_Backstory_BoS_Zealous_Aspirant</identifier>
         <slot>Childhood</slot>
         <title>Zealous Aspirant</title>
         <titleShort>Zealous Aspirant</titleShort>
@@ -1075,7 +1075,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_BoS_Child</li>
+            <li>FCP_Backstory_BoS_Child</li>
         </spawnCategories>
         <possessions>
         </possessions>
@@ -1084,8 +1084,8 @@
     <!-- Outsider Recruit -->
 
     <BackstoryDef>
-        <defName>FCP_BoS_Outsider_Recruit</defName>
-        <identifier>FCP_BoS_Outsider_Recruit</identifier>
+        <defName>FCP_Backstory_BoS_Outsider_Recruit</defName>
+        <identifier>FCP_Backstory_BoS_Outsider_Recruit</identifier>
         <slot>Childhood</slot>
         <title>Outsider Recruit</title>
         <titleShort>Outsider Recruit</titleShort>
@@ -1098,7 +1098,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_BoS_Child</li>
+            <li>FCP_Backstory_BoS_Child</li>
         </spawnCategories>
         <possessions>
         </possessions>
@@ -1107,8 +1107,8 @@
     <!-- Youngling Historian -->
 
     <BackstoryDef>
-        <defName>FCP_BoS_Youngling_Historian</defName>
-        <identifier>FCP_BoS_Youngling_Historian</identifier>
+        <defName>FCP_Backstory_BoS_Youngling_Historian</defName>
+        <identifier>FCP_Backstory_BoS_Youngling_Historian</identifier>
         <slot>Childhood</slot>
         <title>Youngling Historian</title>
         <titleShort>Youngling Historian</titleShort>
@@ -1122,7 +1122,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_BoS_Child</li>
+            <li>FCP_Backstory_BoS_Child</li>
         </spawnCategories>
         <possessions>
         </possessions>
@@ -1131,8 +1131,8 @@
     <!-- Canteen Apprentice -->
 
     <BackstoryDef>
-        <defName>FCP_BoS_Canteen_Apprentice</defName>
-        <identifier>FCP_BoS_Canteen_Apprentice</identifier>
+        <defName>FCP_Backstory_BoS_Canteen_Apprentice</defName>
+        <identifier>FCP_Backstory_BoS_Canteen_Apprentice</identifier>
         <slot>Childhood</slot>
         <title>Canteen Apprentice</title>
         <titleShort>Canteen Apprentice</titleShort>
@@ -1145,7 +1145,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_BoS_Child</li>
+            <li>FCP_Backstory_BoS_Child</li>
         </spawnCategories>
         <possessions>
         </possessions>
@@ -1156,8 +1156,8 @@
     <!-- Brotherhood Squire a -->
 
     <BackstoryDef>
-        <defName>FCP_BoS_Squire_a</defName>
-        <identifier>FCP_BoS_Squire_a</identifier>
+        <defName>FCP_Backstory_BoS_Squire_a</defName>
+        <identifier>FCP_Backstory_BoS_Squire_a</identifier>
         <slot>Childhood</slot>
         <title>Brotherhood Squire</title>
         <titleShort>Squire</titleShort>
@@ -1170,7 +1170,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_BoS_Child</li>
+            <li>FCP_Backstory_BoS_Child</li>
         </spawnCategories>
         <possessions>
         </possessions>
@@ -1179,8 +1179,8 @@
     <!-- Brotherhood Squire b -->
 
     <BackstoryDef>
-        <defName>FCP_BoS_Squire_b</defName>
-        <identifier>FCP_BoS_Squire_b</identifier>
+        <defName>FCP_Backstory_BoS_Squire_b</defName>
+        <identifier>FCP_Backstory_BoS_Squire_b</identifier>
         <slot>Childhood</slot>
         <title>Brotherhood Squire</title>
         <titleShort>Squire</titleShort>
@@ -1193,7 +1193,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_BoS_Child</li>
+            <li>FCP_Backstory_BoS_Child</li>
         </spawnCategories>
         <possessions>
         </possessions>
@@ -1202,8 +1202,8 @@
     <!-- Brotherhood Squire c -->
 
     <BackstoryDef>
-        <defName>FCP_BoS_Squire_c</defName>
-        <identifier>FCP_BoS_Squire_c</identifier>
+        <defName>FCP_Backstory_BoS_Squire_c</defName>
+        <identifier>FCP_Backstory_BoS_Squire_c</identifier>
         <slot>Childhood</slot>
         <title>Brotherhood Squire</title>
         <titleShort>Squire</titleShort>
@@ -1217,7 +1217,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_BoS_Child</li>
+            <li>FCP_Backstory_BoS_Child</li>
         </spawnCategories>
         <possessions>
         </possessions>
@@ -1226,8 +1226,8 @@
     <!-- Brotherhood Squire d -->
 
     <BackstoryDef>
-        <defName>FCP_BoS_Squire_d</defName>
-        <identifier>FCP_BoS_Squire_d</identifier>
+        <defName>FCP_Backstory_BoS_Squire_d</defName>
+        <identifier>FCP_Backstory_BoS_Squire_d</identifier>
         <slot>Childhood</slot>
         <title>Brotherhood Squire</title>
         <titleShort>Squire</titleShort>
@@ -1240,7 +1240,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_BoS_Child</li>
+            <li>FCP_Backstory_BoS_Child</li>
         </spawnCategories>
         <possessions>
         </possessions>

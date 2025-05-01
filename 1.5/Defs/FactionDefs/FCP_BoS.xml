@@ -42,8 +42,8 @@
 		<backstoryFilters>
 			<li>
 				<categories>
-					<li>FCP_BoS</li>
-					<li>FCP_BoS_Child</li>
+					<li>FCP_Backstory_BoS</li>
+					<li>FCP_Backstory_BoS_Child</li>
 				</categories>
 			</li>
 		</backstoryFilters>
@@ -75,59 +75,59 @@
 				<!-- Normal fights, standard mix -->
 				<kindDef>Combat</kindDef>
 				<options>
-					<FCP_BoS_Initiate>8</FCP_BoS_Initiate>
-					<FCP_BoS_Recon>8</FCP_BoS_Recon>
-					<FCP_BoS_Scribe_Field>5</FCP_BoS_Scribe_Field>
-					<FCP_BoS_Knight>2</FCP_BoS_Knight>
-					<FCP_BoS_Paladin>1</FCP_BoS_Paladin>
-					<FCP_BoS_Sentinel>1</FCP_BoS_Sentinel>
-					<FCP_BoS_Elder>1</FCP_BoS_Elder>
+					<FCP_Pawnkind_BoS_Initiate>8</FCP_Pawnkind_BoS_Initiate>
+					<FCP_Pawnkind_BoS_Recon>8</FCP_Pawnkind_BoS_Recon>
+					<FCP_Pawnkind_BoS_Scribe_Field>5</FCP_Pawnkind_BoS_Scribe_Field>
+					<FCP_Pawnkind_BoS_Knight>2</FCP_Pawnkind_BoS_Knight>
+					<FCP_Pawnkind_BoS_Paladin>1</FCP_Pawnkind_BoS_Paladin>
+					<FCP_Pawnkind_BoS_Sentinel>1</FCP_Pawnkind_BoS_Sentinel>
+					<FCP_Pawnkind_BoS_Elder>1</FCP_Pawnkind_BoS_Elder>
 				</options>
 			</li>
 			<li>
 				<kindDef>Peaceful</kindDef>
 				<options>
-					<FCP_BoS_Initiate>8</FCP_BoS_Initiate>
-					<FCP_BoS_Recon>8</FCP_BoS_Recon>
-					<FCP_BoS_Scribe_Field>5</FCP_BoS_Scribe_Field>
-					<FCP_BoS_Knight>2</FCP_BoS_Knight>
-					<FCP_BoS_Paladin>1</FCP_BoS_Paladin>
-					<FCP_BoS_Sentinel>1</FCP_BoS_Sentinel>
-					<FCP_BoS_Elder>1</FCP_BoS_Elder>
+					<FCP_Pawnkind_BoS_Initiate>8</FCP_Pawnkind_BoS_Initiate>
+					<FCP_Pawnkind_BoS_Recon>8</FCP_Pawnkind_BoS_Recon>
+					<FCP_Pawnkind_BoS_Scribe_Field>5</FCP_Pawnkind_BoS_Scribe_Field>
+					<FCP_Pawnkind_BoS_Knight>2</FCP_Pawnkind_BoS_Knight>
+					<FCP_Pawnkind_BoS_Paladin>1</FCP_Pawnkind_BoS_Paladin>
+					<FCP_Pawnkind_BoS_Sentinel>1</FCP_Pawnkind_BoS_Sentinel>
+					<FCP_Pawnkind_BoS_Elder>1</FCP_Pawnkind_BoS_Elder>
 				</options>
 			</li>
 			<li>
 				<kindDef>Trader</kindDef>
 				<traders>
-					<FCP_BoS_Scribe_Trader>1</FCP_BoS_Scribe_Trader>
+					<FCP_Pawnkind_BoS_Scribe_Trader>1</FCP_Pawnkind_BoS_Scribe_Trader>
 				</traders>
 				<carriers>
 					<Brahmin>6</Brahmin>
 				</carriers>
 				<guards>
-					<FCP_BoS_Initiate>8</FCP_BoS_Initiate>
-					<FCP_BoS_Scribe_Field>7</FCP_BoS_Scribe_Field>
-					<FCP_BoS_Recon>3</FCP_BoS_Recon>
-					<FCP_BoS_Knight>2</FCP_BoS_Knight>
-					<FCP_BoS_Paladin>1</FCP_BoS_Paladin>
-					<FCP_BoS_Elder>1</FCP_BoS_Elder>
+					<FCP_Pawnkind_BoS_Initiate>8</FCP_Pawnkind_BoS_Initiate>
+					<FCP_Pawnkind_BoS_Scribe_Field>7</FCP_Pawnkind_BoS_Scribe_Field>
+					<FCP_Pawnkind_BoS_Recon>3</FCP_Pawnkind_BoS_Recon>
+					<FCP_Pawnkind_BoS_Knight>2</FCP_Pawnkind_BoS_Knight>
+					<FCP_Pawnkind_BoS_Paladin>1</FCP_Pawnkind_BoS_Paladin>
+					<FCP_Pawnkind_BoS_Elder>1</FCP_Pawnkind_BoS_Elder>
 				</guards>
 			</li>
 			<li>
 				<kindDef>Settlement</kindDef>
 				<options>
-					<FCP_BoS_Hopeful>10</FCP_BoS_Hopeful>
-					<FCP_BoS_Squire>6</FCP_BoS_Squire>
-					<FCP_BoS_Lancer>4</FCP_BoS_Lancer>
-					<FCP_BoS_Initiate>8</FCP_BoS_Initiate>
-					<FCP_BoS_Recon>8</FCP_BoS_Recon>
-					<FCP_BoS_Scribe>7</FCP_BoS_Scribe>
-					<FCP_BoS_Scribe_Field>5</FCP_BoS_Scribe_Field>
-					<FCP_BoS_Scribe_Science>4</FCP_BoS_Scribe_Science>
-					<FCP_BoS_Knight>3</FCP_BoS_Knight>
-					<FCP_BoS_Paladin>2</FCP_BoS_Paladin>
-					<FCP_BoS_Sentinel>1</FCP_BoS_Sentinel>
-					<FCP_BoS_Elder>1</FCP_BoS_Elder>
+					<FCP_Pawnkind_BoS_Hopeful>10</FCP_Pawnkind_BoS_Hopeful>
+					<FCP_Pawnkind_BoS_Squire>6</FCP_Pawnkind_BoS_Squire>
+					<FCP_Pawnkind_BoS_Lancer>4</FCP_Pawnkind_BoS_Lancer>
+					<FCP_Pawnkind_BoS_Initiate>8</FCP_Pawnkind_BoS_Initiate>
+					<FCP_Pawnkind_BoS_Recon>8</FCP_Pawnkind_BoS_Recon>
+					<FCP_Pawnkind_BoS_Scribe>7</FCP_Pawnkind_BoS_Scribe>
+					<FCP_Pawnkind_BoS_Scribe_Field>5</FCP_Pawnkind_BoS_Scribe_Field>
+					<FCP_Pawnkind_BoS_Scribe_Science>4</FCP_Pawnkind_BoS_Scribe_Science>
+					<FCP_Pawnkind_BoS_Knight>3</FCP_Pawnkind_BoS_Knight>
+					<FCP_Pawnkind_BoS_Paladin>2</FCP_Pawnkind_BoS_Paladin>
+					<FCP_Pawnkind_BoS_Sentinel>1</FCP_Pawnkind_BoS_Sentinel>
+					<FCP_Pawnkind_BoS_Elder>1</FCP_Pawnkind_BoS_Elder>
 				</options>
 			</li>
 		</pawnGroupMakers>

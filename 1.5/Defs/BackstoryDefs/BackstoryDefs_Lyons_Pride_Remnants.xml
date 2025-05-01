@@ -12,8 +12,8 @@
     <!-- Wasteland Defender -->
 
     <BackstoryDef>
-        <defName>FCP_BoS_Lyons_Pride_Knight_Wasteland_Defender</defName>
-        <identifier>FCP_BoS_Lyons_Pride_Knight_Wasteland_Defender</identifier>
+        <defName>FCP_Backstory_BoS_Lyons_Pride_Knight_Wasteland_Defender</defName>
+        <identifier>FCP_Backstory_BoS_Lyons_Pride_Knight_Wasteland_Defender</identifier>
         <slot>Adulthood</slot>
         <title>Wasteland Defender</title>
         <titleShort>Defender</titleShort>
@@ -26,7 +26,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Lyons_BoS</li>
+            <li>FCP_Backstory_Lyons_BoS</li>
         </spawnCategories>
         <possessions />
     </BackstoryDef>
@@ -34,8 +34,8 @@
     <!-- Lyons' Pride Veteran -->
 
     <BackstoryDef>
-        <defName>FCP_BoS_Lyons_Pride_Paladin_Lyons_Pride_Veteran</defName>
-        <identifier>FCP_BoS_Lyons_Pride_Paladin_Lyons_Pride_Veteran</identifier>
+        <defName>FCP_Backstory_BoS_Lyons_Pride_Paladin_Lyons_Pride_Veteran</defName>
+        <identifier>FCP_Backstory_BoS_Lyons_Pride_Paladin_Lyons_Pride_Veteran</identifier>
         <slot>Adulthood</slot>
         <title>Lyons' Pride Veteran</title>
         <titleShort>Pride Veteran</titleShort>
@@ -48,7 +48,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Lyons_BoS</li>
+            <li>FCP_Backstory_Lyons_BoS</li>
         </spawnCategories>
         <possessions />
     </BackstoryDef>
@@ -56,8 +56,8 @@
     <!-- Technology Seeker -->
 
     <BackstoryDef>
-        <defName>FCP_BoS_Lyons_Pride_Scribe_Technology_Seeker</defName>
-        <identifier>FCP_BoS_Lyons_Pride_Scribe_Technology_Seeker</identifier>
+        <defName>FCP_Backstory_BoS_Lyons_Pride_Scribe_Technology_Seeker</defName>
+        <identifier>FCP_Backstory_BoS_Lyons_Pride_Scribe_Technology_Seeker</identifier>
         <slot>Adulthood</slot>
         <title>Technology Seeker</title>
         <titleShort>Tech Seeker</titleShort>
@@ -69,7 +69,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Lyons_BoS</li>
+            <li>FCP_Backstory_Lyons_BoS</li>
         </spawnCategories>
         <possessions />
     </BackstoryDef>
@@ -77,8 +77,8 @@
     <!-- Power Armor Operator -->
 
     <BackstoryDef>
-        <defName>FCP_BoS_Lyons_Pride_Knight_Power_Armor_Operator</defName>
-        <identifier>FCP_BoS_Lyons_Pride_Knight_Power_Armor_Operator</identifier>
+        <defName>FCP_Backstory_BoS_Lyons_Pride_Knight_Power_Armor_Operator</defName>
+        <identifier>FCP_Backstory_BoS_Lyons_Pride_Knight_Power_Armor_Operator</identifier>
         <slot>Adulthood</slot>
         <title>Power Armor Operator</title>
         <titleShort>Armor Operator</titleShort>
@@ -91,7 +91,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Lyons_BoS</li>
+            <li>FCP_Backstory_Lyons_BoS</li>
         </spawnCategories>
         <possessions />
     </BackstoryDef>
@@ -99,8 +99,8 @@
     <!-- Medical Specialist -->
 
     <BackstoryDef>
-        <defName>FCP_BoS_Lyons_Pride_Scribe_Medical_Specialist</defName>
-        <identifier>FCP_BoS_Lyons_Pride_Scribe_Medical_Specialist</identifier>
+        <defName>FCP_Backstory_BoS_Lyons_Pride_Scribe_Medical_Specialist</defName>
+        <identifier>FCP_Backstory_BoS_Lyons_Pride_Scribe_Medical_Specialist</identifier>
         <slot>Adulthood</slot>
         <title>Medical Specialist</title>
         <titleShort>Medic</titleShort>
@@ -112,7 +112,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Lyons_BoS</li>
+            <li>FCP_Backstory_Lyons_BoS</li>
         </spawnCategories>
         <possessions />
     </BackstoryDef>
@@ -120,8 +120,8 @@
     <!-- Outcast Hunter -->
 
     <BackstoryDef>
-        <defName>FCP_BoS_Lyons_Pride_Paladin_Outcast_Hunter</defName>
-        <identifier>FCP_BoS_Lyons_Pride_Paladin_Outcast_Hunter</identifier>
+        <defName>FCP_Backstory_BoS_Lyons_Pride_Paladin_Outcast_Hunter</defName>
+        <identifier>FCP_Backstory_BoS_Lyons_Pride_Paladin_Outcast_Hunter</identifier>
         <slot>Adulthood</slot>
         <title>Outcast Hunter</title>
         <titleShort>Outcast Hunter</titleShort>
@@ -134,7 +134,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Lyons_BoS</li>
+            <li>FCP_Backstory_Lyons_BoS</li>
         </spawnCategories>
         <possessions />
     </BackstoryDef>
@@ -142,8 +142,8 @@
     <!-- Citadel Engineer -->
 
     <BackstoryDef>
-        <defName>FCP_BoS_Lyons_Pride_Knight_CitadelEngineer</defName>
-        <identifier>FCP_BoS_Lyons_Pride_Knight_CitadelEngineer</identifier>
+        <defName>FCP_Backstory_BoS_Lyons_Pride_Knight_CitadelEngineer</defName>
+        <identifier>FCP_Backstory_BoS_Lyons_Pride_Knight_CitadelEngineer</identifier>
         <slot>Adulthood</slot>
         <title>Citadel Engineer</title>
         <titleShort>Engineer</titleShort>
@@ -156,7 +156,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Lyons_BoS</li>
+            <li>FCP_Backstory_Lyons_BoS</li>
         </spawnCategories>
         <possessions />
     </BackstoryDef>
@@ -164,8 +164,8 @@
     <!-- Archivist -->
 
     <BackstoryDef>
-        <defName>FCP_BoS_Lyons_Pride_Scribe_Archivist</defName>
-        <identifier>FCP_BoS_Lyons_Pride_Scribe_Archivist</identifier>
+        <defName>FCP_Backstory_BoS_Lyons_Pride_Scribe_Archivist</defName>
+        <identifier>FCP_Backstory_BoS_Lyons_Pride_Scribe_Archivist</identifier>
         <slot>Adulthood</slot>
         <title>Archivist</title>
         <titleShort>Archivist</titleShort>
@@ -177,7 +177,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Lyons_BoS</li>
+            <li>FCP_Backstory_Lyons_BoS</li>
         </spawnCategories>
         <possessions />
     </BackstoryDef>
@@ -185,8 +185,8 @@
     <!-- Recon Specialist -->
 
     <BackstoryDef>
-        <defName>FCP_BoS_Lyons_Pride_Knight_Recon_Specialist</defName>
-        <identifier>FCP_BoS_Lyons_Pride_Knight_Recon_Specialist</identifier>
+        <defName>FCP_Backstory_BoS_Lyons_Pride_Knight_Recon_Specialist</defName>
+        <identifier>FCP_Backstory_BoS_Lyons_Pride_Knight_Recon_Specialist</identifier>
         <slot>Adulthood</slot>
         <title>Recon Specialist</title>
         <titleShort>Recon</titleShort>
@@ -199,7 +199,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Lyons_BoS</li>
+            <li>FCP_Backstory_Lyons_BoS</li>
         </spawnCategories>
         <possessions />
     </BackstoryDef>
@@ -207,8 +207,8 @@
     <!-- Field Researcher -->
 
     <BackstoryDef>
-        <defName>FCP_BoS_Lyons_Pride_Scribe_Field_Researcher</defName>
-        <identifier>FCP_BoS_Lyons_Pride_Scribe_Field_Researcher</identifier>
+        <defName>FCP_Backstory_BoS_Lyons_Pride_Scribe_Field_Researcher</defName>
+        <identifier>FCP_Backstory_BoS_Lyons_Pride_Scribe_Field_Researcher</identifier>
         <slot>Adulthood</slot>
         <title>Field Researcher</title>
         <titleShort>Field Researcher</titleShort>
@@ -221,7 +221,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Lyons_BoS</li>
+            <li>FCP_Backstory_Lyons_BoS</li>
         </spawnCategories>
         <possessions />
     </BackstoryDef>
@@ -229,8 +229,8 @@
     <!-- Quartermaster -->
 
     <BackstoryDef>
-        <defName>FCP_BoS_Lyons_Pride_Knight_Quartermaster</defName>
-        <identifier>FCP_BoS_Lyons_Pride_Knight_Quartermaster</identifier>
+        <defName>FCP_Backstory_BoS_Lyons_Pride_Knight_Quartermaster</defName>
+        <identifier>FCP_Backstory_BoS_Lyons_Pride_Knight_Quartermaster</identifier>
         <slot>Adulthood</slot>
         <title>Quartermaster</title>
         <titleShort>Quartermaster</titleShort>
@@ -243,7 +243,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Lyons_BoS</li>
+            <li>FCP_Backstory_Lyons_BoS</li>
         </spawnCategories>
         <possessions />
     </BackstoryDef>
@@ -251,8 +251,8 @@
     <!-- Communications Officer -->
 
     <BackstoryDef>
-        <defName>FCP_BoS_Lyons_Pride_Scribe_Communications_Officer</defName>
-        <identifier>FCP_BoS_Lyons_Pride_Scribe_Communications_Officer</identifier>
+        <defName>FCP_Backstory_BoS_Lyons_Pride_Scribe_Communications_Officer</defName>
+        <identifier>FCP_Backstory_BoS_Lyons_Pride_Scribe_Communications_Officer</identifier>
         <slot>Adulthood</slot>
         <title>Communications Officer</title>
         <titleShort>Comms Officer</titleShort>
@@ -264,7 +264,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Lyons_BoS</li>
+            <li>FCP_Backstory_Lyons_BoS</li>
         </spawnCategories>
         <possessions />
     </BackstoryDef>
@@ -272,8 +272,8 @@
     <!-- Field Instructor -->
 
     <BackstoryDef>
-        <defName>FCP_BoS_Lyons_Pride_Knight_Field_Instructor</defName>
-        <identifier>FCP_BoS_Lyons_Pride_Knight_Field_Instructor</identifier>
+        <defName>FCP_Backstory_BoS_Lyons_Pride_Knight_Field_Instructor</defName>
+        <identifier>FCP_Backstory_BoS_Lyons_Pride_Knight_Field_Instructor</identifier>
         <slot>Adulthood</slot>
         <title>Field Instructor</title>
         <titleShort>Instructor</titleShort>
@@ -286,7 +286,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Lyons_BoS</li>
+            <li>FCP_Backstory_Lyons_BoS</li>
         </spawnCategories>
         <possessions />
     </BackstoryDef>
@@ -294,8 +294,8 @@
     <!-- Medical Researcher -->
 
     <BackstoryDef>
-        <defName>FCP_BoS_Lyons_Pride_Scribe_Medical_Researcher</defName>
-        <identifier>FCP_BoS_Lyons_Pride_Scribe_Medical_Researcher</identifier>
+        <defName>FCP_Backstory_BoS_Lyons_Pride_Scribe_Medical_Researcher</defName>
+        <identifier>FCP_Backstory_BoS_Lyons_Pride_Scribe_Medical_Researcher</identifier>
         <slot>Adulthood</slot>
         <title>Medical Researcher</title>
         <titleShort>Med Researcher</titleShort>
@@ -307,7 +307,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Lyons_BoS</li>
+            <li>FCP_Backstory_Lyons_BoS</li>
         </spawnCategories>
         <possessions />
     </BackstoryDef>
@@ -315,8 +315,8 @@
     <!-- Salvage Team Leader -->
 
     <BackstoryDef>
-        <defName>FCP_BoS_Lyons_Pride_Knight_Salvage_Team_Leader</defName>
-        <identifier>FCP_BoS_Lyons_Pride_Knight_Salvage_Team_Leader</identifier>
+        <defName>FCP_Backstory_BoS_Lyons_Pride_Knight_Salvage_Team_Leader</defName>
+        <identifier>FCP_Backstory_BoS_Lyons_Pride_Knight_Salvage_Team_Leader</identifier>
         <slot>Adulthood</slot>
         <title>Salvage Team Leader</title>
         <titleShort>Salvager</titleShort>
@@ -329,7 +329,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Lyons_BoS</li>
+            <li>FCP_Backstory_Lyons_BoS</li>
         </spawnCategories>
         <possessions />
     </BackstoryDef>
@@ -337,8 +337,8 @@
     <!-- Demolitions Expert -->
 
     <BackstoryDef>
-        <defName>FCP_BoS_Lyons_Pride_Knight_Demolitions_Expert</defName>
-        <identifier>FCP_BoS_Lyons_Pride_Knight_Demolitions_Expert</identifier>
+        <defName>FCP_Backstory_BoS_Lyons_Pride_Knight_Demolitions_Expert</defName>
+        <identifier>FCP_Backstory_BoS_Lyons_Pride_Knight_Demolitions_Expert</identifier>
         <slot>Adulthood</slot>
         <title>Demolitions Expert</title>
         <titleShort>Demolitions</titleShort>
@@ -351,7 +351,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Lyons_BoS</li>
+            <li>FCP_Backstory_Lyons_BoS</li>
         </spawnCategories>
         <possessions />
     </BackstoryDef>
@@ -359,8 +359,8 @@
     <!-- Pride Cook -->
 
     <BackstoryDef>
-        <defName>FCP_BoS_Lyons_Pride_Knight_Cook</defName>
-        <identifier>FCP_BoS_Lyons_Pride_Knight_Cook</identifier>
+        <defName>FCP_Backstory_BoS_Lyons_Pride_Knight_Cook</defName>
+        <identifier>FCP_Backstory_BoS_Lyons_Pride_Knight_Cook</identifier>
         <slot>Adulthood</slot>
         <title>Pride Cook</title>
         <titleShort>Cook</titleShort>
@@ -372,7 +372,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Lyons_BoS</li>
+            <li>FCP_Backstory_Lyons_BoS</li>
         </spawnCategories>
         <possessions />
     </BackstoryDef>
@@ -380,8 +380,8 @@
     <!-- Pride Mechanic -->
 
     <BackstoryDef>
-        <defName>FCP_BoS_Lyons_Pride_Knight_Mechanic</defName>
-        <identifier>FCP_BoS_Lyons_Pride_Knight_Mechanic</identifier>
+        <defName>FCP_Backstory_BoS_Lyons_Pride_Knight_Mechanic</defName>
+        <identifier>FCP_Backstory_BoS_Lyons_Pride_Knight_Mechanic</identifier>
         <slot>Adulthood</slot>
         <title>Pride Mechanic</title>
         <titleShort>Mechanic</titleShort>
@@ -393,7 +393,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Lyons_BoS</li>
+            <li>FCP_Backstory_Lyons_BoS</li>
         </spawnCategories>
         <possessions />
     </BackstoryDef>
@@ -401,8 +401,8 @@
     <!-- Scout Leader -->
 
     <BackstoryDef>
-        <defName>FCP_BoS_Lyons_Pride_Knight_Scout_Leader</defName>
-        <identifier>FCP_BoS_Lyons_Pride_Knight_Scout_Leader</identifier>
+        <defName>FCP_Backstory_BoS_Lyons_Pride_Knight_Scout_Leader</defName>
+        <identifier>FCP_Backstory_BoS_Lyons_Pride_Knight_Scout_Leader</identifier>
         <slot>Adulthood</slot>
         <title>Scout Leader</title>
         <titleShort>Scout Leader</titleShort>
@@ -415,7 +415,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Lyons_BoS</li>
+            <li>FCP_Backstory_Lyons_BoS</li>
         </spawnCategories>
         <possessions />
     </BackstoryDef>
@@ -423,8 +423,8 @@
     <!-- Diplomat -->
 
     <BackstoryDef>
-        <defName>FCP_BoS_Lyons_Pride_Scribe_Diplomat</defName>
-        <identifier>FCP_BoS_Lyons_Pride_Scribe_Diplomat</identifier>
+        <defName>FCP_Backstory_BoS_Lyons_Pride_Scribe_Diplomat</defName>
+        <identifier>FCP_Backstory_BoS_Lyons_Pride_Scribe_Diplomat</identifier>
         <slot>Adulthood</slot>
         <title>Pride Diplomat</title>
         <titleShort>Diplomat</titleShort>
@@ -436,7 +436,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Lyons_BoS</li>
+            <li>FCP_Backstory_Lyons_BoS</li>
         </spawnCategories>
         <possessions />
     </BackstoryDef>
@@ -446,8 +446,8 @@
     <!-- Bunker Born -->
 
     <BackstoryDef>
-        <defName>FCP_BoS_Lyons_Pride_Squire_Bunker_Born</defName>
-        <identifier>FCP_BoS_Lyons_Pride_Squire_Bunker_Born</identifier>
+        <defName>FCP_Backstory_BoS_Lyons_Pride_Squire_Bunker_Born</defName>
+        <identifier>FCP_Backstory_BoS_Lyons_Pride_Squire_Bunker_Born</identifier>
         <slot>Childhood</slot>
         <title>Bunker Born</title>
         <titleShort>Bunker Born</titleShort>
@@ -459,7 +459,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Lyons_Child</li>
+            <li>FCP_Backstory_Lyons_Child</li>
         </spawnCategories>
         <possessions />
     </BackstoryDef>
@@ -467,8 +467,8 @@
     <!-- Wasteland Orphan -->
 
     <BackstoryDef>
-        <defName>FCP_BoS_Lyons_Pride_Squire_Wasteland_Orphan</defName>
-        <identifier>FCP_BoS_Lyons_Pride_Squire_Wasteland_Orphan</identifier>
+        <defName>FCP_Backstory_BoS_Lyons_Pride_Squire_Wasteland_Orphan</defName>
+        <identifier>FCP_Backstory_BoS_Lyons_Pride_Squire_Wasteland_Orphan</identifier>
         <slot>Childhood</slot>
         <title>Wasteland Orphan</title>
         <titleShort>Orphan</titleShort>
@@ -480,7 +480,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Lyons_Child</li>
+            <li>FCP_Backstory_Lyons_Child</li>
         </spawnCategories>
         <possessions />
     </BackstoryDef>
@@ -488,8 +488,8 @@
     <!-- Tech Apprentice -->
 
     <BackstoryDef>
-        <defName>FCP_BoS_Lyons_Pride_Squire_Tech_Apprentice</defName>
-        <identifier>FCP_BoS_Lyons_Pride_Squire_Tech_Apprentice</identifier>
+        <defName>FCP_Backstory_BoS_Lyons_Pride_Squire_Tech_Apprentice</defName>
+        <identifier>FCP_Backstory_BoS_Lyons_Pride_Squire_Tech_Apprentice</identifier>
         <slot>Childhood</slot>
         <title>Tech Apprentice</title>
         <titleShort>Tech Apprentice</titleShort>
@@ -501,7 +501,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Lyons_Child</li>
+            <li>FCP_Backstory_Lyons_Child</li>
         </spawnCategories>
         <possessions />
     </BackstoryDef>
@@ -509,8 +509,8 @@
     <!-- Field Medic -->
 
     <BackstoryDef>
-        <defName>FCP_BoS_Lyons_Pride_Squire_Field_Medic</defName>
-        <identifier>FCP_BoS_Lyons_Pride_Squire_Field_Medic</identifier>
+        <defName>FCP_Backstory_BoS_Lyons_Pride_Squire_Field_Medic</defName>
+        <identifier>FCP_Backstory_BoS_Lyons_Pride_Squire_Field_Medic</identifier>
         <slot>Childhood</slot>
         <title>Field Medic Squire</title>
         <titleShort>Field Medic</titleShort>
@@ -522,7 +522,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Lyons_Child</li>
+            <li>FCP_Backstory_Lyons_Child</li>
         </spawnCategories>
         <possessions />
     </BackstoryDef>
@@ -530,8 +530,8 @@
     <!-- Power Armor Trainee -->
 
     <BackstoryDef>
-        <defName>FCP_BoS_Lyons_Pride_Squire_Power_Armor_Trainee</defName>
-        <identifier>FCP_BoS_Lyons_Pride_Squire_Power_Armor_Trainee</identifier>
+        <defName>FCP_Backstory_BoS_Lyons_Pride_Squire_Power_Armor_Trainee</defName>
+        <identifier>FCP_Backstory_BoS_Lyons_Pride_Squire_Power_Armor_Trainee</identifier>
         <slot>Childhood</slot>
         <title>Power Armor Trainee</title>
         <titleShort>Armor Trainee</titleShort>
@@ -543,7 +543,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Lyons_Child</li>
+            <li>FCP_Backstory_Lyons_Child</li>
         </spawnCategories>
         <possessions />
     </BackstoryDef>
@@ -551,8 +551,8 @@
     <!-- Archivist's Assistant -->
 
     <BackstoryDef>
-        <defName>FCP_BoS_Lyons_Pride_Squire_Archivist_Assistant</defName>
-        <identifier>FCP_BoS_Lyons_Pride_Squire_Archivist_Assistant</identifier>
+        <defName>FCP_Backstory_BoS_Lyons_Pride_Squire_Archivist_Assistant</defName>
+        <identifier>FCP_Backstory_BoS_Lyons_Pride_Squire_Archivist_Assistant</identifier>
         <slot>Childhood</slot>
         <title>Archivist's Assistant</title>
         <titleShort>Archivist</titleShort>
@@ -564,7 +564,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Lyons_Child</li>
+            <li>FCP_Backstory_Lyons_Child</li>
         </spawnCategories>
         <possessions />
     </BackstoryDef>
@@ -572,8 +572,8 @@
     <!-- Workshop Helper -->
 
     <BackstoryDef>
-        <defName>FCP_BoS_Lyons_Pride_Squire_Workshop_Helper</defName>
-        <identifier>FCP_BoS_Lyons_Pride_Squire_Workshop_Helper</identifier>
+        <defName>FCP_Backstory_BoS_Lyons_Pride_Squire_Workshop_Helper</defName>
+        <identifier>FCP_Backstory_BoS_Lyons_Pride_Squire_Workshop_Helper</identifier>
         <slot>Childhood</slot>
         <title>Workshop Helper</title>
         <titleShort>Workshop Helper</titleShort>
@@ -585,7 +585,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Lyons_Child</li>
+            <li>FCP_Backstory_Lyons_Child</li>
         </spawnCategories>
         <possessions />
     </BackstoryDef>
@@ -593,8 +593,8 @@
     <!-- Mess Hall Steward -->
 
     <BackstoryDef>
-        <defName>FCP_BoS_Lyons_Pride_Squire_Mess_Hall_Steward</defName>
-        <identifier>FCP_BoS_Lyons_Pride_Squire_Mess_Hall_Steward</identifier>
+        <defName>FCP_Backstory_BoS_Lyons_Pride_Squire_Mess_Hall_Steward</defName>
+        <identifier>FCP_Backstory_BoS_Lyons_Pride_Squire_Mess_Hall_Steward</identifier>
         <slot>Childhood</slot>
         <title>Mess Hall Steward</title>
         <titleShort>Mess Steward</titleShort>
@@ -606,7 +606,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Lyons_Child</li>
+            <li>FCP_Backstory_Lyons_Child</li>
         </spawnCategories>
         <possessions />
     </BackstoryDef>
@@ -614,8 +614,8 @@
     <!-- Scout in Training -->
 
     <BackstoryDef>
-        <defName>FCP_BoS_Lyons_Pride_Squire_Scout_In_Training</defName>
-        <identifier>FCP_BoS_Lyons_Pride_Squire_Scout_In_Training</identifier>
+        <defName>FCP_Backstory_BoS_Lyons_Pride_Squire_Scout_In_Training</defName>
+        <identifier>FCP_Backstory_BoS_Lyons_Pride_Squire_Scout_In_Training</identifier>
         <slot>Childhood</slot>
         <title>Scout in Training</title>
         <titleShort>Scout Trainee</titleShort>
@@ -628,16 +628,16 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Lyons_Child</li>
+            <li>FCP_Backstory_Lyons_Child</li>
         </spawnCategories>
         <possessions />
     </BackstoryDef>
 
     <!-- Scribe's Pupil -->
-    
+
     <BackstoryDef>
-        <defName>FCP_BoS_Lyons_Pride_Squire_Scribes_Pupil</defName>
-        <identifier>FCP_BoS_Lyons_Pride_Squire_Scribes_Pupil</identifier>
+        <defName>FCP_Backstory_BoS_Lyons_Pride_Squire_Scribes_Pupil</defName>
+        <identifier>FCP_Backstory_BoS_Lyons_Pride_Squire_Scribes_Pupil</identifier>
         <slot>Childhood</slot>
         <title>Scribe's Pupil</title>
         <titleShort>Scribe's Pupil</titleShort>
@@ -649,7 +649,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Lyons_Child</li>
+            <li>FCP_Backstory_Lyons_Child</li>
         </spawnCategories>
         <possessions />
     </BackstoryDef>
@@ -657,8 +657,8 @@
     <!-- Youngling Historian -->
 
     <BackstoryDef>
-        <defName>FCP_BoS_Lyons_Pride_Squire_Youngling_Historian</defName>
-        <identifier>FCP_BoS_Lyons_Pride_Squire_Youngling_Historian</identifier>
+        <defName>FCP_Backstory_BoS_Lyons_Pride_Squire_Youngling_Historian</defName>
+        <identifier>FCP_Backstory_BoS_Lyons_Pride_Squire_Youngling_Historian</identifier>
         <slot>Childhood</slot>
         <title>Youngling Historian</title>
         <titleShort>Historian</titleShort>
@@ -672,7 +672,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Lyons_Child</li>
+            <li>FCP_Backstory_Lyons_Child</li>
         </spawnCategories>
         <possessions />
     </BackstoryDef>
@@ -680,8 +680,8 @@
     <!-- Canteen Apprentice -->
 
     <BackstoryDef>
-        <defName>FCP_BoS_Lyons_Pride_Squire_Canteen_Apprentice</defName>
-        <identifier>FCP_BoS_Lyons_Pride_Squire_Canteen_Apprentice</identifier>
+        <defName>FCP_Backstory_BoS_Lyons_Pride_Squire_Canteen_Apprentice</defName>
+        <identifier>FCP_Backstory_BoS_Lyons_Pride_Squire_Canteen_Apprentice</identifier>
         <slot>Childhood</slot>
         <title>Canteen Apprentice</title>
         <titleShort>Canteen Apprentice</titleShort>
@@ -694,7 +694,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Lyons_Child</li>
+            <li>FCP_Backstory_Lyons_Child</li>
         </spawnCategories>
         <possessions />
     </BackstoryDef>
@@ -702,8 +702,8 @@
     <!-- Workshop Tinkerer -->
 
     <BackstoryDef>
-        <defName>FCP_BoS_Lyons_Pride_Squire_Workshop_Tinkerer</defName>
-        <identifier>FCP_BoS_Lyons_Pride_Squire_Workshop_Tinkerer</identifier>
+        <defName>FCP_Backstory_BoS_Lyons_Pride_Squire_Workshop_Tinkerer</defName>
+        <identifier>FCP_Backstory_BoS_Lyons_Pride_Squire_Workshop_Tinkerer</identifier>
         <slot>Childhood</slot>
         <title>Workshop Tinkerer</title>
         <titleShort>Tinkerer</titleShort>
@@ -716,7 +716,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Lyons_Child</li>
+            <li>FCP_Backstory_Lyons_Child</li>
         </spawnCategories>
         <possessions />
     </BackstoryDef>
@@ -724,8 +724,8 @@
     <!-- Squire Messenger -->
 
     <BackstoryDef>
-        <defName>FCP_BoS_Lyons_Pride_Squire_Messenger</defName>
-        <identifier>FCP_BoS_Lyons_Pride_Squire_Messenger</identifier>
+        <defName>FCP_Backstory_BoS_Lyons_Pride_Squire_Messenger</defName>
+        <identifier>FCP_Backstory_BoS_Lyons_Pride_Squire_Messenger</identifier>
         <slot>Childhood</slot>
         <title>Squire Messenger</title>
         <titleShort>Messenger</titleShort>
@@ -738,7 +738,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Lyons_Child</li>
+            <li>FCP_Backstory_Lyons_Child</li>
         </spawnCategories>
         <possessions />
     </BackstoryDef>
@@ -746,8 +746,8 @@
     <!-- Junior Medic -->
 
     <BackstoryDef>
-        <defName>FCP_BoS_Lyons_Pride_Squire_Junior_Medic</defName>
-        <identifier>FCP_BoS_Lyons_Pride_Squire_Junior_Medic</identifier>
+        <defName>FCP_Backstory_BoS_Lyons_Pride_Squire_Junior_Medic</defName>
+        <identifier>FCP_Backstory_BoS_Lyons_Pride_Squire_Junior_Medic</identifier>
         <slot>Childhood</slot>
         <title>Junior Medic</title>
         <titleShort>Junior Medic</titleShort>
@@ -759,7 +759,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Lyons_Child</li>
+            <li>FCP_Backstory_Lyons_Child</li>
         </spawnCategories>
         <possessions />
     </BackstoryDef>

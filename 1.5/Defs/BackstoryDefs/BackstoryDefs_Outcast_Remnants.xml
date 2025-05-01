@@ -12,8 +12,8 @@
     <!-- Outcast Veteran Defender -->
 
     <BackstoryDef>
-        <defName>FCP_BoS_Outcasts_Veteran_Defender</defName>
-        <identifier>FCP_BoS_Outcasts_Veteran_Defender</identifier>
+        <defName>FCP_Backstory_BoS_Outcasts_Veteran_Defender</defName>
+        <identifier>FCP_Backstory_BoS_Outcasts_Veteran_Defender</identifier>
         <slot>Adulthood</slot>
         <title>Veteran Defender</title>
         <titleShort>Defender</titleShort>
@@ -26,7 +26,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Outcast_Defender</li>
+            <li>FCP_Backstory_Outcast_Defender</li>
         </spawnCategories>
         <possessions />
     </BackstoryDef>
@@ -34,8 +34,8 @@
     <!-- Outcast Salvager -->
 
     <BackstoryDef>
-        <defName>FCP_BoS_Outcasts_Salvager</defName>
-        <identifier>FCP_BoS_Outcasts_Salvager</identifier>
+        <defName>FCP_Backstory_BoS_Outcasts_Salvager</defName>
+        <identifier>FCP_Backstory_BoS_Outcasts_Salvager</identifier>
         <slot>Adulthood</slot>
         <title>Outcast Salvager</title>
         <titleShort>Salvager</titleShort>
@@ -48,7 +48,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Outcast_Defender</li>
+            <li>FCP_Backstory_Outcast_Defender</li>
         </spawnCategories>
         <possessions />
     </BackstoryDef>
@@ -56,8 +56,8 @@
     <!-- Outcast Power Armor Specialist -->
 
     <BackstoryDef>
-        <defName>FCP_BoS_Outcasts_Power_Armor_Specialist</defName>
-        <identifier>FCP_BoS_Outcasts_Power_Armor_Specialist</identifier>
+        <defName>FCP_Backstory_BoS_Outcasts_Power_Armor_Specialist</defName>
+        <identifier>FCP_Backstory_BoS_Outcasts_Power_Armor_Specialist</identifier>
         <slot>Adulthood</slot>
         <title>Power Armor Specialist</title>
         <titleShort>Armor Specialist</titleShort>
@@ -70,7 +70,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Outcast_Specialist</li>
+            <li>FCP_Backstory_Outcast_Specialist</li>
         </spawnCategories>
         <possessions />
     </BackstoryDef>
@@ -78,8 +78,8 @@
     <!-- Outcast Field Commander -->
 
     <BackstoryDef>
-        <defName>FCP_BoS_Outcasts_Field_Commander</defName>
-        <identifier>FCP_BoS_Outcasts_Field_Commander</identifier>
+        <defName>FCP_Backstory_BoS_Outcasts_Field_Commander</defName>
+        <identifier>FCP_Backstory_BoS_Outcasts_Field_Commander</identifier>
         <slot>Adulthood</slot>
         <title>Field Commander</title>
         <titleShort>Commander</titleShort>
@@ -92,7 +92,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Outcast_Defender</li>
+            <li>FCP_Backstory_Outcast_Defender</li>
         </spawnCategories>
         <possessions />
     </BackstoryDef>
@@ -100,8 +100,8 @@
     <!-- Outcast Recon Specialist -->
 
     <BackstoryDef>
-        <defName>FCP_BoS_Outcasts_Recon_Specialist</defName>
-        <identifier>FCP_BoS_Outcasts_Recon_Specialist</identifier>
+        <defName>FCP_Backstory_BoS_Outcasts_Recon_Specialist</defName>
+        <identifier>FCP_Backstory_BoS_Outcasts_Recon_Specialist</identifier>
         <slot>Adulthood</slot>
         <title>Recon Specialist</title>
         <titleShort>Recon</titleShort>
@@ -114,7 +114,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Outcast_Recon</li>
+            <li>FCP_Backstory_Outcast_Recon</li>
         </spawnCategories>
         <possessions />
     </BackstoryDef>
@@ -122,8 +122,8 @@
     <!-- Outcast Medical Officer -->
 
     <BackstoryDef>
-        <defName>FCP_BoS_Outcasts_Medical_Officer</defName>
-        <identifier>FCP_BoS_Outcasts_Medical_Officer</identifier>
+        <defName>FCP_Backstory_BoS_Outcasts_Medical_Officer</defName>
+        <identifier>FCP_Backstory_BoS_Outcasts_Medical_Officer</identifier>
         <slot>Adulthood</slot>
         <title>Medical Officer</title>
         <titleShort>Medic</titleShort>
@@ -135,7 +135,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Outcast_Specialist</li>
+            <li>FCP_Backstory_Outcast_Specialist</li>
         </spawnCategories>
         <possessions />
     </BackstoryDef>
@@ -143,8 +143,8 @@
     <!-- Outcast Quartermaster -->
 
     <BackstoryDef>
-        <defName>FCP_BoS_Outcasts_Quartermaster</defName>
-        <identifier>FCP_BoS_Outcasts_Quartermaster</identifier>
+        <defName>FCP_Backstory_BoS_Outcasts_Quartermaster</defName>
+        <identifier>FCP_Backstory_BoS_Outcasts_Quartermaster</identifier>
         <slot>Adulthood</slot>
         <title>Quartermaster</title>
         <titleShort>Quartermaster</titleShort>
@@ -157,7 +157,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Outcast_Defender</li>
+            <li>FCP_Backstory_Outcast_Defender</li>
         </spawnCategories>
         <possessions />
     </BackstoryDef>
@@ -165,8 +165,8 @@
     <!-- Outcast Demolitions Expert -->
 
     <BackstoryDef>
-        <defName>FCP_BoS_Outcasts_Demolitions_Expert</defName>
-        <identifier>FCP_BoS_Outcasts_Demolitions_Expert</identifier>
+        <defName>FCP_Backstory_BoS_Outcasts_Demolitions_Expert</defName>
+        <identifier>FCP_Backstory_BoS_Outcasts_Demolitions_Expert</identifier>
         <slot>Adulthood</slot>
         <title>Demolitions Expert</title>
         <titleShort>Demolitions</titleShort>
@@ -179,7 +179,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Outcast_Defender</li>
+            <li>FCP_Backstory_Outcast_Defender</li>
         </spawnCategories>
         <possessions />
     </BackstoryDef>
@@ -187,8 +187,8 @@
     <!-- Outcast Instructor -->
 
     <BackstoryDef>
-        <defName>FCP_BoS_Outcasts_Instructor</defName>
-        <identifier>FCP_BoS_Outcasts_Instructor</identifier>
+        <defName>FCP_Backstory_BoS_Outcasts_Instructor</defName>
+        <identifier>FCP_Backstory_BoS_Outcasts_Instructor</identifier>
         <slot>Adulthood</slot>
         <title>Instructor</title>
         <titleShort>Instructor</titleShort>
@@ -201,7 +201,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Outcast_Defender</li>
+            <li>FCP_Backstory_Outcast_Defender</li>
         </spawnCategories>
         <possessions />
     </BackstoryDef>
@@ -209,8 +209,8 @@
     <!-- Outcast Cook -->
 
     <BackstoryDef>
-        <defName>FCP_BoS_Outcasts_Cook</defName>
-        <identifier>FCP_BoS_Outcasts_Cook</identifier>
+        <defName>FCP_Backstory_BoS_Outcasts_Cook</defName>
+        <identifier>FCP_Backstory_BoS_Outcasts_Cook</identifier>
         <slot>Adulthood</slot>
         <title>Outcast Cook</title>
         <titleShort>Cook</titleShort>
@@ -222,7 +222,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Outcast_Specialist</li>
+            <li>FCP_Backstory_Outcast_Specialist</li>
         </spawnCategories>
         <possessions />
     </BackstoryDef>
@@ -230,8 +230,8 @@
     <!-- Outcast Mechanic -->
 
     <BackstoryDef>
-        <defName>FCP_BoS_Outcasts_Mechanic</defName>
-        <identifier>FCP_BoS_Outcasts_Mechanic</identifier>
+        <defName>FCP_Backstory_BoS_Outcasts_Mechanic</defName>
+        <identifier>FCP_Backstory_BoS_Outcasts_Mechanic</identifier>
         <slot>Adulthood</slot>
         <title>Outcast Mechanic</title>
         <titleShort>Mechanic</titleShort>
@@ -243,7 +243,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Outcasts</li>
+            <li>FCP_Backstory_Outcasts</li>
         </spawnCategories>
         <possessions />
     </BackstoryDef>
@@ -251,8 +251,8 @@
     <!-- Outcast Diplomat -->
 
     <BackstoryDef>
-        <defName>FCP_BoS_Outcasts_Diplomat</defName>
-        <identifier>FCP_BoS_Outcasts_Diplomat</identifier>
+        <defName>FCP_Backstory_BoS_Outcasts_Diplomat</defName>
+        <identifier>FCP_Backstory_BoS_Outcasts_Diplomat</identifier>
         <slot>Adulthood</slot>
         <title>Outcast Diplomat</title>
         <titleShort>Diplomat</titleShort>
@@ -264,7 +264,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Outcast_Specialist</li>
+            <li>FCP_Backstory_Outcast_Specialist</li>
         </spawnCategories>
         <possessions />
     </BackstoryDef>
@@ -272,8 +272,8 @@
     <!-- Outcast Scribe -->
 
     <BackstoryDef>
-        <defName>FCP_BoS_Outcasts_Scribe</defName>
-        <identifier>FCP_BoS_Outcasts_Scribe</identifier>
+        <defName>FCP_Backstory_BoS_Outcasts_Scribe</defName>
+        <identifier>FCP_Backstory_BoS_Outcasts_Scribe</identifier>
         <slot>Adulthood</slot>
         <title>Outcast Scribe</title>
         <titleShort>Scribe</titleShort>
@@ -285,7 +285,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Outcast_Specialist</li>
+            <li>FCP_Backstory_Outcast_Specialist</li>
         </spawnCategories>
         <possessions />
     </BackstoryDef>
@@ -293,8 +293,8 @@
     <!-- Outcast Field Researcher -->
 
     <BackstoryDef>
-        <defName>FCP_BoS_Outcasts_Field_Researcher</defName>
-        <identifier>FCP_BoS_Outcasts_Field_Researcher</identifier>
+        <defName>FCP_Backstory_BoS_Outcasts_Field_Researcher</defName>
+        <identifier>FCP_Backstory_BoS_Outcasts_Field_Researcher</identifier>
         <slot>Adulthood</slot>
         <title>Field Researcher</title>
         <titleShort>Researcher</titleShort>
@@ -307,7 +307,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Outcast_Recon</li>
+            <li>FCP_Backstory_Outcast_Recon</li>
         </spawnCategories>
         <possessions />
     </BackstoryDef>
@@ -315,8 +315,8 @@
     <!-- Outcast Communications Officer -->
 
     <BackstoryDef>
-        <defName>FCP_BoS_Outcasts_Communications_Officer</defName>
-        <identifier>FCP_BoS_Outcasts_Communications_Officer</identifier>
+        <defName>FCP_Backstory_BoS_Outcasts_Communications_Officer</defName>
+        <identifier>FCP_Backstory_BoS_Outcasts_Communications_Officer</identifier>
         <slot>Adulthood</slot>
         <title>Communications Officer</title>
         <titleShort>Comms Officer</titleShort>
@@ -328,7 +328,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Outcast_Recon</li>
+            <li>FCP_Backstory_Outcast_Recon</li>
         </spawnCategories>
         <possessions />
     </BackstoryDef>
@@ -336,8 +336,8 @@
     <!-- Outcast Scout Captain -->
 
     <BackstoryDef>
-        <defName>FCP_BoS_Outcasts_Scout_Captain</defName>
-        <identifier>FCP_BoS_Outcasts_Scout_Captain</identifier>
+        <defName>FCP_Backstory_BoS_Outcasts_Scout_Captain</defName>
+        <identifier>FCP_Backstory_BoS_Outcasts_Scout_Captain</identifier>
         <slot>Adulthood</slot>
         <title>Scout Captain</title>
         <titleShort>Scout Captain</titleShort>
@@ -350,7 +350,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Outcast_Recon</li>
+            <li>FCP_Backstory_Outcast_Recon</li>
         </spawnCategories>
         <possessions />
     </BackstoryDef>
@@ -358,8 +358,8 @@
     <!-- Outcast Archivist -->
 
     <BackstoryDef>
-        <defName>FCP_BoS_Outcasts_Archivist</defName>
-        <identifier>FCP_BoS_Outcasts_Archivist</identifier>
+        <defName>FCP_Backstory_BoS_Outcasts_Archivist</defName>
+        <identifier>FCP_Backstory_BoS_Outcasts_Archivist</identifier>
         <slot>Adulthood</slot>
         <title>Archivist</title>
         <titleShort>Archivist</titleShort>
@@ -371,7 +371,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Outcast_Specialist</li>
+            <li>FCP_Backstory_Outcast_Specialist</li>
         </spawnCategories>
         <possessions />
     </BackstoryDef>
@@ -379,8 +379,8 @@
     <!-- Outcast Field Instructor -->
 
     <BackstoryDef>
-        <defName>FCP_BoS_Outcasts_Field_Instructor</defName>
-        <identifier>FCP_BoS_Outcasts_Field_Instructor</identifier>
+        <defName>FCP_Backstory_BoS_Outcasts_Field_Instructor</defName>
+        <identifier>FCP_Backstory_BoS_Outcasts_Field_Instructor</identifier>
         <slot>Adulthood</slot>
         <title>Field Instructor</title>
         <titleShort>Instructor</titleShort>
@@ -393,7 +393,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Outcast_Defender</li>
+            <li>FCP_Backstory_Outcast_Defender</li>
         </spawnCategories>
         <possessions />
     </BackstoryDef>
@@ -401,8 +401,8 @@
     <!-- Outcast Logistics Officer -->
 
     <BackstoryDef>
-        <defName>FCP_BoS_Outcasts_Logistics_Officer</defName>
-        <identifier>FCP_BoS_Outcasts_Logistics_Officer</identifier>
+        <defName>FCP_Backstory_BoS_Outcasts_Logistics_Officer</defName>
+        <identifier>FCP_Backstory_BoS_Outcasts_Logistics_Officer</identifier>
         <slot>Adulthood</slot>
         <title>Logistics Officer</title>
         <titleShort>Logistics</titleShort>
@@ -415,7 +415,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Outcast_Defender</li>
+            <li>FCP_Backstory_Outcast_Defender</li>
         </spawnCategories>
         <possessions />
     </BackstoryDef>
@@ -423,8 +423,8 @@
     <!-- Outcast Survivalist -->
 
     <BackstoryDef>
-        <defName>FCP_BoS_Outcasts_Survivalist</defName>
-        <identifier>FCP_BoS_Outcasts_Survivalist</identifier>
+        <defName>FCP_Backstory_BoS_Outcasts_Survivalist</defName>
+        <identifier>FCP_Backstory_BoS_Outcasts_Survivalist</identifier>
         <slot>Adulthood</slot>
         <title>Survivalist</title>
         <titleShort>Survivalist</titleShort>
@@ -437,7 +437,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Outcast_Defender</li>
+            <li>FCP_Backstory_Outcast_Defender</li>
         </spawnCategories>
         <possessions />
     </BackstoryDef>
@@ -447,8 +447,8 @@
     <!-- Outcast Scout -->
 
     <BackstoryDef>
-        <defName>FCP_BoS_Outcasts_Squire_Scout</defName>
-        <identifier>FCP_BoS_Outcasts_Squire_Scout</identifier>
+        <defName>FCP_Backstory_BoS_Outcasts_Squire_Scout</defName>
+        <identifier>FCP_Backstory_BoS_Outcasts_Squire_Scout</identifier>
         <slot>Childhood</slot>
         <title>Outcast Scout</title>
         <titleShort>Scout</titleShort>
@@ -461,7 +461,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Outcasts_Child</li>
+            <li>FCP_Backstory_Outcasts_Child</li>
         </spawnCategories>
         <possessions />
     </BackstoryDef>
@@ -469,8 +469,8 @@
     <!-- Outcast Mechanic -->
 
     <BackstoryDef>
-        <defName>FCP_BoS_Outcasts_Squire_Mechanic</defName>
-        <identifier>FCP_BoS_Outcasts_Squire_Mechanic</identifier>
+        <defName>FCP_Backstory_BoS_Outcasts_Squire_Mechanic</defName>
+        <identifier>FCP_Backstory_BoS_Outcasts_Squire_Mechanic</identifier>
         <slot>Childhood</slot>
         <title>Outcast Mechanic</title>
         <titleShort>Mechanic</titleShort>
@@ -482,7 +482,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Outcasts_Child</li>
+            <li>FCP_Backstory_Outcasts_Child</li>
         </spawnCategories>
         <possessions />
     </BackstoryDef>
@@ -490,8 +490,8 @@
     <!-- Outcast Medic -->
 
     <BackstoryDef>
-        <defName>FCP_BoS_Outcasts_Squire_Medic</defName>
-        <identifier>FCP_BoS_Outcasts_Squire_Medic</identifier>
+        <defName>FCP_Backstory_BoS_Outcasts_Squire_Medic</defName>
+        <identifier>FCP_Backstory_BoS_Outcasts_Squire_Medic</identifier>
         <slot>Childhood</slot>
         <title>Outcast Medic</title>
         <titleShort>Medic</titleShort>
@@ -503,7 +503,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Outcasts_Child</li>
+            <li>FCP_Backstory_Outcasts_Child</li>
         </spawnCategories>
         <possessions />
     </BackstoryDef>
@@ -511,8 +511,8 @@
     <!-- Outcast Scout Leader -->
 
     <BackstoryDef>
-        <defName>FCP_BoS_Outcasts_Squire_Scout_Leader</defName>
-        <identifier>FCP_BoS_Outcasts_Squire_Scout_Leader</identifier>
+        <defName>FCP_Backstory_BoS_Outcasts_Squire_Scout_Leader</defName>
+        <identifier>FCP_Backstory_BoS_Outcasts_Squire_Scout_Leader</identifier>
         <slot>Childhood</slot>
         <title>Outcast Scout Leader</title>
         <titleShort>Scout Leader</titleShort>
@@ -525,7 +525,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Outcasts_Child</li>
+            <li>FCP_Backstory_Outcasts_Child</li>
         </spawnCategories>
         <possessions />
     </BackstoryDef>
@@ -533,8 +533,8 @@
     <!-- Outcast Supply Runner -->
 
     <BackstoryDef>
-        <defName>FCP_BoS_Outcasts_Squire_Supply_Runner</defName>
-        <identifier>FCP_BoS_Outcasts_Squire_Supply_Runner</identifier>
+        <defName>FCP_Backstory_BoS_Outcasts_Squire_Supply_Runner</defName>
+        <identifier>FCP_Backstory_BoS_Outcasts_Squire_Supply_Runner</identifier>
         <slot>Childhood</slot>
         <title>Outcast Supply Runner</title>
         <titleShort>Supply Runner</titleShort>
@@ -547,7 +547,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Outcasts_Child</li>
+            <li>FCP_Backstory_Outcasts_Child</li>
         </spawnCategories>
         <possessions />
     </BackstoryDef>
@@ -555,8 +555,8 @@
     <!-- Outcast Bunker Born -->
 
     <BackstoryDef>
-        <defName>FCP_BoS_Outcasts_Squire_Bunker_Born</defName>
-        <identifier>FCP_BoS_Outcasts_Squire_Bunker_Born</identifier>
+        <defName>FCP_Backstory_BoS_Outcasts_Squire_Bunker_Born</defName>
+        <identifier>FCP_Backstory_BoS_Outcasts_Squire_Bunker_Born</identifier>
         <slot>Childhood</slot>
         <title>Bunker Born</title>
         <titleShort>Bunker Born</titleShort>
@@ -568,7 +568,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Outcasts_Child</li>
+            <li>FCP_Backstory_Outcasts_Child</li>
         </spawnCategories>
         <possessions />
     </BackstoryDef>
@@ -576,8 +576,8 @@
     <!-- Outcast Wasteland Orphan -->
 
     <BackstoryDef>
-        <defName>FCP_BoS_Outcasts_Squire_Wasteland_Orphan</defName>
-        <identifier>FCP_BoS_Outcasts_Squire_Wasteland_Orphan</identifier>
+        <defName>FCP_Backstory_BoS_Outcasts_Squire_Wasteland_Orphan</defName>
+        <identifier>FCP_Backstory_BoS_Outcasts_Squire_Wasteland_Orphan</identifier>
         <slot>Childhood</slot>
         <title>Wasteland Orphan</title>
         <titleShort>Orphan</titleShort>
@@ -589,7 +589,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Outcasts_Child</li>
+            <li>FCP_Backstory_Outcasts_Child</li>
         </spawnCategories>
         <possessions />
     </BackstoryDef>
@@ -597,8 +597,8 @@
     <!-- Outcast Tech Apprentice -->
 
     <BackstoryDef>
-        <defName>FCP_BoS_Outcasts_Squire_Tech_Apprentice</defName>
-        <identifier>FCP_BoS_Outcasts_Squire_Tech_Apprentice</identifier>
+        <defName>FCP_Backstory_BoS_Outcasts_Squire_Tech_Apprentice</defName>
+        <identifier>FCP_Backstory_BoS_Outcasts_Squire_Tech_Apprentice</identifier>
         <slot>Childhood</slot>
         <title>Tech Apprentice</title>
         <titleShort>Tech Apprentice</titleShort>
@@ -610,7 +610,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Outcasts_Child</li>
+            <li>FCP_Backstory_Outcasts_Child</li>
         </spawnCategories>
         <possessions />
     </BackstoryDef>
@@ -618,8 +618,8 @@
     <!-- Outcast Field Medic -->
 
     <BackstoryDef>
-        <defName>FCP_BoS_Outcasts_Squire_Field_Medic</defName>
-        <identifier>FCP_BoS_Outcasts_Squire_Field_Medic</identifier>
+        <defName>FCP_Backstory_BoS_Outcasts_Squire_Field_Medic</defName>
+        <identifier>FCP_Backstory_BoS_Outcasts_Squire_Field_Medic</identifier>
         <slot>Childhood</slot>
         <title>Field Medic Squire</title>
         <titleShort>Field Medic</titleShort>
@@ -631,7 +631,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Outcasts_Child</li>
+            <li>FCP_Backstory_Outcasts_Child</li>
         </spawnCategories>
         <possessions />
     </BackstoryDef>
@@ -639,8 +639,8 @@
     <!-- Outcast Power Armor Trainee -->
 
     <BackstoryDef>
-        <defName>FCP_BoS_Outcasts_Squire_Power_Armor_Trainee</defName>
-        <identifier>FCP_BoS_Outcasts_Squire_Power_Armor_Trainee</identifier>
+        <defName>FCP_Backstory_BoS_Outcasts_Squire_Power_Armor_Trainee</defName>
+        <identifier>FCP_Backstory_BoS_Outcasts_Squire_Power_Armor_Trainee</identifier>
         <slot>Childhood</slot>
         <title>Power Armor Trainee</title>
         <titleShort>Armor Trainee</titleShort>
@@ -652,7 +652,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Outcasts_Child</li>
+            <li>FCP_Backstory_Outcasts_Child</li>
         </spawnCategories>
         <possessions />
     </BackstoryDef>
@@ -660,8 +660,8 @@
     <!-- Outcast Archivist's Assistant -->
 
     <BackstoryDef>
-        <defName>FCP_BoS_Outcasts_Squire_Archivist_Assistant</defName>
-        <identifier>FCP_BoS_Outcasts_Squire_Archivist_Assistant</identifier>
+        <defName>FCP_Backstory_BoS_Outcasts_Squire_Archivist_Assistant</defName>
+        <identifier>FCP_Backstory_BoS_Outcasts_Squire_Archivist_Assistant</identifier>
         <slot>Childhood</slot>
         <title>Archivist's Assistant</title>
         <titleShort>Archivist</titleShort>
@@ -673,7 +673,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Outcasts_Child</li>
+            <li>FCP_Backstory_Outcasts_Child</li>
         </spawnCategories>
         <possessions />
     </BackstoryDef>
@@ -681,8 +681,8 @@
     <!-- Outcast Workshop Helper -->
 
     <BackstoryDef>
-        <defName>FCP_BoS_Outcasts_Squire_Workshop_Helper</defName>
-        <identifier>FCP_BoS_Outcasts_Squire_Workshop_Helper</identifier>
+        <defName>FCP_Backstory_BoS_Outcasts_Squire_Workshop_Helper</defName>
+        <identifier>FCP_Backstory_BoS_Outcasts_Squire_Workshop_Helper</identifier>
         <slot>Childhood</slot>
         <title>Workshop Helper</title>
         <titleShort>Workshop Helper</titleShort>
@@ -694,7 +694,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Outcasts_Child</li>
+            <li>FCP_Backstory_Outcasts_Child</li>
         </spawnCategories>
         <possessions />
     </BackstoryDef>
@@ -702,8 +702,8 @@
     <!-- Outcast Mess Hall Steward -->
 
     <BackstoryDef>
-        <defName>FCP_BoS_Outcasts_Squire_Mess_Hall_Steward</defName>
-        <identifier>FCP_BoS_Outcasts_Squire_Mess_Hall_Steward</identifier>
+        <defName>FCP_Backstory_BoS_Outcasts_Squire_Mess_Hall_Steward</defName>
+        <identifier>FCP_Backstory_BoS_Outcasts_Squire_Mess_Hall_Steward</identifier>
         <slot>Childhood</slot>
         <title>Mess Hall Steward</title>
         <titleShort>Mess Steward</titleShort>
@@ -715,7 +715,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Outcasts_Child</li>
+            <li>FCP_Backstory_Outcasts_Child</li>
         </spawnCategories>
         <possessions />
     </BackstoryDef>
@@ -723,8 +723,8 @@
     <!-- Outcast Scribe's Pupil -->
 
     <BackstoryDef>
-        <defName>FCP_BoS_Outcasts_Squire_Scribes_Pupil</defName>
-        <identifier>FCP_BoS_Outcasts_Squire_Scribes_Pupil</identifier>
+        <defName>FCP_Backstory_BoS_Outcasts_Squire_Scribes_Pupil</defName>
+        <identifier>FCP_Backstory_BoS_Outcasts_Squire_Scribes_Pupil</identifier>
         <slot>Childhood</slot>
         <title>Scribe's Pupil</title>
         <titleShort>Scribe's Pupil</titleShort>
@@ -736,7 +736,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Outcasts_Child</li>
+            <li>FCP_Backstory_Outcasts_Child</li>
         </spawnCategories>
         <possessions />
     </BackstoryDef>
@@ -744,8 +744,8 @@
     <!-- Outcast Youngling Historian -->
 
     <BackstoryDef>
-        <defName>FCP_BoS_Outcasts_Squire_Youngling_Historian</defName>
-        <identifier>FCP_BoS_Outcasts_Squire_Youngling_Historian</identifier>
+        <defName>FCP_Backstory_BoS_Outcasts_Squire_Youngling_Historian</defName>
+        <identifier>FCP_Backstory_BoS_Outcasts_Squire_Youngling_Historian</identifier>
         <slot>Childhood</slot>
         <title>Youngling Historian</title>
         <titleShort>Historian</titleShort>
@@ -759,7 +759,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Outcasts_Child</li>
+            <li>FCP_Backstory_Outcasts_Child</li>
         </spawnCategories>
         <possessions />
     </BackstoryDef>
