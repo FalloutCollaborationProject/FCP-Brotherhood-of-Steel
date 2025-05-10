@@ -1,174 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
-	<!--_____ Bases _____-->
+    <!--__________ Pawnkinds __________-->
 
-	<!-- Base Base -->
+    <!--_____ BoS Pawnkinds _____-->
 
-	<PawnKindDef Name="FCP_BoSkindBase" Abstract="True">
-		<race>Human</race>
-		<defaultFactionType>FCP_Faction_BoS</defaultFactionType>
-		<maxGenerationAge>60</maxGenerationAge>
-		<chemicalAddictionChance>0</chemicalAddictionChance>
-		<invNutrition>2.7</invNutrition>
-		<invFoodDef>MealSurvivalPack</invFoodDef>
-		<disallowedTraits>
-			<li>Nudist</li>
-			<li>Brawler</li>
-		</disallowedTraits>
-		<requiredWorkTags>
-			<li>Violent</li>
-		</requiredWorkTags>
-		<backstoryFiltersOverride>
-			<li>
-				<categoriesChildhood>
-					<li>FCP_Wastelander_Child</li>
-					<li>FCP_BoS_Child</li>
-				</categoriesChildhood>
-			</li>
-		</backstoryFiltersOverride>
-		<pawnGroupDevelopmentStage>Adult</pawnGroupDevelopmentStage>
-	</PawnKindDef>
+	<!--___ Military ___-->
 
-	<!-- Power Armor Base -->
-
-	<PawnKindDef ParentName="FCP_BoSkindBase" Name="FCP_BoS_PowerArmorBase" Abstract="True">
-		<apparelRequired>
-			<li>FCP_Apparel_Power_Armor_Frame</li>
-			<li>FCP_Apparel_BoS_Jumpsuit</li>
-			<li>FCP_Apparel_BOS_T60_Power_Armor</li>
-			<li>FCP_Apparel_T60_Power_Armor_Helmet</li>
-		</apparelRequired>
-		<forcedTraits>
-			<FCP_Power_Armor_Trained />
-		</forcedTraits>
-	</PawnKindDef>
-
-	<!-- Lancer Base -->
-
-	<PawnKindDef ParentName="FCP_BoSkindBase" Name="FCP_BoS_LancerBase" Abstract="True">
-		<combatPower>30</combatPower>
-		<gearHealthRange>0.5~1.8</gearHealthRange>
-		<apparelRequired>
-			<li>FCP_Apparel_BoS_Jumpsuit</li>
-			<li>FCP_Apparel_BoS_Flight_Helmet</li>
-			<li>FCP_Apparel_BoS_Bomber_Jacket</li>
-		</apparelRequired>
-		<weaponMoney>150~600</weaponMoney>
-		<weaponTags>
-			<li>Gun</li> <!-- Should be Laser Rifle -->
-		</weaponTags>
-		<techHediffsMoney>50~50</techHediffsMoney>
-		<techHediffsTags>
-			<li>Poor</li>
-		</techHediffsTags>
-		<techHediffsChance>0.03</techHediffsChance>
-		<backstoryFiltersOverride>
-			<li>
-				<categoriesAdulthood>
-					<li>FCP_BoS_Lancer</li>
-				</categoriesAdulthood>
-			</li>
-		</backstoryFiltersOverride>
-	</PawnKindDef>
-
-	<!--_____
-	PawnKinds _____-->
-
-	<!-- Lancers -->
-
-	<PawnKindDef ParentName="FCP_BoS_LancerBase">
-		<defName>FCP_BoS_Lancer</defName>
-		<label>Brotherhood lancer</label>
-		<combatPower>30</combatPower>
-		<itemQuality>Poor</itemQuality>
-		<gearHealthRange>0.5~1.8</gearHealthRange>
-		<techHediffsMoney>50~50</techHediffsMoney>
-		<techHediffsTags>
-			<li>Poor</li>
-		</techHediffsTags>
-		<techHediffsChance>0.15</techHediffsChance>
-		<initialWillRange>1~2</initialWillRange>
-		<initialResistanceRange>11~17</initialResistanceRange>
-	</PawnKindDef>
-
-	<!--PawnKindDef
-	ParentName="FCP_BoS_LancerBase">
-		<defName>FCP_BoS_LancerKnight</defName>
-		<label>Brotherhood lancer-knight</label>
-		<combatPower>30</combatPower>
-		<itemQuality>Poor</itemQuality>
-		<gearHealthRange>0.5~1.8</gearHealthRange>
-		<techHediffsMoney>50~50</techHediffsMoney>
-		<techHediffsTags>
-			<li>Poor</li>
-		</techHediffsTags>
-		<techHediffsChance>0.15</techHediffsChance>
-		<initialWillRange>1~2</initialWillRange>
-		<initialResistanceRange>11~17</initialResistanceRange>
-	</PawnKindDef>
-
-	<PawnKindDef ParentName="FCP_BoS_LancerBase">
-		<defName>FCP_BoS_LancerSergeant</defName>
-		<label>Brotherhood lancer-sergeant</label>
-		<combatPower>30</combatPower>
-		<itemQuality>Poor</itemQuality>
-		<gearHealthRange>0.5~1.8</gearHealthRange>
-		<techHediffsMoney>50~50</techHediffsMoney>
-		<techHediffsTags>
-			<li>Poor</li>
-		</techHediffsTags>
-		<techHediffsChance>0.15</techHediffsChance>
-		<initialWillRange>1~2</initialWillRange>
-		<initialResistanceRange>11~17</initialResistanceRange>
-	</PawnKindDef-->
-
-	<PawnKindDef ParentName="FCP_BoS_LancerBase">
-		<defName>FCP_BoS_LancerCaptain</defName>
-		<label>Brotherhood lancer-captain</label>
-		<combatPower>50</combatPower>
-		<itemQuality>Poor</itemQuality>
-		<gearHealthRange>0.5~1.8</gearHealthRange>
-		<apparelRequired>
-			<li>FCP_Apparel_BoS_Lancer_Captain_Uniform</li>
-			<li>FCP_Apparel_BoS_Lancer_Captain_Hat</li>
-		</apparelRequired>
-		<techHediffsMoney>50~50</techHediffsMoney>
-		<techHediffsTags>
-			<li>Poor</li>
-		</techHediffsTags>
-		<techHediffsChance>0.15</techHediffsChance>
-		<initialWillRange>1~3</initialWillRange>
-		<initialResistanceRange>15~26</initialResistanceRange>
-	</PawnKindDef>
-
-	<!-- Squire -->
+	<!-- Brotherhood Hopeful -->
 
 	<PawnKindDef ParentName="FCP_BoSkindBase">
-		<defName>FCP_BoS_Squire</defName>
-		<label>Brotherhood squire</label>
-		<combatPower>30</combatPower>
-		<itemQuality>Poor</itemQuality>
-		<gearHealthRange>0.5~1.8</gearHealthRange>
-		<apparelRequired>
-			<li>FCP_Apparel_BoS_Squire</li>
-			<li>FCP_Apparel_BoS_Squire_Hat</li>
-		</apparelRequired>
-		<techHediffsMoney>50~50</techHediffsMoney>
-		<techHediffsTags>
-			<li>Poor</li>
-		</techHediffsTags>
-		<techHediffsChance>0.15</techHediffsChance>
-		<initialWillRange>1~2</initialWillRange>
-		<initialResistanceRange>10~11</initialResistanceRange>
-		<pawnGroupDevelopmentStage Inherit="False">Child</pawnGroupDevelopmentStage>
-	</PawnKindDef>
-
-	<!-- Hopeful -->
-
-	<PawnKindDef ParentName="FCP_BoSkindBase">
-		<defName>FCP_BoS_Hopeful</defName>
-		<label>Brotherhood hopeful</label>
+		<defName>FCP_Pawnkind_BoS_Hopeful</defName>
+		<label>Brotherhood Hopeful</label>
 		<combatPower>30</combatPower>
 		<itemQuality>Poor</itemQuality>
 		<gearHealthRange>0.5~1.8</gearHealthRange>
@@ -185,8 +28,7 @@
 		<initialWillRange>1~3</initialWillRange>
 		<initialResistanceRange>10~17</initialResistanceRange>
 		<backstoryFiltersOverride Inherit="False">
-			<li>				<!-- since they're wastelanders hoping to join the brotherhood they shouldn't use
-				BoS backstories -->
+			<li>
 				<categoriesChildhood>
 					<li>FCP_Wastelander_Child</li>
 				</categoriesChildhood>
@@ -197,11 +39,11 @@
 		</backstoryFiltersOverride>
 	</PawnKindDef>
 
-	<!-- Initiate -->
+	<!-- Brotherhood Initiate -->
 
 	<PawnKindDef ParentName="FCP_BoSkindBase">
-		<defName>FCP_BoS_Initiate_Recon</defName>
-		<label>Brotherhood initiate</label>
+		<defName>FCP_Pawnkind_BoS_Initiate_Recon</defName>
+		<label>Brotherhood Initiate</label>
 		<combatPower>30</combatPower>
 		<gearHealthRange>0.5~1.8</gearHealthRange>
 		<apparelRequired>
@@ -217,19 +59,40 @@
 		<backstoryFiltersOverride>
 			<li>
 				<categoriesAdulthood>
-					<li>FCP_BoS_Initiate</li>
+					<li>FCP_Backstory_BoS_Initiate</li>
 				</categoriesAdulthood>
 			</li>
 		</backstoryFiltersOverride>
 	</PawnKindDef>
 
+	<!-- Brotherhood Lancer -->
+
 	<PawnKindDef ParentName="FCP_BoSkindBase">
-		<defName>FCP_BoS_Initiate_Fatigues</defName>
-		<label>Brotherhood initiate</label>
+		<defName>FCP_Pawnkind_BoS_Lancer</defName>
+		<label>Brotherhood Lancer</label>
 		<combatPower>30</combatPower>
+		<itemQuality>Poor</itemQuality>
+		<gearHealthRange>0.5~1.8</gearHealthRange>
+		<techHediffsMoney>50~50</techHediffsMoney>
+		<techHediffsTags>
+			<li>Poor</li>
+		</techHediffsTags>
+		<techHediffsChance>0.15</techHediffsChance>
+		<initialWillRange>1~2</initialWillRange>
+		<initialResistanceRange>11~17</initialResistanceRange>
+	</PawnKindDef>
+
+	<!-- Brotherhood Lancer Captain -->
+
+	<PawnKindDef ParentName="FCP_BoSkindBase">
+		<defName>FCP_Pawnkind_BoS_LancerCaptain</defName>
+		<label>Brotherhood Lancer-Captain</label>
+		<combatPower>50</combatPower>
+		<itemQuality>Poor</itemQuality>
 		<gearHealthRange>0.5~1.8</gearHealthRange>
 		<apparelRequired>
-			<li>FCP_Apparel_BoS_Brotherhood_Fatigues</li>
+			<li>FCP_Apparel_BoS_Lancer_Captain_Uniform</li>
+			<li>FCP_Apparel_BoS_Lancer_Captain_Hat</li>
 		</apparelRequired>
 		<techHediffsMoney>50~50</techHediffsMoney>
 		<techHediffsTags>
@@ -237,43 +100,178 @@
 		</techHediffsTags>
 		<techHediffsChance>0.15</techHediffsChance>
 		<initialWillRange>1~3</initialWillRange>
-		<initialResistanceRange>10~17</initialResistanceRange>
+		<initialResistanceRange>15~26</initialResistanceRange>
+	</PawnKindDef>
+
+	<!-- Brotherhood Knight -->
+
+	<PawnKindDef ParentName="FCP_BoS_PowerArmorBase">
+		<defName>FCP_Pawnkind_BoS_Knight</defName>
+		<label>Brotherhood Knight</label>
+		<combatPower>60</combatPower>
+		<gearHealthRange>0.5~1.8</gearHealthRange>
+		<weaponMoney>150~600</weaponMoney>
+		<weaponTags>
+			<li>Gun</li>
+		</weaponTags>
+		<techHediffsMoney>50~50</techHediffsMoney>
+		<techHediffsTags>
+			<li>Poor</li>
+		</techHediffsTags>
+		<techHediffsChance>0.03</techHediffsChance>
+		<initialWillRange>2~5</initialWillRange>
+		<initialResistanceRange>15~24</initialResistanceRange>
 		<backstoryFiltersOverride>
 			<li>
 				<categoriesAdulthood>
-					<li>FCP_BoS_Initiate</li>
+					<li>FCP_Backstory_BoS_Knight</li>
 				</categoriesAdulthood>
 			</li>
 		</backstoryFiltersOverride>
 	</PawnKindDef>
 
-	<!-- Trader Scribe -->
+	<!-- Brotherhood Knight-sergeant -->
 
-	<PawnKindDef ParentName="FCP_BoSkindBase">
-		<defName>FCP_BoS_Scribe_Trader</defName>
-		<label>Brotherhood scribe</label> <!-- Name them "Brotherhood proctor"? -->
-		<trader>true</trader>
-		<combatPower>30</combatPower>
-		<apparelRequired>
-			<li>FCP_Apparel_BoS_Field_Scribe_Robes</li>
-			<li>FCP_Apparel_BoS_Field_Scribe_Hat</li>
-		</apparelRequired>
-		<initialWillRange>1~3</initialWillRange>
-		<initialResistanceRange>10~17</initialResistanceRange>
+	<PawnKindDef ParentName="FCP_BoS_PowerArmorBase">
+		<defName>FCP_Pawnkind_BoS_Knight_Sergeant</defName>
+		<label>Brotherhood Knight-Sergeant</label>
+		<combatPower>65</combatPower>
+		<gearHealthRange>0.6~2</gearHealthRange>
+		<weaponMoney>200~650</weaponMoney>
+		<weaponTags>
+			<li>Gun</li>
+		</weaponTags>
+		<techHediffsMoney>50~50</techHediffsMoney>
+		<techHediffsTags>
+			<li>Poor</li>
+		</techHediffsTags>
+		<techHediffsChance>0.03</techHediffsChance>
+		<initialWillRange>2~5</initialWillRange>
+		<initialResistanceRange>17~28</initialResistanceRange>
+		<backstoryFiltersOverride>
+            <li>
+                <categoriesAdulthood>
+                    <li>FCP_Backstory_BoS_Knight</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+	</PawnKindDef>
+
+	<!-- Brotherhood Knight-captain -->
+
+	<PawnKindDef ParentName="FCP_BoS_PowerArmorBase">
+		<defName>FCP_Pawnkind_BoS_Knight_Captain</defName>
+		<label>Brotherhood Knight-Captain</label>
+		<combatPower>70</combatPower>
+		<gearHealthRange>0.7~2</gearHealthRange>
+		<weaponMoney>250~700</weaponMoney>
+		<weaponTags>
+			<li>Gun</li>
+		</weaponTags>
+		<techHediffsMoney>50~50</techHediffsMoney>
+		<techHediffsTags>
+			<li>Poor</li>
+		</techHediffsTags>
+		<techHediffsChance>0.03</techHediffsChance>
+		<initialWillRange>2~5</initialWillRange>
+		<initialResistanceRange>19~30</initialResistanceRange>
+		<backstoryFiltersOverride>
+            <li>
+                <categoriesAdulthood>
+                    <li>FCP_Backstory_BoS_Knight</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+	</PawnKindDef>
+
+	<!-- Brotherhood Paladin -->
+
+	<PawnKindDef ParentName="FCP_BoS_PowerArmorBase">
+		<defName>FCP_Pawnkind_BoS_Paladin</defName>
+		<label>Brotherhood Paladin</label>
+		<combatPower>70</combatPower>
+		<gearHealthRange>0.7~2</gearHealthRange>
+		<weaponMoney>300~700</weaponMoney>
+		<weaponTags>
+			<li>Gun</li>
+		</weaponTags>
+		<techHediffsMoney>50~50</techHediffsMoney>
+		<techHediffsTags>
+			<li>Poor</li>
+		</techHediffsTags>
+		<techHediffsChance>0.03</techHediffsChance>
+		<initialWillRange>3~5</initialWillRange>
+		<initialResistanceRange>19~30</initialResistanceRange>
 		<backstoryFiltersOverride>
 			<li>
 				<categoriesAdulthood>
-					<li>FCP_BoS_Scribe</li>
+					<li>FCP_Backstory_BoS_Paladin</li>
 				</categoriesAdulthood>
 			</li>
 		</backstoryFiltersOverride>
 	</PawnKindDef>
 
-	<!-- Scribes -->
+	<!-- Brotherhood Star Paladin -->
+
+	<PawnKindDef ParentName="FCP_BoS_PowerArmorBase">
+		<defName>FCP_Pawnkind_BoS_Star_Paladin</defName>
+		<label>Brotherhood Star Paladin</label>
+		<combatPower>75</combatPower>
+		<gearHealthRange>0.7~2.2</gearHealthRange>
+		<weaponMoney>300~750</weaponMoney>
+		<weaponTags>
+			<li>Gun</li>
+		</weaponTags>
+		<techHediffsMoney>50~50</techHediffsMoney>
+		<techHediffsTags>
+			<li>Poor</li>
+		</techHediffsTags>
+		<techHediffsChance>0.03</techHediffsChance>
+		<initialWillRange>4~5</initialWillRange>
+		<initialResistanceRange>21~33</initialResistanceRange>
+		<backstoryFiltersOverride>
+			<li>
+				<categoriesAdulthood>
+					<li>FCP_Backstory_BoS_Star_Paladin</li>
+				</categoriesAdulthood>
+			</li>
+		</backstoryFiltersOverride>
+	</PawnKindDef>
+
+	<!-- Brotherhood Sentinel -->
+
+	<PawnKindDef ParentName="FCP_BoS_PowerArmorBase">
+		<defName>FCP_Pawnkind_BoS_Sentinel</defName>
+		<label>Brotherhood Sentinel</label>
+		<combatPower>80</combatPower>
+		<gearHealthRange>0.7~2.2</gearHealthRange>
+		<weaponMoney>300~750</weaponMoney>
+		<weaponTags>
+			<li>Gun</li>
+		</weaponTags>
+		<techHediffsMoney>50~50</techHediffsMoney>
+		<techHediffsTags>
+			<li>Poor</li>
+		</techHediffsTags>
+		<techHediffsChance>0.03</techHediffsChance>
+		<initialWillRange>4~5</initialWillRange>
+		<initialResistanceRange>23~33</initialResistanceRange>
+		<backstoryFiltersOverride>
+			<li>
+				<categoriesAdulthood>
+					<li>FCP_Backstory_BoS_Sentinel</li>
+				</categoriesAdulthood>
+			</li>
+		</backstoryFiltersOverride>
+	</PawnKindDef>
+
+	<!--___ Scribes ___-->
+
+	<!-- Brotherhood Field Scribe -->
 
 	<PawnKindDef ParentName="FCP_BoSkindBase">
-		<defName>FCP_BoS_Scribe_Field</defName>
-		<label>Brotherhood scribe</label>
+		<defName>FCP_Pawnkind_BoS_Field_Scribe</defName>
+		<label>Brotherhood Field Scribe</label>
 		<combatPower>45</combatPower>
 		<gearHealthRange>0.5~1.8</gearHealthRange>
 		<apparelRequired>
@@ -294,15 +292,17 @@
 		<backstoryFiltersOverride>
 			<li>
 				<categoriesAdulthood>
-					<li>FCP_BoS_Scribe</li>
+					<li>FCP_Backstory_BoS_Scribe</li>
 				</categoriesAdulthood>
 			</li>
 		</backstoryFiltersOverride>
 	</PawnKindDef>
 
+	<!-- Brotherhood Science Scribe -->
+
 	<PawnKindDef ParentName="FCP_BoSkindBase">
-		<defName>FCP_BoS_Scribe_Science</defName>
-		<label>Brotherhood scribe</label>
+		<defName>FCP_Pawnkind_BoS_Science_Scribe</defName>
+		<label>Brotherhood Science Scribe</label>
 		<combatPower>45</combatPower>
 		<gearHealthRange>0.5~1.8</gearHealthRange>
 		<apparelRequired>
@@ -323,15 +323,17 @@
 		<backstoryFiltersOverride>
 			<li>
 				<categoriesAdulthood>
-					<li>FCP_BoS_Scribe</li>
+					<li>FCP_Backstory_BoS_Scribe</li>
 				</categoriesAdulthood>
 			</li>
 		</backstoryFiltersOverride>
 	</PawnKindDef>
 
+	<!-- Brotherhood Scribe -->
+
 	<PawnKindDef ParentName="FCP_BoSkindBase">
-		<defName>FCP_BoS_Scribe</defName>
-		<label>Brotherhood scribe</label>
+		<defName>FCP_Pawnkind_BoS_Scribe</defName>
+		<label>Brotherhood Scribe</label>
 		<combatPower>45</combatPower>
 		<gearHealthRange>0.5~1.8</gearHealthRange>
 		<apparelRequired>
@@ -351,215 +353,19 @@
 		<backstoryFiltersOverride>
 			<li>
 				<categoriesAdulthood>
-					<li>FCP_BoS_Scribe</li>
+					<li>FCP_Backstory_BoS_Scribe</li>
 				</categoriesAdulthood>
 			</li>
 		</backstoryFiltersOverride>
 	</PawnKindDef>
 
-	<!-- Lancers -->
+	<!--___ Elders ___-->
 
-	<!-- Knight -->
-
-	<PawnKindDef ParentName="FCP_BoS_PowerArmorBase">
-		<defName>FCP_BoS_Knight</defName>
-		<label>Brotherhood knight</label>
-		<combatPower>60</combatPower>
-		<gearHealthRange>0.5~1.8</gearHealthRange>
-		<weaponMoney>150~600</weaponMoney>
-		<weaponTags>
-			<li>Gun</li>
-		</weaponTags>
-		<techHediffsMoney>50~50</techHediffsMoney>
-		<techHediffsTags>
-			<li>Poor</li>
-		</techHediffsTags>
-		<techHediffsChance>0.03</techHediffsChance>
-		<initialWillRange>2~5</initialWillRange>
-		<initialResistanceRange>15~24</initialResistanceRange>
-		<backstoryFiltersOverride>
-			<li>
-				<categoriesAdulthood>
-					<li>FCP_BoS_Knight</li>
-				</categoriesAdulthood>
-			</li>
-		</backstoryFiltersOverride>
-	</PawnKindDef>
-
-	<!-- Knight-sergeant -->
-
-	<!--PawnKindDef
-	ParentName="FCP_BoS_PowerArmorBase">
-		<defName>FCP_BoS_KnightSergeant</defName>
-		<label>Brotherhood knight-sergeant</label>
-		<combatPower>65</combatPower>
-		<gearHealthRange>0.6~2</gearHealthRange>
-		<weaponMoney>200~650</weaponMoney>
-		<weaponTags>
-			<li>Gun</li>
-		</weaponTags>
-		<techHediffsMoney>50~50</techHediffsMoney>
-		<techHediffsTags>
-			<li>Poor</li>
-		</techHediffsTags>
-		<techHediffsChance>0.03</techHediffsChance>
-		<initialWillRange>2~5</initialWillRange>
-		<initialResistanceRange>17~28</initialResistanceRange>
-		<backstoryFiltersOverride>
-            <li>
-                <categoriesAdulthood>
-                    <li>FCP_BoS_Knight</li>
-                </categoriesAdulthood>
-            </li>
-        </backstoryFiltersOverride>
-	</PawnKindDef-->
-
-	<!-- Knight-captain -->
-
-	<!--PawnKindDef
-	ParentName="FCP_BoS_PowerArmorBase">
-		<defName>FCP_BoS_Knight</defName>
-		<label>Brotherhood knight-captain</label>
-		<combatPower>70</combatPower>
-		<gearHealthRange>0.7~2</gearHealthRange>
-		<weaponMoney>250~700</weaponMoney>
-		<weaponTags>
-			<li>Gun</li>
-		</weaponTags>
-		<techHediffsMoney>50~50</techHediffsMoney>
-		<techHediffsTags>
-			<li>Poor</li>
-		</techHediffsTags>
-		<techHediffsChance>0.03</techHediffsChance>
-		<initialWillRange>2~5</initialWillRange>
-		<initialResistanceRange>19~30</initialResistanceRange>
-		<backstoryFiltersOverride>
-            <li>
-                <categoriesAdulthood>
-                    <li>FCP_BoS_Knight</li>
-                </categoriesAdulthood>
-            </li>
-        </backstoryFiltersOverride>
-	</PawnKindDef-->
-
-	<!-- Paladin -->
-
-	<PawnKindDef ParentName="FCP_BoS_PowerArmorBase">
-		<defName>FCP_BoS_Paladin</defName>
-		<label>Brotherhood paladin</label>
-		<combatPower>70</combatPower>
-		<gearHealthRange>0.7~2</gearHealthRange>
-		<weaponMoney>300~700</weaponMoney>
-		<weaponTags>
-			<li>Gun</li>
-		</weaponTags>
-		<techHediffsMoney>50~50</techHediffsMoney>
-		<techHediffsTags>
-			<li>Poor</li>
-		</techHediffsTags>
-		<techHediffsChance>0.03</techHediffsChance>
-		<initialWillRange>3~5</initialWillRange>
-		<initialResistanceRange>19~30</initialResistanceRange>
-		<backstoryFiltersOverride>
-			<li>
-				<categoriesAdulthood>
-					<li>FCP_BoS_Knight</li>
-				</categoriesAdulthood>
-			</li>
-		</backstoryFiltersOverride>
-	</PawnKindDef>
-
-	<!-- Star Paladin -->
-
-	<PawnKindDef ParentName="FCP_BoS_PowerArmorBase">
-		<defName>FCP_BoS_Paladin</defName>
-		<label>Brotherhood star paladin</label>
-		<combatPower>75</combatPower>
-		<gearHealthRange>0.7~2.2</gearHealthRange>
-		<weaponMoney>300~750</weaponMoney>
-		<weaponTags>
-			<li>Gun</li>
-		</weaponTags>
-		<techHediffsMoney>50~50</techHediffsMoney>
-		<techHediffsTags>
-			<li>Poor</li>
-		</techHediffsTags>
-		<techHediffsChance>0.03</techHediffsChance>
-		<initialWillRange>4~5</initialWillRange>
-		<initialResistanceRange>21~33</initialResistanceRange>
-		<backstoryFiltersOverride>
-			<li>
-				<categoriesAdulthood>
-					<li>FCP_BoS_Knight</li>
-				</categoriesAdulthood>
-			</li>
-		</backstoryFiltersOverride>
-	</PawnKindDef>
-
-	<!-- Sentinel -->
-
-	<PawnKindDef ParentName="FCP_BoS_PowerArmorBase">
-		<defName>FCP_BoS_Sentinel</defName>
-		<label>Brotherhood sentinel</label>
-		<combatPower>80</combatPower>
-		<gearHealthRange>0.7~2.2</gearHealthRange>
-		<weaponMoney>300~750</weaponMoney>
-		<weaponTags>
-			<li>Gun</li>
-		</weaponTags>
-		<techHediffsMoney>50~50</techHediffsMoney>
-		<techHediffsTags>
-			<li>Poor</li>
-		</techHediffsTags>
-		<techHediffsChance>0.03</techHediffsChance>
-		<initialWillRange>4~5</initialWillRange>
-		<initialResistanceRange>23~33</initialResistanceRange>
-		<backstoryFiltersOverride>
-			<li>
-				<categoriesAdulthood>
-					<li>FCP_BoS_Knight</li>
-				</categoriesAdulthood>
-			</li>
-		</backstoryFiltersOverride>
-	</PawnKindDef>
-
-	<!-- Cleric -->
-
-	<!--PawnKindDef
-	ParentName="FCP_BoSkindBase">
-		<defName>FCP_BoS_Cleric</defName>
-		<label>Brotherhood cleric</label>
-		<combatPower>20</combatPower>
-		<gearHealthRange>0.5~1.6</gearHealthRange>
-		<apparelRequired>
-			<li>FCP_Apparel_BoS_Cleric</li>
-		</apparelRequired>
-		<weaponMoney>200~500</weaponMoney>
-		<weaponTags>
-			<li>Gun</li>
-		</weaponTags>
-		<techHediffsMoney>50~50</techHediffsMoney>
-		<techHediffsTags>
-			<li>Poor</li>
-		</techHediffsTags>
-		<techHediffsChance>0.03</techHediffsChance>
-		<initialWillRange>1~3</initialWillRange>
-		<initialResistanceRange>17~22</initialResistanceRange>
-		<backstoryFiltersOverride>
-			<li>
-				<categoriesAdulthood>
-					<li>FCP_BoS_Knight</li>
-				</categoriesAdulthood>
-			</li>
-		</backstoryFiltersOverride>
-	</PawnKindDef-->
-
-	<!-- Elder -->
+	<!-- Brotherhood Elder -->
 
 	<PawnKindDef ParentName="FCP_BoSkindBase">
-		<defName>FCP_BoS_Elder</defName>
-		<label>Brotherhood elder</label>
-		<factionLeader>true</factionLeader> <!-- Should the leader be the a high elder instead? -->
+		<defName>FCP_Pawnkind_BoS_Elder</defName>
+		<label>Brotherhood Elder</label>
 		<combatPower>20</combatPower>
 		<gearHealthRange>0.5~1.6</gearHealthRange>
 		<apparelRequired>
@@ -582,22 +388,22 @@
 		<backstoryFiltersOverride>
 			<li>
 				<categoriesAdulthood>
-					<li>FCP_BoS_Elder</li>
+					<li>FCP_Backstory_BoS_Elder</li>
 				</categoriesAdulthood>
 			</li>
 		</backstoryFiltersOverride>
 	</PawnKindDef>
 
+	<!-- Brotherhood High Elder -->
 
 	<PawnKindDef ParentName="FCP_BoSkindBase">
-		<defName>FCP_BoS_ElderCoat</defName>
-		<label>Brotherhood elder</label>
-		<factionLeader>true</factionLeader> <!-- Should the leader be the a high elder instead? -->
+		<defName>FCP_Pawnkind_BoS_High_Elder</defName>
+		<label>Brotherhood High Elder</label>
+		<factionLeader>true</factionLeader>
 		<combatPower>20</combatPower>
 		<gearHealthRange>0.5~1.6</gearHealthRange>
 		<apparelRequired>
-			<li>FCP_Apparel_BoS_Jumpsuit</li>
-			<li>FCP_Apparel_BoS_Battle_Coat</li>
+			<li>FCP_Apparel_BoS_Elder_Robes</li>
 		</apparelRequired>
 		<weaponMoney>200~500</weaponMoney>
 		<weaponTags>
@@ -616,19 +422,45 @@
 		<backstoryFiltersOverride>
 			<li>
 				<categoriesAdulthood>
-					<li>FCP_BoS_Elder</li>
+					<li>FCP_Backstory_BoS_Elder</li>
 				</categoriesAdulthood>
 			</li>
 		</backstoryFiltersOverride>
 	</PawnKindDef>
 
+	<!--___ Traders ___-->
+
+	<!-- Brotherhood Scribe Proctor -->
+
+	<PawnKindDef ParentName="FCP_BoSkindBase">
+		<defName>FCP_Pawnkind_BoS_Scribe_Proctor</defName>
+		<label>Brotherhood Scribe Proctor</label>
+		<trader>true</trader>
+		<combatPower>30</combatPower>
+		<apparelRequired>
+			<li>FCP_Apparel_BoS_Field_Scribe_Robes</li>
+			<li>FCP_Apparel_BoS_Field_Scribe_Hat</li>
+		</apparelRequired>
+		<initialWillRange>1~3</initialWillRange>
+		<initialResistanceRange>10~17</initialResistanceRange>
+		<backstoryFiltersOverride>
+			<li>
+				<categoriesAdulthood>
+					<li>FCP_Backstory_BoS_Scribe</li>
+				</categoriesAdulthood>
+			</li>
+		</backstoryFiltersOverride>
+	</PawnKindDef>
+
+	<!-- Brotherhood Knight Proctor -->
+
 	<PawnKindDef ParentName="FCP_BoS_PowerArmorBase">
-		<defName>FCP_BoS_ElderPA</defName>
-		<label>Brotherhood elder</label>
-		<factionLeader>true</factionLeader> <!-- Should the leader be the a high elder instead? -->
-		<combatPower>20</combatPower>
-		<gearHealthRange>0.5~1.6</gearHealthRange>
-		<weaponMoney>200~500</weaponMoney>
+		<defName>FCP_Pawnkind_BoS_Knight_Proctor</defName>
+		<label>Brotherhood Knight Proctor</label>
+		<trader>true</trader>
+		<combatPower>60</combatPower>
+		<gearHealthRange>0.5~1.8</gearHealthRange>
+		<weaponMoney>150~600</weaponMoney>
 		<weaponTags>
 			<li>Gun</li>
 		</weaponTags>
@@ -636,19 +468,40 @@
 		<techHediffsTags>
 			<li>Poor</li>
 		</techHediffsTags>
-		<forcedTraits>
-			<FCP_Power_Armor_Trained />
-		</forcedTraits>
 		<techHediffsChance>0.03</techHediffsChance>
-		<initialWillRange>5~6</initialWillRange>
-		<initialResistanceRange>17~22</initialResistanceRange>
+		<initialWillRange>2~5</initialWillRange>
+		<initialResistanceRange>15~24</initialResistanceRange>
 		<backstoryFiltersOverride>
 			<li>
 				<categoriesAdulthood>
-					<li>FCP_BoS_Elder</li>
+					<li>FCP_Backstory_BoS_Knight</li>
 				</categoriesAdulthood>
 			</li>
 		</backstoryFiltersOverride>
+	</PawnKindDef>
+
+	<!--___ Children ___-->
+
+	<!-- Brotherhood Squire -->
+
+	<PawnKindDef ParentName="FCP_BoSkindBase">
+		<defName>FCP_Pawnkind_BoS_Squire</defName>
+		<label>Brotherhood Squire</label>
+		<combatPower>30</combatPower>
+		<itemQuality>Poor</itemQuality>
+		<gearHealthRange>0.5~1.8</gearHealthRange>
+		<apparelRequired>
+			<li>FCP_Apparel_BoS_Squire</li>
+			<li>FCP_Apparel_BoS_Squire_Hat</li>
+		</apparelRequired>
+		<techHediffsMoney>50~50</techHediffsMoney>
+		<techHediffsTags>
+			<li>Poor</li>
+		</techHediffsTags>
+		<techHediffsChance>0.15</techHediffsChance>
+		<initialWillRange>1~2</initialWillRange>
+		<initialResistanceRange>10~11</initialResistanceRange>
+		<pawnGroupDevelopmentStage Inherit="False">Child</pawnGroupDevelopmentStage>
 	</PawnKindDef>
 
 </Defs>
