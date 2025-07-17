@@ -1,0 +1,767 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <!--__________ Backstories __________-->
+
+    <!--_____ Factions _____-->
+
+    <!--___ Lyons' Pride Remnants ___-->
+
+    <!--__ Adults __-->
+
+    <!-- Wasteland Defender -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_BoS_Lyons_Pride_Knight_Wasteland_Defender</defName>
+        <identifier>FCP_Backstory_BoS_Lyons_Pride_Knight_Wasteland_Defender</identifier>
+        <slot>Adulthood</slot>
+        <title>Wasteland Defender</title>
+        <titleShort>Defender</titleShort>
+        <description>After years of training, [PAWN_nameDef] became a full-fledged Knight, patrolling the ruins of DC and defending settlements from raiders and mutants. [PAWN_pronoun] earned a reputation for bravery and tactical skill among the Lyons' Pride.</description>
+        <skillGains>
+            <Shooting>3</Shooting>
+            <Melee>2</Melee>
+            <Construction>1</Construction>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Backstory_Lyons_BoS</li>
+        </spawnCategories>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Lyons' Pride Veteran -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_BoS_Lyons_Pride_Paladin_Lyons_Pride_Veteran</defName>
+        <identifier>FCP_Backstory_BoS_Lyons_Pride_Paladin_Lyons_Pride_Veteran</identifier>
+        <slot>Adulthood</slot>
+        <title>Lyons' Pride Veteran</title>
+        <titleShort>Pride Veteran</titleShort>
+        <description>[PAWN_nameDef] fought alongside the legendary Lyons' Pride, facing the Capital Wasteland's greatest threats. [PAWN_pronoun] is respected for [PAWN_possessive] courage and unwavering loyalty to the Pride's ideals.</description>
+        <skillGains>
+            <Shooting>4</Shooting>
+            <Melee>2</Melee>
+            <Social>1</Social>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Backstory_Lyons_BoS</li>
+        </spawnCategories>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Technology Seeker -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_BoS_Lyons_Pride_Scribe_Technology_Seeker</defName>
+        <identifier>FCP_Backstory_BoS_Lyons_Pride_Scribe_Technology_Seeker</identifier>
+        <slot>Adulthood</slot>
+        <title>Technology Seeker</title>
+        <titleShort>Tech Seeker</titleShort>
+        <description>As a Scribe, [PAWN_nameDef] scoured the wasteland for lost knowledge and pre-war technology, documenting every discovery for the Lyons' Pride archives.</description>
+        <skillGains>
+            <Intellectual>4</Intellectual>
+            <Crafting>2</Crafting>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Backstory_Lyons_BoS</li>
+        </spawnCategories>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Power Armor Operator -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_BoS_Lyons_Pride_Knight_Power_Armor_Operator</defName>
+        <identifier>FCP_Backstory_BoS_Lyons_Pride_Knight_Power_Armor_Operator</identifier>
+        <slot>Adulthood</slot>
+        <title>Power Armor Operator</title>
+        <titleShort>Armor Operator</titleShort>
+        <description>[PAWN_nameDef] mastered the use and maintenance of power armor, leading charges against super mutants and protecting Lyons' Pride interests with unmatched resilience.</description>
+        <skillGains>
+            <Crafting>2</Crafting>
+            <Construction>2</Construction>
+            <Melee>2</Melee>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Backstory_Lyons_BoS</li>
+        </spawnCategories>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Medical Specialist -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_BoS_Lyons_Pride_Scribe_Medical_Specialist</defName>
+        <identifier>FCP_Backstory_BoS_Lyons_Pride_Scribe_Medical_Specialist</identifier>
+        <slot>Adulthood</slot>
+        <title>Medical Specialist</title>
+        <titleShort>Medic</titleShort>
+        <description>Dedicated to saving lives, [PAWN_nameDef] became a medical specialist, treating wounded Lyons' Pride members and researching advanced healing techniques.</description>
+        <skillGains>
+            <Medicine>4</Medicine>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Backstory_Lyons_BoS</li>
+        </spawnCategories>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Outcast Hunter -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_BoS_Lyons_Pride_Paladin_Outcast_Hunter</defName>
+        <identifier>FCP_Backstory_BoS_Lyons_Pride_Paladin_Outcast_Hunter</identifier>
+        <slot>Adulthood</slot>
+        <title>Outcast Hunter</title>
+        <titleShort>Outcast Hunter</titleShort>
+        <description>[PAWN_nameDef] was tasked with tracking and confronting Outcasts, enforcing Elder Lyons' vision and protecting the unity of the Pride.</description>
+        <skillGains>
+            <Shooting>3</Shooting>
+            <Melee>2</Melee>
+            <Social>1</Social>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Backstory_Lyons_BoS</li>
+        </spawnCategories>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Citadel Engineer -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_BoS_Lyons_Pride_Knight_CitadelEngineer</defName>
+        <identifier>FCP_Backstory_BoS_Lyons_Pride_Knight_CitadelEngineer</identifier>
+        <slot>Adulthood</slot>
+        <title>Citadel Engineer</title>
+        <titleShort>Engineer</titleShort>
+        <description>[PAWN_nameDef] specialized in maintaining the Citadel's defenses and infrastructure, ensuring the Pride's stronghold remained secure against all threats.</description>
+        <skillGains>
+            <Construction>3</Construction>
+            <Crafting>2</Crafting>
+            <Intellectual>1</Intellectual>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Backstory_Lyons_BoS</li>
+        </spawnCategories>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Archivist -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_BoS_Lyons_Pride_Scribe_Archivist</defName>
+        <identifier>FCP_Backstory_BoS_Lyons_Pride_Scribe_Archivist</identifier>
+        <slot>Adulthood</slot>
+        <title>Archivist</title>
+        <titleShort>Archivist</titleShort>
+        <description>[PAWN_nameDef] dedicated [PAWN_possessive] life to preserving the Pride's history and cataloging every piece of recovered technology and lore.</description>
+        <skillGains>
+            <Intellectual>4</Intellectual>
+            <Artistic>2</Artistic>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Backstory_Lyons_BoS</li>
+        </spawnCategories>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Recon Specialist -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_BoS_Lyons_Pride_Knight_Recon_Specialist</defName>
+        <identifier>FCP_Backstory_BoS_Lyons_Pride_Knight_Recon_Specialist</identifier>
+        <slot>Adulthood</slot>
+        <title>Recon Specialist</title>
+        <titleShort>Recon</titleShort>
+        <description>[PAWN_nameDef] excelled at scouting enemy positions and gathering intelligence, often venturing deep into hostile territory to ensure the Pride's tactical advantage.</description>
+        <skillGains>
+            <Shooting>2</Shooting>
+            <Plants>2</Plants>
+            <Animals>1</Animals>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Backstory_Lyons_BoS</li>
+        </spawnCategories>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Field Researcher -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_BoS_Lyons_Pride_Scribe_Field_Researcher</defName>
+        <identifier>FCP_Backstory_BoS_Lyons_Pride_Scribe_Field_Researcher</identifier>
+        <slot>Adulthood</slot>
+        <title>Field Researcher</title>
+        <titleShort>Field Researcher</titleShort>
+        <description>[PAWN_nameDef] traveled the wasteland to study mutated flora and fauna, providing the Pride with valuable scientific insights and survival knowledge.</description>
+        <skillGains>
+            <Intellectual>3</Intellectual>
+            <Medicine>2</Medicine>
+            <Plants>1</Plants>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Backstory_Lyons_BoS</li>
+        </spawnCategories>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Quartermaster -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_BoS_Lyons_Pride_Knight_Quartermaster</defName>
+        <identifier>FCP_Backstory_BoS_Lyons_Pride_Knight_Quartermaster</identifier>
+        <slot>Adulthood</slot>
+        <title>Quartermaster</title>
+        <titleShort>Quartermaster</titleShort>
+        <description>[PAWN_nameDef] managed the Pride's armory, distributing weapons and supplies to Knights and Scribes, and ensuring nothing was wasted in the fight for survival.</description>
+        <skillGains>
+            <Crafting>3</Crafting>
+            <Social>2</Social>
+            <Intellectual>1</Intellectual>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Backstory_Lyons_BoS</li>
+        </spawnCategories>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Communications Officer -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_BoS_Lyons_Pride_Scribe_Communications_Officer</defName>
+        <identifier>FCP_Backstory_BoS_Lyons_Pride_Scribe_Communications_Officer</identifier>
+        <slot>Adulthood</slot>
+        <title>Communications Officer</title>
+        <titleShort>Comms Officer</titleShort>
+        <description>[PAWN_nameDef] maintained radio contact between patrols and the Citadel, coordinating missions and relaying vital information for the Pride across the wasteland.</description>
+        <skillGains>
+            <Intellectual>3</Intellectual>
+            <Social>2</Social>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Backstory_Lyons_BoS</li>
+        </spawnCategories>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Field Instructor -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_BoS_Lyons_Pride_Knight_Field_Instructor</defName>
+        <identifier>FCP_Backstory_BoS_Lyons_Pride_Knight_Field_Instructor</identifier>
+        <slot>Adulthood</slot>
+        <title>Field Instructor</title>
+        <titleShort>Instructor</titleShort>
+        <description>[PAWN_nameDef] trained new recruits in weapons handling, tactics, and survival, shaping the next generation of Lyons' Pride warriors.</description>
+        <skillGains>
+            <Shooting>2</Shooting>
+            <Melee>2</Melee>
+            <Social>2</Social>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Backstory_Lyons_BoS</li>
+        </spawnCategories>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Medical Researcher -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_BoS_Lyons_Pride_Scribe_Medical_Researcher</defName>
+        <identifier>FCP_Backstory_BoS_Lyons_Pride_Scribe_Medical_Researcher</identifier>
+        <slot>Adulthood</slot>
+        <title>Medical Researcher</title>
+        <titleShort>Med Researcher</titleShort>
+        <description>[PAWN_nameDef] focused on developing new treatments and medicines, using both pre-war knowledge and wasteland discoveries to heal the Pride's wounded.</description>
+        <skillGains>
+            <Medicine>4</Medicine>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Backstory_Lyons_BoS</li>
+        </spawnCategories>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Salvage Team Leader -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_BoS_Lyons_Pride_Knight_Salvage_Team_Leader</defName>
+        <identifier>FCP_Backstory_BoS_Lyons_Pride_Knight_Salvage_Team_Leader</identifier>
+        <slot>Adulthood</slot>
+        <title>Salvage Team Leader</title>
+        <titleShort>Salvager</titleShort>
+        <description>[PAWN_nameDef] led expeditions into dangerous ruins, recovering valuable technology and resources for the Pride's continued survival.</description>
+        <skillGains>
+            <Construction>2</Construction>
+            <Crafting>2</Crafting>
+            <Shooting>1</Shooting>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Backstory_Lyons_BoS</li>
+        </spawnCategories>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Demolitions Expert -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_BoS_Lyons_Pride_Knight_Demolitions_Expert</defName>
+        <identifier>FCP_Backstory_BoS_Lyons_Pride_Knight_Demolitions_Expert</identifier>
+        <slot>Adulthood</slot>
+        <title>Demolitions Expert</title>
+        <titleShort>Demolitions</titleShort>
+        <description>[PAWN_nameDef] specialized in explosives, clearing rubble and disabling enemy fortifications for the Pride's operations in the Capital Wasteland.</description>
+        <skillGains>
+            <Construction>2</Construction>
+            <Crafting>2</Crafting>
+            <Shooting>1</Shooting>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Backstory_Lyons_BoS</li>
+        </spawnCategories>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Pride Cook -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_BoS_Lyons_Pride_Knight_Cook</defName>
+        <identifier>FCP_Backstory_BoS_Lyons_Pride_Knight_Cook</identifier>
+        <slot>Adulthood</slot>
+        <title>Pride Cook</title>
+        <titleShort>Cook</titleShort>
+        <description>[PAWN_nameDef] kept the Citadel fed, preparing hearty meals for Knights and Scribes and boosting morale with every meal served for the Pride.</description>
+        <skillGains>
+            <Cooking>4</Cooking>
+            <Social>1</Social>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Backstory_Lyons_BoS</li>
+        </spawnCategories>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Pride Mechanic -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_BoS_Lyons_Pride_Knight_Mechanic</defName>
+        <identifier>FCP_Backstory_BoS_Lyons_Pride_Knight_Mechanic</identifier>
+        <slot>Adulthood</slot>
+        <title>Pride Mechanic</title>
+        <titleShort>Mechanic</titleShort>
+        <description>[PAWN_nameDef] maintained the Pride's vehicles and power armor, ensuring every machine was ready for battle at a moment's notice.</description>
+        <skillGains>
+            <Crafting>4</Crafting>
+            <Construction>2</Construction>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Backstory_Lyons_BoS</li>
+        </spawnCategories>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Scout Leader -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_BoS_Lyons_Pride_Knight_Scout_Leader</defName>
+        <identifier>FCP_Backstory_BoS_Lyons_Pride_Knight_Scout_Leader</identifier>
+        <slot>Adulthood</slot>
+        <title>Scout Leader</title>
+        <titleShort>Scout Leader</titleShort>
+        <description>[PAWN_nameDef] led reconnaissance teams through the ruins of DC, mapping safe routes and identifying threats before they could strike for the Pride.</description>
+        <skillGains>
+            <Shooting>2</Shooting>
+            <Plants>2</Plants>
+            <Animals>2</Animals>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Backstory_Lyons_BoS</li>
+        </spawnCategories>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Diplomat -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_BoS_Lyons_Pride_Scribe_Diplomat</defName>
+        <identifier>FCP_Backstory_BoS_Lyons_Pride_Scribe_Diplomat</identifier>
+        <slot>Adulthood</slot>
+        <title>Pride Diplomat</title>
+        <titleShort>Diplomat</titleShort>
+        <description>[PAWN_nameDef] negotiated with wasteland settlements and rival factions on behalf of Lyons' Pride, forging alliances and securing resources for the cause.</description>
+        <skillGains>
+            <Social>4</Social>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Backstory_Lyons_BoS</li>
+        </spawnCategories>
+        <possessions />
+    </BackstoryDef>
+
+    <!--__ Children __-->
+
+    <!-- Bunker Born -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_BoS_Lyons_Pride_Squire_Bunker_Born</defName>
+        <identifier>FCP_Backstory_BoS_Lyons_Pride_Squire_Bunker_Born</identifier>
+        <slot>Childhood</slot>
+        <title>Bunker Born</title>
+        <titleShort>Bunker Born</titleShort>
+        <description>[PAWN_nameDef] was born and raised within the fortified walls of the Citadel. From a young age, [PAWN_pronoun] learned the value of discipline, order, and the importance of technology in rebuilding civilization as part of Lyons' Pride.</description>
+        <skillGains>
+            <Intellectual>2</Intellectual>
+            <Construction>1</Construction>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Backstory_Lyons_Child</li>
+        </spawnCategories>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Wasteland Orphan -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_BoS_Lyons_Pride_Squire_Wasteland_Orphan</defName>
+        <identifier>FCP_Backstory_BoS_Lyons_Pride_Squire_Wasteland_Orphan</identifier>
+        <slot>Childhood</slot>
+        <title>Wasteland Orphan</title>
+        <titleShort>Orphan</titleShort>
+        <description>Orphaned by raiders, [PAWN_nameDef] was rescued by a Lyons' Pride patrol and given a new purpose. Life in the Citadel was strict, but [PAWN_pronoun] thrived under the Pride's guidance.</description>
+        <skillGains>
+            <Shooting>1</Shooting>
+            <Social>1</Social>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Backstory_Lyons_Child</li>
+        </spawnCategories>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Tech Apprentice -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_BoS_Lyons_Pride_Squire_Tech_Apprentice</defName>
+        <identifier>FCP_Backstory_BoS_Lyons_Pride_Squire_Tech_Apprentice</identifier>
+        <slot>Childhood</slot>
+        <title>Tech Apprentice</title>
+        <titleShort>Tech Apprentice</titleShort>
+        <description>Fascinated by pre-war relics, [PAWN_nameDef] spent [PAWN_possessive] youth assisting Pride Scribes in restoring ancient technology, learning the value of knowledge and patience.</description>
+        <skillGains>
+            <Intellectual>3</Intellectual>
+            <Crafting>2</Crafting>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Backstory_Lyons_Child</li>
+        </spawnCategories>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Field Medic -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_BoS_Lyons_Pride_Squire_Field_Medic</defName>
+        <identifier>FCP_Backstory_BoS_Lyons_Pride_Squire_Field_Medic</identifier>
+        <slot>Childhood</slot>
+        <title>Field Medic Squire</title>
+        <titleShort>Field Medic</titleShort>
+        <description>Assigned to the medbay, [PAWN_nameDef] learned basic first aid and battlefield triage, preparing [PAWN_objective] for the harsh realities of wasteland combat as part of Lyons' Pride.</description>
+        <skillGains>
+            <Medicine>3</Medicine>
+            <Social>1</Social>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Backstory_Lyons_Child</li>
+        </spawnCategories>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Power Armor Trainee -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_BoS_Lyons_Pride_Squire_Power_Armor_Trainee</defName>
+        <identifier>FCP_Backstory_BoS_Lyons_Pride_Squire_Power_Armor_Trainee</identifier>
+        <slot>Childhood</slot>
+        <title>Power Armor Trainee</title>
+        <titleShort>Armor Trainee</titleShort>
+        <description>From a young age, [PAWN_nameDef] was fascinated by the Pride's iconic power armor. [PAWN_pronoun] spent countless hours learning to maintain and eventually operate these technological marvels.</description>
+        <skillGains>
+            <Crafting>2</Crafting>
+            <Construction>2</Construction>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Backstory_Lyons_Child</li>
+        </spawnCategories>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Archivist's Assistant -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_BoS_Lyons_Pride_Squire_Archivist_Assistant</defName>
+        <identifier>FCP_Backstory_BoS_Lyons_Pride_Squire_Archivist_Assistant</identifier>
+        <slot>Childhood</slot>
+        <title>Archivist's Assistant</title>
+        <titleShort>Archivist</titleShort>
+        <description>[PAWN_nameDef] spent [PAWN_possessive] early years helping Pride archivists preserve and study pre-war documents, learning the importance of history and record-keeping.</description>
+        <skillGains>
+            <Intellectual>2</Intellectual>
+            <Artistic>1</Artistic>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Backstory_Lyons_Child</li>
+        </spawnCategories>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Workshop Helper -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_BoS_Lyons_Pride_Squire_Workshop_Helper</defName>
+        <identifier>FCP_Backstory_BoS_Lyons_Pride_Squire_Workshop_Helper</identifier>
+        <slot>Childhood</slot>
+        <title>Workshop Helper</title>
+        <titleShort>Workshop Helper</titleShort>
+        <description>As a child, [PAWN_nameDef] was often found in the Pride's workshops, learning to repair weapons and armor under the watchful eyes of veteran mechanics.</description>
+        <skillGains>
+            <Crafting>3</Crafting>
+            <Construction>1</Construction>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Backstory_Lyons_Child</li>
+        </spawnCategories>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Mess Hall Steward -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_BoS_Lyons_Pride_Squire_Mess_Hall_Steward</defName>
+        <identifier>FCP_Backstory_BoS_Lyons_Pride_Squire_Mess_Hall_Steward</identifier>
+        <slot>Childhood</slot>
+        <title>Mess Hall Steward</title>
+        <titleShort>Mess Steward</titleShort>
+        <description>[PAWN_nameDef] learned responsibility and teamwork by helping organize meals and supplies in the Pride's mess hall, ensuring everyone was fed and accounted for.</description>
+        <skillGains>
+            <Cooking>2</Cooking>
+            <Social>1</Social>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Backstory_Lyons_Child</li>
+        </spawnCategories>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Scout in Training -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_BoS_Lyons_Pride_Squire_Scout_In_Training</defName>
+        <identifier>FCP_Backstory_BoS_Lyons_Pride_Squire_Scout_In_Training</identifier>
+        <slot>Childhood</slot>
+        <title>Scout in Training</title>
+        <titleShort>Scout Trainee</titleShort>
+        <description>From a young age, [PAWN_nameDef] was taught to navigate the ruins of DC, learning stealth, observation, and survival skills from Pride scouts.</description>
+        <skillGains>
+            <Shooting>1</Shooting>
+            <Plants>1</Plants>
+            <Animals>1</Animals>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Backstory_Lyons_Child</li>
+        </spawnCategories>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Scribe's Pupil -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_BoS_Lyons_Pride_Squire_Scribes_Pupil</defName>
+        <identifier>FCP_Backstory_BoS_Lyons_Pride_Squire_Scribes_Pupil</identifier>
+        <slot>Childhood</slot>
+        <title>Scribe's Pupil</title>
+        <titleShort>Scribe's Pupil</titleShort>
+        <description>[PAWN_nameDef] was chosen by a Pride Scribe for early mentorship, learning to read, write, and analyze ancient texts and schematics.</description>
+        <skillGains>
+            <Intellectual>3</Intellectual>
+            <Artistic>1</Artistic>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Backstory_Lyons_Child</li>
+        </spawnCategories>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Youngling Historian -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_BoS_Lyons_Pride_Squire_Youngling_Historian</defName>
+        <identifier>FCP_Backstory_BoS_Lyons_Pride_Squire_Youngling_Historian</identifier>
+        <slot>Childhood</slot>
+        <title>Youngling Historian</title>
+        <titleShort>Historian</titleShort>
+        <description>[PAWN_nameDef] always had an interest in the history of mankind, much to the irritation of [PAWN_possessive] teachers, as the Pride preferred to teach more “useful” things. [PAWN_pronoun] often procured knowledge through unconventional means.</description>
+        <skillGains>
+            <Intellectual>4</Intellectual>
+            <Artistic>2</Artistic>
+            <Medicine>1</Medicine>
+            <Construction>1</Construction>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Backstory_Lyons_Child</li>
+        </spawnCategories>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Canteen Apprentice -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_BoS_Lyons_Pride_Squire_Canteen_Apprentice</defName>
+        <identifier>FCP_Backstory_BoS_Lyons_Pride_Squire_Canteen_Apprentice</identifier>
+        <slot>Childhood</slot>
+        <title>Canteen Apprentice</title>
+        <titleShort>Canteen Apprentice</titleShort>
+        <description>While the Pride shunned luxuries, the elders acknowledged the morale boost a decent meal offered. As a squire, [PAWN_nameDef] showed a talent for cooking and regularly helped out the canteen staff.</description>
+        <skillGains>
+            <Cooking>3</Cooking>
+            <Animals>2</Animals>
+            <Social>1</Social>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Backstory_Lyons_Child</li>
+        </spawnCategories>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Workshop Tinkerer -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_BoS_Lyons_Pride_Squire_Workshop_Tinkerer</defName>
+        <identifier>FCP_Backstory_BoS_Lyons_Pride_Squire_Workshop_Tinkerer</identifier>
+        <slot>Childhood</slot>
+        <title>Workshop Tinkerer</title>
+        <titleShort>Tinkerer</titleShort>
+        <description>[PAWN_nameDef] was always curious about how things worked, often found disassembling and reassembling gadgets in the Pride's workshops under the guidance of patient Knights.</description>
+        <skillGains>
+            <Crafting>2</Crafting>
+            <Intellectual>1</Intellectual>
+            <Construction>1</Construction>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Backstory_Lyons_Child</li>
+        </spawnCategories>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Squire Messenger -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_BoS_Lyons_Pride_Squire_Messenger</defName>
+        <identifier>FCP_Backstory_BoS_Lyons_Pride_Squire_Messenger</identifier>
+        <slot>Childhood</slot>
+        <title>Squire Messenger</title>
+        <titleShort>Messenger</titleShort>
+        <description>[PAWN_nameDef] was trusted to deliver messages and supplies throughout the Citadel, learning the importance of reliability and quick thinking in Pride operations.</description>
+        <skillGains>
+            <Social>2</Social>
+            <Plants>1</Plants>
+            <Shooting>1</Shooting>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Backstory_Lyons_Child</li>
+        </spawnCategories>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Junior Medic -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_BoS_Lyons_Pride_Squire_Junior_Medic</defName>
+        <identifier>FCP_Backstory_BoS_Lyons_Pride_Squire_Junior_Medic</identifier>
+        <slot>Childhood</slot>
+        <title>Junior Medic</title>
+        <titleShort>Junior Medic</titleShort>
+        <description>[PAWN_nameDef] assisted Pride medics with basic first aid and learned to care for the wounded, developing a steady hand and a compassionate heart.</description>
+        <skillGains>
+            <Medicine>2</Medicine>
+            <Social>1</Social>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Backstory_Lyons_Child</li>
+        </spawnCategories>
+        <possessions />
+    </BackstoryDef>
+
+</Defs>
