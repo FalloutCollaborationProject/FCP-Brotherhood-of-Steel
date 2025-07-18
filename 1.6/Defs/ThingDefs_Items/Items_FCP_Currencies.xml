@@ -10,7 +10,7 @@
         <label>Brotherhood Scrip</label>
         <description>DESCRIPTION</description>
         <graphicData>
-            <texPath>Things/Items/Currencies/FCP_Bottle_Caps_Currency</texPath>
+            <texPath>Things/Items/Currencies/FCP_BoS_Scrip_Currency</texPath>
             <graphicClass>Graphic_StackCount</graphicClass>
         </graphicData>
         <resourceReadoutPriority>Middle</resourceReadoutPriority>
