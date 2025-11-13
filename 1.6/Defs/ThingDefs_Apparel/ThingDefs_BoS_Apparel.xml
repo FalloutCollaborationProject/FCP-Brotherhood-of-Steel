@@ -5,8 +5,6 @@
 
     <!--_____ Brotherhood Clothing _____-->
 
-    <!--___ Common ___-->
-
     <!-- Elder Robes -->
 
     <ThingDef ParentName="FCP_Apparel_Makeable_Base">

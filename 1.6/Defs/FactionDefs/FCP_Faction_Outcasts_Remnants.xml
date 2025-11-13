@@ -134,7 +134,7 @@
 		<settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
 		<modExtensions>
 			<li Class="FalloutCurrencies.FactionCurrency">
-				<currency>FCP_Currency_BoS_Scrip</currency>				<!-- Change this to correct defName -->
+				<currency>FCP_Currency_BoS_Scrip</currency>
 			</li>
 			<li Class="FCP_Shuttles.FactionModExtension">
 				<transportShipDef>FCP_BoS_Outcast_Vertibird</transportShipDef>
