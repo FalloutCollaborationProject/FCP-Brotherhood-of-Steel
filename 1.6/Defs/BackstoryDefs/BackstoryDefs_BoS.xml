@@ -90,33 +90,6 @@
         </possessions>
     </BackstoryDef>
 
-    <!-- Brotherhood Cleanser -->
-
-    <BackstoryDef>
-        <defName>FCP_Backstory_BoS_Brotherhood_Cleanser</defName>
-        <identifier>FCP_Backstory_BoS_Brotherhood_Cleanser</identifier>
-        <slot>Adulthood</slot>
-        <title>Brotherhood Cleanser</title>
-        <titleShort>Brotherhood Cleanser</titleShort>
-        <description>The wasteland was full of Super Mutants, Ghouls and other abominations the Brotherhood sought to purge. [PAWN_nameDef] was part of a team deployed to cleanse the wasteland of the radiated horrors. [PAWN_pronoun] was an expert fighter, never losing [PAWN_possessive] nerve in battle. After years of fighting the vilest creatures the wasteland spat out, [PAWN_nameDef] developed an almost religious zealotry which separated [PAWN_objective] from the more pragmatic members of the Brotherhood.</description>
-        <skillGains>
-            <Shooting>4</Shooting>
-            <Melee>4</Melee>
-            <Construction>4</Construction>
-            <Social>-4</Social>
-            <Intellectual>-4</Intellectual>
-        </skillGains>
-        <workDisables>Artistic</workDisables>
-        <requiredWorkTags>None</requiredWorkTags>
-        <spawnCategories>
-            <li>FCP_Backstory_BoS</li>
-        </spawnCategories>
-        <bodyTypeFemale>Female</bodyTypeFemale>
-        <bodyTypeMale>Male</bodyTypeMale>
-        <possessions>
-        </possessions>
-    </BackstoryDef>
-
     <!-- Brotherhood Quartermaster -->
 
     <BackstoryDef>

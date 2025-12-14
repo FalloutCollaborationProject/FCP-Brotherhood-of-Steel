@@ -153,7 +153,7 @@
                 <li>Arms</li>
                 <li>Legs</li>
             </bodyPartGroups>
-            <wornGraphicPath>Things/BoS/Apparel/BoS_Apalacia_Fatigues/BOSFatigues/FCP_BoS_Apalacia_Fatigues</wornGraphicPath>
+            <wornGraphicPath>Things/BoS/Apparel/BoS_Apalacia_Infantry_Uniform/InfantryUniform/FCP_BoS_Apalacia_Infantry_Uniform</wornGraphicPath>
             <layers>
                 <li>OnSkin</li>
             </layers>

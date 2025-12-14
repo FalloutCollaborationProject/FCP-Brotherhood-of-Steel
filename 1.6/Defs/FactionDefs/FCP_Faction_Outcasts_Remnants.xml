@@ -26,7 +26,7 @@
 		<fixedName>Brotherhood Outcasts</fixedName>
 		<settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
 		<allowedCultures>
-			<li>FCP_Culture_BoS_Outcasts</li>
+			<li>FCP_Culture_BoS</li>
 		</allowedCultures>
 		<disallowedPrecepts>
 			<li MayRequire="Ludeon.RimWorld.Ideology">DrugUse_MedicalOnly</li>
@@ -50,6 +50,7 @@
 		<caravanTraderKinds>
 			<li>Caravan_Outlander_BulkGoods</li>
 			<li>Caravan_Outlander_CombatSupplier</li>
+			<li>FCP_Caravan_BoS_Prisoner_Exchange</li>
 			<li>Caravan_Outlander_Exotic</li>
 			<li>Caravan_Outlander_PirateMerchant</li>
 		</caravanTraderKinds>
@@ -60,7 +61,7 @@
 			<li>Base_Outlander_Standard</li>
 		</baseTraderKinds>
 		<allowedArrivalTemperatureRange>-40~45</allowedArrivalTemperatureRange>
-		<raidLootMaker>FCP_BoSRaidLootMaker</raidLootMaker>
+		<raidLootMaker>FCP_BoSRaidLootMakerOutcasts</raidLootMaker>
 		<maxPawnCostPerTotalPointsCurve>
 			<points>
 				<li>(0,35)</li>
@@ -90,10 +91,10 @@
 			<li>
 				<kindDef>Trader</kindDef>
 				<traders>
-					<FCP_Pawnkind_BoS_Outcast_Trader>1</FCP_Pawnkind_BoS_Outcast_Trader>
+					<FCP_Pawnkind_BoS_Scribe_Proctor>1</FCP_Pawnkind_BoS_Scribe_Proctor>
 				</traders>
 				<carriers>
-					<Brahmin>6</Brahmin>
+					<FCP_Animal_Brahmin>6</FCP_Animal_Brahmin>
 				</carriers>
 				<guards>
 					<FCP_Pawnkind_BoS_Outcast_Specialist>7</FCP_Pawnkind_BoS_Outcast_Specialist>
@@ -112,7 +113,7 @@
 		</pawnGroupMakers>
 		<settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
 		<modExtensions>
-			<li Class="FalloutCurrencies.FactionCurrency">
+			<li Class="FCP.Currencies.CurrencyReplacement">
 				<currency>FCP_Currency_BoS_Scrip</currency>
 			</li>
 			<li Class="FCP_Shuttles.FactionModExtension">
@@ -124,7 +125,7 @@
 	</FactionDef>
 
 	<ThingSetMakerDef>
-		<defName>FCP_BoSRaidLootMaker</defName>
+		<defName>FCP_BoSRaidLootMakerOutcasts</defName>
 		<root Class="ThingSetMaker_MarketValue">
 			<fixedParams>
 				<filter>

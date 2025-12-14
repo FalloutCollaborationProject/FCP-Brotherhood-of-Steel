@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+
+<Defs>
+
+    <TraderKindDef>
+        <defName>FCP_Caravan_BoS_Prisoner_Exchange</defName>
+        <label>BoS Prisoner Exchange</label>
+        <category>Slaver</category>
+        <stockGenerators>
+
+            <!--__ Slaves __-->
+
+            <li Class="FCP.Core.StockGenerator_PawnsWithXenotype">
+                <ignoreIdeoRequirements>true</ignoreIdeoRequirements>
+                <respectPopulationIntent>false</respectPopulationIntent>
+                <countRange>2~5</countRange>
+                <slaveKindDef>FCP_Pawnkind_BoS_Prisoner</slaveKindDef>
+            </li>
+
+            <!--__ Currency __-->
+
+            <!-- BoS Scrips -->
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>FCP_Currency_BoS_Scrip</thingDef>
+                <countRange>750~1200</countRange>
+            </li>
+        </stockGenerators>
+    </TraderKindDef>
+
+</Defs>

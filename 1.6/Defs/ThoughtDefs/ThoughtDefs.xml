@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+
+<Defs>
+
+<ThoughtDef>
+        <defName>FCP_BoS_Turned_In_An_Outlaw</defName>
+        <durationDays>3</durationDays>
+        <stackLimit>1</stackLimit>
+        <stages>
+            <li>
+                <label>turned in an outlaw</label>
+                <description>We apprehended a suspect and they're now being taken to the BoS.</description>
+                <baseMoodEffect>2</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+
+</Defs>

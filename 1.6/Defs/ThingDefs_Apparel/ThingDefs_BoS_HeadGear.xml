@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Defs>
+
+    <!--__________ Botherhood of Steel __________-->
+
+    <!--_____ Brotherhood HeadGear _____-->
+
+    <!-- BoS Apalacia Beret -->
+
+    <ThingDef ParentName="HatMakeableBase">
+        <defName>FCP_Apparel_BoS_Apalacia_Beret</defName>
+        <label>BoS Apalacia Beret</label>
+        <description>PLACEHOLDER</description>
+        <techLevel>Industrial</techLevel>
+        <graphicData>
+            <texPath>Things/BoS/Apparel/BoS_Apalacia_Fatigues/BOSFatigues/FCP_BoS_Apalacia_Beret</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <costList>
+            <Cloth>15</Cloth>
+        </costList>
+        <recipeMaker>
+            <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
+            <skillRequirements>
+                <Crafting>3</Crafting>
+            </skillRequirements>
+            <recipeUsers>
+                <li>FCP_Production_Tailoring_Workbench</li>
+            </recipeUsers>
+        </recipeMaker>
+        <statBases>
+            <WorkToMake>3000</WorkToMake>
+            <MaxHitPoints>80</MaxHitPoints>
+            <Mass>0.8</Mass>
+            <ArmorRating_Sharp>0.13</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.07</ArmorRating_Blunt>
+            <Insulation_Heat>2</Insulation_Heat>
+            <EquipDelay>1.5</EquipDelay>
+        </statBases>
+        <apparel>
+            <bodyPartGroups>
+                <li>UpperHead</li>
+            </bodyPartGroups>
+            <wornGraphicPath>Things/BoS/Apparel/BoS_Apalacia_Fatigues/BOSFatigues/FCP_BoS_Apalacia_Beret</wornGraphicPath>
+            <layers>
+                <li>Overhead</li>
+            </layers>
+            <tags>
+                <li>FCP_BoS_Apparel</li>
+            </tags>
+        </apparel>
+    </ThingDef>
+
+    <!-- BoS Apalacia Infantry Hood -->
+
+    <ThingDef ParentName="HatMakeableBase">
+        <defName>FCP_Apparel_BoS_Apalacia_Infantry_Hood</defName>
+        <label>BoS Apalacia Infantry Hood</label>
+        <description>PLACEHOLDER</description>
+        <techLevel>Industrial</techLevel>
+        <graphicData>
+            <texPath>Things/BoS/Apparel/BoS_Apalacia_Infantry_Uniform/InfantryUniform/FCP_BoS_Apalacia_Infantry_Hood</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <costList>
+            <Cloth>15</Cloth>
+        </costList>
+        <recipeMaker>
+            <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
+            <skillRequirements>
+                <Crafting>3</Crafting>
+            </skillRequirements>
+            <recipeUsers>
+                <li>FCP_Production_Tailoring_Workbench</li>
+            </recipeUsers>
+        </recipeMaker>
+        <statBases>
+            <WorkToMake>3000</WorkToMake>
+            <MaxHitPoints>80</MaxHitPoints>
+            <Mass>0.8</Mass>
+            <ArmorRating_Sharp>0.13</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.07</ArmorRating_Blunt>
+            <Insulation_Heat>2</Insulation_Heat>
+            <EquipDelay>1.5</EquipDelay>
+        </statBases>
+        <apparel>
+            <bodyPartGroups>
+                <li>FullHead</li>
+            </bodyPartGroups>
+            <wornGraphicPath>Things/BoS/Apparel/BoS_Apalacia_Infantry_Uniform/InfantryUniform/FCP_BoS_Apalacia_Infantry_Hood</wornGraphicPath>
+            <layers>
+                <li>Overhead</li>
+            </layers>
+            <tags>
+                <li>FCP_BoS_Apparel</li>
+            </tags>
+        </apparel>
+    </ThingDef>
+
+<!-- BoS B35C Helmet -->
+
+    <ThingDef ParentName="HatMakeableBase">
+        <defName>FCP_Apparel_BoS_B35C_Helmet</defName>
+        <label>BoS B35C Helmet</label>
+        <description>PLACEHOLDER</description>
+        <techLevel>Industrial</techLevel>
+        <graphicData>
+            <texPath>Things/BoS/Apparel/BoS_B35C_Armor/B_35C/FCP_BoS_B35C_Helmet</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <costList>
+            <Cloth>15</Cloth>
+        </costList>
+        <recipeMaker>
+            <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
+            <skillRequirements>
+                <Crafting>3</Crafting>
+            </skillRequirements>
+            <recipeUsers>
+                <li>FCP_Production_Tailoring_Workbench</li>
+            </recipeUsers>
+        </recipeMaker>
+        <statBases>
+            <WorkToMake>3000</WorkToMake>
+            <MaxHitPoints>80</MaxHitPoints>
+            <Mass>0.8</Mass>
+            <ArmorRating_Sharp>0.13</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.07</ArmorRating_Blunt>
+            <Insulation_Heat>2</Insulation_Heat>
+            <EquipDelay>1.5</EquipDelay>
+        </statBases>
+        <apparel>
+            <bodyPartGroups>
+                <li>FullHead</li>
+            </bodyPartGroups>
+            <wornGraphicPath>Things/BoS/Apparel/BoS_B35C_Armor/B_35C/FCP_BoS_B35C_Helmet</wornGraphicPath>
+            <layers>
+                <li>Overhead</li>
+            </layers>
+            <tags>
+                <li>FCP_BoS_Apparel</li>
+            </tags>
+        </apparel>
+    </ThingDef>
+
+    <!-- BoS Flight Helmet -->
+
+    <ThingDef ParentName="HatMakeableBase">
+        <defName>FCP_Apparel_BoS_Flight_Helmet</defName>
+        <label>BoS Flight Helmet</label>
+        <description>PLACEHOLDER</description>
+        <techLevel>Industrial</techLevel>
+        <graphicData>
+            <texPath>Things/BoS/Apparel/BoS_Flight_Helmet/FlightHelmet/FCP_BoS_Flight_Helmet</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <costList>
+            <Cloth>15</Cloth>
+        </costList>
+        <recipeMaker>
+            <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
+            <skillRequirements>
+                <Crafting>3</Crafting>
+            </skillRequirements>
+            <recipeUsers>
+                <li>FCP_Production_Tailoring_Workbench</li>
+            </recipeUsers>
+        </recipeMaker>
+        <statBases>
+            <WorkToMake>3000</WorkToMake>
+            <MaxHitPoints>80</MaxHitPoints>
+            <Mass>0.8</Mass>
+            <ArmorRating_Sharp>0.13</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.07</ArmorRating_Blunt>
+            <Insulation_Heat>2</Insulation_Heat>
+            <EquipDelay>1.5</EquipDelay>
+        </statBases>
+        <apparel>
+            <bodyPartGroups>
+                <li>FullHead</li>
+            </bodyPartGroups>
+            <wornGraphicPath>Things/BoS/Apparel/BoS_Flight_Helmet/FlightHelmet/FCP_BoS_Flight_Helmet</wornGraphicPath>
+            <layers>
+                <li>Overhead</li>
+            </layers>
+            <tags>
+                <li>FCP_BoS_Apparel</li>
+            </tags>
+        </apparel>
+    </ThingDef>
+
+    <!-- BoS Recon Hood -->
+
+    <ThingDef ParentName="HatMakeableBase">
+        <defName>FCP_Apparel_BoS_Recon_Hood</defName>
+        <label>BoS Recon Hood</label>
+        <description>PLACEHOLDER</description>
+        <techLevel>Industrial</techLevel>
+        <graphicData>
+            <texPath>Things/BoS/Apparel/BoS_Recon_Armor/ReconArmor/FCP_BoS_Recon_Hood</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <costList>
+            <Cloth>15</Cloth>
+        </costList>
+        <recipeMaker>
+            <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
+            <skillRequirements>
+                <Crafting>3</Crafting>
+            </skillRequirements>
+            <recipeUsers>
+                <li>FCP_Production_Tailoring_Workbench</li>
+            </recipeUsers>
+        </recipeMaker>
+        <statBases>
+            <WorkToMake>3000</WorkToMake>
+            <MaxHitPoints>80</MaxHitPoints>
+            <Mass>0.8</Mass>
+            <ArmorRating_Sharp>0.13</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.07</ArmorRating_Blunt>
+            <Insulation_Heat>2</Insulation_Heat>
+            <EquipDelay>1.5</EquipDelay>
+        </statBases>
+        <apparel>
+            <bodyPartGroups>
+                <li>FullHead</li>
+            </bodyPartGroups>
+            <wornGraphicPath>Things/BoS/Apparel/BoS_Recon_Armor/ReconArmor/FCP_BoS_Recon_Hood</wornGraphicPath>
+            <layers>
+                <li>Overhead</li>
+            </layers>
+            <tags>
+                <li>FCP_BoS_Apparel</li>
+            </tags>
+        </apparel>
+    </ThingDef>
+    
+    <!-- BoS Flight Helmet -->
+
+    <ThingDef ParentName="HatMakeableBase">
+        <defName>FCP_Apparel_BoS_Lancer_Captain_Hat</defName>
+        <label>BoS Lancer's Captain Hat</label>
+        <description>PLACEHOLDER</description>
+        <techLevel>Industrial</techLevel>
+        <graphicData>
+            <texPath>Things/BoS/Apparel/BoS_Lancer_Captains_Uniform/LancerCaptainsUniform/FCP_Lancer_Captain_Hat_south</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <costList>
+            <Cloth>15</Cloth>
+        </costList>
+        <recipeMaker>
+            <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
+            <skillRequirements>
+                <Crafting>3</Crafting>
+            </skillRequirements>
+            <recipeUsers>
+                <li>FCP_Production_Tailoring_Workbench</li>
+            </recipeUsers>
+        </recipeMaker>
+        <statBases>
+            <WorkToMake>3000</WorkToMake>
+            <MaxHitPoints>80</MaxHitPoints>
+            <Mass>0.8</Mass>
+            <ArmorRating_Sharp>0.13</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.07</ArmorRating_Blunt>
+            <Insulation_Heat>2</Insulation_Heat>
+            <EquipDelay>1.5</EquipDelay>
+        </statBases>
+        <apparel>
+            <bodyPartGroups>
+                <li>FullHead</li>
+            </bodyPartGroups>
+            <wornGraphicPath>Things/BoS/Apparel/BoS_Lancer_Captains_Uniform/LancerCaptainsUniform/FCP_Lancer_Captain_Hat</wornGraphicPath>
+            <layers>
+                <li>Overhead</li>
+            </layers>
+            <tags>
+                <li>FCP_BoS_Apparel</li>
+            </tags>
+        </apparel>
+    </ThingDef>
+
+ <!-- BoS Field Scribe Hat -->
+
+    <ThingDef ParentName="HatMakeableBase">
+        <defName>FCP_Apparel_BoS_Field_Scribe_Hat</defName>
+        <label>BoS Science Field Hat</label>
+        <description>PLACEHOLDER</description>
+        <techLevel>Industrial</techLevel>
+        <graphicData>
+            <texPath>Things/BoS/Apparel/BoS_Field_Scribe/fieldscribe/FCP_BoS_Field_Scribe_Hat</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <costList>
+            <Cloth>15</Cloth>
+        </costList>
+        <recipeMaker>
+            <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
+            <skillRequirements>
+                <Crafting>3</Crafting>
+            </skillRequirements>
+            <recipeUsers>
+                <li>FCP_Production_Tailoring_Workbench</li>
+            </recipeUsers>
+        </recipeMaker>
+        <statBases>
+            <WorkToMake>3000</WorkToMake>
+            <MaxHitPoints>80</MaxHitPoints>
+            <Mass>0.8</Mass>
+            <ArmorRating_Sharp>0.13</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.07</ArmorRating_Blunt>
+            <Insulation_Heat>2</Insulation_Heat>
+            <EquipDelay>1.5</EquipDelay>
+        </statBases>
+        <apparel>
+            <bodyPartGroups>
+                <li>FullHead</li>
+            </bodyPartGroups>
+            <wornGraphicPath>Things/BoS/Apparel/BoS_Field_Scribe/fieldscribe/FCP_BoS_Field_Scribe_Hat</wornGraphicPath>
+            <layers>
+                <li>Overhead</li>
+            </layers>
+            <tags>
+                <li>FCP_BoS_Apparel</li>
+            </tags>
+        </apparel>
+    </ThingDef>
+
+    <!-- BoS Science Scribe Hat -->
+
+    <ThingDef ParentName="HatMakeableBase">
+        <defName>FCP_Apparel_BoS_Science_Scribe_Hat</defName>
+        <label>BoS Science Scribe Hat</label>
+        <description>PLACEHOLDER</description>
+        <techLevel>Industrial</techLevel>
+        <graphicData>
+            <texPath>Things/BoS/Apparel/BoS_Science_Scribe/ScienceScribe/FCP_BoS_Science_Scribe_Hat</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <costList>
+            <Cloth>15</Cloth>
+        </costList>
+        <recipeMaker>
+            <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
+            <skillRequirements>
+                <Crafting>3</Crafting>
+            </skillRequirements>
+            <recipeUsers>
+                <li>FCP_Production_Tailoring_Workbench</li>
+            </recipeUsers>
+        </recipeMaker>
+        <statBases>
+            <WorkToMake>3000</WorkToMake>
+            <MaxHitPoints>80</MaxHitPoints>
+            <Mass>0.8</Mass>
+            <ArmorRating_Sharp>0.13</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.07</ArmorRating_Blunt>
+            <Insulation_Heat>2</Insulation_Heat>
+            <EquipDelay>1.5</EquipDelay>
+        </statBases>
+        <apparel>
+            <bodyPartGroups>
+                <li>FullHead</li>
+            </bodyPartGroups>
+            <wornGraphicPath>Things/BoS/Apparel/BoS_Science_Scribe/ScienceScribe/FCP_BoS_Science_Scribe_Hat</wornGraphicPath>
+            <layers>
+                <li>Overhead</li>
+            </layers>
+            <tags>
+                <li>FCP_BoS_Apparel</li>
+            </tags>
+        </apparel>
+    </ThingDef>
+
+    <!-- BoS Squire Hat -->
+
+    <ThingDef ParentName="HatMakeableBase">
+        <defName>FCP_Apparel_BoS_Squire_Hat</defName>
+        <label>BoS Science Scribe Hat</label>
+        <description>PLACEHOLDER</description>
+        <techLevel>Industrial</techLevel>
+        <graphicData>
+            <texPath>Things/BoS/Apparel/BoS_Squire/FCP_BoS_Squire_Hat</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <costList>
+            <Cloth>15</Cloth>
+        </costList>
+        <recipeMaker>
+            <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
+            <skillRequirements>
+                <Crafting>3</Crafting>
+            </skillRequirements>
+            <recipeUsers>
+                <li>FCP_Production_Tailoring_Workbench</li>
+            </recipeUsers>
+        </recipeMaker>
+        <statBases>
+            <WorkToMake>3000</WorkToMake>
+            <MaxHitPoints>80</MaxHitPoints>
+            <Mass>0.8</Mass>
+            <ArmorRating_Sharp>0.13</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.07</ArmorRating_Blunt>
+            <Insulation_Heat>2</Insulation_Heat>
+            <EquipDelay>1.5</EquipDelay>
+        </statBases>
+        <apparel>
+            <bodyPartGroups>
+                <li>FullHead</li>
+            </bodyPartGroups>
+            <wornGraphicPath>Things/BoS/Apparel/BoS_Squire/FCP_BoS_Squire_Hat</wornGraphicPath>
+            <layers>
+                <li>Overhead</li>
+            </layers>
+            <tags>
+                <li>FCP_BoS_Apparel</li>
+            </tags>
+        </apparel>
+    </ThingDef>
+
+</Defs>
