@@ -54,7 +54,7 @@
         <drawHighlight>true</drawHighlight>
         <highlightColor>(0.56, 0.62, 0.9)</highlightColor>
         <graphicData>
-            <texPath>Things/Vehicles/Shuttles</texPath>
+            <texPath>Things/Vehicles/Shuttles/BoSVertibird</texPath>
             <graphicClass>Graphic_Random</graphicClass>
             <drawSize>(8,8)</drawSize>
             <shadowData>
@@ -143,8 +143,8 @@
         <drawHighlight>true</drawHighlight>
         <highlightColor>(0.56, 0.62, 0.9)</highlightColor>
         <graphicData>
-            <texPath>Things/Vehicles/Shuttles</texPath>
-            <graphicClass>Graphic_Random</graphicClass>
+            <texPath>Things/Vehicles/Shuttles/LyonVertibird/LyonVertibird</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
             <drawSize>(8,8)</drawSize>
             <shadowData>
                 <volume>(4.1, 1.0, 1.8)</volume>
@@ -232,8 +232,8 @@
         <drawHighlight>true</drawHighlight>
         <highlightColor>(0.56, 0.62, 0.9)</highlightColor>
         <graphicData>
-            <texPath>Things/Vehicles/Shuttles</texPath>
-            <graphicClass>Graphic_Random</graphicClass>
+            <texPath>Things/Vehicles/Shuttles/OutcastVertibird/OutcastVertibird</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
             <drawSize>(8,8)</drawSize>
             <shadowData>
                 <volume>(4.1, 1.0, 1.8)</volume>
@@ -336,7 +336,7 @@
     <ThingDef Name="FCP_BoS_VertibirdSkyfallerBase" ParentName="SkyfallerBase" Abstract="True">
         <size>(10,8)</size>
         <graphicData>
-            <texPath>Things/Vehicles/Shuttles</texPath>
+            <texPath>Things/Vehicles/Shuttles/BoSVertibird</texPath>
             <graphicClass>Graphic_Random</graphicClass>
             <shaderType>CutoutFlying</shaderType>
             <drawSize>(8,8)</drawSize>
