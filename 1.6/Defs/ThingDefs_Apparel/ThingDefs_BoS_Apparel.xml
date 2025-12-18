@@ -774,7 +774,7 @@
             </recipeUsers>
         </recipeMaker>
         <costList>
-            <FCP_Apparel_Reinforced_Combat_Armor>1</FCP_Apparel_Reinforced_Combat_Armor>
+            <Steel>50</Steel>
         </costList>
         <statBases>
             <MaxHitPoints>120</MaxHitPoints>
