@@ -36,10 +36,10 @@
 
 	<PawnKindDef ParentName="FCP_BoSkindBase" Name="FCP_BoS_PowerArmorBase" Abstract="True">
 		<apparelRequired>
-			<li>FCP_Apparel_Power_Armor_Frame</li>
+			<li MayRequire="Rick.FCP.PowerArmor">FCP_Apparel_Power_Armor_Frame</li>
 			<li>FCP_Apparel_BoS_Jumpsuit</li>
-			<li>FCP_Apparel_Power_Armor_T60Armor</li>
-			<li>FCP_Apparel_Power_Armor_T60_Helmet</li>
+			<li MayRequire="Rick.FCP.PowerArmor">FCP_Apparel_Power_Armor_T60Armor</li>
+			<li MayRequire="Rick.FCP.PowerArmor">FCP_Apparel_Power_Armor_T60_Helmet</li>
 		</apparelRequired>
 		<forcedTraits>
 			<FCP_Trait_Power_Armor_Trained />
