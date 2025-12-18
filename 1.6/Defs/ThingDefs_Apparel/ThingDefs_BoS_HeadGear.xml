@@ -11,7 +11,7 @@
     <ThingDef ParentName="HatMakeableBase">
         <defName>FCP_Apparel_BoS_Apalacia_Beret</defName>
         <label>BoS Apalacia Beret</label>
-        <description>PLACEHOLDER</description>
+        <description>A soft beret worn by Brotherhood detachments in Appalachia. Embroidered with the Brotherhood crest, it is used for identification and ceremonial duties by officers and specialized units.</description>
         <techLevel>Industrial</techLevel>
         <graphicData>
             <texPath>Things/BoS/Apparel/BoS_Apalacia_Fatigues/BOSFatigues/FCP_BoS_Apalacia_Beret</texPath>
@@ -57,7 +57,7 @@
     <ThingDef ParentName="HatMakeableBase">
         <defName>FCP_Apparel_BoS_Apalacia_Infantry_Hood</defName>
         <label>BoS Apalacia Infantry Hood</label>
-        <description>PLACEHOLDER</description>
+        <description>Standard-issue hood used by Brotherhood infantry for concealment and basic protection from the elements during patrols and tactical operations.</description>
         <techLevel>Industrial</techLevel>
         <graphicData>
             <texPath>Things/BoS/Apparel/BoS_Apalacia_Infantry_Uniform/InfantryUniform/FCP_BoS_Apalacia_Infantry_Hood</texPath>
@@ -103,7 +103,7 @@
     <ThingDef ParentName="HatMakeableBase">
         <defName>FCP_Apparel_BoS_B35C_Helmet</defName>
         <label>BoS B35C Helmet</label>
-        <description>PLACEHOLDER</description>
+        <description>A reinforced combat helmet issued to Brotherhood ground troops. Built to resist shrapnel and small-arms fire, commonly paired with infantry armor on patrols and engagements.</description>
         <techLevel>Industrial</techLevel>
         <graphicData>
             <texPath>Things/BoS/Apparel/BoS_B35C_Armor/B_35C/FCP_BoS_B35C_Helmet</texPath>
@@ -149,7 +149,7 @@
     <ThingDef ParentName="HatMakeableBase">
         <defName>FCP_Apparel_BoS_Flight_Helmet</defName>
         <label>BoS Flight Helmet</label>
-        <description>PLACEHOLDER</description>
+        <description>Pilot helmet used by Brotherhood aircrews and vertibird crews, fitted with padding and basic communications gear to protect crew during flight and rotor operations.</description>
         <techLevel>Industrial</techLevel>
         <graphicData>
             <texPath>Things/BoS/Apparel/BoS_Flight_Helmet/FlightHelmet/FCP_BoS_Flight_Helmet</texPath>
@@ -195,7 +195,7 @@
     <ThingDef ParentName="HatMakeableBase">
         <defName>FCP_Apparel_BoS_Recon_Hood</defName>
         <label>BoS Recon Hood</label>
-        <description>PLACEHOLDER</description>
+        <description>Lightweight hood favored by recon teams. Woven for low visibility and reduced glare to aid scouting, observation, and stealthy movement.</description>
         <techLevel>Industrial</techLevel>
         <graphicData>
             <texPath>Things/BoS/Apparel/BoS_Recon_Armor/ReconArmor/FCP_BoS_Recon_Hood</texPath>
@@ -241,7 +241,7 @@
     <ThingDef ParentName="HatMakeableBase">
         <defName>FCP_Apparel_BoS_Lancer_Captain_Hat</defName>
         <label>BoS Lancer's Captain Hat</label>
-        <description>PLACEHOLDER</description>
+        <description>A peaked cap worn by officers of lancer units to denote rank and authority within the Brotherhood during inspections and official duties.</description>
         <techLevel>Industrial</techLevel>
         <graphicData>
             <texPath>Things/BoS/Apparel/BoS_Lancer_Captains_Uniform/LancerCaptainsUniform/FCP_Lancer_Captain_Hat_south</texPath>
@@ -287,7 +287,7 @@
     <ThingDef ParentName="HatMakeableBase">
         <defName>FCP_Apparel_BoS_Field_Scribe_Hat</defName>
         <label>BoS Science Field Hat</label>
-        <description>PLACEHOLDER</description>
+        <description>Field hat worn by Brotherhood scribes and researchers on expeditions. It offers sun and light-weather protection while marking the wearer as part of the research and recovery cadre.</description>
         <techLevel>Industrial</techLevel>
         <graphicData>
             <texPath>Things/BoS/Apparel/BoS_Field_Scribe/fieldscribe/FCP_BoS_Field_Scribe_Hat</texPath>
@@ -333,7 +333,7 @@
     <ThingDef ParentName="HatMakeableBase">
         <defName>FCP_Apparel_BoS_Science_Scribe_Hat</defName>
         <label>BoS Science Scribe Hat</label>
-        <description>PLACEHOLDER</description>
+        <description>Cap worn by science scribes to identify members of the Brotherhood's research corps. Scribes focus on study, salvage, and the preservation of prewar technology.</description>
         <techLevel>Industrial</techLevel>
         <graphicData>
             <texPath>Things/BoS/Apparel/BoS_Science_Scribe/ScienceScribe/FCP_BoS_Science_Scribe_Hat</texPath>
@@ -378,8 +378,8 @@
 
     <ThingDef ParentName="HatMakeableBase">
         <defName>FCP_Apparel_BoS_Squire_Hat</defName>
-        <label>BoS Science Scribe Hat</label>
-        <description>PLACEHOLDER</description>
+        <label>BoS Squire Hat</label>
+        <description>A simple cap issued to squires and trainees. Squires are apprentices attached to knights and paladins, learning fieldcraft and Brotherhood traditions.</description>
         <techLevel>Industrial</techLevel>
         <graphicData>
             <texPath>Things/BoS/Apparel/BoS_Squire/FCP_BoS_Squire_Hat</texPath>
