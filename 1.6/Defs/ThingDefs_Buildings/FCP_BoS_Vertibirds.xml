@@ -315,7 +315,7 @@
         <defName>FCP_BoS_TravelingVertibird</defName>
         <label>BoS vertibird</label>
         <description>A BoS vertibird in flight.</description>
-        <worldObjectClass>TravelingTransportPods</worldObjectClass>
+        <worldObjectClass>TravellingTransporters</worldObjectClass>
         <texture>World/WorldObjects/Caravan</texture>
         <useDynamicDrawer>true</useDynamicDrawer>
         <expandingIcon>true</expandingIcon>
