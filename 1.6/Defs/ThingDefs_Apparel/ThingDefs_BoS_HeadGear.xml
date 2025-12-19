@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <Defs>
 
     <!--__________ Botherhood of Steel __________-->
@@ -14,7 +13,7 @@
         <description>A soft beret worn by Brotherhood detachments in Appalachia. Embroidered with the Brotherhood crest, it is used for identification and ceremonial duties by officers and specialized units.</description>
         <techLevel>Industrial</techLevel>
         <graphicData>
-            <texPath>Things/BoS/Apparel/BoS_Apalacia_Fatigues/BOSFatigues/FCP_BoS_Apalacia_Beret</texPath>
+            <texPath>Things/Apparel/BoS_Headgear/BoS_Apalacia_Beret/FCP_BoS_Apalacia_Beret</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <costList>
@@ -42,7 +41,7 @@
             <bodyPartGroups>
                 <li>UpperHead</li>
             </bodyPartGroups>
-            <wornGraphicPath>Things/BoS/Apparel/BoS_Apalacia_Fatigues/BOSFatigues/FCP_BoS_Apalacia_Beret</wornGraphicPath>
+            <wornGraphicPath>Things/Apparel/BoS_Headgear/BoS_Apalacia_Beret/FCP_BoS_Apalacia_Beret</wornGraphicPath>
             <layers>
                 <li>Overhead</li>
             </layers>
@@ -60,7 +59,7 @@
         <description>Standard-issue hood used by Brotherhood infantry for concealment and basic protection from the elements during patrols and tactical operations.</description>
         <techLevel>Industrial</techLevel>
         <graphicData>
-            <texPath>Things/BoS/Apparel/BoS_Apalacia_Infantry_Uniform/InfantryUniform/FCP_BoS_Apalacia_Infantry_Hood</texPath>
+            <texPath>Things/Apparel/BoS_Headgear/BoS_Apalacia_Infantry_Hood/FCP_BoS_Apalacia_Infantry_Hood</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <costList>
@@ -88,7 +87,7 @@
             <bodyPartGroups>
                 <li>FullHead</li>
             </bodyPartGroups>
-            <wornGraphicPath>Things/BoS/Apparel/BoS_Apalacia_Infantry_Uniform/InfantryUniform/FCP_BoS_Apalacia_Infantry_Hood</wornGraphicPath>
+            <wornGraphicPath>Things/Apparel/BoS_Headgear/BoS_Apalacia_Infantry_Hood/FCP_BoS_Apalacia_Infantry_Hood</wornGraphicPath>
             <layers>
                 <li>Overhead</li>
             </layers>
@@ -106,7 +105,7 @@
         <description>A reinforced combat helmet issued to Brotherhood ground troops. Built to resist shrapnel and small-arms fire, commonly paired with infantry armor on patrols and engagements.</description>
         <techLevel>Industrial</techLevel>
         <graphicData>
-            <texPath>Things/BoS/Apparel/BoS_B35C_Armor/B_35C/FCP_BoS_B35C_Helmet</texPath>
+            <texPath>Things/Apparel/BoS_Headgear/BoS_B35C_Helmet/FCP_BoS_B35C_Helmet</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <costList>
@@ -134,7 +133,7 @@
             <bodyPartGroups>
                 <li>FullHead</li>
             </bodyPartGroups>
-            <wornGraphicPath>Things/BoS/Apparel/BoS_B35C_Armor/B_35C/FCP_BoS_B35C_Helmet</wornGraphicPath>
+            <wornGraphicPath>Things/Apparel/BoS_Headgear/BoS_B35C_Helmet/FCP_BoS_B35C_Helmet</wornGraphicPath>
             <layers>
                 <li>Overhead</li>
             </layers>
@@ -152,7 +151,7 @@
         <description>Pilot helmet used by Brotherhood aircrews and vertibird crews, fitted with padding and basic communications gear to protect crew during flight and rotor operations.</description>
         <techLevel>Industrial</techLevel>
         <graphicData>
-            <texPath>Things/BoS/Apparel/BoS_Flight_Helmet/FlightHelmet/FCP_BoS_Flight_Helmet</texPath>
+            <texPath>Things/Apparel/BoS_Headgear/BoS_Flight_Helmet/FCP_BoS_Flight_Helmet</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <costList>
@@ -180,7 +179,7 @@
             <bodyPartGroups>
                 <li>FullHead</li>
             </bodyPartGroups>
-            <wornGraphicPath>Things/BoS/Apparel/BoS_Flight_Helmet/FlightHelmet/FCP_BoS_Flight_Helmet</wornGraphicPath>
+            <wornGraphicPath>Things/Apparel/BoS_Headgear/BoS_Flight_Helmet/FCP_BoS_Flight_Helmet</wornGraphicPath>
             <layers>
                 <li>Overhead</li>
             </layers>
@@ -198,7 +197,7 @@
         <description>Lightweight hood favored by recon teams. Woven for low visibility and reduced glare to aid scouting, observation, and stealthy movement.</description>
         <techLevel>Industrial</techLevel>
         <graphicData>
-            <texPath>Things/BoS/Apparel/BoS_Recon_Armor/ReconArmor/FCP_BoS_Recon_Hood</texPath>
+            <texPath>Things/Apparel/BoS_Headgear/BoS_Recon_Hood/FCP_BoS_Recon_Hood</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <costList>
@@ -226,7 +225,7 @@
             <bodyPartGroups>
                 <li>FullHead</li>
             </bodyPartGroups>
-            <wornGraphicPath>Things/BoS/Apparel/BoS_Recon_Armor/ReconArmor/FCP_BoS_Recon_Hood</wornGraphicPath>
+            <wornGraphicPath>Things/Apparel/BoS_Headgear/BoS_Recon_Hood/FCP_BoS_Recon_Hood</wornGraphicPath>
             <layers>
                 <li>Overhead</li>
             </layers>
@@ -244,7 +243,7 @@
         <description>A peaked cap worn by officers of lancer units to denote rank and authority within the Brotherhood during inspections and official duties.</description>
         <techLevel>Industrial</techLevel>
         <graphicData>
-            <texPath>Things/BoS/Apparel/BoS_Lancer_Captains_Uniform/LancerCaptainsUniform/FCP_Lancer_Captain_Hat_south</texPath>
+            <texPath>Things/Apparel/BoS_Headgear/BoS_Lancer_Captain_Hat/FCP_Lancer_Captain_Hat_south</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <costList>
@@ -272,7 +271,7 @@
             <bodyPartGroups>
                 <li>FullHead</li>
             </bodyPartGroups>
-            <wornGraphicPath>Things/BoS/Apparel/BoS_Lancer_Captains_Uniform/LancerCaptainsUniform/FCP_Lancer_Captain_Hat</wornGraphicPath>
+            <wornGraphicPath>Things/Apparel/BoS_Headgear/BoS_Lancer_Captain_Hat/FCP_Lancer_Captain_Hat</wornGraphicPath>
             <layers>
                 <li>Overhead</li>
             </layers>
@@ -290,7 +289,7 @@
         <description>Field hat worn by Brotherhood scribes and researchers on expeditions. It offers sun and light-weather protection while marking the wearer as part of the research and recovery cadre.</description>
         <techLevel>Industrial</techLevel>
         <graphicData>
-            <texPath>Things/BoS/Apparel/BoS_Field_Scribe/fieldscribe/FCP_BoS_Field_Scribe_Hat</texPath>
+            <texPath>Things/Apparel/BoS_Headgear/BoS_Field_Scribe_Hat/FCP_BoS_Field_Scribe_Hat</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <costList>
@@ -318,7 +317,7 @@
             <bodyPartGroups>
                 <li>FullHead</li>
             </bodyPartGroups>
-            <wornGraphicPath>Things/BoS/Apparel/BoS_Field_Scribe/fieldscribe/FCP_BoS_Field_Scribe_Hat</wornGraphicPath>
+            <wornGraphicPath>Things/Apparel/BoS_Headgear/BoS_Field_Scribe_Hat/FCP_BoS_Field_Scribe_Hat</wornGraphicPath>
             <layers>
                 <li>Overhead</li>
             </layers>
@@ -336,7 +335,7 @@
         <description>Cap worn by science scribes to identify members of the Brotherhood's research corps. Scribes focus on study, salvage, and the preservation of prewar technology.</description>
         <techLevel>Industrial</techLevel>
         <graphicData>
-            <texPath>Things/BoS/Apparel/BoS_Science_Scribe/ScienceScribe/FCP_BoS_Science_Scribe_Hat</texPath>
+            <texPath>Things/Apparel/BoS_Headgear/BoS_Science_Scribe_Hat/FCP_BoS_Science_Scribe_Hat</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <costList>
@@ -364,7 +363,7 @@
             <bodyPartGroups>
                 <li>FullHead</li>
             </bodyPartGroups>
-            <wornGraphicPath>Things/BoS/Apparel/BoS_Science_Scribe/ScienceScribe/FCP_BoS_Science_Scribe_Hat</wornGraphicPath>
+            <wornGraphicPath>Things/Apparel/BoS_Headgear/BoS_Science_Scribe_Hat/FCP_BoS_Science_Scribe_Hat</wornGraphicPath>
             <layers>
                 <li>Overhead</li>
             </layers>
@@ -382,7 +381,7 @@
         <description>A simple cap issued to squires and trainees. Squires are apprentices attached to knights and paladins, learning fieldcraft and Brotherhood traditions.</description>
         <techLevel>Industrial</techLevel>
         <graphicData>
-            <texPath>Things/BoS/Apparel/BoS_Squire/FCP_BoS_Squire_Hat</texPath>
+            <texPath>Things/Apparel/BoS_Headgear/BoS_Squire_Hat/FCP_BoS_Squire_Hat</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <costList>
@@ -410,7 +409,7 @@
             <bodyPartGroups>
                 <li>FullHead</li>
             </bodyPartGroups>
-            <wornGraphicPath>Things/BoS/Apparel/BoS_Squire/FCP_BoS_Squire_Hat</wornGraphicPath>
+            <wornGraphicPath>Things/Apparel/BoS_Headgear/BoS_Squire_Hat/FCP_BoS_Squire_Hat</wornGraphicPath>
             <layers>
                 <li>Overhead</li>
             </layers>

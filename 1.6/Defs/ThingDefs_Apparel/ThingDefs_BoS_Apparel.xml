@@ -12,7 +12,7 @@
         <label>BoS Elder Robes</label>
         <description>Ceremonial robes worn by Brotherhood Elders. These robes symbolize the authority and responsibility that comes with leading the Brotherhood of Steel in their sacred mission to preserve technology.</description>
         <graphicData>
-            <texPath>Things/BoS/Apparel/BoS_Elder_Robes/FCP_BoS_Elder_Robes</texPath>
+            <texPath>Things/Apparel/Bos_Apparel/BoS_Elder_Robes/FCP_BoS_Elder_Robes</texPath>
             <graphicClass>Graphic_Single</graphicClass>
             <drawSize>0.90</drawSize>
         </graphicData>
@@ -49,7 +49,7 @@
                 <li>Arms</li>
                 <li>Legs</li>
             </bodyPartGroups>
-            <wornGraphicPath>Things/BoS/Apparel/BoS_Elder_Robes/FCP_BoS_Elder_Robes</wornGraphicPath>
+            <wornGraphicPath>Things/Apparel/Bos_Apparel/BoS_Elder_Robes/FCP_BoS_Elder_Robes</wornGraphicPath>
             <layers>
                 <li>OnSkin</li>
             </layers>
@@ -68,7 +68,7 @@
         <label>BoS Appalachia Fatigues</label>
         <description>Standard-issue Brotherhood of Steel fatigues. Made from a robust and durable material, these fatigues are worn by members of the Brotherhood during their daily operations in Appalachia.</description>
         <graphicData>
-            <texPath>Things/BoS/Apparel/BoS_Apalacia_Fatigues/BOSFatigues/FCP_BoS_Apalacia_Fatigues</texPath>
+            <texPath>Things/Apparel/Bos_Apparel/BoS_Apalacia_Fatigues/FCP_BoS_Apalacia_Fatigues</texPath>
             <graphicClass>Graphic_Single</graphicClass>
             <drawSize>0.90</drawSize>
         </graphicData>
@@ -102,7 +102,7 @@
                 <li>Arms</li>
                 <li>Legs</li>
             </bodyPartGroups>
-            <wornGraphicPath>Things/BoS/Apparel/BoS_Apalacia_Fatigues/BOSFatigues/FCP_BoS_Apalacia_Fatigues</wornGraphicPath>
+            <wornGraphicPath>Things/Apparel/Bos_Apparel/BoS_Apalacia_Fatigues/FCP_BoS_Apalacia_Fatigues</wornGraphicPath>
             <layers>
                 <li>OnSkin</li>
             </layers>
@@ -119,7 +119,7 @@
         <label>BoS Apalacia Infantry Uniform</label>
         <description>A pristine military dress uniform worn by Brotherhood infantry during formal occasions. The uniform bears the insignia of the Brotherhood of Steel and represents the discipline and order of the organization.</description>
         <graphicData>
-            <texPath>Things/BoS/Apparel/BoS_Apalacia_Infantry_Uniform/InfantryUniform/FCP_BoS_Apalacia_Infantry_Uniform</texPath>
+            <texPath>Things/Apparel/Bos_Apparel/BoS_Apalacia_Infantry_Uniform/FCP_BoS_Apalacia_Infantry_Uniform</texPath>
             <graphicClass>Graphic_Single</graphicClass>
             <drawSize>0.90</drawSize>
         </graphicData>
@@ -153,7 +153,7 @@
                 <li>Arms</li>
                 <li>Legs</li>
             </bodyPartGroups>
-            <wornGraphicPath>Things/BoS/Apparel/BoS_Apalacia_Infantry_Uniform/InfantryUniform/FCP_BoS_Apalacia_Infantry_Uniform</wornGraphicPath>
+            <wornGraphicPath>Things/Apparel/Bos_Apparel/BoS_Apalacia_Infantry_Uniform/FCP_BoS_Apalacia_Infantry_Uniform</wornGraphicPath>
             <layers>
                 <li>OnSkin</li>
             </layers>
@@ -170,7 +170,7 @@
         <label>BoS Jumpsuit</label>
         <description>A jumpsuit designed from the ground up for use in conjunction with the West Tek power armor frame. It is a form-fitting suit designed for maximum comfort and utility while operating the armor. Although it is not a requirement for operating the armor, it makes long-term use more comfortable and reduces chafing.</description>
         <graphicData>
-            <texPath>Things/BoS/Apparel/BoS_Jumpsuit/BOSJumpsuit/FCP_BoS_Jumpsuit</texPath>
+            <texPath>Things/Apparel/Bos_Apparel/BoS_Jumpsuit/FCP_BoS_Jumpsuit</texPath>
             <graphicClass>Graphic_Single</graphicClass>
             <drawSize>0.90</drawSize>
         </graphicData>
@@ -201,7 +201,7 @@
                 <li>Arms</li>
                 <li>Legs</li>
             </bodyPartGroups>
-            <wornGraphicPath>Things/BoS/Apparel/BoS_Jumpsuit/BOSJumpsuit/FCP_BoS_Jumpsuit</wornGraphicPath>
+            <wornGraphicPath>Things/Apparel/Bos_Apparel/BoS_Jumpsuit/FCP_BoS_Jumpsuit</wornGraphicPath>
             <layers>
                 <li>OnSkin</li>
             </layers>
@@ -220,7 +220,7 @@
         <label>BoS Battle Coat</label>
         <description>A sturdy military coat worn by Brotherhood officers. The coat features the Brotherhood's insignia and is designed to withstand the rigors of combat while maintaining a professional appearance.</description>
         <graphicData>
-            <texPath>Things/BoS/Apparel/BoS_Battle_Coat/BattleCoat/FCP_BoS_Battle_Coat</texPath>
+            <texPath>Things/Apparel/Bos_Apparel/BoS_Battle_Coat/FCP_BoS_Battle_Coat</texPath>
             <graphicClass>Graphic_Single</graphicClass>
             <drawSize>0.90</drawSize>
         </graphicData>
@@ -256,7 +256,7 @@
                 <li>Shoulders</li>
                 <li>Arms</li>
             </bodyPartGroups>
-            <wornGraphicPath>Things/BoS/Apparel/BoS_Battle_Coat/BattleCoat/FCP_BoS_Battle_Coat</wornGraphicPath>
+            <wornGraphicPath>Things/Apparel/Bos_Apparel/BoS_Battle_Coat/FCP_BoS_Battle_Coat</wornGraphicPath>
             <layers>
                 <li>Shell</li>
             </layers>
@@ -273,7 +273,7 @@
         <label>BoS Lancer Captain Uniform</label>
         <description>A formal dress uniform worn by Lancer Captains of the Brotherhood of Steel. The uniform features gold braiding and ceremonial shoulder boards, marking the wearer as an officer of the Brotherhood's air fleet.</description>
         <graphicData>
-            <texPath>Things/BoS/Apparel/BoS_Lancer_Captains_Uniform/LancerCaptainsUniform/FCP_Lancer_Captains_Uniform</texPath>
+            <texPath>Things/Apparel/Bos_Apparel/BoS_Lancer_Captains_Uniform/FCP_Lancer_Captains_Uniform</texPath>
             <graphicClass>Graphic_Single</graphicClass>
             <drawSize>0.90</drawSize>
         </graphicData>
@@ -311,7 +311,7 @@
                 <li>Arms</li>
                 <li>Legs</li>
             </bodyPartGroups>
-            <wornGraphicPath>Things/BoS/Apparel/BoS_Lancer_Captains_Uniform/LancerCaptainsUniform/FCP_Lancer_Captains_Uniform</wornGraphicPath>
+            <wornGraphicPath>Things/Apparel/Bos_Apparel/BoS_Lancer_Captains_Uniform/FCP_Lancer_Captains_Uniform</wornGraphicPath>
             <layers>
                 <li>OnSkin</li>
             </layers>
@@ -328,7 +328,7 @@
         <label>BoS Bomber Jacket</label>
         <description>A leather flight jacket worn by Brotherhood pilots and Vertibird crew members. The jacket features the Brotherhood's gear and sword emblem and provides protection during flight operations.</description>
         <graphicData>
-            <texPath>Things/BoS/Apparel/BoS_Bomber_Jacket/Bomber_Jacket/FCP_BoS_Bomber_Jacket</texPath>
+            <texPath>Things/Apparel/Bos_Apparel/BoS_Bomber_Jacket/FCP_BoS_Bomber_Jacket</texPath>
             <graphicClass>Graphic_Single</graphicClass>
             <drawSize>0.90</drawSize>
         </graphicData>
@@ -363,7 +363,7 @@
                 <li>Arms</li>
                 <li>Legs</li>
             </bodyPartGroups>
-            <wornGraphicPath>Things/BoS/Apparel/BoS_Bomber_Jacket/Bomber_Jacket/FCP_BoS_Bomber_Jacket</wornGraphicPath>
+            <wornGraphicPath>Things/Apparel/Bos_Apparel/BoS_Bomber_Jacket/FCP_BoS_Bomber_Jacket</wornGraphicPath>
             <layers>
                 <li>Shell</li>
             </layers>
@@ -380,7 +380,7 @@
         <label>BoS Brotherhood Fatigues</label>
         <description>Standard-issue field uniform of the Brotherhood of Steel. These durable fatigues are worn by enlisted personnel and junior officers during daily operations and provide basic protection against environmental hazards.</description>
         <graphicData>
-            <texPath>Things/BoS/Apparel/BoS_Brotherhood_Fatigues/BrotherhoodFatigues/FCP_Brotherhood_Fatigues</texPath>
+            <texPath>Things/Apparel/Bos_Apparel/BoS_Brotherhood_Fatigues/FCP_Brotherhood_Fatigues</texPath>
             <graphicClass>Graphic_Single</graphicClass>
             <drawSize>0.90</drawSize>
         </graphicData>
@@ -418,7 +418,7 @@
                 <li>Arms</li>
                 <li>Legs</li>
             </bodyPartGroups>
-            <wornGraphicPath>Things/BoS/Apparel/BoS_Brotherhood_Fatigues/BrotherhoodFatigues/FCP_Brotherhood_Fatigues</wornGraphicPath>
+            <wornGraphicPath>Things/Apparel/Bos_Apparel/BoS_Brotherhood_Fatigues/FCP_Brotherhood_Fatigues</wornGraphicPath>
             <layers>
                 <li>OnSkin</li>
             </layers>
@@ -435,7 +435,7 @@
         <label>BoS Brotherhood Field Medic Fatigues</label>
         <description>Specialized medical uniform worn by Brotherhood field medics. The fatigues feature additional pockets for medical supplies and are designed to resist contamination during treatment of wounded personnel.</description>
         <graphicData>
-            <texPath>Things/BoS/Apparel/BoS_Brotherhood_Field_Medic_Fatigues/BrotherhoodFieldMedicFatigues/FCP_Brotherhood_Field_Medic_Fatigues</texPath>
+            <texPath>Things/Apparel/Bos_Apparel/BoS_Brotherhood_Field_Medic_Fatigues/FCP_Brotherhood_Field_Medic_Fatigues</texPath>
             <graphicClass>Graphic_Single</graphicClass>
             <drawSize>0.90</drawSize>
         </graphicData>
@@ -473,7 +473,7 @@
                 <li>Arms</li>
                 <li>Legs</li>
             </bodyPartGroups>
-            <wornGraphicPath>Things/BoS/Apparel/BoS_Brotherhood_Field_Medic_Fatigues/BrotherhoodFieldMedicFatigues/FCP_Brotherhood_Field_Medic_Fatigues</wornGraphicPath>
+            <wornGraphicPath>Things/Apparel/Bos_Apparel/BoS_Brotherhood_Field_Medic_Fatigues/FCP_Brotherhood_Field_Medic_Fatigues</wornGraphicPath>
             <layers>
                 <li>OnSkin</li>
             </layers>
@@ -490,7 +490,7 @@
         <label>BoS Field Scribe</label>
         <description>Field uniform worn by Brotherhood Scribes assigned to research missions outside the safety of Brotherhood facilities. The uniform combines scholarly tradition with practical field requirements.</description>
         <graphicData>
-            <texPath>Things/BoS/Apparel/BoS_Field_Scribe/fieldscribe/FCP_BoS_Field_Scribe_Uniform</texPath>
+            <texPath>Things/Apparel/Bos_Apparel/BoS_Field_Scribe/FCP_BoS_Field_Scribe_Uniform</texPath>
             <graphicClass>Graphic_Single</graphicClass>
             <drawSize>0.90</drawSize>
         </graphicData>
@@ -528,7 +528,7 @@
                 <li>Arms</li>
                 <li>Legs</li>
             </bodyPartGroups>
-            <wornGraphicPath>Things/BoS/Apparel/BoS_Field_Scribe/fieldscribe/FCP_BoS_Field_Scribe_Uniform</wornGraphicPath>
+            <wornGraphicPath>Things/Apparel/Bos_Apparel/BoS_Field_Scribe/FCP_BoS_Field_Scribe_Uniform</wornGraphicPath>
             <layers>
                 <li>OnSkin</li>
             </layers>
@@ -545,7 +545,7 @@
         <label>BoS Science Scribe</label>
         <description>Laboratory attire worn by Science Scribes of the Brotherhood of Steel. The clean, white coat is designed for work with dangerous pre-war technology and experimental equipment.</description>
         <graphicData>
-            <texPath>Things/BoS/Apparel/BoS_Science_Scribe/ScienceScribe/FCP_BoS_Science_Scribe_Outfit</texPath>
+            <texPath>Things/Apparel/Bos_Apparel/BoS_Science_Scribe/FCP_BoS_Science_Scribe_Outfit</texPath>
             <graphicClass>Graphic_Single</graphicClass>
             <drawSize>0.90</drawSize>
         </graphicData>
@@ -579,7 +579,7 @@
                 <li>Arms</li>
                 <li>Legs</li>
             </bodyPartGroups>
-            <wornGraphicPath>Things/BoS/Apparel/BoS_Science_Scribe/ScienceScribe/FCP_BoS_Science_Scribe_Outfit</wornGraphicPath>
+            <wornGraphicPath>Things/Apparel/Bos_Apparel/BoS_Science_Scribe/FCP_BoS_Science_Scribe_Outfit</wornGraphicPath>
             <layers>
                 <li>OnSkin</li>
             </layers>
@@ -596,7 +596,7 @@
         <label>BoS Scribe Robes</label>
         <description>Hooded robes worn by Brotherhood Scribes during formal ceremonies. These robes represent the scholarly traditions of the Scribe order and their dedication to preserving technological knowledge.</description>
         <graphicData>
-            <texPath>Things/BoS/Apparel/BoS_Scribe_Robes/FCP_BoS_Scribe_Robes</texPath>
+            <texPath>Things/Apparel/Bos_Apparel/BoS_Scribe_Robes/FCP_BoS_Scribe_Robes</texPath>
             <graphicClass>Graphic_Single</graphicClass>
             <drawSize>0.90</drawSize>
         </graphicData>
@@ -629,7 +629,7 @@
                 <li>Arms</li>
                 <li>Legs</li>
             </bodyPartGroups>
-            <wornGraphicPath>Things/BoS/Apparel/BoS_Scribe_Robes/FCP_BoS_Scribe_Robes</wornGraphicPath>
+            <wornGraphicPath>Things/Apparel/Bos_Apparel/BoS_Scribe_Robes/FCP_BoS_Scribe_Robes</wornGraphicPath>
             <layers>
                 <li>OnSkin</li>
             </layers>
@@ -646,7 +646,7 @@
         <label>BoS Squire Uniform</label>
         <description>Training uniform worn by Brotherhood Squires. This practical outfit is designed for combat training and education while marking the wearer's junior status within the Brotherhood hierarchy.</description>
         <graphicData>
-            <texPath>Things/BoS/Apparel/BoS_Squire/FCP_BoS_Squire_Uniform</texPath>
+            <texPath>Things/Apparel/Bos_Apparel/BoS_Squire/FCP_BoS_Squire_Uniform</texPath>
             <graphicClass>Graphic_Single</graphicClass>
             <drawSize>0.90</drawSize>
         </graphicData>
@@ -681,7 +681,7 @@
                 <li>Arms</li>
                 <li>Legs</li>
             </bodyPartGroups>
-            <wornGraphicPath>Things/BoS/Apparel/BoS_Squire/FCP_BoS_Squire_Uniform</wornGraphicPath>
+            <wornGraphicPath>Things/Apparel/Bos_Apparel/BoS_Squire/FCP_BoS_Squire_Uniform</wornGraphicPath>
             <layers>
                 <li>OnSkin</li>
             </layers>
@@ -703,7 +703,7 @@
         <label>BoS B35C Armor</label>
         <description>A vacuum-sealed asbestos jumpsuit covering the entire body. Its purpose is twofold: it allows the user to actually operate the armor and protect soft tissue from moving parts inside the suit and heat. Unlike the BOS uniform, the Recon Armor provides decent protection on its own and is often used by Brotherhood agents on scouting missions or other situations where the clunky and loud power armor would draw too much attention.</description>
         <graphicData>
-            <texPath>Things/BoS/Apparel/BoS_B35C_Armor/B_35C/FCP_BoS_B35C_Armor</texPath>
+            <texPath>Things/Apparel/BoS_Armor/BoS_B35C_Armor/FCP_BoS_B35C_Armor</texPath>
             <graphicClass>Graphic_Single</graphicClass>
             <drawSize>0.90</drawSize>
         </graphicData>
@@ -740,7 +740,7 @@
                 <li>Arms</li>
                 <li>Legs</li>
             </bodyPartGroups>
-            <wornGraphicPath>Things/BoS/Apparel/BoS_B35C_Armor/B_35C/FCP_BoS_B35C_Armor</wornGraphicPath>
+            <wornGraphicPath>Things/Apparel/BoS_Armor/BoS_B35C_Armor/FCP_BoS_B35C_Armor</wornGraphicPath>
             <layers>
                 <li>OnSkin</li>
                 <li>Middle</li>
@@ -760,7 +760,7 @@
         <label>BoS Classic Combat Armor Reinforced</label>
         <description>Enhanced combat armor upgraded with Brotherhood of Steel technology. This armor retains the design of the original while incorporating improved protection and environmental sealing systems.</description>
         <graphicData>
-            <texPath>Things/BoS/Apparel/BoS_Classic_Combat_Armor_Reinforced/CombatArmorReinforced/FCP_BoS_Reinforced_Combat_Armor</texPath>
+            <texPath>Things/Apparel/BoS_Armor/BoS_Classic_Combat_Armor_Reinforced/FCP_BoS_Reinforced_Combat_Armor</texPath>
             <graphicClass>Graphic_Single</graphicClass>
             <drawSize>0.90</drawSize>
         </graphicData>
@@ -796,7 +796,7 @@
                 <li>Arms</li>
                 <li>Legs</li>
             </bodyPartGroups>
-            <wornGraphicPath>Things/BoS/Apparel/BoS_Classic_Combat_Armor_Reinforced/CombatArmorReinforced/FCP_BoS_Reinforced_Combat_Armor</wornGraphicPath>
+            <wornGraphicPath>Things/Apparel/BoS_Armor/BoS_Classic_Combat_Armor_Reinforced/FCP_BoS_Reinforced_Combat_Armor</wornGraphicPath>
             <layers>
                 <li>Middle</li>
                 <li>OnSkin</li>
@@ -816,7 +816,7 @@
         <label>BoS Recon Armor</label>
         <description>A vacuum-sealed asbestos jumpsuit covering the entire body. Its purpose is twofold: it allows the user to actually operate the armor and protect soft tissue from moving parts inside the suit and heat. Unlike the BOS uniform, the Recon Armor provides decent protection on its own and is often used by Brotherhood agents on scouting missions or other situations where the clunky and loud power armor would draw too much attention.</description>
         <graphicData>
-            <texPath>Things/BoS/Apparel/BoS_Recon_Armor/ReconArmor/FCP_BoS_Recon_Armor</texPath>
+            <texPath>Things/Apparel/BoS_Armor/BoS_Recon_Armor/FCP_BoS_Recon_Armor</texPath>
             <graphicClass>Graphic_Single</graphicClass>
             <drawSize>0.90</drawSize>
         </graphicData>
@@ -853,7 +853,7 @@
                 <li>Arms</li>
                 <li>Legs</li>
             </bodyPartGroups>
-            <wornGraphicPath>Things/BoS/Apparel/BoS_Recon_Armor/ReconArmor/FCP_BoS_Recon_Armor</wornGraphicPath>
+            <wornGraphicPath>Things/Apparel/BoS_Armor/BoS_Recon_Armor/FCP_BoS_Recon_Armor</wornGraphicPath>
             <layers>
                 <li>OnSkin</li>
                 <li>Middle</li>
