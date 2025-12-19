@@ -658,7 +658,7 @@
         <label>BoS Squire Uniform</label>
         <description>Training uniform worn by Brotherhood Squires. This practical outfit is designed for combat training and education while marking the wearer's junior status within the Brotherhood hierarchy.</description>
         <graphicData>
-            <texPath>Things/Apparel/Bos_Apparel/BoS_Squire/FCP_BoS_Squire_Uniform</texPath>
+            <texPath>Things/Apparel/Bos_Apparel/BoS_Squire_Uniform/FCP_BoS_Squire_Uniform</texPath>
             <graphicClass>Graphic_Single</graphicClass>
             <drawSize>0.90</drawSize>
         </graphicData>
@@ -694,7 +694,7 @@
                 <li>Arms</li>
                 <li>Legs</li>
             </bodyPartGroups>
-            <wornGraphicPath>Things/Apparel/Bos_Apparel/BoS_Squire/FCP_BoS_Squire_Uniform</wornGraphicPath>
+            <wornGraphicPath>Things/Apparel/Bos_Apparel/BoS_Squire_Uniform/FCP_BoS_Squire_Uniform</wornGraphicPath>
             <layers>
                 <li>OnSkin</li>
             </layers>
