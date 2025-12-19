@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-    <!--__________ FCP NCR Research __________-->
+    <!--__________ FCP Brotherhood of Steel Research __________-->
 
-    <!--_____ NCR Civilian _____-->
+    <!--_____ BoS Initiates & Scribes _____-->
 
-    <!-- Civilian Clothes -->
+    <!-- Initiate & Squire Equipment -->
 
     <ResearchProjectDef>
-        <defName>FCP_NCR_Civilian_Outfitters</defName>
-        <label>Civilian Outfitters</label>
-        <description>The clothes used by the various civilians working for the NCR.</description>
+        <defName>FCP_BoS_Initiate_Equipment</defName>
+        <label>Initiate & Squire Equipment</label>
+        <description>Basic uniforms and equipment for Brotherhood initiates and squires beginning their service.</description>
         <baseCost>500</baseCost>
         <techLevel>Industrial</techLevel>
         <prerequisites>
@@ -21,30 +21,30 @@
         <tab>FCP_Research</tab>
     </ResearchProjectDef>
 
-    <!-- President Clothes -->
+    <!-- Scribe Attire -->
 
     <ResearchProjectDef>
-        <defName>FCP_NCR_Presidential_Suite</defName>
-        <label>Presidential Suite</label>
-        <description>Clothes fit for the president of the NCR.</description>
+        <defName>FCP_BoS_Scribe_Attire</defName>
+        <label>Scribe Attire</label>
+        <description>Specialized robes and field uniforms for the Brotherhood's scribes - those who preserve and study technology.</description>
         <baseCost>500</baseCost>
         <techLevel>Industrial</techLevel>
         <prerequisites>
-            <li>FCP_NCR_Civilian_Outfitters</li>
+            <li>FCP_BoS_Initiate_Equipment</li>
         </prerequisites>
         <researchViewX>1.00</researchViewX>
         <researchViewY>0.5</researchViewY>
         <tab>FCP_Research</tab>
     </ResearchProjectDef>
 
-    <!--_____ NCR Army _____-->
+    <!--_____ BoS Knights & Paladins _____-->
 
-    <!-- Standard Trooper -->
+    <!-- Knight Equipment -->
 
     <ResearchProjectDef>
-        <defName>FCP_NCR_Standard_Trooper</defName>
-        <label>Standard Trooper Outfitting</label>
-        <description>Basic equipment used by the NCR.</description>
+        <defName>FCP_BoS_Knight_Equipment</defName>
+        <label>Knight Equipment</label>
+        <description>Standard combat armor and fatigues used by Brotherhood Knights.</description>
         <baseCost>1000</baseCost>
         <techLevel>Industrial</techLevel>
         <prerequisites>
@@ -55,80 +55,80 @@
         <tab>FCP_Research</tab>
     </ResearchProjectDef>
 
-    <!-- Trooper Variations -->
+    <!-- Specialized Knight Armor -->
 
     <ResearchProjectDef>
-        <defName>FCP_NCR_Trooper_Variations</defName>
-        <label>Trooper Variations</label>
-        <description>The various other tooper armors.</description>
+        <defName>FCP_BoS_Specialized_Armor</defName>
+        <label>Specialized Knight Armor</label>
+        <description>Advanced combat armor variants including recon armor and reinforced combat armor for specialized missions.</description>
         <baseCost>1000</baseCost>
         <techLevel>Industrial</techLevel>
         <prerequisites>
-            <li>FCP_NCR_Standard_Trooper</li>
+            <li>FCP_BoS_Knight_Equipment</li>
         </prerequisites>
         <researchViewX>0.5</researchViewX>
         <researchViewY>0.5</researchViewY>
         <tab>FCP_Research</tab>
     </ResearchProjectDef>
 
-    <!-- Special Forces -->
+    <!-- Paladin Training -->
 
     <ResearchProjectDef>
-        <defName>FCP_NCR_Special_Forces</defName>
-        <label>Special Operations Forces</label>
-        <description>Special Forces Armor.</description>
+        <defName>FCP_BoS_Paladin_Training</defName>
+        <label>Paladin Training</label>
+        <description>Unlock advanced paladin equipment and power armor operation training for elite Brotherhood warriors.</description>
         <baseCost>1000</baseCost>
         <techLevel>Industrial</techLevel>
         <prerequisites>
-            <li>FCP_NCR_Trooper_Variations</li>
+            <li>FCP_BoS_Specialized_Armor</li>
         </prerequisites>
         <researchViewX>0</researchViewX>
         <researchViewY>0.5</researchViewY>
         <tab>FCP_Research</tab>
     </ResearchProjectDef>
 
-    <!-- Heavy Trooper -->
+    <!-- Power Armor Operations -->
 
     <ResearchProjectDef>
-        <defName>FCP_NCR_Heavy_Trooper</defName>
-        <label>Heavy Trooper Regiment</label>
-        <description>Learn to make salvaged power armor.</description>
+        <defName>FCP_BoS_Power_Armor</defName>
+        <label>Power Armor Operations</label>
+        <description>Master the secrets of pre-war power armor technology - the pinnacle of Brotherhood military might.</description>
         <baseCost>1000</baseCost>
         <techLevel>Industrial</techLevel>
         <prerequisites>
-            <li>FCP_NCR_Trooper_Variations</li>
+            <li>FCP_BoS_Specialized_Armor</li>
         </prerequisites>
         <researchViewX>1</researchViewX>
         <researchViewY>1</researchViewY>
         <tab>FCP_Research</tab>
     </ResearchProjectDef>
 
-    <!-- Ranger Corps -->
+    <!-- Sentinel Training -->
 
     <ResearchProjectDef>
-        <defName>FCP_NCR_Ranger</defName>
-        <label>Ranger Corps</label>
-        <description>Ranger Armor.</description>
+        <defName>FCP_BoS_Sentinel</defName>
+        <label>Sentinel Training</label>
+        <description>The highest rank of Brotherhood warriors. Sentinels are masters of combat and paragons of the Brotherhood's ideals.</description>
         <baseCost>1000</baseCost>
         <techLevel>Industrial</techLevel>
         <prerequisites>
-            <li>FCP_NCR_Trooper_Variations</li>
+            <li>FCP_BoS_Specialized_Armor</li>
         </prerequisites>
         <researchViewX>0</researchViewX>
         <researchViewY>1</researchViewY>
         <tab>FCP_Research</tab>
     </ResearchProjectDef>
 
-    <!-- Elite Ranger Corps -->
+    <!-- Elder Regalia -->
 
     <ResearchProjectDef>
-        <defName>FCP_NCR_Ranger_Elite</defName>
-        <label>Elite Ranger Corps</label>
-        <description>Elite Ranger Armor.</description>
+        <defName>FCP_BoS_Elder_Regalia</defName>
+        <label>Elder Regalia</label>
+        <description>Ceremonial robes and equipment befitting a Brotherhood Elder - the leaders of the organization.</description>
         <baseCost>1000</baseCost>
         <techLevel>Industrial</techLevel>
         <prerequisites>
-            <li>FCP_NCR_Ranger</li>
+            <li>FCP_BoS_Sentinel</li>
         </prerequisites>
         <researchViewX>0</researchViewX>
         <researchViewY>1.5</researchViewY>

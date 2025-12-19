@@ -21,6 +21,7 @@
         </costList>
         <recipeMaker>
             <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
+            <researchPrerequisite>FCP_BoS_Knight_Equipment</researchPrerequisite>
             <skillRequirements>
                 <Crafting>3</Crafting>
             </skillRequirements>
@@ -67,6 +68,7 @@
         </costList>
         <recipeMaker>
             <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
+            <researchPrerequisite>FCP_BoS_Knight_Equipment</researchPrerequisite>
             <skillRequirements>
                 <Crafting>3</Crafting>
             </skillRequirements>
@@ -113,6 +115,7 @@
         </costList>
         <recipeMaker>
             <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
+            <researchPrerequisite>FCP_BoS_Specialized_Armor</researchPrerequisite>
             <skillRequirements>
                 <Crafting>3</Crafting>
             </skillRequirements>
@@ -159,6 +162,7 @@
         </costList>
         <recipeMaker>
             <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
+            <researchPrerequisite>FCP_BoS_Knight_Equipment</researchPrerequisite>
             <skillRequirements>
                 <Crafting>3</Crafting>
             </skillRequirements>
@@ -205,6 +209,7 @@
         </costList>
         <recipeMaker>
             <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
+            <researchPrerequisite>FCP_BoS_Specialized_Armor</researchPrerequisite>
             <skillRequirements>
                 <Crafting>3</Crafting>
             </skillRequirements>
@@ -251,6 +256,7 @@
         </costList>
         <recipeMaker>
             <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
+            <researchPrerequisite>FCP_BoS_Paladin_Training</researchPrerequisite>
             <skillRequirements>
                 <Crafting>3</Crafting>
             </skillRequirements>
@@ -297,6 +303,7 @@
         </costList>
         <recipeMaker>
             <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
+            <researchPrerequisite>FCP_BoS_Scribe_Attire</researchPrerequisite>
             <skillRequirements>
                 <Crafting>3</Crafting>
             </skillRequirements>
@@ -343,6 +350,7 @@
         </costList>
         <recipeMaker>
             <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
+            <researchPrerequisite>FCP_BoS_Scribe_Attire</researchPrerequisite>
             <skillRequirements>
                 <Crafting>3</Crafting>
             </skillRequirements>
@@ -389,6 +397,7 @@
         </costList>
         <recipeMaker>
             <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
+            <researchPrerequisite>FCP_BoS_Initiate_Equipment</researchPrerequisite>
             <skillRequirements>
                 <Crafting>3</Crafting>
             </skillRequirements>
