@@ -769,7 +769,7 @@
 
     <!-- Classic Combat Armor Reinforced -->
 
-    <ThingDef ParentName="FCP_Apparel_Makeable_Base">
+    <ThingDef ParentName="FCP_Apparel_Makeable_Base" MayRequire="Rick.FCP.Wastelanders">
         <defName>FCP_Apparel_BoS_Classic_Combat_Armor_Reinforced</defName>
         <label>BoS Reinforced Combat Armor</label>
         <description>Enhanced combat armor upgraded with Brotherhood of Steel technology. This armor retains the design of the original while incorporating improved protection and environmental sealing systems.</description>
@@ -789,13 +789,13 @@
             </recipeUsers>
         </recipeMaker>
         <costList>
-            <Steel>50</Steel>
+            <FCP_Apparel_Reinforced_Combat_Armor>1</FCP_Apparel_Reinforced_Combat_Armor>
         </costList>
         <statBases>
             <MaxHitPoints>120</MaxHitPoints>
             <ArmorRating_Sharp>1.04</ArmorRating_Sharp>
             <ArmorRating_Blunt>0.52</ArmorRating_Blunt>
-            <WorkToMake>500</WorkToMake>
+            <WorkToMake>100</WorkToMake>
             <Mass>2</Mass>
             <Insulation_Cold>3.0</Insulation_Cold>
             <Insulation_Heat>2.3</Insulation_Heat>

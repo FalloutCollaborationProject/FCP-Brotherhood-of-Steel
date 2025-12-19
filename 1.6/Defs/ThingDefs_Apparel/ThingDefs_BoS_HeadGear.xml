@@ -240,7 +240,7 @@
         </apparel>
     </ThingDef>
     
-    <!-- BoS Flight Helmet -->
+    <!-- BoS Lancer Captain Hat -->
 
     <ThingDef ParentName="HatMakeableBase">
         <defName>FCP_Apparel_BoS_Lancer_Captain_Hat</defName>
