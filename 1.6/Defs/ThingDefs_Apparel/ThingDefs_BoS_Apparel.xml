@@ -829,7 +829,7 @@
     <ThingDef ParentName="ArmorMachineableBase">
         <defName>FCP_Apparel_BoS_Recon_Armor</defName>
         <label>BoS Recon Armor</label>
-        <description>A vacuum-sealed asbestos jumpsuit covering the entire body. Its purpose is twofold: it allows the user to actually operate the armor and protect soft tissue from moving parts inside the suit and heat. Unlike the BOS uniform, the Recon Armor provides decent protection on its own and is often used by Brotherhood agents on scouting missions or other situations where the clunky and loud power armor would draw too much attention.</description>
+        <description>Lightweight tactical armor used by Brotherhood reconnaissance units. The Recon Armor provides solid protection while maintaining mobility and stealth capabilities, making it ideal for scouting missions and situations where full power armor would be impractical. Features advanced composite materials and integrated sensor systems.</description>
         <graphicData>
             <texPath>Things/Apparel/BoS_Armor/BoS_Recon_Armor/FCP_BoS_Recon_Armor</texPath>
             <graphicClass>Graphic_Single</graphicClass>
