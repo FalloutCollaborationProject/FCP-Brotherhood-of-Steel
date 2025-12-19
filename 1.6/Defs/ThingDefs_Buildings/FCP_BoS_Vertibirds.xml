@@ -17,6 +17,8 @@
         <maxLaunchDistance>70</maxLaunchDistance>
     </TransportShipDef>
 
+    <!-- Outcast Standard Vertibird -->
+
     <TransportShipDef>
         <defName>FCP_BoS_Outcast_Vertibird</defName>
         <label>BoS vertibird</label>
@@ -26,6 +28,8 @@
         <worldObject>FCP_BoS_TravelingVertibird</worldObject>
         <maxLaunchDistance>70</maxLaunchDistance>
     </TransportShipDef>
+
+    <!-- Lyons Pride Standard Vertibird -->
 
     <TransportShipDef>
         <defName>FCP_BoS_Lyons_Pride_Vertibird</defName>
@@ -128,7 +132,7 @@
         </comps>
     </ThingDef>
 
-<!-- BoS Lyons Pride Vertibird -->
+    <!-- BoS Lyons Pride Vertibird -->
 
     <ThingDef ParentName="BuildingBase">
         <defName>FCP_BoS_Lyons_Pride_Vertibird</defName>
@@ -217,7 +221,7 @@
         </comps>
     </ThingDef>
 
-<!-- BoS Outcast Vertibird -->
+    <!-- BoS Outcast Vertibird -->
 
     <ThingDef ParentName="BuildingBase">
         <defName>FCP_BoS_Outcast_Vertibird</defName>
