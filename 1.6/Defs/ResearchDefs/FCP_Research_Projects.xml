@@ -8,8 +8,8 @@
     <!-- Initiate & Squire Equipment -->
 
     <ResearchProjectDef>
-        <defName>FCP_BoS_Initiate_Equipment</defName>
-        <label>Initiate & Squire Equipment</label>
+        <defName>FCP_Research_BoS_Initiate_Equipment</defName>
+        <label>Initiate and Squire Equipment</label>
         <description>Basic uniforms and equipment for Brotherhood initiates and squires beginning their service.</description>
         <baseCost>500</baseCost>
         <techLevel>Industrial</techLevel>
@@ -24,13 +24,13 @@
     <!-- Scribe Attire -->
 
     <ResearchProjectDef>
-        <defName>FCP_BoS_Scribe_Attire</defName>
+        <defName>FCP_Research_BoS_Scribe_Attire</defName>
         <label>Scribe Attire</label>
         <description>Specialized robes and field uniforms for the Brotherhood's scribes - those who preserve and study technology.</description>
         <baseCost>500</baseCost>
         <techLevel>Industrial</techLevel>
         <prerequisites>
-            <li>FCP_BoS_Initiate_Equipment</li>
+            <li>FCP_Research_BoS_Initiate_Equipment</li>
         </prerequisites>
         <researchViewX>1.00</researchViewX>
         <researchViewY>0.5</researchViewY>
@@ -42,7 +42,7 @@
     <!-- Knight Equipment -->
 
     <ResearchProjectDef>
-        <defName>FCP_BoS_Knight_Equipment</defName>
+        <defName>FCP_Research_BoS_Knight_Equipment</defName>
         <label>Knight Equipment</label>
         <description>Standard combat armor and fatigues used by Brotherhood Knights.</description>
         <baseCost>1000</baseCost>
@@ -58,13 +58,13 @@
     <!-- Specialized Knight Armor -->
 
     <ResearchProjectDef>
-        <defName>FCP_BoS_Specialized_Armor</defName>
+        <defName>FCP_Research_BoS_Specialized_Armor</defName>
         <label>Specialized Knight Armor</label>
         <description>Advanced combat armor variants including recon armor and reinforced combat armor for specialized missions.</description>
         <baseCost>1000</baseCost>
         <techLevel>Industrial</techLevel>
         <prerequisites>
-            <li>FCP_BoS_Knight_Equipment</li>
+            <li>FCP_Research_BoS_Knight_Equipment</li>
         </prerequisites>
         <researchViewX>0.5</researchViewX>
         <researchViewY>0.5</researchViewY>
@@ -74,13 +74,13 @@
     <!-- Paladin Training -->
 
     <ResearchProjectDef>
-        <defName>FCP_BoS_Paladin_Training</defName>
+        <defName>FCP_Research_BoS_Paladin_Training</defName>
         <label>Paladin Training</label>
         <description>Unlock advanced paladin equipment and power armor operation training for elite Brotherhood warriors.</description>
         <baseCost>1000</baseCost>
         <techLevel>Industrial</techLevel>
         <prerequisites>
-            <li>FCP_BoS_Specialized_Armor</li>
+            <li>FCP_Research_BoS_Specialized_Armor</li>
         </prerequisites>
         <researchViewX>0</researchViewX>
         <researchViewY>0.5</researchViewY>
@@ -90,13 +90,13 @@
     <!-- Power Armor Operations -->
 
     <ResearchProjectDef>
-        <defName>FCP_BoS_Power_Armor</defName>
+        <defName>FCP_Research_BoS_Power_Armor</defName>
         <label>Power Armor Operations</label>
         <description>Master the secrets of pre-war power armor technology - the pinnacle of Brotherhood military might.</description>
         <baseCost>1000</baseCost>
         <techLevel>Industrial</techLevel>
         <prerequisites>
-            <li>FCP_BoS_Specialized_Armor</li>
+            <li>FCP_Research_BoS_Specialized_Armor</li>
         </prerequisites>
         <researchViewX>1</researchViewX>
         <researchViewY>1</researchViewY>
@@ -106,13 +106,13 @@
     <!-- Sentinel Training -->
 
     <ResearchProjectDef>
-        <defName>FCP_BoS_Sentinel</defName>
+        <defName>FCP_Research_BoS_Sentinel</defName>
         <label>Sentinel Training</label>
         <description>The highest rank of Brotherhood warriors. Sentinels are masters of combat and paragons of the Brotherhood's ideals.</description>
         <baseCost>1000</baseCost>
         <techLevel>Industrial</techLevel>
         <prerequisites>
-            <li>FCP_BoS_Specialized_Armor</li>
+            <li>FCP_Research_BoS_Specialized_Armor</li>
         </prerequisites>
         <researchViewX>0</researchViewX>
         <researchViewY>1</researchViewY>
@@ -122,13 +122,13 @@
     <!-- Elder Regalia -->
 
     <ResearchProjectDef>
-        <defName>FCP_BoS_Elder_Regalia</defName>
+        <defName>FCP_Research_BoS_Elder_Regalia</defName>
         <label>Elder Regalia</label>
         <description>Ceremonial robes and equipment befitting a Brotherhood Elder - the leaders of the organization.</description>
         <baseCost>1000</baseCost>
         <techLevel>Industrial</techLevel>
         <prerequisites>
-            <li>FCP_BoS_Sentinel</li>
+            <li>FCP_Research_BoS_Sentinel</li>
         </prerequisites>
         <researchViewX>0</researchViewX>
         <researchViewY>1.5</researchViewY>

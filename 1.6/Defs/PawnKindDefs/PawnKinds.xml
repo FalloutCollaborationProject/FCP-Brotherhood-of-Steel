@@ -55,7 +55,7 @@
 		<itemQuality>Poor</itemQuality>
 		<gearHealthRange>0.5~1.8</gearHealthRange>
 		<apparelRequired>
-			<li>FCP_Apparel_BoS_Appalachia_Fatigues</li>
+			<li>FCP_Apparel_BoS_Apalacia_Fatigues</li>
 			<li>FCP_Apparel_BoS_Apalacia_Beret</li>
 			<!-- add Combat Armor right arm but with the BoS logo here -->
 		</apparelRequired>

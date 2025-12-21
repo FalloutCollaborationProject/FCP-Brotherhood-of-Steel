@@ -12,19 +12,28 @@
         <scenario>
             <summary>Four Brotherhood of Steel operatives crash-land with minimal supplies. Establish a chapter and fulfill your technological mandate.</summary>
             <playerFaction>
-                <def>FCP_Faction_BoS</def>
+                <def>PlayerFaction</def>
+                <factionDef>FCP_Faction_BoS_Player</factionDef>
             </playerFaction>
+            <surfaceLayer>
+                <def>SurfaceLayerFixed</def>
+                <tag>Surface</tag>
+                <layer>Surface</layer>
+                <settingsDef>Surface</settingsDef>
+                <hide>true</hide>
+            </surfaceLayer>
             <parts>
-                <!-- Configure pawns -->
+                <!-- Map generation -->
+                <li Class="ScenPart_CreateIncident">
+                    <def>CreateIncident</def>
+                    <incident>RaidEnemy</incident>
+                    <intervalDays>35</intervalDays>
+                </li>
+                <!-- Set surface layer -->
                 <li Class="ScenPart_ConfigPage_ConfigureStartingPawns">
                     <def>ConfigPage_ConfigureStartingPawns</def>
                     <pawnCount>4</pawnCount>
                     <pawnChoiceCount>8</pawnChoiceCount>
-                </li>
-                <!-- Starting pawns culture -->
-                <li Class="ScenPart_ForcedCulture">
-                    <def>ForcedCulture</def>
-                    <culture>FCP_BoS_Culture</culture>
                 </li>
                 <!-- Knight -->
                 <li Class="ScenPart_StartingThing_Defined">
@@ -116,19 +125,28 @@
         <scenario>
             <summary>Three Lyon's Pride veterans start with humanitarian ideals but limited Brotherhood resources. Prove that compassion and technology can coexist.</summary>
             <playerFaction>
-                <def>FCP_Faction_Lyons_Pride_Remnants</def>
+                <def>PlayerFaction</def>
+                <factionDef>FCP_Faction_BoS_Lyons_Pride_Remnants_Player</factionDef>
             </playerFaction>
+            <surfaceLayer>
+                <def>SurfaceLayerFixed</def>
+                <tag>Surface</tag>
+                <layer>Surface</layer>
+                <settingsDef>Surface</settingsDef>
+                <hide>true</hide>
+            </surfaceLayer>
             <parts>
+                <!-- Map generation -->
+                <li Class="ScenPart_CreateIncident">
+                    <def>CreateIncident</def>
+                    <incident>RaidEnemy</incident>
+                    <intervalDays>35</intervalDays>
+                </li>
                 <!-- Configure pawns -->
                 <li Class="ScenPart_ConfigPage_ConfigureStartingPawns">
                     <def>ConfigPage_ConfigureStartingPawns</def>
                     <pawnCount>3</pawnCount>
                     <pawnChoiceCount>8</pawnChoiceCount>
-                </li>
-                <!-- Starting pawns culture -->
-                <li Class="ScenPart_ForcedCulture">
-                    <def>ForcedCulture</def>
-                    <culture>FCP_BoS_Culture</culture>
                 </li>
                 <!-- Equipment -->
                 <li Class="ScenPart_StartingThing_Defined">
@@ -198,8 +216,16 @@
         <scenario>
             <summary>Three Outcast operatives with advanced gear but poor social skills. Technology über alles.</summary>
             <playerFaction>
-                <def>FCP_Faction_Outcasts_Remnants</def>
+                <def>PlayerFaction</def>
+                <factionDef>FCP_Faction_BoS_Outcast_Remnants_Player</factionDef>
             </playerFaction>
+            <surfaceLayer>
+                <def>SurfaceLayerFixed</def>
+                <tag>Surface</tag>
+                <layer>Surface</layer>
+                <settingsDef>Surface</settingsDef>
+                <hide>true</hide>
+            </surfaceLayer>
             <parts>
 
                 <!-- Configure pawns -->
@@ -207,11 +233,6 @@
                     <def>ConfigPage_ConfigureStartingPawns</def>
                     <pawnCount>3</pawnCount>
                     <pawnChoiceCount>8</pawnChoiceCount>
-                </li>
-                <!-- Starting pawns culture -->
-                <li Class="ScenPart_ForcedCulture">
-                    <def>ForcedCulture</def>
-                    <culture>FCP_BoS_Culture</culture>
                 </li>
                 <!-- All pawns have trait issues with social -->
                 <li Class="ScenPart_ForcedTrait">
@@ -303,8 +324,16 @@
         <scenario>
             <summary>Five Appalachia veterans start with diverse skills but haunted by past failures. Adapt or perish.</summary>
             <playerFaction>
-                <def>FCP_Faction_BoS</def>
+                <def>PlayerFaction</def>
+                <factionDef>FCP_Faction_BoS_Player</factionDef>
             </playerFaction>
+            <surfaceLayer>
+                <def>SurfaceLayerFixed</def>
+                <tag>Surface</tag>
+                <layer>Surface</layer>
+                <settingsDef>Surface</settingsDef>
+                <hide>true</hide>
+            </surfaceLayer>
             <parts>
 
                 <!-- Configure pawns -->
@@ -312,11 +341,6 @@
                     <def>ConfigPage_ConfigureStartingPawns</def>
                     <pawnCount>5</pawnCount>
                     <pawnChoiceCount>10</pawnChoiceCount>
-                </li>
-                <!-- Starting pawns culture -->
-                <li Class="ScenPart_ForcedCulture">
-                    <def>ForcedCulture</def>
-                    <culture>FCP_BoS_Culture</culture>
                 </li>
                 <!-- Some trauma from the past -->
                 <li Class="ScenPart_ForcedTrait">
@@ -328,7 +352,7 @@
                 <!-- Equipment - Mix of styles -->
                 <li Class="ScenPart_StartingThing_Defined">
                     <def>StartingThing_Defined</def>
-                    <thingDef>FCP_Apparel_BoS_Appalachia_Fatigues</thingDef>
+                    <thingDef>FCP_Apparel_BoS_Apalacia_Fatigues</thingDef>
                     <count>3</count>
                 </li>
                 <li Class="ScenPart_StartingThing_Defined">

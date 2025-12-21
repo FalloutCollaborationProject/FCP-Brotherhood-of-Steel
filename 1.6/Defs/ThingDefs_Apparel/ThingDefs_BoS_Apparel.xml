@@ -18,7 +18,7 @@
         </graphicData>
         <recipeMaker Inherit= "false">
             <unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
-            <researchPrerequisite>FCP_BoS_Elder_Regalia</researchPrerequisite>
+            <researchPrerequisite>FCP_Research_BoS_Elder_Regalia</researchPrerequisite>
             <skillRequirements>
                 <Crafting>4</Crafting>
             </skillRequirements>
@@ -60,13 +60,13 @@
         </apparel>
     </ThingDef>
 
-    <!--___ Apalaccia Chapter ___-->
+    <!--___ Appalaccia Chapter ___-->
 
-    <!-- Apalaccia Fatigues -->
+    <!-- Appalaccia Fatigues -->
 
     <ThingDef ParentName="FCP_Apparel_Makeable_Base">
-        <defName>FCP_Apparel_BoS_Apalaccia_Fatigues</defName>
-        <label>BoS Apalaccia Fatigues</label>
+        <defName>FCP_Apparel_BoS_Apalacia_Fatigues</defName>
+        <label>BoS Appalaccia Fatigues</label>
         <description>Standard-issue Brotherhood of Steel fatigues. Made from a robust and durable material, these fatigues are worn by members of the Brotherhood during their daily operations in Apalaccia.</description>
         <graphicData>
             <texPath>Things/Apparel/Bos_Apparel/BoS_Apalacia_Fatigues/FCP_BoS_Apalacia_Fatigues</texPath>
@@ -75,7 +75,7 @@
         </graphicData>
         <recipeMaker Inherit= "false">
             <unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
-            <researchPrerequisite>FCP_BoS_Knight_Equipment</researchPrerequisite>
+            <researchPrerequisite>FCP_Research_BoS_Knight_Equipment</researchPrerequisite>
             <skillRequirements>
                 <Crafting>4</Crafting>
             </skillRequirements>
@@ -114,11 +114,11 @@
         </apparel>
     </ThingDef>
 
-    <!-- Apalaccia Infantry Uniform -->
+    <!-- Appalaccia Infantry Uniform -->
 
     <ThingDef ParentName="FCP_Apparel_Makeable_Base">
-        <defName>FCP_Apparel_BoS_Apalaccia_Infantry_Uniform</defName>
-        <label>BoS Apalaccia Infantry Uniform</label>
+        <defName>FCP_Apparel_BoS_Apalacia_Infantry_Uniform</defName>
+        <label>BoS Appalaccia Infantry Uniform</label>
         <description>A pristine military dress uniform worn by Brotherhood infantry during formal occasions. The uniform bears the insignia of the Brotherhood of Steel and represents the discipline and order of the organization.</description>
         <graphicData>
             <texPath>Things/Apparel/Bos_Apparel/BoS_Apalacia_Infantry_Uniform/FCP_BoS_Apalacia_Infantry_Uniform</texPath>
@@ -127,7 +127,7 @@
         </graphicData>
         <recipeMaker Inherit= "false">
             <unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
-            <researchPrerequisite>FCP_BoS_Knight_Equipment</researchPrerequisite>
+            <researchPrerequisite>FCP_Research_BoS_Knight_Equipment</researchPrerequisite>
             <skillRequirements>
                 <Crafting>4</Crafting>
             </skillRequirements>
@@ -179,7 +179,7 @@
         </graphicData>
         <recipeMaker Inherit= "false">
             <unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
-            <researchPrerequisite>FCP_BoS_Power_Armor</researchPrerequisite>
+            <researchPrerequisite>FCP_Research_BoS_Power_Armor</researchPrerequisite>
             <skillRequirements>
                 <Crafting>4</Crafting>
             </skillRequirements>
@@ -230,7 +230,7 @@
         </graphicData>
         <recipeMaker Inherit= "false">
             <unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
-            <researchPrerequisite>FCP_BoS_Specialized_Armor</researchPrerequisite>
+            <researchPrerequisite>FCP_Research_BoS_Specialized_Armor</researchPrerequisite>
             <skillRequirements>
                 <Crafting>4</Crafting>
             </skillRequirements>
@@ -284,7 +284,7 @@
         </graphicData>
         <recipeMaker Inherit= "false">
             <unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
-            <researchPrerequisite>FCP_BoS_Paladin_Training</researchPrerequisite>
+            <researchPrerequisite>FCP_Research_BoS_Paladin_Training</researchPrerequisite>
             <skillRequirements>
                 <Crafting>4</Crafting>
             </skillRequirements>
@@ -340,7 +340,7 @@
         </graphicData>
         <recipeMaker Inherit= "false">
             <unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
-            <researchPrerequisite>FCP_BoS_Knight_Equipment</researchPrerequisite>
+            <researchPrerequisite>FCP_Research_BoS_Knight_Equipment</researchPrerequisite>
             <skillRequirements>
                 <Crafting>4</Crafting>
             </skillRequirements>
@@ -393,7 +393,7 @@
         </graphicData>
         <recipeMaker Inherit= "false">
             <unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
-            <researchPrerequisite>FCP_BoS_Knight_Equipment</researchPrerequisite>
+            <researchPrerequisite>FCP_Research_BoS_Knight_Equipment</researchPrerequisite>
             <skillRequirements>
                 <Crafting>4</Crafting>
             </skillRequirements>
@@ -449,7 +449,7 @@
         </graphicData>
         <recipeMaker Inherit= "false">
             <unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
-            <researchPrerequisite>FCP_BoS_Knight_Equipment</researchPrerequisite>
+            <researchPrerequisite>FCP_Research_BoS_Knight_Equipment</researchPrerequisite>
             <skillRequirements>
                 <Crafting>4</Crafting>
             </skillRequirements>
@@ -505,7 +505,7 @@
         </graphicData>
         <recipeMaker Inherit= "false">
             <unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
-            <researchPrerequisite>FCP_BoS_Scribe_Attire</researchPrerequisite>
+            <researchPrerequisite>FCP_Research_BoS_Scribe_Attire</researchPrerequisite>
             <skillRequirements>
                 <Crafting>4</Crafting>
             </skillRequirements>
@@ -561,7 +561,7 @@
         </graphicData>
         <recipeMaker Inherit= "false">
             <unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
-            <researchPrerequisite>FCP_BoS_Scribe_Attire</researchPrerequisite>
+            <researchPrerequisite>FCP_Research_BoS_Scribe_Attire</researchPrerequisite>
             <skillRequirements>
                 <Crafting>4</Crafting>
             </skillRequirements>
@@ -613,7 +613,7 @@
         </graphicData>
         <recipeMaker Inherit= "false">
             <unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
-            <researchPrerequisite>FCP_BoS_Scribe_Attire</researchPrerequisite>
+            <researchPrerequisite>FCP_Research_BoS_Scribe_Attire</researchPrerequisite>
             <skillRequirements>
                 <Crafting>4</Crafting>
             </skillRequirements>
@@ -664,7 +664,7 @@
         </graphicData>
         <recipeMaker Inherit= "false">
             <unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
-            <researchPrerequisite>FCP_BoS_Initiate_Equipment</researchPrerequisite>
+            <researchPrerequisite>FCP_Research_BoS_Initiate_Equipment</researchPrerequisite>
             <skillRequirements>
                 <Crafting>4</Crafting>
             </skillRequirements>
@@ -726,7 +726,7 @@
         <techLevel>Industrial</techLevel>
         <recipeMaker Inherit= "false">
             <unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
-            <researchPrerequisite>FCP_BoS_Specialized_Armor</researchPrerequisite>
+            <researchPrerequisite>FCP_Research_BoS_Specialized_Armor</researchPrerequisite>
             <skillRequirements>
                 <Crafting>4</Crafting>
             </skillRequirements>
@@ -780,7 +780,7 @@
         </graphicData>
         <recipeMaker Inherit= "false">
             <unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
-            <researchPrerequisite>FCP_BoS_Specialized_Armor</researchPrerequisite>
+            <researchPrerequisite>FCP_Research_BoS_Specialized_Armor</researchPrerequisite>
             <skillRequirements>
                 <Crafting>4</Crafting>
             </skillRequirements>
@@ -841,7 +841,7 @@
         <techLevel>Industrial</techLevel>
         <recipeMaker Inherit= "false">
             <unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
-            <researchPrerequisite>FCP_BoS_Specialized_Armor</researchPrerequisite>
+            <researchPrerequisite>FCP_Research_BoS_Specialized_Armor</researchPrerequisite>
             <skillRequirements>
                 <Crafting>4</Crafting>
             </skillRequirements>

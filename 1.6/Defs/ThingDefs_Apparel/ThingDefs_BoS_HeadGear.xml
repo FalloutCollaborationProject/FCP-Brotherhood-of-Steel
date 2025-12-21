@@ -5,12 +5,12 @@
 
     <!--_____ Brotherhood HeadGear _____-->
 
-    <!-- BoS Apalacia Beret -->
+    <!-- BoS Appalaccia Beret -->
 
     <ThingDef ParentName="HatMakeableBase">
         <defName>FCP_Apparel_BoS_Apalacia_Beret</defName>
-        <label>BoS Apalacia Beret</label>
-        <description>A soft beret worn by Brotherhood detachments in Appalachia. Embroidered with the Brotherhood crest, it is used for identification and ceremonial duties by officers and specialized units.</description>
+        <label>BoS Appalaccia Beret</label>
+        <description>A soft beret worn by Brotherhood detachments in Appalaccia. Embroidered with the Brotherhood crest, it is used for identification and ceremonial duties by officers and specialized units.</description>
         <techLevel>Industrial</techLevel>
         <graphicData>
             <texPath>Things/Apparel/BoS_Headgear/BoS_Apalacia_Beret/FCP_BoS_Apalacia_Beret</texPath>
@@ -21,7 +21,7 @@
         </costList>
         <recipeMaker>
             <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
-            <researchPrerequisite>FCP_BoS_Knight_Equipment</researchPrerequisite>
+            <researchPrerequisite>FCP_Research_BoS_Knight_Equipment</researchPrerequisite>
             <skillRequirements>
                 <Crafting>3</Crafting>
             </skillRequirements>
@@ -52,11 +52,11 @@
         </apparel>
     </ThingDef>
 
-    <!-- BoS Apalacia Infantry Hood -->
+    <!-- BoS Appalacia Infantry Hood -->
 
     <ThingDef ParentName="HatMakeableBase">
         <defName>FCP_Apparel_BoS_Apalacia_Infantry_Hood</defName>
-        <label>BoS Apalacia Infantry Hood</label>
+        <label>BoS Appalaccia Infantry Hood</label>
         <description>Standard-issue hood used by Brotherhood infantry for concealment and basic protection from the elements during patrols and tactical operations.</description>
         <techLevel>Industrial</techLevel>
         <graphicData>
@@ -68,7 +68,7 @@
         </costList>
         <recipeMaker>
             <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
-            <researchPrerequisite>FCP_BoS_Knight_Equipment</researchPrerequisite>
+            <researchPrerequisite>FCP_Research_BoS_Knight_Equipment</researchPrerequisite>
             <skillRequirements>
                 <Crafting>3</Crafting>
             </skillRequirements>
@@ -99,7 +99,7 @@
         </apparel>
     </ThingDef>
 
-<!-- BoS B35C Helmet -->
+    <!-- BoS B35C Helmet -->
 
     <ThingDef ParentName="HatMakeableBase">
         <defName>FCP_Apparel_BoS_B35C_Helmet</defName>
@@ -115,7 +115,7 @@
         </costList>
         <recipeMaker>
             <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
-            <researchPrerequisite>FCP_BoS_Specialized_Armor</researchPrerequisite>
+            <researchPrerequisite>FCP_Research_BoS_Specialized_Armor</researchPrerequisite>
             <skillRequirements>
                 <Crafting>3</Crafting>
             </skillRequirements>
@@ -162,7 +162,7 @@
         </costList>
         <recipeMaker>
             <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
-            <researchPrerequisite>FCP_BoS_Knight_Equipment</researchPrerequisite>
+            <researchPrerequisite>FCP_Research_BoS_Knight_Equipment</researchPrerequisite>
             <skillRequirements>
                 <Crafting>3</Crafting>
             </skillRequirements>
@@ -209,7 +209,7 @@
         </costList>
         <recipeMaker>
             <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
-            <researchPrerequisite>FCP_BoS_Specialized_Armor</researchPrerequisite>
+            <researchPrerequisite>FCP_Research_BoS_Specialized_Armor</researchPrerequisite>
             <skillRequirements>
                 <Crafting>3</Crafting>
             </skillRequirements>
@@ -256,7 +256,7 @@
         </costList>
         <recipeMaker>
             <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
-            <researchPrerequisite>FCP_BoS_Paladin_Training</researchPrerequisite>
+            <researchPrerequisite>FCP_Research_BoS_Paladin_Training</researchPrerequisite>
             <skillRequirements>
                 <Crafting>3</Crafting>
             </skillRequirements>
@@ -303,7 +303,7 @@
         </costList>
         <recipeMaker>
             <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
-            <researchPrerequisite>FCP_BoS_Scribe_Attire</researchPrerequisite>
+            <researchPrerequisite>FCP_Research_BoS_Scribe_Attire</researchPrerequisite>
             <skillRequirements>
                 <Crafting>3</Crafting>
             </skillRequirements>
@@ -350,7 +350,7 @@
         </costList>
         <recipeMaker>
             <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
-            <researchPrerequisite>FCP_BoS_Scribe_Attire</researchPrerequisite>
+            <researchPrerequisite>FCP_Research_BoS_Scribe_Attire</researchPrerequisite>
             <skillRequirements>
                 <Crafting>3</Crafting>
             </skillRequirements>
@@ -397,7 +397,7 @@
         </costList>
         <recipeMaker>
             <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
-            <researchPrerequisite>FCP_BoS_Initiate_Equipment</researchPrerequisite>
+            <researchPrerequisite>FCP_Research_BoS_Initiate_Equipment</researchPrerequisite>
             <skillRequirements>
                 <Crafting>3</Crafting>
             </skillRequirements>

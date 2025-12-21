@@ -157,7 +157,7 @@
                 </guaranteedDrops>
                 <weightedDrops>
                     <li>
-                        <thingDef>FCP_Apparel_BoS_Appalachia_Fatigues</thingDef>
+                        <thingDef>FCP_Apparel_BoS_Apalacia_Fatigues</thingDef>
                         <countRange>1</countRange>
                     </li>
                     <li>
