@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>  
 <Defs>
 
+    <!--__________ Traders __________-->
+
+    <!-- BoS Prisoner Exchange -->
+
     <TraderKindDef>
         <defName>FCP_Caravan_BoS_Prisoner_Exchange</defName>
         <label>BoS Prisoner Exchange</label>
@@ -25,6 +29,269 @@
                 <countRange>750~1200</countRange>
             </li>
         </stockGenerators>
+    </TraderKindDef>
+
+    <!-- BoS Quartermaster -->
+
+    <TraderKindDef>
+        <defName>FCP_Caravan_BoS_Apparel_Trader</defName>
+        <label>BoS Quartermaster</label>
+        <category>Visitor</category>
+        <stockGenerators>
+
+            <!--__ Brotherhood Apparel __-->
+
+            <!-- Elder Robes -->
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>FCP_Apparel_BoS_Elder_Robes</thingDef>
+                <countRange>1~2</countRange>
+            </li>
+
+            <!-- Appalachia Fatigues -->
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>FCP_Apparel_BoS_Appalachia_Fatigues</thingDef>
+                <countRange>2~4</countRange>
+            </li>
+
+            <!-- Appalachia Infantry Uniform -->
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>FCP_Apparel_BoS_Apalacia_Infantry_Uniform</thingDef>
+                <countRange>2~4</countRange>
+            </li>
+
+            <!-- Jumpsuit -->
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>FCP_Apparel_BoS_Jumpsuit</thingDef>
+                <countRange>1~3</countRange>
+            </li>
+
+            <!-- Battle Coat -->
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>FCP_Apparel_BoS_Battle_Coat</thingDef>
+                <countRange>1~2</countRange>
+            </li>
+
+            <!-- Lancer Captain Uniform -->
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>FCP_Apparel_BoS_Lancer_Captain_Uniform</thingDef>
+                <countRange>0~1</countRange>
+            </li>
+
+            <!-- Bomber Jacket -->
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>FCP_Apparel_BoS_Bomber_Jacket</thingDef>
+                <countRange>1~3</countRange>
+            </li>
+
+            <!-- Brotherhood Fatigues -->
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>FCP_Apparel_BoS_Brotherhood_Fatigues</thingDef>
+                <countRange>3~5</countRange>
+            </li>
+
+            <!-- Brotherhood Field Medic Fatigues -->
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>FCP_Apparel_BoS_Brotherhood_Field_Medic_Fatigues</thingDef>
+                <countRange>1~3</countRange>
+            </li>
+
+            <!-- Field Scribe Uniform -->
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>FCP_Apparel_BoS_Field_Scribe</thingDef>
+                <countRange>2~3</countRange>
+            </li>
+
+            <!-- Science Scribe Outfit -->
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>FCP_Apparel_BoS_Science_Scribe</thingDef>
+                <countRange>1~3</countRange>
+            </li>
+
+            <!-- Scribe Robes -->
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>FCP_Apparel_BoS_Scribe_Robes</thingDef>
+                <countRange>2~3</countRange>
+            </li>
+
+            <!-- Squire Uniform -->
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>FCP_Apparel_BoS_Squire</thingDef>
+                <countRange>2~4</countRange>
+            </li>
+
+            <!-- B35C Armor -->
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>FCP_Apparel_BoS_B35C_Armor</thingDef>
+                <countRange>1~2</countRange>
+            </li>
+
+            <!-- Reinforced Combat Armor -->
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>FCP_Apparel_BoS_Classic_Combat_Armor_Reinforced</thingDef>
+                <countRange>1~2</countRange>
+            </li>
+
+            <!-- Recon Armor -->
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>FCP_Apparel_BoS_Recon_Armor</thingDef>
+                <countRange>1~3</countRange>
+            </li>
+
+            <!--__ Brotherhood Headgear __-->
+
+            <!-- Appalachia Beret -->
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>FCP_Apparel_BoS_Apalacia_Beret</thingDef>
+                <countRange>2~4</countRange>
+            </li>
+
+            <!-- Appalachia Infantry Hood -->
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>FCP_Apparel_BoS_Apalacia_Infantry_Hood</thingDef>
+                <countRange>2~4</countRange>
+            </li>
+
+            <!-- B35C Helmet -->
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>FCP_Apparel_BoS_B35C_Helmet</thingDef>
+                <countRange>1~2</countRange>
+            </li>
+
+            <!-- Flight Helmet -->
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>FCP_Apparel_BoS_Flight_Helmet</thingDef>
+                <countRange>1~3</countRange>
+            </li>
+
+            <!-- Recon Hood -->
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>FCP_Apparel_BoS_Recon_Hood</thingDef>
+                <countRange>1~3</countRange>
+            </li>
+
+            <!-- Lancer Captain Hat -->
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>FCP_Apparel_BoS_Lancer_Captain_Hat</thingDef>
+                <countRange>0~1</countRange>
+            </li>
+
+            <!-- Field Scribe Hat -->
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>FCP_Apparel_BoS_Field_Scribe_Hat</thingDef>
+                <countRange>2~3</countRange>
+            </li>
+
+            <!-- Science Scribe Hat -->
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>FCP_Apparel_BoS_Science_Scribe_Hat</thingDef>
+                <countRange>1~3</countRange>
+            </li>
+
+            <!-- Squire Hat -->
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>FCP_Apparel_BoS_Squire_Hat</thingDef>
+                <countRange>2~4</countRange>
+            </li>
+
+            <!--__ Currency __-->
+
+            <!-- BoS Scrips -->
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>FCP_Currency_BoS_Scrip</thingDef>
+                <countRange>500~1000</countRange>
+            </li>
+
+        </stockGenerators>
+        <willTrade>true</willTrade>
+        <buyFilters>
+            <thingFilter>
+                <categories>
+                    <li>Manufactured</li>
+                    <li>Weapons</li>
+                    <li>Techprints</li>
+                </categories>
+                <thingDefs>
+                    <li>ComponentIndustrial</li>
+                    <li>ComponentSpacer</li>
+                    <li>AIPersonaCore</li>
+                    <li>SubcoreRegular</li>
+                    <li>Plasteel</li>
+                    <li>Uranium</li>
+                    <li>Gold</li>
+                </thingDefs>
+            </thingFilter>
+        </buyFilters>
+    </TraderKindDef>
+
+    <!-- Outcast Tech Acquisition -->
+
+    <TraderKindDef>
+        <defName>FCP_Caravan_Outcast_Tech_Buyer</defName>
+        <label>Outcast Tech Acquisition</label>
+        <category>Visitor</category>
+        <stockGenerators>
+
+            <!--__ Currency Only __-->
+
+            <!-- BoS Scrips -->
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>FCP_Currency_BoS_Scrip</thingDef>
+                <countRange>2000~5000</countRange>
+            </li>
+
+        </stockGenerators>
+        <willTrade>true</willTrade>
+        <buyFilters>
+            <thingFilter>
+                <categories>
+                    <li>Manufactured</li>
+                    <li>Weapons</li>
+                    <li>Techprints</li>
+                    <li>ResourcesAdvanced</li>
+                    <li>BuildingsSpecial</li>
+                </categories>
+                <thingDefs>
+                    <li>ComponentIndustrial</li>
+                    <li>ComponentSpacer</li>
+                    <li>AIPersonaCore</li>
+                    <li>SubcoreRegular</li>
+                    <li>SubcoreHigh</li>
+                    <li>NanostructuringChip</li>
+                    <li>Plasteel</li>
+                    <li>Uranium</li>
+                    <li>Steel</li>
+                    <li>MechSerumHealer</li>
+                    <li>MechSerumResurrector</li>
+                </thingDefs>
+            </thingFilter>
+        </buyFilters>
     </TraderKindDef>
 
 </Defs>
