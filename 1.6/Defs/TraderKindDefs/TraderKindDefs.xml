@@ -228,7 +228,6 @@
             </li>
 
         </stockGenerators>
-        <willTrade>true</willTrade>
         <buyFilters>
             <thingFilter>
                 <categories>
@@ -290,7 +289,6 @@
             </li>
 
         </stockGenerators>
-        <willTrade>true</willTrade>
         <buyFilters>
             <thingFilter>
                 <categories>
