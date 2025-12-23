@@ -29,7 +29,6 @@
         <missionsDescKey>FCP_BoS_Missions_Desc</missionsDescKey>
         <missionsButtonIconTexPath>Things/UI/Enlisted/FCP_BoS_Missions</missionsButtonIconTexPath>
         <missionsBackgroundMenuTexPath>Things/UI/Enlisted/FCP_BoS_Missions</missionsBackgroundMenuTexPath>
-        <missionsMenuAmbientSoundDef>FCP_RitualSustainer_We_Are_The_Brotherhood</missionsMenuAmbientSoundDef>
         <missionsMenuDescriptionKey>FCP_BoS_Menu_Missions_Desc</missionsMenuDescriptionKey>
         <missionsMenuSelectQuestKey>FCP_BoS_Menu_Missions_Select_Quest</missionsMenuSelectQuestKey>
         <missionsMenuStartQuestKey>FCP_BoS_Menu_Missions_Start_Quest</missionsMenuStartQuestKey>

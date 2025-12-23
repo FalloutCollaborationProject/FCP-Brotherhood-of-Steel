@@ -42,7 +42,7 @@
         <pawnSingular>Brother</pawnSingular>
         <pawnsPlural>Brothers</pawnsPlural>
         <leaderTitle>Elder</leaderTitle>
-        <factionIconPath>World_Icon/BoS_Icon/FCP_BoS_Lyons_Pride_Remnants_World_Icon</factionIconPath>
+        <factionIconPath>World_Icon/BoS_Icon/FCP_Lyons_Pride_Remnants_World_Icon</factionIconPath>
         <colorSpectrum>
             <li>(0.2, 0.4, 0.8)</li>
         </colorSpectrum>
@@ -70,7 +70,7 @@
         <pawnSingular>Outcast</pawnSingular>
         <pawnsPlural>Outcasts</pawnsPlural>
         <leaderTitle>Protector</leaderTitle>
-        <factionIconPath>World_Icon/BoS_Icon/FCP_BoS_Outcasts_World_Icon</factionIconPath>
+        <factionIconPath>World_Icon/BoS_Icon/FCP_Outcast_World_Icon</factionIconPath>
         <colorSpectrum>
             <li>(0.6, 0.2, 0.2)</li>
         </colorSpectrum>

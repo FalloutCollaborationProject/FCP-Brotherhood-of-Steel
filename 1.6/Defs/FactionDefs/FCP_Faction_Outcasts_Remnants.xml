@@ -21,7 +21,7 @@
 		<canSiege>true</canSiege>
 		<canStageAttacks>true</canStageAttacks>
 		<leaderTitle>Protector</leaderTitle>
-		<factionIconPath>World_Icon/BoS_Icon/FCP_BoS_Outcasts_World_Icon</factionIconPath>
+		<factionIconPath>World_Icon/BoS_Icon/FCP_Outcast_World_Icon</factionIconPath>
 		<techLevel>Industrial</techLevel>
 		<fixedName>Brotherhood Outcasts</fixedName>
 		<settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>

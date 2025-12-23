@@ -21,7 +21,7 @@
 		<canSiege>true</canSiege>
 		<canStageAttacks>true</canStageAttacks>
 		<leaderTitle>Elder</leaderTitle>
-		<factionIconPath>World_Icon/BoS_Icon/FCP_BoS_Lyons_Pride_Remnants_World_Icon</factionIconPath>
+		<factionIconPath>World_Icon/BoS_Icon/FCP_Lyons_Pride_Remnants_World_Icon</factionIconPath>
 		<techLevel>Industrial</techLevel>
 		<fixedName>Lyons' Pride Remnants</fixedName>
 		<settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>

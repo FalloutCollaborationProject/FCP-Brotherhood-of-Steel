@@ -51,7 +51,7 @@
             <!-- Appalachia Fatigues -->
 
             <li Class="StockGenerator_SingleDef">
-                <thingDef>FCP_Apparel_BoS_Appalachia_Fatigues</thingDef>
+                <thingDef>FCP_Apparel_BoS_Apalacia_Fatigues</thingDef>
                 <countRange>2~4</countRange>
             </li>
 
@@ -141,7 +141,7 @@
 
             <!-- Reinforced Combat Armor -->
 
-            <li Class="StockGenerator_SingleDef">
+            <li Class="StockGenerator_SingleDef" MayRequire="Rick.FCP.Wastelanders">
                 <thingDef>FCP_Apparel_BoS_Classic_Combat_Armor_Reinforced</thingDef>
                 <countRange>1~2</countRange>
             </li>
@@ -227,48 +227,14 @@
                 <countRange>500~1000</countRange>
             </li>
 
+            <!-- Buying -->
+            <li Class="StockGenerator_BuyExpensiveSimple" />
+            <li Class="StockGenerator_BuyTradeTag"><tag>Art</tag></li>
+            <li Class="StockGenerator_BuyTradeTag"><tag>Techprints</tag></li>
+            <li Class="StockGenerator_BuyTradeTag"><tag>WeaponMelee</tag></li>
+            <li Class="StockGenerator_BuyTradeTag"><tag>WeaponRanged</tag></li>
+
         </stockGenerators>
-        <buyFilters>
-            <thingFilter>
-                <categories>
-                    <li>Manufactured</li>
-                    <li>Weapons</li>
-                    <li>Techprints</li>
-                </categories>
-                <thingDefs>
-                    <li>ComponentIndustrial</li>
-                    <li>ComponentSpacer</li>
-                    <li>AIPersonaCore</li>
-                    <li>SubcoreRegular</li>
-                    <li>Plasteel</li>
-                    <li>Uranium</li>
-                    <li>Gold</li>
-                    <!-- Power Armor Frames and Armor -->
-                    <li MayRequire="Rick.FCP.PowerArmor">FCP_Apparel_Power_Armor_Frame</li>
-                    <li MayRequire="Rick.FCP.PowerArmor">FCP_Apparel_Power_Armor_T45Armor</li>
-                    <li MayRequire="Rick.FCP.PowerArmor">FCP_Apparel_Power_Armor_T51Armor</li>
-                    <li MayRequire="Rick.FCP.PowerArmor">FCP_Apparel_Power_Armor_T60Armor</li>
-                    <li MayRequire="Rick.FCP.PowerArmor">FCP_Apparel_X01_Power_Armor</li>
-                    <!-- Power Armor Helmets -->
-                    <li MayRequire="Rick.FCP.PowerArmor">FCP_Apparel_Power_Armor_T45_Helmet</li>
-                    <li MayRequire="Rick.FCP.PowerArmor">FCP_Apparel_Power_Armor_T51_Helmet</li>
-                    <li MayRequire="Rick.FCP.PowerArmor">FCP_Apparel_Power_Armor_T60_Helmet</li>
-                    <li MayRequire="Rick.FCP.PowerArmor">FCP_Apparel_Power_Armor_X01_Helmet</li>
-                    <!-- Energy Weapons -->
-                    <li MayRequire="Rick.FCP.EnergyWeapons">FCP_Gun_Laser_Pistol</li>
-                    <li MayRequire="Rick.FCP.EnergyWeapons">FCP_Gun_Laser_Rifle</li>
-                    <li MayRequire="Rick.FCP.EnergyWeapons">FCP_Gun_Tri_Beam_Laser_Rifle</li>
-                    <li MayRequire="Rick.FCP.EnergyWeapons">FCP_Gun_Gatling_Laser</li>
-                    <li MayRequire="Rick.FCP.EnergyWeapons">FCP_Gun_Laser_RCW</li>
-                    <li MayRequire="Rick.FCP.EnergyWeapons">FCP_Gun_Recharger_Rifle</li>
-                    <li MayRequire="Rick.FCP.EnergyWeapons">FCP_Gun_Recharger_Pistol</li>
-                    <li MayRequire="Rick.FCP.EnergyWeapons">FCP_Gun_Plasma_Pistol</li>
-                    <li MayRequire="Rick.FCP.EnergyWeapons">FCP_Gun_Plasma_Rifle</li>
-                    <li MayRequire="Rick.FCP.EnergyWeapons">FCP_Gun_Multiplas_Rifle</li>
-                    <li MayRequire="Rick.FCP.EnergyWeapons">FCP_Gun_Plasma_Caster</li>
-                </thingDefs>
-            </thingFilter>
-        </buyFilters>
     </TraderKindDef>
 
     <!-- Outcast Tech Acquisition -->
@@ -288,54 +254,15 @@
                 <countRange>2000~5000</countRange>
             </li>
 
+            <!-- Buying -->
+            <li Class="StockGenerator_BuyExpensiveSimple" />
+            <li Class="StockGenerator_BuyTradeTag"><tag>Art</tag></li>
+            <li Class="StockGenerator_BuyTradeTag"><tag>Techprints</tag></li>
+            <li Class="StockGenerator_BuyTradeTag"><tag>WeaponMelee</tag></li>
+            <li Class="StockGenerator_BuyTradeTag"><tag>WeaponRanged</tag></li>
+            <li Class="StockGenerator_BuyTradeTag"><tag>UtilitySpecial</tag></li>
+
         </stockGenerators>
-        <buyFilters>
-            <thingFilter>
-                <categories>
-                    <li>Manufactured</li>
-                    <li>Weapons</li>
-                    <li>Techprints</li>
-                    <li>ResourcesAdvanced</li>
-                    <li>BuildingsSpecial</li>
-                </categories>
-                <thingDefs>
-                    <li>ComponentIndustrial</li>
-                    <li>ComponentSpacer</li>
-                    <li>AIPersonaCore</li>
-                    <li>SubcoreRegular</li>
-                    <li>SubcoreHigh</li>
-                    <li>NanostructuringChip</li>
-                    <li>Plasteel</li>
-                    <li>Uranium</li>
-                    <li>Steel</li>
-                    <li>MechSerumHealer</li>
-                    <li>MechSerumResurrector</li>
-                    <!-- Power Armor Frames and Armor -->
-                    <li MayRequire="Rick.FCP.PowerArmor">FCP_Apparel_Power_Armor_Frame</li>
-                    <li MayRequire="Rick.FCP.PowerArmor">FCP_Apparel_Power_Armor_T45Armor</li>
-                    <li MayRequire="Rick.FCP.PowerArmor">FCP_Apparel_Power_Armor_T51Armor</li>
-                    <li MayRequire="Rick.FCP.PowerArmor">FCP_Apparel_Power_Armor_T60Armor</li>
-                    <li MayRequire="Rick.FCP.PowerArmor">FCP_Apparel_X01_Power_Armor</li>
-                    <!-- Power Armor Helmets -->
-                    <li MayRequire="Rick.FCP.PowerArmor">FCP_Apparel_Power_Armor_T45_Helmet</li>
-                    <li MayRequire="Rick.FCP.PowerArmor">FCP_Apparel_Power_Armor_T51_Helmet</li>
-                    <li MayRequire="Rick.FCP.PowerArmor">FCP_Apparel_Power_Armor_T60_Helmet</li>
-                    <li MayRequire="Rick.FCP.PowerArmor">FCP_Apparel_Power_Armor_X01_Helmet</li>
-                    <!-- Energy Weapons -->
-                    <li MayRequire="Rick.FCP.EnergyWeapons">FCP_Gun_Laser_Pistol</li>
-                    <li MayRequire="Rick.FCP.EnergyWeapons">FCP_Gun_Laser_Rifle</li>
-                    <li MayRequire="Rick.FCP.EnergyWeapons">FCP_Gun_Tri_Beam_Laser_Rifle</li>
-                    <li MayRequire="Rick.FCP.EnergyWeapons">FCP_Gun_Gatling_Laser</li>
-                    <li MayRequire="Rick.FCP.EnergyWeapons">FCP_Gun_Laser_RCW</li>
-                    <li MayRequire="Rick.FCP.EnergyWeapons">FCP_Gun_Recharger_Rifle</li>
-                    <li MayRequire="Rick.FCP.EnergyWeapons">FCP_Gun_Recharger_Pistol</li>
-                    <li MayRequire="Rick.FCP.EnergyWeapons">FCP_Gun_Plasma_Pistol</li>
-                    <li MayRequire="Rick.FCP.EnergyWeapons">FCP_Gun_Plasma_Rifle</li>
-                    <li MayRequire="Rick.FCP.EnergyWeapons">FCP_Gun_Multiplas_Rifle</li>
-                    <li MayRequire="Rick.FCP.EnergyWeapons">FCP_Gun_Plasma_Caster</li>
-                </thingDefs>
-            </thingFilter>
-        </buyFilters>
     </TraderKindDef>
 
 </Defs>
