@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+    <!--_____ BoS Power Armors Recipes _____-->
+
+    <!-- BoS Appalaccia T60 Power Armor Recipe -->
+
+    <RecipeDef MayRequire="Rick.FCP.PowerArmor">
+        <defName>Make_BoS_Appalaccia_T60_Power_Armor</defName>
+        <label>make appalaccia t60 power armor</label>
+        <description>Make a appalaccia t60 power armor.</description>
+        <jobString>Making appalaccia t60 power armor.</jobString>
+        <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+        <workSkill>Crafting</workSkill>
+        <effectWorking>Smith</effectWorking>
+        <soundWorking>Recipe_Smith</soundWorking>
+        <workAmount>500</workAmount>
+        <unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
+        <recipeUsers>
+            <li>FCP_Production_Armor_Workbench</li>
+        </recipeUsers>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>FCP_Apparel_Power_Armor_T60Armor</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>FCP_Apparel_Power_Armor_T60Armor</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <products>
+            <FCP_Apparel_BoS_Appalaccia_T60_Power_Armor>1</FCP_Apparel_BoS_Appalaccia_T60_Power_Armor>
+        </products>
+        <skillRequirements>
+            <Crafting>8</Crafting>
+        </skillRequirements>
+        <displayPriority>230</displayPriority>
+        <researchPrerequisite>FCP_Research_CombatArmorStandard</researchPrerequisite>
+        <modExtensions>
+            <li Class="RecipeGoodwillLimiter.RecipeExtension_GoodwillCheck">
+                <requireFaction>FCP_Faction_BoS</requireFaction>
+                <minimumGoodwill>60</minimumGoodwill>
+                <uncraftableIfFactionDefeated>true</uncraftableIfFactionDefeated>
+            </li>
+        </modExtensions>
+    </RecipeDef>
+
+<!-- BoS Appalaccia T60 Power Armor Recipe -->
+
+    <RecipeDef MayRequire="Rick.FCP.PowerArmor">
+        <defName>Make_BoS_T60_Power_Armor</defName>
+        <label>make t60 power armor</label>
+        <description>Make a t60 power armor.</description>
+        <jobString>Making t60 power armor.</jobString>
+        <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+        <workSkill>Crafting</workSkill>
+        <effectWorking>Smith</effectWorking>
+        <soundWorking>Recipe_Smith</soundWorking>
+        <workAmount>500</workAmount>
+        <unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
+        <recipeUsers>
+            <li>FCP_Production_Armor_Workbench</li>
+        </recipeUsers>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>FCP_Apparel_Power_Armor_T60Armor</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>FCP_Apparel_Power_Armor_T60Armor</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <products>
+            <FCP_Apparel_BoS_T60_Power_Armor>1</FCP_Apparel_BoS_T60_Power_Armor>
+        </products>
+        <skillRequirements>
+            <Crafting>8</Crafting>
+        </skillRequirements>
+        <displayPriority>230</displayPriority>
+        <researchPrerequisite>FCP_Research_CombatArmorStandard</researchPrerequisite>
+        <modExtensions>
+            <li Class="RecipeGoodwillLimiter.RecipeExtension_GoodwillCheck">
+                <requireFaction>FCP_Faction_BoS</requireFaction>
+                <minimumGoodwill>60</minimumGoodwill>
+                <uncraftableIfFactionDefeated>true</uncraftableIfFactionDefeated>
+            </li>
+        </modExtensions>
+    </RecipeDef>
+
+<!-- BoS T51 Power Armor Recipe -->
+
+    <RecipeDef MayRequire="Rick.FCP.PowerArmor">
+        <defName>Make_BoS_T51_Power_Armor</defName>
+        <label>make t51 power armor</label>
+        <description>Make a t51 power armor.</description>
+        <jobString>Making t51 power armor.</jobString>
+        <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+        <workSkill>Crafting</workSkill>
+        <effectWorking>Smith</effectWorking>
+        <soundWorking>Recipe_Smith</soundWorking>
+        <workAmount>500</workAmount>
+        <unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
+        <recipeUsers>
+            <li>FCP_Production_Armor_Workbench</li>
+        </recipeUsers>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>FCP_Apparel_Power_Armor_T51Armor</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>FCP_Apparel_Power_Armor_T51Armor</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <products>
+            <FCP_Apparel_BoS_T51_Power_Armor>1</FCP_Apparel_BoS_T51_Power_Armor>
+        </products>
+        <skillRequirements>
+            <Crafting>8</Crafting>
+        </skillRequirements>
+        <displayPriority>230</displayPriority>
+        <researchPrerequisite>FCP_Research_CombatArmorStandard</researchPrerequisite>
+        <modExtensions>
+            <li Class="RecipeGoodwillLimiter.RecipeExtension_GoodwillCheck">
+                <requireFaction>FCP_Faction_BoS</requireFaction>
+                <minimumGoodwill>60</minimumGoodwill>
+                <uncraftableIfFactionDefeated>true</uncraftableIfFactionDefeated>
+            </li>
+        </modExtensions>
+    </RecipeDef>
+
+<!-- BoS T51 Power Armor Recipe -->
+
+    <RecipeDef MayRequire="Rick.FCP.PowerArmor">
+        <defName>Make_BoS_Appalaccia_T51_Power_Armor</defName>
+        <label>make t51 appalaccia power armor</label>
+        <description>Make a t51 appalaccia power armor.</description>
+        <jobString>Making t51 appalaccia power armor.</jobString>
+        <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+        <workSkill>Crafting</workSkill>
+        <effectWorking>Smith</effectWorking>
+        <soundWorking>Recipe_Smith</soundWorking>
+        <workAmount>500</workAmount>
+        <unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
+        <recipeUsers>
+            <li>FCP_Production_Armor_Workbench</li>
+        </recipeUsers>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>FCP_Apparel_Power_Armor_T51Armor</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>FCP_Apparel_Power_Armor_T51Armor</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <products>
+            <FCP_Apparel_BoS_T51_Appalaccia_Power_Armor>1</FCP_Apparel_BoS_T51_Appalaccia_Power_Armor>
+        </products>
+        <skillRequirements>
+            <Crafting>8</Crafting>
+        </skillRequirements>
+        <displayPriority>230</displayPriority>
+        <researchPrerequisite>FCP_Research_CombatArmorStandard</researchPrerequisite>
+        <modExtensions>
+            <li Class="RecipeGoodwillLimiter.RecipeExtension_GoodwillCheck">
+                <requireFaction>FCP_Faction_BoS</requireFaction>
+                <minimumGoodwill>60</minimumGoodwill>
+                <uncraftableIfFactionDefeated>true</uncraftableIfFactionDefeated>
+            </li>
+        </modExtensions>
+    </RecipeDef>
+
+<!-- BoS T45 Lyon Power Armor Recipe -->
+
+    <RecipeDef MayRequire="Rick.FCP.PowerArmor">
+        <defName>Make_BoS_T45_Lyons_Power_Armor</defName>
+        <label>make t45 lyonspower armor</label>
+        <description>Make a t45 lyons power armor.</description>
+        <jobString>Making t45 lyons power armor.</jobString>
+        <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+        <workSkill>Crafting</workSkill>
+        <effectWorking>Smith</effectWorking>
+        <soundWorking>Recipe_Smith</soundWorking>
+        <workAmount>500</workAmount>
+        <unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
+        <recipeUsers>
+            <li>FCP_Production_Armor_Workbench</li>
+        </recipeUsers>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>FCP_Apparel_Power_Armor_T45Armor</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>FCP_Apparel_Power_Armor_T45Armor</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <products>
+            <FCP_Apparel_BoS_T45_Lyons_Power_Armor>1</FCP_Apparel_BoS_T45_Lyons_Power_Armor>
+        </products>
+        <skillRequirements>
+            <Crafting>8</Crafting>
+        </skillRequirements>
+        <displayPriority>230</displayPriority>
+        <researchPrerequisite>FCP_Research_CombatArmorStandard</researchPrerequisite>
+        <modExtensions>
+            <li Class="RecipeGoodwillLimiter.RecipeExtension_GoodwillCheck">
+                <requireFaction>FCP_Faction_BoS_Lyons_Pride_Remnants</requireFaction>
+                <minimumGoodwill>60</minimumGoodwill>
+                <uncraftableIfFactionDefeated>true</uncraftableIfFactionDefeated>
+            </li>
+        </modExtensions>
+    </RecipeDef>
+
+<!-- BoS T45 Outcast Power Armor Recipe -->
+
+    <RecipeDef MayRequire="Rick.FCP.PowerArmor">
+        <defName>Make_BoS_T45_Outcast_Power_Armor</defName>
+        <label>make t45 outcast power armor</label>
+        <description>Make a t45 outcast power armor.</description>
+        <jobString>Making t45 outcast power armor.</jobString>
+        <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+        <workSkill>Crafting</workSkill>
+        <effectWorking>Smith</effectWorking>
+        <soundWorking>Recipe_Smith</soundWorking>
+        <workAmount>500</workAmount>
+        <unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
+        <recipeUsers>
+            <li>FCP_Production_Armor_Workbench</li>
+        </recipeUsers>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>FCP_Apparel_Power_Armor_T45Armor</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>FCP_Apparel_Power_Armor_T45Armor</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <products>
+            <FCP_Apparel_BoS_T45_Outcast_Power_Armor>1</FCP_Apparel_BoS_T45_Outcast_Power_Armor>
+        </products>
+        <skillRequirements>
+            <Crafting>8</Crafting>
+        </skillRequirements>
+        <displayPriority>230</displayPriority>
+        <researchPrerequisite>FCP_Research_CombatArmorStandard</researchPrerequisite>
+        <modExtensions>
+            <li Class="RecipeGoodwillLimiter.RecipeExtension_GoodwillCheck">
+                <requireFaction>FCP_Faction_BoS_Outcast_Remnants</requireFaction>
+                <minimumGoodwill>60</minimumGoodwill>
+                <uncraftableIfFactionDefeated>true</uncraftableIfFactionDefeated>
+            </li>
+        </modExtensions>
+    </RecipeDef>
+
+</Defs>

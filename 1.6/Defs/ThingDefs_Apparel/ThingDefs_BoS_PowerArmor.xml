@@ -1,0 +1,501 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Defs>
+
+    <!--__________ BoS Apparel __________-->
+
+    <!--_____ BoS Power Armors _____-->
+
+    <!-- BoS Appalaccia T60 Power Armor -->
+
+    <ThingDef ParentName="ApparelBase" MayRequire="Rick.FCP.PowerArmor">
+        <defName>FCP_Apparel_BoS_Appalaccia_T60_Power_Armor</defName>
+        <label>BoS Appalaccia T60 Power Armor</label>
+        <description>PLACEHOLDER</description>
+        <smeltable>false</smeltable>
+        <thingClass>ThingWithComps</thingClass>
+        <thingSetMakerTags>
+            <li>RewardStandardMidFreq</li>
+        </thingSetMakerTags>
+        <possessionCount>1</possessionCount>
+        <graphicData>
+            <texPath>Things/Apparel/BoS_Power_Armor/BoS_Appalaccia_T60_Power_Armor/FCP_BoS_Appalaccia_T60_Power_Armor_Hulk_south</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>1</drawSize>
+        </graphicData>
+        <thingCategories>
+            <li>ApparelArmor</li>
+        </thingCategories>
+        <tickerType>Normal</tickerType>
+        <statBases>
+            <MaxHitPoints>280</MaxHitPoints>
+            <Mass>6.5</Mass>
+            <ArmorRating_Sharp>2</ArmorRating_Sharp>
+            <ArmorRating_Blunt>2</ArmorRating_Blunt>
+            <ArmorRating_Heat>2</ArmorRating_Heat>
+            <Insulation_Cold>6</Insulation_Cold>
+            <Insulation_Heat>6</Insulation_Heat>
+            <EquipDelay>1.1</EquipDelay>
+        </statBases>
+        <equippedStatOffsets>
+            <MoveSpeed>0.13</MoveSpeed>
+            <AimingDelayFactor>-0.07</AimingDelayFactor>
+            <ToxicEnvironmentResistance>1.0</ToxicEnvironmentResistance>
+            <SocialImpact>0.15</SocialImpact>
+        </equippedStatOffsets>
+        <apparel>
+            <shellRenderedBehindHead>true</shellRenderedBehindHead>
+            <bodyPartGroups>
+                <li>Hands</li>
+                <li>Feet</li>
+                <li>Neck</li>
+                <li>Legs</li>
+                <li>Arms</li>
+                <li>Torso</li>
+                <li>Waist</li>
+                <li>Shoulders</li>
+            </bodyPartGroups>
+            <wornGraphicPath>Things/Apparel/BoS_Power_Armor/BoS_Appalaccia_T60_Power_Armor/FCP_BoS_Appalaccia_T60_Power_Armor</wornGraphicPath>
+            <layers>
+                <li>Shell</li>
+            </layers>
+            <tags>
+                <li>FCP_Power_Armor</li>
+            </tags>
+            <defaultOutfitTags>
+                <li>Worker</li>
+            </defaultOutfitTags>
+            <canBeDesiredForIdeo>false</canBeDesiredForIdeo>
+            <useDeflectMetalEffect>true</useDeflectMetalEffect>
+            <developmentalStageFilter>Adult</developmentalStageFilter>
+        </apparel>
+        <tradeTags>
+            <li>FCP_Power_Armor_Basic</li>
+        </tradeTags>
+        <building />
+        <comps>
+            <li Class="RangerRick_PowerArmor.CompProperties_ApparelRequirement">
+                <requiredApparels>
+                    <li>FCP_Apparel_Power_Armor_Frame</li>
+                </requiredApparels>
+            </li>
+        </comps>
+        <modExtensions>
+			<li Class="FalloutCore.ApparelExtension">
+				<shouldHideBody>True</shouldHideBody>
+				<displayBodyType>Hulk</displayBodyType>
+			</li>
+		</modExtensions>
+    </ThingDef>
+
+    <!-- BoS T60 Power Armor -->
+
+    <ThingDef ParentName="ApparelBase" MayRequire="Rick.FCP.PowerArmor">
+        <defName>FCP_Apparel_BoS_T60_Power_Armor</defName>
+        <label>BoS T60 Power Armor</label>
+        <description>PLACEHOLDER</description>
+        <smeltable>false</smeltable>
+        <thingSetMakerTags>
+            <li>RewardStandardMidFreq</li>
+        </thingSetMakerTags>
+        <possessionCount>1</possessionCount>
+        <thingClass>ThingWithComps</thingClass>
+        <graphicData>
+            <texPath>Things/Apparel/BoS_Power_Armor/BoS_T60_Power_Armor/FCP_BoS_T60_Power_Armor_Hulk_south</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>1</drawSize>
+        </graphicData>
+        <thingCategories>
+            <li>ApparelArmor</li>
+        </thingCategories>
+        <tickerType>Normal</tickerType>
+        <statBases>
+            <MaxHitPoints>280</MaxHitPoints>
+            <Mass>6.5</Mass>
+            <ArmorRating_Sharp>2</ArmorRating_Sharp>
+            <ArmorRating_Blunt>2</ArmorRating_Blunt>
+            <ArmorRating_Heat>2</ArmorRating_Heat>
+            <Insulation_Cold>6</Insulation_Cold>
+            <Insulation_Heat>6</Insulation_Heat>
+            <EquipDelay>1.1</EquipDelay>
+        </statBases>
+        <equippedStatOffsets>
+            <MoveSpeed>0.13</MoveSpeed>
+            <AimingDelayFactor>-0.07</AimingDelayFactor>
+            <ToxicEnvironmentResistance>1.0</ToxicEnvironmentResistance>
+            <SocialImpact>0.15</SocialImpact>
+        </equippedStatOffsets>
+        <apparel>
+            <shellRenderedBehindHead>true</shellRenderedBehindHead>
+            <bodyPartGroups>
+                <li>Hands</li>
+                <li>Feet</li>
+                <li>Neck</li>
+                <li>Legs</li>
+                <li>Arms</li>
+                <li>Torso</li>
+                <li>Waist</li>
+                <li>Shoulders</li>
+            </bodyPartGroups>
+            <wornGraphicPath>Things/Apparel/BoS_Power_Armor/BoS_T60_Power_Armor/FCP_BoS_T60_Power_Armor_south</wornGraphicPath>
+            <layers>
+                <li>Shell</li>
+            </layers>
+            <tags>
+                <li>FCP_Power_Armor</li>
+            </tags>
+            <defaultOutfitTags>
+                <li>Worker</li>
+            </defaultOutfitTags>
+            <canBeDesiredForIdeo>false</canBeDesiredForIdeo>
+            <useDeflectMetalEffect>true</useDeflectMetalEffect>
+            <developmentalStageFilter>Adult</developmentalStageFilter>
+        </apparel>
+        <tradeTags>
+            <li>FCP_Power_Armor_Basic</li>
+        </tradeTags>
+        <building />
+        <comps>
+            <li Class="RangerRick_PowerArmor.CompProperties_ApparelRequirement">
+                <requiredApparels>
+                    <li>FCP_Apparel_Power_Armor_Frame</li>
+                </requiredApparels>
+            </li>
+        </comps>
+        <modExtensions>
+			<li Class="FalloutCore.ApparelExtension">
+				<shouldHideBody>True</shouldHideBody>
+				<displayBodyType>Hulk</displayBodyType>
+			</li>
+		</modExtensions>
+    </ThingDef>
+
+    <!-- BoS T51 Power Armor -->
+
+    <ThingDef ParentName="ApparelBase" MayRequire="Rick.FCP.PowerArmor">
+        <defName>FCP_Apparel_BoS_T51_Power_Armor</defName>
+        <label>BoS T51 Power Armor</label>
+        <description>PLACEHOLDER</description>
+        <smeltable>false</smeltable>
+        <thingSetMakerTags>
+            <li>RewardStandardMidFreq</li>
+        </thingSetMakerTags>
+        <thingClass>ThingWithComps</thingClass>
+        <possessionCount>1</possessionCount>
+        <graphicData>
+            <texPath>Things/Apparel/BoS_Power_Armor/BoS_T51_Power_Armor/FCP_BoS_T51_Power_Armor_Hulk_south</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>1</drawSize>
+        </graphicData>
+        <thingCategories>
+            <li>ApparelArmor</li>
+        </thingCategories>
+        <tickerType>Normal</tickerType>
+        <statBases>
+            <MaxHitPoints>280</MaxHitPoints>
+            <Mass>6.5</Mass>
+            <ArmorRating_Sharp>2</ArmorRating_Sharp>
+            <ArmorRating_Blunt>2</ArmorRating_Blunt>
+            <ArmorRating_Heat>2</ArmorRating_Heat>
+            <Insulation_Cold>6</Insulation_Cold>
+            <Insulation_Heat>6</Insulation_Heat>
+            <EquipDelay>1.1</EquipDelay>
+        </statBases>
+        <equippedStatOffsets>
+            <MoveSpeed>0.13</MoveSpeed>
+            <AimingDelayFactor>-0.07</AimingDelayFactor>
+            <ToxicEnvironmentResistance>1.0</ToxicEnvironmentResistance>
+            <SocialImpact>0.15</SocialImpact>
+        </equippedStatOffsets>
+        <apparel>
+            <shellRenderedBehindHead>true</shellRenderedBehindHead>
+            <bodyPartGroups>
+                <li>Hands</li>
+                <li>Feet</li>
+                <li>Neck</li>
+                <li>Legs</li>
+                <li>Arms</li>
+                <li>Torso</li>
+                <li>Waist</li>
+                <li>Shoulders</li>
+            </bodyPartGroups>
+            <wornGraphicPath>Things/Apparel/BoS_Power_Armor/BoS_T51_Power_Armor/FCP_BoS_T51_Power_Armor</wornGraphicPath>
+            <layers>
+                <li>Shell</li>
+            </layers>
+            <tags>
+                <li>FCP_Power_Armor</li>
+            </tags>
+            <defaultOutfitTags>
+                <li>Worker</li>
+            </defaultOutfitTags>
+            <canBeDesiredForIdeo>false</canBeDesiredForIdeo>
+            <useDeflectMetalEffect>true</useDeflectMetalEffect>
+            <developmentalStageFilter>Adult</developmentalStageFilter>
+        </apparel>
+        <tradeTags>
+            <li>FCP_Power_Armor_Basic</li>
+        </tradeTags>
+        <building />
+        <comps>
+            <li Class="RangerRick_PowerArmor.CompProperties_ApparelRequirement">
+                <requiredApparels>
+                    <li>FCP_Apparel_Power_Armor_Frame</li>
+                </requiredApparels>
+            </li>
+        </comps>
+        <modExtensions>
+			<li Class="FalloutCore.ApparelExtension">
+				<shouldHideBody>True</shouldHideBody>
+				<displayBodyType>Hulk</displayBodyType>
+			</li>
+		</modExtensions>
+    </ThingDef>
+
+    <!-- BoS Appalaccia T51 Power Armor -->
+
+    <ThingDef ParentName="ApparelBase" MayRequire="Rick.FCP.PowerArmor">
+        <defName>FCP_Apparel_BoS_T51_Appalaccia_Power_Armor</defName>
+        <label>BoS Appalaccia T51 Power Armor</label>
+        <description>PLACEHOLDER</description>
+        <smeltable>false</smeltable>
+        <thingSetMakerTags>
+            <li>RewardStandardMidFreq</li>
+        </thingSetMakerTags>
+        <thingClass>ThingWithComps</thingClass>
+        <possessionCount>1</possessionCount>
+        <graphicData>
+            <texPath>Things/Apparel/BoS_Power_Armor/BoS_T51_Appalaccia_Power_Armor/FCP_BoS_Appalaccia_T51_Power_Armor_Hulk_south</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>1</drawSize>
+        </graphicData>
+        <thingCategories>
+            <li>ApparelArmor</li>
+        </thingCategories>
+        <tickerType>Normal</tickerType>
+        <statBases>
+            <MaxHitPoints>280</MaxHitPoints>
+            <Mass>6.5</Mass>
+            <ArmorRating_Sharp>2</ArmorRating_Sharp>
+            <ArmorRating_Blunt>2</ArmorRating_Blunt>
+            <ArmorRating_Heat>2</ArmorRating_Heat>
+            <Insulation_Cold>6</Insulation_Cold>
+            <Insulation_Heat>6</Insulation_Heat>
+            <EquipDelay>1.1</EquipDelay>
+        </statBases>
+        <equippedStatOffsets>
+            <MoveSpeed>0.13</MoveSpeed>
+            <AimingDelayFactor>-0.07</AimingDelayFactor>
+            <ToxicEnvironmentResistance>1.0</ToxicEnvironmentResistance>
+            <SocialImpact>0.15</SocialImpact>
+        </equippedStatOffsets>
+        <apparel>
+            <shellRenderedBehindHead>true</shellRenderedBehindHead>
+            <bodyPartGroups>
+                <li>Hands</li>
+                <li>Feet</li>
+                <li>Neck</li>
+                <li>Legs</li>
+                <li>Arms</li>
+                <li>Torso</li>
+                <li>Waist</li>
+                <li>Shoulders</li>
+            </bodyPartGroups>
+            <wornGraphicPath>Things/Apparel/BoS_Power_Armor/BoS_T51_Appalaccia_Power_Armor/FCP_BoS_Appalaccia_T51_Power_Armor</wornGraphicPath>
+            <layers>
+                <li>Shell</li>
+            </layers>
+            <tags>
+                <li>FCP_Power_Armor</li>
+            </tags>
+            <defaultOutfitTags>
+                <li>Worker</li>
+            </defaultOutfitTags>
+            <canBeDesiredForIdeo>false</canBeDesiredForIdeo>
+            <useDeflectMetalEffect>true</useDeflectMetalEffect>
+            <developmentalStageFilter>Adult</developmentalStageFilter>
+        </apparel>
+        <tradeTags>
+            <li>FCP_Power_Armor_Basic</li>
+        </tradeTags>
+        <building />
+        <comps>
+            <li Class="RangerRick_PowerArmor.CompProperties_ApparelRequirement">
+                <requiredApparels>
+                    <li>FCP_Apparel_Power_Armor_Frame</li>
+                </requiredApparels>
+            </li>
+        </comps>
+        <modExtensions>
+			<li Class="FalloutCore.ApparelExtension">
+				<shouldHideBody>True</shouldHideBody>
+				<displayBodyType>Hulk</displayBodyType>
+			</li>
+		</modExtensions>
+    </ThingDef>
+
+    <!-- BoS Lyons T45 Power Armor -->
+
+    <ThingDef ParentName="ApparelBase" MayRequire="Rick.FCP.PowerArmor">
+        <defName>FCP_Apparel_BoS_T45_Lyons_Power_Armor</defName>
+        <label>BoS Lyons T51 Power Armor</label>
+        <description>PLACEHOLDER</description>
+        <smeltable>false</smeltable>
+        <thingSetMakerTags>
+            <li>RewardStandardMidFreq</li>
+        </thingSetMakerTags>
+        <thingClass>ThingWithComps</thingClass>
+        <possessionCount>1</possessionCount>
+        <graphicData>
+            <texPath>Things/Apparel/BoS_Power_Armor/BoS_Lyons_T45_Power_Armor/FCP_Lyons_T45_Power_Armor_Hulk_south</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>1</drawSize>
+        </graphicData>
+        <thingCategories>
+            <li>ApparelArmor</li>
+        </thingCategories>
+        <tickerType>Normal</tickerType>
+        <statBases>
+            <MaxHitPoints>280</MaxHitPoints>
+            <Mass>6.5</Mass>
+            <ArmorRating_Sharp>2</ArmorRating_Sharp>
+            <ArmorRating_Blunt>2</ArmorRating_Blunt>
+            <ArmorRating_Heat>2</ArmorRating_Heat>
+            <Insulation_Cold>6</Insulation_Cold>
+            <Insulation_Heat>6</Insulation_Heat>
+            <EquipDelay>1.1</EquipDelay>
+        </statBases>
+        <equippedStatOffsets>
+            <MoveSpeed>0.13</MoveSpeed>
+            <AimingDelayFactor>-0.07</AimingDelayFactor>
+            <ToxicEnvironmentResistance>1.0</ToxicEnvironmentResistance>
+            <SocialImpact>0.15</SocialImpact>
+        </equippedStatOffsets>
+        <apparel>
+            <shellRenderedBehindHead>true</shellRenderedBehindHead>
+            <bodyPartGroups>
+                <li>Hands</li>
+                <li>Feet</li>
+                <li>Neck</li>
+                <li>Legs</li>
+                <li>Arms</li>
+                <li>Torso</li>
+                <li>Waist</li>
+                <li>Shoulders</li>
+            </bodyPartGroups>
+            <wornGraphicPath>Things/Apparel/BoS_Power_Armor/BoS_Lyons_T45_Power_Armor/FCP_Lyons_T45_Power_Armor</wornGraphicPath>
+            <layers>
+                <li>Shell</li>
+            </layers>
+            <tags>
+                <li>FCP_Power_Armor</li>
+            </tags>
+            <defaultOutfitTags>
+                <li>Worker</li>
+            </defaultOutfitTags>
+            <canBeDesiredForIdeo>false</canBeDesiredForIdeo>
+            <useDeflectMetalEffect>true</useDeflectMetalEffect>
+            <developmentalStageFilter>Adult</developmentalStageFilter>
+        </apparel>
+        <tradeTags>
+            <li>FCP_Power_Armor_Basic</li>
+        </tradeTags>
+        <building />
+        <comps>
+            <li Class="RangerRick_PowerArmor.CompProperties_ApparelRequirement">
+                <requiredApparels>
+                    <li>FCP_Apparel_Power_Armor_Frame</li>
+                </requiredApparels>
+            </li>
+        </comps>
+        <modExtensions>
+			<li Class="FalloutCore.ApparelExtension">
+				<shouldHideBody>True</shouldHideBody>
+				<displayBodyType>Hulk</displayBodyType>
+			</li>
+		</modExtensions>
+    </ThingDef>
+
+    <!-- BoS Outcast T45 Power Armor -->
+
+    <ThingDef ParentName="ApparelBase" MayRequire="Rick.FCP.PowerArmor">
+        <defName>FCP_Apparel_BoS_T45_Outcast_Power_Armor</defName>
+        <label>BoS Outcast T51 Power Armor</label>
+        <description>PLACEHOLDER</description>
+        <smeltable>false</smeltable>
+        <thingSetMakerTags>
+            <li>RewardStandardMidFreq</li>
+        </thingSetMakerTags>
+        <thingClass>ThingWithComps</thingClass>
+        <possessionCount>1</possessionCount>
+        <graphicData>
+            <texPath>Things/Apparel/BoS_Power_Armor/BoS_Outcast_T45_Power_Armor/FCP_Outcast_T45_Power_Armor_Hulk_south</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>1</drawSize>
+        </graphicData>
+        <thingCategories>
+            <li>ApparelArmor</li>
+        </thingCategories>
+        <tickerType>Normal</tickerType>
+        <statBases>
+            <MaxHitPoints>280</MaxHitPoints>
+            <Mass>6.5</Mass>
+            <ArmorRating_Sharp>2</ArmorRating_Sharp>
+            <ArmorRating_Blunt>2</ArmorRating_Blunt>
+            <ArmorRating_Heat>2</ArmorRating_Heat>
+            <Insulation_Cold>6</Insulation_Cold>
+            <Insulation_Heat>6</Insulation_Heat>
+            <EquipDelay>1.1</EquipDelay>
+        </statBases>
+        <equippedStatOffsets>
+            <MoveSpeed>0.13</MoveSpeed>
+            <AimingDelayFactor>-0.07</AimingDelayFactor>
+            <ToxicEnvironmentResistance>1.0</ToxicEnvironmentResistance>
+            <SocialImpact>0.15</SocialImpact>
+        </equippedStatOffsets>
+        <apparel>
+            <shellRenderedBehindHead>true</shellRenderedBehindHead>
+            <bodyPartGroups>
+                <li>Hands</li>
+                <li>Feet</li>
+                <li>Neck</li>
+                <li>Legs</li>
+                <li>Arms</li>
+                <li>Torso</li>
+                <li>Waist</li>
+                <li>Shoulders</li>
+            </bodyPartGroups>
+            <wornGraphicPath>Things/Apparel/BoS_Power_Armor/BoS_Outcast_T45_Power_Armor/FCP_Outcast_T45_Power_Armor</wornGraphicPath>
+            <layers>
+                <li>Shell</li>
+            </layers>
+            <tags>
+                <li>FCP_Power_Armor</li>
+            </tags>
+            <defaultOutfitTags>
+                <li>Worker</li>
+            </defaultOutfitTags>
+            <canBeDesiredForIdeo>false</canBeDesiredForIdeo>
+            <useDeflectMetalEffect>true</useDeflectMetalEffect>
+            <developmentalStageFilter>Adult</developmentalStageFilter>
+        </apparel>
+        <tradeTags>
+            <li>FCP_Power_Armor_Basic</li>
+        </tradeTags>
+        <building />
+        <comps>
+            <li Class="RangerRick_PowerArmor.CompProperties_ApparelRequirement">
+                <requiredApparels>
+                    <li>FCP_Apparel_Power_Armor_Frame</li>
+                </requiredApparels>
+            </li>
+        </comps>
+        <modExtensions>
+			<li Class="FalloutCore.ApparelExtension">
+				<shouldHideBody>True</shouldHideBody>
+				<displayBodyType>Hulk</displayBodyType>
+			</li>
+		</modExtensions>
+    </ThingDef>
+
+</Defs>
