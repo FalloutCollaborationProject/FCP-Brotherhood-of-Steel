@@ -277,6 +277,37 @@
 		</backstoryFiltersOverride>
 	</PawnKindDef>
 
+	<!-- Lyons Pride Star Paladin -->
+
+	<PawnKindDef ParentName="FCP_BoS_PowerArmorBase">
+		<defName>FCP_Pawnkind_Lyons_Pride_Star_Paladin</defName>
+		<label>Lyons Pride Star Paladin</label>
+		<defaultFactionDef>FCP_Faction_BoS_Lyons_Pride_Remnants</defaultFactionDef>
+		<combatPower>80</combatPower>
+		<gearHealthRange>0.7~2.2</gearHealthRange>
+		<weaponMoney>350~800</weaponMoney>
+		<weaponTags>
+			<li>Gun</li>
+		</weaponTags>
+		<techHediffsMoney>50~50</techHediffsMoney>
+		<techHediffsTags>
+			<li>Poor</li>
+		</techHediffsTags>
+		<techHediffsChance>0.03</techHediffsChance>
+		<initialWillRange>4~6</initialWillRange>
+		<initialResistanceRange>22~35</initialResistanceRange>
+		<backstoryFiltersOverride>
+			<li>
+				<categoriesAdulthood>
+					<li>FCP_Backstory_Lyons_BoS</li>
+				</categoriesAdulthood>
+				<categoriesChildhood>
+					<li>FCP_Backstory_Lyons_Child</li>
+				</categoriesChildhood>
+			</li>
+		</backstoryFiltersOverride>
+	</PawnKindDef>
+
 	<!-- Brotherhood Sentinel -->
 
 	<PawnKindDef ParentName="FCP_BoS_PowerArmorBase">

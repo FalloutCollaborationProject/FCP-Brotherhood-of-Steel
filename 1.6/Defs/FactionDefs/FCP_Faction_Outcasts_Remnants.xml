@@ -21,6 +21,9 @@
 		<canSiege>true</canSiege>
 		<canStageAttacks>true</canStageAttacks>
 		<leaderTitle>Protector</leaderTitle>
+		<fixedLeaderKinds>
+			<li>FCP_Pawnkind_BoS_Protector</li>
+		</fixedLeaderKinds>
 		<factionIconPath>World_Icon/BoS_Icon/FCP_Outcast_World_Icon</factionIconPath>
 		<techLevel>Industrial</techLevel>
 		<fixedName>Brotherhood Outcasts</fixedName>
