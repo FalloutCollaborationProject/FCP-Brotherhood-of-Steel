@@ -70,7 +70,7 @@
     <ThingDef ParentName="ResourceBase">
         <defName>FCP_Item_BoS_Standard_Tech_Resource_Crate</defName>
         <label>Standard Tech Resource Crate</label>
-        <description>PLACEHOLDER</description>
+        <description>A sealed military crate containing essential technological components and spare parts used by the Brotherhood of Steel. These resources are crucial for maintaining and upgrading their advanced equipment.</description>
         <graphicData>
             <texPath>Things/Items/LootBox/Vault_Tec_Lunch_Box/FCP_Vault_Tec_Lunch_Box_Dirty</texPath>
             <graphicClass>Graphic_Single</graphicClass>
@@ -122,7 +122,7 @@
     <ThingDef ParentName="ResourceBase">
         <defName>FCP_Item_BoS_Standard_Uniform_Crate</defName>
         <label>Standard Uniform Crate</label>
-        <description>PLACEHOLDER</description>
+        <description>A supply crate containing Brotherhood of Steel uniforms, insignia, and protective gear. Each piece bears the distinctive emblems and colors of the faction's various ranks and divisions.</description>
         <graphicData>
             <texPath>Things/Items/LootBox/Vault_Tec_Lunch_Box/FCP_Vault_Tec_Lunch_Box_Dirty</texPath>
             <graphicClass>Graphic_Single</graphicClass>
@@ -182,7 +182,7 @@
     <ThingDef ParentName="ResourceBase">
         <defName>FCP_Item_BoS_Food_Crate</defName>
         <label>Food Crate</label>
-        <description>PLACEHOLDER</description>
+        <description>A Brotherhood of Steel ration crate containing preserved military meals, purified water, and nutritional supplements. Designed to sustain soldiers during extended operations in the wasteland.</description>
         <graphicData>
             <texPath>Things/Items/LootBox/Vault_Tec_Lunch_Box/FCP_Vault_Tec_Lunch_Box_Dirty</texPath>
             <graphicClass>Graphic_Single</graphicClass>

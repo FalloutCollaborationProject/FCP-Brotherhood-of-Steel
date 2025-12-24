@@ -436,7 +436,7 @@
         <description>A tactical hood worn by Brotherhood Outcast reconnaissance specialists. This hood features enhanced optics integration, communication equipment, and environmental protection systems modified to Outcast specifications for extended field operations behind enemy lines.</description>
         <techLevel>Industrial</techLevel>
         <graphicData>
-            <texPath>Things/Apparel/BoS_Headgear/BoS_Outcast_Recon_Hood/FCP_BoS_Outcast_Recon_Hood</texPath>
+            <texPath>Things/Apparel/BoS_Headgear/Outcast_Recon_Armor_Hood/FCP_Outast_Recon_Armor_Hood</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <recipeMaker Inherit="false">
@@ -473,7 +473,7 @@
                 <li>UpperHead</li>
                 <li>Eyes</li>
             </bodyPartGroups>
-            <wornGraphicPath>Things/Apparel/BoS_Headgear/BoS_Outcast_Recon_Hood/FCP_BoS_Outcast_Recon_Hood</wornGraphicPath>
+            <wornGraphicPath>Things/Apparel/BoS_Headgear/Outcast_Recon_Armor_Hood/FCP_Outast_Recon_Armor_Hood</wornGraphicPath>
             <layers>
                 <li>Overhead</li>
             </layers>
