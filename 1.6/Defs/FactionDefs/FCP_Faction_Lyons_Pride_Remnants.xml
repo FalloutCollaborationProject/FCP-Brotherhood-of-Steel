@@ -34,10 +34,41 @@
 		<factionIconPath>World_Icon/BoS_Icon/FCP_Lyons_Pride_Remnants_World_Icon</factionIconPath>
 		<techLevel>Industrial</techLevel>
 		<fixedName>Lyons' Pride Remnants</fixedName>
-		<settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
+		<settlementNameMaker>FCP_Namer_Settlement_Lyons_Pride</settlementNameMaker>
 		<allowedCultures>
 			<li>FCP_Culture_Lyons_BoS</li>
 		</allowedCultures>
+
+		<!--__________ Ideology __________-->
+
+		<fixedIdeo>true</fixedIdeo>
+		<ideoName>Lyons' Legacy</ideoName>
+		<ideoDescription>Elder Lyons taught us that technology without compassion is worthless. We are the shield of the people, protectors of the innocent, and proof that the Brotherhood can be more than collectors of artifacts.</ideoDescription>
+		<forcedMemes>
+			<!-- Structure -->
+			<li MayRequire="Ludeon.RimWorld.Ideology">Structure_Ideological</li>
+			<!-- Memes -->
+			<li MayRequire="Ludeon.RimWorld.Ideology">FCP_Meme_Lyons_Steel_Compassion</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">FCP_Meme_Lyons_Shield</li>
+		</forcedMemes>
+		<requiredPreceptsOnly>true</requiredPreceptsOnly>
+
+		<!--__________ Biotech __________-->
+
+		<xenotypeSet>
+			<xenotypeChances>
+				<Neanderthal MayRequire="Ludeon.RimWorld.Biotech">0</Neanderthal>
+				<Hussar MayRequire="Ludeon.RimWorld.Biotech">0</Hussar>
+				<Pigskin MayRequire="Ludeon.RimWorld.Biotech">0</Pigskin>
+				<Yttakin MayRequire="Ludeon.RimWorld.Biotech">0</Yttakin>
+				<Genie MayRequire="Ludeon.RimWorld.Biotech">0</Genie>
+				<Dirtmole MayRequire="Ludeon.RimWorld.Biotech">0</Dirtmole>
+				<Highmate MayRequire="Ludeon.RimWorld.Biotech">0</Highmate>
+			</xenotypeChances>
+		</xenotypeSet>
+
+		<!--__________ Legacy Settings __________-->
+
 		<disallowedPrecepts>
 			<li MayRequire="Ludeon.RimWorld.Ideology">DrugUse_MedicalOnly</li>
 			<li MayRequire="Ludeon.RimWorld.Ideology">DrugUse_Prohibited</li>
@@ -49,6 +80,8 @@
 			<li MayRequire="Ludeon.RimWorld.Ideology">Nudism</li>
 			<li MayRequire="Ludeon.RimWorld.Ideology">Blindsight</li>
 		</disallowedMemes>
+
+		<!--__________ Backstories __________-->
 		<backstoryFilters>
 			<li>
 				<categories>

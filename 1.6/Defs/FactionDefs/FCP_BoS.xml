@@ -20,7 +20,7 @@
 			<li>(1, 1, 1)</li>
 		</colorSpectrum>
 		<maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
-		<pawnSingular>Brother</pawnSingular>		<!-- Don't know what to call them, please change -->
+		<pawnSingular>Brother</pawnSingular>
 		<pawnsPlural>Brothers</pawnsPlural>
 		<categoryTag>Outlander</categoryTag>
 		<settlementGenerationWeight>1</settlementGenerationWeight>
@@ -34,10 +34,41 @@
 		<factionIconPath>World_Icon/BoS_Icon/FCP_BoS_World_Icon</factionIconPath>
 		<techLevel>Industrial</techLevel>
 		<fixedName>Brotherhood of Steel</fixedName>
-		<settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
+		<settlementNameMaker>FCP_Namer_Settlement_BoS</settlementNameMaker>
 		<allowedCultures>
 			<li>FCP_Culture_BoS</li>
 		</allowedCultures>
+
+		<!--__________ Ideology __________-->
+
+		<fixedIdeo>true</fixedIdeo>
+		<ideoName>The Codex</ideoName>
+		<ideoDescription>Under Elder Maxson, the Brotherhood has united discipline with purpose. We preserve technology, we protect humanity from itself, and we destroy the abominations that threaten our future. Steel be with us.</ideoDescription>
+		<forcedMemes>
+			<!-- Structure -->
+			<li MayRequire="Ludeon.RimWorld.Ideology">Structure_Ideological</li>
+			<!-- Memes -->
+			<li MayRequire="Ludeon.RimWorld.Ideology">FCP_Meme_BoS_Codex_Supremacy</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">FCP_Meme_BoS_Paladins</li>
+		</forcedMemes>
+		<requiredPreceptsOnly>true</requiredPreceptsOnly>
+
+		<!--__________ Biotech __________-->
+
+		<xenotypeSet>
+			<xenotypeChances>
+				<Neanderthal MayRequire="Ludeon.RimWorld.Biotech">0</Neanderthal>
+				<Hussar MayRequire="Ludeon.RimWorld.Biotech">0</Hussar>
+				<Pigskin MayRequire="Ludeon.RimWorld.Biotech">0</Pigskin>
+				<Yttakin MayRequire="Ludeon.RimWorld.Biotech">0</Yttakin>
+				<Genie MayRequire="Ludeon.RimWorld.Biotech">0</Genie>
+				<Dirtmole MayRequire="Ludeon.RimWorld.Biotech">0</Dirtmole>
+				<Highmate MayRequire="Ludeon.RimWorld.Biotech">0</Highmate>
+			</xenotypeChances>
+		</xenotypeSet>
+
+		<!--__________ Legacy Settings __________-->
+
 		<disallowedPrecepts>
 			<li MayRequire="Ludeon.RimWorld.Ideology">DrugUse_MedicalOnly</li>
 			<li MayRequire="Ludeon.RimWorld.Ideology">DrugUse_Prohibited</li>
@@ -49,6 +80,8 @@
 			<li MayRequire="Ludeon.RimWorld.Ideology">Nudism</li>
 			<li MayRequire="Ludeon.RimWorld.Ideology">Blindsight</li>
 		</disallowedMemes>
+
+		<!--__________ Backstories __________-->
 		<backstoryFilters>
 			<li>
 				<categories>
