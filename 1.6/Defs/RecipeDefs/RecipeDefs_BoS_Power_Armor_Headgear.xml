@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
 
-    <!--_____ BoS Power Armors Recipes _____-->
+    <!--_____ BoS Power Armor Helmet Painting Recipes _____-->
 
-    <!-- BoS Appalaccia T60 Power Armor Recipe -->
+    <!-- Paint T60 Helmet - Appalachia Colors -->
 
     <RecipeDef MayRequire="Rick.FCP.PowerArmor">
         <defName>Make_BoS_Appalaccia_T60_Power_Armor_Helmet</defName>
-        <label>make appalaccia t60 power armor helmet</label>
-        <description>Make a appalaccia t60 power armor helmet.</description>
-        <jobString>Making appalaccia t60 power armor helmet.</jobString>
+        <label>paint T60 helmet (Appalachia)</label>
+        <description>Paint a T60 power armor helmet in Brotherhood Appalachia chapter colors.</description>
+        <jobString>Painting T60 helmet in Appalachia colors.</jobString>
         <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
         <workSkill>Crafting</workSkill>
         <effectWorking>Smith</effectWorking>
@@ -42,13 +42,13 @@
         </skillRequirements>
         <displayPriority>230</displayPriority>
         <researchPrerequisites>
-			<li>FCP_Research_CombatArmorStandard</li>
+            <li>FCP_Research_CombatArmorStandard</li>
             <li>FCP_Research_BoS_Power_Armor</li>
-		</researchPrerequisites>
+        </researchPrerequisites>
         <researchPrerequisites>
-			<li>FCP_Research_CombatArmorStandard</li>
+            <li>FCP_Research_CombatArmorStandard</li>
             <li>FCP_Research_BoS_Power_Armor</li>
-		</researchPrerequisites>
+        </researchPrerequisites>
         <modExtensions>
             <li Class="RecipeGoodwillLimiter.RecipeExtension_GoodwillCheck">
                 <requireFaction>FCP_Faction_BoS</requireFaction>
@@ -58,13 +58,13 @@
         </modExtensions>
     </RecipeDef>
 
-<!-- BoS Appalaccia T60 Power Armor Recipe -->
+    <!-- Paint T60 Helmet - Standard BoS Colors -->
 
     <RecipeDef MayRequire="Rick.FCP.PowerArmor">
         <defName>Make_BoS_T60_Power_Armor_Helmet</defName>
-        <label>make t60 power armor helmet</label>
-        <description>Make a t60 power armor helmet.</description>
-        <jobString>Making t60 power armor helmet.</jobString>
+        <label>paint T60 helmet (BoS standard)</label>
+        <description>Paint a T60 power armor helmet in standard Brotherhood of Steel colors.</description>
+        <jobString>Painting T60 helmet in BoS colors.</jobString>
         <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
         <workSkill>Crafting</workSkill>
         <effectWorking>Smith</effectWorking>
@@ -97,9 +97,9 @@
         </skillRequirements>
         <displayPriority>230</displayPriority>
         <researchPrerequisites>
-			<li>FCP_Research_CombatArmorStandard</li>
+            <li>FCP_Research_CombatArmorStandard</li>
             <li>FCP_Research_BoS_Power_Armor</li>
-		</researchPrerequisites>
+        </researchPrerequisites>
         <modExtensions>
             <li Class="RecipeGoodwillLimiter.RecipeExtension_GoodwillCheck">
                 <requireFaction>FCP_Faction_BoS</requireFaction>
@@ -109,13 +109,13 @@
         </modExtensions>
     </RecipeDef>
 
-<!-- BoS T51 Power Armor Recipe -->
+    <!-- Paint T51 Helmet - Standard BoS Colors -->
 
     <RecipeDef MayRequire="Rick.FCP.PowerArmor">
         <defName>Make_BoS_T51_Power_Armor_Helmet</defName>
-        <label>make t51 power armor helmet</label>
-        <description>Make a t51 power armor helmet.</description>
-        <jobString>Making t51 power armor helmet.</jobString>
+        <label>paint T51 helmet (BoS standard)</label>
+        <description>Paint a T51 power armor helmet in standard Brotherhood of Steel colors.</description>
+        <jobString>Painting T51 helmet in BoS colors.</jobString>
         <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
         <workSkill>Crafting</workSkill>
         <effectWorking>Smith</effectWorking>
@@ -148,9 +148,9 @@
         </skillRequirements>
         <displayPriority>230</displayPriority>
         <researchPrerequisites>
-			<li>FCP_Research_CombatArmorStandard</li>
+            <li>FCP_Research_CombatArmorStandard</li>
             <li>FCP_Research_BoS_Power_Armor</li>
-		</researchPrerequisites>
+        </researchPrerequisites>
         <modExtensions>
             <li Class="RecipeGoodwillLimiter.RecipeExtension_GoodwillCheck">
                 <requireFaction>FCP_Faction_BoS</requireFaction>
@@ -160,13 +160,13 @@
         </modExtensions>
     </RecipeDef>
 
-<!-- BoS T51 Power Armor Recipe -->
+    <!-- Paint T51 Helmet - Appalachia Colors -->
 
     <RecipeDef MayRequire="Rick.FCP.PowerArmor">
         <defName>Make_BoS_Appalaccia_T51_Power_Armor_Helmet</defName>
-        <label>make t51 appalaccia power armor helmet</label>
-        <description>Make a t51 appalaccia power armor helmet.</description>
-        <jobString>Making t51 appalaccia power armor helmet.</jobString>
+        <label>paint T51 helmet (Appalachia)</label>
+        <description>Paint a T51 power armor helmet in Brotherhood Appalachia chapter colors.</description>
+        <jobString>Painting T51 helmet in Appalachia colors.</jobString>
         <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
         <workSkill>Crafting</workSkill>
         <effectWorking>Smith</effectWorking>
@@ -199,9 +199,9 @@
         </skillRequirements>
         <displayPriority>230</displayPriority>
         <researchPrerequisites>
-			<li>FCP_Research_CombatArmorStandard</li>
+            <li>FCP_Research_CombatArmorStandard</li>
             <li>FCP_Research_BoS_Power_Armor</li>
-		</researchPrerequisites>
+        </researchPrerequisites>
         <modExtensions>
             <li Class="RecipeGoodwillLimiter.RecipeExtension_GoodwillCheck">
                 <requireFaction>FCP_Faction_BoS</requireFaction>
@@ -211,13 +211,13 @@
         </modExtensions>
     </RecipeDef>
 
-<!-- BoS T45 Lyon Power Armor Recipe -->
+    <!-- Paint T45 Helmet - Lyons Pride Colors -->
 
     <RecipeDef MayRequire="Rick.FCP.PowerArmor">
         <defName>Make_BoS_T45_Lyons_Power_Armor_Helmet</defName>
-        <label>make t45 lyonspower armor helmet</label>
-        <description>Make a t45 lyons power armor helmet.</description>
-        <jobString>Making t45 lyons power armor helmet.</jobString>
+        <label>paint T45 helmet (Lyons Pride)</label>
+        <description>Paint a T45 power armor helmet in Lyons Pride Remnants colors.</description>
+        <jobString>Painting T45 helmet in Lyons Pride colors.</jobString>
         <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
         <workSkill>Crafting</workSkill>
         <effectWorking>Smith</effectWorking>
@@ -250,9 +250,9 @@
         </skillRequirements>
         <displayPriority>230</displayPriority>
         <researchPrerequisites>
-			<li>FCP_Research_CombatArmorStandard</li>
+            <li>FCP_Research_CombatArmorStandard</li>
             <li>FCP_Research_BoS_Power_Armor</li>
-		</researchPrerequisites>
+        </researchPrerequisites>
         <modExtensions>
             <li Class="RecipeGoodwillLimiter.RecipeExtension_GoodwillCheck">
                 <requireFaction>FCP_Faction_BoS_Lyons_Pride_Remnants</requireFaction>
@@ -262,13 +262,13 @@
         </modExtensions>
     </RecipeDef>
 
-<!-- BoS T45 Outcast Power Armor Recipe -->
+    <!-- Paint T45 Helmet - Outcast Colors -->
 
     <RecipeDef MayRequire="Rick.FCP.PowerArmor">
         <defName>Make_BoS_T45_Outcast_Power_Armor_Helmet</defName>
-        <label>make t45 outcast power armor helmet</label>
-        <description>Make a t45 outcast power armor helmet.</description>
-        <jobString>Making t45 outcast power armor helmet.</jobString>
+        <label>paint T45 helmet (Outcast)</label>
+        <description>Paint a T45 power armor helmet in Brotherhood Outcast colors.</description>
+        <jobString>Painting T45 helmet in Outcast colors.</jobString>
         <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
         <workSkill>Crafting</workSkill>
         <effectWorking>Smith</effectWorking>
@@ -301,9 +301,9 @@
         </skillRequirements>
         <displayPriority>230</displayPriority>
         <researchPrerequisites>
-			<li>FCP_Research_CombatArmorStandard</li>
+            <li>FCP_Research_CombatArmorStandard</li>
             <li>FCP_Research_BoS_Power_Armor</li>
-		</researchPrerequisites>
+        </researchPrerequisites>
         <modExtensions>
             <li Class="RecipeGoodwillLimiter.RecipeExtension_GoodwillCheck">
                 <requireFaction>FCP_Faction_BoS_Outcast_Remnants</requireFaction>

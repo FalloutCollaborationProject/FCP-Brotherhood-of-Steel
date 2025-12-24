@@ -9,6 +9,13 @@
 		<defName>FCP_Faction_BoS_Outcast_Remnants</defName>
 		<label>Brotherhood Outcasts</label>
 		<description>The Outcast Remnants are a hardened splinter group of the Brotherhood of Steel, formed by those who rejected the Brotherhood's changing ideals and chose to uphold the original mission: the recovery and preservation of advanced technology at any cost. Isolated from their former brothers, the Outcasts are fiercely independent, pragmatic, and often distrustful of outsiders. Their camps are fortified, their patrols relentless, and their loyalty to their cause unwavering. Though their numbers are few, their discipline, technical expertise, and mastery of power armor make them a formidable force in the wasteland.</description>
+		<royalTitleTags>
+			<li>FCP_Title_Outcast</li>
+		</royalTitleTags>
+		<royalFavorLabel>Tech Scrip</royalFavorLabel>
+		<royalTitleInheritanceWorkerClass>RoyalTitleInheritanceWorker</royalTitleInheritanceWorkerClass>
+		<royalTitleInheritanceRelations>
+		</royalTitleInheritanceRelations>
 		<colorSpectrum>
 			<li>(1, 1, 1)</li>
 		</colorSpectrum>
@@ -116,6 +123,9 @@
 		</pawnGroupMakers>
 		<settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
 		<modExtensions>
+			<li Class="FCP.Enlist.FactionEnlistOptions">
+				<enlistmentDef>FCP_Enlistment_Outcasts</enlistmentDef>
+			</li>
 			<li Class="FCP.Currencies.CurrencyReplacement">
 				<currency>FCP_Currency_BoS_Scrip</currency>
 			</li>

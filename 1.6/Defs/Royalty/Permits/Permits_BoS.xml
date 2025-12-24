@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!--__________ Permits __________-->
+
+	<!-- Base BoS Permit -->
+
+	<RoyalTitlePermitDef Name="FCP_Permit_BoS_DropResourcesBase" Abstract="True">
+		<workerClass>RoyalTitlePermitWorker_DropResources</workerClass>
+		<faction>FCP_Faction_BoS</faction>
+		<usableOnWorldMap>true</usableOnWorldMap>
+		<royalAid>
+			<targetingRange>39.9</targetingRange>
+		</royalAid>
+	</RoyalTitlePermitDef>
+
+	<!--_____ BoS Permits _____-->
+
+	<!-- Food Drop -->
+
+	<RoyalTitlePermitDef ParentName="FCP_Permit_BoS_DropResourcesBase">
+		<defName>FCP_Permit_BoS_Supply_Drop_Food</defName>
+		<label>BoS Food Drop</label>
+		<faction>FCP_Faction_BoS</faction>
+		<description>Call for Brotherhood of Steel food supplies.</description>
+		<permitPointCost>1</permitPointCost>
+		<cooldownDays>15</cooldownDays>
+		<minTitle>FCP_Title_BoS_Initiate</minTitle>
+		<uiPosition>(0,0)</uiPosition>
+		<royalAid>
+			<itemsToDrop>
+				<FCP_Item_BoS_Food_Crate>1</FCP_Item_BoS_Food_Crate>
+			</itemsToDrop>
+			<favorCost>6</favorCost>
+		</royalAid>
+		<modExtensions>
+			<li Class="FCP.Factions.MaxTitlePermitExtension">
+				<maxTitle>FCP_Title_BoS_Elder</maxTitle>
+			</li>
+		</modExtensions>
+	</RoyalTitlePermitDef>
+
+	<!--_____ Weapon Drop _____-->
+
+	<!-- Standard Weapon Drop -->
+
+	<RoyalTitlePermitDef ParentName="FCP_Permit_BoS_DropResourcesBase">
+		<defName>FCP_Permit_BoS_Supply_Drop_Weapons</defName>
+		<label>BoS Weapon Drop</label>
+		<faction>FCP_Faction_BoS</faction>
+		<description>Call for Brotherhood of Steel standard issue weapons.</description>
+		<permitPointCost>1</permitPointCost>
+		<cooldownDays>30</cooldownDays>
+		<minTitle>FCP_Title_BoS_Knight</minTitle>
+		<uiPosition>(0,1)</uiPosition>
+		<royalAid>
+			<itemsToDrop>
+				<FCP_Item_BoS_Standard_Weapon_Crate>1</FCP_Item_BoS_Standard_Weapon_Crate>
+			</itemsToDrop>
+			<favorCost>6</favorCost>
+		</royalAid>
+		<modExtensions>
+			<li Class="FCP.Factions.MaxTitlePermitExtension">
+				<maxTitle>FCP_Title_BoS_Elder</maxTitle>
+			</li>
+		</modExtensions>
+	</RoyalTitlePermitDef>
+
+	<!--_____ Uniform Drop _____-->
+
+	<!-- Standard Uniform Drop -->
+
+	<RoyalTitlePermitDef ParentName="FCP_Permit_BoS_DropResourcesBase">
+		<defName>FCP_Permit_BoS_Supply_Drop_Uniforms</defName>
+		<label>BoS Uniform Drop</label>
+		<faction>FCP_Faction_BoS</faction>
+		<description>Call for Brotherhood of Steel standard uniforms.</description>
+		<permitPointCost>1</permitPointCost>
+		<cooldownDays>30</cooldownDays>
+		<minTitle>FCP_Title_BoS_Initiate</minTitle>
+		<uiPosition>(0,2)</uiPosition>
+		<royalAid>
+			<itemsToDrop>
+				<FCP_Item_BoS_Standard_Uniform_Crate>1</FCP_Item_BoS_Standard_Uniform_Crate>
+			</itemsToDrop>
+			<favorCost>6</favorCost>
+		</royalAid>
+		<modExtensions>
+			<li Class="FCP.Factions.MaxTitlePermitExtension">
+				<maxTitle>FCP_Title_BoS_Elder</maxTitle>
+			</li>
+		</modExtensions>
+	</RoyalTitlePermitDef>
+
+	<!--_____ Tech Resources Drop _____-->
+
+	<!-- Standard Tech Resource Drop -->
+
+	<RoyalTitlePermitDef ParentName="FCP_Permit_BoS_DropResourcesBase">
+		<defName>FCP_Permit_BoS_Supply_Drop_Tech_Resources</defName>
+		<label>BoS Tech Resource Drop</label>
+		<faction>FCP_Faction_BoS</faction>
+		<description>Call for Brotherhood of Steel technical resources and components.</description>
+		<permitPointCost>1</permitPointCost>
+		<cooldownDays>30</cooldownDays>
+		<minTitle>FCP_Title_BoS_Scribe</minTitle>
+		<uiPosition>(1,2)</uiPosition>
+		<royalAid>
+			<itemsToDrop>
+				<FCP_Item_BoS_Standard_Tech_Resource_Crate>1</FCP_Item_BoS_Standard_Tech_Resource_Crate>
+			</itemsToDrop>
+			<favorCost>6</favorCost>
+		</royalAid>
+		<modExtensions>
+			<li Class="FCP.Factions.MaxTitlePermitExtension">
+				<maxTitle>FCP_Title_BoS_Elder</maxTitle>
+			</li>
+		</modExtensions>
+	</RoyalTitlePermitDef>
+
+</Defs>

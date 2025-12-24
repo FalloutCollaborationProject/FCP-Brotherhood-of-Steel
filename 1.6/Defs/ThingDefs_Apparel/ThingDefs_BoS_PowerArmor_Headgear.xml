@@ -252,6 +252,9 @@
             <layers>
                 <li>Overhead</li>
             </layers>
+            <tags>
+                <li>FCP_Power_Armor_Lyons</li>
+            </tags>
             <useDeflectMetalEffect>true</useDeflectMetalEffect>
             <developmentalStageFilter>Adult</developmentalStageFilter>
         </apparel>
@@ -304,6 +307,9 @@
             <layers>
                 <li>Overhead</li>
             </layers>
+            <tags>
+                <li>FCP_Power_Armor_Outcast</li>
+            </tags>
             <useDeflectMetalEffect>true</useDeflectMetalEffect>
             <developmentalStageFilter>Adult</developmentalStageFilter>
         </apparel>
