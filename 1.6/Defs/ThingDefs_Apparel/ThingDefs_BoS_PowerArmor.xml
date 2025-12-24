@@ -8,7 +8,7 @@
 
     <!-- BoS Appalaccia T60 Power Armor -->
 
-    <ThingDef ParentName="ApparelBase" MayRequire="Rick.FCP.PowerArmor">
+    <ThingDef ParentName="FCP_Apparel_Power_Armor_Base" MayRequire="Rick.FCP.PowerArmor">
         <defName>FCP_Apparel_BoS_Appalaccia_T60_Power_Armor</defName>
         <label>BoS Appalaccia T60 Power Armor</label>
         <description>PLACEHOLDER</description>
@@ -23,9 +23,6 @@
             <graphicClass>Graphic_Single</graphicClass>
             <drawSize>1</drawSize>
         </graphicData>
-        <thingCategories>
-            <li>ApparelArmor</li>
-        </thingCategories>
         <tickerType>Normal</tickerType>
         <statBases>
             <MaxHitPoints>280</MaxHitPoints>
@@ -73,24 +70,11 @@
             <li>FCP_Power_Armor_Basic</li>
         </tradeTags>
         <building />
-        <comps>
-            <li Class="RangerRick_PowerArmor.CompProperties_ApparelRequirement">
-                <requiredApparels>
-                    <li>FCP_Apparel_Power_Armor_Frame</li>
-                </requiredApparels>
-            </li>
-        </comps>
-        <modExtensions>
-			<li Class="FalloutCore.ApparelExtension">
-				<shouldHideBody>True</shouldHideBody>
-				<displayBodyType>Hulk</displayBodyType>
-			</li>
-		</modExtensions>
     </ThingDef>
 
     <!-- BoS T60 Power Armor -->
 
-    <ThingDef ParentName="ApparelBase" MayRequire="Rick.FCP.PowerArmor">
+    <ThingDef ParentName="FCP_Apparel_Power_Armor_Base" MayRequire="Rick.FCP.PowerArmor">
         <defName>FCP_Apparel_BoS_T60_Power_Armor</defName>
         <label>BoS T60 Power Armor</label>
         <description>PLACEHOLDER</description>
@@ -105,9 +89,6 @@
             <graphicClass>Graphic_Single</graphicClass>
             <drawSize>1</drawSize>
         </graphicData>
-        <thingCategories>
-            <li>ApparelArmor</li>
-        </thingCategories>
         <tickerType>Normal</tickerType>
         <statBases>
             <MaxHitPoints>280</MaxHitPoints>
@@ -155,24 +136,11 @@
             <li>FCP_Power_Armor_Basic</li>
         </tradeTags>
         <building />
-        <comps>
-            <li Class="RangerRick_PowerArmor.CompProperties_ApparelRequirement">
-                <requiredApparels>
-                    <li>FCP_Apparel_Power_Armor_Frame</li>
-                </requiredApparels>
-            </li>
-        </comps>
-        <modExtensions>
-			<li Class="FalloutCore.ApparelExtension">
-				<shouldHideBody>True</shouldHideBody>
-				<displayBodyType>Hulk</displayBodyType>
-			</li>
-		</modExtensions>
     </ThingDef>
 
     <!-- BoS T51 Power Armor -->
 
-    <ThingDef ParentName="ApparelBase" MayRequire="Rick.FCP.PowerArmor">
+    <ThingDef ParentName="FCP_Apparel_Power_Armor_Base" MayRequire="Rick.FCP.PowerArmor">
         <defName>FCP_Apparel_BoS_T51_Power_Armor</defName>
         <label>BoS T51 Power Armor</label>
         <description>PLACEHOLDER</description>
@@ -187,9 +155,6 @@
             <graphicClass>Graphic_Single</graphicClass>
             <drawSize>1</drawSize>
         </graphicData>
-        <thingCategories>
-            <li>ApparelArmor</li>
-        </thingCategories>
         <tickerType>Normal</tickerType>
         <statBases>
             <MaxHitPoints>280</MaxHitPoints>
@@ -237,24 +202,11 @@
             <li>FCP_Power_Armor_Basic</li>
         </tradeTags>
         <building />
-        <comps>
-            <li Class="RangerRick_PowerArmor.CompProperties_ApparelRequirement">
-                <requiredApparels>
-                    <li>FCP_Apparel_Power_Armor_Frame</li>
-                </requiredApparels>
-            </li>
-        </comps>
-        <modExtensions>
-			<li Class="FalloutCore.ApparelExtension">
-				<shouldHideBody>True</shouldHideBody>
-				<displayBodyType>Hulk</displayBodyType>
-			</li>
-		</modExtensions>
     </ThingDef>
 
     <!-- BoS Appalaccia T51 Power Armor -->
 
-    <ThingDef ParentName="ApparelBase" MayRequire="Rick.FCP.PowerArmor">
+    <ThingDef ParentName="FCP_Apparel_Power_Armor_Base" MayRequire="Rick.FCP.PowerArmor">
         <defName>FCP_Apparel_BoS_T51_Appalaccia_Power_Armor</defName>
         <label>BoS Appalaccia T51 Power Armor</label>
         <description>PLACEHOLDER</description>
@@ -269,9 +221,6 @@
             <graphicClass>Graphic_Single</graphicClass>
             <drawSize>1</drawSize>
         </graphicData>
-        <thingCategories>
-            <li>ApparelArmor</li>
-        </thingCategories>
         <tickerType>Normal</tickerType>
         <statBases>
             <MaxHitPoints>280</MaxHitPoints>
@@ -319,24 +268,11 @@
             <li>FCP_Power_Armor_Basic</li>
         </tradeTags>
         <building />
-        <comps>
-            <li Class="RangerRick_PowerArmor.CompProperties_ApparelRequirement">
-                <requiredApparels>
-                    <li>FCP_Apparel_Power_Armor_Frame</li>
-                </requiredApparels>
-            </li>
-        </comps>
-        <modExtensions>
-			<li Class="FalloutCore.ApparelExtension">
-				<shouldHideBody>True</shouldHideBody>
-				<displayBodyType>Hulk</displayBodyType>
-			</li>
-		</modExtensions>
     </ThingDef>
 
     <!-- BoS Lyons T45 Power Armor -->
 
-    <ThingDef ParentName="ApparelBase" MayRequire="Rick.FCP.PowerArmor">
+    <ThingDef ParentName="FCP_Apparel_Power_Armor_Base" MayRequire="Rick.FCP.PowerArmor">
         <defName>FCP_Apparel_BoS_T45_Lyons_Power_Armor</defName>
         <label>BoS Lyons T51 Power Armor</label>
         <description>PLACEHOLDER</description>
@@ -351,9 +287,6 @@
             <graphicClass>Graphic_Single</graphicClass>
             <drawSize>1</drawSize>
         </graphicData>
-        <thingCategories>
-            <li>ApparelArmor</li>
-        </thingCategories>
         <tickerType>Normal</tickerType>
         <statBases>
             <MaxHitPoints>280</MaxHitPoints>
@@ -401,24 +334,11 @@
             <li>FCP_Power_Armor_Basic</li>
         </tradeTags>
         <building />
-        <comps>
-            <li Class="RangerRick_PowerArmor.CompProperties_ApparelRequirement">
-                <requiredApparels>
-                    <li>FCP_Apparel_Power_Armor_Frame</li>
-                </requiredApparels>
-            </li>
-        </comps>
-        <modExtensions>
-			<li Class="FalloutCore.ApparelExtension">
-				<shouldHideBody>True</shouldHideBody>
-				<displayBodyType>Hulk</displayBodyType>
-			</li>
-		</modExtensions>
     </ThingDef>
 
     <!-- BoS Outcast T45 Power Armor -->
 
-    <ThingDef ParentName="ApparelBase" MayRequire="Rick.FCP.PowerArmor">
+    <ThingDef ParentName="FCP_Apparel_Power_Armor_Base" MayRequire="Rick.FCP.PowerArmor">
         <defName>FCP_Apparel_BoS_T45_Outcast_Power_Armor</defName>
         <label>BoS Outcast T51 Power Armor</label>
         <description>PLACEHOLDER</description>
@@ -433,9 +353,6 @@
             <graphicClass>Graphic_Single</graphicClass>
             <drawSize>1</drawSize>
         </graphicData>
-        <thingCategories>
-            <li>ApparelArmor</li>
-        </thingCategories>
         <tickerType>Normal</tickerType>
         <statBases>
             <MaxHitPoints>280</MaxHitPoints>
@@ -483,19 +400,6 @@
             <li>FCP_Power_Armor_Basic</li>
         </tradeTags>
         <building />
-        <comps>
-            <li Class="RangerRick_PowerArmor.CompProperties_ApparelRequirement">
-                <requiredApparels>
-                    <li>FCP_Apparel_Power_Armor_Frame</li>
-                </requiredApparels>
-            </li>
-        </comps>
-        <modExtensions>
-			<li Class="FalloutCore.ApparelExtension">
-				<shouldHideBody>True</shouldHideBody>
-				<displayBodyType>Hulk</displayBodyType>
-			</li>
-		</modExtensions>
     </ThingDef>
 
 </Defs>

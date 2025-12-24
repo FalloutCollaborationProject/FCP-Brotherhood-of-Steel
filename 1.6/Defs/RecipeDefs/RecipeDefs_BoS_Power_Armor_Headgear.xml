@@ -6,10 +6,10 @@
     <!-- BoS Appalaccia T60 Power Armor Recipe -->
 
     <RecipeDef MayRequire="Rick.FCP.PowerArmor">
-        <defName>Make_BoS_Appalaccia_T60_Power_Armor</defName>
-        <label>make appalaccia t60 power armor</label>
-        <description>Make a appalaccia t60 power armor.</description>
-        <jobString>Making appalaccia t60 power armor.</jobString>
+        <defName>Make_BoS_Appalaccia_T60_Power_Armor_Helmet</defName>
+        <label>make appalaccia t60 power armor helmet</label>
+        <description>Make a appalaccia t60 power armor helmet.</description>
+        <jobString>Making appalaccia t60 power armor helmet.</jobString>
         <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
         <workSkill>Crafting</workSkill>
         <effectWorking>Smith</effectWorking>
@@ -23,7 +23,7 @@
             <li>
                 <filter>
                     <thingDefs>
-                        <li>FCP_Apparel_Power_Armor_T60Armor</li>
+                        <li>FCP_Apparel_Power_Armor_T60_Helmet</li>
                     </thingDefs>
                 </filter>
                 <count>1</count>
@@ -31,16 +31,20 @@
         </ingredients>
         <fixedIngredientFilter>
             <thingDefs>
-                <li>FCP_Apparel_Power_Armor_T60Armor</li>
+                <li>FCP_Apparel_Power_Armor_T60_Helmet</li>
             </thingDefs>
         </fixedIngredientFilter>
         <products>
-            <FCP_Apparel_BoS_Appalaccia_T60_Power_Armor>1</FCP_Apparel_BoS_Appalaccia_T60_Power_Armor>
+            <FCP_Apparel_BoS_Appalaccia_T60_Power_Armor_Helmet>1</FCP_Apparel_BoS_Appalaccia_T60_Power_Armor_Helmet>
         </products>
         <skillRequirements>
             <Crafting>8</Crafting>
         </skillRequirements>
         <displayPriority>230</displayPriority>
+        <researchPrerequisites>
+			<li>FCP_Research_CombatArmorStandard</li>
+            <li>FCP_Research_BoS_Power_Armor</li>
+		</researchPrerequisites>
         <researchPrerequisites>
 			<li>FCP_Research_CombatArmorStandard</li>
             <li>FCP_Research_BoS_Power_Armor</li>
@@ -57,10 +61,10 @@
 <!-- BoS Appalaccia T60 Power Armor Recipe -->
 
     <RecipeDef MayRequire="Rick.FCP.PowerArmor">
-        <defName>Make_BoS_T60_Power_Armor</defName>
-        <label>make t60 power armor</label>
-        <description>Make a t60 power armor.</description>
-        <jobString>Making t60 power armor.</jobString>
+        <defName>Make_BoS_T60_Power_Armor_Helmet</defName>
+        <label>make t60 power armor helmet</label>
+        <description>Make a t60 power armor helmet.</description>
+        <jobString>Making t60 power armor helmet.</jobString>
         <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
         <workSkill>Crafting</workSkill>
         <effectWorking>Smith</effectWorking>
@@ -74,7 +78,7 @@
             <li>
                 <filter>
                     <thingDefs>
-                        <li>FCP_Apparel_Power_Armor_T60Armor</li>
+                        <li>FCP_Apparel_Power_Armor_T60_Helmet</li>
                     </thingDefs>
                 </filter>
                 <count>1</count>
@@ -82,11 +86,11 @@
         </ingredients>
         <fixedIngredientFilter>
             <thingDefs>
-                <li>FCP_Apparel_Power_Armor_T60Armor</li>
+                <li>FCP_Apparel_Power_Armor_T60_Helmet</li>
             </thingDefs>
         </fixedIngredientFilter>
         <products>
-            <FCP_Apparel_BoS_T60_Power_Armor>1</FCP_Apparel_BoS_T60_Power_Armor>
+            <FCP_Apparel_BoS_T60_Power_Armor_Helmet>1</FCP_Apparel_BoS_T60_Power_Armor_Helmet>
         </products>
         <skillRequirements>
             <Crafting>8</Crafting>
@@ -108,10 +112,10 @@
 <!-- BoS T51 Power Armor Recipe -->
 
     <RecipeDef MayRequire="Rick.FCP.PowerArmor">
-        <defName>Make_BoS_T51_Power_Armor</defName>
-        <label>make t51 power armor</label>
-        <description>Make a t51 power armor.</description>
-        <jobString>Making t51 power armor.</jobString>
+        <defName>Make_BoS_T51_Power_Armor_Helmet</defName>
+        <label>make t51 power armor helmet</label>
+        <description>Make a t51 power armor helmet.</description>
+        <jobString>Making t51 power armor helmet.</jobString>
         <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
         <workSkill>Crafting</workSkill>
         <effectWorking>Smith</effectWorking>
@@ -125,7 +129,7 @@
             <li>
                 <filter>
                     <thingDefs>
-                        <li>FCP_Apparel_Power_Armor_T51Armor</li>
+                        <li>FCP_Apparel_Power_Armor_T51_Helmet</li>
                     </thingDefs>
                 </filter>
                 <count>1</count>
@@ -133,11 +137,11 @@
         </ingredients>
         <fixedIngredientFilter>
             <thingDefs>
-                <li>FCP_Apparel_Power_Armor_T51Armor</li>
+                <li>FCP_Apparel_Power_Armor_T51_Helmet</li>
             </thingDefs>
         </fixedIngredientFilter>
         <products>
-            <FCP_Apparel_BoS_T51_Power_Armor>1</FCP_Apparel_BoS_T51_Power_Armor>
+            <FCP_Apparel_BoS_T51_Power_Armor_Helmet>1</FCP_Apparel_BoS_T51_Power_Armor_Helmet>
         </products>
         <skillRequirements>
             <Crafting>8</Crafting>
@@ -159,10 +163,10 @@
 <!-- BoS T51 Power Armor Recipe -->
 
     <RecipeDef MayRequire="Rick.FCP.PowerArmor">
-        <defName>Make_BoS_Appalaccia_T51_Power_Armor</defName>
-        <label>make t51 appalaccia power armor</label>
-        <description>Make a t51 appalaccia power armor.</description>
-        <jobString>Making t51 appalaccia power armor.</jobString>
+        <defName>Make_BoS_Appalaccia_T51_Power_Armor_Helmet</defName>
+        <label>make t51 appalaccia power armor helmet</label>
+        <description>Make a t51 appalaccia power armor helmet.</description>
+        <jobString>Making t51 appalaccia power armor helmet.</jobString>
         <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
         <workSkill>Crafting</workSkill>
         <effectWorking>Smith</effectWorking>
@@ -176,7 +180,7 @@
             <li>
                 <filter>
                     <thingDefs>
-                        <li>FCP_Apparel_Power_Armor_T51Armor</li>
+                        <li>FCP_Apparel_Power_Armor_T51_Helmet</li>
                     </thingDefs>
                 </filter>
                 <count>1</count>
@@ -184,11 +188,11 @@
         </ingredients>
         <fixedIngredientFilter>
             <thingDefs>
-                <li>FCP_Apparel_Power_Armor_T51Armor</li>
+                <li>FCP_Apparel_Power_Armor_T51_Helmet</li>
             </thingDefs>
         </fixedIngredientFilter>
         <products>
-            <FCP_Apparel_BoS_T51_Appalaccia_Power_Armor>1</FCP_Apparel_BoS_T51_Appalaccia_Power_Armor>
+            <FCP_Apparel_BoS_T51_Appalaccia_Power_Armor_Helmet>1</FCP_Apparel_BoS_T51_Appalaccia_Power_Armor_Helmet>
         </products>
         <skillRequirements>
             <Crafting>8</Crafting>
@@ -210,10 +214,10 @@
 <!-- BoS T45 Lyon Power Armor Recipe -->
 
     <RecipeDef MayRequire="Rick.FCP.PowerArmor">
-        <defName>Make_BoS_T45_Lyons_Power_Armor</defName>
-        <label>make t45 lyonspower armor</label>
-        <description>Make a t45 lyons power armor.</description>
-        <jobString>Making t45 lyons power armor.</jobString>
+        <defName>Make_BoS_T45_Lyons_Power_Armor_Helmet</defName>
+        <label>make t45 lyonspower armor helmet</label>
+        <description>Make a t45 lyons power armor helmet.</description>
+        <jobString>Making t45 lyons power armor helmet.</jobString>
         <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
         <workSkill>Crafting</workSkill>
         <effectWorking>Smith</effectWorking>
@@ -227,7 +231,7 @@
             <li>
                 <filter>
                     <thingDefs>
-                        <li>FCP_Apparel_Power_Armor_T45Armor</li>
+                        <li>FCP_Apparel_Power_Armor_T45_Helmet</li>
                     </thingDefs>
                 </filter>
                 <count>1</count>
@@ -235,11 +239,11 @@
         </ingredients>
         <fixedIngredientFilter>
             <thingDefs>
-                <li>FCP_Apparel_Power_Armor_T45Armor</li>
+                <li>FCP_Apparel_Power_Armor_T45_Helmet</li>
             </thingDefs>
         </fixedIngredientFilter>
         <products>
-            <FCP_Apparel_BoS_T45_Lyons_Power_Armor>1</FCP_Apparel_BoS_T45_Lyons_Power_Armor>
+            <FCP_Apparel_BoS_T45_Lyons_Power_Armor_Helmet>1</FCP_Apparel_BoS_T45_Lyons_Power_Armor_Helmet>
         </products>
         <skillRequirements>
             <Crafting>8</Crafting>
@@ -261,10 +265,10 @@
 <!-- BoS T45 Outcast Power Armor Recipe -->
 
     <RecipeDef MayRequire="Rick.FCP.PowerArmor">
-        <defName>Make_BoS_T45_Outcast_Power_Armor</defName>
-        <label>make t45 outcast power armor</label>
-        <description>Make a t45 outcast power armor.</description>
-        <jobString>Making t45 outcast power armor.</jobString>
+        <defName>Make_BoS_T45_Outcast_Power_Armor_Helmet</defName>
+        <label>make t45 outcast power armor helmet</label>
+        <description>Make a t45 outcast power armor helmet.</description>
+        <jobString>Making t45 outcast power armor helmet.</jobString>
         <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
         <workSkill>Crafting</workSkill>
         <effectWorking>Smith</effectWorking>
@@ -278,7 +282,7 @@
             <li>
                 <filter>
                     <thingDefs>
-                        <li>FCP_Apparel_Power_Armor_T45Armor</li>
+                        <li>FCP_Apparel_Power_Armor_T45_Helmet</li>
                     </thingDefs>
                 </filter>
                 <count>1</count>
@@ -286,11 +290,11 @@
         </ingredients>
         <fixedIngredientFilter>
             <thingDefs>
-                <li>FCP_Apparel_Power_Armor_T45Armor</li>
+                <li>FCP_Apparel_Power_Armor_T45_Helmet</li>
             </thingDefs>
         </fixedIngredientFilter>
         <products>
-            <FCP_Apparel_BoS_T45_Outcast_Power_Armor>1</FCP_Apparel_BoS_T45_Outcast_Power_Armor>
+            <FCP_Apparel_BoS_T45_Outcast_Power_Armor_Helmet>1</FCP_Apparel_BoS_T45_Outcast_Power_Armor_Helmet>
         </products>
         <skillRequirements>
             <Crafting>8</Crafting>
