@@ -62,17 +62,17 @@
                 <!-- Weapons -->
                 <li Class="ScenPart_StartingThing_Defined">
                     <def>StartingThing_Defined</def>
-                    <thingDef>Gun_AssaultRifle</thingDef>
+                    <thingDef MayRequire="Rick.FCP.EnergyWeapons">FCP_Gun_Laser_Rifle</thingDef>
                     <count>2</count>
                 </li>
                 <li Class="ScenPart_StartingThing_Defined">
                     <def>StartingThing_Defined</def>
-                    <thingDef>Gun_BoltActionRifle</thingDef>
+                    <thingDef>Gun_AssaultRifle</thingDef>
                     <count>1</count>
                 </li>
                 <li Class="ScenPart_StartingThing_Defined">
                     <def>StartingThing_Defined</def>
-                    <thingDef>Gun_Autopistol</thingDef>
+                    <thingDef MayRequire="Rick.FCP.EnergyWeapons">FCP_Gun_Laser_Pistol</thingDef>
                     <count>1</count>
                 </li>
                 <!-- Starting resources -->
@@ -151,7 +151,7 @@
                 <!-- Equipment -->
                 <li Class="ScenPart_StartingThing_Defined">
                     <def>StartingThing_Defined</def>
-                    <thingDef>FCP_Apparel_BoS_Brotherhood_Fatigues</thingDef>
+                    <thingDef>FCP_Apparel_BoS_Recon_Armor</thingDef>
                     <count>2</count>
                 </li>
                 <li Class="ScenPart_StartingThing_Defined">
@@ -162,15 +162,20 @@
                 <!-- Weapons -->
                 <li Class="ScenPart_StartingThing_Defined">
                     <def>StartingThing_Defined</def>
-                    <thingDef>Gun_AssaultRifle</thingDef>
-                    <count>2</count>
+                    <thingDef MayRequire="Rick.FCP.EnergyWeapons">FCP_Gun_Laser_Rifle</thingDef>
+                    <count>1</count>
                 </li>
                 <li Class="ScenPart_StartingThing_Defined">
                     <def>StartingThing_Defined</def>
-                    <thingDef>Gun_Revolver</thingDef>
+                    <thingDef>Gun_AssaultRifle</thingDef>
                     <count>1</count>
                 </li>
-                <!-- Starting resources - more medicine, less weapons -->
+                <li Class="ScenPart_StartingThing_Defined">
+                    <def>StartingThing_Defined</def>
+                    <thingDef MayRequire="Rick.FCP.EnergyWeapons">FCP_Gun_Laser_Pistol</thingDef>
+                    <count>1</count>
+                </li>
+                <!-- Starting resources -->
                 <li Class="ScenPart_StartingThing_Defined">
                     <def>StartingThing_Defined</def>
                     <thingDef>MealSurvivalPack</thingDef>
@@ -241,29 +246,34 @@
                     <context>PlayerStarter</context>
                     <chance>0.5</chance>
                 </li>
-                <!-- Equipment - Better gear -->
+                <!-- Equipment -->
                 <li Class="ScenPart_StartingThing_Defined">
                     <def>StartingThing_Defined</def>
-                    <thingDef>FCP_Apparel_BoS_Recon_Armor</thingDef>
+                    <thingDef>FCP_Apparel_BoS_Outcast_Recon_Armor</thingDef>
                     <count>2</count>
                 </li>
                 <li Class="ScenPart_StartingThing_Defined">
                     <def>StartingThing_Defined</def>
-                    <thingDef>FCP_Apparel_BoS_Science_Scribe</thingDef>
+                    <thingDef>FCP_Apparel_BoS_Outcast_Scribe_Robes</thingDef>
                     <count>1</count>
                 </li>
-                <!-- Better weapons -->
+                <!-- Weapons -->
                 <li Class="ScenPart_StartingThing_Defined">
                     <def>StartingThing_Defined</def>
-                    <thingDef>Gun_ChargeRifle</thingDef>
-                    <count>2</count>
-                </li>
-                <li Class="ScenPart_StartingThing_Defined">
-                    <def>StartingThing_Defined</def>
-                    <thingDef>Gun_ChargeLance</thingDef>
+                    <thingDef MayRequire="Rick.FCP.EnergyWeapons">FCP_Gun_Plasma_Rifle</thingDef>
                     <count>1</count>
                 </li>
-                <!-- Starting resources - More tech, less consumables -->
+                <li Class="ScenPart_StartingThing_Defined">
+                    <def>StartingThing_Defined</def>
+                    <thingDef MayRequire="Rick.FCP.EnergyWeapons">FCP_Gun_Tri_Beam_Laser_Rifle</thingDef>
+                    <count>1</count>
+                </li>
+                <li Class="ScenPart_StartingThing_Defined">
+                    <def>StartingThing_Defined</def>
+                    <thingDef MayRequire="Rick.FCP.EnergyWeapons">FCP_Gun_Laser_Pistol</thingDef>
+                    <count>1</count>
+                </li>
+                <!-- Starting resources -->
                 <li Class="ScenPart_StartingThing_Defined">
                     <def>StartingThing_Defined</def>
                     <thingDef>MealSurvivalPack</thingDef>
@@ -349,7 +359,7 @@
                     <context>PlayerStarter</context>
                     <chance>0.4</chance>
                 </li>
-                <!-- Equipment - Mix of styles -->
+                <!-- Equipment -->
                 <li Class="ScenPart_StartingThing_Defined">
                     <def>StartingThing_Defined</def>
                     <thingDef>FCP_Apparel_BoS_Apalacia_Fatigues</thingDef>
@@ -365,20 +375,20 @@
                     <thingDef>FCP_Apparel_BoS_Field_Scribe</thingDef>
                     <count>1</count>
                 </li>
-                <!-- Mixed weapons -->
+                <!-- Weapons -->
+                <li Class="ScenPart_StartingThing_Defined">
+                    <def>StartingThing_Defined</def>
+                    <thingDef MayRequire="Rick.FCP.EnergyWeapons">FCP_Gun_Laser_Rifle</thingDef>
+                    <count>2</count>
+                </li>
                 <li Class="ScenPart_StartingThing_Defined">
                     <def>StartingThing_Defined</def>
                     <thingDef>Gun_AssaultRifle</thingDef>
-                    <count>3</count>
+                    <count>2</count>
                 </li>
                 <li Class="ScenPart_StartingThing_Defined">
                     <def>StartingThing_Defined</def>
-                    <thingDef>Gun_SniperRifle</thingDef>
-                    <count>1</count>
-                </li>
-                <li Class="ScenPart_StartingThing_Defined">
-                    <def>StartingThing_Defined</def>
-                    <thingDef>Gun_Autopistol</thingDef>
+                    <thingDef MayRequire="Rick.FCP.EnergyWeapons">FCP_Gun_Laser_Pistol</thingDef>
                     <count>1</count>
                 </li>
                 <!-- Balanced resources -->
