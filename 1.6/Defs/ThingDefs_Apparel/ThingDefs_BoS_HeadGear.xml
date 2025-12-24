@@ -239,7 +239,7 @@
             </tags>
         </apparel>
     </ThingDef>
-    
+
     <!-- BoS Lancer Captain Hat -->
 
     <ThingDef ParentName="HatMakeableBase">
@@ -287,7 +287,7 @@
         </apparel>
     </ThingDef>
 
- <!-- BoS Field Scribe Hat -->
+    <!-- BoS Field Scribe Hat -->
 
     <ThingDef ParentName="HatMakeableBase">
         <defName>FCP_Apparel_BoS_Field_Scribe_Hat</defName>
@@ -426,6 +426,64 @@
                 <li>FCP_BoS_Apparel</li>
             </tags>
         </apparel>
+    </ThingDef>
+
+    <!-- BoS Outcast Recon Hood -->
+
+    <ThingDef ParentName="HatMakeableBase">
+        <defName>FCP_Apparel_BoS_Outcast_Recon_Hood</defName>
+        <label>BoS Outcast Recon Hood</label>
+        <description>A tactical hood worn by Brotherhood Outcast reconnaissance specialists. This hood features enhanced optics integration, communication equipment, and environmental protection systems modified to Outcast specifications for extended field operations behind enemy lines.</description>
+        <techLevel>Industrial</techLevel>
+        <graphicData>
+            <texPath>Things/Apparel/BoS_Headgear/BoS_Outcast_Recon_Hood/FCP_BoS_Outcast_Recon_Hood</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <recipeMaker Inherit="false">
+            <researchPrerequisite>FCP_Research_BoS_Outcast_Equipment</researchPrerequisite>
+            <skillRequirements>
+                <Crafting>5</Crafting>
+            </skillRequirements>
+            <recipeUsers>
+                <li>FCP_Production_Tailoring_Workbench</li>
+            </recipeUsers>
+        </recipeMaker>
+        <costList>
+            <Steel>25</Steel>
+            <ComponentIndustrial>2</ComponentIndustrial>
+            <Cloth>15</Cloth>
+        </costList>
+        <statBases>
+            <MaxHitPoints>60</MaxHitPoints>
+            <WorkToMake>4500</WorkToMake>
+            <Mass>0.8</Mass>
+            <ArmorRating_Sharp>0.54</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.27</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.36</ArmorRating_Heat>
+            <Insulation_Cold>8</Insulation_Cold>
+            <Insulation_Heat>4</Insulation_Heat>
+            <EquipDelay>1.5</EquipDelay>
+        </statBases>
+        <equippedStatOffsets>
+            <AimingDelayFactor>-0.05</AimingDelayFactor>
+            <ShootingAccuracyPawn>0.05</ShootingAccuracyPawn>
+        </equippedStatOffsets>
+        <apparel>
+            <bodyPartGroups>
+                <li>UpperHead</li>
+                <li>Eyes</li>
+            </bodyPartGroups>
+            <wornGraphicPath>Things/Apparel/BoS_Headgear/BoS_Outcast_Recon_Hood/FCP_BoS_Outcast_Recon_Hood</wornGraphicPath>
+            <layers>
+                <li>Overhead</li>
+            </layers>
+            <tags>
+                <li>FCP_BoS_Outcast</li>
+            </tags>
+        </apparel>
+        <tradeTags>
+            <li>FCP_BoS_Headgear</li>
+        </tradeTags>
     </ThingDef>
 
 </Defs>

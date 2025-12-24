@@ -817,6 +817,86 @@
         </possessions>
     </BackstoryDef>
 
+    <!--_ Brotherhood Elders _-->
+
+    <!-- Brotherhood Elder a -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_BoS_Elder_a</defName>
+        <identifier>FCP_Backstory_BoS_Elder_a</identifier>
+        <slot>Adulthood</slot>
+        <title>Brotherhood Elder</title>
+        <titleShort>Elder</titleShort>
+        <description>After decades of service, [PAWN_nameDef] rose through the Brotherhood's ranks to become an Elder. [PAWN_pronoun] has witnessed the rise and fall of many chapters, the loss of countless brothers and sisters, and the endless struggle to preserve humanity's technological heritage. The weight of leadership has changed [PAWN_objective] - where once [PAWN_pronoun] was a fierce warrior, now [PAWN_pronoun] is a careful strategist who must balance the Brotherhood's mission with the lives under [PAWN_possessive] command.</description>
+        <skillGains>
+            <Shooting>3</Shooting>
+            <Social>8</Social>
+            <Intellectual>6</Intellectual>
+            <Medicine>2</Medicine>
+        </skillGains>
+        <workDisables>ManualDumb</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Backstory_BoS_Elder</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions>
+        </possessions>
+    </BackstoryDef>
+
+    <!-- Brotherhood Elder b -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_BoS_Elder_b</defName>
+        <identifier>FCP_Backstory_BoS_Elder_b</identifier>
+        <slot>Adulthood</slot>
+        <title>Brotherhood Elder</title>
+        <titleShort>Elder</titleShort>
+        <description>[PAWN_nameDef] became an Elder not through political maneuvering, but through sheer competence and unwavering dedication to the Brotherhood's ideals. [PAWN_pronoun] has led countless expeditions into the wasteland, secured vital technology caches, and negotiated with both allies and enemies. Though [PAWN_possessive] body shows the wear of decades in power armor, [PAWN_possessive] mind remains sharp and [PAWN_possessive] resolve unshakeable. To [PAWN_objective], the Brotherhood is not just an organization—it is humanity's last hope.</description>
+        <skillGains>
+            <Shooting>4</Shooting>
+            <Social>6</Social>
+            <Intellectual>5</Intellectual>
+            <Crafting>3</Crafting>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Backstory_BoS_Elder</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions>
+        </possessions>
+    </BackstoryDef>
+
+    <!-- Brotherhood Elder c -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_BoS_Elder_c</defName>
+        <identifier>FCP_Backstory_BoS_Elder_c</identifier>
+        <slot>Adulthood</slot>
+        <title>Brotherhood Elder</title>
+        <titleShort>Elder</titleShort>
+        <description>Power corrupts, and [PAWN_nameDef] has felt its influence. What began as righteous leadership of a Brotherhood chapter slowly transformed into authoritarian control. [PAWN_pronoun] justifies every harsh decision, every sacrifice of subordinates, as necessary for the greater good. The Brotherhood's mission has become [PAWN_possessive] personal crusade, and [PAWN_pronoun] will crush anyone—within or without the organization—who stands in [PAWN_possessive] way. Some whisper that [PAWN_pronoun] has forgotten what they're fighting to preserve.</description>
+        <skillGains>
+            <Shooting>5</Shooting>
+            <Social>4</Social>
+            <Intellectual>4</Intellectual>
+            <Medicine>-3</Medicine>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Backstory_BoS_Elder</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions>
+        </possessions>
+    </BackstoryDef>
+
     <!--__ Children __-->
 
     <!-- Junior Scribe -->

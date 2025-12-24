@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
-    <!--__________ Pawnkinds __________-->
+	<!--__________ Pawnkinds __________-->
 
-    <!--_____ BoS Pawnkinds _____-->
+	<!--_____ BoS Pawnkinds _____-->
 
 	<!--___ Military ___-->
 
@@ -188,12 +188,12 @@
 		<initialWillRange>2~5</initialWillRange>
 		<initialResistanceRange>17~28</initialResistanceRange>
 		<backstoryFiltersOverride>
-            <li>
-                <categoriesAdulthood>
-                    <li>FCP_Backstory_BoS_Knight</li>
-                </categoriesAdulthood>
-            </li>
-        </backstoryFiltersOverride>
+			<li>
+				<categoriesAdulthood>
+					<li>FCP_Backstory_BoS_Knight</li>
+				</categoriesAdulthood>
+			</li>
+		</backstoryFiltersOverride>
 	</PawnKindDef>
 
 	<!-- Brotherhood Knight-captain -->
@@ -215,12 +215,12 @@
 		<initialWillRange>2~5</initialWillRange>
 		<initialResistanceRange>19~30</initialResistanceRange>
 		<backstoryFiltersOverride>
-            <li>
-                <categoriesAdulthood>
-                    <li>FCP_Backstory_BoS_Knight</li>
-                </categoriesAdulthood>
-            </li>
-        </backstoryFiltersOverride>
+			<li>
+				<categoriesAdulthood>
+					<li>FCP_Backstory_BoS_Knight</li>
+				</categoriesAdulthood>
+			</li>
+		</backstoryFiltersOverride>
 	</PawnKindDef>
 
 	<!-- Brotherhood Paladin -->
@@ -289,6 +289,12 @@
 		<weaponTags>
 			<li>Gun</li>
 		</weaponTags>
+		<apparelRequired>
+			<li MayRequire="Rick.FCP.PowerArmor">FCP_Apparel_Power_Armor_Frame</li>
+			<li>FCP_Apparel_BoS_Jumpsuit</li>
+			<li MayRequire="Rick.FCP.PowerArmor">FCP_Apparel_BoS_T45_Lyons_Power_Armor</li>
+			<li MayRequire="Rick.FCP.PowerArmor">FCP_Apparel_BoS_T45_Lyons_Power_Armor_Helmet</li>
+		</apparelRequired>
 		<techHediffsMoney>50~50</techHediffsMoney>
 		<techHediffsTags>
 			<li>Poor</li>
@@ -296,6 +302,78 @@
 		<techHediffsChance>0.03</techHediffsChance>
 		<initialWillRange>4~6</initialWillRange>
 		<initialResistanceRange>22~35</initialResistanceRange>
+		<backstoryFiltersOverride>
+			<li>
+				<categoriesAdulthood>
+					<li>FCP_Backstory_Lyons_BoS</li>
+				</categoriesAdulthood>
+				<categoriesChildhood>
+					<li>FCP_Backstory_Lyons_Child</li>
+				</categoriesChildhood>
+			</li>
+		</backstoryFiltersOverride>
+	</PawnKindDef>
+
+	<!-- Lyons Pride Paladin -->
+
+	<PawnKindDef ParentName="FCP_BoS_PowerArmorBase">
+		<defName>FCP_Pawnkind_Lyons_Pride_Paladin</defName>
+		<label>Lyons Pride Paladin</label>
+		<defaultFactionDef>FCP_Faction_BoS_Lyons_Pride_Remnants</defaultFactionDef>
+		<combatPower>70</combatPower>
+		<gearHealthRange>0.7~2</gearHealthRange>
+		<weaponMoney>300~700</weaponMoney>
+		<weaponTags>
+			<li>Gun</li>
+		</weaponTags>
+		<apparelRequired>
+			<li MayRequire="Rick.FCP.PowerArmor">FCP_Apparel_Power_Armor_Frame</li>
+			<li>FCP_Apparel_BoS_Jumpsuit</li>
+			<li MayRequire="Rick.FCP.PowerArmor">FCP_Apparel_BoS_T45_Lyons_Power_Armor</li>
+			<li MayRequire="Rick.FCP.PowerArmor">FCP_Apparel_BoS_T45_Lyons_Power_Armor_Helmet</li>
+		</apparelRequired>
+		<techHediffsMoney>50~50</techHediffsMoney>
+		<techHediffsTags>
+			<li>Poor</li>
+		</techHediffsTags>
+		<techHediffsChance>0.03</techHediffsChance>
+		<initialWillRange>3~5</initialWillRange>
+		<initialResistanceRange>19~30</initialResistanceRange>
+		<backstoryFiltersOverride>
+			<li>
+				<categoriesAdulthood>
+					<li>FCP_Backstory_Lyons_BoS</li>
+				</categoriesAdulthood>
+				<categoriesChildhood>
+					<li>FCP_Backstory_Lyons_Child</li>
+				</categoriesChildhood>
+			</li>
+		</backstoryFiltersOverride>
+	</PawnKindDef>
+
+	<!-- Lyons Pride Knight -->
+
+	<PawnKindDef ParentName="FCP_BoSkindBase">
+		<defName>FCP_Pawnkind_Lyons_Pride_Knight</defName>
+		<label>Lyons Pride Knight</label>
+		<defaultFactionDef>FCP_Faction_BoS_Lyons_Pride_Remnants</defaultFactionDef>
+		<combatPower>60</combatPower>
+		<gearHealthRange>0.5~1.8</gearHealthRange>
+		<weaponMoney>150~600</weaponMoney>
+		<weaponTags>
+			<li>Gun</li>
+		</weaponTags>
+		<apparelRequired>
+			<li>FCP_Apparel_BoS_Recon_Hood</li>
+			<li>FCP_Apparel_BoS_Recon_Armor</li>
+		</apparelRequired>
+		<techHediffsMoney>50~50</techHediffsMoney>
+		<techHediffsTags>
+			<li>Poor</li>
+		</techHediffsTags>
+		<techHediffsChance>0.03</techHediffsChance>
+		<initialWillRange>2~5</initialWillRange>
+		<initialResistanceRange>15~24</initialResistanceRange>
 		<backstoryFiltersOverride>
 			<li>
 				<categoriesAdulthood>
@@ -436,6 +514,7 @@
 	<PawnKindDef ParentName="FCP_BoSkindBase">
 		<defName>FCP_Pawnkind_BoS_Elder</defName>
 		<label>Brotherhood Elder</label>
+		<factionLeader>true</factionLeader>
 		<combatPower>20</combatPower>
 		<gearHealthRange>0.5~1.6</gearHealthRange>
 		<apparelRequired>
@@ -458,7 +537,7 @@
 		<backstoryFiltersOverride>
 			<li>
 				<categoriesAdulthood>
-					<li>FCP_Backstory_BoS_Elder</li>
+					<li>FCP_Backstory_BoS</li>
 				</categoriesAdulthood>
 			</li>
 		</backstoryFiltersOverride>
@@ -492,7 +571,7 @@
 		<backstoryFiltersOverride>
 			<li>
 				<categoriesAdulthood>
-					<li>FCP_Backstory_BoS_Elder</li>
+					<li>FCP_Backstory_BoS</li>
 				</categoriesAdulthood>
 			</li>
 		</backstoryFiltersOverride>
@@ -576,20 +655,23 @@
 
 	<!--___ Outcast Pawns ___-->
 
-	<!-- Brotherhood Outcast Base -->
-
 	<!-- Brotherhood Outcast Defender -->
 
 	<PawnKindDef ParentName="FCP_BoS_PowerArmorBase">
 		<defName>FCP_Pawnkind_BoS_Outcast_Defeneder</defName>
 		<label>Brotherhood Outcast Defender</label>
-		<trader>true</trader>
 		<combatPower>50</combatPower>
 		<gearHealthRange>0.5~1.8</gearHealthRange>
 		<weaponMoney>150~600</weaponMoney>
 		<weaponTags>
 			<li>Gun</li>
 		</weaponTags>
+		<apparelRequired>
+			<li MayRequire="Rick.FCP.PowerArmor">FCP_Apparel_Power_Armor_Frame</li>
+			<li>FCP_Apparel_BoS_Jumpsuit</li>
+			<li MayRequire="Rick.FCP.PowerArmor">FCP_Apparel_BoS_T45_Outcast_Power_Armor</li>
+			<li MayRequire="Rick.FCP.PowerArmor">FCP_Apparel_BoS_T45_Outcast_Power_Armor_Helmet</li>
+		</apparelRequired>
 		<initialWillRange>1~3</initialWillRange>
 		<initialResistanceRange>10~17</initialResistanceRange>
 		<backstoryFiltersOverride>
@@ -609,13 +691,19 @@
 	<PawnKindDef ParentName="FCP_BoS_PowerArmorBase">
 		<defName>FCP_Pawnkind_BoS_Protector</defName>
 		<label>Brotherhood Outcast Protector</label>
-		<trader>true</trader>
+		<factionLeader>true</factionLeader>
 		<combatPower>30</combatPower>
 		<gearHealthRange>0.5~1.8</gearHealthRange>
 		<weaponMoney>150~600</weaponMoney>
 		<weaponTags>
 			<li>Gun</li>
 		</weaponTags>
+		<apparelRequired>
+			<li MayRequire="Rick.FCP.PowerArmor">FCP_Apparel_Power_Armor_Frame</li>
+			<li>FCP_Apparel_BoS_Jumpsuit</li>
+			<li MayRequire="Rick.FCP.PowerArmor">FCP_Apparel_BoS_T45_Outcast_Power_Armor</li>
+			<li MayRequire="Rick.FCP.PowerArmor">FCP_Apparel_BoS_T45_Outcast_Power_Armor_Helmet</li>
+		</apparelRequired>
 		<initialWillRange>1~3</initialWillRange>
 		<initialResistanceRange>10~17</initialResistanceRange>
 		<backstoryFiltersOverride>
@@ -630,7 +718,7 @@
 		</backstoryFiltersOverride>
 	</PawnKindDef>
 
-	<!-- Brotherhood Outcast Protector -->
+	<!-- Brotherhood Outcast Specialist -->
 
 	<PawnKindDef ParentName="FCP_BoSkindBase">
 		<defName>FCP_Pawnkind_BoS_Outcast_Specialist</defName>
@@ -638,8 +726,7 @@
 		<trader>true</trader>
 		<combatPower>30</combatPower>
 		<apparelRequired>
-			<li>FCP_Apparel_BoS_Scribe_Robes</li>
-			<li>FCP_Apparel_BoS_Field_Scribe_Hat</li>
+			<li>FCP_Apparel_BoS_Outcast_Scribe_Robes</li>
 		</apparelRequired>
 		<initialWillRange>1~3</initialWillRange>
 		<initialResistanceRange>10~17</initialResistanceRange>
@@ -655,38 +742,67 @@
 		</backstoryFiltersOverride>
 	</PawnKindDef>
 
+	<!-- Brotherhood Outcast Recon -->
+
+	<PawnKindDef ParentName="FCP_BoSkindBase">
+		<defName>FCP_Pawnkind_BoS_Outcast_Recon</defName>
+		<label>Brotherhood Outcast Recon</label>
+		<combatPower>40</combatPower>
+		<gearHealthRange>0.5~1.8</gearHealthRange>
+		<weaponMoney>120~500</weaponMoney>
+		<weaponTags>
+			<li>Gun</li>
+		</weaponTags>
+		<apparelRequired>
+			<li>FCP_Apparel_BoS_Outcast_Recon_Armor</li>
+			<li>FCP_Apparel_BoS_Outcast_Recon_Hood</li>
+		</apparelRequired>
+		<initialWillRange>1~3</initialWillRange>
+		<initialResistanceRange>12~18</initialResistanceRange>
+		<backstoryFiltersOverride>
+			<li>
+				<categoriesAdulthood>
+					<li>FCP_Backstory_Outcast_Recon</li>
+				</categoriesAdulthood>
+				<categoriesChildhood>
+					<li>FCP_Backstory_Outcasts_Child</li>
+				</categoriesChildhood>
+			</li>
+		</backstoryFiltersOverride>
+	</PawnKindDef>
+
 	<!-- Prisoner -->
 
 	<PawnKindDef ParentName="FCP_BoSkindBase">
-        <defName>FCP_Pawnkind_BoS_Prisoner</defName>
-        <label>BoS Prisoner</label>
-        <combatPower>25</combatPower>
-        <itemQuality>Poor</itemQuality>
-        <gearHealthRange>0.5~1.8</gearHealthRange>
-        <apparelMoney>400~600</apparelMoney>
-        <techHediffsMoney>50~50</techHediffsMoney>
-        <techHediffsTags>
-            <li>Poor</li>
-        </techHediffsTags>
-        <techHediffsChance>0.15</techHediffsChance>
-        <initialWillRange>1~3</initialWillRange>
-        <initialResistanceRange>10~17</initialResistanceRange>
-        <backstoryFiltersOverride>
-            <li>
-                <categoriesChildhood>
-                    <li>FCP_Backstory_Wastelander_Child</li>
-                </categoriesChildhood>
-                <categoriesAdulthood>
-                    <li>FCP_Backstory_Wastelander</li>
-                </categoriesAdulthood>
-            </li>
-        </backstoryFiltersOverride>
-        <modExtensions>
-            <li Class=" FCP.Core.ModExtension_PawnKindProperties">
-                <purchasableFromTrader>True</purchasableFromTrader>
-            </li>
-        </modExtensions>
-        <pawnGroupDevelopmentStage>Adult</pawnGroupDevelopmentStage>
-    </PawnKindDef>
+		<defName>FCP_Pawnkind_BoS_Prisoner</defName>
+		<label>BoS Prisoner</label>
+		<combatPower>25</combatPower>
+		<itemQuality>Poor</itemQuality>
+		<gearHealthRange>0.5~1.8</gearHealthRange>
+		<apparelMoney>400~600</apparelMoney>
+		<techHediffsMoney>50~50</techHediffsMoney>
+		<techHediffsTags>
+			<li>Poor</li>
+		</techHediffsTags>
+		<techHediffsChance>0.15</techHediffsChance>
+		<initialWillRange>1~3</initialWillRange>
+		<initialResistanceRange>10~17</initialResistanceRange>
+		<backstoryFiltersOverride>
+			<li>
+				<categoriesChildhood>
+					<li>FCP_Backstory_Wastelander_Child</li>
+				</categoriesChildhood>
+				<categoriesAdulthood>
+					<li>FCP_Backstory_Wastelander</li>
+				</categoriesAdulthood>
+			</li>
+		</backstoryFiltersOverride>
+		<modExtensions>
+			<li Class=" FCP.Core.ModExtension_PawnKindProperties">
+				<purchasableFromTrader>True</purchasableFromTrader>
+			</li>
+		</modExtensions>
+		<pawnGroupDevelopmentStage>Adult</pawnGroupDevelopmentStage>
+	</PawnKindDef>
 
 </Defs>
