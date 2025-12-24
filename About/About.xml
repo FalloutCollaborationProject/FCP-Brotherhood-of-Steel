@@ -20,6 +20,7 @@
     <loadAfter>
         <li>Rick.FCP.Core.Tools</li>
         <li>Rick.FCP.PowerArmor</li>
+        <li>Rick.FCP.EnergyWeapons</li>
     </loadAfter>
 
 </ModMetaData>

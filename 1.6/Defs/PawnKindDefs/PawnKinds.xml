@@ -178,6 +178,7 @@
 		<weaponMoney>150~600</weaponMoney>
 		<weaponTags>
 			<li>Gun</li>
+			<li MayRequire="Rick.FCP.EnergyWeapons">FCP_Laser_Weapon</li>
 		</weaponTags>
 		<techHediffsMoney>50~50</techHediffsMoney>
 		<techHediffsTags>
@@ -205,6 +206,7 @@
 		<weaponMoney>200~650</weaponMoney>
 		<weaponTags>
 			<li>Gun</li>
+			<li MayRequire="Rick.FCP.EnergyWeapons">FCP_Laser_Weapon</li>
 		</weaponTags>
 		<techHediffsMoney>50~50</techHediffsMoney>
 		<techHediffsTags>
@@ -232,6 +234,7 @@
 		<weaponMoney>250~700</weaponMoney>
 		<weaponTags>
 			<li>Gun</li>
+			<li MayRequire="Rick.FCP.EnergyWeapons">FCP_Laser_Weapon</li>
 		</weaponTags>
 		<techHediffsMoney>50~50</techHediffsMoney>
 		<techHediffsTags>
@@ -259,6 +262,8 @@
 		<weaponMoney>300~700</weaponMoney>
 		<weaponTags>
 			<li>Gun</li>
+			<li MayRequire="Rick.FCP.EnergyWeapons">FCP_Laser_Weapon</li>
+			<li MayRequire="Rick.FCP.EnergyWeapons">FCP_Heavy_Laser_Weapon</li>
 		</weaponTags>
 		<techHediffsMoney>50~50</techHediffsMoney>
 		<techHediffsTags>
@@ -286,6 +291,8 @@
 		<weaponMoney>300~750</weaponMoney>
 		<weaponTags>
 			<li>Gun</li>
+			<li MayRequire="Rick.FCP.EnergyWeapons">FCP_Laser_Weapon</li>
+			<li MayRequire="Rick.FCP.EnergyWeapons">FCP_Heavy_Laser_Weapon</li>
 		</weaponTags>
 		<techHediffsMoney>50~50</techHediffsMoney>
 		<techHediffsTags>
@@ -314,6 +321,8 @@
 		<weaponMoney>350~800</weaponMoney>
 		<weaponTags>
 			<li>Gun</li>
+			<li MayRequire="Rick.FCP.EnergyWeapons">FCP_Laser_Weapon</li>
+			<li MayRequire="Rick.FCP.EnergyWeapons">FCP_Heavy_Laser_Weapon</li>
 		</weaponTags>
 		<techHediffsMoney>50~50</techHediffsMoney>
 		<techHediffsTags>
@@ -345,6 +354,8 @@
 		<weaponMoney>300~700</weaponMoney>
 		<weaponTags>
 			<li>Gun</li>
+			<li MayRequire="Rick.FCP.EnergyWeapons">FCP_Laser_Weapon</li>
+			<li MayRequire="Rick.FCP.EnergyWeapons">FCP_Heavy_Laser_Weapon</li>
 		</weaponTags>
 		<techHediffsMoney>50~50</techHediffsMoney>
 		<techHediffsTags>
@@ -410,6 +421,8 @@
 		<weaponMoney>300~750</weaponMoney>
 		<weaponTags>
 			<li>Gun</li>
+			<li MayRequire="Rick.FCP.EnergyWeapons">FCP_Laser_Weapon</li>
+			<li MayRequire="Rick.FCP.EnergyWeapons">FCP_Heavy_Laser_Weapon</li>
 		</weaponTags>
 		<techHediffsMoney>50~50</techHediffsMoney>
 		<techHediffsTags>
@@ -443,6 +456,7 @@
 		<weaponMoney>150~600</weaponMoney>
 		<weaponTags>
 			<li>Gun</li>
+			<li MayRequire="Rick.FCP.EnergyWeapons">FCP_Laser_Weapon</li>
 		</weaponTags>
 		<techHediffsMoney>50~50</techHediffsMoney>
 		<techHediffsTags>
@@ -474,6 +488,7 @@
 		<weaponMoney>150~600</weaponMoney>
 		<weaponTags>
 			<li>Gun</li>
+			<li MayRequire="Rick.FCP.EnergyWeapons">FCP_Laser_Weapon</li>
 		</weaponTags>
 		<techHediffsMoney>50~50</techHediffsMoney>
 		<techHediffsTags>
@@ -504,6 +519,7 @@
 		<weaponMoney>150~600</weaponMoney>
 		<weaponTags>
 			<li>Gun</li>
+			<li MayRequire="Rick.FCP.EnergyWeapons">FCP_Laser_Weapon</li>
 		</weaponTags>
 		<techHediffsMoney>50~50</techHediffsMoney>
 		<techHediffsTags>
@@ -620,6 +636,7 @@
 		<weaponMoney>150~600</weaponMoney>
 		<weaponTags>
 			<li>Gun</li>
+			<li MayRequire="Rick.FCP.EnergyWeapons">FCP_Laser_Weapon</li>
 		</weaponTags>
 		<techHediffsMoney>50~50</techHediffsMoney>
 		<techHediffsTags>
@@ -673,6 +690,7 @@
 		<weaponMoney>150~600</weaponMoney>
 		<weaponTags>
 			<li>Gun</li>
+			<li MayRequire="Rick.FCP.EnergyWeapons">FCP_Laser_Weapon</li>
 		</weaponTags>
 		<initialWillRange>1~3</initialWillRange>
 		<initialResistanceRange>10~17</initialResistanceRange>
@@ -699,6 +717,7 @@
 		<weaponMoney>150~600</weaponMoney>
 		<weaponTags>
 			<li>Gun</li>
+			<li MayRequire="Rick.FCP.EnergyWeapons">FCP_Laser_Weapon</li>
 		</weaponTags>
 		<initialWillRange>1~3</initialWillRange>
 		<initialResistanceRange>10~17</initialResistanceRange>

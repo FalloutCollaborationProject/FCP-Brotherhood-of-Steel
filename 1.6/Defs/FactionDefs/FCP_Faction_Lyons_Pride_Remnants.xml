@@ -9,6 +9,13 @@
 		<defName>FCP_Faction_BoS_Lyons_Pride_Remnants</defName>
 		<label>Lyons' Pride Remnants</label>
 		<description>The Lyons' Pride remnants are a faction of disciplined and technologically advanced warriors, striving to preserve the ideals of their late leader, Elder Lyons. Once a proud and unified chapter, they now operate as a fragmented yet determined group, clinging to their mission of protecting humanity and safeguarding advanced technology. Though their numbers have dwindled, their resolve remains unshaken, and they continue to uphold their code of honor amidst the chaos of the wasteland. Their advanced weaponry, power armor, and tactical expertise make them a formidable force, whether as allies or adversaries.</description>
+		<royalTitleTags>
+			<li>FCP_Title_Lyons_Pride</li>
+		</royalTitleTags>
+		<royalFavorLabel>Pride Honor</royalFavorLabel>
+		<royalTitleInheritanceWorkerClass>RoyalTitleInheritanceWorker</royalTitleInheritanceWorkerClass>
+		<royalTitleInheritanceRelations>
+		</royalTitleInheritanceRelations>
 		<colorSpectrum>
 			<li>(1, 1, 1)</li>
 		</colorSpectrum>
@@ -27,10 +34,41 @@
 		<factionIconPath>World_Icon/BoS_Icon/FCP_Lyons_Pride_Remnants_World_Icon</factionIconPath>
 		<techLevel>Industrial</techLevel>
 		<fixedName>Lyons' Pride Remnants</fixedName>
-		<settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
+		<settlementNameMaker>FCP_Namer_Settlement_Lyons_Pride</settlementNameMaker>
 		<allowedCultures>
 			<li>FCP_Culture_Lyons_BoS</li>
 		</allowedCultures>
+
+		<!--__________ Ideology __________-->
+
+		<fixedIdeo>true</fixedIdeo>
+		<ideoName>Lyons' Legacy</ideoName>
+		<ideoDescription>Elder Lyons taught us that technology without compassion is worthless. We are the shield of the people, protectors of the innocent, and proof that the Brotherhood can be more than collectors of artifacts.</ideoDescription>
+		<forcedMemes>
+			<!-- Structure -->
+			<li MayRequire="Ludeon.RimWorld.Ideology">Structure_Ideological</li>
+			<!-- Memes -->
+			<li MayRequire="Ludeon.RimWorld.Ideology">FCP_Meme_Lyons_Steel_Compassion</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">FCP_Meme_Lyons_Shield</li>
+		</forcedMemes>
+		<requiredPreceptsOnly>true</requiredPreceptsOnly>
+
+		<!--__________ Biotech __________-->
+
+		<xenotypeSet>
+			<xenotypeChances>
+				<Neanderthal MayRequire="Ludeon.RimWorld.Biotech">0</Neanderthal>
+				<Hussar MayRequire="Ludeon.RimWorld.Biotech">0</Hussar>
+				<Pigskin MayRequire="Ludeon.RimWorld.Biotech">0</Pigskin>
+				<Yttakin MayRequire="Ludeon.RimWorld.Biotech">0</Yttakin>
+				<Genie MayRequire="Ludeon.RimWorld.Biotech">0</Genie>
+				<Dirtmole MayRequire="Ludeon.RimWorld.Biotech">0</Dirtmole>
+				<Highmate MayRequire="Ludeon.RimWorld.Biotech">0</Highmate>
+			</xenotypeChances>
+		</xenotypeSet>
+
+		<!--__________ Legacy Settings __________-->
+
 		<disallowedPrecepts>
 			<li MayRequire="Ludeon.RimWorld.Ideology">DrugUse_MedicalOnly</li>
 			<li MayRequire="Ludeon.RimWorld.Ideology">DrugUse_Prohibited</li>
@@ -42,6 +80,8 @@
 			<li MayRequire="Ludeon.RimWorld.Ideology">Nudism</li>
 			<li MayRequire="Ludeon.RimWorld.Ideology">Blindsight</li>
 		</disallowedMemes>
+
+		<!--__________ Backstories __________-->
 		<backstoryFilters>
 			<li>
 				<categories>
@@ -133,6 +173,9 @@
 		</pawnGroupMakers>
 		<settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
 		<modExtensions>
+			<li Class="FCP.Enlist.FactionEnlistOptions">
+				<enlistmentDef>FCP_Enlistment_Lyons_Pride</enlistmentDef>
+			</li>
 			<li Class="FCP_Shuttles.FactionModExtension">
 				<transportShipDef>FCP_BoS_Lyons_Pride_Vertibird</transportShipDef>
 				<minDistanceBetweenShuttles>10</minDistanceBetweenShuttles>

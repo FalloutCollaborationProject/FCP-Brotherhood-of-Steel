@@ -75,7 +75,7 @@
             <li>(0.6, 0.2, 0.2)</li>
         </colorSpectrum>
         <allowedCultures>
-            <li>FCP_Culture_BoS</li>
+            <li>FCP_Culture_BoS_Outcasts</li>
         </allowedCultures>
         <backstoryFilters>
             <li>

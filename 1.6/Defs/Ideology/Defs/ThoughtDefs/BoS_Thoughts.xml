@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+    <!--__________ Main BoS Thoughts __________-->
+
+    <ThoughtDef>
+        <defName>FCP_Thought_BoS_Research_Complete</defName>
+        <thoughtClass>Thought_MemorySocial</thoughtClass>
+        <durationDays>5</durationDays>
+        <stackLimit>5</stackLimit>
+        <stackedEffectMultiplier>0.75</stackedEffectMultiplier>
+        <stages>
+            <li>
+                <label>preserved technology</label>
+                <description>We've secured another piece of pre-war knowledge. The Brotherhood's mission continues.</description>
+                <baseMoodEffect>3</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+
+    <ThoughtDef>
+        <defName>FCP_Thought_BoS_Rank_Earned</defName>
+        <thoughtClass>Thought_MemorySocial</thoughtClass>
+        <durationDays>10</durationDays>
+        <stackLimit>1</stackLimit>
+        <stages>
+            <li>
+                <label>earned rank</label>
+                <description>My service to the Brotherhood has been recognized. The chain of command rewards those who follow it.</description>
+                <baseMoodEffect>5</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+
+    <!--__________ Lyons Pride Thoughts __________-->
+
+    <ThoughtDef>
+        <defName>FCP_Thought_Lyons_Helped_Someone</defName>
+        <thoughtClass>Thought_MemorySocial</thoughtClass>
+        <durationDays>3</durationDays>
+        <stackLimit>5</stackLimit>
+        <stackedEffectMultiplier>0.8</stackedEffectMultiplier>
+        <stages>
+            <li>
+                <label>protected the innocent</label>
+                <description>I helped someone who needed it. This is what Elder Lyons taught us - power with purpose.</description>
+                <baseMoodEffect>4</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+
+    <!--__________ Outcast Thoughts __________-->
+
+    <ThoughtDef>
+        <defName>FCP_Thought_Outcast_Tech_Secured</defName>
+        <thoughtClass>Thought_MemorySocial</thoughtClass>
+        <durationDays>7</durationDays>
+        <stackLimit>5</stackLimit>
+        <stackedEffectMultiplier>0.75</stackedEffectMultiplier>
+        <stages>
+            <li>
+                <label>technology secured</label>
+                <description>Another critical piece of technology has been recovered and catalogued. The mission above all else.</description>
+                <baseMoodEffect>5</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+
+    <ThoughtDef>
+        <defName>FCP_Thought_Outcast_Outsider_Failed</defName>
+        <thoughtClass>Thought_MemorySocial</thoughtClass>
+        <durationDays>5</durationDays>
+        <stackLimit>3</stackLimit>
+        <stackedEffectMultiplier>0.9</stackedEffectMultiplier>
+        <stages>
+            <li>
+                <label>outsider incompetence</label>
+                <description>As expected, an outsider proved unreliable. This is why the Brotherhood can only trust its own.</description>
+                <baseMoodEffect>2</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+
+</Defs>

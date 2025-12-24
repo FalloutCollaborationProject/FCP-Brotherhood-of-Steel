@@ -9,6 +9,13 @@
 		<defName>FCP_Faction_BoS_Outcast_Remnants</defName>
 		<label>Brotherhood Outcasts</label>
 		<description>The Outcast Remnants are a hardened splinter group of the Brotherhood of Steel, formed by those who rejected the Brotherhood's changing ideals and chose to uphold the original mission: the recovery and preservation of advanced technology at any cost. Isolated from their former brothers, the Outcasts are fiercely independent, pragmatic, and often distrustful of outsiders. Their camps are fortified, their patrols relentless, and their loyalty to their cause unwavering. Though their numbers are few, their discipline, technical expertise, and mastery of power armor make them a formidable force in the wasteland.</description>
+		<royalTitleTags>
+			<li>FCP_Title_Outcast</li>
+		</royalTitleTags>
+		<royalFavorLabel>Tech Scrip</royalFavorLabel>
+		<royalTitleInheritanceWorkerClass>RoyalTitleInheritanceWorker</royalTitleInheritanceWorkerClass>
+		<royalTitleInheritanceRelations>
+		</royalTitleInheritanceRelations>
 		<colorSpectrum>
 			<li>(1, 1, 1)</li>
 		</colorSpectrum>
@@ -27,10 +34,41 @@
 		<factionIconPath>World_Icon/BoS_Icon/FCP_Outcast_World_Icon</factionIconPath>
 		<techLevel>Industrial</techLevel>
 		<fixedName>Brotherhood Outcasts</fixedName>
-		<settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
+		<settlementNameMaker>FCP_Namer_Settlement_Outcasts</settlementNameMaker>
 		<allowedCultures>
-			<li>FCP_Culture_BoS</li>
+			<li>FCP_Culture_BoS_Outcasts</li>
 		</allowedCultures>
+
+		<!--__________ Ideology __________-->
+
+		<fixedIdeo>true</fixedIdeo>
+		<ideoName>True Codex</ideoName>
+		<ideoDescription>We are the keepers of the true Brotherhood mission. Technology must be preserved at all costs. Outsiders cannot be trusted with the power of the Old World. The Codex is law.</ideoDescription>
+		<forcedMemes>
+			<!-- Structure -->
+			<li MayRequire="Ludeon.RimWorld.Ideology">Structure_Ideological</li>
+			<!-- Memes -->
+			<li MayRequire="Ludeon.RimWorld.Ideology">FCP_Meme_Outcast_True_Codex</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">FCP_Meme_Outcast_Defenders</li>
+		</forcedMemes>
+		<requiredPreceptsOnly>true</requiredPreceptsOnly>
+
+		<!--__________ Biotech __________-->
+
+		<xenotypeSet>
+			<xenotypeChances>
+				<Neanderthal MayRequire="Ludeon.RimWorld.Biotech">0</Neanderthal>
+				<Hussar MayRequire="Ludeon.RimWorld.Biotech">0</Hussar>
+				<Pigskin MayRequire="Ludeon.RimWorld.Biotech">0</Pigskin>
+				<Yttakin MayRequire="Ludeon.RimWorld.Biotech">0</Yttakin>
+				<Genie MayRequire="Ludeon.RimWorld.Biotech">0</Genie>
+				<Dirtmole MayRequire="Ludeon.RimWorld.Biotech">0</Dirtmole>
+				<Highmate MayRequire="Ludeon.RimWorld.Biotech">0</Highmate>
+			</xenotypeChances>
+		</xenotypeSet>
+
+		<!--__________ Legacy Settings __________-->
+
 		<disallowedPrecepts>
 			<li MayRequire="Ludeon.RimWorld.Ideology">DrugUse_MedicalOnly</li>
 			<li MayRequire="Ludeon.RimWorld.Ideology">DrugUse_Prohibited</li>
@@ -42,6 +80,8 @@
 			<li MayRequire="Ludeon.RimWorld.Ideology">Nudism</li>
 			<li MayRequire="Ludeon.RimWorld.Ideology">Blindsight</li>
 		</disallowedMemes>
+
+		<!--__________ Backstories __________-->
 		<backstoryFilters>
 			<li>
 				<categories>
@@ -116,6 +156,9 @@
 		</pawnGroupMakers>
 		<settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
 		<modExtensions>
+			<li Class="FCP.Enlist.FactionEnlistOptions">
+				<enlistmentDef>FCP_Enlistment_Outcasts</enlistmentDef>
+			</li>
 			<li Class="FCP.Currencies.CurrencyReplacement">
 				<currency>FCP_Currency_BoS_Scrip</currency>
 			</li>

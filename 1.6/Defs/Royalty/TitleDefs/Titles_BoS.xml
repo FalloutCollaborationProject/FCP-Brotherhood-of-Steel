@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <!--__________ Title Defs __________-->
+
+    <!--_____ Brotherhood of Steel Titles _____-->
+
+    <!-- Initiate -->
+
+    <RoyalTitleDef ParentName="FCP_Base_Empire_Titles">
+        <defName>FCP_Title_BoS_Initiate</defName>
+        <label>Initiate</label>
+        <description>The lowest rank in the Brotherhood of Steel. Initiates are in training, learning the Brotherhood's ways and proving their worth. They perform basic duties and assist full members while earning the right to become a true Brother or Sister of Steel.</description>
+        <tags>
+            <li>FCP_Title_BoS</li>
+        </tags>
+        <seniority>0</seniority>
+        <favorCost>1</favorCost>
+        <changeHeirQuestPoints>1000</changeHeirQuestPoints>
+        <allowDignifiedMeditationFocus>False</allowDignifiedMeditationFocus>
+        <awardWorkerClass>RoyalTitleAwardWorker_Instant</awardWorkerClass>
+        <permitPointsAwarded>1</permitPointsAwarded>
+    </RoyalTitleDef>
+
+    <!-- Knight -->
+
+    <RoyalTitleDef ParentName="FCP_Base_Empire_Titles">
+        <defName>FCP_Title_BoS_Knight</defName>
+        <label>Knight</label>
+        <description>Knights are the Brotherhood's front-line warriors, fully trained in combat operations and the maintenance of power armor. They lead patrols, engage hostile forces, and recover pre-War technology from dangerous locations. Knights are the backbone of Brotherhood military strength.</description>
+        <tags>
+            <li>FCP_Title_BoS</li>
+        </tags>
+        <seniority>300</seniority>
+        <favorCost>8</favorCost>
+        <changeHeirQuestPoints>1000</changeHeirQuestPoints>
+        <commonality>1</commonality>
+        <allowDignifiedMeditationFocus>True</allowDignifiedMeditationFocus>
+        <awardWorkerClass>RoyalTitleAwardWorker_Instant</awardWorkerClass>
+        <requiredApparel>
+            <li>
+                <bodyPartGroupsMatchAny>
+                    <li>Torso</li>
+                </bodyPartGroupsMatchAny>
+                <requiredTags>
+                    <li>FCP_Power_Armor</li>
+                </requiredTags>
+            </li>
+        </requiredApparel>
+        <permitPointsAwarded>2</permitPointsAwarded>
+    </RoyalTitleDef>
+
+    <!-- Scribe -->
+
+    <RoyalTitleDef ParentName="FCP_Base_Empire_Titles">
+        <defName>FCP_Title_BoS_Scribe</defName>
+        <label>Scribe</label>
+        <description>Scribes are the Brotherhood's scholars and technicians, dedicated to preserving and understanding pre-War technology. They maintain archives, research artifacts, and ensure that knowledge is not lost. While not primarily combatants, Scribes are crucial to the Brotherhood's mission.</description>
+        <tags>
+            <li>FCP_Title_BoS</li>
+        </tags>
+        <seniority>300</seniority>
+        <favorCost>8</favorCost>
+        <changeHeirQuestPoints>1000</changeHeirQuestPoints>
+        <commonality>1</commonality>
+        <allowDignifiedMeditationFocus>True</allowDignifiedMeditationFocus>
+        <awardWorkerClass>RoyalTitleAwardWorker_Instant</awardWorkerClass>
+        <requiredApparel>
+            <li>
+                <bodyPartGroupsMatchAny>
+                    <li>Torso</li>
+                </bodyPartGroupsMatchAny>
+                <requiredTags>
+                    <li>FCP_BoS_Apparel</li>
+                </requiredTags>
+            </li>
+        </requiredApparel>
+        <permitPointsAwarded>2</permitPointsAwarded>
+    </RoyalTitleDef>
+
+    <!-- Paladin -->
+
+    <RoyalTitleDef ParentName="FCP_Base_Empire_Titles">
+        <defName>FCP_Title_BoS_Paladin</defName>
+        <label>Paladin</label>
+        <description>Paladins are the Brotherhood's elite warriors and field commanders. They lead major operations, command Knights in battle, and make critical tactical decisions. Clad in the finest power armor and wielding the most advanced weapons, Paladins embody the Brotherhood's military might and tactical expertise.</description>
+        <tags>
+            <li>FCP_Title_BoS</li>
+        </tags>
+        <seniority>600</seniority>
+        <favorCost>11</favorCost>
+        <changeHeirQuestPoints>1000</changeHeirQuestPoints>
+        <commonality>1</commonality>
+        <allowDignifiedMeditationFocus>True</allowDignifiedMeditationFocus>
+        <awardWorkerClass>RoyalTitleAwardWorker_Instant</awardWorkerClass>
+        <requiredApparel>
+            <li>
+                <bodyPartGroupsMatchAny>
+                    <li>Torso</li>
+                </bodyPartGroupsMatchAny>
+                <requiredTags>
+                    <li>FCP_Power_Armor</li>
+                </requiredTags>
+            </li>
+        </requiredApparel>
+        <permitPointsAwarded>3</permitPointsAwarded>
+    </RoyalTitleDef>
+
+    <!-- Elder -->
+
+    <RoyalTitleDef ParentName="FCP_Base_Empire_Titles">
+        <defName>FCP_Title_BoS_Elder</defName>
+        <label>Elder</label>
+        <description>The Elder is the supreme commander of a Brotherhood chapter, responsible for all strategic decisions, diplomatic relations, and the chapter's overall direction. They have devoted their lives to the Brotherhood's cause and earned the respect of all members through wisdom, skill, and unwavering dedication to preserving technology and protecting humanity.</description>
+        <tags>
+            <li>FCP_Title_BoS</li>
+        </tags>
+        <seniority>900</seniority>
+        <favorCost>14</favorCost>
+        <changeHeirQuestPoints>1000</changeHeirQuestPoints>
+        <commonality>1</commonality>
+        <allowDignifiedMeditationFocus>True</allowDignifiedMeditationFocus>
+        <awardWorkerClass>RoyalTitleAwardWorker_Instant</awardWorkerClass>
+        <requiredApparel>
+            <li>
+                <bodyPartGroupsMatchAny>
+                    <li>Torso</li>
+                </bodyPartGroupsMatchAny>
+                <requiredTags>
+                    <li>FCP_BoS_Apparel</li>
+                    <li>FCP_Power_Armor</li>
+                </requiredTags>
+            </li>
+        </requiredApparel>
+        <permitPointsAwarded>4</permitPointsAwarded>
+    </RoyalTitleDef>
+
+    <!--_____ Lyons Pride Remnants Titles _____-->
+
+    <!-- Recruit -->
+
+    <RoyalTitleDef ParentName="FCP_Base_Empire_Titles">
+        <defName>FCP_Title_Lyons_Pride_Recruit</defName>
+        <label>Recruit</label>
+        <description>New members of Lyons' Pride who have sworn to fight for Elder Lyons' vision of a protected Capital Wasteland. Recruits are proving their dedication to defending humanity, not just hoarding technology.</description>
+        <tags>
+            <li>FCP_Title_Lyons_Pride</li>
+        </tags>
+        <seniority>0</seniority>
+        <favorCost>1</favorCost>
+        <changeHeirQuestPoints>1000</changeHeirQuestPoints>
+        <allowDignifiedMeditationFocus>False</allowDignifiedMeditationFocus>
+        <awardWorkerClass>RoyalTitleAwardWorker_Instant</awardWorkerClass>
+        <permitPointsAwarded>1</permitPointsAwarded>
+    </RoyalTitleDef>
+
+    <!-- Pride Member -->
+
+    <RoyalTitleDef ParentName="FCP_Base_Empire_Titles">
+        <defName>FCP_Title_Lyons_Pride_Member</defName>
+        <label>Pride Member</label>
+        <description>Full members of Lyons' Pride who have proven themselves worthy of Elder Lyons' trust. They fight to protect the innocent and represent the best of what the Brotherhood can be when it serves humanity.</description>
+        <tags>
+            <li>FCP_Title_Lyons_Pride</li>
+        </tags>
+        <seniority>300</seniority>
+        <favorCost>8</favorCost>
+        <changeHeirQuestPoints>1000</changeHeirQuestPoints>
+        <commonality>1</commonality>
+        <allowDignifiedMeditationFocus>True</allowDignifiedMeditationFocus>
+        <awardWorkerClass>RoyalTitleAwardWorker_Instant</awardWorkerClass>
+        <requiredApparel>
+            <li>
+                <bodyPartGroupsMatchAny>
+                    <li>Torso</li>
+                </bodyPartGroupsMatchAny>
+                <requiredTags>
+                    <li>FCP_Power_Armor_Lyons</li>
+                </requiredTags>
+            </li>
+        </requiredApparel>
+        <permitPointsAwarded>2</permitPointsAwarded>
+    </RoyalTitleDef>
+
+    <!-- Shield of the People -->
+
+    <RoyalTitleDef ParentName="FCP_Base_Empire_Titles">
+        <defName>FCP_Title_Lyons_Pride_Shield</defName>
+        <label>Shield of the People</label>
+        <description>Elite warriors who embody Elder Lyons' vision completely. They are the shield between wasteland communities and the dangers that threaten them, fighting not for glory or technology, but for the survival of humanity itself.</description>
+        <tags>
+            <li>FCP_Title_Lyons_Pride</li>
+        </tags>
+        <seniority>600</seniority>
+        <favorCost>11</favorCost>
+        <changeHeirQuestPoints>1000</changeHeirQuestPoints>
+        <commonality>1</commonality>
+        <allowDignifiedMeditationFocus>True</allowDignifiedMeditationFocus>
+        <awardWorkerClass>RoyalTitleAwardWorker_Instant</awardWorkerClass>
+        <requiredApparel>
+            <li>
+                <bodyPartGroupsMatchAny>
+                    <li>Torso</li>
+                </bodyPartGroupsMatchAny>
+                <requiredTags>
+                    <li>FCP_Power_Armor_Lyons</li>
+                </requiredTags>
+            </li>
+        </requiredApparel>
+        <permitPointsAwarded>3</permitPointsAwarded>
+    </RoyalTitleDef>
+
+    <!-- Lyons' Champion -->
+
+    <RoyalTitleDef ParentName="FCP_Base_Empire_Titles">
+        <defName>FCP_Title_Lyons_Champion</defName>
+        <label>Lyons' Champion</label>
+        <description>The leader of Lyons' Pride remnants, carrying on Elder Lyons' legacy through action rather than doctrine. They have chosen compassion over dogma, humanity over tradition, and remain the last true believers in Elder Lyons' dream of a Brotherhood that serves rather than rules.</description>
+        <tags>
+            <li>FCP_Title_Lyons_Pride</li>
+        </tags>
+        <seniority>900</seniority>
+        <favorCost>14</favorCost>
+        <changeHeirQuestPoints>1000</changeHeirQuestPoints>
+        <commonality>1</commonality>
+        <allowDignifiedMeditationFocus>True</allowDignifiedMeditationFocus>
+        <awardWorkerClass>RoyalTitleAwardWorker_Instant</awardWorkerClass>
+        <requiredApparel>
+            <li>
+                <bodyPartGroupsMatchAny>
+                    <li>Torso</li>
+                </bodyPartGroupsMatchAny>
+                <requiredTags>
+                    <li>FCP_BoS_Apparel_Lyons</li>
+                    <li>FCP_Power_Armor_Lyons</li>
+                </requiredTags>
+            </li>
+        </requiredApparel>
+        <permitPointsAwarded>4</permitPointsAwarded>
+    </RoyalTitleDef>
+
+    <!--_____ Brotherhood Outcast Titles _____-->
+
+    <!-- Specialist -->
+
+    <RoyalTitleDef ParentName="FCP_Base_Empire_Titles">
+        <defName>FCP_Title_Outcast_Specialist</defName>
+        <label>Specialist</label>
+        <description>The entry rank for Outcasts. Specialists have proven their commitment to the original Brotherhood mission of technology recovery above all else. They serve the Outcasts' pragmatic, no-nonsense approach to preserving pre-War knowledge.</description>
+        <tags>
+            <li>FCP_Title_Outcast</li>
+        </tags>
+        <seniority>0</seniority>
+        <favorCost>1</favorCost>
+        <changeHeirQuestPoints>1000</changeHeirQuestPoints>
+        <allowDignifiedMeditationFocus>False</allowDignifiedMeditationFocus>
+        <awardWorkerClass>RoyalTitleAwardWorker_Instant</awardWorkerClass>
+        <permitPointsAwarded>1</permitPointsAwarded>
+    </RoyalTitleDef>
+
+    <!-- Defender -->
+
+    <RoyalTitleDef ParentName="FCP_Base_Empire_Titles">
+        <defName>FCP_Title_Outcast_Defender</defName>
+        <label>Defender</label>
+        <description>Defenders are the Outcasts' combat specialists, focused on securing technology and defending Outcast installations. They reject the Brotherhood's shift toward humanitarianism, maintaining strict focus on their original mission.</description>
+        <tags>
+            <li>FCP_Title_Outcast</li>
+        </tags>
+        <seniority>300</seniority>
+        <favorCost>8</favorCost>
+        <changeHeirQuestPoints>1000</changeHeirQuestPoints>
+        <commonality>1</commonality>
+        <allowDignifiedMeditationFocus>True</allowDignifiedMeditationFocus>
+        <awardWorkerClass>RoyalTitleAwardWorker_Instant</awardWorkerClass>
+        <requiredApparel>
+            <li>
+                <bodyPartGroupsMatchAny>
+                    <li>Torso</li>
+                </bodyPartGroupsMatchAny>
+                <requiredTags>
+                    <li>FCP_Power_Armor_Outcast</li>
+                </requiredTags>
+            </li>
+        </requiredApparel>
+        <permitPointsAwarded>2</permitPointsAwarded>
+    </RoyalTitleDef>
+
+    <!-- Protector -->
+
+    <RoyalTitleDef ParentName="FCP_Base_Empire_Titles">
+        <defName>FCP_Title_Outcast_Protector</defName>
+        <label>Protector</label>
+        <description>The Protector leads the Outcasts, maintaining iron discipline and unwavering commitment to technology preservation. They represent the purest form of the Brotherhood's original mission, refusing any compromise or deviation from the founder's vision.</description>
+        <tags>
+            <li>FCP_Title_Outcast</li>
+        </tags>
+        <seniority>600</seniority>
+        <favorCost>11</favorCost>
+        <changeHeirQuestPoints>1000</changeHeirQuestPoints>
+        <commonality>1</commonality>
+        <allowDignifiedMeditationFocus>True</allowDignifiedMeditationFocus>
+        <awardWorkerClass>RoyalTitleAwardWorker_Instant</awardWorkerClass>
+        <requiredApparel>
+            <li>
+                <bodyPartGroupsMatchAny>
+                    <li>Torso</li>
+                </bodyPartGroupsMatchAny>
+                <requiredTags>
+                    <li>FCP_BoS_Outcast</li>
+                    <li>FCP_Power_Armor_Outcast</li>
+                </requiredTags>
+            </li>
+        </requiredApparel>
+        <permitPointsAwarded>3</permitPointsAwarded>
+    </RoyalTitleDef>
+
+</Defs>
