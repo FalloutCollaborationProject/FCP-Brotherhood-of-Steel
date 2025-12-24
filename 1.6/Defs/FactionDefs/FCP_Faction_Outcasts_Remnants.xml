@@ -36,7 +36,7 @@
 		<fixedName>Brotherhood Outcasts</fixedName>
 		<settlementNameMaker>FCP_Namer_Settlement_Outcasts</settlementNameMaker>
 		<allowedCultures>
-			<li>FCP_Culture_BoS</li>
+			<li>FCP_Culture_BoS_Outcasts</li>
 		</allowedCultures>
 
 		<!--__________ Ideology __________-->
