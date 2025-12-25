@@ -28,7 +28,6 @@
             <li><li>Nudity_Female_UncoveredGroinOrChestDisapproved</li></li>
             <li><li>OrganUse_HorribleSellOK</li></li>
             <li><li>Execution_DontCare</li></li>
-            <!-- <li><li>Research_Essential</li></li> Research_Essential doesn't exist in RimWorld 1.6 -->
             <li><li>Skullspike_Disapproved</li></li>
             <li><li>Slavery_Horrible</li></li>
             <li><li>Blinding_Horrible</li></li>
@@ -50,7 +49,7 @@
         <defName>FCP_Meme_BoS_Paladins</defName>
         <label>Paladins of Steel</label>
         <description>Paladins are the Brotherhood's elite warriors, clad in power armor and wielding the most advanced weapons. They are the tip of the spear in any Brotherhood operation, trained to engage the most dangerous threats head-on. A Paladin's duty is to lead from the front, inspire their squadmates, and demonstrate the Brotherhood's martial superiority.</description>
-        <iconPath>Things/UI/Roles/FCP_BoS_Paladin</iconPath>
+        <iconPath>World_Icon/BoS_Icon/FCP_BoS_World_Icon</iconPath>
         <groupDef>Misc</groupDef>
         <impact>2</impact>
         <randomizationSelectionWeightFactor>0</randomizationSelectionWeightFactor>
@@ -110,7 +109,7 @@
         <defName>FCP_Meme_Lyons_Shield</defName>
         <label>Shields of the People</label>
         <description>The Shield of the People represents everything the Lyons Pride stands for - warriors who protect the innocent and fight for those who cannot fight for themselves. They combine Brotherhood combat prowess with genuine compassion, serving as both soldiers and humanitarian workers.</description>
-        <iconPath>Things/UI/Roles/FCP_Lyons_Shield</iconPath>
+        <iconPath>World_Icon/BoS_Icon/FCP_Lyons_Pride_Remnants_World_Icon</iconPath>
         <groupDef>Misc</groupDef>
         <impact>2</impact>
         <randomizationSelectionWeightFactor>0</randomizationSelectionWeightFactor>
@@ -169,7 +168,7 @@
         <defName>FCP_Meme_Outcast_Defenders</defName>
         <label>Defenders of the Codex</label>
         <description>Defenders are Outcast specialists who combine superior technical knowledge with combat capability. They are responsible for securing technology from hostile forces and ensuring no advanced equipment falls into unworthy hands. Their dedication to the mission is absolute.</description>
-        <iconPath>Things/UI/Roles/FCP_Outcast_Defender</iconPath>
+        <iconPath>World_Icon/BoS_Icon/FCP_Outcast_World_Icon</iconPath>
         <groupDef>Misc</groupDef>
         <impact>2</impact>
         <randomizationSelectionWeightFactor>0</randomizationSelectionWeightFactor>
@@ -198,12 +197,6 @@
         <statOffsets>
             <ResearchSpeedFactor>0.15</ResearchSpeedFactor>
         </statOffsets>
-        <!-- <comps>
-            <li Class="PreceptComp_SelfTookMemoryThought">
-                <eventDef>ResearchProjectFinished</eventDef>
-                <thought>FCP_Thought_BoS_Research_Complete</thought>
-            </li>
-        </comps> ResearchProjectFinished history event doesn't exist in RimWorld 1.6 -->
     </PreceptDef>
 
     <!-- Main BoS Hierarchy -->
@@ -215,12 +208,6 @@
         <description>The Brotherhood's strength comes from discipline and hierarchy. Every member knows their place and their duty. Orders flow from Elder to Paladin to Knight to Initiate without question.</description>
         <impact>Medium</impact>
         <displayOrderInImpact>101</displayOrderInImpact>
-        <!-- <comps>
-            <li Class="PreceptComp_KnowsMemoryThought">
-                <eventDef>MemberGainedRoyalTitle</eventDef>
-                <thought>FCP_Thought_BoS_Rank_Earned</thought>
-            </li>
-        </comps> MemberGainedRoyalTitle history event doesn't exist in RimWorld 1.6 -->
     </PreceptDef>
 
     <!-- Lyons Protection Priority -->
@@ -239,12 +226,6 @@
             <MedicalTendSpeed>0.10</MedicalTendSpeed>
             <MedicalTendQuality>0.10</MedicalTendQuality>
         </statOffsets>
-        <!-- <comps>
-            <li Class="PreceptComp_SelfTookMemoryThought">
-                <eventDef>TendedPatient</eventDef>
-                <thought>FCP_Thought_Lyons_Helped_Someone</thought>
-            </li>
-        </comps> TendedPatient history event doesn't exist in RimWorld 1.6 -->
     </PreceptDef>
 
     <!-- Outcast Technology Obsession -->
@@ -262,12 +243,6 @@
         <statOffsets>
             <ResearchSpeedFactor>0.25</ResearchSpeedFactor>
         </statOffsets>
-        <!-- <comps>
-            <li Class="PreceptComp_SelfTookMemoryThought">
-                <eventDef>ResearchProjectFinished</eventDef>
-                <thought>FCP_Thought_Outcast_Tech_Secured</thought>
-            </li>
-        </comps> ResearchProjectFinished history event doesn't exist in RimWorld 1.6 -->
     </PreceptDef>
 
     <!-- Outcast Isolationism -->
@@ -295,7 +270,7 @@
         <defName>FCP_IdeoRole_Paladin</defName>
         <label>Paladin</label>
         <description>Paladins are the Brotherhood's finest warriors, masters of power armor combat and tactical leadership. They lead squads into the most dangerous situations and serve as examples of martial excellence.</description>
-        <iconPath>Things/UI/Roles/FCP_BoS_Paladin</iconPath>
+        <iconPath>World_Icon/BoS_Icon/FCP_BoS_World_Icon</iconPath>
         <nameMaker>NamerRoleShooter</nameMaker>
         <roleRequirements>
             <li Class="RoleRequirement_MinSkillAny">
@@ -356,7 +331,7 @@
         <defName>FCP_IdeoRole_Lyons_Shield</defName>
         <label>Shield of the People</label>
         <description>Shields combine combat prowess with genuine compassion, serving as both warriors and protectors. They embody Elder Lyons' belief that power must be used to defend those who cannot defend themselves.</description>
-        <iconPath>Things/UI/Roles/FCP_Lyons_Shield</iconPath>
+        <iconPath>World_Icon/BoS_Icon/FCP_Lyons_Pride_Remnants_World_Icon</iconPath>
         <nameMaker>NamerRoleShooter</nameMaker>
         <roleRequirements>
             <li Class="RoleRequirement_MinSkillAny">
@@ -390,9 +365,6 @@
                 <modifier>0.15</modifier>
             </li>
         </roleEffects>
-        <!-- <grantedAbilities>
-            <li>Calm</li>
-        </grantedAbilities> Calm ability doesn't exist in RimWorld 1.6 -->
         <displayOrderInImpact>1</displayOrderInImpact>
         <roleDisabledWorkTags>
             <li>PlantWork</li>
@@ -418,7 +390,7 @@
         <defName>FCP_IdeoRole_Outcast_Defender</defName>
         <label>Defender</label>
         <description>Defenders are Outcast specialists who excel at both securing technology and eliminating threats. They combine technical expertise with ruthless efficiency, ensuring the mission succeeds at any cost.</description>
-        <iconPath>Things/UI/Roles/FCP_Outcast_Defender</iconPath>
+        <iconPath>World_Icon/BoS_Icon/FCP_Outcast_World_Icon</iconPath>
         <nameMaker>NamerRoleShooter</nameMaker>
         <roleRequirements>
             <li Class="RoleRequirement_MinSkillAny">
