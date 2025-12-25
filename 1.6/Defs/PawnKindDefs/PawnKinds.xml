@@ -47,6 +47,7 @@
 	</PawnKindDef>
 
 	<PawnKindDef ParentName="FCP_BoSkindBase" Name="FCP_BoS_Lyons_PowerArmorBase" Abstract="True">
+		<defaultFactionDef>FCP_Faction_BoS_Lyons_Pride_Remnants</defaultFactionDef>
 		<apparelRequired>
 			<li MayRequire="Rick.FCP.PowerArmor">FCP_Apparel_Power_Armor_Frame</li>
 			<li>FCP_Apparel_BoS_Jumpsuit</li>
@@ -59,6 +60,7 @@
 	</PawnKindDef>
 
 	<PawnKindDef ParentName="FCP_BoSkindBase" Name="FCP_BoS_Outcast_PowerArmorBase" Abstract="True">
+		<defaultFactionDef>FCP_Faction_BoS_Outcast_Remnants</defaultFactionDef>
 		<apparelRequired>
 			<li MayRequire="Rick.FCP.PowerArmor">FCP_Apparel_Power_Armor_Frame</li>
 			<li>FCP_Apparel_BoS_Jumpsuit</li>
@@ -755,6 +757,7 @@
 	<PawnKindDef ParentName="FCP_BoS_Outcast_PowerArmorBase">
 		<defName>FCP_Pawnkind_BoS_Outcast_Defeneder</defName>
 		<label>Brotherhood Outcast Defender</label>
+		<defaultFactionDef>FCP_Faction_BoS_Outcast_Remnants</defaultFactionDef>
 		<combatPower>50</combatPower>
 		<gearHealthRange>0.5~1.8</gearHealthRange>
 		<weaponMoney>150~600</weaponMoney>
@@ -781,6 +784,7 @@
 	<PawnKindDef ParentName="FCP_BoS_Outcast_PowerArmorBase">
 		<defName>FCP_Pawnkind_BoS_Outcast_Protector</defName>
 		<label>Brotherhood Outcast Protector</label>
+		<defaultFactionDef>FCP_Faction_BoS_Outcast_Remnants</defaultFactionDef>
 		<factionLeader>true</factionLeader>
 		<combatPower>30</combatPower>
 		<gearHealthRange>0.5~1.8</gearHealthRange>
@@ -808,6 +812,7 @@
 	<PawnKindDef ParentName="FCP_BoSkindBase">
 		<defName>FCP_Pawnkind_BoS_Outcast_Specialist</defName>
 		<label>Brotherhood Outcast Specialist</label>
+		<defaultFactionDef>FCP_Faction_BoS_Outcast_Remnants</defaultFactionDef>
 		<trader>true</trader>
 		<combatPower>30</combatPower>
 		<apparelRequired>
