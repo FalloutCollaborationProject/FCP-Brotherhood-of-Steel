@@ -342,9 +342,8 @@
 		<defaultFactionDef>FCP_Faction_BoS_Lyons_Pride_Remnants</defaultFactionDef>
 		<combatPower>80</combatPower>
 		<gearHealthRange>0.7~2.2</gearHealthRange>
-		<weaponMoney>400~1200</weaponMoney>
+		<weaponMoney>800~2000</weaponMoney>
 		<weaponTags>
-			<li>Gun</li>
 			<li MayRequire="Rick.FCP.EnergyWeapons">FCP_Laser_Weapon</li>
 			<li MayRequire="Rick.FCP.EnergyWeapons">FCP_Heavy_Laser_Weapon</li>
 		</weaponTags>
@@ -375,9 +374,8 @@
 		<defaultFactionDef>FCP_Faction_BoS_Lyons_Pride_Remnants</defaultFactionDef>
 		<combatPower>70</combatPower>
 		<gearHealthRange>0.7~2</gearHealthRange>
-		<weaponMoney>300~700</weaponMoney>
+		<weaponMoney>600~1500</weaponMoney>
 		<weaponTags>
-			<li>Gun</li>
 			<li MayRequire="Rick.FCP.EnergyWeapons">FCP_Laser_Weapon</li>
 			<li MayRequire="Rick.FCP.EnergyWeapons">FCP_Heavy_Laser_Weapon</li>
 		</weaponTags>
@@ -408,9 +406,9 @@
 		<defaultFactionDef>FCP_Faction_BoS_Lyons_Pride_Remnants</defaultFactionDef>
 		<combatPower>60</combatPower>
 		<gearHealthRange>0.5~1.8</gearHealthRange>
-		<weaponMoney>150~600</weaponMoney>
+		<weaponMoney>400~1000</weaponMoney>
 		<weaponTags>
-			<li>Gun</li>
+			<li MayRequire="Rick.FCP.EnergyWeapons">FCP_Laser_Weapon</li>
 		</weaponTags>
 		<apparelRequired>
 			<li>FCP_Apparel_BoS_Recon_Hood</li>

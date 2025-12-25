@@ -221,6 +221,7 @@
         <defName>FCP_Apparel_BoS_T45_Lyons_Power_Armor_Helmet</defName>
         <label>BoS Lyons T45 Power Armor Helmet</label>
         <description>T-45 power armor helmet worn by soldiers loyal to Elder Lyons' humanitarian mission. This helmet symbolizes a Brotherhood more concerned with protecting the innocent than hoarding technology, representing hope and compassion in the wasteland.</description>
+        <generateCommonality>0.001</generateCommonality>
         <techLevel>Industrial</techLevel>
         <graphicData>
             <texPath>Things/Apparel/BoS_Power_Armor/BoS_Lyons_T45_Power_Armor/FCP_Lyons_T45_Power_Armor_Helmet_south</texPath>
@@ -276,6 +277,7 @@
         <defName>FCP_Apparel_BoS_T45_Outcast_Power_Armor_Helmet</defName>
         <label>BoS Outcast T45 Power Armor Helmet</label>
         <description>T-45 power armor helmet painted in the black and red colors of the Brotherhood Outcasts. This helmet represents unwavering dedication to the traditional Brotherhood mission of technology acquisition above all else, worn by those who refused to compromise their principles.</description>
+        <generateCommonality>0.001</generateCommonality>
         <techLevel>Industrial</techLevel>
         <graphicData>
             <texPath>Things/Apparel/BoS_Power_Armor/BoS_Outcast_T45_Power_Armor/FCP_Outcast_T45_Power_Armor_Helmet_south</texPath>
