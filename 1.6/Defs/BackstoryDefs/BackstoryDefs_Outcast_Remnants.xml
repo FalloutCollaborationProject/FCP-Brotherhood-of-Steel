@@ -15,6 +15,8 @@
         <defName>FCP_Backstory_BoS_Outcasts_Veteran_Defender</defName>
         <identifier>FCP_Backstory_BoS_Outcasts_Veteran_Defender</identifier>
         <slot>Adulthood</slot>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>Veteran Defender</title>
         <titleShort>Defender</titleShort>
         <description>[PAWN_nameDef] earned a reputation as a stalwart protector of Outcast camps, holding the line against raiders and mutants with unwavering resolve.</description>
@@ -37,6 +39,8 @@
         <defName>FCP_Backstory_BoS_Outcasts_Salvager</defName>
         <identifier>FCP_Backstory_BoS_Outcasts_Salvager</identifier>
         <slot>Adulthood</slot>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>Outcast Salvager</title>
         <titleShort>Salvager</titleShort>
         <description>[PAWN_nameDef] led expeditions into dangerous ruins, recovering valuable technology and resources to keep the Outcasts supplied and operational.</description>
@@ -59,6 +63,8 @@
         <defName>FCP_Backstory_BoS_Outcasts_Power_Armor_Specialist</defName>
         <identifier>FCP_Backstory_BoS_Outcasts_Power_Armor_Specialist</identifier>
         <slot>Adulthood</slot>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>Power Armor Specialist</title>
         <titleShort>Armor Specialist</titleShort>
         <description>[PAWN_nameDef] became an expert in maintaining and piloting power armor, leading Outcast charges into the most dangerous battles.</description>
@@ -81,6 +87,8 @@
         <defName>FCP_Backstory_BoS_Outcasts_Field_Commander</defName>
         <identifier>FCP_Backstory_BoS_Outcasts_Field_Commander</identifier>
         <slot>Adulthood</slot>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>Field Commander</title>
         <titleShort>Commander</titleShort>
         <description>[PAWN_nameDef] rose through the ranks to command Outcast squads, coordinating raids and defensive actions with tactical precision.</description>
@@ -103,6 +111,8 @@
         <defName>FCP_Backstory_BoS_Outcasts_Recon_Specialist</defName>
         <identifier>FCP_Backstory_BoS_Outcasts_Recon_Specialist</identifier>
         <slot>Adulthood</slot>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>Recon Specialist</title>
         <titleShort>Recon</titleShort>
         <description>[PAWN_nameDef] excelled at scouting enemy positions and gathering intelligence, often venturing deep into hostile territory for the Outcasts.</description>
@@ -125,6 +135,8 @@
         <defName>FCP_Backstory_BoS_Outcasts_Medical_Officer</defName>
         <identifier>FCP_Backstory_BoS_Outcasts_Medical_Officer</identifier>
         <slot>Adulthood</slot>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>Medical Officer</title>
         <titleShort>Medic</titleShort>
         <description>[PAWN_nameDef] became a skilled medic, treating wounded Outcasts and developing new field medicine techniques for survival in the wasteland.</description>
@@ -146,6 +158,8 @@
         <defName>FCP_Backstory_BoS_Outcasts_Quartermaster</defName>
         <identifier>FCP_Backstory_BoS_Outcasts_Quartermaster</identifier>
         <slot>Adulthood</slot>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>Quartermaster</title>
         <titleShort>Quartermaster</titleShort>
         <description>[PAWN_nameDef] managed the Outcasts' armory and supplies, ensuring every squad was equipped for survival and combat.</description>
@@ -168,6 +182,8 @@
         <defName>FCP_Backstory_BoS_Outcasts_Demolitions_Expert</defName>
         <identifier>FCP_Backstory_BoS_Outcasts_Demolitions_Expert</identifier>
         <slot>Adulthood</slot>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>Demolitions Expert</title>
         <titleShort>Demolitions</titleShort>
         <description>[PAWN_nameDef] specialized in explosives, clearing obstacles and sabotaging enemy fortifications for Outcast operations.</description>
@@ -190,6 +206,8 @@
         <defName>FCP_Backstory_BoS_Outcasts_Instructor</defName>
         <identifier>FCP_Backstory_BoS_Outcasts_Instructor</identifier>
         <slot>Adulthood</slot>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>Instructor</title>
         <titleShort>Instructor</titleShort>
         <description>[PAWN_nameDef] trained new Outcast recruits in weapons handling, tactics, and survival, shaping the next generation of warriors.</description>
@@ -212,6 +230,8 @@
         <defName>FCP_Backstory_BoS_Outcasts_Cook</defName>
         <identifier>FCP_Backstory_BoS_Outcasts_Cook</identifier>
         <slot>Adulthood</slot>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>Outcast Cook</title>
         <titleShort>Cook</titleShort>
         <description>[PAWN_nameDef] kept the Outcast camps fed, preparing meals from whatever could be scavenged and boosting morale with every meal served.</description>
@@ -233,6 +253,8 @@
         <defName>FCP_Backstory_BoS_Outcasts_Mechanic</defName>
         <identifier>FCP_Backstory_BoS_Outcasts_Mechanic</identifier>
         <slot>Adulthood</slot>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>Outcast Mechanic</title>
         <titleShort>Mechanic</titleShort>
         <description>[PAWN_nameDef] maintained the Outcasts' vehicles and equipment, ensuring every machine was ready for battle at a moment's notice.</description>
@@ -254,6 +276,8 @@
         <defName>FCP_Backstory_BoS_Outcasts_Diplomat</defName>
         <identifier>FCP_Backstory_BoS_Outcasts_Diplomat</identifier>
         <slot>Adulthood</slot>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>Outcast Diplomat</title>
         <titleShort>Diplomat</titleShort>
         <description>[PAWN_nameDef] negotiated with wasteland settlements and rival factions, forging alliances and securing resources for the Outcasts' survival.</description>
@@ -275,6 +299,8 @@
         <defName>FCP_Backstory_BoS_Outcasts_Scribe</defName>
         <identifier>FCP_Backstory_BoS_Outcasts_Scribe</identifier>
         <slot>Adulthood</slot>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>Outcast Scribe</title>
         <titleShort>Scribe</titleShort>
         <description>[PAWN_nameDef] dedicated [PAWN_possessive] life to preserving Outcast knowledge and cataloging every piece of recovered technology and lore.</description>
@@ -296,6 +322,8 @@
         <defName>FCP_Backstory_BoS_Outcasts_Field_Researcher</defName>
         <identifier>FCP_Backstory_BoS_Outcasts_Field_Researcher</identifier>
         <slot>Adulthood</slot>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>Field Researcher</title>
         <titleShort>Researcher</titleShort>
         <description>[PAWN_nameDef] traveled the wasteland to study mutated flora and fauna, providing the Outcasts with valuable scientific insights and survival knowledge.</description>
@@ -318,6 +346,8 @@
         <defName>FCP_Backstory_BoS_Outcasts_Communications_Officer</defName>
         <identifier>FCP_Backstory_BoS_Outcasts_Communications_Officer</identifier>
         <slot>Adulthood</slot>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>Communications Officer</title>
         <titleShort>Comms Officer</titleShort>
         <description>[PAWN_nameDef] maintained radio contact between patrols and camps, coordinating missions and relaying vital information across the wasteland.</description>
@@ -339,6 +369,8 @@
         <defName>FCP_Backstory_BoS_Outcasts_Scout_Captain</defName>
         <identifier>FCP_Backstory_BoS_Outcasts_Scout_Captain</identifier>
         <slot>Adulthood</slot>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>Scout Captain</title>
         <titleShort>Scout Captain</titleShort>
         <description>[PAWN_nameDef] led reconnaissance teams through the ruins, mapping safe routes and identifying threats before they could strike at the Outcasts.</description>
@@ -361,6 +393,8 @@
         <defName>FCP_Backstory_BoS_Outcasts_Archivist</defName>
         <identifier>FCP_Backstory_BoS_Outcasts_Archivist</identifier>
         <slot>Adulthood</slot>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>Archivist</title>
         <titleShort>Archivist</titleShort>
         <description>[PAWN_nameDef] was responsible for preserving Outcast records and analyzing pre-war data, ensuring nothing of value was lost to time.</description>
@@ -382,6 +416,8 @@
         <defName>FCP_Backstory_BoS_Outcasts_Field_Instructor</defName>
         <identifier>FCP_Backstory_BoS_Outcasts_Field_Instructor</identifier>
         <slot>Adulthood</slot>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>Field Instructor</title>
         <titleShort>Instructor</titleShort>
         <description>[PAWN_nameDef] taught Outcast recruits the harsh realities of wasteland survival, from foraging to field repairs and combat drills.</description>
@@ -404,6 +440,8 @@
         <defName>FCP_Backstory_BoS_Outcasts_Logistics_Officer</defName>
         <identifier>FCP_Backstory_BoS_Outcasts_Logistics_Officer</identifier>
         <slot>Adulthood</slot>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>Logistics Officer</title>
         <titleShort>Logistics</titleShort>
         <description>[PAWN_nameDef] coordinated the movement of supplies and personnel between Outcast camps, ensuring that every squad had what they needed to survive and fight.</description>
@@ -426,6 +464,8 @@
         <defName>FCP_Backstory_BoS_Outcasts_Survivalist</defName>
         <identifier>FCP_Backstory_BoS_Outcasts_Survivalist</identifier>
         <slot>Adulthood</slot>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>Survivalist</title>
         <titleShort>Survivalist</titleShort>
         <description>[PAWN_nameDef] became an expert in living off the land, teaching others how to hunt, forage, and endure the harshest conditions the wasteland could offer.</description>

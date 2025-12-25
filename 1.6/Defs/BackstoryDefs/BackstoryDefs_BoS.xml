@@ -15,6 +15,8 @@
         <defName>FCP_Backstory_BoS_Requisitioner</defName>
         <identifier>FCP_Backstory_BoS_Requisitioner</identifier>
         <slot>Adulthood</slot>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>Requisitioner</title>
         <titleShort>Requisitioner</titleShort>
         <description>[PAWN_nameDef] was tasked by [PAWN_possessive] chapter to requisition materials, they weren’t capable or willing to produce themselves. [PAWN_pronoun] was advised to treat outsiders fairly and barter with them for the goods the Brotherhood desired. If they proved to be uncooperative however, [PAWN_pronoun] was allowed to confiscate wares the chapter needed. This made many wastelanders somewhat wary of [PAWN_objective].</description>
@@ -41,6 +43,8 @@
         <defName>FCP_Backstory_BoS_Brotherhood_Educator</defName>
         <identifier>FCP_Backstory_BoS_Brotherhood_Educator</identifier>
         <slot>Adulthood</slot>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>Brotherhood Educator</title>
         <titleShort>Brotherhood Educator</titleShort>
         <description>The Brotherhood of Steel had a long and proud history and [PAWN_nameDef] was honoured to teach the squires about it. While [PAWN_pronoun] was a strict teacher, [PAWN_pronoun] was still beloved by [PAWN_possessive] pupils and respected by the adult members of [PAWN_possessive] chapter for [PAWN_possessive] extensive knowledge of the past.</description>
@@ -69,6 +73,8 @@
         <defName>FCP_Backstory_BoS_Brotherhood_Cleanser</defName>
         <identifier>FCP_Backstory_BoS_Brotherhood_Cleanser</identifier>
         <slot>Adulthood</slot>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>Brotherhood Cleanser</title>
         <titleShort>Brotherhood Cleanser</titleShort>
         <description>The wasteland was full of Super Mutants, Ghouls and other abominations the Brotherhood sought to purge. [PAWN_nameDef] was part of a team deployed to cleanse the wasteland of the radiated horrors. [PAWN_pronoun] was an expert fighter, never losing [PAWN_possessive] nerve in battle. After years of fighting the vilest creatures the wasteland spat out, [PAWN_nameDef] developed an almost religious zealotry which separated [PAWN_objective] from the more pragmatic members of the Brotherhood.</description>
@@ -96,6 +102,8 @@
         <defName>FCP_Backstory_BoS_Brotherhood_Quartermaster</defName>
         <identifier>FCP_Backstory_BoS_Brotherhood_Quartermaster</identifier>
         <slot>Adulthood</slot>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>Brotherhood Quartermaster</title>
         <titleShort>Brotherhood Quartermaster</titleShort>
         <description>The Brotherhood wouldn’t be the Brotherhood without their heavy suits of power armour and laser weapons. [PAWN_nameDef] was a quartermaster for [PAWN_possessive] chapter and fulfilled this duty with great pride. While all soldiers of the BOS were expected to look after their own gear, [PAWN_nameDef] was the person they went to as soon as their equipment’s damages exceeded their own repairing capabilities.</description>
@@ -122,6 +130,8 @@
         <defName>FCP_Backstory_BoS_Brotherhood_Scribe</defName>
         <identifier>FCP_Backstory_BoS_Brotherhood_Scribe</identifier>
         <slot>Adulthood</slot>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>Brotherhood Scribe</title>
         <titleShort>Brotherhood Scribe</titleShort>
         <description>[PAWN_nameDef] was a scribe with the Brotherhood of Steel. [PAWN_pronoun] received advanced education in many fields such as medicine, engineering, biology and the history of the Brotherhood. [PAWN_pronoun] wasn’t much of a fighter, which wasn’t necessary since combat duties were carried out by the military branch of [PAWN_possessive] chapter.</description>
@@ -149,6 +159,8 @@
         <defName>FCP_Backstory_BoS_Brotherhood_Reclaimer</defName>
         <identifier>FCP_Backstory_BoS_Brotherhood_Reclaimer</identifier>
         <slot>Adulthood</slot>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>Brotherhood Reclaimer</title>
         <titleShort>Brotherhood Reclaimer</titleShort>
         <description>The main purpose of the Brotherhood of Steel was the reclaiming of lost technologies from the old world. [PAWN_nameDef] was part of a team of Brotherhood soldiers tasked with reclaiming caches of technology from pre-war buildings. It was an extremely dangerous task, since most structurally intact ruins were infested by ghouls, mutants, raiders and other vermin.</description>
@@ -175,6 +187,8 @@
         <defName>FCP_Backstory_BoS_Patrol_Leader</defName>
         <identifier>FCP_Backstory_BoS_Patrol_Leader</identifier>
         <slot>Adulthood</slot>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>Patrol Leader</title>
         <titleShort>Patrol Leader</titleShort>
         <description>[PAWN_nameDef] was a patrol leader within the Brotherhood. [PAWN_pronoun] led [PAWN_possessive] team on the long patrols along the perimeters of chapter’s outposts and encampments. Most of the time, they fought against invasive beasts from the wasteland and the occasional raider. While it was indeed a necessary duty, [PAWN_nameDef] longed to be assigned a more proactive task.</description>
@@ -202,6 +216,8 @@
         <defName>FCP_Backstory_BoS_Advisor</defName>
         <identifier>FCP_Backstory_BoS_Advisor</identifier>
         <slot>Adulthood</slot>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>BoS Advisor</title>
         <titleShort>BoS Advisor</titleShort>
         <description>After many years of devoted service in the Brotherhood, [PAWN_nameDef] became part of the inner circle of [PAWN_possessive] chapter. [PAWN_pronoun] quickly became a trusted advisor for the Elder, whose opinion was highly sought after. Many of [PAWN_possessive] brothers and sisters believed, that [PAWN_pronoun] would one day become the new Elder.</description>
@@ -229,6 +245,8 @@
         <defName>FCP_Backstory_BoS_Brotherhood_Preservationist</defName>
         <identifier>FCP_Backstory_BoS_Brotherhood_Preservationist</identifier>
         <slot>Adulthood</slot>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>Brotherhood Preservationist</title>
         <titleShort>Brotherhood Preservationist</titleShort>
         <description>[PAWN_nameDef] was member of the BOS, who adhered to the preservationist ideology. The preservationists were often seen as followers of a more idealistic vision for the Brotherhood of Steel. While they still thought that they’re main goal was to reclaim lost technology, they often tried to help people outside of the Brotherhood too, since they thought of themselves as guardians and protectors of the whole of humanity.</description>
@@ -257,6 +275,8 @@
         <defName>FCP_Backstory_BoS_Brotherhood_Reactionary</defName>
         <identifier>FCP_Backstory_BoS_Brotherhood_Reactionary</identifier>
         <slot>Adulthood</slot>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>Brotherhood Reactionary</title>
         <titleShort>Brotherhood Reactionary</titleShort>
         <description>[PAWN_nameDef] was member of the BOS, who adhered to the reactionary ideology. The reactionaries were the most inward oriented group within the Brotherhood. They usually didn’t care much about the common wastelanders, as long as they didn’t get in their way. In their mind, the Brotherhood was the only group who should be allowed to possess pre-war military technology. They didn’t shy away from going to war with other groups, if they refused to give up what the Brotherhood desired.</description>
@@ -286,6 +306,8 @@
         <defName>FCP_Backstory_BoS_Brotherhood_Restorer</defName>
         <identifier>FCP_Backstory_BoS_Brotherhood_Restorer</identifier>
         <slot>Adulthood</slot>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>Brotherhood Restorer</title>
         <titleShort>Brotherhood Restorer</titleShort>
         <description>[PAWN_nameDef] was member of the BOS, who adhered to the restorer ideology. The restorers were a rather young ideology within the Brotherhood. They tried to combine elements of both the preservationist and reactionary ideology. Their most distinctive feature was their approach to the politics of the wasteland since they tried to claim dominion over the people of the wasteland. Since they thought of themselves as the only hope for the continued survival of humankind, their goal was to establish a strong presence within their domain to ensure that the common people of the wasteland obeyed their laws.</description>
@@ -316,6 +338,8 @@
         <defName>FCP_Backstory_BoS_Aspirant_a</defName>
         <identifier>FCP_Backstory_BoS_Aspirant_a</identifier>
         <slot>Adulthood</slot>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>Brotherhood Aspirant</title>
         <titleShort>Aspirant</titleShort>
         <description>Raised within the fortified halls of a Brotherhood bunker, [PAWN_nameDef] was expected to follow [PAWN_possessive] parents into the Scribes, dedicating a life to maintaining technology. But [PAWN_pronoun] longed for the battlefield, inspired by stories of Paladins reclaiming lost knowledge from the wasteland. Defying expectations, [PAWN_pronoun] fought to join the initiates, proving [PAWN_possessive] worth through relentless training and a hunger for fieldwork. While [PAWN_possessive] technical knowledge remains sharp, [PAWN_pronoun] now seeks to earn a place among the Brotherhood’s elite warriors.</description>
@@ -341,6 +365,8 @@
         <defName>FCP_Backstory_BoS_Aspirant_b</defName>
         <identifier>FCP_Backstory_BoS_Aspirant_b</identifier>
         <slot>Adulthood</slot>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>Brotherhood Aspirant</title>
         <titleShort>Aspirant</titleShort>
         <description>Born in the unforgiving wasteland, [PAWN_nameDef] grew up scavenging ruins and avoiding raider gangs. When a Brotherhood patrol found [PAWN_pronoun] fending off a group of feral ghouls with nothing but a rusted pistol, they saw potential. Given the choice between enlistment or exile, [PAWN_pronoun] embraced the Brotherhood’s ideals, eager to trade a life of survival for one of purpose. Now, as an aspirant, [PAWN_pronoun] trains to uphold the Brotherhood’s doctrine and earn the right to wear power armor.</description>
@@ -366,6 +392,8 @@
         <defName>FCP_Backstory_BoS_Aspirant_c</defName>
         <identifier>FCP_Backstory_BoS_Aspirant_c</identifier>
         <slot>Adulthood</slot>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>Brotherhood Aspirant</title>
         <titleShort>Aspirant</titleShort>
         <description>From an early age, [PAWN_nameDef] was immersed in the Brotherhood’s teachings not just in battle, but in the knowledge that technology must be preserved at all costs. Unlike the wastelanders who fumbled with old world machines, [PAWN_possessive] lessons came from preserved databanks and the Brotherhood’s most skilled Scribes. Though [PAWN_pronoun] has trained in combat like all Brotherhood recruits, [PAWN_possessive] true passion lies in deciphering ancient schematics and uncovering lost technology. But in a world where knowledge alone won’t keep [PAWN_pronoun] alive, [PAWN_pronoun] is determined to prove [PAWN_possessive] worth as a warrior and a scholar.</description>
@@ -391,6 +419,8 @@
         <defName>FCP_Backstory_BoS_Aspirant_d</defName>
         <identifier>FCP_Backstory_BoS_Aspirant_d</identifier>
         <slot>Adulthood</slot>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>Brotherhood Aspirant</title>
         <titleShort>Aspirant</titleShort>
         <description>Unlike most aspirants, [PAWN_nameDef] wasn’t drawn to war, but to the machines that powered it. From childhood, [PAWN_possessive] days were spent studying fusion cores, repairing damaged laser rifles, and testing salvaged pre-war technology. While the Brotherhood needed warriors, it also needed minds capable of keeping their advanced arsenal operational. Though [PAWN_pronoun] trained in combat like all aspirants, [PAWN_pronoun] finds just as much satisfaction in the hum of a properly calibrated laser as [PAWN_pronoun] does in the heat of battle.</description>
@@ -418,6 +448,8 @@
         <defName>FCP_Backstory_BoS_Knight_a</defName>
         <identifier>FCP_Backstory_BoS_Knight_a</identifier>
         <slot>Adulthood</slot>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>Brotherhood Knight</title>
         <titleShort>Knight</titleShort>
         <description>From the moment [PAWN_nameDef] was deemed worthy of Knight status, [PAWN_pronoun] dedicated [PAWN_possessive] life to perfecting battlefield tactics. While others sought glory, [PAWN_pronoun] understood that the Brotherhood’s true strength was in strategy and discipline. Every battle was another test, every engagement another lesson. Though [PAWN_pronoun] holds respect for Brotherhood ideals, [PAWN_pronoun] values cold efficiency over blind loyalty. In the end, only the strongest deserve survival.</description>
@@ -443,6 +475,8 @@
         <defName>FCP_Backstory_BoS_Knight_b</defName>
         <identifier>FCP_Backstory_BoS_Knight_b</identifier>
         <slot>Adulthood</slot>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>Brotherhood Knight</title>
         <titleShort>Knight</titleShort>
         <description>Unlike many of [PAWN_possessive] peers, [PAWN_nameDef] never saw battle as duty it was a privilege. From [PAWN_possessive] first kill as an Initiate, [PAWN_pronoun] learned to revel in combat, the thrill of watching enemies fall beneath superior firepower. While others spoke of honor, [PAWN_pronoun] focused on efficiency. If the Brotherhood demanded violence, then [PAWN_pronoun] would be the first to deliver it, without hesitation or remorse. Some whisper that [PAWN_pronoun] enjoys war too much but the Brotherhood needs killers just as much as it needs strategists.</description>
@@ -468,6 +502,8 @@
         <defName>FCP_Backstory_BoS_Knight_c</defName>
         <identifier>FCP_Backstory_BoS_Knight_c</identifier>
         <slot>Adulthood</slot>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>Brotherhood Knight</title>
         <titleShort>Knight</titleShort>
         <description>[PAWN_nameDef] has lived by one philosophy: weakness is death. Raised by a Paladin who survived countless campaigns, [PAWN_pronoun] was taught that mercy was just another form of hesitation. By the time [PAWN_pronoun] became a Knight, [PAWN_pronoun] had already survived more firefights than many ever would. Now, clad in Brotherhood armor, [PAWN_pronoun] fights without fear, believing that only war can shape a soldier into something greater.</description>
@@ -493,6 +529,8 @@
         <defName>FCP_Backstory_BoS_Knight_d</defName>
         <identifier>FCP_Backstory_BoS_Knight_d</identifier>
         <slot>Adulthood</slot>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>Brotherhood Knight</title>
         <titleShort>Knight</titleShort>
         <description>There was a time when [PAWN_nameDef] believed in the Brotherhood’s mission without question. Technology was sacred, and its protection was a noble duty. But after years on the battlefield, after watching good soldiers die over scraps of machinery, doubt crept in. Was the Brotherhood truly saving humanity, or just hoarding power? Though [PAWN_pronoun] still fights, a deep cynicism has set in. The mission continues, but faith is a distant memory.</description>
@@ -518,6 +556,8 @@
         <defName>FCP_Backstory_BoS_Knight_e</defName>
         <identifier>FCP_Backstory_BoS_Knight_e</identifier>
         <slot>Adulthood</slot>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>Brotherhood Knight</title>
         <titleShort>Knight</titleShort>
         <description>To [PAWN_nameDef], the wasteland is a plague, and it must be cleansed. Mutants, raiders, ghouls none of them deserve to exist. [PAWN_pronoun] believes the Brotherhood’s true mission is extermination, a purge to restore what humanity once was. Where others hesitate, [PAWN_pronoun] strikes without mercy, convinced that every kill brings the world one step closer to order.</description>
@@ -545,6 +585,8 @@
         <defName>FCP_Backstory_BoS_Paladin_a</defName>
         <identifier>FCP_Backstory_BoS_Paladin_a</identifier>
         <slot>Adulthood</slot>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>Brotherhood Paladin</title>
         <titleShort>Paladin</titleShort>
         <description>Years of wasteland warfare have taken their toll on [PAWN_nameDef]. Once, [PAWN_pronoun] fought alongside comrades, shared war stories, and believed in Brotherhood unity. But too many battles, too many losses, and too many betrayals have left [PAWN_pronoun] withdrawn. Words are useless actions are all that matter. Now, [PAWN_pronoun] speaks only when absolutely necessary, giving orders with curt nods and executing missions with cold efficiency. Others see [PAWN_pronoun] as distant, even callous, but in truth, [PAWN_pronoun] simply no longer sees the point in meaningless conversation.</description>
@@ -570,6 +612,8 @@
         <defName>FCP_Backstory_BoS_Paladin_b</defName>
         <identifier>FCP_Backstory_BoS_Paladin_b</identifier>
         <slot>Adulthood</slot>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>Brotherhood Paladin</title>
         <titleShort>Paladin</titleShort>
         <description>Respect is earned through power, and [PAWN_nameDef] has spent a lifetime proving it. The Brotherhood must be ruled with an iron fist, and those who challenge it must be crushed. Mercy is weakness. Disobedience is death. The wasteland is not a place for kindness it is a place where only the strongest survive. And under [PAWN_possessive] leadership, the Brotherhood will not just survive. It will dominate.</description>
@@ -595,6 +639,8 @@
         <defName>FCP_Backstory_BoS_Paladin_c</defName>
         <identifier>FCP_Backstory_BoS_Paladin_c</identifier>
         <slot>Adulthood</slot>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>Brotherhood Paladin</title>
         <titleShort>Paladin</titleShort>
         <description>[PAWN_nameDef] stopped thinking of [PAWN_possessive]self as human long ago. Battlefields are all [PAWN_pronoun] knows, and power armor is the only thing that feels like home. The Brotherhood gives [PAWN_pronoun] orders, and [PAWN_pronoun] executes them, no questions asked. Emotions are a distraction, doubts are for the weak. A Paladin exists to fight, to kill, and to win. Nothing else matters.</description>
@@ -620,6 +666,8 @@
         <defName>FCP_Backstory_BoS_Paladin_d</defName>
         <identifier>FCP_Backstory_BoS_Paladin_d</identifier>
         <slot>Adulthood</slot>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>Brotherhood Paladin</title>
         <titleShort>Paladin</titleShort>
         <description>To most Paladins, war is about territory and power. To [PAWN_nameDef], war is about preservation. Every Brotherhood battle is another step toward reclaiming what was lost. While others waste their time with bloodshed, [PAWN_pronoun] ensures that old-world technology is protected. Whether it be a crashed Enclave vertibird or a pre-war archive, [PAWN_pronoun] will stop at nothing to secure it—even if it means disobeying orders.</description>
@@ -645,6 +693,8 @@
         <defName>FCP_Backstory_BoS_Paladin_e</defName>
         <identifier>FCP_Backstory_BoS_Paladin_e</identifier>
         <slot>Adulthood</slot>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>Brotherhood Paladin</title>
         <titleShort>Paladin</titleShort>
         <description>War is all [PAWN_nameDef] has ever known. As a Knight, [PAWN_pronoun] was relentless in battle, crushing raiders, mutants, and heretics without mercy. As a Paladin, [PAWN_pronoun] became a force of destruction, leading squads to burn down NCR strongholds and wipe out Mutant threats before they could rise. The Brotherhood does not ask for diplomacy it asks for war. And [PAWN_pronoun] is always ready to deliver.</description>
@@ -670,6 +720,8 @@
         <defName>FCP_Backstory_BoS_Paladin_f</defName>
         <identifier>FCP_Backstory_BoS_Paladin_f</identifier>
         <slot>Adulthood</slot>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>Brotherhood Paladin</title>
         <titleShort>Paladin</titleShort>
         <description>For decades, [PAWN_nameDef] has stood as a wall between the Brotherhood and its enemies. While others sought glory, [PAWN_pronoun] sought only to endure. Through gunfire, explosions, and the deaths of countless comrades, [PAWN_pronoun] never wavered. Battle scars cover [PAWN_possessive] body, but none have broken [PAWN_pronoun] yet. If the Brotherhood must survive, it needs Paladins who refuse to fall, Paladins like [PAWN_nameDef].</description>
@@ -697,6 +749,8 @@
         <defName>FCP_Backstory_BoS_Scribe_a</defName>
         <identifier>FCP_Backstory_BoS_Paladin_a</identifier>
         <slot>Adulthood</slot>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>Brotherhood Scribe</title>
         <titleShort>Scribe</titleShort>
         <description>The Brotherhood hoards technology, but does it truly understand it? [PAWN_nameDef] always questioned this. Why destroy AI cores instead of using them? Why limit cybernetics instead of embracing them? The Brotherhood clings to the past, fearing what it does not control. But [PAWN_pronoun] sees potential where others see danger. If [PAWN_pronoun] is discovered, [PAWN_possessive] research will be burned, [PAWN_possessive] name erased from history. But progress demands risk. And [PAWN_nameDef] is willing to take it.</description>
@@ -722,6 +776,8 @@
         <defName>FCP_Backstory_BoS_Scribe_b</defName>
         <identifier>FCP_Backstory_BoS_Paladin_b</identifier>
         <slot>Adulthood</slot>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>Brotherhood Scribe</title>
         <titleShort>Scribe</titleShort>
         <description>At first, [PAWN_nameDef] believed in the Brotherhood’s mission. Knowledge must be preserved. Technology must be controlled. But years of restricted research, censored discoveries, and lost breakthroughs wore [PAWN_pronoun] down. [PAWN_possessive] work was buried, [PAWN_possessive] theories ignored, and for what? Brotherhood dogma? [PAWN_pronoun] still serves, still researches, but the passion is gone. Now, [PAWN_pronoun] simply follows orders, wondering what could have been if the Brotherhood truly embraced progress.</description>
@@ -747,6 +803,8 @@
         <defName>FCP_Backstory_BoS_Scribe_c</defName>
         <identifier>FCP_Backstory_BoS_Paladin_c</identifier>
         <slot>Adulthood</slot>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>Brotherhood Scribe</title>
         <titleShort>Scribe</titleShort>
         <description>Unlike most Scribes, [PAWN_nameDef] never felt at home in the archives. Instead of musty books and lab equipment, [PAWN_pronoun] preferred the wasteland, the ruined cities, the lost bunkers, the places where history still lingers. [PAWN_possessive] research is done in the field, often alongside Knights and Paladins, scavenging for lost knowledge firsthand. Some say [PAWN_pronoun] is reckless, but [PAWN_possessive] work has uncovered more than any Scribe confined to a desk ever could.</description>
@@ -772,6 +830,8 @@
         <defName>FCP_Backstory_BoS_Scribe_d</defName>
         <identifier>FCP_Backstory_BoS_Paladin_d</identifier>
         <slot>Adulthood</slot>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>Brotherhood Scribe</title>
         <titleShort>Scribe</titleShort>
         <description>The Brotherhood’s history is as valuable as its technology, and [PAWN_nameDef] has dedicated [PAWN_possessive] life to preserving both. While others see combat as the Brotherhood’s true mission, [PAWN_pronoun] knows that without records, without archives, all they are is another warband doomed to be forgotten. [PAWN_pronoun] has spent years studying old world data, compiling Brotherhood reports, and ensuring that no knowledge, no matter how minor is ever lost again.</description>
@@ -798,6 +858,8 @@
         <defName>FCP_Backstory_BoS_Scribe_e</defName>
         <identifier>FCP_Backstory_BoS_Paladin_e</identifier>
         <slot>Adulthood</slot>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>Brotherhood Scribe</title>
         <titleShort>Scribe</titleShort>
         <description>The Brotherhood was built on war, but [PAWN_nameDef] has always believed their mission was preservation, not destruction. While others study weapons and armor, [PAWN_pronoun] has focused on medicine, clean energy, and agricultural advancements. The wasteland does not need more warriors; it needs healers, scientists, and builders. But the Brotherhood does not tolerate dissent, and so [PAWN_pronoun] keeps [PAWN_possessive] views to [PAWN_possessive]self, working in secret to preserve life rather than take it.</description>
@@ -825,6 +887,8 @@
         <defName>FCP_Backstory_BoS_Elder_a</defName>
         <identifier>FCP_Backstory_BoS_Elder_a</identifier>
         <slot>Adulthood</slot>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>Brotherhood Elder</title>
         <titleShort>Elder</titleShort>
         <description>After decades of service, [PAWN_nameDef] rose through the Brotherhood's ranks to become an Elder. [PAWN_pronoun] has witnessed the rise and fall of many chapters, the loss of countless brothers and sisters, and the endless struggle to preserve humanity's technological heritage. The weight of leadership has changed [PAWN_objective] - where once [PAWN_pronoun] was a fierce warrior, now [PAWN_pronoun] is a careful strategist who must balance the Brotherhood's mission with the lives under [PAWN_possessive] command.</description>
@@ -851,6 +915,8 @@
         <defName>FCP_Backstory_BoS_Elder_b</defName>
         <identifier>FCP_Backstory_BoS_Elder_b</identifier>
         <slot>Adulthood</slot>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>Brotherhood Elder</title>
         <titleShort>Elder</titleShort>
         <description>[PAWN_nameDef] became an Elder not through political maneuvering, but through sheer competence and unwavering dedication to the Brotherhood's ideals. [PAWN_pronoun] has led countless expeditions into the wasteland, secured vital technology caches, and negotiated with both allies and enemies. Though [PAWN_possessive] body shows the wear of decades in power armor, [PAWN_possessive] mind remains sharp and [PAWN_possessive] resolve unshakeable. To [PAWN_objective], the Brotherhood is not just an organization—it is humanity's last hope.</description>
@@ -877,6 +943,8 @@
         <defName>FCP_Backstory_BoS_Elder_c</defName>
         <identifier>FCP_Backstory_BoS_Elder_c</identifier>
         <slot>Adulthood</slot>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>Brotherhood Elder</title>
         <titleShort>Elder</titleShort>
         <description>Power corrupts, and [PAWN_nameDef] has felt its influence. What began as righteous leadership of a Brotherhood chapter slowly transformed into authoritarian control. [PAWN_pronoun] justifies every harsh decision, every sacrifice of subordinates, as necessary for the greater good. The Brotherhood's mission has become [PAWN_possessive] personal crusade, and [PAWN_pronoun] will crush anyone—within or without the organization—who stands in [PAWN_possessive] way. Some whisper that [PAWN_pronoun] has forgotten what they're fighting to preserve.</description>

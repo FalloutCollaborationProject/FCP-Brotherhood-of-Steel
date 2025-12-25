@@ -15,6 +15,8 @@
         <defName>FCP_Backstory_BoS_Lyons_Pride_Knight_Wasteland_Defender</defName>
         <identifier>FCP_Backstory_BoS_Lyons_Pride_Knight_Wasteland_Defender</identifier>
         <slot>Adulthood</slot>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>Wasteland Defender</title>
         <titleShort>Defender</titleShort>
         <description>After years of training, [PAWN_nameDef] became a full-fledged Knight, patrolling the ruins of DC and defending settlements from raiders and mutants. [PAWN_pronoun] earned a reputation for bravery and tactical skill among the Lyons' Pride.</description>
@@ -37,6 +39,8 @@
         <defName>FCP_Backstory_BoS_Lyons_Pride_Paladin_Lyons_Pride_Veteran</defName>
         <identifier>FCP_Backstory_BoS_Lyons_Pride_Paladin_Lyons_Pride_Veteran</identifier>
         <slot>Adulthood</slot>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>Lyons' Pride Veteran</title>
         <titleShort>Pride Veteran</titleShort>
         <description>[PAWN_nameDef] fought alongside the legendary Lyons' Pride, facing the Capital Wasteland's greatest threats. [PAWN_pronoun] is respected for [PAWN_possessive] courage and unwavering loyalty to the Pride's ideals.</description>
@@ -59,6 +63,8 @@
         <defName>FCP_Backstory_BoS_Lyons_Pride_Scribe_Technology_Seeker</defName>
         <identifier>FCP_Backstory_BoS_Lyons_Pride_Scribe_Technology_Seeker</identifier>
         <slot>Adulthood</slot>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>Technology Seeker</title>
         <titleShort>Tech Seeker</titleShort>
         <description>As a Scribe, [PAWN_nameDef] scoured the wasteland for lost knowledge and pre-war technology, documenting every discovery for the Lyons' Pride archives.</description>
@@ -80,6 +86,8 @@
         <defName>FCP_Backstory_BoS_Lyons_Pride_Knight_Power_Armor_Operator</defName>
         <identifier>FCP_Backstory_BoS_Lyons_Pride_Knight_Power_Armor_Operator</identifier>
         <slot>Adulthood</slot>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>Power Armor Operator</title>
         <titleShort>Armor Operator</titleShort>
         <description>[PAWN_nameDef] mastered the use and maintenance of power armor, leading charges against super mutants and protecting Lyons' Pride interests with unmatched resilience.</description>
@@ -102,6 +110,8 @@
         <defName>FCP_Backstory_BoS_Lyons_Pride_Scribe_Medical_Specialist</defName>
         <identifier>FCP_Backstory_BoS_Lyons_Pride_Scribe_Medical_Specialist</identifier>
         <slot>Adulthood</slot>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>Medical Specialist</title>
         <titleShort>Medic</titleShort>
         <description>Dedicated to saving lives, [PAWN_nameDef] became a medical specialist, treating wounded Lyons' Pride members and researching advanced healing techniques.</description>
@@ -123,6 +133,8 @@
         <defName>FCP_Backstory_BoS_Lyons_Pride_Paladin_Outcast_Hunter</defName>
         <identifier>FCP_Backstory_BoS_Lyons_Pride_Paladin_Outcast_Hunter</identifier>
         <slot>Adulthood</slot>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>Outcast Hunter</title>
         <titleShort>Outcast Hunter</titleShort>
         <description>[PAWN_nameDef] was tasked with tracking and confronting Outcasts, enforcing Elder Lyons' vision and protecting the unity of the Pride.</description>
@@ -145,6 +157,8 @@
         <defName>FCP_Backstory_BoS_Lyons_Pride_Knight_CitadelEngineer</defName>
         <identifier>FCP_Backstory_BoS_Lyons_Pride_Knight_CitadelEngineer</identifier>
         <slot>Adulthood</slot>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>Citadel Engineer</title>
         <titleShort>Engineer</titleShort>
         <description>[PAWN_nameDef] specialized in maintaining the Citadel's defenses and infrastructure, ensuring the Pride's stronghold remained secure against all threats.</description>
@@ -167,6 +181,8 @@
         <defName>FCP_Backstory_BoS_Lyons_Pride_Scribe_Archivist</defName>
         <identifier>FCP_Backstory_BoS_Lyons_Pride_Scribe_Archivist</identifier>
         <slot>Adulthood</slot>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>Archivist</title>
         <titleShort>Archivist</titleShort>
         <description>[PAWN_nameDef] dedicated [PAWN_possessive] life to preserving the Pride's history and cataloging every piece of recovered technology and lore.</description>
@@ -188,6 +204,8 @@
         <defName>FCP_Backstory_BoS_Lyons_Pride_Knight_Recon_Specialist</defName>
         <identifier>FCP_Backstory_BoS_Lyons_Pride_Knight_Recon_Specialist</identifier>
         <slot>Adulthood</slot>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>Recon Specialist</title>
         <titleShort>Recon</titleShort>
         <description>[PAWN_nameDef] excelled at scouting enemy positions and gathering intelligence, often venturing deep into hostile territory to ensure the Pride's tactical advantage.</description>
@@ -210,6 +228,8 @@
         <defName>FCP_Backstory_BoS_Lyons_Pride_Scribe_Field_Researcher</defName>
         <identifier>FCP_Backstory_BoS_Lyons_Pride_Scribe_Field_Researcher</identifier>
         <slot>Adulthood</slot>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>Field Researcher</title>
         <titleShort>Field Researcher</titleShort>
         <description>[PAWN_nameDef] traveled the wasteland to study mutated flora and fauna, providing the Pride with valuable scientific insights and survival knowledge.</description>
@@ -232,6 +252,8 @@
         <defName>FCP_Backstory_BoS_Lyons_Pride_Knight_Quartermaster</defName>
         <identifier>FCP_Backstory_BoS_Lyons_Pride_Knight_Quartermaster</identifier>
         <slot>Adulthood</slot>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>Quartermaster</title>
         <titleShort>Quartermaster</titleShort>
         <description>[PAWN_nameDef] managed the Pride's armory, distributing weapons and supplies to Knights and Scribes, and ensuring nothing was wasted in the fight for survival.</description>
@@ -254,6 +276,8 @@
         <defName>FCP_Backstory_BoS_Lyons_Pride_Scribe_Communications_Officer</defName>
         <identifier>FCP_Backstory_BoS_Lyons_Pride_Scribe_Communications_Officer</identifier>
         <slot>Adulthood</slot>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>Communications Officer</title>
         <titleShort>Comms Officer</titleShort>
         <description>[PAWN_nameDef] maintained radio contact between patrols and the Citadel, coordinating missions and relaying vital information for the Pride across the wasteland.</description>
@@ -275,6 +299,8 @@
         <defName>FCP_Backstory_BoS_Lyons_Pride_Knight_Field_Instructor</defName>
         <identifier>FCP_Backstory_BoS_Lyons_Pride_Knight_Field_Instructor</identifier>
         <slot>Adulthood</slot>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>Field Instructor</title>
         <titleShort>Instructor</titleShort>
         <description>[PAWN_nameDef] trained new recruits in weapons handling, tactics, and survival, shaping the next generation of Lyons' Pride warriors.</description>
@@ -297,6 +323,8 @@
         <defName>FCP_Backstory_BoS_Lyons_Pride_Scribe_Medical_Researcher</defName>
         <identifier>FCP_Backstory_BoS_Lyons_Pride_Scribe_Medical_Researcher</identifier>
         <slot>Adulthood</slot>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>Medical Researcher</title>
         <titleShort>Med Researcher</titleShort>
         <description>[PAWN_nameDef] focused on developing new treatments and medicines, using both pre-war knowledge and wasteland discoveries to heal the Pride's wounded.</description>
@@ -318,6 +346,8 @@
         <defName>FCP_Backstory_BoS_Lyons_Pride_Knight_Salvage_Team_Leader</defName>
         <identifier>FCP_Backstory_BoS_Lyons_Pride_Knight_Salvage_Team_Leader</identifier>
         <slot>Adulthood</slot>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>Salvage Team Leader</title>
         <titleShort>Salvager</titleShort>
         <description>[PAWN_nameDef] led expeditions into dangerous ruins, recovering valuable technology and resources for the Pride's continued survival.</description>
@@ -340,6 +370,8 @@
         <defName>FCP_Backstory_BoS_Lyons_Pride_Knight_Demolitions_Expert</defName>
         <identifier>FCP_Backstory_BoS_Lyons_Pride_Knight_Demolitions_Expert</identifier>
         <slot>Adulthood</slot>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>Demolitions Expert</title>
         <titleShort>Demolitions</titleShort>
         <description>[PAWN_nameDef] specialized in explosives, clearing rubble and disabling enemy fortifications for the Pride's operations in the Capital Wasteland.</description>
@@ -362,6 +394,8 @@
         <defName>FCP_Backstory_BoS_Lyons_Pride_Knight_Cook</defName>
         <identifier>FCP_Backstory_BoS_Lyons_Pride_Knight_Cook</identifier>
         <slot>Adulthood</slot>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>Pride Cook</title>
         <titleShort>Cook</titleShort>
         <description>[PAWN_nameDef] kept the Citadel fed, preparing hearty meals for Knights and Scribes and boosting morale with every meal served for the Pride.</description>
@@ -383,6 +417,8 @@
         <defName>FCP_Backstory_BoS_Lyons_Pride_Knight_Mechanic</defName>
         <identifier>FCP_Backstory_BoS_Lyons_Pride_Knight_Mechanic</identifier>
         <slot>Adulthood</slot>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>Pride Mechanic</title>
         <titleShort>Mechanic</titleShort>
         <description>[PAWN_nameDef] maintained the Pride's vehicles and power armor, ensuring every machine was ready for battle at a moment's notice.</description>
@@ -404,6 +440,8 @@
         <defName>FCP_Backstory_BoS_Lyons_Pride_Knight_Scout_Leader</defName>
         <identifier>FCP_Backstory_BoS_Lyons_Pride_Knight_Scout_Leader</identifier>
         <slot>Adulthood</slot>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>Scout Leader</title>
         <titleShort>Scout Leader</titleShort>
         <description>[PAWN_nameDef] led reconnaissance teams through the ruins of DC, mapping safe routes and identifying threats before they could strike for the Pride.</description>
@@ -426,6 +464,8 @@
         <defName>FCP_Backstory_BoS_Lyons_Pride_Scribe_Diplomat</defName>
         <identifier>FCP_Backstory_BoS_Lyons_Pride_Scribe_Diplomat</identifier>
         <slot>Adulthood</slot>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>Pride Diplomat</title>
         <titleShort>Diplomat</titleShort>
         <description>[PAWN_nameDef] negotiated with wasteland settlements and rival factions on behalf of Lyons' Pride, forging alliances and securing resources for the cause.</description>
