@@ -769,7 +769,7 @@
 
     <!-- Classic Combat Armor Reinforced -->
 
-    <ThingDef ParentName="FCP_Apparel_Makeable_Base" MayRequire="Rick.FCP.Wastelanders">
+    <ThingDef ParentName="ApparelBase" MayRequire="Rick.FCP.Wastelanders">
         <defName>FCP_Apparel_BoS_Classic_Combat_Armor_Reinforced</defName>
         <label>BoS Reinforced Combat Armor</label>
         <description>Enhanced combat armor upgraded with Brotherhood of Steel technology. This armor retains the design of the original while incorporating improved protection and environmental sealing systems.</description>
@@ -992,7 +992,7 @@
                 <li>Arms</li>
                 <li>Legs</li>
             </bodyPartGroups>
-            <wornGraphicPath>Things/Apparel/BoS_Armor/Outcast_Recon_Armor/FCP_Outast_Recon_Armor</wornGraphicPath>
+            <wornGraphicPath>Things/Apparel/BoS_Armor/Outcast_Recon_Armor/FCP_Outcast_Recon_Armor</wornGraphicPath>
             <layers>
                 <li>OnSkin</li>
                 <li>Middle</li>

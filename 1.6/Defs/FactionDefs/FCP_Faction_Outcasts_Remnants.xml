@@ -34,7 +34,7 @@
 		<factionIconPath>World_Icon/BoS_Icon/FCP_Outcast_World_Icon</factionIconPath>
 		<techLevel>Industrial</techLevel>
 		<fixedName>Brotherhood Outcasts</fixedName>
-		<settlementNameMaker>FCP_Namer_Settlement_Outcasts</settlementNameMaker>
+		<settlementNameMaker>NamerSettlementPirate</settlementNameMaker>
 		<allowedCultures>
 			<li>FCP_Culture_BoS_Outcasts</li>
 		</allowedCultures>
@@ -73,9 +73,6 @@
 			<li MayRequire="Ludeon.RimWorld.Ideology">DrugUse_MedicalOnly</li>
 			<li MayRequire="Ludeon.RimWorld.Ideology">DrugUse_Prohibited</li>
 		</disallowedPrecepts>
-		<requiredMemes>
-			<li MayRequire="Ludeon.RimWorld.Ideology">Structure_Ideological</li>
-		</requiredMemes>
 		<disallowedMemes>
 			<li MayRequire="Ludeon.RimWorld.Ideology">Nudism</li>
 			<li MayRequire="Ludeon.RimWorld.Ideology">Blindsight</li>
@@ -157,7 +154,9 @@
 		<settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
 		<modExtensions>
 			<li Class="FCP.Enlist.FactionEnlistOptions">
-				<enlistmentDef>FCP_Enlistment_Outcasts</enlistmentDef>
+				<enlistOptionsDefs>
+					<li>FCP_Enlistment_Outcasts</li>
+				</enlistOptionsDefs>
 			</li>
 			<li Class="FCP.Currencies.CurrencyReplacement">
 				<currency>FCP_Currency_BoS_Scrip</currency>

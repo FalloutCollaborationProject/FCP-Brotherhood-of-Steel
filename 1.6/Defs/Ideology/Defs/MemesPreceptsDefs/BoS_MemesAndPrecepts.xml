@@ -28,7 +28,7 @@
             <li><li>Nudity_Female_UncoveredGroinOrChestDisapproved</li></li>
             <li><li>OrganUse_HorribleSellOK</li></li>
             <li><li>Execution_DontCare</li></li>
-            <li><li>Research_Essential</li></li>
+            <!-- <li><li>Research_Essential</li></li> Research_Essential doesn't exist in RimWorld 1.6 -->
             <li><li>Skullspike_Disapproved</li></li>
             <li><li>Slavery_Horrible</li></li>
             <li><li>Blinding_Horrible</li></li>
@@ -87,10 +87,10 @@
             <li><li>IdeoDiversity_Approved</li></li>
             <li><li>Nudity_Male_UncoveredGroinDisapproved</li></li>
             <li><li>Nudity_Female_UncoveredGroinOrChestDisapproved</li></li>
-            <li><li>OrganUse_Horrible</li></li>
+            <li><li>OrganUse_HorribleSellOK</li></li>
             <li><li>Execution_HorribleIfInnocent</li></li>
-            <li><li>Research_Essential</li></li>
-            <li><li>Skullspike_Horrible</li></li>
+            <!-- <li><li>Research_Essential</li></li> Research_Essential doesn't exist in RimWorld 1.6 -->
+            <!-- <li><li>Skullspike_Horrible</li></li> Skullspike_Horrible doesn't exist in RimWorld 1.6 -->
             <li><li>Slavery_Horrible</li></li>
             <li><li>Blinding_Horrible</li></li>
             <li><li>Scarification_Horrible</li></li>
@@ -142,14 +142,12 @@
             <li><li>MarriageName_UsuallyMans</li></li>
             <li><li>SpouseCount_Male_MaxOne</li></li>
             <li><li>SpouseCount_Female_MaxOne</li></li>
-            <li><li>Charity_Disapproved</li></li>
             <li><li>DrugUse_MedicalOnly</li></li>
             <li><li>IdeoDiversity_Horrible</li></li>
             <li><li>Nudity_Male_UncoveredGroinDisapproved</li></li>
             <li><li>Nudity_Female_UncoveredGroinOrChestDisapproved</li></li>
-            <li><li>OrganUse_DontCare</li></li>
+            <li><li>OrganUse_Abhorrent</li></li>
             <li><li>Execution_DontCare</li></li>
-            <li><li>Research_Essential</li></li>
             <li><li>Skullspike_Disapproved</li></li>
             <li><li>Slavery_Horrible</li></li>
             <li><li>Blinding_Horrible</li></li>
@@ -189,7 +187,7 @@
 
     <PreceptDef>
         <defName>FCP_Precept_BoS_Technology_Control</defName>
-        <issue>NoIssue</issue>
+        <issue>Charity</issue>
         <label>technology must be controlled</label>
         <description>Advanced technology is too dangerous to be left in the hands of the unprepared. The Brotherhood has a sacred duty to preserve, control, and safeguard all pre-war technology to prevent another apocalypse.</description>
         <impact>High</impact>
@@ -200,36 +198,36 @@
         <statOffsets>
             <ResearchSpeedFactor>0.15</ResearchSpeedFactor>
         </statOffsets>
-        <comps>
+        <!-- <comps>
             <li Class="PreceptComp_SelfTookMemoryThought">
                 <eventDef>ResearchProjectFinished</eventDef>
                 <thought>FCP_Thought_BoS_Research_Complete</thought>
             </li>
-        </comps>
+        </comps> ResearchProjectFinished history event doesn't exist in RimWorld 1.6 -->
     </PreceptDef>
 
     <!-- Main BoS Hierarchy -->
 
     <PreceptDef>
         <defName>FCP_Precept_BoS_Hierarchy_Absolute</defName>
-        <issue>NoIssue</issue>
+        <issue>Charity</issue>
         <label>chain of command is absolute</label>
         <description>The Brotherhood's strength comes from discipline and hierarchy. Every member knows their place and their duty. Orders flow from Elder to Paladin to Knight to Initiate without question.</description>
         <impact>Medium</impact>
         <displayOrderInImpact>101</displayOrderInImpact>
-        <comps>
+        <!-- <comps>
             <li Class="PreceptComp_KnowsMemoryThought">
                 <eventDef>MemberGainedRoyalTitle</eventDef>
                 <thought>FCP_Thought_BoS_Rank_Earned</thought>
             </li>
-        </comps>
+        </comps> MemberGainedRoyalTitle history event doesn't exist in RimWorld 1.6 -->
     </PreceptDef>
 
     <!-- Lyons Protection Priority -->
 
     <PreceptDef>
         <defName>FCP_Precept_Lyons_Protection_Priority</defName>
-        <issue>NoIssue</issue>
+        <issue>Charity</issue>
         <label>protect those who cannot protect themselves</label>
         <description>Technology is a tool, not an end unto itself. The Brotherhood exists to serve humanity, not just preserve artifacts. Those with power have a duty to shield the weak.</description>
         <impact>High</impact>
@@ -241,19 +239,19 @@
             <MedicalTendSpeed>0.10</MedicalTendSpeed>
             <MedicalTendQuality>0.10</MedicalTendQuality>
         </statOffsets>
-        <comps>
+        <!-- <comps>
             <li Class="PreceptComp_SelfTookMemoryThought">
                 <eventDef>TendedPatient</eventDef>
                 <thought>FCP_Thought_Lyons_Helped_Someone</thought>
             </li>
-        </comps>
+        </comps> TendedPatient history event doesn't exist in RimWorld 1.6 -->
     </PreceptDef>
 
     <!-- Outcast Technology Obsession -->
 
     <PreceptDef>
         <defName>FCP_Precept_Outcast_Technology_Obsession</defName>
-        <issue>NoIssue</issue>
+        <issue>Charity</issue>
         <label>technology above all</label>
         <description>Nothing is more important than recovering and preserving pre-war technology. Not wastelander lives, not politics, not sentiment. The mission is everything.</description>
         <impact>High</impact>
@@ -264,19 +262,19 @@
         <statOffsets>
             <ResearchSpeedFactor>0.25</ResearchSpeedFactor>
         </statOffsets>
-        <comps>
+        <!-- <comps>
             <li Class="PreceptComp_SelfTookMemoryThought">
                 <eventDef>ResearchProjectFinished</eventDef>
                 <thought>FCP_Thought_Outcast_Tech_Secured</thought>
             </li>
-        </comps>
+        </comps> ResearchProjectFinished history event doesn't exist in RimWorld 1.6 -->
     </PreceptDef>
 
     <!-- Outcast Isolationism -->
 
     <PreceptDef>
         <defName>FCP_Precept_Outcast_Isolationism</defName>
-        <issue>NoIssue</issue>
+        <issue>Charity</issue>
         <label>outsiders are liabilities</label>
         <description>The Brotherhood cannot trust wastelanders with technology or secrets. Outsiders lack discipline, understanding, and loyalty. They're resources at best, threats at worst.</description>
         <impact>Medium</impact>
@@ -392,9 +390,9 @@
                 <modifier>0.15</modifier>
             </li>
         </roleEffects>
-        <grantedAbilities>
+        <!-- <grantedAbilities>
             <li>Calm</li>
-        </grantedAbilities>
+        </grantedAbilities> Calm ability doesn't exist in RimWorld 1.6 -->
         <displayOrderInImpact>1</displayOrderInImpact>
         <roleDisabledWorkTags>
             <li>PlantWork</li>

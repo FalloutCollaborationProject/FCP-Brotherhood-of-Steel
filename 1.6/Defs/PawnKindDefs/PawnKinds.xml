@@ -175,7 +175,7 @@
 		<label>Brotherhood Knight</label>
 		<combatPower>60</combatPower>
 		<gearHealthRange>0.5~1.8</gearHealthRange>
-		<weaponMoney>150~600</weaponMoney>
+		<weaponMoney>400~1200</weaponMoney>
 		<weaponTags>
 			<li>Gun</li>
 			<li MayRequire="Rick.FCP.EnergyWeapons">FCP_Laser_Weapon</li>
@@ -203,7 +203,7 @@
 		<label>Brotherhood Knight-Sergeant</label>
 		<combatPower>65</combatPower>
 		<gearHealthRange>0.6~2</gearHealthRange>
-		<weaponMoney>200~650</weaponMoney>
+		<weaponMoney>400~1200</weaponMoney>
 		<weaponTags>
 			<li>Gun</li>
 			<li MayRequire="Rick.FCP.EnergyWeapons">FCP_Laser_Weapon</li>
@@ -231,7 +231,7 @@
 		<label>Brotherhood Knight-Captain</label>
 		<combatPower>70</combatPower>
 		<gearHealthRange>0.7~2</gearHealthRange>
-		<weaponMoney>250~700</weaponMoney>
+		<weaponMoney>400~1200</weaponMoney>
 		<weaponTags>
 			<li>Gun</li>
 			<li MayRequire="Rick.FCP.EnergyWeapons">FCP_Laser_Weapon</li>
@@ -259,7 +259,7 @@
 		<label>Brotherhood Paladin</label>
 		<combatPower>70</combatPower>
 		<gearHealthRange>0.7~2</gearHealthRange>
-		<weaponMoney>300~700</weaponMoney>
+		<weaponMoney>400~1200</weaponMoney>
 		<weaponTags>
 			<li>Gun</li>
 			<li MayRequire="Rick.FCP.EnergyWeapons">FCP_Laser_Weapon</li>
@@ -288,7 +288,7 @@
 		<label>Brotherhood Star Paladin</label>
 		<combatPower>75</combatPower>
 		<gearHealthRange>0.7~2.2</gearHealthRange>
-		<weaponMoney>300~750</weaponMoney>
+		<weaponMoney>400~1200</weaponMoney>
 		<weaponTags>
 			<li>Gun</li>
 			<li MayRequire="Rick.FCP.EnergyWeapons">FCP_Laser_Weapon</li>
@@ -318,7 +318,7 @@
 		<defaultFactionDef>FCP_Faction_BoS_Lyons_Pride_Remnants</defaultFactionDef>
 		<combatPower>80</combatPower>
 		<gearHealthRange>0.7~2.2</gearHealthRange>
-		<weaponMoney>350~800</weaponMoney>
+		<weaponMoney>400~1200</weaponMoney>
 		<weaponTags>
 			<li>Gun</li>
 			<li MayRequire="Rick.FCP.EnergyWeapons">FCP_Laser_Weapon</li>

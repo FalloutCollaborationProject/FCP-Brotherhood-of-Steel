@@ -15,7 +15,6 @@
         <leavingSkyfaller>FCP_BoS_VertibirdLeaving</leavingSkyfaller>
         <worldObject>FCP_BoS_TravelingVertibird</worldObject>
         <maxLaunchDistance>70</maxLaunchDistance>
-        <canLaunchToSpace>false</canLaunchToSpace>
     </TransportShipDef>
 
     <!-- Outcast Standard Vertibird -->
@@ -28,7 +27,6 @@
         <leavingSkyfaller>FCP_BoS_VertibirdLeaving</leavingSkyfaller>
         <worldObject>FCP_BoS_TravelingVertibird</worldObject>
         <maxLaunchDistance>70</maxLaunchDistance>
-        <canLaunchToSpace>false</canLaunchToSpace>
     </TransportShipDef>
 
     <!-- Lyons Pride Standard Vertibird -->
@@ -41,7 +39,6 @@
         <leavingSkyfaller>FCP_BoS_VertibirdLeaving</leavingSkyfaller>
         <worldObject>FCP_BoS_TravelingVertibird</worldObject>
         <maxLaunchDistance>70</maxLaunchDistance>
-        <canLaunchToSpace>false</canLaunchToSpace>
     </TransportShipDef>
 
     <!--_____ Building ThingDefs _____-->

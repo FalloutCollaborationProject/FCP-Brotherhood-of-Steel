@@ -461,6 +461,8 @@
         <spawnCategories>
             <li>FCP_Backstory_Lyons_Child</li>
         </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
         <possessions />
     </BackstoryDef>
 
@@ -482,6 +484,8 @@
         <spawnCategories>
             <li>FCP_Backstory_Lyons_Child</li>
         </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
         <possessions />
     </BackstoryDef>
 
@@ -503,6 +507,8 @@
         <spawnCategories>
             <li>FCP_Backstory_Lyons_Child</li>
         </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
         <possessions />
     </BackstoryDef>
 
@@ -524,6 +530,8 @@
         <spawnCategories>
             <li>FCP_Backstory_Lyons_Child</li>
         </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
         <possessions />
     </BackstoryDef>
 
@@ -545,6 +553,8 @@
         <spawnCategories>
             <li>FCP_Backstory_Lyons_Child</li>
         </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
         <possessions />
     </BackstoryDef>
 
@@ -566,6 +576,8 @@
         <spawnCategories>
             <li>FCP_Backstory_Lyons_Child</li>
         </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
         <possessions />
     </BackstoryDef>
 
@@ -587,6 +599,8 @@
         <spawnCategories>
             <li>FCP_Backstory_Lyons_Child</li>
         </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
         <possessions />
     </BackstoryDef>
 
@@ -608,6 +622,8 @@
         <spawnCategories>
             <li>FCP_Backstory_Lyons_Child</li>
         </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
         <possessions />
     </BackstoryDef>
 
@@ -630,6 +646,8 @@
         <spawnCategories>
             <li>FCP_Backstory_Lyons_Child</li>
         </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
         <possessions />
     </BackstoryDef>
 
@@ -651,6 +669,8 @@
         <spawnCategories>
             <li>FCP_Backstory_Lyons_Child</li>
         </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
         <possessions />
     </BackstoryDef>
 
@@ -674,6 +694,8 @@
         <spawnCategories>
             <li>FCP_Backstory_Lyons_Child</li>
         </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
         <possessions />
     </BackstoryDef>
 
@@ -696,6 +718,8 @@
         <spawnCategories>
             <li>FCP_Backstory_Lyons_Child</li>
         </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
         <possessions />
     </BackstoryDef>
 
@@ -718,6 +742,8 @@
         <spawnCategories>
             <li>FCP_Backstory_Lyons_Child</li>
         </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
         <possessions />
     </BackstoryDef>
 
@@ -740,6 +766,8 @@
         <spawnCategories>
             <li>FCP_Backstory_Lyons_Child</li>
         </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
         <possessions />
     </BackstoryDef>
 
@@ -761,6 +789,8 @@
         <spawnCategories>
             <li>FCP_Backstory_Lyons_Child</li>
         </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
         <possessions />
     </BackstoryDef>
 

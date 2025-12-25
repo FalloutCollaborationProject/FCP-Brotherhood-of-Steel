@@ -9,10 +9,10 @@
 
     <ThingDef ParentName="ResourceBase">
         <defName>FCP_Item_BoS_Standard_Weapon_Crate</defName>
-        <label>Dirty Vault-Tec Collectors Edition Lunchbox</label>
-        <description>A Vault-Tec collectors edition lunchbox. It's a little dirty, but still opens and may have something useful inside!</description>
+        <label>Brotherhood of Steel Weapon Crate</label>
+        <description>A sealed Brotherhood of Steel weapon crate containing high-quality firearms and energy weapons used by their forces. The distinctive red and metallic finish bears the Brotherhood's emblematic cogwheel.</description>
         <graphicData>
-            <texPath>Things/Items/LootBox/Vault_Tec_Lunch_Box/FCP_Vault_Tec_Lunch_Box_Dirty</texPath>
+            <texPath>Things/Items/BoS_Crates/BoS_Food_and_Uniform_Crate/FCP_BoS_Food_Uniform_Crate</texPath>
             <graphicClass>Graphic_Single</graphicClass>
             <drawSize>.75</drawSize>
         </graphicData>
@@ -56,6 +56,14 @@
                         <thingDef>FCP_Gun_R91_Rifle</thingDef>
                         <countRange>1</countRange>
                     </li>
+                    <li MayRequire="Rick.FCP.EnergyWeapons">
+                        <thingDef>FCP_Gun_Laser_Pistol</thingDef>
+                        <countRange>1</countRange>
+                    </li>
+                    <li MayRequire="Rick.FCP.EnergyWeapons">
+                        <thingDef>FCP_Gun_Laser_Rifle</thingDef>
+                        <countRange>1</countRange>
+                    </li>
                 </weightedDrops>
             </li>
             <li Class="CompProperties_UseEffectDestroySelf"/>
@@ -69,10 +77,10 @@
 
     <ThingDef ParentName="ResourceBase">
         <defName>FCP_Item_BoS_Standard_Tech_Resource_Crate</defName>
-        <label>Standard Tech Resource Crate</label>
-        <description>A sealed military crate containing essential technological components and spare parts used by the Brotherhood of Steel. These resources are crucial for maintaining and upgrading their advanced equipment.</description>
+        <label>Brotherhood Tech Resource Crate</label>
+        <description>A sealed Brotherhood of Steel supply crate containing essential technological components, spare parts, and advanced materials. These resources are crucial for maintaining and upgrading their sophisticated equipment and installations.</description>
         <graphicData>
-            <texPath>Things/Items/LootBox/Vault_Tec_Lunch_Box/FCP_Vault_Tec_Lunch_Box_Dirty</texPath>
+            <texPath>Things/Items/BoS_Crates/BoS_Food_and_Uniform_Crate/FCP_BoS_Food_Uniform_Crate</texPath>
             <graphicClass>Graphic_Single</graphicClass>
             <drawSize>.75</drawSize>
         </graphicData>
@@ -117,14 +125,14 @@
         </comps>
     </ThingDef>
 
-    <!-- Standard Tech Resource Crate -->
+    <!-- Standard Brotherhood Uniform Crate -->
 
     <ThingDef ParentName="ResourceBase">
         <defName>FCP_Item_BoS_Standard_Uniform_Crate</defName>
-        <label>Standard Uniform Crate</label>
-        <description>A supply crate containing Brotherhood of Steel uniforms, insignia, and protective gear. Each piece bears the distinctive emblems and colors of the faction's various ranks and divisions.</description>
+        <label>Brotherhood Standard Uniform Crate</label>
+        <description>A Brotherhood of Steel supply crate containing standard-issue uniforms, fatigues, and protective gear worn by regular Brotherhood personnel. Each piece bears the distinctive colors and insignia of the faction.</description>
         <graphicData>
-            <texPath>Things/Items/LootBox/Vault_Tec_Lunch_Box/FCP_Vault_Tec_Lunch_Box_Dirty</texPath>
+            <texPath>Things/Items/BoS_Crates/BoS_Food_and_Uniform_Crate/FCP_BoS_Food_Uniform_Crate</texPath>
             <graphicClass>Graphic_Single</graphicClass>
             <drawSize>.75</drawSize>
         </graphicData>
@@ -168,6 +176,14 @@
                         <thingDef>FCP_Apparel_BoS_Battle_Coat</thingDef>
                         <countRange>1</countRange>
                     </li>
+                    <li>
+                        <thingDef>FCP_Apparel_BoS_Jumpsuit</thingDef>
+                        <countRange>1</countRange>
+                    </li>
+                    <li>
+                        <thingDef>FCP_Apparel_BoS_Apalacia_Beret</thingDef>
+                        <countRange>1</countRange>
+                    </li>
                 </weightedDrops>
             </li>
             <li Class="CompProperties_UseEffectDestroySelf"/>
@@ -177,14 +193,14 @@
         </comps>
     </ThingDef>
 
-    <!-- Standard Tech Resource Crate -->
+    <!-- Brotherhood Food Supply Crate -->
 
     <ThingDef ParentName="ResourceBase">
         <defName>FCP_Item_BoS_Food_Crate</defName>
-        <label>Food Crate</label>
-        <description>A Brotherhood of Steel ration crate containing preserved military meals, purified water, and nutritional supplements. Designed to sustain soldiers during extended operations in the wasteland.</description>
+        <label>Brotherhood Food Supply Crate</label>
+        <description>A Brotherhood of Steel ration crate containing preserved military meals, purified water, and nutritional supplements. Designed to sustain soldiers during extended operations in the harsh wasteland environment.</description>
         <graphicData>
-            <texPath>Things/Items/LootBox/Vault_Tec_Lunch_Box/FCP_Vault_Tec_Lunch_Box_Dirty</texPath>
+            <texPath>Things/Items/BoS_Crates/BoS_Food_and_Uniform_Crate/FCP_BoS_Food_Uniform_Crate</texPath>
             <graphicClass>Graphic_Single</graphicClass>
             <drawSize>.75</drawSize>
         </graphicData>
@@ -223,6 +239,142 @@
                     <li>
                         <thingDef>MealNutrientPaste</thingDef>
                         <countRange>1~3</countRange>
+                    </li>
+                </weightedDrops>
+            </li>
+            <li Class="CompProperties_UseEffectDestroySelf"/>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Rare</rarity>
+            </li>
+        </comps>
+    </ThingDef>
+
+    <!-- Lyons Pride Uniform Crate -->
+
+    <ThingDef ParentName="ResourceBase">
+        <defName>FCP_Item_BoS_Lyons_Pride_Uniform_Crate</defName>
+        <label>Lyons Pride Uniform Crate</label>
+        <description>A specialized Brotherhood of Steel uniform crate containing the distinctive gear worn by Elder Lyons' reformed Brotherhood. These uniforms represent the faction's humanitarian mission and their commitment to protecting the innocent.</description>
+        <graphicData>
+            <texPath>Things/Items/BoS_Crates/BoS_Food_and_Uniform_Crate/FCP_BoS_Food_Uniform_Crate</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>.75</drawSize>
+        </graphicData>
+        <size>(1,1)</size>
+        <resourceReadoutPriority>Middle</resourceReadoutPriority>
+        <soundInteract>Metal_Drop</soundInteract>
+        <soundDrop>Metal_Drop</soundDrop>
+        <stackLimit>5</stackLimit>
+        <useHitPoints>true</useHitPoints>
+        <statBases>
+            <MarketValue>400</MarketValue>
+            <MaxHitPoints>100</MaxHitPoints>
+            <Mass>2</Mass>
+            <Flammability>0.2</Flammability>
+        </statBases>
+        <thingCategories>
+            <li>ItemsMisc</li>
+        </thingCategories>
+        <drawGUIOverlay>true</drawGUIOverlay>
+        <tradeability>Sellable</tradeability>
+        <techLevel>Industrial</techLevel>
+        <comps>
+            <li Class="CompProperties_Usable">
+                <useJob>UseItem</useJob>
+                <useLabel>Open {0}</useLabel>
+            </li>
+            <li Class="FCP.Core.CompProperties_UseEffectItemBox">
+                <numWeightedDrops>2</numWeightedDrops>
+                <guaranteedDrops>
+                </guaranteedDrops>
+                <weightedDrops>
+                    <li>
+                        <thingDef>FCP_Apparel_BoS_Apalacia_Fatigues</thingDef>
+                        <countRange>1</countRange>
+                    </li>
+                    <li>
+                        <thingDef>FCP_Apparel_BoS_Apalacia_Infantry_Uniform</thingDef>
+                        <countRange>1</countRange>
+                    </li>
+                    <li>
+                        <thingDef>FCP_Apparel_BoS_Elder_Robes</thingDef>
+                        <countRange>1</countRange>
+                    </li>
+                    <li>
+                        <thingDef>FCP_Apparel_BoS_Apalacia_Beret</thingDef>
+                        <countRange>1</countRange>
+                    </li>
+                    <li>
+                        <thingDef>FCP_Apparel_BoS_Apalacia_Infantry_Hood</thingDef>
+                        <countRange>1</countRange>
+                    </li>
+                </weightedDrops>
+            </li>
+            <li Class="CompProperties_UseEffectDestroySelf"/>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Rare</rarity>
+            </li>
+        </comps>
+    </ThingDef>
+
+    <!-- Outcast Uniform Crate -->
+
+    <ThingDef ParentName="ResourceBase">
+        <defName>FCP_Item_BoS_Outcast_Uniform_Crate</defName>
+        <label>Outcast Uniform Crate</label>
+        <description>A Brotherhood Outcast supply crate containing the distinctive red and black uniforms worn by the purist faction. These uniforms symbolize their unwavering dedication to the original Codex and their mission to reclaim pre-war technology at any cost.</description>
+        <graphicData>
+            <texPath>Things/Items/BoS_Crates/BoS_Food_and_Uniform_Crate/FCP_BoS_Food_Uniform_Crate</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>.75</drawSize>
+        </graphicData>
+        <size>(1,1)</size>
+        <resourceReadoutPriority>Middle</resourceReadoutPriority>
+        <soundInteract>Metal_Drop</soundInteract>
+        <soundDrop>Metal_Drop</soundDrop>
+        <stackLimit>5</stackLimit>
+        <useHitPoints>true</useHitPoints>
+        <statBases>
+            <MarketValue>350</MarketValue>
+            <MaxHitPoints>100</MaxHitPoints>
+            <Mass>2</Mass>
+            <Flammability>0.2</Flammability>
+        </statBases>
+        <thingCategories>
+            <li>ItemsMisc</li>
+        </thingCategories>
+        <drawGUIOverlay>true</drawGUIOverlay>
+        <tradeability>Sellable</tradeability>
+        <techLevel>Industrial</techLevel>
+        <comps>
+            <li Class="CompProperties_Usable">
+                <useJob>UseItem</useJob>
+                <useLabel>Open {0}</useLabel>
+            </li>
+            <li Class="FCP.Core.CompProperties_UseEffectItemBox">
+                <numWeightedDrops>2</numWeightedDrops>
+                <guaranteedDrops>
+                </guaranteedDrops>
+                <weightedDrops>
+                    <li>
+                        <thingDef>FCP_Apparel_BoS_Battle_Coat</thingDef>
+                        <countRange>1</countRange>
+                    </li>
+                    <li>
+                        <thingDef>FCP_Apparel_BoS_Jumpsuit</thingDef>
+                        <countRange>1</countRange>
+                    </li>
+                    <li>
+                        <thingDef>FCP_Apparel_BoS_Outcast_Recon_Hood</thingDef>
+                        <countRange>1</countRange>
+                    </li>
+                    <li>
+                        <thingDef>FCP_Apparel_BoS_Recon_Hood</thingDef>
+                        <countRange>1</countRange>
+                    </li>
+                    <li>
+                        <thingDef>FCP_Apparel_BoS_Field_Scribe_Hat</thingDef>
+                        <countRange>1</countRange>
                     </li>
                 </weightedDrops>
             </li>
