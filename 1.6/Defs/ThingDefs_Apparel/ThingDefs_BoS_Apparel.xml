@@ -992,7 +992,7 @@
                 <li>Arms</li>
                 <li>Legs</li>
             </bodyPartGroups>
-            <wornGraphicPath>Things/Apparel/BoS_Armor/Outcast_Recon_Armor/FCP_Outcast_Recon_Armor</wornGraphicPath>
+            <wornGraphicPath>Things/Apparel/BoS_Armor/Outcast_Recon_Armor/FCP_Outast_Recon_Armor</wornGraphicPath>
             <layers>
                 <li>OnSkin</li>
                 <li>Middle</li>
