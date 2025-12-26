@@ -10,6 +10,7 @@
         <label>Brotherhood of Steel</label>
         <description>The Brotherhood of Steel is one of the oldest still existing factions in the wasteland. It was founded just before and during the great war itself. True to its army origin, the Brotherhood is a militarised society, based on discipline, prowess, and reliability. However, there are a great number of Brotherhood chapters with often strongly deviating philosophies. Some might see themselves as the sole protectors of humanity and act noble and chivalrous, while others might see outsiders as clueless degenerates unfit for the technological marvels they might possess. Among the few things shared by all chapters of the Brotherhood is their obsession with technology (and the safeguarding of it) and their imposing suits of power armour which make them, despite their small numbers, one of the most powerful groups in the wasteland.</description>
         <isPlayer>true</isPlayer>
+        <classicIdeo>true</classicIdeo>
         <techLevel>Industrial</techLevel>
         <pawnSingular>Brother</pawnSingular>
         <pawnsPlural>Brothers</pawnsPlural>
@@ -38,7 +39,9 @@
         <label>Lyons' Pride Remnants</label>
         <description>The Lyons' Pride remnants are a faction of disciplined and technologically advanced warriors, striving to preserve the ideals of their late leader, Elder Lyons. Once a proud and unified chapter, they now operate as a fragmented yet determined group, clinging to their mission of protecting humanity and safeguarding advanced technology. Though their numbers have dwindled, their resolve remains unshaken, and they continue to uphold their code of honor amidst the chaos of the wasteland. Their advanced weaponry, power armor, and tactical expertise make them a formidable force, whether as allies or adversaries.</description>
         <isPlayer>true</isPlayer>
+        <classicIdeo>true</classicIdeo>
         <techLevel>Industrial</techLevel>
+        <basicMemberKind>FCP_Pawnkind_Lyons_Pride_Knight</basicMemberKind>
         <pawnSingular>Brother</pawnSingular>
         <pawnsPlural>Brothers</pawnsPlural>
         <leaderTitle>Elder</leaderTitle>
@@ -66,7 +69,9 @@
         <label>Brotherhood Outcasts</label>
         <description>The Outcast Remnants are a hardened splinter group of the Brotherhood of Steel, formed by those who rejected the Brotherhood's changing ideals and chose to uphold the original mission: the recovery and preservation of advanced technology at any cost. Isolated from their former brothers, the Outcasts are fiercely independent, pragmatic, and often distrustful of outsiders. Their camps are fortified, their patrols relentless, and their loyalty to their cause unwavering. Though their numbers are few, their discipline, technical expertise, and mastery of power armor make them a formidable force in the wasteland.</description>
         <isPlayer>true</isPlayer>
+        <classicIdeo>true</classicIdeo>
         <techLevel>Industrial</techLevel>
+        <basicMemberKind>FCP_Pawnkind_BoS_Outcast_Defeneder</basicMemberKind>
         <pawnSingular>Outcast</pawnSingular>
         <pawnsPlural>Outcasts</pawnsPlural>
         <leaderTitle>Protector</leaderTitle>
