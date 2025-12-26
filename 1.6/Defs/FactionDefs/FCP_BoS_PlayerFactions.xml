@@ -55,8 +55,8 @@
         <backstoryFilters>
             <li>
                 <categories>
-                    <li>FCP_Backstory_BoS</li>
-                    <li>FCP_Backstory_BoS_Child</li>
+                    <li>FCP_Backstory_Lyons_BoS</li>
+                    <li>FCP_Backstory_Lyons_Child</li>
                 </categories>
             </li>
         </backstoryFilters>
@@ -85,8 +85,40 @@
         <backstoryFilters>
             <li>
                 <categories>
-                    <li>FCP_Backstory_BoS</li>
-                    <li>FCP_Backstory_BoS_Child</li>
+                    <li>FCP_Backstory_Outcast_Defender</li>
+                    <li>FCP_Backstory_Outcast_Specialist</li>
+                    <li>FCP_Backstory_Outcast_Recon</li>
+                    <li>FCP_Backstory_Outcasts</li>
+                    <li>FCP_Backstory_Outcasts_Child</li>
+                </categories>
+            </li>
+        </backstoryFilters>
+    </FactionDef>
+
+    <!-- Brotherhood of Steel Mojave Chapter Player Faction -->
+
+    <FactionDef ParentName="PlayerFactionBase">
+        <defName>FCP_Faction_BoS_Mojave_Player</defName>
+        <label>Mojave Chapter</label>
+        <description>The Mojave Chapter of the Brotherhood of Steel is a shadow of its former self, forced out of the Hidden Valley bunker and now struggling to survive in the harsh Mojave wasteland. Once a proud and disciplined force, they have been reduced to a scattered group, clinging to their mission of safeguarding humanity's technological heritage. Despite their diminished state, their mastery of power armor and energy weapons ensures they remain a formidable presence in the region.</description>
+        <isPlayer>true</isPlayer>
+        <classicIdeo>true</classicIdeo>
+        <techLevel>Industrial</techLevel>
+        <pawnSingular>Brother</pawnSingular>
+        <pawnsPlural>Brothers</pawnsPlural>
+        <leaderTitle>Elder</leaderTitle>
+        <factionIconPath>World_Icon/BoS_Icon/FCP_BoS_Mojave_World_Icon</factionIconPath>
+        <colorSpectrum>
+            <li>(0.4, 0.4, 0.4)</li>
+        </colorSpectrum>
+        <allowedCultures>
+            <li>FCP_Culture_BoS</li>
+        </allowedCultures>
+        <backstoryFilters>
+            <li>
+                <categories>
+                    <li>FCP_Backstory_BoS_Mojave</li>
+                    <li>FCP_Backstory_BoS_Mojave_Child</li>
                 </categories>
             </li>
         </backstoryFilters>

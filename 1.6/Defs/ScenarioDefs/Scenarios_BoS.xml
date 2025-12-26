@@ -63,17 +63,12 @@
                 <li Class="ScenPart_StartingThing_Defined">
                     <def>StartingThing_Defined</def>
                     <thingDef MayRequire="Rick.FCP.EnergyWeapons">FCP_Gun_Laser_Rifle</thingDef>
-                    <count>2</count>
-                </li>
-                <li Class="ScenPart_StartingThing_Defined">
-                    <def>StartingThing_Defined</def>
-                    <thingDef>Gun_AssaultRifle</thingDef>
-                    <count>1</count>
+                    <count>3</count>
                 </li>
                 <li Class="ScenPart_StartingThing_Defined">
                     <def>StartingThing_Defined</def>
                     <thingDef MayRequire="Rick.FCP.EnergyWeapons">FCP_Gun_Laser_Pistol</thingDef>
-                    <count>1</count>
+                    <count>2</count>
                 </li>
                 <!-- Starting resources -->
                 <li Class="ScenPart_StartingThing_Defined">
@@ -100,11 +95,6 @@
                     <def>StartingThing_Defined</def>
                     <thingDef>Plasteel</thingDef>
                     <count>50</count>
-                </li>
-                <li Class="ScenPart_StartingThing_Defined">
-                    <def>StartingThing_Defined</def>
-                    <thingDef>Silver</thingDef>
-                    <count>800</count>
                 </li>
                 <!-- Game start dialog -->
                 <li Class="ScenPart_GameStartDialog">
@@ -154,26 +144,16 @@
                     <thingDef>FCP_Apparel_BoS_Recon_Armor</thingDef>
                     <count>2</count>
                 </li>
-                <li Class="ScenPart_StartingThing_Defined">
-                    <def>StartingThing_Defined</def>
-                    <thingDef>FCP_Apparel_BoS_Brotherhood_Field_Medic_Fatigues</thingDef>
-                    <count>1</count>
-                </li>
                 <!-- Weapons -->
                 <li Class="ScenPart_StartingThing_Defined">
                     <def>StartingThing_Defined</def>
                     <thingDef MayRequire="Rick.FCP.EnergyWeapons">FCP_Gun_Laser_Rifle</thingDef>
-                    <count>1</count>
-                </li>
-                <li Class="ScenPart_StartingThing_Defined">
-                    <def>StartingThing_Defined</def>
-                    <thingDef>Gun_AssaultRifle</thingDef>
-                    <count>1</count>
+                    <count>3</count>
                 </li>
                 <li Class="ScenPart_StartingThing_Defined">
                     <def>StartingThing_Defined</def>
                     <thingDef MayRequire="Rick.FCP.EnergyWeapons">FCP_Gun_Laser_Pistol</thingDef>
-                    <count>1</count>
+                    <count>2</count>
                 </li>
                 <!-- Starting resources -->
                 <li Class="ScenPart_StartingThing_Defined">
@@ -195,11 +175,6 @@
                     <def>StartingThing_Defined</def>
                     <thingDef>Steel</thingDef>
                     <count>300</count>
-                </li>
-                <li Class="ScenPart_StartingThing_Defined">
-                    <def>StartingThing_Defined</def>
-                    <thingDef>Silver</thingDef>
-                    <count>400</count>
                 </li>
                 <!-- Game start dialog -->
                 <li Class="ScenPart_GameStartDialog">
@@ -260,8 +235,8 @@
                 <!-- Weapons -->
                 <li Class="ScenPart_StartingThing_Defined">
                     <def>StartingThing_Defined</def>
-                    <thingDef MayRequire="Rick.FCP.EnergyWeapons">FCP_Gun_Plasma_Rifle</thingDef>
-                    <count>1</count>
+                    <thingDef MayRequire="Rick.FCP.EnergyWeapons">FCP_Gun_Laser_Rifle</thingDef>
+                    <count>2</count>
                 </li>
                 <li Class="ScenPart_StartingThing_Defined">
                     <def>StartingThing_Defined</def>
@@ -303,16 +278,6 @@
                     <def>StartingThing_Defined</def>
                     <thingDef>Plasteel</thingDef>
                     <count>100</count>
-                </li>
-                <li Class="ScenPart_StartingThing_Defined">
-                    <def>StartingThing_Defined</def>
-                    <thingDef>Silver</thingDef>
-                    <count>600</count>
-                </li>
-                <li Class="ScenPart_StartingThing_Defined">
-                    <def>StartingThing_Defined</def>
-                    <thingDef>AIPersonaCore</thingDef>
-                    <count>1</count>
                 </li>
                 <!-- Game start dialog -->
                 <li Class="ScenPart_GameStartDialog">
@@ -383,13 +348,8 @@
                 </li>
                 <li Class="ScenPart_StartingThing_Defined">
                     <def>StartingThing_Defined</def>
-                    <thingDef>Gun_AssaultRifle</thingDef>
-                    <count>2</count>
-                </li>
-                <li Class="ScenPart_StartingThing_Defined">
-                    <def>StartingThing_Defined</def>
                     <thingDef MayRequire="Rick.FCP.EnergyWeapons">FCP_Gun_Laser_Pistol</thingDef>
-                    <count>1</count>
+                    <count>4</count>
                 </li>
                 <!-- Balanced resources -->
                 <li Class="ScenPart_StartingThing_Defined">
@@ -419,11 +379,6 @@
                 </li>
                 <li Class="ScenPart_StartingThing_Defined">
                     <def>StartingThing_Defined</def>
-                    <thingDef>Silver</thingDef>
-                    <count>700</count>
-                </li>
-                <li Class="ScenPart_StartingThing_Defined">
-                    <def>StartingThing_Defined</def>
                     <thingDef>Chemfuel</thingDef>
                     <count>100</count>
                 </li>
@@ -434,6 +389,97 @@
                     <closeSound>GameStartSting</closeSound>
                 </li>
 
+            </parts>
+        </scenario>
+    </ScenarioDef>
+
+    <!-- Mojave Chapter -->
+
+    <ScenarioDef>
+        <defName>FCP_BoS_Mojave_Chapter</defName>
+        <label>Mojave Brotherhood of Steel</label>
+        <description>You are the survivors of the Hidden Valley bunker, the remnants of a once-proud Brotherhood chapter brought low by Elder Elijah's obsession and the NCR's relentless pressure. After years of isolation and dwindling resources, your bunker has finally been compromised. Scattered and desperate, you've emerged into the wasteland with what little equipment you could salvage. The old Brotherhood doctrine of technological preservation seems like a luxury when survival is uncertain. Can you rebuild the Mojave chapter's strength, or will you fade into the desert like so many others before you?</description>
+        <scenario>
+            <summary>Four Brotherhood survivors emerge from the ruined Hidden Valley bunker with limited supplies and worn equipment. Rebuild from the ashes of Elijah's legacy.</summary>
+            <playerFaction>
+                <def>PlayerFaction</def>
+                <factionDef>FCP_Faction_BoS_Mojave_Player</factionDef>
+            </playerFaction>
+            <surfaceLayer>
+                <def>SurfaceLayerFixed</def>
+                <tag>Surface</tag>
+                <layer>Surface</layer>
+                <settingsDef>Surface</settingsDef>
+                <hide>true</hide>
+            </surfaceLayer>
+            <parts>
+                <!-- Map generation -->
+                <li Class="ScenPart_CreateIncident">
+                    <def>CreateIncident</def>
+                    <incident>RaidEnemy</incident>
+                    <intervalDays>35</intervalDays>
+                </li>
+                <!-- Set surface layer -->
+                <li Class="ScenPart_ConfigPage_ConfigureStartingPawns">
+                    <def>ConfigPage_ConfigureStartingPawns</def>
+                    <pawnCount>4</pawnCount>
+                    <pawnChoiceCount>8</pawnChoiceCount>
+                </li>
+                <!-- Recon Armor -->
+                <li Class="ScenPart_StartingThing_Defined">
+                    <def>StartingThing_Defined</def>
+                    <thingDef>FCP_Apparel_BoS_Recon_Armor</thingDef>
+                    <count>2</count>
+                </li>
+                <!-- Scribe Robes -->
+                <li Class="ScenPart_StartingThing_Defined">
+                    <def>StartingThing_Defined</def>
+                    <thingDef>FCP_Apparel_BoS_Scribe_Robes</thingDef>
+                    <count>2</count>
+                </li>
+                <!-- Weapons -->
+                <li Class="ScenPart_StartingThing_Defined">
+                    <def>StartingThing_Defined</def>
+                    <thingDef MayRequire="Rick.FCP.EnergyWeapons">FCP_Gun_Laser_Rifle</thingDef>
+                    <count>1</count>
+                </li>
+                <li Class="ScenPart_StartingThing_Defined">
+                    <def>StartingThing_Defined</def>
+                    <thingDef MayRequire="Rick.FCP.EnergyWeapons">FCP_Gun_Laser_Pistol</thingDef>
+                    <count>2</count>
+                </li>
+                <!-- Starting resources -->
+                <li Class="ScenPart_StartingThing_Defined">
+                    <def>StartingThing_Defined</def>
+                    <thingDef>MealSurvivalPack</thingDef>
+                    <count>25</count>
+                </li>
+                <li Class="ScenPart_StartingThing_Defined">
+                    <def>StartingThing_Defined</def>
+                    <thingDef>MedicineIndustrial</thingDef>
+                    <count>15</count>
+                </li>
+                <li Class="ScenPart_StartingThing_Defined">
+                    <def>StartingThing_Defined</def>
+                    <thingDef>ComponentIndustrial</thingDef>
+                    <count>25</count>
+                </li>
+                <li Class="ScenPart_StartingThing_Defined">
+                    <def>StartingThing_Defined</def>
+                    <thingDef>Steel</thingDef>
+                    <count>200</count>
+                </li>
+                <li Class="ScenPart_StartingThing_Defined">
+                    <def>StartingThing_Defined</def>
+                    <thingDef>Plasteel</thingDef>
+                    <count>20</count>
+                </li>
+                <!-- Game start dialog -->
+                <li Class="ScenPart_GameStartDialog">
+                    <def>GameStartDialog</def>
+                    <text>The Hidden Valley bunker that once sheltered you is now a tomb of metal and failed dreams. Elder Elijah's obsession with the Sierra Madre, the schism with the NCR, years of isolation - it all led to this moment of desperate exodus. You carry what little you could salvage: worn recon armor, a handful of energy weapons, and the bitter knowledge of what the Brotherhood once was. The Mojave sun beats down mercilessly, but it's nothing compared to the weight of rebuilding from ashes. The old ways failed. Perhaps it's time to forge new ones.</text>
+                    <closeSound>GameStartSting</closeSound>
+                </li>
             </parts>
         </scenario>
     </ScenarioDef>
