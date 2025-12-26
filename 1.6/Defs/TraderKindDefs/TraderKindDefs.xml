@@ -265,4 +265,76 @@
         </stockGenerators>
     </TraderKindDef>
 
+    <!-- BoS Scribe Trader (Mojave) -->
+
+    <TraderKindDef>
+        <defName>FCP_Caravan_BoS_Scribe_Trader</defName>
+        <label>BoS Scribe Trader</label>
+        <category>Visitor</category>
+        <stockGenerators>
+
+            <!--__ Tech Items __-->
+
+            <!-- Fusion Cores -->
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>FCP_Item_Fusion_Core</thingDef>
+                <countRange>1~4</countRange>
+            </li>
+
+            <!--__ Brotherhood Apparel __-->
+
+            <!-- Scribe Robes -->
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>FCP_Apparel_BoS_Scribe_Robes</thingDef>
+                <countRange>1~2</countRange>
+            </li>
+
+            <!-- Field Scribe Uniform -->
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>FCP_Apparel_BoS_Field_Scribe</thingDef>
+                <countRange>1~2</countRange>
+            </li>
+
+            <!-- Recon Armor -->
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>FCP_Apparel_BoS_Recon_Armor</thingDef>
+                <countRange>0~1</countRange>
+            </li>
+
+            <!--__ Brotherhood Headgear __-->
+
+            <!-- Field Scribe Hat -->
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>FCP_Apparel_BoS_Field_Scribe_Hat</thingDef>
+                <countRange>1~2</countRange>
+            </li>
+
+            <!-- Recon Hood -->
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>FCP_Apparel_BoS_Recon_Hood</thingDef>
+                <countRange>0~1</countRange>
+            </li>
+
+            <!--__ Currency __-->
+
+            <!-- BoS Scrips -->
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>FCP_Currency_BoS_Scrip</thingDef>
+                <countRange>800~1500</countRange>
+            </li>
+
+            <!-- Buying -->
+            <li Class="StockGenerator_BuyExpensiveSimple" />
+            <li Class="StockGenerator_BuyTradeTag"><tag>Techprints</tag></li>
+
+        </stockGenerators>
+    </TraderKindDef>
+
 </Defs>
