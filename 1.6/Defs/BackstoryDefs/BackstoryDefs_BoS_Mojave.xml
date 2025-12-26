@@ -468,7 +468,7 @@
         <description>Grew up under the protection and training of the bunker's security forces. Learned basic combat skills and discipline while helping with routine patrols and equipment maintenance.</description>
         <skillGains>
             <Shooting>1</Shooting>
-            <Melee>1</Shooting>
+            <Melee>1</Melee>
             <Social>1</Social>
         </skillGains>
         <spawnCategories>
@@ -604,7 +604,7 @@
     </BackstoryDef>
 
     <!-- Isolation Survivor -->
-    
+
     <BackstoryDef>
         <defName>FCP_Backstory_BoS_Mojave_Child_Isolation_Survivor</defName>
         <identifier>FCP_Backstory_BoS_Mojave_Child_Isolation_Survivor</identifier>
