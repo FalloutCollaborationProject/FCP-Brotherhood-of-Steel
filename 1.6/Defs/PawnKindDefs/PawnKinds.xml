@@ -194,6 +194,35 @@
 		<initialResistanceRange>15~26</initialResistanceRange>
 	</PawnKindDef>
 
+	<!-- Brotherhood Knight (Player) -->
+
+	<PawnKindDef ParentName="FCP_BoS_PowerArmorBase">
+		<defName>FCP_Pawnkind_BoS_Knight_Player</defName>
+		<label>Brotherhood Knight</label>
+		<defaultFactionDef>FCP_Faction_BoS_Player</defaultFactionDef>
+		<combatPower>60</combatPower>
+		<gearHealthRange>0.5~1.8</gearHealthRange>
+		<weaponMoney>400~1200</weaponMoney>
+		<weaponTags>
+			<li>Gun</li>
+			<li MayRequire="Rick.FCP.EnergyWeapons">FCP_Laser_Weapon</li>
+		</weaponTags>
+		<techHediffsMoney>50~50</techHediffsMoney>
+		<techHediffsTags>
+			<li>Poor</li>
+		</techHediffsTags>
+		<techHediffsChance>0.03</techHediffsChance>
+		<initialWillRange>2~5</initialWillRange>
+		<initialResistanceRange>15~24</initialResistanceRange>
+		<backstoryFiltersOverride>
+			<li>
+				<categoriesAdulthood>
+					<li>FCP_Backstory_BoS_Knight</li>
+				</categoriesAdulthood>
+			</li>
+		</backstoryFiltersOverride>
+	</PawnKindDef>
+
 	<!-- Brotherhood Knight -->
 
 	<PawnKindDef ParentName="FCP_BoS_PowerArmorBase">
@@ -388,6 +417,47 @@
 		<techHediffsChance>0.03</techHediffsChance>
 		<initialWillRange>3~5</initialWillRange>
 		<initialResistanceRange>19~30</initialResistanceRange>
+		<backstoryFiltersOverride>
+			<li>
+				<categoriesAdulthood>
+					<li>FCP_Backstory_Lyons_BoS</li>
+				</categoriesAdulthood>
+				<categoriesChildhood>
+					<li>FCP_Backstory_Lyons_Child</li>
+				</categoriesChildhood>
+			</li>
+		</backstoryFiltersOverride>
+	</PawnKindDef>
+
+	<!-- Lyons Pride Knight (Player) -->
+
+	<PawnKindDef ParentName="FCP_BoSkindBase">
+		<defName>FCP_Pawnkind_Lyons_Pride_Knight_Player</defName>
+		<label>Lyons Pride Knight</label>
+		<defaultFactionDef>FCP_Faction_BoS_Lyons_Pride_Remnants_Player</defaultFactionDef>
+		<combatPower>60</combatPower>
+		<gearHealthRange>0.5~1.8</gearHealthRange>
+		<weaponMoney>400~1000</weaponMoney>
+		<weaponTags>
+			<li MayRequire="Rick.FCP.EnergyWeapons">FCP_Laser_Weapon</li>
+		</weaponTags>
+		<apparelRequired>
+			<li>FCP_Apparel_BoS_Recon_Hood</li>
+			<li>FCP_Apparel_BoS_Recon_Armor</li>
+		</apparelRequired>
+		<apparelDisallowTags>
+			<li>FCP_Power_Armor_Helmet</li>
+			<li>FCP_Power_Armor</li>
+			<li>FCP_Power_Armor_Lyons</li>
+			<li>FCP_Power_Armor_Outcast</li>
+		</apparelDisallowTags>
+		<techHediffsMoney>50~50</techHediffsMoney>
+		<techHediffsTags>
+			<li>Poor</li>
+		</techHediffsTags>
+		<techHediffsChance>0.03</techHediffsChance>
+		<initialWillRange>2~5</initialWillRange>
+		<initialResistanceRange>15~24</initialResistanceRange>
 		<backstoryFiltersOverride>
 			<li>
 				<categoriesAdulthood>
@@ -752,6 +822,33 @@
 
 	<!--___ Outcast Pawns ___-->
 
+	<!-- Brotherhood Outcast Defender (Player) -->
+
+	<PawnKindDef ParentName="FCP_BoS_Outcast_PowerArmorBase">
+		<defName>FCP_Pawnkind_BoS_Outcast_Defeneder_Player</defName>
+		<label>Brotherhood Outcast Defender</label>
+		<defaultFactionDef>FCP_Faction_BoS_Outcast_Remnants_Player</defaultFactionDef>
+		<combatPower>50</combatPower>
+		<gearHealthRange>0.5~1.8</gearHealthRange>
+		<weaponMoney>150~600</weaponMoney>
+		<weaponTags>
+			<li>Gun</li>
+			<li MayRequire="Rick.FCP.EnergyWeapons">FCP_Laser_Weapon</li>
+		</weaponTags>
+		<initialWillRange>1~3</initialWillRange>
+		<initialResistanceRange>10~17</initialResistanceRange>
+		<backstoryFiltersOverride>
+			<li>
+				<categoriesAdulthood>
+					<li>FCP_Backstory_Outcast_Defender</li>
+				</categoriesAdulthood>
+				<categoriesChildhood>
+					<li>FCP_Backstory_Outcasts_Child</li>
+				</categoriesChildhood>
+			</li>
+		</backstoryFiltersOverride>
+	</PawnKindDef>
+
 	<!-- Brotherhood Outcast Defender -->
 
 	<PawnKindDef ParentName="FCP_BoS_Outcast_PowerArmorBase">
@@ -843,6 +940,7 @@
 	<PawnKindDef ParentName="FCP_BoSkindBase">
 		<defName>FCP_Pawnkind_BoS_Outcast_Recon</defName>
 		<label>Brotherhood Outcast Recon</label>
+		<defaultFactionDef>FCP_Faction_BoS_Outcast_Remnants</defaultFactionDef>
 		<combatPower>40</combatPower>
 		<gearHealthRange>0.5~1.8</gearHealthRange>
 		<weaponMoney>140~500</weaponMoney>
@@ -927,6 +1025,37 @@
 		<techHediffsChance>0.03</techHediffsChance>
 		<initialWillRange>3~5</initialWillRange>
 		<initialResistanceRange>19~30</initialResistanceRange>
+	</PawnKindDef>
+
+	<!-- Mojave Brotherhood Knight (Player) -->
+
+	<PawnKindDef ParentName="FCP_Mojave_BoSkindBase">
+		<defName>FCP_Pawnkind_BoS_Mojave_Knight_Player</defName>
+		<label>Mojave Brotherhood Knight</label>
+		<defaultFactionDef>FCP_Faction_BoS_Mojave_Player</defaultFactionDef>
+		<combatPower>60</combatPower>
+		<gearHealthRange>0.5~1.8</gearHealthRange>
+		<weaponMoney>400~1000</weaponMoney>
+		<weaponTags>
+			<li MayRequire="Rick.FCP.EnergyWeapons">FCP_Laser_Weapon</li>
+		</weaponTags>
+		<apparelRequired>
+			<li>FCP_Apparel_BoS_Recon_Hood</li>
+			<li>FCP_Apparel_BoS_Recon_Armor</li>
+		</apparelRequired>
+		<apparelDisallowTags>
+			<li>FCP_Power_Armor_Helmet</li>
+			<li>FCP_Power_Armor</li>
+			<li>FCP_Power_Armor_Lyons</li>
+			<li>FCP_Power_Armor_Outcast</li>
+		</apparelDisallowTags>
+		<techHediffsMoney>50~50</techHediffsMoney>
+		<techHediffsTags>
+			<li>Poor</li>
+		</techHediffsTags>
+		<techHediffsChance>0.03</techHediffsChance>
+		<initialWillRange>2~5</initialWillRange>
+		<initialResistanceRange>15~24</initialResistanceRange>
 	</PawnKindDef>
 
 	<!-- Mojave Brotherhood Knight -->
