@@ -18,7 +18,7 @@
 		<royalTitleInheritanceRelations>
 		</royalTitleInheritanceRelations>
 		<colorSpectrum>
-			<li>(0.6, 0.6, 0.7)</li>
+			<li>(1, 1, 1)</li>
 		</colorSpectrum>
 		<maxConfigurableAtWorldCreation>1</maxConfigurableAtWorldCreation>
 		<pawnSingular>Brother</pawnSingular>
@@ -67,7 +67,7 @@
 			</xenotypeChances>
 		</xenotypeSet>
 
-		<!--__________ Legacy Settings __________-->
+		<!--__________ Backstories __________-->
 
 		<backstoryFilters>
 			<li>
@@ -77,6 +77,7 @@
 				</categories>
 			</li>
 		</backstoryFilters>
+
 		<caravanTraderKinds>
 			<li>Caravan_Outlander_BulkGoods</li>
 			<li>Caravan_Outlander_CombatSupplier</li>

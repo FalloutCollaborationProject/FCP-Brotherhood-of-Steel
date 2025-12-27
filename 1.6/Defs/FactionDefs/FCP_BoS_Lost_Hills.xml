@@ -5,7 +5,7 @@
 
 	<!-- Lost Hills Chapter -->
 
-	<!--
+
 	<FactionDef ParentName="FactionBase">
 		<defName>FCP_Faction_BoS_Lost_Hills</defName>
 		<label>Lost Hills Chapter</label>
@@ -18,7 +18,7 @@
 		<royalTitleInheritanceRelations>
 		</royalTitleInheritanceRelations>
 		<colorSpectrum>
-			<li>(0.8, 0.8, 0.8)</li>
+			<li>(1, 1, 1)</li>
 		</colorSpectrum>
 		<maxConfigurableAtWorldCreation>1</maxConfigurableAtWorldCreation>
 		<pawnSingular>Brother</pawnSingular>
@@ -29,11 +29,11 @@
 		<maxCountAtGameStart>1</maxCountAtGameStart>
 		<canSiege>true</canSiege>
 		<canStageAttacks>true</canStageAttacks>
-		<leaderTitle>High Elder</leaderTitle>
+		<leaderTitle>Elder</leaderTitle>
 		<fixedLeaderKinds>
 			<li>FCP_Pawnkind_BoS_Elder</li>
 		</fixedLeaderKinds>
-		<factionIconPath>World_Icon/BoS_Icon/FCP_BoS_World_Icon</factionIconPath>
+		<factionIconPath>World_Icon/BoS_Icon/FCP_Lost_Hills_World_Icon</factionIconPath>
 		<techLevel>Industrial</techLevel>
 		<fixedName>Lost Hills Chapter</fixedName>
 		<settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
@@ -67,16 +67,17 @@
 			</xenotypeChances>
 		</xenotypeSet>
 
-		<!--__________ Legacy Settings __________-->
+		<!--__________ Backstories __________-->
 
 		<backstoryFilters>
 			<li>
 				<categories>
-					<li>FCP_Backstory_BoS</li>
-					<li>FCP_Backstory_BoS_Child</li>
+					<li>FCP_Backstory_BoS_LostHills</li>
+					<li>FCP_Backstory_BoS_LostHills_Child</li>
 				</categories>
 			</li>
 		</backstoryFilters>
+
 		<caravanTraderKinds>
 			<li>Caravan_Outlander_BulkGoods</li>
 			<li>Caravan_Outlander_CombatSupplier</li>
@@ -104,65 +105,25 @@
 			<li>
 				<kindDef>Combat</kindDef>
 				<options>
-					<FCP_Pawnkind_BoS_Initiate_Recon>8</FCP_Pawnkind_BoS_Initiate_Recon>
-					<FCP_Pawnkind_BoS_Field_Scribe>5</FCP_Pawnkind_BoS_Field_Scribe>
-					<FCP_Pawnkind_BoS_Knight>2</FCP_Pawnkind_BoS_Knight>
-					<FCP_Pawnkind_BoS_Paladin>1</FCP_Pawnkind_BoS_Paladin>
-					<FCP_Pawnkind_BoS_Sentinel>1</FCP_Pawnkind_BoS_Sentinel>
-					<FCP_Pawnkind_BoS_Elder>1</FCP_Pawnkind_BoS_Elder>
+					<FCP_Pawnkind_BoS_Lost_Hills_Paladin>8</FCP_Pawnkind_BoS_Lost_Hills_Paladin>
 				</options>
 			</li>
 			<li>
 				<kindDef>Peaceful</kindDef>
 				<options>
-					<FCP_Pawnkind_BoS_Initiate_Recon>8</FCP_Pawnkind_BoS_Initiate_Recon>
-					<FCP_Pawnkind_BoS_Field_Scribe>5</FCP_Pawnkind_BoS_Field_Scribe>
-					<FCP_Pawnkind_BoS_Knight>2</FCP_Pawnkind_BoS_Knight>
-					<FCP_Pawnkind_BoS_Paladin>1</FCP_Pawnkind_BoS_Paladin>
-					<FCP_Pawnkind_BoS_Sentinel>1</FCP_Pawnkind_BoS_Sentinel>
-					<FCP_Pawnkind_BoS_Elder>1</FCP_Pawnkind_BoS_Elder>
+					<FCP_Pawnkind_BoS_Lost_Hills_Paladin>8</FCP_Pawnkind_BoS_Lost_Hills_Paladin>
 				</options>
-			</li>
-			<li>
-				<kindDef>Trader</kindDef>
-				<traders>
-					<FCP_Pawnkind_BoS_Scribe_Proctor>1</FCP_Pawnkind_BoS_Scribe_Proctor>
-				</traders>
-				<carriers>
-					<FCP_Animal_Brahmin>6</FCP_Animal_Brahmin>
-				</carriers>
-				<guards>
-					<FCP_Pawnkind_BoS_Field_Scribe>7</FCP_Pawnkind_BoS_Field_Scribe>
-					<FCP_Pawnkind_BoS_Initiate_Recon>3</FCP_Pawnkind_BoS_Initiate_Recon>
-					<FCP_Pawnkind_BoS_Knight>2</FCP_Pawnkind_BoS_Knight>
-					<FCP_Pawnkind_BoS_Paladin>1</FCP_Pawnkind_BoS_Paladin>
-					<FCP_Pawnkind_BoS_Elder>1</FCP_Pawnkind_BoS_Elder>
-				</guards>
 			</li>
 			<li>
 				<kindDef>Settlement</kindDef>
 				<options>
-					<FCP_Pawnkind_BoS_Hopeful>10</FCP_Pawnkind_BoS_Hopeful>
-					<FCP_Pawnkind_BoS_Squire>6</FCP_Pawnkind_BoS_Squire>
-					<FCP_Pawnkind_BoS_Lancer>4</FCP_Pawnkind_BoS_Lancer>
-					<FCP_Pawnkind_BoS_Initiate_Recon>8</FCP_Pawnkind_BoS_Initiate_Recon>
-					<FCP_Pawnkind_BoS_Scribe>7</FCP_Pawnkind_BoS_Scribe>
-					<FCP_Pawnkind_BoS_Field_Scribe>5</FCP_Pawnkind_BoS_Field_Scribe>
-					<FCP_Pawnkind_BoS_Science_Scribe>4</FCP_Pawnkind_BoS_Science_Scribe>
-					<FCP_Pawnkind_BoS_Knight>3</FCP_Pawnkind_BoS_Knight>
-					<FCP_Pawnkind_BoS_Paladin>2</FCP_Pawnkind_BoS_Paladin>
-					<FCP_Pawnkind_BoS_Sentinel>1</FCP_Pawnkind_BoS_Sentinel>
-					<FCP_Pawnkind_BoS_Elder>1</FCP_Pawnkind_BoS_Elder>
+					<FCP_Pawnkind_BoS_Lost_Hills_Paladin>1</FCP_Pawnkind_BoS_Lost_Hills_Paladin>
+					<FCP_Pawnkind_BoS_Lost_Hills_Elder>1</FCP_Pawnkind_BoS_Lost_Hills_Elder>
 				</options>
 			</li>
 		</pawnGroupMakers>
 		<settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
 		<modExtensions>
-			<li Class="FCP.Enlist.FactionEnlistOptions">
-				<enlistOptionsDefs>
-					<li>FCP_Enlistment_BoS</li>
-				</enlistOptionsDefs>
-			</li>
 			<li Class="FCP.Currencies.CurrencyReplacement">
 				<currency>FCP_Currency_BoS_Scrip</currency>
 			</li>
@@ -173,6 +134,5 @@
 			</li>
 		</modExtensions>
 	</FactionDef>
-	-->
 
 </Defs>

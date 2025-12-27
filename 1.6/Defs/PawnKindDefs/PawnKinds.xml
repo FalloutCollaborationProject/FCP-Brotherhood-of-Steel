@@ -1209,4 +1209,91 @@
 		<pawnGroupDevelopmentStage>Adult</pawnGroupDevelopmentStage>
 	</PawnKindDef>
 
+	<!--___ Lost Hills Chapter ___-->
+
+	<!-- Lost Hills Paladin -->
+
+	<PawnKindDef ParentName="FCP_BoSkindBase">
+		<defName>FCP_Pawnkind_BoS_Lost_Hills_Paladin</defName>
+		<label>Lost Hills Paladin</label>
+		<defaultFactionDef>FCP_Faction_BoS_Lost_Hills</defaultFactionDef>
+		<combatPower>70</combatPower>
+		<gearHealthRange>0.7~2</gearHealthRange>
+		<apparelRequired>
+			<li MayRequire="Rick.FCP.PowerArmor">FCP_Apparel_Power_Armor_Frame</li>
+			<li>FCP_Apparel_BoS_Jumpsuit</li>
+			<li MayRequire="Rick.FCP.PowerArmor">FCP_Apparel_BoS_Lost_Hills_T51_Power_Armor</li>
+			<li MayRequire="Rick.FCP.PowerArmor">FCP_Apparel_Power_Armor_T51_Helmet</li>
+		</apparelRequired>
+		<weaponMoney>400~1200</weaponMoney>
+		<weaponTags>
+			<li>Gun</li>
+			<li MayRequire="Rick.FCP.EnergyWeapons">FCP_Laser_Weapon</li>
+			<li MayRequire="Rick.FCP.EnergyWeapons">FCP_Heavy_Laser_Weapon</li>
+		</weaponTags>
+		<forcedTraits>
+			<li>
+				<def>FCP_Trait_Power_Armor_Trained</def>
+			</li>
+		</forcedTraits>
+		<techHediffsMoney>50~50</techHediffsMoney>
+		<techHediffsTags>
+			<li>Poor</li>
+		</techHediffsTags>
+		<techHediffsChance>0.03</techHediffsChance>
+		<initialWillRange>3~5</initialWillRange>
+		<initialResistanceRange>19~30</initialResistanceRange>
+		<backstoryFiltersOverride>
+			<li>
+				<categoriesChildhood>
+					<li>FCP_Backstory_BoS_LostHills_Child</li>
+				</categoriesChildhood>
+				<categoriesAdulthood>
+					<li>FCP_Backstory_BoS_LostHills</li>
+				</categoriesAdulthood>
+			</li>
+		</backstoryFiltersOverride>
+	</PawnKindDef>
+
+	<!-- Lost Hills Elder -->
+
+	<PawnKindDef ParentName="FCP_BoSkindBase">
+		<defName>FCP_Pawnkind_BoS_Lost_Hills_Elder</defName>
+		<label>Lost Hills Elder</label>
+		<defaultFactionDef>FCP_Faction_BoS_Lost_Hills</defaultFactionDef>
+		<factionLeader>true</factionLeader>
+		<combatPower>20</combatPower>
+		<gearHealthRange>0.5~1.6</gearHealthRange>
+		<apparelRequired>
+			<li>FCP_Apparel_BoS_Elder_Robes</li>
+		</apparelRequired>
+		<apparelDisallowTags>
+			<li>FCP_Power_Armor_Helmet</li>
+			<li>FCP_Power_Armor</li>
+			<li>FCP_Power_Armor_Lyons</li>
+			<li>FCP_Power_Armor_Outcast</li>
+		</apparelDisallowTags>
+		<weaponMoney>200~500</weaponMoney>
+		<weaponTags>
+			<li>Gun</li>
+		</weaponTags>
+		<techHediffsMoney>50~50</techHediffsMoney>
+		<techHediffsTags>
+			<li>Poor</li>
+		</techHediffsTags>
+		<techHediffsChance>0.03</techHediffsChance>
+		<initialWillRange>5~6</initialWillRange>
+		<initialResistanceRange>17~22</initialResistanceRange>
+		<backstoryFiltersOverride>
+			<li>
+				<categoriesChildhood>
+					<li>FCP_Backstory_BoS_LostHills_Child</li>
+				</categoriesChildhood>
+				<categoriesAdulthood>
+					<li>FCP_Backstory_BoS_LostHills</li>
+				</categoriesAdulthood>
+			</li>
+		</backstoryFiltersOverride>
+	</PawnKindDef>
+
 </Defs>

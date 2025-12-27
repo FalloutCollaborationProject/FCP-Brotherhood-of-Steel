@@ -52,6 +52,14 @@
 			<li MayRequire="Ludeon.RimWorld.Ideology">FCP_Meme_Lyons_Shield</li>
 		</forcedMemes>
 		<requiredPreceptsOnly>true</requiredPreceptsOnly>
+		<disallowedPrecepts>
+			<li MayRequire="Ludeon.RimWorld.Ideology">DrugUse_MedicalOnly</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">DrugUse_Prohibited</li>
+		</disallowedPrecepts>
+		<disallowedMemes>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Nudism</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Blindsight</li>
+		</disallowedMemes>
 
 		<!--__________ Biotech __________-->
 
@@ -67,18 +75,8 @@
 			</xenotypeChances>
 		</xenotypeSet>
 
-		<!--__________ Legacy Settings __________-->
-
-		<disallowedPrecepts>
-			<li MayRequire="Ludeon.RimWorld.Ideology">DrugUse_MedicalOnly</li>
-			<li MayRequire="Ludeon.RimWorld.Ideology">DrugUse_Prohibited</li>
-		</disallowedPrecepts>
-		<disallowedMemes>
-			<li MayRequire="Ludeon.RimWorld.Ideology">Nudism</li>
-			<li MayRequire="Ludeon.RimWorld.Ideology">Blindsight</li>
-		</disallowedMemes>
-
 		<!--__________ Backstories __________-->
+
 		<backstoryFilters>
 			<li>
 				<categories>
@@ -87,6 +85,7 @@
 				</categories>
 			</li>
 		</backstoryFilters>
+
 		<caravanTraderKinds>
 			<li>Caravan_Outlander_BulkGoods</li>
 			<li>Caravan_Outlander_CombatSupplier</li>
