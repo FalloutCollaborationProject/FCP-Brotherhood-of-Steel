@@ -7,17 +7,19 @@
 
     <!--_____ BoS Power Armors Helmets _____-->
 
-    <!-- BoS Appalaccia T60 Power Armor Helmet -->
+    <!-- BoS Appalachia T60 Power Armor Helmet -->
 
     <ThingDef ParentName="FCP_Apparel_Power_Armor_Helmet_Base" MayRequire="Rick.FCP.PowerArmor">
-        <defName>FCP_Apparel_BoS_Appalaccia_T60_Power_Armor_Helmet</defName>
-        <label>BoS Appalaccia T60 Power Armor Helmet</label>
+        <defName>FCP_Apparel_BoS_Appalachia_T60_Power_Armor_Helmet</defName>
+        <label>BoS Appalachia T60 Power Armor Helmet</label>
         <description>Advanced T-60 power armor helmet featuring integrated HUD systems and environmental sensors. The distinctive Appalachian Brotherhood insignia marks this as belonging to the faction that emerged from Vault 76 to reclaim the wasteland and preserve humanity's technological heritage.</description>
         <techLevel>Industrial</techLevel>
         <graphicData>
             <texPath>Things/Apparel/BoS_Power_Armor/BoS_Appalaccia_T60_Power_Armor/FCP_BoS_Appalaccia_T60_Power_Armor_Helmet_south</texPath>
             <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>1.3</drawSize>
         </graphicData>
+        <uiIconScale>1.3</uiIconScale>
         <smeltable>false</smeltable>
         <statBases>
             <MaxHitPoints>80</MaxHitPoints>
@@ -69,7 +71,9 @@
         <graphicData>
             <texPath>Things/Apparel/BoS_Power_Armor/BoS_T60_Power_Armor/FCP_BoS_T60_Power_Armor_Helmet_south</texPath>
             <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>1.3</drawSize>
         </graphicData>
+        <uiIconScale>1.3</uiIconScale>
         <smeltable>false</smeltable>
         <statBases>
             <MaxHitPoints>80</MaxHitPoints>
@@ -121,7 +125,9 @@
         <graphicData>
             <texPath>Things/Apparel/BoS_Power_Armor/BoS_T51_Power_Armor/FCP_BoS_T51_Power_Armor_Helmet_south</texPath>
             <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>1.3</drawSize>
         </graphicData>
+        <uiIconScale>1.3</uiIconScale>
         <smeltable>false</smeltable>
         <statBases>
             <MaxHitPoints>80</MaxHitPoints>
@@ -163,17 +169,19 @@
         </comps>
     </ThingDef>
 
-    <!-- BoS T51 Appalaccia Power Armor Helmet -->
+    <!-- BoS T51 Appalachia Power Armor Helmet -->
 
     <ThingDef ParentName="FCP_Apparel_Power_Armor_Helmet_Base" MayRequire="Rick.FCP.PowerArmor">
-        <defName>FCP_Apparel_BoS_T51_Appalaccia_Power_Armor_Helmet</defName>
-        <label>BoS T51 Appalaccia Power Armor Helmet</label>
+        <defName>FCP_Apparel_BoS_T51_Appalachia_Power_Armor_Helmet</defName>
+        <label>BoS T51 Appalachia Power Armor Helmet</label>
         <description>T-51 power armor helmet modified for the unique challenges of Appalachian operations. Enhanced with improved radiation detection systems and environmental filtering, essential for surviving the irradiated mountains and forests of post-war Appalachia.</description>
         <techLevel>Industrial</techLevel>
         <graphicData>
             <texPath>Things/Apparel/BoS_Power_Armor/BoS_T51_Appalaccia_Power_Armor/FCP_BoS_Appalaccia_T51_Power_Armor_Helmet_south</texPath>
             <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>1.3</drawSize>
         </graphicData>
+        <uiIconScale>1.3</uiIconScale>
         <smeltable>false</smeltable>
         <statBases>
             <MaxHitPoints>80</MaxHitPoints>
@@ -226,7 +234,9 @@
         <graphicData>
             <texPath>Things/Apparel/BoS_Power_Armor/BoS_Lyons_T45_Power_Armor/FCP_Lyons_T45_Power_Armor_Helmet_south</texPath>
             <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>1.3</drawSize>
         </graphicData>
+        <uiIconScale>1.3</uiIconScale>
         <smeltable>false</smeltable>
         <statBases>
             <MaxHitPoints>80</MaxHitPoints>
@@ -282,7 +292,9 @@
         <graphicData>
             <texPath>Things/Apparel/BoS_Power_Armor/BoS_Outcast_T45_Power_Armor/FCP_Outcast_T45_Power_Armor_Helmet_south</texPath>
             <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>1.3</drawSize>
         </graphicData>
+        <uiIconScale>1.3</uiIconScale>
         <smeltable>false</smeltable>
         <statBases>
             <MaxHitPoints>80</MaxHitPoints>

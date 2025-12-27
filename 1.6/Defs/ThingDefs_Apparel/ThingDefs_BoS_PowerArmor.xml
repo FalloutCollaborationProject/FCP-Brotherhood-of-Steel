@@ -6,11 +6,11 @@
 
     <!--_____ BoS Power Armors _____-->
 
-    <!-- BoS Appalaccia T60 Power Armor -->
+    <!-- BoS Appalachia T60 Power Armor -->
 
     <ThingDef ParentName="FCP_Apparel_Power_Armor_Base" MayRequire="Rick.FCP.PowerArmor">
-        <defName>FCP_Apparel_BoS_Appalaccia_T60_Power_Armor</defName>
-        <label>BoS Appalaccia T60 Power Armor</label>
+        <defName>FCP_Apparel_BoS_Appalachia_T60_Power_Armor</defName>
+        <label>BoS Appalachia T60 Power Armor</label>
         <description>Advanced T-60 power armor bearing the distinctive colors and insignia of the Appalachian Brotherhood of Steel. This battle-tested armor provides exceptional protection while maintaining mobility, representing the pinnacle of pre-war American military engineering adapted for wasteland operations.</description>
         <smeltable>false</smeltable>
         <thingClass>Apparel</thingClass>
@@ -21,8 +21,9 @@
         <graphicData>
             <texPath>Things/Apparel/BoS_Power_Armor/BoS_Appalaccia_T60_Power_Armor/FCP_BoS_Appalaccia_T60_Power_Armor_Hulk_south</texPath>
             <graphicClass>Graphic_Single</graphicClass>
-            <drawSize>1</drawSize>
+            <drawSize>1.3</drawSize>
         </graphicData>
+        <uiIconScale>1.3</uiIconScale>
         <tickerType>Normal</tickerType>
         <statBases>
             <MaxHitPoints>280</MaxHitPoints>
@@ -87,8 +88,9 @@
         <graphicData>
             <texPath>Things/Apparel/BoS_Power_Armor/BoS_T60_Power_Armor/FCP_BoS_T60_Power_Armor_Hulk_south</texPath>
             <graphicClass>Graphic_Single</graphicClass>
-            <drawSize>1</drawSize>
+            <drawSize>1.3</drawSize>
         </graphicData>
+        <uiIconScale>1.3</uiIconScale>
         <tickerType>Normal</tickerType>
         <statBases>
             <MaxHitPoints>280</MaxHitPoints>
@@ -153,8 +155,9 @@
         <graphicData>
             <texPath>Things/Apparel/BoS_Power_Armor/BoS_T51_Power_Armor/FCP_BoS_T51_Power_Armor_Hulk_south</texPath>
             <graphicClass>Graphic_Single</graphicClass>
-            <drawSize>1</drawSize>
+            <drawSize>1.3</drawSize>
         </graphicData>
+        <uiIconScale>1.3</uiIconScale>
         <tickerType>Normal</tickerType>
         <statBases>
             <MaxHitPoints>280</MaxHitPoints>
@@ -204,11 +207,11 @@
         <building />
     </ThingDef>
 
-    <!-- BoS Appalaccia T51 Power Armor -->
+    <!-- BoS Appalachia T51 Power Armor -->
 
     <ThingDef ParentName="FCP_Apparel_Power_Armor_Base" MayRequire="Rick.FCP.PowerArmor">
-        <defName>FCP_Apparel_BoS_T51_Appalaccia_Power_Armor</defName>
-        <label>BoS Appalaccia T51 Power Armor</label>
+        <defName>FCP_Apparel_BoS_T51_Appalachia_Power_Armor</defName>
+        <label>BoS Appalachia T51 Power Armor</label>
         <description>T-51 power armor customized for the harsh Appalachian environment. This variant features enhanced environmental sealing and radiation shielding, adapted for the unique challenges faced by the Brotherhood's Appalachian chapter in their mission to reclaim and protect technology.</description>
         <smeltable>false</smeltable>
         <thingSetMakerTags>
@@ -219,8 +222,9 @@
         <graphicData>
             <texPath>Things/Apparel/BoS_Power_Armor/BoS_T51_Appalaccia_Power_Armor/FCP_BoS_Appalaccia_T51_Power_Armor_Hulk_south</texPath>
             <graphicClass>Graphic_Single</graphicClass>
-            <drawSize>1</drawSize>
+            <drawSize>1.3</drawSize>
         </graphicData>
+        <uiIconScale>1.3</uiIconScale>
         <tickerType>Normal</tickerType>
         <statBases>
             <MaxHitPoints>280</MaxHitPoints>
@@ -285,8 +289,9 @@
         <graphicData>
             <texPath>Things/Apparel/BoS_Power_Armor/BoS_Lyons_T45_Power_Armor/FCP_Lyons_T45_Power_Armor_Hulk_south</texPath>
             <graphicClass>Graphic_Single</graphicClass>
-            <drawSize>1</drawSize>
+            <drawSize>1.3</drawSize>
         </graphicData>
+        <uiIconScale>1.3</uiIconScale>
         <tickerType>Normal</tickerType>
         <statBases>
             <MaxHitPoints>280</MaxHitPoints>
@@ -351,8 +356,9 @@
         <graphicData>
             <texPath>Things/Apparel/BoS_Power_Armor/BoS_Outcast_T45_Power_Armor/FCP_Outcast_T45_Power_Armor_Hulk_south</texPath>
             <graphicClass>Graphic_Single</graphicClass>
-            <drawSize>1</drawSize>
+            <drawSize>1.3</drawSize>
         </graphicData>
+        <uiIconScale>1.3</uiIconScale>
         <tickerType>Normal</tickerType>
         <statBases>
             <MaxHitPoints>280</MaxHitPoints>

@@ -327,12 +327,12 @@
                 <!-- Equipment -->
                 <li Class="ScenPart_StartingThing_Defined">
                     <def>StartingThing_Defined</def>
-                    <thingDef>FCP_Apparel_BoS_Apalacia_Fatigues</thingDef>
+                    <thingDef>FCP_Apparel_BoS_Appalachia_Fatigues</thingDef>
                     <count>3</count>
                 </li>
                 <li Class="ScenPart_StartingThing_Defined">
                     <def>StartingThing_Defined</def>
-                    <thingDef>FCP_Apparel_BoS_Apalacia_Infantry_Uniform</thingDef>
+                    <thingDef>FCP_Apparel_BoS_Appalachia_Infantry_Uniform</thingDef>
                     <count>1</count>
                 </li>
                 <li Class="ScenPart_StartingThing_Defined">

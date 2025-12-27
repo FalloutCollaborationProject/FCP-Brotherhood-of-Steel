@@ -165,11 +165,11 @@
                 </guaranteedDrops>
                 <weightedDrops>
                     <li>
-                        <thingDef>FCP_Apparel_BoS_Apalacia_Fatigues</thingDef>
+                        <thingDef>FCP_Apparel_BoS_Appalachia_Fatigues</thingDef>
                         <countRange>1</countRange>
                     </li>
                     <li>
-                        <thingDef>FCP_Apparel_BoS_Apalacia_Infantry_Uniform</thingDef>
+                        <thingDef>FCP_Apparel_BoS_Appalachia_Infantry_Uniform</thingDef>
                         <countRange>1</countRange>
                     </li>
                     <li>
@@ -181,7 +181,7 @@
                         <countRange>1</countRange>
                     </li>
                     <li>
-                        <thingDef>FCP_Apparel_BoS_Apalacia_Beret</thingDef>
+                        <thingDef>FCP_Apparel_BoS_Appalachia_Beret</thingDef>
                         <countRange>1</countRange>
                     </li>
                 </weightedDrops>
@@ -289,11 +289,11 @@
                 </guaranteedDrops>
                 <weightedDrops>
                     <li>
-                        <thingDef>FCP_Apparel_BoS_Apalacia_Fatigues</thingDef>
+                        <thingDef>FCP_Apparel_BoS_Appalachia_Fatigues</thingDef>
                         <countRange>1</countRange>
                     </li>
                     <li>
-                        <thingDef>FCP_Apparel_BoS_Apalacia_Infantry_Uniform</thingDef>
+                        <thingDef>FCP_Apparel_BoS_Appalachia_Infantry_Uniform</thingDef>
                         <countRange>1</countRange>
                     </li>
                     <li>
@@ -301,11 +301,11 @@
                         <countRange>1</countRange>
                     </li>
                     <li>
-                        <thingDef>FCP_Apparel_BoS_Apalacia_Beret</thingDef>
+                        <thingDef>FCP_Apparel_BoS_Appalachia_Beret</thingDef>
                         <countRange>1</countRange>
                     </li>
                     <li>
-                        <thingDef>FCP_Apparel_BoS_Apalacia_Infantry_Hood</thingDef>
+                        <thingDef>FCP_Apparel_BoS_Appalachia_Infantry_Hood</thingDef>
                         <countRange>1</countRange>
                     </li>
                 </weightedDrops>

@@ -60,14 +60,14 @@
         </apparel>
     </ThingDef>
 
-    <!--___ Appalaccia Chapter ___-->
+    <!--___ Appalachia Chapter ___-->
 
-    <!-- Appalaccia Fatigues -->
+    <!-- Appalachia Fatigues -->
 
     <ThingDef ParentName="FCP_Apparel_Makeable_Base">
-        <defName>FCP_Apparel_BoS_Apalacia_Fatigues</defName>
-        <label>BoS Appalaccia Fatigues</label>
-        <description>Standard-issue Brotherhood of Steel fatigues. Made from a robust and durable material, these fatigues are worn by members of the Brotherhood during their daily operations in Apalaccia.</description>
+        <defName>FCP_Apparel_BoS_Appalachia_Fatigues</defName>
+        <label>BoS Appalachia Fatigues</label>
+        <description>Standard-issue Brotherhood of Steel fatigues. Made from a robust and durable material, these fatigues are worn by members of the Brotherhood during their daily operations in Appalachia.</description>
         <graphicData>
             <texPath>Things/Apparel/Bos_Apparel/BoS_Apalacia_Fatigues/FCP_BoS_Apalacia_Fatigues</texPath>
             <graphicClass>Graphic_Single</graphicClass>
@@ -114,11 +114,11 @@
         </apparel>
     </ThingDef>
 
-    <!-- Appalaccia Infantry Uniform -->
+    <!-- Appalachia Infantry Uniform -->
 
     <ThingDef ParentName="FCP_Apparel_Makeable_Base">
-        <defName>FCP_Apparel_BoS_Apalacia_Infantry_Uniform</defName>
-        <label>BoS Appalaccia Infantry Uniform</label>
+        <defName>FCP_Apparel_BoS_Appalachia_Infantry_Uniform</defName>
+        <label>BoS Appalachia Infantry Uniform</label>
         <description>A pristine military dress uniform worn by Brotherhood infantry during formal occasions. The uniform bears the insignia of the Brotherhood of Steel and represents the discipline and order of the organization.</description>
         <graphicData>
             <texPath>Things/Apparel/Bos_Apparel/BoS_Apalacia_Infantry_Uniform/FCP_BoS_Apalacia_Infantry_Uniform</texPath>

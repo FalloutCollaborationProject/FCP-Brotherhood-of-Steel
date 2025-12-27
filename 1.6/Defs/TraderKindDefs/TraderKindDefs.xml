@@ -51,14 +51,14 @@
             <!-- Appalachia Fatigues -->
 
             <li Class="StockGenerator_SingleDef">
-                <thingDef>FCP_Apparel_BoS_Apalacia_Fatigues</thingDef>
+                <thingDef>FCP_Apparel_BoS_Appalachia_Fatigues</thingDef>
                 <countRange>2~4</countRange>
             </li>
 
             <!-- Appalachia Infantry Uniform -->
 
             <li Class="StockGenerator_SingleDef">
-                <thingDef>FCP_Apparel_BoS_Apalacia_Infantry_Uniform</thingDef>
+                <thingDef>FCP_Apparel_BoS_Appalachia_Infantry_Uniform</thingDef>
                 <countRange>2~4</countRange>
             </li>
 
@@ -158,14 +158,14 @@
             <!-- Appalachia Beret -->
 
             <li Class="StockGenerator_SingleDef">
-                <thingDef>FCP_Apparel_BoS_Apalacia_Beret</thingDef>
+                <thingDef>FCP_Apparel_BoS_Appalachia_Beret</thingDef>
                 <countRange>2~4</countRange>
             </li>
 
             <!-- Appalachia Infantry Hood -->
 
             <li Class="StockGenerator_SingleDef">
-                <thingDef>FCP_Apparel_BoS_Apalacia_Infantry_Hood</thingDef>
+                <thingDef>FCP_Apparel_BoS_Appalachia_Infantry_Hood</thingDef>
                 <countRange>2~4</countRange>
             </li>
 

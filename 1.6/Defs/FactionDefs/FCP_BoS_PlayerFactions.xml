@@ -126,4 +126,34 @@
         </backstoryFilters>
     </FactionDef>
 
+    <!-- Brotherhood of Steel Appalachia Chapter Player Faction -->
+
+    <FactionDef ParentName="PlayerFactionBase">
+        <defName>FCP_Faction_BoS_Appalachia_Player</defName>
+        <label>Appalachia Chapter</label>
+        <description>The Appalachia Chapter stands at a crossroads. Cut off from Lost Hills and forced to operate independently, you must decide your chapter's path: will you follow "The Chain That Binds" - the strict Codex doctrine that demands technological preservation above all else? Or will you break from tradition and become protectors of the wasteland's people, proving the Brotherhood can be more than collectors? Your isolation means no oversight, no reinforcements, but complete freedom to define what the Brotherhood truly stands for in these lands.</description>
+        <isPlayer>true</isPlayer>
+        <classicIdeo>true</classicIdeo>
+        <techLevel>Industrial</techLevel>
+        <basicMemberKind>FCP_Pawnkind_BoS_Knight_Player</basicMemberKind>
+        <pawnSingular>Brother</pawnSingular>
+        <pawnsPlural>Brothers</pawnsPlural>
+        <leaderTitle>Paladin</leaderTitle>
+        <factionIconPath>World_Icon/BoS_Icon/FCP_Appalaccia_World_Icon</factionIconPath>
+        <colorSpectrum>
+            <li>(0.2, 0.5, 0.6)</li>
+        </colorSpectrum>
+        <allowedCultures>
+            <li>FCP_Culture_BoS</li>
+        </allowedCultures>
+        <backstoryFilters>
+            <li>
+                <categories>
+                    <li>FCP_Backstory_BoS</li>
+                    <li>FCP_Backstory_BoS_Child</li>
+                </categories>
+            </li>
+        </backstoryFilters>
+    </FactionDef>
+
 </Defs>

@@ -5,12 +5,12 @@
 
     <!--_____ Brotherhood HeadGear _____-->
 
-    <!-- BoS Appalaccia Beret -->
+    <!-- BoS Appalachia Beret -->
 
     <ThingDef ParentName="HatMakeableBase">
-        <defName>FCP_Apparel_BoS_Apalacia_Beret</defName>
-        <label>BoS Appalaccia Beret</label>
-        <description>A soft beret worn by Brotherhood detachments in Appalaccia. Embroidered with the Brotherhood crest, it is used for identification and ceremonial duties by officers and specialized units.</description>
+        <defName>FCP_Apparel_BoS_Appalachia_Beret</defName>
+        <label>BoS Appalachia Beret</label>
+        <description>A soft beret worn by Brotherhood detachments in Appalachia. Embroidered with the Brotherhood crest, it is used for identification and ceremonial duties by officers and specialized units.</description>
         <techLevel>Industrial</techLevel>
         <graphicData>
             <texPath>Things/Apparel/BoS_Headgear/BoS_Apalacia_Beret/FCP_BoS_Apalacia_Beret</texPath>
@@ -52,11 +52,11 @@
         </apparel>
     </ThingDef>
 
-    <!-- BoS Appalacia Infantry Hood -->
+    <!-- BoS Appalachia Infantry Hood -->
 
     <ThingDef ParentName="HatMakeableBase">
-        <defName>FCP_Apparel_BoS_Apalacia_Infantry_Hood</defName>
-        <label>BoS Appalaccia Infantry Hood</label>
+        <defName>FCP_Apparel_BoS_Appalachia_Infantry_Hood</defName>
+        <label>BoS Appalachia Infantry Hood</label>
         <description>Standard-issue hood used by Brotherhood infantry for concealment and basic protection from the elements during patrols and tactical operations.</description>
         <techLevel>Industrial</techLevel>
         <graphicData>

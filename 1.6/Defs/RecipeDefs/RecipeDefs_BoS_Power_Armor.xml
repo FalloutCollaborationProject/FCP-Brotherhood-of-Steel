@@ -3,13 +3,13 @@
 
     <!--_____ BoS Power Armors Recipes _____-->
 
-    <!-- BoS Appalaccia T60 Power Armor Recipe -->
+    <!-- BoS Appalachia T60 Power Armor Recipe -->
 
     <RecipeDef MayRequire="Rick.FCP.PowerArmor">
-        <defName>Make_BoS_Appalaccia_T60_Power_Armor</defName>
-        <label>make appalaccia t60 power armor</label>
-        <description>Make a appalaccia t60 power armor.</description>
-        <jobString>Making appalaccia t60 power armor.</jobString>
+        <defName>Make_BoS_Appalachia_T60_Power_Armor</defName>
+        <label>make Appalachia t60 power armor</label>
+        <description>Make a Appalachia t60 power armor.</description>
+        <jobString>Making Appalachia t60 power armor.</jobString>
         <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
         <workSkill>Crafting</workSkill>
         <effectWorking>Smith</effectWorking>
@@ -35,7 +35,7 @@
             </thingDefs>
         </fixedIngredientFilter>
         <products>
-            <FCP_Apparel_BoS_Appalaccia_T60_Power_Armor>1</FCP_Apparel_BoS_Appalaccia_T60_Power_Armor>
+            <FCP_Apparel_BoS_Appalachia_T60_Power_Armor>1</FCP_Apparel_BoS_Appalachia_T60_Power_Armor>
         </products>
         <skillRequirements>
             <Crafting>8</Crafting>
@@ -54,7 +54,7 @@
         </modExtensions>
     </RecipeDef>
 
-<!-- BoS Appalaccia T60 Power Armor Recipe -->
+<!-- BoS Appalachia T60 Power Armor Recipe -->
 
     <RecipeDef MayRequire="Rick.FCP.PowerArmor">
         <defName>Make_BoS_T60_Power_Armor</defName>
@@ -159,10 +159,10 @@
 <!-- BoS T51 Power Armor Recipe -->
 
     <RecipeDef MayRequire="Rick.FCP.PowerArmor">
-        <defName>Make_BoS_Appalaccia_T51_Power_Armor</defName>
-        <label>make t51 appalaccia power armor</label>
-        <description>Make a t51 appalaccia power armor.</description>
-        <jobString>Making t51 appalaccia power armor.</jobString>
+        <defName>Make_BoS_Appalachia_T51_Power_Armor</defName>
+        <label>make t51 Appalachia power armor</label>
+        <description>Make a t51 Appalachia power armor.</description>
+        <jobString>Making t51 Appalachia power armor.</jobString>
         <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
         <workSkill>Crafting</workSkill>
         <effectWorking>Smith</effectWorking>
@@ -188,7 +188,7 @@
             </thingDefs>
         </fixedIngredientFilter>
         <products>
-            <FCP_Apparel_BoS_T51_Appalaccia_Power_Armor>1</FCP_Apparel_BoS_T51_Appalaccia_Power_Armor>
+            <FCP_Apparel_BoS_T51_Appalachia_Power_Armor>1</FCP_Apparel_BoS_T51_Appalachia_Power_Armor>
         </products>
         <skillRequirements>
             <Crafting>8</Crafting>

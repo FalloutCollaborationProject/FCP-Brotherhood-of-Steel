@@ -6,7 +6,7 @@
     <!-- Paint T60 Helmet - Appalachia Colors -->
 
     <RecipeDef MayRequire="Rick.FCP.PowerArmor">
-        <defName>Make_BoS_Appalaccia_T60_Power_Armor_Helmet</defName>
+        <defName>Make_BoS_Appalachia_T60_Power_Armor_Helmet</defName>
         <label>paint T60 helmet (Appalachia)</label>
         <description>Paint a T60 power armor helmet in Brotherhood Appalachia chapter colors.</description>
         <jobString>Painting T60 helmet in Appalachia colors.</jobString>
@@ -35,7 +35,7 @@
             </thingDefs>
         </fixedIngredientFilter>
         <products>
-            <FCP_Apparel_BoS_Appalaccia_T60_Power_Armor_Helmet>1</FCP_Apparel_BoS_Appalaccia_T60_Power_Armor_Helmet>
+            <FCP_Apparel_BoS_Appalachia_T60_Power_Armor_Helmet>1</FCP_Apparel_BoS_Appalachia_T60_Power_Armor_Helmet>
         </products>
         <skillRequirements>
             <Crafting>8</Crafting>
@@ -163,7 +163,7 @@
     <!-- Paint T51 Helmet - Appalachia Colors -->
 
     <RecipeDef MayRequire="Rick.FCP.PowerArmor">
-        <defName>Make_BoS_Appalaccia_T51_Power_Armor_Helmet</defName>
+        <defName>Make_BoS_Appalachia_T51_Power_Armor_Helmet</defName>
         <label>paint T51 helmet (Appalachia)</label>
         <description>Paint a T51 power armor helmet in Brotherhood Appalachia chapter colors.</description>
         <jobString>Painting T51 helmet in Appalachia colors.</jobString>
@@ -192,7 +192,7 @@
             </thingDefs>
         </fixedIngredientFilter>
         <products>
-            <FCP_Apparel_BoS_T51_Appalaccia_Power_Armor_Helmet>1</FCP_Apparel_BoS_T51_Appalaccia_Power_Armor_Helmet>
+            <FCP_Apparel_BoS_T51_Appalachia_Power_Armor_Helmet>1</FCP_Apparel_BoS_T51_Appalachia_Power_Armor_Helmet>
         </products>
         <skillRequirements>
             <Crafting>8</Crafting>
