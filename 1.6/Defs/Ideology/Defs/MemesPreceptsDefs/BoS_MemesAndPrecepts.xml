@@ -178,7 +178,157 @@
         </requireOne>
     </MemeDef>
 
+    <!--__________ Lost Hills Chapter __________-->
+
+    <!-- Lost Hills - The Codex Eternal -->
+
+    <MemeDef>
+        <defName>FCP_Meme_Lost_Hills_Codex_Eternal</defName>
+        <label>The Codex Eternal</label>
+        <description>Lost Hills represents the original Brotherhood of Steel - the purest interpretation of the Codex as written by Roger Maxson himself. Technology must be preserved at any cost, outsiders are never to be trusted, and the Brotherhood's bloodlines must remain pure. Isolation is strength. The wasteland may burn, but the Brotherhood will endure, guarding humanity's technological legacy until the world is ready to rebuild - on Brotherhood terms.</description>
+        <iconPath>World_Icon/BoS_Icon/FCP_Lost_Hills_World_Icon</iconPath>
+        <groupDef>Misc</groupDef>
+        <impact>3</impact>
+        <randomizationSelectionWeightFactor>0</randomizationSelectionWeightFactor>
+        <hiddenInChooseMemes>true</hiddenInChooseMemes>
+        <requireOne>
+            <li><li>Cannibalism_Abhorrent</li></li>
+            <li><li>Corpses_Ugly</li></li>
+            <li><li>Lovin_Free</li></li>
+            <li><li>MarriageName_UsuallyMans</li></li>
+            <li><li>SpouseCount_Male_MaxOne</li></li>
+            <li><li>SpouseCount_Female_MaxOne</li></li>
+            <li><li>DrugUse_MedicalOnly</li></li>
+            <li><li>IdeoDiversity_Horrible</li></li>
+            <li><li>Nudity_Male_UncoveredGroinDisapproved</li></li>
+            <li><li>Nudity_Female_UncoveredGroinOrChestDisapproved</li></li>
+            <li><li>OrganUse_Abhorrent</li></li>
+            <li><li>Execution_DontCare</li></li>
+            <li><li>Skullspike_Disapproved</li></li>
+            <li><li>Slavery_Horrible</li></li>
+            <li><li>Blinding_Horrible</li></li>
+            <li><li>Scarification_Horrible</li></li>
+            <li><li>FCP_Precept_Lost_Hills_Purity</li></li>
+            <li><li>FCP_Precept_Lost_Hills_Isolationism</li></li>
+        </requireOne>
+        <requiredRituals>
+            <li>
+                <precept>LeaderSpeech</precept>
+                <pattern>LeaderSpeech</pattern>
+            </li>
+        </requiredRituals>
+    </MemeDef>
+
+    <!--__________ Midwestern Brotherhood __________-->
+
+    <!-- Midwestern - The Steel Vanguard -->
+
+    <MemeDef>
+        <defName>FCP_Meme_Midwest_Steel_Vanguard</defName>
+        <label>The Steel Vanguard</label>
+        <description>The Midwestern Brotherhood emerged from the wreckage of their crashed airships with a revolutionary understanding: survival demands adaptation. Unlike the isolationists at Lost Hills, the Midwest chapter actively recruits tribals, wastelanders, and even former enemies into their ranks. Technology still matters, but so does building an army capable of holding territory and protecting the people within it. The Codex is a guide, not a chain. Expansion is not corruption - it is evolution.</description>
+        <iconPath>World_Icon/BoS_Icon/FCP_BoS_World_Icon</iconPath>
+        <groupDef>Misc</groupDef>
+        <impact>3</impact>
+        <randomizationSelectionWeightFactor>0</randomizationSelectionWeightFactor>
+        <hiddenInChooseMemes>true</hiddenInChooseMemes>
+        <requireOne>
+            <li><li>Cannibalism_Abhorrent</li></li>
+            <li><li>Corpses_Ugly</li></li>
+            <li><li>Lovin_Free</li></li>
+            <li><li>MarriageName_UsuallyMans</li></li>
+            <li><li>SpouseCount_Male_MaxOne</li></li>
+            <li><li>SpouseCount_Female_MaxOne</li></li>
+            <li><li>Charity_Worthwhile</li></li>
+            <li><li>DrugUse_MedicalOrSocial</li></li>
+            <li><li>IdeoDiversity_Approved</li></li>
+            <li><li>Nudity_Male_UncoveredGroinDisapproved</li></li>
+            <li><li>Nudity_Female_UncoveredGroinOrChestDisapproved</li></li>
+            <li><li>OrganUse_HorribleSellOK</li></li>
+            <li><li>Execution_DontCare</li></li>
+            <li><li>Skullspike_Disapproved</li></li>
+            <li><li>Slavery_Disapproved</li></li>
+            <li><li>Blinding_Horrible</li></li>
+            <li><li>Scarification_Horrible</li></li>
+            <li><li>FCP_Precept_Midwest_Recruitment</li></li>
+            <li><li>FCP_Precept_Midwest_Expansionism</li></li>
+        </requireOne>
+        <requiredRituals>
+            <li>
+                <precept>LeaderSpeech</precept>
+                <pattern>LeaderSpeech</pattern>
+            </li>
+        </requiredRituals>
+    </MemeDef>
+
     <!--__________ Precepts __________-->
+
+    <!-- Lost Hills Purity -->
+
+    <PreceptDef>
+        <defName>FCP_Precept_Lost_Hills_Purity</defName>
+        <issue>Charity</issue>
+        <label>bloodline purity is sacred</label>
+        <description>The Brotherhood's strength comes from its founding bloodlines. Those born into the Brotherhood carry the legacy of Roger Maxson and the original Mariposa survivors. Outsiders can never truly understand our mission.</description>
+        <impact>High</impact>
+        <displayOrderInImpact>100</displayOrderInImpact>
+        <conflictingMemes>
+            <li>FCP_Meme_Midwest_Steel_Vanguard</li>
+            <li>FCP_Meme_Lyons_Steel_Compassion</li>
+        </conflictingMemes>
+        <statOffsets>
+            <ResearchSpeedFactor>0.20</ResearchSpeedFactor>
+            <GlobalLearningFactor>0.15</GlobalLearningFactor>
+        </statOffsets>
+    </PreceptDef>
+
+    <!-- Lost Hills Isolationism -->
+
+    <PreceptDef>
+        <defName>FCP_Precept_Lost_Hills_Isolationism</defName>
+        <issue>Charity</issue>
+        <label>isolation preserves us</label>
+        <description>The wasteland is full of threats - raiders, mutants, and fools who would misuse technology. The Brotherhood endures by keeping to itself, trading only when necessary, and never revealing our full strength to outsiders.</description>
+        <impact>Medium</impact>
+        <displayOrderInImpact>101</displayOrderInImpact>
+        <statOffsets>
+            <TradePriceImprovement>-0.10</TradePriceImprovement>
+        </statOffsets>
+    </PreceptDef>
+
+    <!-- Midwest Recruitment -->
+
+    <PreceptDef>
+        <defName>FCP_Precept_Midwest_Recruitment</defName>
+        <issue>Charity</issue>
+        <label>worthy outsiders strengthen us</label>
+        <description>The Brotherhood cannot survive on bloodlines alone. Tribals, wastelanders, even former enemies - anyone with skill and dedication can earn their place in the Brotherhood. Recruitment is not weakness; it is wisdom.</description>
+        <impact>High</impact>
+        <displayOrderInImpact>100</displayOrderInImpact>
+        <conflictingMemes>
+            <li>FCP_Meme_Lost_Hills_Codex_Eternal</li>
+            <li>FCP_Meme_Outcast_True_Codex</li>
+        </conflictingMemes>
+        <statOffsets>
+            <NegotiationAbility>0.25</NegotiationAbility>
+            <SocialImpact>0.15</SocialImpact>
+        </statOffsets>
+    </PreceptDef>
+
+    <!-- Midwest Expansionism -->
+
+    <PreceptDef>
+        <defName>FCP_Precept_Midwest_Expansionism</defName>
+        <issue>Charity</issue>
+        <label>expansion secures our future</label>
+        <description>Territory means resources, recruits, and security. The Midwest Brotherhood does not hide in bunkers - we claim land, build outposts, and protect the people within our borders. A Brotherhood that does not grow will eventually die.</description>
+        <impact>Medium</impact>
+        <displayOrderInImpact>101</displayOrderInImpact>
+        <statOffsets>
+            <ConstructionSpeed>0.15</ConstructionSpeed>
+            <WorkSpeedGlobal>0.05</WorkSpeedGlobal>
+        </statOffsets>
+    </PreceptDef>
 
     <!-- Main BoS Technology Control -->
 

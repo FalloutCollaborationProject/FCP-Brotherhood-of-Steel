@@ -1296,4 +1296,96 @@
 		</backstoryFiltersOverride>
 	</PawnKindDef>
 
+	<!--___ Midwestern Brotherhood ___-->
+
+	<!-- Midwestern Paladin -->
+
+	<PawnKindDef ParentName="FCP_BoSkindBase">
+		<defName>FCP_Pawnkind_BoS_Midwest_Paladin</defName>
+		<label>Midwestern Paladin</label>
+		<defaultFactionDef>FCP_Faction_BoS_Midwest</defaultFactionDef>
+		<combatPower>70</combatPower>
+		<gearHealthRange>0.7~2</gearHealthRange>
+		<apparelRequired>
+			<li MayRequire="Rick.FCP.PowerArmor">FCP_Apparel_Power_Armor_Frame</li>
+			<li>FCP_Apparel_BoS_Jumpsuit</li>
+			<li MayRequire="Rick.FCP.PowerArmor">FCP_Apparel_BoS_Midwestern_Power_Armor</li>
+			<li MayRequire="Rick.FCP.PowerArmor">FCP_Apparel_BoS_Midwestern_Power_Armor_Helmet</li>
+		</apparelRequired>
+		<weaponMoney>400~1200</weaponMoney>
+		<weaponTags>
+			<li>Gun</li>
+			<li MayRequire="Rick.FCP.EnergyWeapons">FCP_Laser_Weapon</li>
+			<li MayRequire="Rick.FCP.EnergyWeapons">FCP_Heavy_Laser_Weapon</li>
+		</weaponTags>
+		<forcedTraits>
+			<li>
+				<def>FCP_Trait_Power_Armor_Trained</def>
+			</li>
+		</forcedTraits>
+		<techHediffsMoney>50~50</techHediffsMoney>
+		<techHediffsTags>
+			<li>Poor</li>
+		</techHediffsTags>
+		<techHediffsChance>0.03</techHediffsChance>
+		<initialWillRange>3~5</initialWillRange>
+		<initialResistanceRange>19~30</initialResistanceRange>
+		<backstoryFiltersOverride>
+			<li>
+				<categoriesChildhood>
+					<li>FCP_Backstory_BoS_Midwest_Child</li>
+				</categoriesChildhood>
+				<categoriesAdulthood>
+					<li>FCP_Backstory_BoS_Midwest</li>
+				</categoriesAdulthood>
+			</li>
+		</backstoryFiltersOverride>
+	</PawnKindDef>
+
+	<!-- Midwestern Head Paladin (General) -->
+
+	<PawnKindDef ParentName="FCP_BoSkindBase">
+		<defName>FCP_Pawnkind_BoS_Midwest_General</defName>
+		<label>Midwestern General</label>
+		<defaultFactionDef>FCP_Faction_BoS_Midwest</defaultFactionDef>
+		<factionLeader>true</factionLeader>
+		<combatPower>90</combatPower>
+		<gearHealthRange>0.8~2</gearHealthRange>
+		<apparelRequired>
+			<li MayRequire="Rick.FCP.PowerArmor">FCP_Apparel_Power_Armor_Frame</li>
+			<li>FCP_Apparel_BoS_Jumpsuit</li>
+			<li MayRequire="Rick.FCP.PowerArmor">FCP_Apparel_BoS_Midwestern_Power_Armor</li>
+			<li MayRequire="Rick.FCP.PowerArmor">FCP_Apparel_BoS_Midwestern_Power_Armor_Helmet</li>
+		</apparelRequired>
+		<weaponMoney>600~1500</weaponMoney>
+		<weaponTags>
+			<li>Gun</li>
+			<li MayRequire="Rick.FCP.EnergyWeapons">FCP_Laser_Weapon</li>
+			<li MayRequire="Rick.FCP.EnergyWeapons">FCP_Heavy_Laser_Weapon</li>
+			<li MayRequire="Rick.FCP.EnergyWeapons">FCP_Plasma_Weapon</li>
+		</weaponTags>
+		<forcedTraits>
+			<li>
+				<def>FCP_Trait_Power_Armor_Trained</def>
+			</li>
+		</forcedTraits>
+		<techHediffsMoney>100~200</techHediffsMoney>
+		<techHediffsTags>
+			<li>Advanced</li>
+		</techHediffsTags>
+		<techHediffsChance>0.10</techHediffsChance>
+		<initialWillRange>5~6</initialWillRange>
+		<initialResistanceRange>25~35</initialResistanceRange>
+		<backstoryFiltersOverride>
+			<li>
+				<categoriesChildhood>
+					<li>FCP_Backstory_BoS_Midwest_Child</li>
+				</categoriesChildhood>
+				<categoriesAdulthood>
+					<li>FCP_Backstory_BoS_Midwest</li>
+				</categoriesAdulthood>
+			</li>
+		</backstoryFiltersOverride>
+	</PawnKindDef>
+
 </Defs>

@@ -23,7 +23,7 @@
 		<pawnSingular>Brother</pawnSingular>
 		<pawnsPlural>Brothers</pawnsPlural>
 		<categoryTag>Outlander</categoryTag>
-		<settlementGenerationWeight>1</settlementGenerationWeight>
+		<settlementGenerationWeight>0.001</settlementGenerationWeight>
 		<requiredCountAtGameStart>1</requiredCountAtGameStart>
 		<canSiege>true</canSiege>
 		<canStageAttacks>true</canStageAttacks>

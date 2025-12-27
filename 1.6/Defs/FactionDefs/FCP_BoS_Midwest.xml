@@ -5,7 +5,6 @@
 
 	<!-- Midwestern Brotherhood -->
 
-	<!--
 	<FactionDef ParentName="FactionBase">
 		<defName>FCP_Faction_BoS_Midwest</defName>
 		<label>Midwestern Brotherhood</label>
@@ -24,16 +23,16 @@
 		<pawnSingular>Brother</pawnSingular>
 		<pawnsPlural>Brothers</pawnsPlural>
 		<categoryTag>Outlander</categoryTag>
-		<settlementGenerationWeight>0.01</settlementGenerationWeight>
+		<settlementGenerationWeight>0.02</settlementGenerationWeight>
 		<requiredCountAtGameStart>1</requiredCountAtGameStart>
 		<maxCountAtGameStart>1</maxCountAtGameStart>
 		<canSiege>true</canSiege>
 		<canStageAttacks>true</canStageAttacks>
 		<leaderTitle>General</leaderTitle>
 		<fixedLeaderKinds>
-			<li>FCP_Pawnkind_BoS_Elder</li>
+			<li>FCP_Pawnkind_BoS_Midwest_General</li>
 		</fixedLeaderKinds>
-		<factionIconPath>World_Icon/BoS_Icon/FCP_BoS_World_Icon</factionIconPath>
+		<factionIconPath>World_Icon/BoS_Icon/FCP_Midwestern_BoS_World_Icon</factionIconPath>
 		<techLevel>Industrial</techLevel>
 		<fixedName>Midwestern Brotherhood</fixedName>
 		<settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
@@ -44,12 +43,11 @@
 		<!--__________ Ideology __________-->
 
 		<fixedIdeo>true</fixedIdeo>
-		<ideoName>The Midwest Doctrine</ideoName>
-		<ideoDescription>We are the Brotherhood reborn. Technology serves humanity, not the other way around. We recruit the worthy, we expand our reach, and we protect the wasteland. The old ways of isolation have failed - we chart a new path forward.</ideoDescription>
+		<ideoName>The Steel Vanguard</ideoName>
+		<ideoDescription>We are the Brotherhood evolved. When our airships crashed in the Midwest, we learned that survival demands adaptation. We recruit the worthy - tribals, wastelanders, even former enemies - because strength comes from unity, not isolation. The Codex guides us, but does not chain us. We expand, we protect, we endure.</ideoDescription>
 		<forcedMemes>
 			<li MayRequire="Ludeon.RimWorld.Ideology">Structure_Ideological</li>
-			<li MayRequire="Ludeon.RimWorld.Ideology">FCP_Meme_BoS_Codex_Supremacy</li>
-			<li MayRequire="Ludeon.RimWorld.Ideology">FCP_Meme_BoS_Paladins</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">FCP_Meme_Midwest_Steel_Vanguard</li>
 		</forcedMemes>
 		<requiredPreceptsOnly>true</requiredPreceptsOnly>
 
@@ -72,8 +70,8 @@
 		<backstoryFilters>
 			<li>
 				<categories>
-					<li>FCP_Backstory_BoS</li>
-					<li>FCP_Backstory_BoS_Child</li>
+					<li>FCP_Backstory_BoS_Midwest</li>
+					<li>FCP_Backstory_BoS_Midwest_Child</li>
 				</categories>
 			</li>
 		</backstoryFilters>
@@ -105,55 +103,22 @@
 			<li>
 				<kindDef>Combat</kindDef>
 				<options>
-					<FCP_Pawnkind_BoS_Initiate_Recon>10</FCP_Pawnkind_BoS_Initiate_Recon>
-					<FCP_Pawnkind_BoS_Field_Scribe>5</FCP_Pawnkind_BoS_Field_Scribe>
-					<FCP_Pawnkind_BoS_Knight>3</FCP_Pawnkind_BoS_Knight>
-					<FCP_Pawnkind_BoS_Paladin>2</FCP_Pawnkind_BoS_Paladin>
-					<FCP_Pawnkind_BoS_Sentinel>1</FCP_Pawnkind_BoS_Sentinel>
-					<FCP_Pawnkind_BoS_Elder>1</FCP_Pawnkind_BoS_Elder>
+					<FCP_Pawnkind_BoS_Midwest_Paladin>8</FCP_Pawnkind_BoS_Midwest_Paladin>
+					<FCP_Pawnkind_BoS_Midwest_General>1</FCP_Pawnkind_BoS_Midwest_General>
 				</options>
 			</li>
 			<li>
 				<kindDef>Peaceful</kindDef>
 				<options>
-					<FCP_Pawnkind_BoS_Initiate_Recon>10</FCP_Pawnkind_BoS_Initiate_Recon>
-					<FCP_Pawnkind_BoS_Field_Scribe>5</FCP_Pawnkind_BoS_Field_Scribe>
-					<FCP_Pawnkind_BoS_Knight>3</FCP_Pawnkind_BoS_Knight>
-					<FCP_Pawnkind_BoS_Paladin>2</FCP_Pawnkind_BoS_Paladin>
-					<FCP_Pawnkind_BoS_Sentinel>1</FCP_Pawnkind_BoS_Sentinel>
-					<FCP_Pawnkind_BoS_Elder>1</FCP_Pawnkind_BoS_Elder>
+					<FCP_Pawnkind_BoS_Midwest_Paladin>8</FCP_Pawnkind_BoS_Midwest_Paladin>
+					<FCP_Pawnkind_BoS_Midwest_General>1</FCP_Pawnkind_BoS_Midwest_General>
 				</options>
-			</li>
-			<li>
-				<kindDef>Trader</kindDef>
-				<traders>
-					<FCP_Pawnkind_BoS_Scribe_Proctor>1</FCP_Pawnkind_BoS_Scribe_Proctor>
-				</traders>
-				<carriers>
-					<FCP_Animal_Brahmin>6</FCP_Animal_Brahmin>
-				</carriers>
-				<guards>
-					<FCP_Pawnkind_BoS_Field_Scribe>7</FCP_Pawnkind_BoS_Field_Scribe>
-					<FCP_Pawnkind_BoS_Initiate_Recon>5</FCP_Pawnkind_BoS_Initiate_Recon>
-					<FCP_Pawnkind_BoS_Knight>3</FCP_Pawnkind_BoS_Knight>
-					<FCP_Pawnkind_BoS_Paladin>2</FCP_Pawnkind_BoS_Paladin>
-					<FCP_Pawnkind_BoS_Elder>1</FCP_Pawnkind_BoS_Elder>
-				</guards>
 			</li>
 			<li>
 				<kindDef>Settlement</kindDef>
 				<options>
-					<FCP_Pawnkind_BoS_Hopeful>12</FCP_Pawnkind_BoS_Hopeful>
-					<FCP_Pawnkind_BoS_Squire>8</FCP_Pawnkind_BoS_Squire>
-					<FCP_Pawnkind_BoS_Lancer>5</FCP_Pawnkind_BoS_Lancer>
-					<FCP_Pawnkind_BoS_Initiate_Recon>10</FCP_Pawnkind_BoS_Initiate_Recon>
-					<FCP_Pawnkind_BoS_Scribe>7</FCP_Pawnkind_BoS_Scribe>
-					<FCP_Pawnkind_BoS_Field_Scribe>5</FCP_Pawnkind_BoS_Field_Scribe>
-					<FCP_Pawnkind_BoS_Science_Scribe>4</FCP_Pawnkind_BoS_Science_Scribe>
-					<FCP_Pawnkind_BoS_Knight>4</FCP_Pawnkind_BoS_Knight>
-					<FCP_Pawnkind_BoS_Paladin>3</FCP_Pawnkind_BoS_Paladin>
-					<FCP_Pawnkind_BoS_Sentinel>2</FCP_Pawnkind_BoS_Sentinel>
-					<FCP_Pawnkind_BoS_Elder>1</FCP_Pawnkind_BoS_Elder>
+					<FCP_Pawnkind_BoS_Midwest_Paladin>8</FCP_Pawnkind_BoS_Midwest_Paladin>
+					<FCP_Pawnkind_BoS_Midwest_General>1</FCP_Pawnkind_BoS_Midwest_General>
 				</options>
 			</li>
 		</pawnGroupMakers>
@@ -174,6 +139,5 @@
 			</li>
 		</modExtensions>
 	</FactionDef>
-	-->
 
 </Defs>

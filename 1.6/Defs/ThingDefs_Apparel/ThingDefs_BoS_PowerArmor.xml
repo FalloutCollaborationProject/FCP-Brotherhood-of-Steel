@@ -95,6 +95,7 @@
         <statBases>
             <MaxHitPoints>280</MaxHitPoints>
             <Mass>6.5</Mass>
+            <MarketValue>3700</MarketValue>
             <ArmorRating_Sharp>2</ArmorRating_Sharp>
             <ArmorRating_Blunt>2</ArmorRating_Blunt>
             <ArmorRating_Heat>2</ArmorRating_Heat>
@@ -162,6 +163,7 @@
         <statBases>
             <MaxHitPoints>280</MaxHitPoints>
             <Mass>6.5</Mass>
+            <MarketValue>3500</MarketValue>
             <ArmorRating_Sharp>2</ArmorRating_Sharp>
             <ArmorRating_Blunt>2</ArmorRating_Blunt>
             <ArmorRating_Heat>2</ArmorRating_Heat>
@@ -229,6 +231,7 @@
         <statBases>
             <MaxHitPoints>280</MaxHitPoints>
             <Mass>6.5</Mass>
+            <MarketValue>3500</MarketValue>
             <ArmorRating_Sharp>2</ArmorRating_Sharp>
             <ArmorRating_Blunt>2</ArmorRating_Blunt>
             <ArmorRating_Heat>2</ArmorRating_Heat>
@@ -296,6 +299,7 @@
         <statBases>
             <MaxHitPoints>280</MaxHitPoints>
             <Mass>6.5</Mass>
+            <MarketValue>3500</MarketValue>
             <ArmorRating_Sharp>2</ArmorRating_Sharp>
             <ArmorRating_Blunt>2</ArmorRating_Blunt>
             <ArmorRating_Heat>2</ArmorRating_Heat>
@@ -363,6 +367,7 @@
         <statBases>
             <MaxHitPoints>280</MaxHitPoints>
             <Mass>6.5</Mass>
+            <MarketValue>3300</MarketValue>
             <ArmorRating_Sharp>2</ArmorRating_Sharp>
             <ArmorRating_Blunt>2</ArmorRating_Blunt>
             <ArmorRating_Heat>2</ArmorRating_Heat>
@@ -408,6 +413,75 @@
         <building />
     </ThingDef>
 
+    <!-- BoS Midwestern Horned Power Armor -->
+
+    <ThingDef ParentName="FCP_Apparel_Power_Armor_Base" MayRequire="Rick.FCP.PowerArmor">
+        <defName>FCP_Apparel_BoS_Midwestern_Power_Armor</defName>
+        <label>Midwestern Brotherhood Power Armor</label>
+        <description>The distinctive power armor of the Midwestern Brotherhood of Steel, featuring a unique horned helmet design that has become their signature on the battlefield. This armor represents the Midwest chapter's adaptive nature - maintaining Brotherhood standards while developing their own identity separate from Lost Hills. The intimidating silhouette strikes fear into raiders and mutants alike across the wastes of the former American Midwest.</description>
+        <smeltable>false</smeltable>
+        <thingSetMakerTags>
+            <li>RewardStandardMidFreq</li>
+        </thingSetMakerTags>
+        <thingClass>Apparel</thingClass>
+        <possessionCount>1</possessionCount>
+        <graphicData>
+            <texPath>Things/Apparel/BoS_Power_Armor/BoS_Midwestern_Power_Armor/FCP_Midwestern_Power_Armor_Hulk_south</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>1.3</drawSize>
+        </graphicData>
+        <uiIconScale>1.3</uiIconScale>
+        <tickerType>Normal</tickerType>
+        <statBases>
+            <MaxHitPoints>280</MaxHitPoints>
+            <Mass>6.5</Mass>
+            <MarketValue>3500</MarketValue>
+            <ArmorRating_Sharp>2</ArmorRating_Sharp>
+            <ArmorRating_Blunt>2</ArmorRating_Blunt>
+            <ArmorRating_Heat>2</ArmorRating_Heat>
+            <Insulation_Cold>6</Insulation_Cold>
+            <Insulation_Heat>6</Insulation_Heat>
+            <EquipDelay>1.1</EquipDelay>
+        </statBases>
+        <equippedStatOffsets>
+            <MoveSpeed>0.13</MoveSpeed>
+            <AimingDelayFactor>-0.07</AimingDelayFactor>
+            <ToxicEnvironmentResistance>1.0</ToxicEnvironmentResistance>
+            <SocialImpact>0.15</SocialImpact>
+        </equippedStatOffsets>
+        <apparel>
+            <shellRenderedBehindHead>true</shellRenderedBehindHead>
+            <bodyPartGroups>
+                <li>Hands</li>
+                <li>Feet</li>
+                <li>Neck</li>
+                <li>Legs</li>
+                <li>Arms</li>
+                <li>Torso</li>
+                <li>Waist</li>
+                <li>Shoulders</li>
+            </bodyPartGroups>
+            <wornGraphicPath>Things/Apparel/BoS_Power_Armor/BoS_Midwestern_Power_Armor/FCP_Midwestern_Power_Armor</wornGraphicPath>
+            <layers>
+                <li>Shell</li>
+            </layers>
+            <tags>
+                <li>FCP_Power_Armor</li>
+                <li>FCP_Power_Armor_Midwest</li>
+            </tags>
+            <defaultOutfitTags>
+                <li>Worker</li>
+            </defaultOutfitTags>
+            <canBeDesiredForIdeo>false</canBeDesiredForIdeo>
+            <useDeflectMetalEffect>true</useDeflectMetalEffect>
+            <developmentalStageFilter>Adult</developmentalStageFilter>
+        </apparel>
+        <tradeTags>
+            <li>FCP_Power_Armor_Basic</li>
+        </tradeTags>
+        <building />
+    </ThingDef>
+
     <!-- BoS Outcast T45 Power Armor -->
 
     <ThingDef ParentName="FCP_Apparel_Power_Armor_Base" MayRequire="Rick.FCP.PowerArmor">
@@ -430,6 +504,7 @@
         <statBases>
             <MaxHitPoints>280</MaxHitPoints>
             <Mass>6.5</Mass>
+            <MarketValue>3300</MarketValue>
             <ArmorRating_Sharp>2</ArmorRating_Sharp>
             <ArmorRating_Blunt>2</ArmorRating_Blunt>
             <ArmorRating_Heat>2</ArmorRating_Heat>

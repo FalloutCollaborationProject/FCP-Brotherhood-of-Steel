@@ -339,4 +339,63 @@
         </comps>
     </ThingDef>
 
+    <!-- BoS Midwestern Horned Power Armor Helmet -->
+
+    <ThingDef ParentName="FCP_Apparel_Power_Armor_Helmet_Base" MayRequire="Rick.FCP.PowerArmor">
+        <defName>FCP_Apparel_BoS_Midwestern_Power_Armor_Helmet</defName>
+        <label>Midwestern Brotherhood Power Armor Helmet</label>
+        <description>The iconic horned helmet of the Midwestern Brotherhood of Steel. This distinctive headgear has become synonymous with the Midwest chapter's pragmatic but formidable approach to wasteland warfare. The intimidating horned design serves both as a symbol of their independence from Lost Hills and as a psychological weapon against their enemies.</description>
+        <generateCommonality>0.001</generateCommonality>
+        <techLevel>Industrial</techLevel>
+        <graphicData>
+            <texPath>Things/Apparel/BoS_Power_Armor/BoS_Midwestern_Power_Armor/FCP_Midwestern_Power_Armor_Helmet_south</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>1.3</drawSize>
+        </graphicData>
+        <uiIconScale>1.3</uiIconScale>
+        <smeltable>false</smeltable>
+        <statBases>
+            <MaxHitPoints>80</MaxHitPoints>
+            <Mass>0.8</Mass>
+            <ArmorRating_Sharp>1.05</ArmorRating_Sharp>
+            <ArmorRating_Blunt>1.05</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.80</ArmorRating_Heat>
+            <Insulation_Heat>2</Insulation_Heat>
+            <EquipDelay>3</EquipDelay>
+        </statBases>
+        <equippedStatOffsets>
+            <ToxicEnvironmentResistance>0.8</ToxicEnvironmentResistance>
+            <MoveSpeed>-0.5</MoveSpeed>
+            <AimingDelayFactor>-0.01</AimingDelayFactor>
+            <SocialImpact>-0.05</SocialImpact>
+        </equippedStatOffsets>
+        <apparel>
+            <bodyPartGroups>
+                <li>UpperHead</li>
+                <li>FullHead</li>
+                <li>FullHead</li>
+            </bodyPartGroups>
+            <wornGraphicPath>Things/Apparel/BoS_Power_Armor/BoS_Midwestern_Power_Armor/FCP_Midwestern_Power_Armor_Helmet</wornGraphicPath>
+            <layers>
+                <li>Overhead</li>
+            </layers>
+            <tags>
+                <li>FCP_Power_Armor</li>
+                <li>FCP_Power_Armor_Midwest</li>
+            </tags>
+            <useDeflectMetalEffect>true</useDeflectMetalEffect>
+            <developmentalStageFilter>Adult</developmentalStageFilter>
+        </apparel>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Rare</rarity>
+            </li>
+            <li Class="RangerRick_PowerArmor.CompProperties_ApparelRequirement">
+                <requiredApparels>
+                    <li>FCP_Apparel_Power_Armor_Frame</li>
+                </requiredApparels>
+            </li>
+        </comps>
+    </ThingDef>
+
 </Defs>

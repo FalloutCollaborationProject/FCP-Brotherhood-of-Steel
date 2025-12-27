@@ -24,7 +24,7 @@
 		<pawnSingular>Brother</pawnSingular>
 		<pawnsPlural>Brothers</pawnsPlural>
 		<categoryTag>Outlander</categoryTag>
-		<settlementGenerationWeight>0.01</settlementGenerationWeight>
+		<settlementGenerationWeight>0.001</settlementGenerationWeight>
 		<requiredCountAtGameStart>1</requiredCountAtGameStart>
 		<maxCountAtGameStart>1</maxCountAtGameStart>
 		<canSiege>true</canSiege>
@@ -44,12 +44,11 @@
 		<!--__________ Ideology __________-->
 
 		<fixedIdeo>true</fixedIdeo>
-		<ideoName>The Original Codex</ideoName>
-		<ideoDescription>We are the first, the foundation upon which all Brotherhood chapters are built. Technology must be preserved and controlled by those worthy of its power. We are the shield that protects humanity from itself.</ideoDescription>
+		<ideoName>The Codex Eternal</ideoName>
+		<ideoDescription>We are the original Brotherhood of Steel, keepers of the true Codex as written by Roger Maxson. Technology must be preserved by those of pure bloodline. Outsiders cannot be trusted with our secrets or our legacy. We are the shield that protects humanity's technological heritage - isolation is our strength, purity is our path.</ideoDescription>
 		<forcedMemes>
 			<li MayRequire="Ludeon.RimWorld.Ideology">Structure_Ideological</li>
-			<li MayRequire="Ludeon.RimWorld.Ideology">FCP_Meme_BoS_Codex_Supremacy</li>
-			<li MayRequire="Ludeon.RimWorld.Ideology">FCP_Meme_BoS_Paladins</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">FCP_Meme_Lost_Hills_Codex_Eternal</li>
 		</forcedMemes>
 		<requiredPreceptsOnly>true</requiredPreceptsOnly>
 
