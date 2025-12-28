@@ -42,7 +42,7 @@
         <salaryLabelKey>FCP_BoS_Salary_Label</salaryLabelKey>
         <salaryDescKey>FCP_BoS_Salary_Desc</salaryDescKey>
         <salaryButtonIconTexPath>Things/UI/Enlisted/FCP_BoS_Salary</salaryButtonIconTexPath>
-        <salaryRange>300~500</salaryRange>
+        <salaryRange>875~1225</salaryRange>
         <salaryPeriodDays>14</salaryPeriodDays>
 
         <!-- Provision Options -->
@@ -224,7 +224,7 @@
         <salaryLabelKey>FCP_BoS_Salary_Label</salaryLabelKey>
         <salaryDescKey>FCP_BoS_Salary_Desc</salaryDescKey>
         <salaryButtonIconTexPath>Things/UI/Enlisted/FCP_BoS_Salary</salaryButtonIconTexPath>
-        <salaryRange>350~550</salaryRange>
+        <salaryRange>875~1225</salaryRange>
         <salaryPeriodDays>14</salaryPeriodDays>
 
         <!-- Provision Options -->
@@ -406,7 +406,7 @@
         <salaryLabelKey>FCP_BoS_Salary_Label</salaryLabelKey>
         <salaryDescKey>FCP_BoS_Salary_Desc</salaryDescKey>
         <salaryButtonIconTexPath>Things/UI/Enlisted/FCP_BoS_Salary</salaryButtonIconTexPath>
-        <salaryRange>300~500</salaryRange>
+        <salaryRange>875~1225</salaryRange>
         <salaryPeriodDays>14</salaryPeriodDays>
 
         <!-- Provision Options -->
