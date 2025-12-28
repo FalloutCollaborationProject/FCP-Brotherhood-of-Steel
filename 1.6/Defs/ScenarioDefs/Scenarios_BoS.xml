@@ -23,6 +23,11 @@
                 <hide>true</hide>
             </surfaceLayer>
             <parts>
+                <!-- Pawn Arrival Method -->
+                <li Class="ScenPart_PlayerPawnsArriveMethod">
+                    <def>PlayerPawnsArriveMethod</def>
+                    <method>Standing</method>
+                </li>
                 <!-- Map generation -->
                 <li Class="ScenPart_CreateIncident">
                     <def>CreateIncident</def>
@@ -126,6 +131,11 @@
                 <hide>true</hide>
             </surfaceLayer>
             <parts>
+                <!-- Pawn Arrival Method -->
+                <li Class="ScenPart_PlayerPawnsArriveMethod">
+                    <def>PlayerPawnsArriveMethod</def>
+                    <method>Standing</method>
+                </li>
                 <!-- Map generation -->
                 <li Class="ScenPart_CreateIncident">
                     <def>CreateIncident</def>
@@ -207,7 +217,11 @@
                 <hide>true</hide>
             </surfaceLayer>
             <parts>
-
+                <!-- Pawn Arrival Method -->
+                <li Class="ScenPart_PlayerPawnsArriveMethod">
+                    <def>PlayerPawnsArriveMethod</def>
+                    <method>Standing</method>
+                </li>
                 <!-- Configure pawns -->
                 <li Class="ScenPart_ConfigPage_ConfigureStartingPawns">
                     <def>ConfigPage_ConfigureStartingPawns</def>
@@ -310,7 +324,11 @@
                 <hide>true</hide>
             </surfaceLayer>
             <parts>
-
+                <!-- Pawn Arrival Method -->
+                <li Class="ScenPart_PlayerPawnsArriveMethod">
+                    <def>PlayerPawnsArriveMethod</def>
+                    <method>Standing</method>
+                </li>
                 <!-- Configure pawns -->
                 <li Class="ScenPart_ConfigPage_ConfigureStartingPawns">
                     <def>ConfigPage_ConfigureStartingPawns</def>
@@ -413,6 +431,11 @@
                 <hide>true</hide>
             </surfaceLayer>
             <parts>
+                <!-- Pawn Arrival Method -->
+                <li Class="ScenPart_PlayerPawnsArriveMethod">
+                    <def>PlayerPawnsArriveMethod</def>
+                    <method>Standing</method>
+                </li>
                 <!-- Map generation -->
                 <li Class="ScenPart_CreateIncident">
                     <def>CreateIncident</def>
