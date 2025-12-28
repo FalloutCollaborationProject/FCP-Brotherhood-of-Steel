@@ -14,9 +14,7 @@
         <description>Advanced T-60 power armor bearing the distinctive colors and insignia of the Appalachian Brotherhood of Steel. This battle-tested armor provides exceptional protection while maintaining mobility, representing the pinnacle of pre-war American military engineering adapted for wasteland operations.</description>
         <smeltable>false</smeltable>
         <thingClass>Apparel</thingClass>
-        <thingSetMakerTags>
-            <li>RewardStandardMidFreq</li>
-        </thingSetMakerTags>
+        <thingSetMakerTags Inherit="False" />
         <possessionCount>1</possessionCount>
         <graphicData>
             <texPath>Things/Apparel/BoS_Power_Armor/BoS_Appalaccia_T60_Power_Armor/FCP_BoS_Appalaccia_T60_Power_Armor_Hulk_south</texPath>
@@ -80,9 +78,7 @@
         <label>BoS T60 Power Armor</label>
         <description>Standard issue T-60 power armor worn by Brotherhood of Steel soldiers. Built for maximum protection and battlefield durability, this armor represents the apex of pre-war power armor technology, enhanced with post-war modifications and field improvements developed by Brotherhood engineers.</description>
         <smeltable>false</smeltable>
-        <thingSetMakerTags>
-            <li>RewardStandardMidFreq</li>
-        </thingSetMakerTags>
+        <thingSetMakerTags Inherit="False" />
         <possessionCount>1</possessionCount>
         <thingClass>Apparel</thingClass>
         <graphicData>
@@ -148,9 +144,7 @@
         <label>BoS T51 Power Armor</label>
         <description>The venerable T-51 power armor, a mainstay of Brotherhood forces. While older than the T-60 series, this armor has proven its reliability through decades of wasteland combat. Its tried-and-true design offers excellent protection and has been extensively field-tested by Brotherhood knights and paladins.</description>
         <smeltable>false</smeltable>
-        <thingSetMakerTags>
-            <li>RewardStandardMidFreq</li>
-        </thingSetMakerTags>
+        <thingSetMakerTags Inherit="False" />
         <thingClass>Apparel</thingClass>
         <possessionCount>1</possessionCount>
         <graphicData>
@@ -216,9 +210,7 @@
         <label>BoS Appalachia T51 Power Armor</label>
         <description>T-51 power armor customized for the harsh Appalachian environment. This variant features enhanced environmental sealing and radiation shielding, adapted for the unique challenges faced by the Brotherhood's Appalachian chapter in their mission to reclaim and protect technology.</description>
         <smeltable>false</smeltable>
-        <thingSetMakerTags>
-            <li>RewardStandardMidFreq</li>
-        </thingSetMakerTags>
+        <thingSetMakerTags Inherit="False" />
         <thingClass>Apparel</thingClass>
         <possessionCount>1</possessionCount>
         <graphicData>
@@ -284,9 +276,7 @@
         <label>BoS Lost Hills T51 Power Armor</label>
         <description>T-51 power armor in the classic colors of the original Brotherhood chapter from Lost Hills. This armor represents the foundation of Brotherhood traditions and the original mission to preserve and control pre-war technology for the betterment of humanity.</description>
         <smeltable>false</smeltable>
-        <thingSetMakerTags>
-            <li>RewardStandardMidFreq</li>
-        </thingSetMakerTags>
+        <thingSetMakerTags Inherit="False" />
         <thingClass>Apparel</thingClass>
         <possessionCount>1</possessionCount>
         <graphicData>
@@ -352,9 +342,7 @@
         <label>BoS Lyons T45 Power Armor</label>
         <description>T-45 power armor bearing the distinctive markings of Elder Lyons' progressive Brotherhood. This armor represents a departure from traditional Brotherhood doctrine, used by soldiers who prioritized protecting the innocent over hoarding technology, marking a controversial but heroic chapter in Brotherhood history.</description>
         <smeltable>false</smeltable>
-        <thingSetMakerTags>
-            <li>RewardStandardMidFreq</li>
-        </thingSetMakerTags>
+        <thingSetMakerTags Inherit="False" />
         <thingClass>Apparel</thingClass>
         <possessionCount>1</possessionCount>
         <graphicData>
@@ -420,9 +408,7 @@
         <label>Midwestern Brotherhood Power Armor</label>
         <description>The distinctive power armor of the Midwestern Brotherhood of Steel, featuring a unique horned helmet design that has become their signature on the battlefield. This armor represents the Midwest chapter's adaptive nature - maintaining Brotherhood standards while developing their own identity separate from Lost Hills. The intimidating silhouette strikes fear into raiders and mutants alike across the wastes of the former American Midwest.</description>
         <smeltable>false</smeltable>
-        <thingSetMakerTags>
-            <li>RewardStandardMidFreq</li>
-        </thingSetMakerTags>
+        <thingSetMakerTags Inherit="False" />
         <thingClass>Apparel</thingClass>
         <possessionCount>1</possessionCount>
         <graphicData>
@@ -489,9 +475,7 @@
         <label>BoS Outcast T51 Power Armor</label>
         <description>T-45 power armor worn by Brotherhood Outcasts, painted in their characteristic black and red colors. These hardline traditionalists broke away from Elder Lyons' compassionate policies, believing the Brotherhood should focus solely on acquiring technology rather than helping wastelanders.</description>
         <smeltable>false</smeltable>
-        <thingSetMakerTags>
-            <li>RewardStandardMidFreq</li>
-        </thingSetMakerTags>
+        <thingSetMakerTags Inherit="False" />
         <thingClass>Apparel</thingClass>
         <possessionCount>1</possessionCount>
         <graphicData>
