@@ -9,7 +9,7 @@
         <defName>FCP_Meme_BoS_Codex_Supremacy</defName>
         <label>Codex Supremacy</label>
         <description>The Brotherhood of Steel operates under the strict tenets of the Codex, a sacred doctrine that demands the preservation and control of advanced technology. Under Elder Maxson, the Brotherhood has united the ideals of both the Outcasts' technological zealotry and Lyons' willingness to engage with outsiders - but on the Brotherhood's terms. Technology must be controlled, mutants and synths are abominations to be destroyed, and only through discipline and hierarchy can humanity be saved from itself. The Brotherhood is both shield and sword - protecting humanity while ensuring dangerous technology never falls into the wrong hands.</description>
-        <iconPath>World_Icon/BoS_Icon/FCP_BoS_World_Icon</iconPath>
+        <iconPath>Things/UI/Ideology/BoS/FCP_BoS_Codex_Supremacy</iconPath>
         <groupDef>Misc</groupDef>
         <impact>3</impact>
         <randomizationSelectionWeightFactor>0</randomizationSelectionWeightFactor>
@@ -49,7 +49,7 @@
         <defName>FCP_Meme_BoS_Paladins</defName>
         <label>Paladins of Steel</label>
         <description>Paladins are the Brotherhood's elite warriors, clad in power armor and wielding the most advanced weapons. They are the tip of the spear in any Brotherhood operation, trained to engage the most dangerous threats head-on. A Paladin's duty is to lead from the front, inspire their squadmates, and demonstrate the Brotherhood's martial superiority.</description>
-        <iconPath>World_Icon/BoS_Icon/FCP_BoS_World_Icon</iconPath>
+        <iconPath>Things/UI/Ideology/BoS/FCP_BoS_Paladin</iconPath>
         <groupDef>Misc</groupDef>
         <impact>2</impact>
         <randomizationSelectionWeightFactor>0</randomizationSelectionWeightFactor>
@@ -69,7 +69,7 @@
         <defName>FCP_Meme_Lyons_Steel_Compassion</defName>
         <label>Steel Compassion</label>
         <description>Elder Lyons taught that technology is worthless if it doesn't serve the people. The Lyons Pride believes the Brotherhood must be more than collectors and hoarders - they must be protectors and builders. While still bound by the Codex's technical wisdom, they reject its isolationism. Technology should be preserved, but also deployed to help those in need. The wasteland doesn't need another group of tech-hoarders; it needs guardians who understand that saving humanity means actually helping humans, not just safeguarding artifacts.</description>
-        <iconPath>Things/UI/Ideology/LyonsPride/FCP_Lyons_Pride_Steel_Compassion</iconPath>
+        <iconPath>Things/UI/Ideology/Lyons_Pride/FCP_Lyons_Pride_Steel_Compassion</iconPath>
         <groupDef>Misc</groupDef>
         <impact>3</impact>
         <randomizationSelectionWeightFactor>0</randomizationSelectionWeightFactor>
@@ -107,7 +107,7 @@
         <defName>FCP_Meme_Lyons_Shield</defName>
         <label>Shields of the People</label>
         <description>The Shield of the People represents everything the Lyons Pride stands for - warriors who protect the innocent and fight for those who cannot fight for themselves. They combine Brotherhood combat prowess with genuine compassion, serving as both soldiers and humanitarian workers.</description>
-        <iconPath>Things/UI/Ideology/LyonsPride/FCP_Lyons_Pride_Shield_of_the_People</iconPath>
+        <iconPath>Things/UI/Ideology/Lyons_Pride/FCP_Lyons_Pride_Shield_of_the_People</iconPath>
         <groupDef>Misc</groupDef>
         <impact>2</impact>
         <randomizationSelectionWeightFactor>0</randomizationSelectionWeightFactor>
@@ -227,7 +227,7 @@
         <defName>FCP_Meme_Midwest_Steel_Vanguard</defName>
         <label>The Steel Vanguard</label>
         <description>The Midwestern Brotherhood emerged from the wreckage of their crashed airships with a revolutionary understanding: survival demands adaptation. Unlike the isolationists at Lost Hills, the Midwest chapter actively recruits tribals, wastelanders, and even former enemies into their ranks. Technology still matters, but so does building an army capable of holding territory and protecting the people within it. The Codex is a guide, not a chain. Expansion is not corruption - it is evolution.</description>
-        <iconPath>World_Icon/BoS_Icon/FCP_BoS_World_Icon</iconPath>
+        <iconPath>Things/UI/Ideology/Midwest/FCP_Midwest_Steel_Vanguard</iconPath>
         <groupDef>Misc</groupDef>
         <impact>3</impact>
         <randomizationSelectionWeightFactor>0</randomizationSelectionWeightFactor>
@@ -418,7 +418,7 @@
         <defName>FCP_IdeoRole_Paladin</defName>
         <label>Paladin</label>
         <description>Paladins are the Brotherhood's finest warriors, masters of power armor combat and tactical leadership. They lead squads into the most dangerous situations and serve as examples of martial excellence.</description>
-        <iconPath>World_Icon/BoS_Icon/FCP_BoS_World_Icon</iconPath>
+        <iconPath>Things/UI/Ideology/BoS/FCP_BoS_Paladin</iconPath>
         <nameMaker>NamerRoleShooter</nameMaker>
         <roleRequirements>
             <li Class="RoleRequirement_MinSkillAny">
@@ -479,7 +479,7 @@
         <defName>FCP_IdeoRole_Lyons_Shield</defName>
         <label>Shield of the People</label>
         <description>Shields combine combat prowess with genuine compassion, serving as both warriors and protectors. They embody Elder Lyons' belief that power must be used to defend those who cannot defend themselves.</description>
-        <iconPath>Things/UI/Ideology/LyonsPride/FCP_Lyons_Pride_Shield_of_the_People</iconPath>
+        <iconPath>Things/UI/Ideology/Lyons_Pride/FCP_Lyons_Pride_Shield_of_the_People</iconPath>
         <nameMaker>NamerRoleShooter</nameMaker>
         <roleRequirements>
             <li Class="RoleRequirement_MinSkillAny">
