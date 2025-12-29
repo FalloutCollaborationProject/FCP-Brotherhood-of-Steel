@@ -194,6 +194,21 @@
 				<minDistanceBetweenShuttles>10</minDistanceBetweenShuttles>
 				<maxPawnCountInOneShuttle>6</maxPawnCountInOneShuttle>
 			</li>
+            <!-- Ideology stuff -->
+            <li Class="FCP.Core.ModExtension_FixedIdeo">
+                <ideoIconDef>FCP_Icon_Lyons_Pride</ideoIconDef>
+                <ideoColorDef>LightGrey</ideoColorDef>
+                <memberName>Brother</memberName>
+                <adjective>Brother</adjective>
+                <roleOverrides>
+                    <li>
+                        <preceptDef>FCP_IdeoRole_Lyons_Shield</preceptDef>
+                        <newName>Shield Paladin</newName>
+                        <disableApparelRequirements>true</disableApparelRequirements>
+                        <!--<apparelRequirementsOverride></apparelRequirementsOverride>-->
+                    </li>
+                </roleOverrides>
+            </li>
 		</modExtensions>
 	</FactionDef>
 

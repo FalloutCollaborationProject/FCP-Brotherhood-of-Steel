@@ -182,6 +182,25 @@
 				<minDistanceBetweenShuttles>10</minDistanceBetweenShuttles>
 				<maxPawnCountInOneShuttle>6</maxPawnCountInOneShuttle>
 			</li>
+            <!-- Ideology stuff -->
+            <li Class="FCP.Core.ModExtension_FixedIdeo">
+                <ideoIconDef>FCP_Icon_BoS</ideoIconDef>
+                <ideoColorDef>LightGrey</ideoColorDef>
+                <memberName>Brother</memberName>
+                <adjective>Brother</adjective>
+                <roleOverrides>
+                    <li>
+                        <preceptDef>IdeoRole_Leader</preceptDef>
+                        <disableApparelRequirements>true</disableApparelRequirements>
+                    </li>
+                    <li>
+                        <preceptDef>FCP_IdeoRole_Paladin</preceptDef>
+                        <newName>Brotherhood Paladin</newName>
+                        <disableApparelRequirements>false</disableApparelRequirements>
+                        <!--<apparelRequirementsOverride></apparelRequirementsOverride>-->
+                    </li>
+                </roleOverrides>
+            </li>
 		</modExtensions>
 	</FactionDef>
 

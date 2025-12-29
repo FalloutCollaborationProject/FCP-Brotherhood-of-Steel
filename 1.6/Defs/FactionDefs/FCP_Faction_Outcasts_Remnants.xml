@@ -171,6 +171,21 @@
 				<minDistanceBetweenShuttles>10</minDistanceBetweenShuttles>
 				<maxPawnCountInOneShuttle>6</maxPawnCountInOneShuttle>
 			</li>
+            <!-- Ideology stuff -->
+            <li Class="FCP.Core.ModExtension_FixedIdeo">
+                <ideoIconDef>FCP_Icon_Outcasts</ideoIconDef>
+                <ideoColorDef>LightGrey</ideoColorDef>
+                <memberName>Outcast</memberName>
+                <adjective>Outcast</adjective>
+                <roleOverrides>
+                    <li>
+                        <preceptDef>FCP_IdeoRole_Outcast_Defender</preceptDef>
+                        <newName>Outcast Defender</newName>
+                        <disableApparelRequirements>true</disableApparelRequirements>
+                        <!--<apparelRequirementsOverride></apparelRequirementsOverride>-->
+                    </li>
+                </roleOverrides>
+            </li>
 		</modExtensions>
 	</FactionDef>
 
