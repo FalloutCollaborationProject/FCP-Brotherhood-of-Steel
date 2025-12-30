@@ -109,7 +109,7 @@
         <pawnSingular>Brother</pawnSingular>
         <pawnsPlural>Brothers</pawnsPlural>
         <leaderTitle>Elder</leaderTitle>
-        <factionIconPath>World_Icon/BoS_Icon/FCP_BoS_Mojave_World_Icon</factionIconPath>
+        <factionIconPath>World_Icon/BoS_Icon/FCP_Mojave_World_Icon</factionIconPath>
         <colorSpectrum>
 			<li>(1, 1, 1)</li>
         </colorSpectrum>

@@ -183,7 +183,7 @@
 				<maxPawnCountInOneShuttle>6</maxPawnCountInOneShuttle>
 			</li>
             <!-- Ideology stuff -->
-            <!-- <li Class="FCP.Core.ModExtension_FixedIdeo">
+            <li Class="FCP.Core.ModExtension_FixedIdeo">
                 <ideoIconDef>FCP_Icon_BoS</ideoIconDef>
                 <ideoColorDef>LightGrey</ideoColorDef>
                 <memberName>Brother</memberName>
@@ -199,8 +199,14 @@
                         <disableApparelRequirements>true</disableApparelRequirements>
                         <apparelRequirementsOverride></apparelRequirementsOverride>
                     </li>
+                    <li>
+                        <preceptDef>IdeoRole_Moralist</preceptDef>
+                        <newName>Sentinel</newName>
+                        <disableApparelRequirements>true</disableApparelRequirements>
+                        <!--<apparelRequirementsOverride></apparelRequirementsOverride>-->
+                    </li>
                 </roleOverrides>
-            </li> -->
+            </li>
 		</modExtensions>
 	</FactionDef>
 
