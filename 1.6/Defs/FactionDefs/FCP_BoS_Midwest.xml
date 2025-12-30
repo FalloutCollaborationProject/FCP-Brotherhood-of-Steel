@@ -43,7 +43,6 @@
 		<!--__________ Ideology __________-->
 
 		<fixedIdeo>true</fixedIdeo>
-		<ideoIconDef>FCP_Icon_Midwestern</ideoIconDef>
 		<ideoName>The Steel Vanguard</ideoName>
 		<ideoDescription>We are the Brotherhood evolved. When our airships crashed in the Midwest, we learned that survival demands adaptation. We recruit the worthy - tribals, wastelanders, even former enemies - because strength comes from unity, not isolation. The Codex guides us, but does not chain us. We expand, we protect, we endure.</ideoDescription>
 		<forcedMemes>
@@ -139,12 +138,24 @@
 				<maxPawnCountInOneShuttle>6</maxPawnCountInOneShuttle>
 			</li>
             <!-- Ideology stuff -->
-            <li Class="FCP.Core.ModExtension_FixedIdeo">
+            <!-- <li Class="FCP.Core.ModExtension_FixedIdeo">
                 <ideoIconDef>FCP_Icon_Midwest</ideoIconDef>
                 <ideoColorDef>LightGrey</ideoColorDef>
                 <memberName>Brother</memberName>
                 <adjective>Brother</adjective>
-            </li>
+                <roleOverrides>
+                    <li>
+                        <preceptDef>IdeoRole_Leader</preceptDef>
+                        <disableApparelRequirements>true</disableApparelRequirements>
+                    </li>
+                    <li>
+                        <preceptDef>FCP_IdeoRole_Paladin</preceptDef>
+                        <newName>Paladin</newName>
+                        <disableApparelRequirements>true</disableApparelRequirements>
+                        <apparelRequirementsOverride></apparelRequirementsOverride>
+                    </li>
+                </roleOverrides>
+            </li> -->
 		</modExtensions>
 	</FactionDef>
 

@@ -42,7 +42,6 @@
 		<!--__________ Ideology __________-->
 
 		<fixedIdeo>true</fixedIdeo>
-		<ideoIconDef>FCP_Icon_Lyons_Pride</ideoIconDef>
 		<ideoName>Lyons' Legacy</ideoName>
 		<ideoDescription>Elder Lyons taught us that technology without compassion is worthless. We are the shield of the people, protectors of the innocent, and proof that the Brotherhood can be more than collectors of artifacts.</ideoDescription>
 		<forcedMemes>
@@ -196,20 +195,12 @@
 				<maxPawnCountInOneShuttle>6</maxPawnCountInOneShuttle>
 			</li>
             <!-- Ideology stuff -->
-            <li Class="FCP.Core.ModExtension_FixedIdeo">
+            <!-- <li Class="FCP.Core.ModExtension_FixedIdeo">
                 <ideoIconDef>FCP_Icon_Lyons_Pride</ideoIconDef>
                 <ideoColorDef>LightGrey</ideoColorDef>
                 <memberName>Brother</memberName>
                 <adjective>Brother</adjective>
-                <roleOverrides>
-                    <li>
-                        <preceptDef>FCP_IdeoRole_Lyons_Shield</preceptDef>
-                        <newName>Shield Paladin</newName>
-                        <disableApparelRequirements>true</disableApparelRequirements>
-                        <!--<apparelRequirementsOverride></apparelRequirementsOverride>-->
-                    </li>
-                </roleOverrides>
-            </li>
+            </li> -->
 		</modExtensions>
 	</FactionDef>
 

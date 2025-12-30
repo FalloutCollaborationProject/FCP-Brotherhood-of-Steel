@@ -34,7 +34,7 @@
     <!-- Midwestern -->
 
     <IdeoIconDef>
-        <defName>FCP_Icon_Midwestern</defName>
+        <defName>FCP_Icon_Midwest</defName>
         <iconPath>Things/UI/Ideology/Midwest/FCP_Midwest_Steel_Vanguard</iconPath>
         <cultures>
             <li>FCP_Culture_BoS</li>

@@ -132,12 +132,12 @@
 				<maxPawnCountInOneShuttle>6</maxPawnCountInOneShuttle>
 			</li>
             <!-- Ideology stuff -->
-            <li Class="FCP.Core.ModExtension_FixedIdeo">
+            <!-- <li Class="FCP.Core.ModExtension_FixedIdeo">
                 <ideoIconDef>FCP_Icon_Lost_Hills</ideoIconDef>
                 <ideoColorDef>LightGrey</ideoColorDef>
                 <memberName>Brother</memberName>
                 <adjective>Brother</adjective>
-            </li>
+            </li> -->
 		</modExtensions>
 	</FactionDef>
 

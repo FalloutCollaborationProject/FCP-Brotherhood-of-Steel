@@ -42,7 +42,6 @@
 		<!--__________ Ideology __________-->
 
 		<fixedIdeo>true</fixedIdeo>
-		<ideoIconDef>FCP_Icon_BoS</ideoIconDef>
 		<ideoName>The Codex</ideoName>
 		<ideoDescription>Under Elder Maxson, the Brotherhood has united discipline with purpose. We preserve technology, we protect humanity from itself, and we destroy the abominations that threaten our future. Steel be with us.</ideoDescription>
 		<forcedMemes>
@@ -184,7 +183,7 @@
 				<maxPawnCountInOneShuttle>6</maxPawnCountInOneShuttle>
 			</li>
             <!-- Ideology stuff -->
-            <li Class="FCP.Core.ModExtension_FixedIdeo">
+            <!-- <li Class="FCP.Core.ModExtension_FixedIdeo">
                 <ideoIconDef>FCP_Icon_BoS</ideoIconDef>
                 <ideoColorDef>LightGrey</ideoColorDef>
                 <memberName>Brother</memberName>
@@ -196,12 +195,12 @@
                     </li>
                     <li>
                         <preceptDef>FCP_IdeoRole_Paladin</preceptDef>
-                        <newName>Brotherhood Paladin</newName>
-                        <disableApparelRequirements>false</disableApparelRequirements>
-                        <!--<apparelRequirementsOverride></apparelRequirementsOverride>-->
+                        <newName>Paladin</newName>
+                        <disableApparelRequirements>true</disableApparelRequirements>
+                        <apparelRequirementsOverride></apparelRequirementsOverride>
                     </li>
                 </roleOverrides>
-            </li>
+            </li> -->
 		</modExtensions>
 	</FactionDef>
 

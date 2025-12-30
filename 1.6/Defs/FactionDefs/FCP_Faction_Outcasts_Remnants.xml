@@ -42,7 +42,6 @@
 		<!--__________ Ideology __________-->
 
 		<fixedIdeo>true</fixedIdeo>
-		<ideoIconDef>FCP_Icon_Outcasts</ideoIconDef>
 		<ideoName>True Codex</ideoName>
 		<ideoDescription>We are the keepers of the true Brotherhood mission. Technology must be preserved at all costs. Outsiders cannot be trusted with the power of the Old World. The Codex is law.</ideoDescription>
 		<forcedMemes>
@@ -173,20 +172,12 @@
 				<maxPawnCountInOneShuttle>6</maxPawnCountInOneShuttle>
 			</li>
             <!-- Ideology stuff -->
-            <li Class="FCP.Core.ModExtension_FixedIdeo">
+            <!-- <li Class="FCP.Core.ModExtension_FixedIdeo">
                 <ideoIconDef>FCP_Icon_Outcasts</ideoIconDef>
                 <ideoColorDef>LightGrey</ideoColorDef>
                 <memberName>Outcast</memberName>
                 <adjective>Outcast</adjective>
-                <roleOverrides>
-                    <li>
-                        <preceptDef>FCP_IdeoRole_Outcast_Defender</preceptDef>
-                        <newName>Outcast Defender</newName>
-                        <disableApparelRequirements>true</disableApparelRequirements>
-                        <!--<apparelRequirementsOverride></apparelRequirementsOverride>-->
-                    </li>
-                </roleOverrides>
-            </li>
+            </li> -->
 		</modExtensions>
 	</FactionDef>
 
