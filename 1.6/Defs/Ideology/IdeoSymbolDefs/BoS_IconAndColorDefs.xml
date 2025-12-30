@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <!-- BoS -->
+
+    <IdeoIconDef>
+        <defName>FCP_Icon_BoS</defName>
+        <iconPath>Things/UI/Ideology/BoS/FCP_BoS_Codex_Supremacy</iconPath>
+        <cultures>
+            <li>FCP_Culture_BoS</li>
+        </cultures>
+    </IdeoIconDef>
+
+    <!-- Lyons Pride -->
+
+    <IdeoIconDef>
+        <defName>FCP_Icon_Lyons_Pride</defName>
+        <iconPath>Things/UI/Ideology/Lyons_Pride/FCP_Lyons_Pride_Steel_Compassion</iconPath>
+        <cultures>
+            <li>FCP_Culture_Lyons_BoS</li>
+        </cultures>
+    </IdeoIconDef>
+
+    <!-- Outcasts -->
+
+    <IdeoIconDef>
+        <defName>FCP_Icon_Outcasts</defName>
+        <iconPath>Things/UI/Ideology/Outcasts/FCP_Outcast_True_Codex</iconPath>
+        <cultures>
+            <li>FCP_Culture_BoS_Outcasts</li>
+        </cultures>
+    </IdeoIconDef>
+
+    <!-- Midwestern -->
+
+    <IdeoIconDef>
+        <defName>FCP_Icon_Midwestern</defName>
+        <iconPath>Things/UI/Ideology/Midwest/FCP_Midwest_Steel_Vanguard</iconPath>
+        <cultures>
+            <li>FCP_Culture_BoS</li>
+        </cultures>
+    </IdeoIconDef>
+
+    <!-- Lost Hills -->
+
+    <IdeoIconDef>
+        <defName>FCP_Icon_Lost_Hills</defName>
+        <iconPath>Things/UI/Ideology/BoS/FCP_BoS_Codex_Supremacy</iconPath>
+        <cultures>
+            <li>FCP_Culture_BoS</li>
+        </cultures>
+    </IdeoIconDef>
+
+</Defs>

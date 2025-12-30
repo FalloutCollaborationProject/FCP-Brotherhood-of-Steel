@@ -43,6 +43,7 @@
 		<!--__________ Ideology __________-->
 
 		<fixedIdeo>true</fixedIdeo>
+		<ideoIconDef>FCP_Icon_Midwestern</ideoIconDef>
 		<ideoName>The Steel Vanguard</ideoName>
 		<ideoDescription>We are the Brotherhood evolved. When our airships crashed in the Midwest, we learned that survival demands adaptation. We recruit the worthy - tribals, wastelanders, even former enemies - because strength comes from unity, not isolation. The Codex guides us, but does not chain us. We expand, we protect, we endure.</ideoDescription>
 		<forcedMemes>

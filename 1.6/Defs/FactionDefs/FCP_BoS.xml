@@ -42,6 +42,7 @@
 		<!--__________ Ideology __________-->
 
 		<fixedIdeo>true</fixedIdeo>
+		<ideoIconDef>FCP_Icon_BoS</ideoIconDef>
 		<ideoName>The Codex</ideoName>
 		<ideoDescription>Under Elder Maxson, the Brotherhood has united discipline with purpose. We preserve technology, we protect humanity from itself, and we destroy the abominations that threaten our future. Steel be with us.</ideoDescription>
 		<forcedMemes>

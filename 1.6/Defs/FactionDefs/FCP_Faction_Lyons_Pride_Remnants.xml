@@ -42,6 +42,7 @@
 		<!--__________ Ideology __________-->
 
 		<fixedIdeo>true</fixedIdeo>
+		<ideoIconDef>FCP_Icon_Lyons_Pride</ideoIconDef>
 		<ideoName>Lyons' Legacy</ideoName>
 		<ideoDescription>Elder Lyons taught us that technology without compassion is worthless. We are the shield of the people, protectors of the innocent, and proof that the Brotherhood can be more than collectors of artifacts.</ideoDescription>
 		<forcedMemes>
