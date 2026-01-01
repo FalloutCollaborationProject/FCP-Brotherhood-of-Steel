@@ -31,6 +31,13 @@
                 </categories>
             </li>
         </backstoryFilters>
+        <modExtensions>
+            <li Class="FCP_Shuttles.FactionModExtension">
+                <transportShipDef>FCP_BoS_Vertibird</transportShipDef>
+                <minDistanceBetweenShuttles>10</minDistanceBetweenShuttles>
+                <maxPawnCountInOneShuttle>6</maxPawnCountInOneShuttle>
+            </li>
+        </modExtensions>
     </FactionDef>
 
     <!-- Lyons Pride Remnants Player Faction -->
@@ -61,6 +68,13 @@
                 </categories>
             </li>
         </backstoryFilters>
+        <modExtensions>
+            <li Class="FCP_Shuttles.FactionModExtension">
+                <transportShipDef>FCP_BoS_Vertibird</transportShipDef>
+                <minDistanceBetweenShuttles>10</minDistanceBetweenShuttles>
+                <maxPawnCountInOneShuttle>6</maxPawnCountInOneShuttle>
+            </li>
+        </modExtensions>
     </FactionDef>
 
     <!-- Brotherhood Outcasts Player Faction -->
@@ -94,6 +108,13 @@
                 </categories>
             </li>
         </backstoryFilters>
+        <modExtensions>
+            <li Class="FCP_Shuttles.FactionModExtension">
+                <transportShipDef>FCP_BoS_Outcast_Vertibird</transportShipDef>
+                <minDistanceBetweenShuttles>10</minDistanceBetweenShuttles>
+                <maxPawnCountInOneShuttle>6</maxPawnCountInOneShuttle>
+            </li>
+        </modExtensions>
     </FactionDef>
 
     <!-- Brotherhood of Steel Mojave Chapter Player Faction -->
@@ -124,6 +145,13 @@
                 </categories>
             </li>
         </backstoryFilters>
+        <modExtensions>
+            <li Class="FCP_Shuttles.FactionModExtension">
+                <transportShipDef>FCP_BoS_Vertibird</transportShipDef>
+                <minDistanceBetweenShuttles>10</minDistanceBetweenShuttles>
+                <maxPawnCountInOneShuttle>6</maxPawnCountInOneShuttle>
+            </li>
+        </modExtensions>
     </FactionDef>
 
     <!-- Brotherhood of Steel Appalachia Chapter Player Faction -->
@@ -154,6 +182,13 @@
                 </categories>
             </li>
         </backstoryFilters>
+        <modExtensions>
+            <li Class="FCP_Shuttles.FactionModExtension">
+                <transportShipDef>FCP_BoS_Vertibird</transportShipDef>
+                <minDistanceBetweenShuttles>10</minDistanceBetweenShuttles>
+                <maxPawnCountInOneShuttle>6</maxPawnCountInOneShuttle>
+            </li>
+        </modExtensions>
     </FactionDef>
 
 </Defs>

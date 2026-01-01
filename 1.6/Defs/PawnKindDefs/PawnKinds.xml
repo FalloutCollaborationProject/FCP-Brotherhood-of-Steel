@@ -216,6 +216,9 @@
 		<initialResistanceRange>15~24</initialResistanceRange>
 		<backstoryFiltersOverride>
 			<li>
+				<categoriesChildhood>
+					<li>FCP_Backstory_BoS_Child</li>
+				</categoriesChildhood>
 				<categoriesAdulthood>
 					<li>FCP_Backstory_BoS_Knight</li>
 				</categoriesAdulthood>
@@ -244,6 +247,9 @@
 		<initialResistanceRange>15~24</initialResistanceRange>
 		<backstoryFiltersOverride>
 			<li>
+				<categoriesChildhood>
+					<li>FCP_Backstory_BoS_Child</li>
+				</categoriesChildhood>
 				<categoriesAdulthood>
 					<li>FCP_Backstory_BoS_Knight</li>
 				</categoriesAdulthood>
@@ -272,6 +278,9 @@
 		<initialResistanceRange>17~28</initialResistanceRange>
 		<backstoryFiltersOverride>
 			<li>
+				<categoriesChildhood>
+					<li>FCP_Backstory_BoS_Child</li>
+				</categoriesChildhood>
 				<categoriesAdulthood>
 					<li>FCP_Backstory_BoS_Knight</li>
 				</categoriesAdulthood>
@@ -300,6 +309,9 @@
 		<initialResistanceRange>19~30</initialResistanceRange>
 		<backstoryFiltersOverride>
 			<li>
+				<categoriesChildhood>
+					<li>FCP_Backstory_BoS_Child</li>
+				</categoriesChildhood>
 				<categoriesAdulthood>
 					<li>FCP_Backstory_BoS_Knight</li>
 				</categoriesAdulthood>
@@ -783,6 +795,9 @@
 		<initialResistanceRange>15~24</initialResistanceRange>
 		<backstoryFiltersOverride>
 			<li>
+				<categoriesChildhood>
+					<li>FCP_Backstory_BoS_Child</li>
+				</categoriesChildhood>
 				<categoriesAdulthood>
 					<li>FCP_Backstory_BoS_Knight</li>
 				</categoriesAdulthood>
