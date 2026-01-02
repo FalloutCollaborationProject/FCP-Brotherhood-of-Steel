@@ -36,7 +36,7 @@
 		<factionIconPath>World_Icon/BoS_Icon/FCP_Lost_Hills_World_Icon</factionIconPath>
 		<techLevel>Industrial</techLevel>
 		<fixedName>Lost Hills Chapter</fixedName>
-		<settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
+		<settlementNameMaker>FCP_Namer_Settlement_Lost_Hills</settlementNameMaker>
 		<allowedCultures>
 			<li>FCP_Culture_BoS</li>
 		</allowedCultures>

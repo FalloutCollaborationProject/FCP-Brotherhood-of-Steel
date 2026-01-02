@@ -34,7 +34,7 @@
 		<factionIconPath>World_Icon/BoS_Icon/FCP_Outcast_World_Icon</factionIconPath>
 		<techLevel>Industrial</techLevel>
 		<fixedName>Brotherhood Outcasts</fixedName>
-		<settlementNameMaker>NamerSettlementPirate</settlementNameMaker>
+		<settlementNameMaker>FCP_Namer_Settlement_Outcasts</settlementNameMaker>
 		<allowedCultures>
 			<li>FCP_Culture_BoS_Outcasts</li>
 		</allowedCultures>

@@ -35,7 +35,7 @@
 		<factionIconPath>World_Icon/BoS_Icon/FCP_Midwestern_BoS_World_Icon</factionIconPath>
 		<techLevel>Industrial</techLevel>
 		<fixedName>Midwestern Brotherhood</fixedName>
-		<settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
+		<settlementNameMaker>FCP_Namer_Settlement_Midwest_BoS</settlementNameMaker>
 		<allowedCultures>
 			<li>FCP_Culture_BoS</li>
 		</allowedCultures>

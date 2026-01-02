@@ -34,7 +34,7 @@
 		<factionIconPath>World_Icon/BoS_Icon/FCP_BoS_World_Icon</factionIconPath>
 		<techLevel>Industrial</techLevel>
 		<fixedName>Brotherhood of Steel</fixedName>
-		<settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
+		<settlementNameMaker>FCP_Namer_Settlement_BoS</settlementNameMaker>
 		<allowedCultures>
 			<li>FCP_Culture_BoS</li>
 		</allowedCultures>
