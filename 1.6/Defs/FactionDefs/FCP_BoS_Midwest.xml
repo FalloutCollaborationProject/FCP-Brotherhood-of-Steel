@@ -9,12 +9,12 @@
 		<defName>FCP_Faction_BoS_Midwest</defName>
 		<label>Midwestern Brotherhood</label>
 		<description>The Midwestern Brotherhood of Steel broke away from the main order during an airship expedition that crash-landed in the Midwest. Unlike their Western counterparts, the Midwestern chapter has adopted a more pragmatic and expansionist philosophy, actively recruiting tribals and wastelanders into their ranks. They maintain the Brotherhood's devotion to technology and military prowess, but have shed much of the isolationism that defines other chapters. Their territory spans vast stretches of the former American Midwest, making them one of the largest and most diverse Brotherhood chapters, though they remain estranged from Lost Hills' authority.</description>
-		<royalTitleTags>
+		<royalTitleTags MayRequire="Ludeon.RimWorld.Royalty">
 			<li>FCP_Title_BoS</li>
 		</royalTitleTags>
-		<royalFavorLabel>Honor</royalFavorLabel>
-		<royalTitleInheritanceWorkerClass>RoyalTitleInheritanceWorker</royalTitleInheritanceWorkerClass>
-		<royalTitleInheritanceRelations>
+		<royalFavorLabel MayRequire="Ludeon.RimWorld.Royalty">Honor</royalFavorLabel>
+		<royalTitleInheritanceWorkerClass MayRequire="Ludeon.RimWorld.Royalty">RoyalTitleInheritanceWorker</royalTitleInheritanceWorkerClass>
+		<royalTitleInheritanceRelations MayRequire="Ludeon.RimWorld.Royalty">
 		</royalTitleInheritanceRelations>
 		<colorSpectrum>
 			<li>(1, 1, 1)</li>
@@ -42,14 +42,14 @@
 
 		<!--__________ Ideology __________-->
 
-		<fixedIdeo>true</fixedIdeo>
-		<ideoName>The Steel Vanguard</ideoName>
-		<ideoDescription>We are the Brotherhood evolved. When our airships crashed in the Midwest, we learned that survival demands adaptation. We recruit the worthy - tribals, wastelanders, even former enemies - because strength comes from unity, not isolation. The Codex guides us, but does not chain us. We expand, we protect, we endure.</ideoDescription>
-		<forcedMemes>
-			<li MayRequire="Ludeon.RimWorld.Ideology">Structure_Ideological</li>
-			<li MayRequire="Ludeon.RimWorld.Ideology">FCP_Meme_Midwest_Steel_Vanguard</li>
+		<fixedIdeo MayRequire="Ludeon.RimWorld.Ideology">true</fixedIdeo>
+		<ideoName MayRequire="Ludeon.RimWorld.Ideology">The Steel Vanguard</ideoName>
+		<ideoDescription MayRequire="Ludeon.RimWorld.Ideology">We are the Brotherhood evolved. When our airships crashed in the Midwest, we learned that survival demands adaptation. We recruit the worthy - tribals, wastelanders, even former enemies - because strength comes from unity, not isolation. The Codex guides us, but does not chain us. We expand, we protect, we endure.</ideoDescription>
+		<forcedMemes MayRequire="Ludeon.RimWorld.Ideology">
+			<li>Structure_Ideological</li>
+			<li>FCP_Meme_Midwest_Steel_Vanguard</li>
 		</forcedMemes>
-		<requiredPreceptsOnly>true</requiredPreceptsOnly>
+		<requiredPreceptsOnly MayRequire="Ludeon.RimWorld.Ideology">true</requiredPreceptsOnly>
 
 		<!--__________ Biotech __________-->
 

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Defs>
+<Defs MayRequire="Ludeon.RimWorld.Ideology">
 
 	<RulePackDef>
 		<defName>FCP_LeaderTitleMaker_BoS</defName>

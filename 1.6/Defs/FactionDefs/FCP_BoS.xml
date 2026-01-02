@@ -9,12 +9,12 @@
 		<defName>FCP_Faction_BoS</defName>
 		<label>Brotherhood of Steel</label>
 		<description>The Brotherhood of Steel is one of the oldest still existing factions in the wasteland. It was founded just before and during the great war itself. True to its army origin, the Brotherhood is a militarised society, based on discipline, prowess, and reliability. However, there are a great number of Brotherhood chapters with often strongly deviating philosophies. Some might see themselves as the sole protectors of humanity and act noble and chivalrous, while others might see outsiders as clueless degenerates unfit for the technological marvels they might possess. Among the few things shared by all chapters of the Brotherhood is their obsession with technology (and the safeguarding of it) and their imposing suits of power armour which make them, despite their small numbers, one of the most powerful groups in the wasteland.</description>
-		<royalTitleTags>
+		<royalTitleTags MayRequire="Ludeon.RimWorld.Royalty">
 			<li>FCP_Title_BoS</li>
 		</royalTitleTags>
-		<royalFavorLabel>Honor</royalFavorLabel>
-		<royalTitleInheritanceWorkerClass>RoyalTitleInheritanceWorker</royalTitleInheritanceWorkerClass>
-		<royalTitleInheritanceRelations>
+		<royalFavorLabel MayRequire="Ludeon.RimWorld.Royalty">Honor</royalFavorLabel>
+		<royalTitleInheritanceWorkerClass MayRequire="Ludeon.RimWorld.Royalty">RoyalTitleInheritanceWorker</royalTitleInheritanceWorkerClass>
+		<royalTitleInheritanceRelations MayRequire="Ludeon.RimWorld.Royalty">
 		</royalTitleInheritanceRelations>
 		<colorSpectrum>
 			<li>(1, 1, 1)</li>
@@ -41,24 +41,24 @@
 
 		<!--__________ Ideology __________-->
 
-		<fixedIdeo>true</fixedIdeo>
-		<ideoName>The Codex</ideoName>
-		<ideoDescription>Under Elder Maxson, the Brotherhood has united discipline with purpose. We preserve technology, we protect humanity from itself, and we destroy the abominations that threaten our future. Steel be with us.</ideoDescription>
-		<forcedMemes>
+		<fixedIdeo MayRequire="Ludeon.RimWorld.Ideology">true</fixedIdeo>
+		<ideoName MayRequire="Ludeon.RimWorld.Ideology">The Codex</ideoName>
+		<ideoDescription MayRequire="Ludeon.RimWorld.Ideology">Under Elder Maxson, the Brotherhood has united discipline with purpose. We preserve technology, we protect humanity from itself, and we destroy the abominations that threaten our future. Steel be with us.</ideoDescription>
+		<forcedMemes MayRequire="Ludeon.RimWorld.Ideology">
 			<!-- Structure -->
-			<li MayRequire="Ludeon.RimWorld.Ideology">Structure_Ideological</li>
+			<li>Structure_Ideological</li>
 			<!-- Memes -->
-			<li MayRequire="Ludeon.RimWorld.Ideology">FCP_Meme_BoS_Codex_Supremacy</li>
-			<li MayRequire="Ludeon.RimWorld.Ideology">FCP_Meme_BoS_Paladins</li>
+			<li>FCP_Meme_BoS_Codex_Supremacy</li>
+			<li>FCP_Meme_BoS_Paladins</li>
 		</forcedMemes>
-		<requiredPreceptsOnly>true</requiredPreceptsOnly>
-		<disallowedPrecepts>
-			<li MayRequire="Ludeon.RimWorld.Ideology">DrugUse_MedicalOnly</li>
-			<li MayRequire="Ludeon.RimWorld.Ideology">DrugUse_Prohibited</li>
+		<requiredPreceptsOnly MayRequire="Ludeon.RimWorld.Ideology">true</requiredPreceptsOnly>
+		<disallowedPrecepts MayRequire="Ludeon.RimWorld.Ideology">
+			<li>DrugUse_MedicalOnly</li>
+			<li>DrugUse_Prohibited</li>
 		</disallowedPrecepts>
-		<disallowedMemes>
-			<li MayRequire="Ludeon.RimWorld.Ideology">Nudism</li>
-			<li MayRequire="Ludeon.RimWorld.Ideology">Blindsight</li>
+		<disallowedMemes MayRequire="Ludeon.RimWorld.Ideology">
+			<li>Nudism</li>
+			<li>Blindsight</li>
 		</disallowedMemes>
 
 		<!--__________ Biotech __________-->

@@ -10,12 +10,12 @@
 		<defName>FCP_Faction_BoS_Lost_Hills</defName>
 		<label>Lost Hills Chapter</label>
 		<description>The Lost Hills Chapter is the original Brotherhood of Steel, founded by Roger Maxson in the ruins of the Mariposa Military Base. As the first and founding chapter, Lost Hills represents the purest form of the Brotherhood's ideals - technological preservation, military discipline, and isolationist philosophy. They are the keepers of the original Codex and consider themselves the supreme authority over all Brotherhood chapters. Their fortress in the Lost Hills bunker complex remains one of the most technologically advanced facilities in the wasteland, housing pre-war military hardware and the Brotherhood's most elite soldiers.</description>
-		<royalTitleTags>
+		<royalTitleTags MayRequire="Ludeon.RimWorld.Royalty">
 			<li>FCP_Title_BoS</li>
 		</royalTitleTags>
-		<royalFavorLabel>Honor</royalFavorLabel>
-		<royalTitleInheritanceWorkerClass>RoyalTitleInheritanceWorker</royalTitleInheritanceWorkerClass>
-		<royalTitleInheritanceRelations>
+		<royalFavorLabel MayRequire="Ludeon.RimWorld.Royalty">Honor</royalFavorLabel>
+		<royalTitleInheritanceWorkerClass MayRequire="Ludeon.RimWorld.Royalty">RoyalTitleInheritanceWorker</royalTitleInheritanceWorkerClass>
+		<royalTitleInheritanceRelations MayRequire="Ludeon.RimWorld.Royalty">
 		</royalTitleInheritanceRelations>
 		<colorSpectrum>
 			<li>(1, 1, 1)</li>
@@ -43,14 +43,14 @@
 
 		<!--__________ Ideology __________-->
 
-		<fixedIdeo>true</fixedIdeo>
-		<ideoName>The Codex Eternal</ideoName>
-		<ideoDescription>We are the original Brotherhood of Steel, keepers of the true Codex as written by Roger Maxson. Technology must be preserved by those of pure bloodline. Outsiders cannot be trusted with our secrets or our legacy. We are the shield that protects humanity's technological heritage - isolation is our strength, purity is our path.</ideoDescription>
-		<forcedMemes>
-			<li MayRequire="Ludeon.RimWorld.Ideology">Structure_Ideological</li>
-			<li MayRequire="Ludeon.RimWorld.Ideology">FCP_Meme_Lost_Hills_Codex_Eternal</li>
+		<fixedIdeo MayRequire="Ludeon.RimWorld.Ideology">true</fixedIdeo>
+		<ideoName MayRequire="Ludeon.RimWorld.Ideology">The Codex Eternal</ideoName>
+		<ideoDescription MayRequire="Ludeon.RimWorld.Ideology">We are the original Brotherhood of Steel, keepers of the true Codex as written by Roger Maxson. Technology must be preserved by those of pure bloodline. Outsiders cannot be trusted with our secrets or our legacy. We are the shield that protects humanity's technological heritage - isolation is our strength, purity is our path.</ideoDescription>
+		<forcedMemes MayRequire="Ludeon.RimWorld.Ideology">
+			<li>Structure_Ideological</li>
+			<li>FCP_Meme_Lost_Hills_Codex_Eternal</li>
 		</forcedMemes>
-		<requiredPreceptsOnly>true</requiredPreceptsOnly>
+		<requiredPreceptsOnly MayRequire="Ludeon.RimWorld.Ideology">true</requiredPreceptsOnly>
 
 		<!--__________ Biotech __________-->
 

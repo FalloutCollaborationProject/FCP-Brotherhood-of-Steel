@@ -9,12 +9,12 @@
 		<defName>FCP_Faction_BoS_Lyons_Pride_Remnants</defName>
 		<label>Lyons' Pride Remnants</label>
 		<description>The Lyons' Pride remnants are a faction of disciplined and technologically advanced warriors, striving to preserve the ideals of their late leader, Elder Lyons. Once a proud and unified chapter, they now operate as a fragmented yet determined group, clinging to their mission of protecting humanity and safeguarding advanced technology. Though their numbers have dwindled, their resolve remains unshaken, and they continue to uphold their code of honor amidst the chaos of the wasteland. Their advanced weaponry, power armor, and tactical expertise make them a formidable force, whether as allies or adversaries.</description>
-		<royalTitleTags>
+		<royalTitleTags MayRequire="Ludeon.RimWorld.Royalty">
 			<li>FCP_Title_Lyons_Pride</li>
 		</royalTitleTags>
-		<royalFavorLabel>Pride Honor</royalFavorLabel>
-		<royalTitleInheritanceWorkerClass>RoyalTitleInheritanceWorker</royalTitleInheritanceWorkerClass>
-		<royalTitleInheritanceRelations>
+		<royalFavorLabel MayRequire="Ludeon.RimWorld.Royalty">Pride Honor</royalFavorLabel>
+		<royalTitleInheritanceWorkerClass MayRequire="Ludeon.RimWorld.Royalty">RoyalTitleInheritanceWorker</royalTitleInheritanceWorkerClass>
+		<royalTitleInheritanceRelations MayRequire="Ludeon.RimWorld.Royalty">
 		</royalTitleInheritanceRelations>
 		<colorSpectrum>
 			<li>(1, 1, 1)</li>
@@ -41,24 +41,24 @@
 
 		<!--__________ Ideology __________-->
 
-		<fixedIdeo>true</fixedIdeo>
-		<ideoName>Lyons' Legacy</ideoName>
-		<ideoDescription>Elder Lyons taught us that technology without compassion is worthless. We are the shield of the people, protectors of the innocent, and proof that the Brotherhood can be more than collectors of artifacts.</ideoDescription>
-		<forcedMemes>
+		<fixedIdeo MayRequire="Ludeon.RimWorld.Ideology">true</fixedIdeo>
+		<ideoName MayRequire="Ludeon.RimWorld.Ideology">Lyons' Legacy</ideoName>
+		<ideoDescription MayRequire="Ludeon.RimWorld.Ideology">Elder Lyons taught us that technology without compassion is worthless. We are the shield of the people, protectors of the innocent, and proof that the Brotherhood can be more than collectors of artifacts.</ideoDescription>
+		<forcedMemes MayRequire="Ludeon.RimWorld.Ideology">
 			<!-- Structure -->
-			<li MayRequire="Ludeon.RimWorld.Ideology">Structure_Ideological</li>
+			<li>Structure_Ideological</li>
 			<!-- Memes -->
-			<li MayRequire="Ludeon.RimWorld.Ideology">FCP_Meme_Lyons_Steel_Compassion</li>
-			<li MayRequire="Ludeon.RimWorld.Ideology">FCP_Meme_Lyons_Shield</li>
+			<li>FCP_Meme_Lyons_Steel_Compassion</li>
+			<li>FCP_Meme_Lyons_Shield</li>
 		</forcedMemes>
-		<requiredPreceptsOnly>true</requiredPreceptsOnly>
-		<disallowedPrecepts>
-			<li MayRequire="Ludeon.RimWorld.Ideology">DrugUse_MedicalOnly</li>
-			<li MayRequire="Ludeon.RimWorld.Ideology">DrugUse_Prohibited</li>
+		<requiredPreceptsOnly MayRequire="Ludeon.RimWorld.Ideology">true</requiredPreceptsOnly>
+		<disallowedPrecepts MayRequire="Ludeon.RimWorld.Ideology">
+			<li>DrugUse_MedicalOnly</li>
+			<li>DrugUse_Prohibited</li>
 		</disallowedPrecepts>
-		<disallowedMemes>
-			<li MayRequire="Ludeon.RimWorld.Ideology">Nudism</li>
-			<li MayRequire="Ludeon.RimWorld.Ideology">Blindsight</li>
+		<disallowedMemes MayRequire="Ludeon.RimWorld.Ideology">
+			<li>Nudism</li>
+			<li>Blindsight</li>
 		</disallowedMemes>
 
 		<!--__________ Biotech __________-->
