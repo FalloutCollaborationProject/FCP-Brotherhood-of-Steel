@@ -169,6 +169,12 @@
 		</pawnGroupMakers>
 		<settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
 		<modExtensions>
+            <!-- Make them hostile to the Enclave -->
+            <li Class="FCP.Core.ModExtension_FactionPermanentlyHostileTo">
+                <hostileFactionDefs>
+                    <li MayRequire="altushka.boscompendium">FCP_Faction_Enclave</li>
+                </hostileFactionDefs>
+            </li>
 			<li Class="FCP.Enlist.FactionEnlistOptions">
 				<enlistOptionsDefs>
 					<li>FCP_Enlistment_BoS</li>
