@@ -24,6 +24,7 @@
         <statBases>
             <MaxHitPoints>80</MaxHitPoints>
             <Mass>0.8</Mass>
+            <MarketValue>1000</MarketValue>
             <ArmorRating_Sharp>3.00</ArmorRating_Sharp>
             <ArmorRating_Blunt>2.80</ArmorRating_Blunt>
             <ArmorRating_Heat>2.20</ArmorRating_Heat>
@@ -78,6 +79,7 @@
         <statBases>
             <MaxHitPoints>80</MaxHitPoints>
             <Mass>0.8</Mass>
+            <MarketValue>1000</MarketValue>
             <ArmorRating_Sharp>3.00</ArmorRating_Sharp>
             <ArmorRating_Blunt>2.80</ArmorRating_Blunt>
             <ArmorRating_Heat>2.20</ArmorRating_Heat>
@@ -132,6 +134,7 @@
         <statBases>
             <MaxHitPoints>80</MaxHitPoints>
             <Mass>0.8</Mass>
+            <MarketValue>900</MarketValue>
             <ArmorRating_Sharp>2.80</ArmorRating_Sharp>
             <ArmorRating_Blunt>2.60</ArmorRating_Blunt>
             <ArmorRating_Heat>2.20</ArmorRating_Heat>
@@ -186,6 +189,7 @@
         <statBases>
             <MaxHitPoints>80</MaxHitPoints>
             <Mass>0.8</Mass>
+            <MarketValue>900</MarketValue>
             <ArmorRating_Sharp>2.80</ArmorRating_Sharp>
             <ArmorRating_Blunt>2.60</ArmorRating_Blunt>
             <ArmorRating_Heat>2.20</ArmorRating_Heat>
@@ -241,6 +245,7 @@
         <statBases>
             <MaxHitPoints>80</MaxHitPoints>
             <Mass>0.8</Mass>
+            <MarketValue>800</MarketValue>
             <ArmorRating_Sharp>2.00</ArmorRating_Sharp>
             <ArmorRating_Blunt>1.80 </ArmorRating_Blunt>
             <ArmorRating_Heat>1.40</ArmorRating_Heat>
@@ -299,6 +304,7 @@
         <statBases>
             <MaxHitPoints>80</MaxHitPoints>
             <Mass>0.8</Mass>
+            <MarketValue>800</MarketValue>
             <ArmorRating_Sharp>0.95</ArmorRating_Sharp>
             <ArmorRating_Blunt>0.95</ArmorRating_Blunt>
             <ArmorRating_Heat>0.80</ArmorRating_Heat>
@@ -357,6 +363,7 @@
         <statBases>
             <MaxHitPoints>80</MaxHitPoints>
             <Mass>0.8</Mass>
+            <MarketValue>900</MarketValue>
             <ArmorRating_Sharp>2.80</ArmorRating_Sharp>
             <ArmorRating_Blunt>2.60</ArmorRating_Blunt>
             <ArmorRating_Heat>2.20</ArmorRating_Heat>
