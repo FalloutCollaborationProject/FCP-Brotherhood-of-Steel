@@ -118,7 +118,7 @@
                 <li>Waist</li>
                 <li>Shoulders</li>
             </bodyPartGroups>
-            <wornGraphicPath>Things/Apparel/BoS_Power_Armor/BoS_T60_Power_Armor/FCP_BoS_T60_Power_Armor_south</wornGraphicPath>
+            <wornGraphicPath>Things/Apparel/BoS_Power_Armor/BoS_T60_Power_Armor/FCP_BoS_T60_Power_Armor</wornGraphicPath>
             <layers>
                 <li>Shell</li>
             </layers>
