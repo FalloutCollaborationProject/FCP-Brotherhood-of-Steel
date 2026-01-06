@@ -179,7 +179,6 @@
         </graphicData>
         <recipeMaker Inherit= "false">
             <unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
-            <researchPrerequisite>FCP_Research_BoS_Power_Armor</researchPrerequisite>
             <skillRequirements>
                 <Crafting>4</Crafting>
             </skillRequirements>

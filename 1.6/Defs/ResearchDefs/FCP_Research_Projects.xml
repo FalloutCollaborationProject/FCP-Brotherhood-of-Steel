@@ -16,8 +16,8 @@
         <prerequisites>
             <li>ComplexClothing</li>
         </prerequisites>
-        <researchViewX>6.00</researchViewX>
-        <researchViewY>4.00</researchViewY>
+        <researchViewX>0.00</researchViewX>
+        <researchViewY>5.00</researchViewY>
         <tab>FCP_Faction_Research</tab>
     </ResearchProjectDef>
 
@@ -32,8 +32,8 @@
         <prerequisites>
             <li>FCP_Research_BoS_Initiate_Equipment</li>
         </prerequisites>
-        <researchViewX>9.0</researchViewX>
-        <researchViewY>4.0</researchViewY>
+        <researchViewX>1.00</researchViewX>
+        <researchViewY>5.00</researchViewY>
         <tab>FCP_Faction_Research</tab>
     </ResearchProjectDef>
 
@@ -48,10 +48,11 @@
         <baseCost>1000</baseCost>
         <techLevel>Industrial</techLevel>
         <prerequisites>
+            <li>FCP_Research_BoS_Initiate_Equipment</li>
             <li>Machining</li>
         </prerequisites>
-        <researchViewX>7.50</researchViewX>
-        <researchViewY>4.00</researchViewY>
+        <researchViewX>0.00</researchViewX>
+        <researchViewY>5.50</researchViewY>
         <tab>FCP_Faction_Research</tab>
     </ResearchProjectDef>
 
@@ -66,8 +67,8 @@
         <prerequisites>
             <li>FCP_Research_BoS_Knight_Equipment</li>
         </prerequisites>
-        <researchViewX>7.50</researchViewX>
-        <researchViewY>5.00</researchViewY>
+        <researchViewX>1.00</researchViewX>
+        <researchViewY>5.50</researchViewY>
         <tab>FCP_Faction_Research</tab>
     </ResearchProjectDef>
 
@@ -82,24 +83,8 @@
         <prerequisites>
             <li>FCP_Research_BoS_Specialized_Armor</li>
         </prerequisites>
-        <researchViewX>6.5</researchViewX>
-        <researchViewY>6.00</researchViewY>
-        <tab>FCP_Faction_Research</tab>
-    </ResearchProjectDef>
-
-    <!-- Power Armor Operations -->
-
-    <ResearchProjectDef>
-        <defName>FCP_Research_BoS_Power_Armor</defName>
-        <label>Power Armor Operations</label>
-        <description>Master the secrets of pre-war power armor technology - the pinnacle of Brotherhood military might.</description>
-        <baseCost>1000</baseCost>
-        <techLevel>Industrial</techLevel>
-        <prerequisites>
-            <li>FCP_Research_BoS_Specialized_Armor</li>
-        </prerequisites>
-        <researchViewX>8.5</researchViewX>
-        <researchViewY>6.00</researchViewY>
+        <researchViewX>2.00</researchViewX>
+        <researchViewY>5.00</researchViewY>
         <tab>FCP_Faction_Research</tab>
     </ResearchProjectDef>
 
@@ -114,8 +99,8 @@
         <prerequisites>
             <li>FCP_Research_BoS_Specialized_Armor</li>
         </prerequisites>
-        <researchViewX>7.5</researchViewX>
-        <researchViewY>6.00</researchViewY>
+        <researchViewX>2.00</researchViewX>
+        <researchViewY>5.50</researchViewY>
         <tab>FCP_Faction_Research</tab>
     </ResearchProjectDef>
 
@@ -128,10 +113,12 @@
         <baseCost>1000</baseCost>
         <techLevel>Industrial</techLevel>
         <prerequisites>
+            <li>FCP_Research_BoS_Paladin_Training</li>
             <li>FCP_Research_BoS_Sentinel</li>
+            <li>FCP_Research_Power_Armor_Training</li>
         </prerequisites>
-        <researchViewX>7.5</researchViewX>
-        <researchViewY>7.00</researchViewY>
+        <researchViewX>3.00</researchViewX>
+        <researchViewY>5.50</researchViewY>
         <tab>FCP_Faction_Research</tab>
     </ResearchProjectDef>
 
@@ -139,18 +126,19 @@
 
     <!-- Outcast Equipment -->
 
-	<ResearchProjectDef>
-		<defName>FCP_Research_BoS_Outcast_Equipment</defName>
-		<label>Brotherhood Outcast equipment</label>
-		<description>Research the specialized equipment used by the Brotherhood Outcasts, including their distinctive armor and gear modifications.</description>
-		<baseCost>1500</baseCost>
-		<techLevel>Industrial</techLevel>
-		<prerequisites>
-			<li>Machining</li>
-		</prerequisites>
-		<researchViewX>6.50</researchViewX>
-		<researchViewY>3.00</researchViewY>
-		<tab>FCP_Faction_Research</tab>
-	</ResearchProjectDef>
+    <ResearchProjectDef>
+        <defName>FCP_Research_BoS_Outcast_Equipment</defName>
+        <label>Brotherhood Outcast equipment</label>
+        <description>Research the specialized equipment used by the Brotherhood Outcasts, including their distinctive armor and gear modifications.</description>
+        <baseCost>1500</baseCost>
+        <techLevel>Industrial</techLevel>
+        <prerequisites>
+            <li>FCP_Research_BoS_Initiate_Equipment</li>
+            <li>Machining</li>
+        </prerequisites>
+        <researchViewX>3.00</researchViewX>
+        <researchViewY>5.00</researchViewY>
+        <tab>FCP_Faction_Research</tab>
+    </ResearchProjectDef>
 
 </Defs>

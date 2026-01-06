@@ -43,11 +43,7 @@
         <displayPriority>230</displayPriority>
         <researchPrerequisites>
             <li>FCP_Research_CombatArmorStandard</li>
-            <li>FCP_Research_BoS_Power_Armor</li>
-        </researchPrerequisites>
-        <researchPrerequisites>
-            <li>FCP_Research_CombatArmorStandard</li>
-            <li>FCP_Research_BoS_Power_Armor</li>
+            <li>FCP_Research_Power_Armor_Training</li>
         </researchPrerequisites>
         <modExtensions>
             <li Class="RecipeGoodwillLimiter.RecipeExtension_GoodwillCheck">
@@ -98,7 +94,7 @@
         <displayPriority>230</displayPriority>
         <researchPrerequisites>
             <li>FCP_Research_CombatArmorStandard</li>
-            <li>FCP_Research_BoS_Power_Armor</li>
+            <li>FCP_Research_Power_Armor_Training</li>
         </researchPrerequisites>
         <modExtensions>
             <li Class="RecipeGoodwillLimiter.RecipeExtension_GoodwillCheck">
@@ -149,7 +145,7 @@
         <displayPriority>230</displayPriority>
         <researchPrerequisites>
             <li>FCP_Research_CombatArmorStandard</li>
-            <li>FCP_Research_BoS_Power_Armor</li>
+            <li>FCP_Research_Power_Armor_Training</li>
         </researchPrerequisites>
         <modExtensions>
             <li Class="RecipeGoodwillLimiter.RecipeExtension_GoodwillCheck">
@@ -200,7 +196,7 @@
         <displayPriority>230</displayPriority>
         <researchPrerequisites>
             <li>FCP_Research_CombatArmorStandard</li>
-            <li>FCP_Research_BoS_Power_Armor</li>
+            <li>FCP_Research_Power_Armor_Training</li>
         </researchPrerequisites>
         <modExtensions>
             <li Class="RecipeGoodwillLimiter.RecipeExtension_GoodwillCheck">
@@ -251,7 +247,7 @@
         <displayPriority>230</displayPriority>
         <researchPrerequisites>
             <li>FCP_Research_CombatArmorStandard</li>
-            <li>FCP_Research_BoS_Power_Armor</li>
+            <li>FCP_Research_Power_Armor_Training</li>
         </researchPrerequisites>
         <modExtensions>
             <li Class="RecipeGoodwillLimiter.RecipeExtension_GoodwillCheck">
@@ -302,7 +298,7 @@
         <displayPriority>230</displayPriority>
         <researchPrerequisites>
             <li>FCP_Research_CombatArmorStandard</li>
-            <li>FCP_Research_BoS_Power_Armor</li>
+            <li>FCP_Research_Power_Armor_Training</li>
         </researchPrerequisites>
         <modExtensions>
             <li Class="RecipeGoodwillLimiter.RecipeExtension_GoodwillCheck">

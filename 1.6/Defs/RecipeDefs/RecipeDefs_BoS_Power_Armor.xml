@@ -42,9 +42,9 @@
         </skillRequirements>
         <displayPriority>230</displayPriority>
         <researchPrerequisites>
-			<li>FCP_Research_CombatArmorStandard</li>
-            <li>FCP_Research_BoS_Power_Armor</li>
-		</researchPrerequisites>
+            <li>FCP_Research_CombatArmorStandard</li>
+            <li>FCP_Research_Power_Armor_Training</li>
+        </researchPrerequisites>
         <modExtensions>
             <li Class="RecipeGoodwillLimiter.RecipeExtension_GoodwillCheck">
                 <requireFaction>FCP_Faction_BoS</requireFaction>
@@ -54,7 +54,7 @@
         </modExtensions>
     </RecipeDef>
 
-<!-- BoS Appalachia T60 Power Armor Recipe -->
+    <!-- BoS Appalachia T60 Power Armor Recipe -->
 
     <RecipeDef MayRequire="Rick.FCP.PowerArmor">
         <defName>Make_BoS_T60_Power_Armor</defName>
@@ -93,9 +93,9 @@
         </skillRequirements>
         <displayPriority>230</displayPriority>
         <researchPrerequisites>
-			<li>FCP_Research_CombatArmorStandard</li>
-            <li>FCP_Research_BoS_Power_Armor</li>
-		</researchPrerequisites>
+            <li>FCP_Research_CombatArmorStandard</li>
+            <li>FCP_Research_Power_Armor_Training</li>
+        </researchPrerequisites>
         <modExtensions>
             <li Class="RecipeGoodwillLimiter.RecipeExtension_GoodwillCheck">
                 <requireFaction>FCP_Faction_BoS</requireFaction>
@@ -105,7 +105,7 @@
         </modExtensions>
     </RecipeDef>
 
-<!-- BoS T51 Power Armor Recipe -->
+    <!-- BoS T51 Power Armor Recipe -->
 
     <RecipeDef MayRequire="Rick.FCP.PowerArmor">
         <defName>Make_BoS_T51_Power_Armor</defName>
@@ -144,9 +144,9 @@
         </skillRequirements>
         <displayPriority>230</displayPriority>
         <researchPrerequisites>
-			<li>FCP_Research_CombatArmorStandard</li>
-            <li>FCP_Research_BoS_Power_Armor</li>
-		</researchPrerequisites>
+            <li>FCP_Research_CombatArmorStandard</li>
+            <li>FCP_Research_Power_Armor_Training</li>
+        </researchPrerequisites>
         <modExtensions>
             <li Class="RecipeGoodwillLimiter.RecipeExtension_GoodwillCheck">
                 <requireFaction>FCP_Faction_BoS</requireFaction>
@@ -156,7 +156,7 @@
         </modExtensions>
     </RecipeDef>
 
-<!-- BoS T51 Power Armor Recipe -->
+    <!-- BoS T51 Power Armor Recipe -->
 
     <RecipeDef MayRequire="Rick.FCP.PowerArmor">
         <defName>Make_BoS_Appalachia_T51_Power_Armor</defName>
@@ -195,9 +195,9 @@
         </skillRequirements>
         <displayPriority>230</displayPriority>
         <researchPrerequisites>
-			<li>FCP_Research_CombatArmorStandard</li>
-            <li>FCP_Research_BoS_Power_Armor</li>
-		</researchPrerequisites>
+            <li>FCP_Research_CombatArmorStandard</li>
+            <li>FCP_Research_Power_Armor_Training</li>
+        </researchPrerequisites>
         <modExtensions>
             <li Class="RecipeGoodwillLimiter.RecipeExtension_GoodwillCheck">
                 <requireFaction>FCP_Faction_BoS</requireFaction>
@@ -207,7 +207,7 @@
         </modExtensions>
     </RecipeDef>
 
-<!-- BoS T45 Lyon Power Armor Recipe -->
+    <!-- BoS T45 Lyon Power Armor Recipe -->
 
     <RecipeDef MayRequire="Rick.FCP.PowerArmor">
         <defName>Make_BoS_T45_Lyons_Power_Armor</defName>
@@ -246,9 +246,9 @@
         </skillRequirements>
         <displayPriority>230</displayPriority>
         <researchPrerequisites>
-			<li>FCP_Research_CombatArmorStandard</li>
-            <li>FCP_Research_BoS_Power_Armor</li>
-		</researchPrerequisites>
+            <li>FCP_Research_CombatArmorStandard</li>
+            <li>FCP_Research_Power_Armor_Training</li>
+        </researchPrerequisites>
         <modExtensions>
             <li Class="RecipeGoodwillLimiter.RecipeExtension_GoodwillCheck">
                 <requireFaction>FCP_Faction_BoS_Lyons_Pride_Remnants</requireFaction>
@@ -258,7 +258,7 @@
         </modExtensions>
     </RecipeDef>
 
-<!-- BoS T45 Outcast Power Armor Recipe -->
+    <!-- BoS T45 Outcast Power Armor Recipe -->
 
     <RecipeDef MayRequire="Rick.FCP.PowerArmor">
         <defName>Make_BoS_T45_Outcast_Power_Armor</defName>
@@ -297,9 +297,9 @@
         </skillRequirements>
         <displayPriority>230</displayPriority>
         <researchPrerequisites>
-			<li>FCP_Research_CombatArmorStandard</li>
-            <li>FCP_Research_BoS_Power_Armor</li>
-		</researchPrerequisites>
+            <li>FCP_Research_CombatArmorStandard</li>
+            <li>FCP_Research_Power_Armor_Training</li>
+        </researchPrerequisites>
         <modExtensions>
             <li Class="RecipeGoodwillLimiter.RecipeExtension_GoodwillCheck">
                 <requireFaction>FCP_Faction_BoS_Outcast_Remnants</requireFaction>
