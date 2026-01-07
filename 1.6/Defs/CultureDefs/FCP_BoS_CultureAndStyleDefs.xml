@@ -24,13 +24,13 @@
 		<iconPath>World_Icon/BoS_Icon/FCP_BoS_World_Icon</iconPath>
 		<styleItemTags>
 			<li>
-				<tag>Urban</tag>
+				<tag>Military</tag>
 				<baseWeight>1</baseWeight>
 				<weightFactor>1</weightFactor>
 			</li>
 			<li>
-				<tag>Rural</tag>
-				<baseWeight>1</baseWeight>
+				<tag>Pre_War</tag>
+				<baseWeight>0.4</baseWeight>
 				<weightFactor>1</weightFactor>
 			</li>
 			<li>

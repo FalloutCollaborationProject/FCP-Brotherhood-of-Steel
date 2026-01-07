@@ -29,6 +29,9 @@
 					<li>FCP_Backstory_Wastelander_Child</li>
 					<li>FCP_Backstory_BoS_Child</li>
 				</categoriesChildhood>
+				<categoriesAdulthood>
+					<li>FCP_Backstory_BoS</li>
+				</categoriesAdulthood>
 			</li>
 		</backstoryFiltersOverride>
 		<pawnGroupDevelopmentStage>Adult</pawnGroupDevelopmentStage>
@@ -103,10 +106,10 @@
 		<backstoryFiltersOverride Inherit="False">
 			<li>
 				<categoriesChildhood>
-					<li>FCP_Wastelander_Child</li>
+					<li>FCP_Backstory_BoS_Child</li>
 				</categoriesChildhood>
 				<categoriesAdulthood>
-					<li>FCP_Wastelander</li>
+					<li>FCP_Backstory_BoS_Aspirants</li>
 				</categoriesAdulthood>
 			</li>
 		</backstoryFiltersOverride>
@@ -115,12 +118,12 @@
 	<!-- Brotherhood Initiate -->
 
 	<PawnKindDef ParentName="FCP_BoSkindBase">
-		<defName>FCP_Pawnkind_BoS_Initiate_Recon</defName>
+		<defName>FCP_Pawnkind_BoS_Initiate</defName>
 		<label>Brotherhood Initiate</label>
 		<combatPower>30</combatPower>
 		<gearHealthRange>0.5~1.8</gearHealthRange>
 		<apparelRequired>
-			<li>FCP_Apparel_BoS_Recon_Armor</li>
+			<li>FCP_Apparel_BoS_Brotherhood_Fatigues</li>
 		</apparelRequired>
 		<apparelDisallowTags>
 			<li>FCP_Power_Armor_Helmet</li>
@@ -137,6 +140,10 @@
 		<initialResistanceRange>10~17</initialResistanceRange>
 		<backstoryFiltersOverride>
 			<li>
+				<categoriesChildhood>
+					<li>FCP_Backstory_BoS_Child</li>
+					<li MayRequire="Rick.FCP.Wastelanders">FCP_Backstory_Wastelander_Child</li>
+				</categoriesChildhood>
 				<categoriesAdulthood>
 					<li>FCP_Backstory_BoS_Initiate</li>
 				</categoriesAdulthood>
@@ -165,6 +172,16 @@
 		<techHediffsChance>0.15</techHediffsChance>
 		<initialWillRange>1~2</initialWillRange>
 		<initialResistanceRange>11~17</initialResistanceRange>
+		<backstoryFiltersOverride>
+			<li>
+				<categoriesChildhood>
+					<li>FCP_Backstory_BoS_Child</li>
+				</categoriesChildhood>
+				<categoriesAdulthood>
+					<li>FCP_Backstory_BoS</li>
+				</categoriesAdulthood>
+			</li>
+		</backstoryFiltersOverride>
 	</PawnKindDef>
 
 	<!-- Brotherhood Lancer Captain -->
@@ -192,34 +209,13 @@
 		<techHediffsChance>0.15</techHediffsChance>
 		<initialWillRange>1~3</initialWillRange>
 		<initialResistanceRange>15~26</initialResistanceRange>
-	</PawnKindDef>
-
-	<!-- Brotherhood Knight (Player) -->
-
-	<PawnKindDef ParentName="FCP_BoS_PowerArmorBase">
-		<defName>FCP_Pawnkind_BoS_Knight_Player</defName>
-		<label>Brotherhood Knight</label>
-		<defaultFactionDef>FCP_Faction_BoS_Player</defaultFactionDef>
-		<combatPower>60</combatPower>
-		<gearHealthRange>0.5~1.8</gearHealthRange>
-		<weaponMoney>400~1200</weaponMoney>
-		<weaponTags>
-			<li MayRequire="Rick.FCP.EnergyWeapons">FCP_Laser_Weapon</li>
-		</weaponTags>
-		<techHediffsMoney>50~50</techHediffsMoney>
-		<techHediffsTags>
-			<li>Poor</li>
-		</techHediffsTags>
-		<techHediffsChance>0.03</techHediffsChance>
-		<initialWillRange>2~5</initialWillRange>
-		<initialResistanceRange>15~24</initialResistanceRange>
 		<backstoryFiltersOverride>
 			<li>
 				<categoriesChildhood>
 					<li>FCP_Backstory_BoS_Child</li>
 				</categoriesChildhood>
 				<categoriesAdulthood>
-					<li>FCP_Backstory_BoS_Knight</li>
+					<li>FCP_Backstory_BoS</li>
 				</categoriesAdulthood>
 			</li>
 		</backstoryFiltersOverride>
@@ -336,6 +332,9 @@
 		<initialResistanceRange>19~30</initialResistanceRange>
 		<backstoryFiltersOverride>
 			<li>
+				<categoriesChildhood>
+					<li>FCP_Backstory_BoS_Child</li>
+				</categoriesChildhood>
 				<categoriesAdulthood>
 					<li>FCP_Backstory_BoS_Paladin</li>
 				</categoriesAdulthood>
@@ -364,6 +363,9 @@
 		<initialResistanceRange>21~33</initialResistanceRange>
 		<backstoryFiltersOverride>
 			<li>
+				<categoriesChildhood>
+					<li>FCP_Backstory_BoS_Child</li>
+				</categoriesChildhood>
 				<categoriesAdulthood>
 					<li>FCP_Backstory_BoS_Star_Paladin</li>
 				</categoriesAdulthood>
@@ -423,47 +425,6 @@
 		<techHediffsChance>0.03</techHediffsChance>
 		<initialWillRange>3~5</initialWillRange>
 		<initialResistanceRange>19~30</initialResistanceRange>
-		<backstoryFiltersOverride>
-			<li>
-				<categoriesAdulthood>
-					<li>FCP_Backstory_Lyons_BoS</li>
-				</categoriesAdulthood>
-				<categoriesChildhood>
-					<li>FCP_Backstory_Lyons_Child</li>
-				</categoriesChildhood>
-			</li>
-		</backstoryFiltersOverride>
-	</PawnKindDef>
-
-	<!-- Lyons Pride Knight (Player) -->
-
-	<PawnKindDef ParentName="FCP_BoSkindBase">
-		<defName>FCP_Pawnkind_Lyons_Pride_Knight_Player</defName>
-		<label>Lyons Pride Knight</label>
-		<defaultFactionDef>FCP_Faction_BoS_Lyons_Pride_Remnants_Player</defaultFactionDef>
-		<combatPower>60</combatPower>
-		<gearHealthRange>0.5~1.8</gearHealthRange>
-		<weaponMoney>400~1000</weaponMoney>
-		<weaponTags>
-			<li MayRequire="Rick.FCP.EnergyWeapons">FCP_Laser_Weapon</li>
-		</weaponTags>
-		<apparelRequired>
-			<li>FCP_Apparel_BoS_Recon_Hood</li>
-			<li>FCP_Apparel_BoS_Recon_Armor</li>
-		</apparelRequired>
-		<apparelDisallowTags>
-			<li>FCP_Power_Armor_Helmet</li>
-			<li>FCP_Power_Armor</li>
-			<li>FCP_Power_Armor_Lyons</li>
-			<li>FCP_Power_Armor_Outcast</li>
-		</apparelDisallowTags>
-		<techHediffsMoney>50~50</techHediffsMoney>
-		<techHediffsTags>
-			<li>Poor</li>
-		</techHediffsTags>
-		<techHediffsChance>0.03</techHediffsChance>
-		<initialWillRange>2~5</initialWillRange>
-		<initialResistanceRange>15~24</initialResistanceRange>
 		<backstoryFiltersOverride>
 			<li>
 				<categoriesAdulthood>
@@ -538,6 +499,9 @@
 		<initialResistanceRange>23~33</initialResistanceRange>
 		<backstoryFiltersOverride>
 			<li>
+				<categoriesChildhood>
+					<li>FCP_Backstory_BoS_Child</li>
+				</categoriesChildhood>
 				<categoriesAdulthood>
 					<li>FCP_Backstory_BoS_Sentinel</li>
 				</categoriesAdulthood>
@@ -578,6 +542,9 @@
 		<initialResistanceRange>12~18</initialResistanceRange>
 		<backstoryFiltersOverride>
 			<li>
+				<categoriesChildhood>
+					<li>FCP_Backstory_BoS_Child</li>
+				</categoriesChildhood>
 				<categoriesAdulthood>
 					<li>FCP_Backstory_BoS_Scribe</li>
 				</categoriesAdulthood>
@@ -616,6 +583,9 @@
 		<initialResistanceRange>12~18</initialResistanceRange>
 		<backstoryFiltersOverride>
 			<li>
+				<categoriesChildhood>
+					<li>FCP_Backstory_BoS_Child</li>
+				</categoriesChildhood>
 				<categoriesAdulthood>
 					<li>FCP_Backstory_BoS_Scribe</li>
 				</categoriesAdulthood>
@@ -653,6 +623,9 @@
 		<initialResistanceRange>12~18</initialResistanceRange>
 		<backstoryFiltersOverride>
 			<li>
+				<categoriesChildhood>
+					<li>FCP_Backstory_BoS_Child</li>
+				</categoriesChildhood>
 				<categoriesAdulthood>
 					<li>FCP_Backstory_BoS_Scribe</li>
 				</categoriesAdulthood>
@@ -692,8 +665,11 @@
 		<initialResistanceRange>17~22</initialResistanceRange>
 		<backstoryFiltersOverride>
 			<li>
+				<categoriesChildhood>
+					<li>FCP_Backstory_BoS_Child</li>
+				</categoriesChildhood>
 				<categoriesAdulthood>
-					<li>FCP_Backstory_BoS</li>
+					<li>FCP_Backstory_BoS_Elder</li>
 				</categoriesAdulthood>
 			</li>
 		</backstoryFiltersOverride>
@@ -729,8 +705,11 @@
 		<initialResistanceRange>17~22</initialResistanceRange>
 		<backstoryFiltersOverride>
 			<li>
+				<categoriesChildhood>
+					<li>FCP_Backstory_BoS_Child</li>
+				</categoriesChildhood>
 				<categoriesAdulthood>
-					<li>FCP_Backstory_BoS</li>
+					<li>FCP_Backstory_BoS_Elder</li>
 				</categoriesAdulthood>
 			</li>
 		</backstoryFiltersOverride>
@@ -759,6 +738,9 @@
 		<initialResistanceRange>10~17</initialResistanceRange>
 		<backstoryFiltersOverride>
 			<li>
+				<categoriesChildhood>
+					<li>FCP_Backstory_BoS_Child</li>
+				</categoriesChildhood>
 				<categoriesAdulthood>
 					<li>FCP_Backstory_BoS_Scribe</li>
 				</categoriesAdulthood>

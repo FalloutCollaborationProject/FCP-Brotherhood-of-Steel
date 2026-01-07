@@ -12,7 +12,7 @@
         <isPlayer>true</isPlayer>
         <classicIdeo>true</classicIdeo>
         <techLevel>Industrial</techLevel>
-        <basicMemberKind>FCP_Pawnkind_BoS_Knight_Player</basicMemberKind>
+        <basicMemberKind>FCP_Pawnkind_BoS_Initiate</basicMemberKind>
         <pawnSingular>Brother</pawnSingular>
         <pawnsPlural>Brothers</pawnsPlural>
         <leaderTitle>Elder</leaderTitle>
@@ -49,7 +49,7 @@
         <isPlayer>true</isPlayer>
         <classicIdeo>true</classicIdeo>
         <techLevel>Industrial</techLevel>
-        <basicMemberKind>FCP_Pawnkind_Lyons_Pride_Knight_Player</basicMemberKind>
+        <basicMemberKind>FCP_Pawnkind_Lyons_Pride_Knight</basicMemberKind>
         <pawnSingular>Brother</pawnSingular>
         <pawnsPlural>Brothers</pawnsPlural>
         <leaderTitle>Elder</leaderTitle>
@@ -86,7 +86,7 @@
         <isPlayer>true</isPlayer>
         <classicIdeo>true</classicIdeo>
         <techLevel>Industrial</techLevel>
-        <basicMemberKind>FCP_Pawnkind_BoS_Outcast_Defeneder_Player</basicMemberKind>
+        <basicMemberKind>FCP_Pawnkind_BoS_Outcast_Defeneder</basicMemberKind>
         <pawnSingular>Outcast</pawnSingular>
         <pawnsPlural>Outcasts</pawnsPlural>
         <leaderTitle>Protector</leaderTitle>
@@ -163,7 +163,7 @@
         <isPlayer>true</isPlayer>
         <classicIdeo>true</classicIdeo>
         <techLevel>Industrial</techLevel>
-        <basicMemberKind>FCP_Pawnkind_BoS_Knight_Player</basicMemberKind>
+        <basicMemberKind>FCP_Pawnkind_BoS_Knight</basicMemberKind>
         <pawnSingular>Brother</pawnSingular>
         <pawnsPlural>Brothers</pawnsPlural>
         <leaderTitle>Paladin</leaderTitle>

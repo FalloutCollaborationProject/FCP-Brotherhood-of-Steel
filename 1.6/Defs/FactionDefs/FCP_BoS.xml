@@ -115,7 +115,7 @@
 				<!-- Normal fights, standard mix -->
 				<kindDef>Combat</kindDef>
 				<options>
-					<FCP_Pawnkind_BoS_Initiate_Recon>8</FCP_Pawnkind_BoS_Initiate_Recon>
+					<FCP_Pawnkind_BoS_Initiate>8</FCP_Pawnkind_BoS_Initiate>
 					<FCP_Pawnkind_BoS_Field_Scribe>5</FCP_Pawnkind_BoS_Field_Scribe>
 					<FCP_Pawnkind_BoS_Knight>2</FCP_Pawnkind_BoS_Knight>
 					<FCP_Pawnkind_BoS_Paladin>1</FCP_Pawnkind_BoS_Paladin>
@@ -126,7 +126,7 @@
 			<li>
 				<kindDef>Peaceful</kindDef>
 				<options>
-					<FCP_Pawnkind_BoS_Initiate_Recon>8</FCP_Pawnkind_BoS_Initiate_Recon>
+					<FCP_Pawnkind_BoS_Initiate>8</FCP_Pawnkind_BoS_Initiate>
 					<FCP_Pawnkind_BoS_Field_Scribe>5</FCP_Pawnkind_BoS_Field_Scribe>
 					<FCP_Pawnkind_BoS_Knight>2</FCP_Pawnkind_BoS_Knight>
 					<FCP_Pawnkind_BoS_Paladin>1</FCP_Pawnkind_BoS_Paladin>
@@ -144,7 +144,7 @@
 				</carriers>
 				<guards>
 					<FCP_Pawnkind_BoS_Field_Scribe>7</FCP_Pawnkind_BoS_Field_Scribe>
-					<FCP_Pawnkind_BoS_Initiate_Recon>3</FCP_Pawnkind_BoS_Initiate_Recon>
+					<FCP_Pawnkind_BoS_Initiate>3</FCP_Pawnkind_BoS_Initiate>
 					<FCP_Pawnkind_BoS_Knight>2</FCP_Pawnkind_BoS_Knight>
 					<FCP_Pawnkind_BoS_Paladin>1</FCP_Pawnkind_BoS_Paladin>
 					<FCP_Pawnkind_BoS_Elder>1</FCP_Pawnkind_BoS_Elder>
@@ -156,7 +156,7 @@
 					<FCP_Pawnkind_BoS_Hopeful>10</FCP_Pawnkind_BoS_Hopeful>
 					<FCP_Pawnkind_BoS_Squire>6</FCP_Pawnkind_BoS_Squire>
 					<FCP_Pawnkind_BoS_Lancer>4</FCP_Pawnkind_BoS_Lancer>
-					<FCP_Pawnkind_BoS_Initiate_Recon>8</FCP_Pawnkind_BoS_Initiate_Recon>
+					<FCP_Pawnkind_BoS_Initiate>8</FCP_Pawnkind_BoS_Initiate>
 					<FCP_Pawnkind_BoS_Scribe>7</FCP_Pawnkind_BoS_Scribe>
 					<FCP_Pawnkind_BoS_Field_Scribe>5</FCP_Pawnkind_BoS_Field_Scribe>
 					<FCP_Pawnkind_BoS_Science_Scribe>4</FCP_Pawnkind_BoS_Science_Scribe>
