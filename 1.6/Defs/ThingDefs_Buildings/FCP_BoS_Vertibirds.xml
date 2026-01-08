@@ -17,38 +17,36 @@
         <maxLaunchDistance>70</maxLaunchDistance>
     </TransportShipDef>
 
-    <!-- Outcast Standard Vertibird -->
+    <!-- Outcast Vertibird -->
 
     <TransportShipDef>
         <defName>FCP_BoS_Outcast_Vertibird</defName>
-        <label>BoS vertibird</label>
+        <label>BoS outcast vertibird</label>
         <shipThing>FCP_BoS_Outcast_Vertibird</shipThing>
-        <arrivingSkyfaller>FCP_BoS_VertibirdIncoming</arrivingSkyfaller>
-        <leavingSkyfaller>FCP_BoS_VertibirdLeaving</leavingSkyfaller>
-        <worldObject>FCP_BoS_TravelingVertibird</worldObject>
+        <arrivingSkyfaller>FCP_BoS_Outcast_VertibirdIncoming</arrivingSkyfaller>
+        <leavingSkyfaller>FCP_BoS_Outcast_VertibirdLeaving</leavingSkyfaller>
+        <worldObject>FCP_BoS_Outcast_TravelingVertibird</worldObject>
         <maxLaunchDistance>70</maxLaunchDistance>
     </TransportShipDef>
 
-    <!-- Lyons Pride Standard Vertibird -->
+    <!-- Lyons Pride Vertibird -->
 
     <TransportShipDef>
         <defName>FCP_BoS_Lyons_Pride_Vertibird</defName>
         <label>BoS lyons pride vertibird</label>
         <shipThing>FCP_BoS_Lyons_Pride_Vertibird</shipThing>
-        <arrivingSkyfaller>FCP_BoS_VertibirdIncoming</arrivingSkyfaller>
-        <leavingSkyfaller>FCP_BoS_VertibirdLeaving</leavingSkyfaller>
-        <worldObject>FCP_BoS_TravelingVertibird</worldObject>
+        <arrivingSkyfaller>FCP_BoS_Lyons_VertibirdIncoming</arrivingSkyfaller>
+        <leavingSkyfaller>FCP_BoS_Lyons_VertibirdLeaving</leavingSkyfaller>
+        <worldObject>FCP_BoS_Lyons_TravelingVertibird</worldObject>
         <maxLaunchDistance>70</maxLaunchDistance>
     </TransportShipDef>
 
     <!--_____ Building ThingDefs _____-->
 
-    <!-- BoS Standard Vertibird -->
+    <!--___ Vertibird Base ___-->
 
-    <ThingDef ParentName="BuildingBase">
-        <defName>FCP_BoS_Vertibird</defName>
-        <label>BoS vertibird</label>
-        <description>Vertibird is a designation for a series of vertical take-off and landing (VTOL) aircraft. These multipurpose tiltrotor aircraft were developed by the United States military and rapidly became a primary gunship and transport aircraft. This one is now in use by the New California Republic.</description>
+    <ThingDef Name="FCP_BoS_VertibirdBase" ParentName="BuildingBase" Abstract="True">
+        <description>Vertibird is a designation for a series of vertical take-off and landing (VTOL) aircraft. These multipurpose tiltrotor aircraft were developed by the United States military and rapidly became a primary gunship and transport aircraft.</description>
         <altitudeLayer>Building</altitudeLayer>
         <pathCost>50</pathCost>
         <blockWind>true</blockWind>
@@ -57,6 +55,79 @@
         <size>(10,8)</size>
         <drawHighlight>true</drawHighlight>
         <highlightColor>(0.56, 0.62, 0.9)</highlightColor>
+        <statBases>
+            <MaxHitPoints>1000</MaxHitPoints>
+            <Flammability>1</Flammability>
+        </statBases>
+        <tickerType>Normal</tickerType>
+        <canOverlapZones>true</canOverlapZones>
+        <killedLeavings>
+            <Plasteel>50</Plasteel>
+            <Uranium>50</Uranium>
+            <ChunkSlagSteel>4</ChunkSlagSteel>
+            <ComponentIndustrial>4</ComponentIndustrial>
+        </killedLeavings>
+        <rotatable>false</rotatable>
+        <selectable>true</selectable>
+        <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+        <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+        <preventSkyfallersLandingOn>true</preventSkyfallersLandingOn>
+        <drawerType>RealtimeOnly</drawerType>
+        <repairEffect>ConstructMetal</repairEffect>
+        <forceDebugSpawnable>true</forceDebugSpawnable>
+        <uiIconScale>1.4</uiIconScale>
+        <building>
+            <claimable>false</claimable>
+            <destroySound>BuildingDestroyed_Metal_Big</destroySound>
+        </building>
+        <inspectorTabs>
+            <li>ITab_ContentsTransporter</li>
+        </inspectorTabs>
+        <comps>
+            <li Class="CompProperties_Shuttle" />
+            <li Class="CompProperties_Transporter">
+                <massCapacity>1000</massCapacity>
+                <max1PerGroup>true</max1PerGroup>
+                <canChangeAssignedThingsAfterStarting>true</canChangeAssignedThingsAfterStarting>
+                <showOverallStats>false</showOverallStats>
+                <pawnLoadedSound>Shuttle_PawnLoaded</pawnLoadedSound>
+                <pawnExitSound>Shuttle_PawnExit</pawnExitSound>
+            </li>
+            <li Class="CompProperties_AmbientSound">
+                <sound>ShuttleIdle_Ambience</sound>
+            </li>
+            <li Class="FCP_Shuttles.CompProperties_RotatingBlades">
+                <bladeGraphicsData>
+                    <li>
+                        <bladeGraphic>
+                            <texPath>Things/Vehicles/Shuttles/FCP_Vertibird_Light_Propeller</texPath>
+                            <graphicClass>Graphic_Single</graphicClass>
+                            <drawSize>(6,6)</drawSize>
+                        </bladeGraphic>
+                        <positionOffset>(1, 0, -2.5)</positionOffset>
+                        <spinRate>1.5</spinRate>
+                    </li>
+                    <li>
+                        <bladeGraphic>
+                            <texPath>Things/Vehicles/Shuttles/FCP_Vertibird_Light_Propeller</texPath>
+                            <graphicClass>Graphic_Single</graphicClass>
+                            <drawSize>(6,6)</drawSize>
+                        </bladeGraphic>
+                        <positionOffset>(1, 0, 3.7)</positionOffset>
+                        <spinRate>1.5</spinRate>
+                    </li>
+                </bladeGraphicsData>
+            </li>
+        </comps>
+    </ThingDef>
+
+    <!--___ Vertibird Variants ___-->
+
+    <!-- BoS Standard Vertibird -->
+
+    <ThingDef ParentName="FCP_BoS_VertibirdBase">
+        <defName>FCP_BoS_Vertibird</defName>
+        <label>BoS vertibird</label>
         <graphicData>
             <texPath>Things/Vehicles/Shuttles/BoSVertibird</texPath>
             <graphicClass>Graphic_Random</graphicClass>
@@ -66,88 +137,15 @@
                 <offset>(0, 0, -0.1)</offset>
             </shadowData>
         </graphicData>
-        <statBases>
-            <MaxHitPoints>1000</MaxHitPoints>
-            <Flammability>1</Flammability>
-        </statBases>
-        <tickerType>Normal</tickerType>
-        <canOverlapZones>true</canOverlapZones>
-        <killedLeavings>
-            <Plasteel>50</Plasteel>
-            <Uranium>50</Uranium>
-            <ChunkSlagSteel>4</ChunkSlagSteel>
-            <ComponentIndustrial>4</ComponentIndustrial>
-        </killedLeavings>
-        <rotatable>false</rotatable>
-        <selectable>true</selectable>
-        <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
-        <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
-        <preventSkyfallersLandingOn>true</preventSkyfallersLandingOn>
-        <drawerType>RealtimeOnly</drawerType>
-        <repairEffect>ConstructMetal</repairEffect>
-        <forceDebugSpawnable>true</forceDebugSpawnable>
-        <uiIconScale>1.4</uiIconScale>
-        <building>
-            <claimable>false</claimable>
-            <destroySound>BuildingDestroyed_Metal_Big</destroySound>
-        </building>
-        <inspectorTabs>
-            <li>ITab_ContentsTransporter</li>
-        </inspectorTabs>
-        <comps>
-            <li Class="CompProperties_Shuttle" />
-            <li Class="CompProperties_Transporter">
-                <massCapacity>1000</massCapacity>
-                <max1PerGroup>true</max1PerGroup>
-                <canChangeAssignedThingsAfterStarting>true</canChangeAssignedThingsAfterStarting>
-                <showOverallStats>false</showOverallStats>
-                <pawnLoadedSound>Shuttle_PawnLoaded</pawnLoadedSound>
-                <pawnExitSound>Shuttle_PawnExit</pawnExitSound>
-            </li>
-            <li Class="CompProperties_AmbientSound">
-                <sound>ShuttleIdle_Ambience</sound>
-            </li>
-            <li Class="FCP_Shuttles.CompProperties_RotatingBlades">
-                <bladeGraphicsData>
-                    <li>
-                        <bladeGraphic>
-                            <texPath>Things/Vehicles/Shuttles/FCP_Vertibird_Light_Propeller</texPath>
-                            <graphicClass>Graphic_Single</graphicClass>
-                            <drawSize>(6,6)</drawSize>
-                        </bladeGraphic>
-                        <positionOffset>(1, 0, -2.5)</positionOffset>
-                        <spinRate>1.5</spinRate>
-                    </li>
-                    <li>
-                        <bladeGraphic>
-                            <texPath>Things/Vehicles/Shuttles/FCP_Vertibird_Light_Propeller</texPath>
-                            <graphicClass>Graphic_Single</graphicClass>
-                            <drawSize>(6,6)</drawSize>
-                        </bladeGraphic>
-                        <positionOffset>(1, 0, 3.7)</positionOffset>
-                        <spinRate>1.5</spinRate>
-                    </li>
-                </bladeGraphicsData>
-            </li>
-        </comps>
     </ThingDef>
 
     <!-- BoS Lyons Pride Vertibird -->
 
-    <ThingDef ParentName="BuildingBase">
+    <ThingDef ParentName="FCP_BoS_VertibirdBase">
         <defName>FCP_BoS_Lyons_Pride_Vertibird</defName>
         <label>BoS lyons pride vertibird</label>
-        <description>Vertibird is a designation for a series of vertical take-off and landing (VTOL) aircraft. These multipurpose tiltrotor aircraft were developed by the United States military and rapidly became a primary gunship and transport aircraft. This one is now in use by the New California Republic.</description>
-        <altitudeLayer>Building</altitudeLayer>
-        <pathCost>50</pathCost>
-        <blockWind>true</blockWind>
-        <passability>Impassable</passability>
-        <fillPercent>1.0</fillPercent>
-        <size>(10,8)</size>
-        <drawHighlight>true</drawHighlight>
-        <highlightColor>(0.56, 0.62, 0.9)</highlightColor>
         <graphicData>
-            <texPath>Things/Vehicles/Shuttles/LyonVertibird/LyonVertibird</texPath>
+            <texPath>Things/Vehicles/Shuttles/LyonVertibird/FCP_Lyons_Vertibird</texPath>
             <graphicClass>Graphic_Single</graphicClass>
             <drawSize>(8,8)</drawSize>
             <shadowData>
@@ -155,88 +153,15 @@
                 <offset>(0, 0, -0.1)</offset>
             </shadowData>
         </graphicData>
-        <statBases>
-            <MaxHitPoints>1000</MaxHitPoints>
-            <Flammability>1</Flammability>
-        </statBases>
-        <tickerType>Normal</tickerType>
-        <canOverlapZones>true</canOverlapZones>
-        <killedLeavings>
-            <Plasteel>50</Plasteel>
-            <Uranium>50</Uranium>
-            <ChunkSlagSteel>4</ChunkSlagSteel>
-            <ComponentIndustrial>4</ComponentIndustrial>
-        </killedLeavings>
-        <rotatable>false</rotatable>
-        <selectable>true</selectable>
-        <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
-        <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
-        <preventSkyfallersLandingOn>true</preventSkyfallersLandingOn>
-        <drawerType>RealtimeOnly</drawerType>
-        <repairEffect>ConstructMetal</repairEffect>
-        <forceDebugSpawnable>true</forceDebugSpawnable>
-        <uiIconScale>1.4</uiIconScale>
-        <building>
-            <claimable>false</claimable>
-            <destroySound>BuildingDestroyed_Metal_Big</destroySound>
-        </building>
-        <inspectorTabs>
-            <li>ITab_ContentsTransporter</li>
-        </inspectorTabs>
-        <comps>
-            <li Class="CompProperties_Shuttle" />
-            <li Class="CompProperties_Transporter">
-                <massCapacity>1000</massCapacity>
-                <max1PerGroup>true</max1PerGroup>
-                <canChangeAssignedThingsAfterStarting>true</canChangeAssignedThingsAfterStarting>
-                <showOverallStats>false</showOverallStats>
-                <pawnLoadedSound>Shuttle_PawnLoaded</pawnLoadedSound>
-                <pawnExitSound>Shuttle_PawnExit</pawnExitSound>
-            </li>
-            <li Class="CompProperties_AmbientSound">
-                <sound>ShuttleIdle_Ambience</sound>
-            </li>
-            <li Class="FCP_Shuttles.CompProperties_RotatingBlades">
-                <bladeGraphicsData>
-                    <li>
-                        <bladeGraphic>
-                            <texPath>Things/Vehicles/Shuttles/FCP_Vertibird_Light_Propeller</texPath>
-                            <graphicClass>Graphic_Single</graphicClass>
-                            <drawSize>(6,6)</drawSize>
-                        </bladeGraphic>
-                        <positionOffset>(1, 0, -2.5)</positionOffset>
-                        <spinRate>1.5</spinRate>
-                    </li>
-                    <li>
-                        <bladeGraphic>
-                            <texPath>Things/Vehicles/Shuttles/FCP_Vertibird_Light_Propeller</texPath>
-                            <graphicClass>Graphic_Single</graphicClass>
-                            <drawSize>(6,6)</drawSize>
-                        </bladeGraphic>
-                        <positionOffset>(1, 0, 3.7)</positionOffset>
-                        <spinRate>1.5</spinRate>
-                    </li>
-                </bladeGraphicsData>
-            </li>
-        </comps>
     </ThingDef>
 
     <!-- BoS Outcast Vertibird -->
 
-    <ThingDef ParentName="BuildingBase">
+    <ThingDef ParentName="FCP_BoS_VertibirdBase">
         <defName>FCP_BoS_Outcast_Vertibird</defName>
         <label>BoS outcast vertibird</label>
-        <description>Vertibird is a designation for a series of vertical take-off and landing (VTOL) aircraft. These multipurpose tiltrotor aircraft were developed by the United States military and rapidly became a primary gunship and transport aircraft. This one is now in use by the New California Republic.</description>
-        <altitudeLayer>Building</altitudeLayer>
-        <pathCost>50</pathCost>
-        <blockWind>true</blockWind>
-        <passability>Impassable</passability>
-        <fillPercent>1.0</fillPercent>
-        <size>(10,8)</size>
-        <drawHighlight>true</drawHighlight>
-        <highlightColor>(0.56, 0.62, 0.9)</highlightColor>
         <graphicData>
-            <texPath>Things/Vehicles/Shuttles/OutcastVertibird/OutcastVertibird</texPath>
+            <texPath>Things/Vehicles/Shuttles/OutcastVertibird/FCP_Outcast_Vertibird</texPath>
             <graphicClass>Graphic_Single</graphicClass>
             <drawSize>(8,8)</drawSize>
             <shadowData>
@@ -244,80 +169,13 @@
                 <offset>(0, 0, -0.1)</offset>
             </shadowData>
         </graphicData>
-        <statBases>
-            <MaxHitPoints>1000</MaxHitPoints>
-            <Flammability>1</Flammability>
-        </statBases>
-        <tickerType>Normal</tickerType>
-        <canOverlapZones>true</canOverlapZones>
-        <killedLeavings>
-            <Plasteel>50</Plasteel>
-            <Uranium>50</Uranium>
-            <ChunkSlagSteel>4</ChunkSlagSteel>
-            <ComponentIndustrial>4</ComponentIndustrial>
-        </killedLeavings>
-        <rotatable>false</rotatable>
-        <selectable>true</selectable>
-        <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
-        <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
-        <preventSkyfallersLandingOn>true</preventSkyfallersLandingOn>
-        <drawerType>RealtimeOnly</drawerType>
-        <repairEffect>ConstructMetal</repairEffect>
-        <forceDebugSpawnable>true</forceDebugSpawnable>
-        <uiIconScale>1.4</uiIconScale>
-        <building>
-            <claimable>false</claimable>
-            <destroySound>BuildingDestroyed_Metal_Big</destroySound>
-        </building>
-        <inspectorTabs>
-            <li>ITab_ContentsTransporter</li>
-        </inspectorTabs>
-        <comps>
-            <li Class="CompProperties_Shuttle" />
-            <li Class="CompProperties_Transporter">
-                <massCapacity>1000</massCapacity>
-                <max1PerGroup>true</max1PerGroup>
-                <canChangeAssignedThingsAfterStarting>true</canChangeAssignedThingsAfterStarting>
-                <showOverallStats>false</showOverallStats>
-                <pawnLoadedSound>Shuttle_PawnLoaded</pawnLoadedSound>
-                <pawnExitSound>Shuttle_PawnExit</pawnExitSound>
-            </li>
-            <li Class="CompProperties_AmbientSound">
-                <sound>ShuttleIdle_Ambience</sound>
-            </li>
-            <li Class="FCP_Shuttles.CompProperties_RotatingBlades">
-                <bladeGraphicsData>
-                    <li>
-                        <bladeGraphic>
-                            <texPath>Things/Vehicles/Shuttles/FCP_Vertibird_Light_Propeller</texPath>
-                            <graphicClass>Graphic_Single</graphicClass>
-                            <drawSize>(6,6)</drawSize>
-                        </bladeGraphic>
-                        <positionOffset>(1, 0, -2.5)</positionOffset>
-                        <spinRate>1.5</spinRate>
-                    </li>
-                    <li>
-                        <bladeGraphic>
-                            <texPath>Things/Vehicles/Shuttles/FCP_Vertibird_Light_Propeller</texPath>
-                            <graphicClass>Graphic_Single</graphicClass>
-                            <drawSize>(6,6)</drawSize>
-                        </bladeGraphic>
-                        <positionOffset>(1, 0, 3.7)</positionOffset>
-                        <spinRate>1.5</spinRate>
-                    </li>
-                </bladeGraphicsData>
-            </li>
-        </comps>
     </ThingDef>
-
 
     <!--_____ WorldObjectDefs _____-->
 
-    <!-- BoS Standard Vertibird -->
+    <!--___ World Object Base ___-->
 
-    <WorldObjectDef>
-        <defName>FCP_BoS_TravelingVertibird</defName>
-        <label>BoS vertibird</label>
+    <WorldObjectDef Name="FCP_BoS_TravelingVertibirdBase" Abstract="True">
         <description>A BoS vertibird in flight.</description>
         <worldObjectClass>TravellingTransporters</worldObjectClass>
         <texture>World/WorldObjects/Caravan</texture>
@@ -331,20 +189,35 @@
         <rotateGraphicWhenTraveling>true</rotateGraphicWhenTraveling>
     </WorldObjectDef>
 
+    <!--___ World Object Variants ___-->
+
+    <!-- BoS Standard Vertibird -->
+
+    <WorldObjectDef ParentName="FCP_BoS_TravelingVertibirdBase">
+        <defName>FCP_BoS_TravelingVertibird</defName>
+        <label>BoS vertibird</label>
+    </WorldObjectDef>
+
+    <!-- BoS Outcast Vertibird -->
+
+    <WorldObjectDef ParentName="FCP_BoS_TravelingVertibirdBase">
+        <defName>FCP_BoS_Outcast_TravelingVertibird</defName>
+        <label>BoS outcast vertibird</label>
+    </WorldObjectDef>
+
+    <!-- BoS Lyons Pride Vertibird -->
+
+    <WorldObjectDef ParentName="FCP_BoS_TravelingVertibirdBase">
+        <defName>FCP_BoS_Lyons_TravelingVertibird</defName>
+        <label>BoS lyons pride vertibird</label>
+    </WorldObjectDef>
+
     <!--_____ Skyfaller Defs _____-->
 
     <!--___ Skyfaller Def Base ___-->
 
-    <!-- BoS Standard Vertibird -->
-
     <ThingDef Name="FCP_BoS_VertibirdSkyfallerBase" ParentName="SkyfallerBase" Abstract="True">
         <size>(10,8)</size>
-        <graphicData>
-            <texPath>Things/Vehicles/Shuttles/BoSVertibird</texPath>
-            <graphicClass>Graphic_Random</graphicClass>
-            <shaderType>CutoutFlying</shaderType>
-            <drawSize>(8,8)</drawSize>
-        </graphicData>
         <skyfaller>
             <movementType>Decelerate</movementType>
             <shadow>Things/Skyfaller/SkyfallerShadowRectangle</shadow>
@@ -377,15 +250,9 @@
         </comps>
     </ThingDef>
 
-    <!--___ Skyfaller Def ___-->
+    <!--___ Incoming Skyfallers Base ___-->
 
-    <!--__ BoS Standard Vertibird __-->
-
-    <!-- BoS Standard Vertibird Incoming -->
-
-    <ThingDef ParentName="FCP_BoS_VertibirdSkyfallerBase">
-        <defName>FCP_BoS_VertibirdIncoming</defName>
-        <label>BoS vertibird (incoming)</label>
+    <ThingDef Name="FCP_BoS_VertibirdIncomingBase" ParentName="FCP_BoS_VertibirdSkyfallerBase" Abstract="True">
         <thingClass>ShuttleIncoming</thingClass>
         <skyfaller>
             <anticipationSound>Shuttle_Landing</anticipationSound>
@@ -420,13 +287,9 @@
         </skyfaller>
     </ThingDef>
 
-    <!--__ BoS Standard Vertibird __-->
+    <!--___ Leaving Skyfallers Base ___-->
 
-    <!-- BoS Standard Vertibird Leaving -->
-
-    <ThingDef ParentName="FCP_BoS_VertibirdSkyfallerBase">
-        <defName>FCP_BoS_VertibirdLeaving</defName>
-        <label>BoS vertibird (leaving)</label>
+    <ThingDef Name="FCP_BoS_VertibirdLeavingBase" ParentName="FCP_BoS_VertibirdSkyfallerBase" Abstract="True">
         <thingClass>FlyShipLeaving</thingClass>
         <skyfaller>
             <reversed>true</reversed>
@@ -434,9 +297,6 @@
             <anticipationSoundTicks>-10</anticipationSoundTicks>
             <ticksToImpactRange>-40~-15</ticksToImpactRange>
             <moteSpawnTime>0.05</moteSpawnTime>
-            <shadow>Things/Skyfaller/SkyfallerShadowRectangle</shadow>
-            <shadowSize>(5.5,3.5)</shadowSize>
-            <motesPerCell>1</motesPerCell>
             <angleCurve>
                 <points>
                     <li>(0,90)</li>
@@ -463,6 +323,92 @@
                 </points>
             </speedCurve>
         </skyfaller>
+    </ThingDef>
+
+    <!--___ Skyfaller Variants ___-->
+
+    <!--__ BoS Standard Vertibird __-->
+
+    <!-- BoS Standard Vertibird Incoming -->
+
+    <ThingDef ParentName="FCP_BoS_VertibirdIncomingBase">
+        <defName>FCP_BoS_VertibirdIncoming</defName>
+        <label>BoS vertibird (incoming)</label>
+        <graphicData>
+            <texPath>Things/Vehicles/Shuttles/BoSVertibird</texPath>
+            <graphicClass>Graphic_Random</graphicClass>
+            <shaderType>CutoutFlying</shaderType>
+            <drawSize>(8,8)</drawSize>
+        </graphicData>
+    </ThingDef>
+
+    <!-- BoS Standard Vertibird Leaving -->
+
+    <ThingDef ParentName="FCP_BoS_VertibirdLeavingBase">
+        <defName>FCP_BoS_VertibirdLeaving</defName>
+        <label>BoS vertibird (leaving)</label>
+        <graphicData>
+            <texPath>Things/Vehicles/Shuttles/BoSVertibird</texPath>
+            <graphicClass>Graphic_Random</graphicClass>
+            <shaderType>CutoutFlying</shaderType>
+            <drawSize>(8,8)</drawSize>
+        </graphicData>
+    </ThingDef>
+
+    <!--__ BoS Outcast Vertibird __-->
+
+    <!-- BoS Outcast Vertibird Incoming -->
+
+    <ThingDef ParentName="FCP_BoS_VertibirdIncomingBase">
+        <defName>FCP_BoS_Outcast_VertibirdIncoming</defName>
+        <label>BoS outcast vertibird (incoming)</label>
+        <graphicData>
+            <texPath>Things/Vehicles/Shuttles/OutcastVertibird/FCP_Outcast_Vertibird</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>CutoutFlying</shaderType>
+            <drawSize>(8,8)</drawSize>
+        </graphicData>
+    </ThingDef>
+
+    <!-- BoS Outcast Vertibird Leaving -->
+
+    <ThingDef ParentName="FCP_BoS_VertibirdLeavingBase">
+        <defName>FCP_BoS_Outcast_VertibirdLeaving</defName>
+        <label>BoS outcast vertibird (leaving)</label>
+        <graphicData>
+            <texPath>Things/Vehicles/Shuttles/OutcastVertibird/FCP_Outcast_Vertibird</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>CutoutFlying</shaderType>
+            <drawSize>(8,8)</drawSize>
+        </graphicData>
+    </ThingDef>
+
+    <!--__ BoS Lyons Pride Vertibird __-->
+
+    <!-- BoS Lyons Pride Vertibird Incoming -->
+
+    <ThingDef ParentName="FCP_BoS_VertibirdIncomingBase">
+        <defName>FCP_BoS_Lyons_VertibirdIncoming</defName>
+        <label>BoS lyons pride vertibird (incoming)</label>
+        <graphicData>
+            <texPath>Things/Vehicles/Shuttles/LyonVertibird/FCP_Lyons_Vertibird</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>CutoutFlying</shaderType>
+            <drawSize>(8,8)</drawSize>
+        </graphicData>
+    </ThingDef>
+
+    <!-- BoS Lyons Pride Vertibird Leaving -->
+
+    <ThingDef ParentName="FCP_BoS_VertibirdLeavingBase">
+        <defName>FCP_BoS_Lyons_VertibirdLeaving</defName>
+        <label>BoS lyons pride vertibird (leaving)</label>
+        <graphicData>
+            <texPath>Things/Vehicles/Shuttles/LyonVertibird/FCP_Lyons_Vertibird</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>CutoutFlying</shaderType>
+            <drawSize>(8,8)</drawSize>
+        </graphicData>
     </ThingDef>
 
 </Defs>

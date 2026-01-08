@@ -152,18 +152,13 @@
 		</pawnGroupMakers>
 		<settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
 		<modExtensions>
-            <!-- Make them hostile to the Enclave -->
+            <!-- Make them hostile to the Enclave and Lyons' Pride Remnants -->
             <li Class="FCP.Core.ModExtension_FactionPermanentlyHostileTo">
                 <hostileFactionDefs>
-                    <li MayRequire="altushka.boscompendium">FCP_Faction_Enclave</li>
+                    <li MayRequire="Rick.FCP.Enclave">FCP_Faction_Enclave</li>
+					<li>FCP_Faction_BoS_Lyons_Pride_Remnants</li>
                 </hostileFactionDefs>
             </li>
-			<!-- Make them hostile to the Lyons' Pride Remnants -->
-			<li Class="FCP.Core.ModExtension_FactionPermanentlyHostileTo">
-				<hostileFactionDefs>
-					<li MayRequire="altushka.boscompendium">FCP_Faction_BoS_Lyons_Pride_Remnants</li>
-				</hostileFactionDefs>
-			</li>
 			<li Class="FCP.Enlist.FactionEnlistOptions">
 				<enlistOptionsDefs>
 					<li>FCP_Enlistment_Outcasts</li>
