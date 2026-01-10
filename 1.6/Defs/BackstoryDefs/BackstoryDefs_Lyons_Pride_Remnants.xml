@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
   <!--__________ Backstories __________-->
   <!--_____ Factions _____-->
@@ -682,7 +682,7 @@
     <slot>Childhood</slot>
     <title>Youngling Historian</title>
     <titleShort>Historian</titleShort>
-    <description>[PAWN_nameDef] always had an interest in the history of mankind, much to the irritation of [PAWN_possessive] teachers, as the Pride preferred to teach more â€œusefulâ€ things. [PAWN_pronoun] often procured knowledge through unconventional means.</description>
+    <description>[PAWN_nameDef] always had an interest in the history of mankind, much to the irritation of [PAWN_possessive] teachers, as the Pride preferred to teach more “useful” things. [PAWN_pronoun] often procured knowledge through unconventional means.</description>
     <skillGains>
       <Intellectual>4</Intellectual>
       <Artistic>2</Artistic>

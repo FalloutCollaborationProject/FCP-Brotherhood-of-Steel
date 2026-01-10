@@ -5,7 +5,6 @@
 
 	<!-- Lost Hills Chapter -->
 
-
 	<FactionDef ParentName="FactionBase">
 		<defName>FCP_Faction_BoS_Lost_Hills</defName>
 		<label>Lost Hills Chapter</label>

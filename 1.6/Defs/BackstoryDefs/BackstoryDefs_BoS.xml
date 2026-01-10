@@ -11,7 +11,7 @@
     <!--__ Adults __-->
     <!-- Requisitioner -->
     
-<BackstoryDef>
+    <BackstoryDef>
         <defName>FCP_Backstory_BoS_Requisitioner</defName>
         <identifier>FCP_Backstory_BoS_Requisitioner</identifier>
         <slot>Adulthood</slot>
@@ -41,7 +41,7 @@
 
     <!-- Brotherhood Educator -->
     
-<BackstoryDef>
+    <BackstoryDef>
         <defName>FCP_Backstory_BoS_Brotherhood_Educator</defName>
         <identifier>FCP_Backstory_BoS_Brotherhood_Educator</identifier>
         <slot>Adulthood</slot>
@@ -70,7 +70,7 @@
 
     <!-- Brotherhood Cleanser -->
     
-<BackstoryDef>
+    <BackstoryDef>
         <defName>FCP_Backstory_BoS_Brotherhood_Cleanser</defName>
         <identifier>FCP_Backstory_BoS_Brotherhood_Cleanser</identifier>
         <slot>Adulthood</slot>
@@ -101,7 +101,7 @@
 
     <!-- Brotherhood Quartermaster -->
     
-<BackstoryDef>
+    <BackstoryDef>
         <defName>FCP_Backstory_BoS_Brotherhood_Quartermaster</defName>
         <identifier>FCP_Backstory_BoS_Brotherhood_Quartermaster</identifier>
         <slot>Adulthood</slot>
@@ -131,7 +131,7 @@
 
     <!-- Brotherhood Scribe -->
     
-<BackstoryDef>
+    <BackstoryDef>
         <defName>FCP_Backstory_BoS_Brotherhood_Scribe</defName>
         <identifier>FCP_Backstory_BoS_Brotherhood_Scribe</identifier>
         <slot>Adulthood</slot>
@@ -162,7 +162,7 @@
 
     <!-- Brotherhood Reclaimer -->
     
-<BackstoryDef>
+    <BackstoryDef>
         <defName>FCP_Backstory_BoS_Brotherhood_Reclaimer</defName>
         <identifier>FCP_Backstory_BoS_Brotherhood_Reclaimer</identifier>
         <slot>Adulthood</slot>
@@ -192,7 +192,7 @@
 
     <!-- Patrol Leader -->
     
-<BackstoryDef>
+    <BackstoryDef>
         <defName>FCP_Backstory_BoS_Patrol_Leader</defName>
         <identifier>FCP_Backstory_BoS_Patrol_Leader</identifier>
         <slot>Adulthood</slot>
@@ -223,7 +223,7 @@
 
     <!-- BoS Advisor -->
     
-<BackstoryDef>
+    <BackstoryDef>
         <defName>FCP_Backstory_BoS_Advisor</defName>
         <identifier>FCP_Backstory_BoS_Advisor</identifier>
         <slot>Adulthood</slot>
@@ -254,7 +254,7 @@
 
     <!-- Brotherhood Preservationist -->
     
-<BackstoryDef>
+    <BackstoryDef>
         <defName>FCP_Backstory_BoS_Brotherhood_Preservationist</defName>
         <identifier>FCP_Backstory_BoS_Brotherhood_Preservationist</identifier>
         <slot>Adulthood</slot>
@@ -286,7 +286,7 @@
 
     <!-- Brotherhood Reactionary -->
     
-<BackstoryDef>
+    <BackstoryDef>
         <defName>FCP_Backstory_BoS_Brotherhood_Reactionary</defName>
         <identifier>FCP_Backstory_BoS_Brotherhood_Reactionary</identifier>
         <slot>Adulthood</slot>
@@ -319,7 +319,7 @@
 
     <!-- Brotherhood Restorer -->
     
-<BackstoryDef>
+    <BackstoryDef>
         <defName>FCP_Backstory_BoS_Brotherhood_Restorer</defName>
         <identifier>FCP_Backstory_BoS_Brotherhood_Restorer</identifier>
         <slot>Adulthood</slot>
@@ -352,7 +352,7 @@
     <!--_ Brotherhood Aspirants _-->
     <!-- Brotherhood Aspirant a -->
     
-<BackstoryDef>
+    <BackstoryDef>
         <defName>FCP_Backstory_BoS_Aspirant_a</defName>
         <identifier>FCP_Backstory_BoS_Aspirant_a</identifier>
         <slot>Adulthood</slot>
@@ -378,7 +378,7 @@
 
     <!-- Brotherhood Aspirant b -->
     
-<BackstoryDef>
+    <BackstoryDef>
         <defName>FCP_Backstory_BoS_Aspirant_b</defName>
         <identifier>FCP_Backstory_BoS_Aspirant_b</identifier>
         <slot>Adulthood</slot>
@@ -407,7 +407,7 @@
 
     <!-- Brotherhood Aspirant c -->
     
-<BackstoryDef>
+    <BackstoryDef>
         <defName>FCP_Backstory_BoS_Aspirant_c</defName>
         <identifier>FCP_Backstory_BoS_Aspirant_c</identifier>
         <slot>Adulthood</slot>
@@ -436,7 +436,7 @@
 
     <!-- Brotherhood Aspirant d -->
     
-<BackstoryDef>
+    <BackstoryDef>
         <defName>FCP_Backstory_BoS_Aspirant_d</defName>
         <identifier>FCP_Backstory_BoS_Aspirant_d</identifier>
         <slot>Adulthood</slot>
@@ -466,7 +466,7 @@
     <!--_ Brotherhood Knights _-->
     <!-- Brotherhood Knight a -->
     
-<BackstoryDef>
+    <BackstoryDef>
         <defName>FCP_Backstory_BoS_Knight_a</defName>
         <identifier>FCP_Backstory_BoS_Knight_a</identifier>
         <slot>Adulthood</slot>
@@ -495,7 +495,7 @@
 
     <!-- Brotherhood Knight b -->
     
-<BackstoryDef>
+    <BackstoryDef>
         <defName>FCP_Backstory_BoS_Knight_b</defName>
         <identifier>FCP_Backstory_BoS_Knight_b</identifier>
         <slot>Adulthood</slot>
@@ -524,7 +524,7 @@
 
     <!-- Brotherhood Knight c -->
     
-<BackstoryDef>
+    <BackstoryDef>
         <defName>FCP_Backstory_BoS_Knight_c</defName>
         <identifier>FCP_Backstory_BoS_Knight_c</identifier>
         <slot>Adulthood</slot>
@@ -553,7 +553,7 @@
 
     <!-- Brotherhood Knight d -->
     
-<BackstoryDef>
+    <BackstoryDef>
         <defName>FCP_Backstory_BoS_Knight_d</defName>
         <identifier>FCP_Backstory_BoS_Knight_d</identifier>
         <slot>Adulthood</slot>
@@ -582,7 +582,7 @@
 
     <!-- Brotherhood Knight e -->
     
-<BackstoryDef>
+    <BackstoryDef>
         <defName>FCP_Backstory_BoS_Knight_e</defName>
         <identifier>FCP_Backstory_BoS_Knight_e</identifier>
         <slot>Adulthood</slot>
@@ -612,7 +612,7 @@
     <!--_ Brotherhood Paladins _-->
     <!-- Brotherhood Paladin a -->
     
-<BackstoryDef>
+    <BackstoryDef>
         <defName>FCP_Backstory_BoS_Paladin_a</defName>
         <identifier>FCP_Backstory_BoS_Paladin_a</identifier>
         <slot>Adulthood</slot>
@@ -641,7 +641,7 @@
 
     <!-- Brotherhood Paladin b -->
     
-<BackstoryDef>
+    <BackstoryDef>
         <defName>FCP_Backstory_BoS_Paladin_b</defName>
         <identifier>FCP_Backstory_BoS_Paladin_b</identifier>
         <slot>Adulthood</slot>
@@ -670,7 +670,7 @@
 
     <!-- Brotherhood Paladin c -->
     
-<BackstoryDef>
+    <BackstoryDef>
         <defName>FCP_Backstory_BoS_Paladin_c</defName>
         <identifier>FCP_Backstory_BoS_Paladin_c</identifier>
         <slot>Adulthood</slot>
@@ -699,7 +699,7 @@
 
     <!-- Brotherhood Paladin d -->
     
-<BackstoryDef>
+    <BackstoryDef>
         <defName>FCP_Backstory_BoS_Paladin_d</defName>
         <identifier>FCP_Backstory_BoS_Paladin_d</identifier>
         <slot>Adulthood</slot>
@@ -728,7 +728,7 @@
 
     <!-- Brotherhood Paladin e -->
     
-<BackstoryDef>
+    <BackstoryDef>
         <defName>FCP_Backstory_BoS_Paladin_e</defName>
         <identifier>FCP_Backstory_BoS_Paladin_e</identifier>
         <slot>Adulthood</slot>
@@ -757,7 +757,7 @@
 
     <!-- Brotherhood Paladin f -->
     
-<BackstoryDef>
+    <BackstoryDef>
         <defName>FCP_Backstory_BoS_Paladin_f</defName>
         <identifier>FCP_Backstory_BoS_Paladin_f</identifier>
         <slot>Adulthood</slot>
@@ -788,7 +788,7 @@
     <!--_ Brotherhood Scribes _-->
     <!-- Brotherhood Scribe a -->
     
-<BackstoryDef>
+    <BackstoryDef>
         <defName>FCP_Backstory_BoS_Scribe_a</defName>
         <identifier>FCP_Backstory_BoS_Paladin_a</identifier>
         <slot>Adulthood</slot>
@@ -814,7 +814,7 @@
 
     <!-- Brotherhood Scribe b -->
     
-<BackstoryDef>
+    <BackstoryDef>
         <defName>FCP_Backstory_BoS_Scribe_b</defName>
         <identifier>FCP_Backstory_BoS_Paladin_b</identifier>
         <slot>Adulthood</slot>
@@ -840,7 +840,7 @@
 
     <!-- Brotherhood Scribe c -->
     
-<BackstoryDef>
+    <BackstoryDef>
         <defName>FCP_Backstory_BoS_Scribe_c</defName>
         <identifier>FCP_Backstory_BoS_Paladin_c</identifier>
         <slot>Adulthood</slot>
@@ -869,7 +869,7 @@
 
     <!-- Brotherhood Scribe d -->
     
-<BackstoryDef>
+    <BackstoryDef>
         <defName>FCP_Backstory_BoS_Scribe_d</defName>
         <identifier>FCP_Backstory_BoS_Paladin_d</identifier>
         <slot>Adulthood</slot>
@@ -899,7 +899,7 @@
 
     <!-- Brotherhood Scribe e -->
     
-<BackstoryDef>
+    <BackstoryDef>
         <defName>FCP_Backstory_BoS_Scribe_e</defName>
         <identifier>FCP_Backstory_BoS_Paladin_e</identifier>
         <slot>Adulthood</slot>
@@ -929,7 +929,7 @@
     <!--_ Brotherhood Elders _-->
     <!-- Brotherhood Elder a -->
     
-<BackstoryDef>
+    <BackstoryDef>
         <defName>FCP_Backstory_BoS_Elder_a</defName>
         <identifier>FCP_Backstory_BoS_Elder_a</identifier>
         <slot>Adulthood</slot>
@@ -956,7 +956,7 @@
 
     <!-- Brotherhood Elder b -->
     
-<BackstoryDef>
+    <BackstoryDef>
         <defName>FCP_Backstory_BoS_Elder_b</defName>
         <identifier>FCP_Backstory_BoS_Elder_b</identifier>
         <slot>Adulthood</slot>
@@ -983,7 +983,7 @@
 
     <!-- Brotherhood Elder c -->
     
-<BackstoryDef>
+    <BackstoryDef>
         <defName>FCP_Backstory_BoS_Elder_c</defName>
         <identifier>FCP_Backstory_BoS_Elder_c</identifier>
         <slot>Adulthood</slot>
@@ -1011,7 +1011,7 @@
     <!--__ Children __-->
     <!-- Junior Scribe -->
     
-<BackstoryDef>
+    <BackstoryDef>
         <defName>FCP_Backstory_BoS_Junior_Scribe</defName>
         <identifier>FCP_Backstory_BoS_Junior_Scribe</identifier>
         <slot>Childhood</slot>
@@ -1037,7 +1037,7 @@
 
     <!-- Brotherhood Squire -->
     
-<BackstoryDef>
+    <BackstoryDef>
         <defName>FCP_Backstory_BoS_Brotherhood_Squire</defName>
         <identifier>FCP_Backstory_BoS_JBrotherhood_Squire</identifier>
         <slot>Childhood</slot>
@@ -1065,7 +1065,7 @@
 
     <!-- Brotherhood Loner -->
     
-<BackstoryDef>
+    <BackstoryDef>
         <defName>FCP_Backstory_BoS_Brotherhood_Loner</defName>
         <identifier>FCP_Backstory_BoS_JBrotherhood_Loner</identifier>
         <slot>Childhood</slot>
@@ -1086,7 +1086,7 @@
 
     <!-- Paladin’s Kid -->
     
-<BackstoryDef>
+    <BackstoryDef>
         <defName>FCP_Backstory_BoS_Paladins_Kid</defName>
         <identifier>FCP_Backstory_BoS_Paladins_Kid</identifier>
         <slot>Childhood</slot>
@@ -1114,7 +1114,7 @@
 
     <!-- Born Wastelander -->
     
-<BackstoryDef>
+    <BackstoryDef>
         <defName>FCP_Backstory_BoS_Born_Wastelander</defName>
         <identifier>FCP_Backstory_BoS_Born_Wastelander</identifier>
         <slot>Childhood</slot>
@@ -1139,7 +1139,7 @@
 
     <!-- Rebellious Youth -->
     
-<BackstoryDef>
+    <BackstoryDef>
         <defName>FCP_Backstory_BoS_Rebellious_Youth</defName>
         <identifier>FCP_Backstory_BoS_Rebellious_Youth</identifier>
         <slot>Childhood</slot>
@@ -1163,7 +1163,7 @@
 
     <!-- Scarred Survivor -->
     
-<BackstoryDef>
+    <BackstoryDef>
         <defName>FCP_Backstory_BoS_Scarred_Survivor</defName>
         <identifier>FCP_Backstory_BoS_Scarred_Survivor</identifier>
         <slot>Childhood</slot>
@@ -1188,7 +1188,7 @@
 
     <!-- Born Leader -->
     
-<BackstoryDef>
+    <BackstoryDef>
         <defName>FCP_Backstory_BoS_Born_Leader</defName>
         <identifier>FCP_Backstory_BoS_Born_Leader</identifier>
         <slot>Childhood</slot>
@@ -1213,7 +1213,7 @@
 
     <!-- Aspiring Knight -->
     
-<BackstoryDef>
+    <BackstoryDef>
         <defName>FCP_Backstory_BoS_Aspiring_Knight</defName>
         <identifier>FCP_Backstory_BoS_Aspiring_Knight</identifier>
         <slot>Childhood</slot>
@@ -1239,7 +1239,7 @@
 
     <!-- Zealous Aspirant -->
     
-<BackstoryDef>
+    <BackstoryDef>
         <defName>FCP_Backstory_BoS_Zealous_Aspirant</defName>
         <identifier>FCP_Backstory_BoS_Zealous_Aspirant</identifier>
         <slot>Childhood</slot>
@@ -1263,7 +1263,7 @@
 
     <!-- Outsider Recruit -->
     
-<BackstoryDef>
+    <BackstoryDef>
         <defName>FCP_Backstory_BoS_Outsider_Recruit</defName>
         <identifier>FCP_Backstory_BoS_Outsider_Recruit</identifier>
         <slot>Childhood</slot>
@@ -1287,7 +1287,7 @@
 
     <!-- Youngling Historian -->
     
-<BackstoryDef>
+    <BackstoryDef>
         <defName>FCP_Backstory_BoS_Youngling_Historian</defName>
         <identifier>FCP_Backstory_BoS_Youngling_Historian</identifier>
         <slot>Childhood</slot>
@@ -1312,7 +1312,7 @@
 
     <!-- Canteen Apprentice -->
     
-<BackstoryDef>
+    <BackstoryDef>
         <defName>FCP_Backstory_BoS_Canteen_Apprentice</defName>
         <identifier>FCP_Backstory_BoS_Canteen_Apprentice</identifier>
         <slot>Childhood</slot>
@@ -1337,7 +1337,7 @@
     <!--_ Brotherhood Squires _-->
     <!-- Brotherhood Squire a -->
     
-<BackstoryDef>
+    <BackstoryDef>
         <defName>FCP_Backstory_BoS_Squire_a</defName>
         <identifier>FCP_Backstory_BoS_Squire_a</identifier>
         <slot>Childhood</slot>
@@ -1361,7 +1361,7 @@
 
     <!-- Brotherhood Squire b -->
     
-<BackstoryDef>
+    <BackstoryDef>
         <defName>FCP_Backstory_BoS_Squire_b</defName>
         <identifier>FCP_Backstory_BoS_Squire_b</identifier>
         <slot>Childhood</slot>
@@ -1389,7 +1389,7 @@
 
     <!-- Brotherhood Squire c -->
     
-<BackstoryDef>
+    <BackstoryDef>
         <defName>FCP_Backstory_BoS_Squire_c</defName>
         <identifier>FCP_Backstory_BoS_Squire_c</identifier>
         <slot>Childhood</slot>
@@ -1417,7 +1417,7 @@
 
     <!-- Brotherhood Squire d -->
     
-<BackstoryDef>
+    <BackstoryDef>
         <defName>FCP_Backstory_BoS_Squire_d</defName>
         <identifier>FCP_Backstory_BoS_Squire_d</identifier>
         <slot>Childhood</slot>
