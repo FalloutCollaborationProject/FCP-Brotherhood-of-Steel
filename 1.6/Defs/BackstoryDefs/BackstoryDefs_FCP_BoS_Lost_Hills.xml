@@ -1,636 +1,608 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-
-	<!--__________ Lost Hills Chapter Backstories __________-->
-
-	<!--__ Adults __-->
-
-	<!-- Lost Hills Initiate -->
-
-	<BackstoryDef>
-		<defName>FCP_BoS_LostHills_Initiatea</defName>
-		<title>Lost Hills Initiate</title>
-		<titleShort>Initiate</titleShort>
-		<baseDesc>[PAWN_nameDef] trained in the Lost Hills bunker complex, learning the original Codex under the watchful eyes of the Elder Council. [PAWN_pronoun] proved [PAWN_objective]self worthy through rigorous physical and mental trials.</baseDesc>
-		<bodyTypeMale>Male</bodyTypeMale>
-		<bodyTypeFemale>Female</bodyTypeFemale>
-		<slot>Adulthood</slot>
-		<spawnCategories>
-			<li>FCP_Backstory_BoS_LostHills</li>
-		</spawnCategories>
-		<skillGains>
-			<Shooting>4</Shooting>
-			<Melee>3</Melee>
-		</skillGains>
-	</BackstoryDef>
-
-	<!-- Lost Hills Scribe -->
-
-	<BackstoryDef>
-		<defName>FCP_BoS_LostHills_Scribeb</defName>
-		<title>Lost Hills Scribe</title>
-		<titleShort>Scribe</titleShort>
-		<baseDesc>[PAWN_nameDef] dedicated [PAWN_objective]self to preserving pre-war knowledge in the vast archives beneath Lost Hills. [PAWN_pronoun] spent years cataloging technology and studying the old world's secrets.</baseDesc>
-		<bodyTypeMale>Thin</bodyTypeMale>
-		<bodyTypeFemale>Thin</bodyTypeFemale>
-		<slot>Adulthood</slot>
-		<spawnCategories>
-			<li>FCP_Backstory_BoS_LostHills</li>
-		</spawnCategories>
-		<skillGains>
-			<Intellectual>6</Intellectual>
-			<Crafting>3</Crafting>
-		</skillGains>
-		<workDisables>
-			<li>ManualDumb</li>
-		</workDisables>
-	</BackstoryDef>
-
-	<!-- Lost Hills Knight -->
-
-	<BackstoryDef>
-		<defName>FCP_BoS_LostHills_Knightc</defName>
-		<title>Lost Hills Knight</title>
-		<titleShort>Knight</titleShort>
-		<baseDesc>[PAWN_nameDef] earned the rank of Knight through exemplary service and mastery of power armor. [PAWN_pronoun] upheld the strictest interpretation of the Codex, believing technology should be controlled by the worthy few.</baseDesc>
-		<bodyTypeMale>Hulk</bodyTypeMale>
-		<bodyTypeFemale>Hulk</bodyTypeFemale>
-		<slot>Adulthood</slot>
-		<spawnCategories>
-			<li>FCP_Backstory_BoS_LostHills</li>
-		</spawnCategories>
-		<skillGains>
-			<Shooting>5</Shooting>
-			<Melee>5</Melee>
-			<Crafting>2</Crafting>
-		</skillGains>
-	</BackstoryDef>
-
-	<!-- Lost Hills Paladin -->
-
-	<BackstoryDef>
-		<defName>FCP_BoS_LostHills_Paladind</defName>
-		<title>Lost Hills Paladin</title>
-		<titleShort>Paladin</titleShort>
-		<baseDesc>[PAWN_nameDef] rose to the elite rank of Paladin, leading missions to recover pre-war technology and eliminate threats to the Brotherhood. [PAWN_pronoun] embodied the warrior spirit of Roger Maxson himself.</baseDesc>
-		<bodyTypeMale>Hulk</bodyTypeMale>
-		<bodyTypeFemale>Hulk</bodyTypeFemale>
-		<slot>Adulthood</slot>
-		<spawnCategories>
-			<li>FCP_Backstory_BoS_LostHills</li>
-		</spawnCategories>
-		<skillGains>
-			<Shooting>7</Shooting>
-			<Melee>6</Melee>
-		</skillGains>
-		<workDisables>
-			<li>PlantWork</li>
-		</workDisables>
-	</BackstoryDef>
-
-	<!-- Lost Hills Senior Scribe -->
-
-	<BackstoryDef>
-		<defName>FCP_BoS_LostHills_SeniorScribee</defName>
-		<title>Lost Hills Senior Scribe</title>
-		<titleShort>Senior Scribe</titleShort>
-		<baseDesc>[PAWN_nameDef] achieved senior rank in the Scribe order, overseeing research projects and training new members. [PAWN_pronoun] believed preserving knowledge was humanity's only path to survival.</baseDesc>
-		<bodyTypeMale>Thin</bodyTypeMale>
-		<bodyTypeFemale>Thin</bodyTypeFemale>
-		<slot>Adulthood</slot>
-		<spawnCategories>
-			<li>FCP_Backstory_BoS_LostHills</li>
-		</spawnCategories>
-		<skillGains>
-			<Intellectual>8</Intellectual>
-			<Crafting>4</Crafting>
-			<Medicine>3</Medicine>
-		</skillGains>
-		<workDisables>
-			<li>ManualDumb</li>
-			<li>Violent</li>
-		</workDisables>
-	</BackstoryDef>
-
-	<!-- Lost Hills Tech Adept -->
-
-	<BackstoryDef>
-		<defName>FCP_BoS_LostHills_TechAdeptf</defName>
-		<title>Lost Hills Tech Adept</title>
-		<titleShort>Tech Adept</titleShort>
-		<baseDesc>[PAWN_nameDef] specialized in maintaining the Brotherhood's arsenal of power armor and energy weapons. [PAWN_pronoun] viewed each piece of pre-war technology as sacred, treating them with reverence.</baseDesc>
-		<bodyTypeMale>Male</bodyTypeMale>
-		<bodyTypeFemale>Female</bodyTypeFemale>
-		<slot>Adulthood</slot>
-		<spawnCategories>
-			<li>FCP_Backstory_BoS_LostHills</li>
-		</spawnCategories>
-		<skillGains>
-			<Crafting>7</Crafting>
-			<Intellectual>4</Intellectual>
-		</skillGains>
-	</BackstoryDef>
-
-	<!-- Lost Hills Recruiter -->
-
-	<BackstoryDef>
-		<defName>FCP_BoS_LostHills_Recruiterg</defName>
-		<title>Lost Hills Recruiter</title>
-		<titleShort>Recruiter</titleShort>
-		<baseDesc>[PAWN_nameDef] ventured into the wastes to identify potential recruits for the Brotherhood. [PAWN_pronoun] sought only the most exceptional individuals, maintaining Lost Hills' high standards.</baseDesc>
-		<bodyTypeMale>Male</bodyTypeMale>
-		<bodyTypeFemale>Female</bodyTypeFemale>
-		<slot>Adulthood</slot>
-		<spawnCategories>
-			<li>FCP_Backstory_BoS_LostHills</li>
-		</spawnCategories>
-		<skillGains>
-			<Social>6</Social>
-			<Shooting>3</Shooting>
-			<Intellectual>2</Intellectual>
-		</skillGains>
-	</BackstoryDef>
-
-	<!-- Lost Hills Sentinel -->
-
-	<BackstoryDef>
-		<defName>FCP_BoS_LostHills_Sentinelh</defName>
-		<title>Lost Hills Sentinel</title>
-		<titleShort>Sentinel</titleShort>
-		<baseDesc>[PAWN_nameDef] held the highest rank a warrior could achieve in Lost Hills. [PAWN_pronoun] commanded respect through decades of service and unwavering dedication to the original Codex.</baseDesc>
-		<bodyTypeMale>Hulk</bodyTypeMale>
-		<bodyTypeFemale>Hulk</bodyTypeFemale>
-		<slot>Adulthood</slot>
-		<spawnCategories>
-			<li>FCP_Backstory_BoS_LostHills</li>
-		</spawnCategories>
-		<skillGains>
-			<Shooting>8</Shooting>
-			<Melee>7</Melee>
-			<Social>4</Social>
-		</skillGains>
-		<workDisables>
-			<li>PlantWork</li>
-			<li>ManualDumb</li>
-		</workDisables>
-	</BackstoryDef>
-
-	<!-- Lost Hills Archivist -->
-
-	<BackstoryDef>
-		<defName>FCP_BoS_LostHills_Archivisti</defName>
-		<title>Lost Hills Archivist</title>
-		<titleShort>Archivist</titleShort>
-		<baseDesc>[PAWN_nameDef] maintained the Brotherhood's extensive data archives, ensuring no knowledge was ever lost. [PAWN_pronoun] could navigate the bunker's computer systems better than its corridors.</baseDesc>
-		<bodyTypeMale>Thin</bodyTypeMale>
-		<bodyTypeFemale>Thin</bodyTypeFemale>
-		<slot>Adulthood</slot>
-		<spawnCategories>
-			<li>FCP_Backstory_BoS_LostHills</li>
-		</spawnCategories>
-		<skillGains>
-			<Intellectual>7</Intellectual>
-		</skillGains>
-		<workDisables>
-			<li>ManualDumb</li>
-			<li>Violent</li>
-		</workDisables>
-	</BackstoryDef>
-
-	<!-- Lost Hills Weaponsmith -->
-
-	<BackstoryDef>
-		<defName>FCP_BoS_LostHills_Weaponsmithj</defName>
-		<title>Lost Hills Weaponsmith</title>
-		<titleShort>Weaponsmith</titleShort>
-		<baseDesc>[PAWN_nameDef] crafted and repaired weapons in the Brotherhood's armory. [PAWN_pronoun] took pride in maintaining the chapter's arsenal to pre-war military specifications.</baseDesc>
-		<bodyTypeMale>Hulk</bodyTypeMale>
-		<bodyTypeFemale>Male</bodyTypeFemale>
-		<slot>Adulthood</slot>
-		<spawnCategories>
-			<li>FCP_Backstory_BoS_LostHills</li>
-		</spawnCategories>
-		<skillGains>
-			<Crafting>8</Crafting>
-			<Shooting>3</Shooting>
-		</skillGains>
-		<workDisables>
-			<li>Social</li>
-		</workDisables>
-	</BackstoryDef>
-
-	<!-- Lost Hills Medical Officer -->
-
-	<BackstoryDef>
-		<defName>FCP_BoS_LostHills_MedicalOfficerk</defName>
-		<title>Lost Hills Medical Officer</title>
-		<titleShort>Med Officer</titleShort>
-		<baseDesc>[PAWN_nameDef] treated wounded Brothers in the medical bay, using both pre-war medical knowledge and wasteland improvisation. [PAWN_pronoun] saw [PAWN_objective]self as keeping the Brotherhood's most valuable resource alive.</baseDesc>
-		<bodyTypeMale>Thin</bodyTypeMale>
-		<bodyTypeFemale>Female</bodyTypeFemale>
-		<slot>Adulthood</slot>
-		<spawnCategories>
-			<li>FCP_Backstory_BoS_LostHills</li>
-		</spawnCategories>
-		<skillGains>
-			<Medicine>7</Medicine>
-			<Intellectual>4</Intellectual>
-		</skillGains>
-		<workDisables>
-			<li>Violent</li>
-		</workDisables>
-	</BackstoryDef>
-
-	<!-- Lost Hills Security Chief -->
-
-	<BackstoryDef>
-		<defName>FCP_BoS_LostHills_SecurityChiefl</defName>
-		<title>Lost Hills Security Chief</title>
-		<titleShort>Sec Chief</titleShort>
-		<baseDesc>[PAWN_nameDef] oversaw security protocols for the bunker complex, ensuring no unauthorized access to Brotherhood secrets. [PAWN_pronoun] was paranoid about outsider infiltration.</baseDesc>
-		<bodyTypeMale>Hulk</bodyTypeMale>
-		<bodyTypeFemale>Hulk</bodyTypeFemale>
-		<slot>Adulthood</slot>
-		<spawnCategories>
-			<li>FCP_Backstory_BoS_LostHills</li>
-		</spawnCategories>
-		<skillGains>
-			<Shooting>6</Shooting>
-			<Melee>5</Melee>
-			<Social>2</Social>
-		</skillGains>
-		<workDisables>
-			<li>Artistic</li>
-		</workDisables>
-	</BackstoryDef>
-
-	<!-- Lost Hills Field Scribe -->
-
-	<BackstoryDef>
-		<defName>FCP_BoS_LostHills_FieldScribem</defName>
-		<title>Lost Hills Field Scribe</title>
-		<titleShort>Field Scribe</titleShort>
-		<baseDesc>[PAWN_nameDef] accompanied combat missions to document recovered technology. [PAWN_pronoun] balanced scholarly pursuits with basic combat training, though [PAWN_pronoun] preferred cataloging to fighting.</baseDesc>
-		<bodyTypeMale>Male</bodyTypeMale>
-		<bodyTypeFemale>Female</bodyTypeFemale>
-		<slot>Adulthood</slot>
-		<spawnCategories>
-			<li>FCP_Backstory_BoS_LostHills</li>
-		</spawnCategories>
-		<skillGains>
-			<Intellectual>5</Intellectual>
-			<Shooting>3</Shooting>
-			<Crafting>3</Crafting>
-		</skillGains>
-	</BackstoryDef>
-
-	<!-- Lost Hills Elder Councilor -->
-
-	<BackstoryDef>
-		<defName>FCP_BoS_LostHills_ElderCouncilorn</defName>
-		<title>Lost Hills Elder Councilor</title>
-		<titleShort>Elder</titleShort>
-		<baseDesc>[PAWN_nameDef] served on the Elder Council, making decisions that shaped the Brotherhood's future. [PAWN_pronoun] believed Lost Hills must remain the supreme authority over all chapters.</baseDesc>
-		<bodyTypeMale>Male</bodyTypeMale>
-		<bodyTypeFemale>Female</bodyTypeFemale>
-		<slot>Adulthood</slot>
-		<spawnCategories>
-			<li>FCP_Backstory_BoS_LostHills</li>
-		</spawnCategories>
-		<skillGains>
-			<Social>7</Social>
-			<Intellectual>6</Intellectual>
-		</skillGains>
-		<workDisables>
-			<li>ManualDumb</li>
-			<li>Violent</li>
-		</workDisables>
-	</BackstoryDef>
-
-	<!-- Lost Hills Power Armor Tech -->
-
-	<BackstoryDef>
-		<defName>FCP_BoS_LostHills_PowerArmorTecho</defName>
-		<title>Lost Hills Power Armor Tech</title>
-		<titleShort>PA Tech</titleShort>
-		<baseDesc>[PAWN_nameDef] specialized exclusively in power armor maintenance and modification. [PAWN_pronoun] knew every servo and fusion cell of the T-51b suits like [PAWN_pronoun] knew [PAWN_objective] own body.</baseDesc>
-		<bodyTypeMale>Hulk</bodyTypeMale>
-		<bodyTypeFemale>Male</bodyTypeFemale>
-		<slot>Adulthood</slot>
-		<spawnCategories>
-			<li>FCP_Backstory_BoS_LostHills</li>
-		</spawnCategories>
-		<skillGains>
-			<Crafting>9</Crafting>
-			<Intellectual>3</Intellectual>
-		</skillGains>
-		<workDisables>
-			<li>Social</li>
-			<li>Artistic</li>
-		</workDisables>
-	</BackstoryDef>
-
-	<!-- Lost Hills Logistics Officer -->
-
-	<BackstoryDef>
-		<defName>FCP_BoS_LostHills_LogisticsOfficerp</defName>
-		<title>Lost Hills Logistics Officer</title>
-		<titleShort>Logistics</titleShort>
-		<baseDesc>[PAWN_nameDef] managed supply lines and resource allocation for the bunker. [PAWN_pronoun] ensured the Brotherhood could maintain its isolationist stance while remaining self-sufficient.</baseDesc>
-		<bodyTypeMale>Male</bodyTypeMale>
-		<bodyTypeFemale>Female</bodyTypeFemale>
-		<slot>Adulthood</slot>
-		<spawnCategories>
-			<li>FCP_Backstory_BoS_LostHills</li>
-		</spawnCategories>
-		<skillGains>
-			<Social>4</Social>
-			<Intellectual>5</Intellectual>
-			<Crafting>2</Crafting>
-		</skillGains>
-	</BackstoryDef>
-
-	<!-- Lost Hills Recon Specialist -->
-
-	<BackstoryDef>
-		<defName>FCP_BoS_LostHills_ReconSpecialistq</defName>
-		<title>Lost Hills Recon Specialist</title>
-		<titleShort>Recon Spec</titleShort>
-		<baseDesc>[PAWN_nameDef] scouted the California wasteland for threats and technology caches. [PAWN_pronoun] moved silently through ruins, gathering intelligence for the Elder Council.</baseDesc>
-		<bodyTypeMale>Thin</bodyTypeMale>
-		<bodyTypeFemale>Thin</bodyTypeFemale>
-		<slot>Adulthood</slot>
-		<spawnCategories>
-			<li>FCP_Backstory_BoS_LostHills</li>
-		</spawnCategories>
-		<skillGains>
-			<Shooting>6</Shooting>
-			<Melee>4</Melee>
-		</skillGains>
-	</BackstoryDef>
-
-	<!-- Lost Hills Chemist -->
-
-	<BackstoryDef>
-		<defName>FCP_BoS_LostHills_ChemistScriber</defName>
-		<title>Lost Hills Chemist</title>
-		<titleShort>Chemist</titleShort>
-		<baseDesc>[PAWN_nameDef] studied pre-war chemical formulas and pharmaceutical knowledge. [PAWN_pronoun] synthesized medicine and experimental compounds in the Brotherhood's laboratories.</baseDesc>
-		<bodyTypeMale>Thin</bodyTypeMale>
-		<bodyTypeFemale>Thin</bodyTypeFemale>
-		<slot>Adulthood</slot>
-		<spawnCategories>
-			<li>FCP_Backstory_BoS_LostHills</li>
-		</spawnCategories>
-		<skillGains>
-			<Intellectual>6</Intellectual>
-			<Medicine>4</Medicine>
-			<Crafting>3</Crafting>
-		</skillGains>
-		<workDisables>
-			<li>Violent</li>
-		</workDisables>
-	</BackstoryDef>
-
-	<!-- Lost Hills Training Instructor -->
-
-	<BackstoryDef>
-		<defName>FCP_BoS_LostHills_TrainingInstructors</defName>
-		<title>Lost Hills Training Instructor</title>
-		<titleShort>Instructor</titleShort>
-		<baseDesc>[PAWN_nameDef] trained new Initiates in Brotherhood doctrine and combat skills. [PAWN_pronoun] was known for [PAWN_possessive] harsh methods and uncompromising standards.</baseDesc>
-		<bodyTypeMale>Hulk</bodyTypeMale>
-		<bodyTypeFemale>Hulk</bodyTypeFemale>
-		<slot>Adulthood</slot>
-		<spawnCategories>
-			<li>FCP_Backstory_BoS_LostHills</li>
-		</spawnCategories>
-		<skillGains>
-			<Shooting>5</Shooting>
-			<Melee>6</Melee>
-			<Social>3</Social>
-		</skillGains>
-	</BackstoryDef>
-
-	<!-- Lost Hills Engineer -->
-
-	<BackstoryDef>
-		<defName>FCP_BoS_LostHills_Engineert</defName>
-		<title>Lost Hills Engineer</title>
-		<titleShort>Engineer</titleShort>
-		<baseDesc>[PAWN_nameDef] maintained the bunker's infrastructure and life support systems. [PAWN_pronoun] understood that without working systems, all the Brotherhood's technology meant nothing.</baseDesc>
-		<bodyTypeMale>Male</bodyTypeMale>
-		<bodyTypeFemale>Female</bodyTypeFemale>
-		<slot>Adulthood</slot>
-		<spawnCategories>
-			<li>FCP_Backstory_BoS_LostHills</li>
-		</spawnCategories>
-		<skillGains>
-			<Crafting>6</Crafting>
-			<Construction>5</Construction>
-			<Intellectual>3</Intellectual>
-		</skillGains>
-	</BackstoryDef>
-
-	<!--__ Children __-->
-
-	<!-- Lost Hills bunker child -->
-
-	<BackstoryDef>
-		<defName>FCP_BoS_LostHills_BunkerChilda</defName>
-		<title>Lost Hills bunker child</title>
-		<titleShort>bunker child</titleShort>
-		<baseDesc>[PAWN_nameDef] grew up in the depths of the Lost Hills bunker, never seeing the sky until [PAWN_pronoun] was old enough for training. The sterile corridors and humming computers were [PAWN_possessive] only home.</baseDesc>
-		<bodyTypeMale>Thin</bodyTypeMale>
-		<bodyTypeFemale>Thin</bodyTypeFemale>
-		<slot>Childhood</slot>
-		<spawnCategories>
-			<li>FCP_Backstory_BoS_LostHills_Child</li>
-		</spawnCategories>
-		<skillGains>
-			<Intellectual>3</Intellectual>
-		</skillGains>
-		<workDisables>
-			<li>ManualDumb</li>
-		</workDisables>
-	</BackstoryDef>
-
-	<!-- Lost Hills scribe apprentice -->
-
-	<BackstoryDef>
-		<defName>FCP_BoS_LostHills_ScribeApprenticeb</defName>
-		<title>Lost Hills scribe apprentice</title>
-		<titleShort>apprentice</titleShort>
-		<baseDesc>[PAWN_nameDef] shadowed senior Scribes through the archives, learning to catalog pre-war technology. [PAWN_pronoun] showed early aptitude for technical knowledge.</baseDesc>
-		<bodyTypeMale>Thin</bodyTypeMale>
-		<bodyTypeFemale>Thin</bodyTypeFemale>
-		<slot>Childhood</slot>
-		<spawnCategories>
-			<li>FCP_Backstory_BoS_LostHills_Child</li>
-		</spawnCategories>
-		<skillGains>
-			<Intellectual>4</Intellectual>
-			<Crafting>2</Crafting>
-		</skillGains>
-	</BackstoryDef>
-
-	<!-- Lost Hills squire candidate -->
-
-	<BackstoryDef>
-		<defName>FCP_BoS_LostHills_SquireCandidatec</defName>
-		<title>Lost Hills squire candidate</title>
-		<titleShort>squire</titleShort>
-		<baseDesc>[PAWN_nameDef] trained in basic combat and Brotherhood doctrine, hoping to one day wear power armor. [PAWN_pronoun] idolized the Paladins who protected the chapter.</baseDesc>
-		<bodyTypeMale>Male</bodyTypeMale>
-		<bodyTypeFemale>Female</bodyTypeFemale>
-		<slot>Childhood</slot>
-		<spawnCategories>
-			<li>FCP_Backstory_BoS_LostHills_Child</li>
-		</spawnCategories>
-		<skillGains>
-			<Shooting>2</Shooting>
-			<Melee>3</Melee>
-		</skillGains>
-	</BackstoryDef>
-
-	<!-- Lost Hills codex student -->
-
-	<BackstoryDef>
-		<defName>FCP_BoS_LostHills_CodexStudentd</defName>
-		<title>Lost Hills codex student</title>
-		<titleShort>student</titleShort>
-		<baseDesc>[PAWN_nameDef] memorized passages from the original Codex written by Roger Maxson. [PAWN_pronoun] learned that the Brotherhood's way was the only way to save humanity.</baseDesc>
-		<bodyTypeMale>Thin</bodyTypeMale>
-		<bodyTypeFemale>Thin</bodyTypeFemale>
-		<slot>Childhood</slot>
-		<spawnCategories>
-			<li>FCP_Backstory_BoS_LostHills_Child</li>
-		</spawnCategories>
-		<skillGains>
-			<Intellectual>3</Intellectual>
-			<Social>2</Social>
-		</skillGains>
-	</BackstoryDef>
-
-	<!-- Lost Hills mechanic helper -->
-
-	<BackstoryDef>
-		<defName>FCP_BoS_LostHills_MechanicHelpere</defName>
-		<title>Lost Hills mechanic helper</title>
-		<titleShort>helper</titleShort>
-		<baseDesc>[PAWN_nameDef] assisted in the armory workshops, fetching tools and learning basic repairs. [PAWN_pronoun] dreamed of one day maintaining power armor.</baseDesc>
-		<bodyTypeMale>Male</bodyTypeMale>
-		<bodyTypeFemale>Female</bodyTypeFemale>
-		<slot>Childhood</slot>
-		<spawnCategories>
-			<li>FCP_Backstory_BoS_LostHills_Child</li>
-		</spawnCategories>
-		<skillGains>
-			<Crafting>4</Crafting>
-		</skillGains>
-	</BackstoryDef>
-
-	<!-- Lost Hills elder's descendant -->
-
-	<BackstoryDef>
-		<defName>FCP_BoS_LostHills_ElderDescendantf</defName>
-		<title>Lost Hills elder's descendant</title>
-		<titleShort>descendant</titleShort>
-		<baseDesc>[PAWN_nameDef] came from a prestigious bloodline dating back to the Brotherhood's founding. [PAWN_pronoun] felt the weight of expectation from birth.</baseDesc>
-		<bodyTypeMale>Male</bodyTypeMale>
-		<bodyTypeFemale>Female</bodyTypeFemale>
-		<slot>Childhood</slot>
-		<spawnCategories>
-			<li>FCP_Backstory_BoS_LostHills_Child</li>
-		</spawnCategories>
-		<skillGains>
-			<Social>3</Social>
-			<Intellectual>2</Intellectual>
-		</skillGains>
-		<workDisables>
-			<li>ManualDumb</li>
-		</workDisables>
-	</BackstoryDef>
-
-	<!-- Lost Hills security ward -->
-
-	<BackstoryDef>
-		<defName>FCP_BoS_LostHills_SecurityWardg</defName>
-		<title>Lost Hills security ward</title>
-		<titleShort>ward</titleShort>
-		<baseDesc>[PAWN_nameDef] shadowed security patrols through the bunker, learning to spot threats and maintain vigilance. [PAWN_pronoun] was taught to trust no outsider.</baseDesc>
-		<bodyTypeMale>Male</bodyTypeMale>
-		<bodyTypeFemale>Female</bodyTypeFemale>
-		<slot>Childhood</slot>
-		<spawnCategories>
-			<li>FCP_Backstory_BoS_LostHills_Child</li>
-		</spawnCategories>
-		<skillGains>
-			<Shooting>3</Shooting>
-			<Melee>2</Melee>
-		</skillGains>
-	</BackstoryDef>
-
-	<!-- Lost Hills data entry youth -->
-
-	<BackstoryDef>
-		<defName>FCP_BoS_LostHills_DataEntryYouthh</defName>
-		<title>Lost Hills data entry youth</title>
-		<titleShort>data youth</titleShort>
-		<baseDesc>[PAWN_nameDef] spent hours at terminals inputting information into the Brotherhood's databases. [PAWN_pronoun] found the repetitive work meditative.</baseDesc>
-		<bodyTypeMale>Thin</bodyTypeMale>
-		<bodyTypeFemale>Thin</bodyTypeFemale>
-		<slot>Childhood</slot>
-		<spawnCategories>
-			<li>FCP_Backstory_BoS_LostHills_Child</li>
-		</spawnCategories>
-		<skillGains>
-			<Intellectual>4</Intellectual>
-		</skillGains>
-		<workDisables>
-			<li>Social</li>
-			<li>Violent</li>
-		</workDisables>
-	</BackstoryDef>
-
-	<!-- Lost Hills gunrange youth -->
-
-	<BackstoryDef>
-		<defName>FCP_BoS_LostHills_GunrangeYouthi</defName>
-		<title>Lost Hills gunrange youth</title>
-		<titleShort>shooter</titleShort>
-		<baseDesc>[PAWN_nameDef] spent countless hours on the practice range, showing natural talent with firearms. The instructors predicted [PAWN_pronoun] would become a great warrior.</baseDesc>
-		<bodyTypeMale>Male</bodyTypeMale>
-		<bodyTypeFemale>Female</bodyTypeFemale>
-		<slot>Childhood</slot>
-		<spawnCategories>
-			<li>FCP_Backstory_BoS_LostHills_Child</li>
-		</spawnCategories>
-		<skillGains>
-			<Shooting>4</Shooting>
-		</skillGains>
-	</BackstoryDef>
-
-	<!-- Lost Hills medical aide -->
-
-	<BackstoryDef>
-		<defName>FCP_BoS_LostHills_MedicalAidej</defName>
-		<title>Lost Hills medical aide</title>
-		<titleShort>aide</titleShort>
-		<baseDesc>[PAWN_nameDef] helped in the medical bay, learning basic first aid and anatomy. [PAWN_pronoun] had a gentle touch and steady hands.</baseDesc>
-		<bodyTypeMale>Thin</bodyTypeMale>
-		<bodyTypeFemale>Thin</bodyTypeFemale>
-		<slot>Childhood</slot>
-		<spawnCategories>
-			<li>FCP_Backstory_BoS_LostHills_Child</li>
-		</spawnCategories>
-		<skillGains>
-			<Medicine>4</Medicine>
-			<Intellectual>2</Intellectual>
-		</skillGains>
-		<workDisables>
-			<li>Violent</li>
-		</workDisables>
-	</BackstoryDef>
-
+  <!--__________ Lost Hills Chapter Backstories __________-->
+  <!--__ Adults __-->
+  <!-- Lost Hills Initiate -->
+  <BackstoryDef>
+    <defName>FCP_BoS_LostHills_Initiatea</defName>
+    <title>Lost Hills Initiate</title>
+    <titleShort>Initiate</titleShort>
+    <baseDesc>[PAWN_nameDef] trained in the Lost Hills bunker complex, learning the original Codex under the watchful eyes of the Elder Council. [PAWN_pronoun] proved [PAWN_objective]self worthy through rigorous physical and mental trials.</baseDesc>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <slot>Adulthood</slot>
+    <spawnCategories>
+      <li>FCP_Backstory_BoS_LostHills</li>
+    </spawnCategories>
+    <skillGains>
+      <Shooting>4</Shooting>
+      <Melee>3</Melee>
+    </skillGains>
+    <forcedTraits>
+      <FCP_Trait_Sharpshooter>0</FCP_Trait_Sharpshooter>
+    </forcedTraits>
+  </BackstoryDef>
+  <!-- Lost Hills Scribe -->
+  <BackstoryDef>
+    <defName>FCP_BoS_LostHills_Scribeb</defName>
+    <title>Lost Hills Scribe</title>
+    <titleShort>Scribe</titleShort>
+    <baseDesc>[PAWN_nameDef] dedicated [PAWN_objective]self to preserving pre-war knowledge in the vast archives beneath Lost Hills. [PAWN_pronoun] spent years cataloging technology and studying the old world's secrets.</baseDesc>
+    <bodyTypeMale>Thin</bodyTypeMale>
+    <bodyTypeFemale>Thin</bodyTypeFemale>
+    <slot>Adulthood</slot>
+    <spawnCategories>
+      <li>FCP_Backstory_BoS_LostHills</li>
+    </spawnCategories>
+    <skillGains>
+      <Intellectual>6</Intellectual>
+      <Crafting>3</Crafting>
+    </skillGains>
+    <workDisables>
+      <li>ManualDumb</li>
+    </workDisables>
+  </BackstoryDef>
+  <!-- Lost Hills Knight -->
+  <BackstoryDef>
+    <defName>FCP_BoS_LostHills_Knightc</defName>
+    <title>Lost Hills Knight</title>
+    <titleShort>Knight</titleShort>
+    <baseDesc>[PAWN_nameDef] earned the rank of Knight through exemplary service and mastery of power armor. [PAWN_pronoun] upheld the strictest interpretation of the Codex, believing technology should be controlled by the worthy few.</baseDesc>
+    <bodyTypeMale>Hulk</bodyTypeMale>
+    <bodyTypeFemale>Hulk</bodyTypeFemale>
+    <slot>Adulthood</slot>
+    <spawnCategories>
+      <li>FCP_Backstory_BoS_LostHills</li>
+    </spawnCategories>
+    <skillGains>
+      <Shooting>5</Shooting>
+      <Melee>5</Melee>
+      <Crafting>2</Crafting>
+    </skillGains>
+    <forcedTraits>
+      <FCP_Trait_Sharpshooter>0</FCP_Trait_Sharpshooter>
+    </forcedTraits>
+  </BackstoryDef>
+  <!-- Lost Hills Paladin -->
+  <BackstoryDef>
+    <defName>FCP_BoS_LostHills_Paladind</defName>
+    <title>Lost Hills Paladin</title>
+    <titleShort>Paladin</titleShort>
+    <baseDesc>[PAWN_nameDef] rose to the elite rank of Paladin, leading missions to recover pre-war technology and eliminate threats to the Brotherhood. [PAWN_pronoun] embodied the warrior spirit of Roger Maxson himself.</baseDesc>
+    <bodyTypeMale>Hulk</bodyTypeMale>
+    <bodyTypeFemale>Hulk</bodyTypeFemale>
+    <slot>Adulthood</slot>
+    <spawnCategories>
+      <li>FCP_Backstory_BoS_LostHills</li>
+    </spawnCategories>
+    <skillGains>
+      <Shooting>7</Shooting>
+      <Melee>6</Melee>
+    </skillGains>
+    <workDisables>
+      <li>PlantWork</li>
+    </workDisables>
+    <forcedTraits>
+      <FCP_Trait_Sharpshooter>0</FCP_Trait_Sharpshooter>
+    </forcedTraits>
+  </BackstoryDef>
+  <!-- Lost Hills Senior Scribe -->
+  <BackstoryDef>
+    <defName>FCP_BoS_LostHills_SeniorScribee</defName>
+    <title>Lost Hills Senior Scribe</title>
+    <titleShort>Senior Scribe</titleShort>
+    <baseDesc>[PAWN_nameDef] achieved senior rank in the Scribe order, overseeing research projects and training new members. [PAWN_pronoun] believed preserving knowledge was humanity's only path to survival.</baseDesc>
+    <bodyTypeMale>Thin</bodyTypeMale>
+    <bodyTypeFemale>Thin</bodyTypeFemale>
+    <slot>Adulthood</slot>
+    <spawnCategories>
+      <li>FCP_Backstory_BoS_LostHills</li>
+    </spawnCategories>
+    <skillGains>
+      <Intellectual>8</Intellectual>
+      <Crafting>4</Crafting>
+      <Medicine>3</Medicine>
+    </skillGains>
+    <workDisables>
+      <li>ManualDumb</li>
+      <li>Violent</li>
+    </workDisables>
+  </BackstoryDef>
+  <!-- Lost Hills Tech Adept -->
+  <BackstoryDef>
+    <defName>FCP_BoS_LostHills_TechAdeptf</defName>
+    <title>Lost Hills Tech Adept</title>
+    <titleShort>Tech Adept</titleShort>
+    <baseDesc>[PAWN_nameDef] specialized in maintaining the Brotherhood's arsenal of power armor and energy weapons. [PAWN_pronoun] viewed each piece of pre-war technology as sacred, treating them with reverence.</baseDesc>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <slot>Adulthood</slot>
+    <spawnCategories>
+      <li>FCP_Backstory_BoS_LostHills</li>
+    </spawnCategories>
+    <skillGains>
+      <Crafting>7</Crafting>
+      <Intellectual>4</Intellectual>
+    </skillGains>
+  </BackstoryDef>
+  <!-- Lost Hills Recruiter -->
+  <BackstoryDef>
+    <defName>FCP_BoS_LostHills_Recruiterg</defName>
+    <title>Lost Hills Recruiter</title>
+    <titleShort>Recruiter</titleShort>
+    <baseDesc>[PAWN_nameDef] ventured into the wastes to identify potential recruits for the Brotherhood. [PAWN_pronoun] sought only the most exceptional individuals, maintaining Lost Hills' high standards.</baseDesc>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <slot>Adulthood</slot>
+    <spawnCategories>
+      <li>FCP_Backstory_BoS_LostHills</li>
+    </spawnCategories>
+    <skillGains>
+      <Social>6</Social>
+      <Shooting>3</Shooting>
+      <Intellectual>2</Intellectual>
+    </skillGains>
+    <forcedTraits>
+      <FCP_Trait_Sharpshooter>0</FCP_Trait_Sharpshooter>
+    </forcedTraits>
+  </BackstoryDef>
+  <!-- Lost Hills Sentinel -->
+  <BackstoryDef>
+    <defName>FCP_BoS_LostHills_Sentinelh</defName>
+    <title>Lost Hills Sentinel</title>
+    <titleShort>Sentinel</titleShort>
+    <baseDesc>[PAWN_nameDef] held the highest rank a warrior could achieve in Lost Hills. [PAWN_pronoun] commanded respect through decades of service and unwavering dedication to the original Codex.</baseDesc>
+    <bodyTypeMale>Hulk</bodyTypeMale>
+    <bodyTypeFemale>Hulk</bodyTypeFemale>
+    <slot>Adulthood</slot>
+    <spawnCategories>
+      <li>FCP_Backstory_BoS_LostHills</li>
+    </spawnCategories>
+    <skillGains>
+      <Shooting>8</Shooting>
+      <Melee>7</Melee>
+      <Social>4</Social>
+    </skillGains>
+    <workDisables>
+      <li>PlantWork</li>
+      <li>ManualDumb</li>
+    </workDisables>
+    <forcedTraits>
+      <FCP_Trait_Sharpshooter>0</FCP_Trait_Sharpshooter>
+    </forcedTraits>
+  </BackstoryDef>
+  <!-- Lost Hills Archivist -->
+  <BackstoryDef>
+    <defName>FCP_BoS_LostHills_Archivisti</defName>
+    <title>Lost Hills Archivist</title>
+    <titleShort>Archivist</titleShort>
+    <baseDesc>[PAWN_nameDef] maintained the Brotherhood's extensive data archives, ensuring no knowledge was ever lost. [PAWN_pronoun] could navigate the bunker's computer systems better than its corridors.</baseDesc>
+    <bodyTypeMale>Thin</bodyTypeMale>
+    <bodyTypeFemale>Thin</bodyTypeFemale>
+    <slot>Adulthood</slot>
+    <spawnCategories>
+      <li>FCP_Backstory_BoS_LostHills</li>
+    </spawnCategories>
+    <skillGains>
+      <Intellectual>7</Intellectual>
+    </skillGains>
+    <workDisables>
+      <li>ManualDumb</li>
+      <li>Violent</li>
+    </workDisables>
+  </BackstoryDef>
+  <!-- Lost Hills Weaponsmith -->
+  <BackstoryDef>
+    <defName>FCP_BoS_LostHills_Weaponsmithj</defName>
+    <title>Lost Hills Weaponsmith</title>
+    <titleShort>Weaponsmith</titleShort>
+    <baseDesc>[PAWN_nameDef] crafted and repaired weapons in the Brotherhood's armory. [PAWN_pronoun] took pride in maintaining the chapter's arsenal to pre-war military specifications.</baseDesc>
+    <bodyTypeMale>Hulk</bodyTypeMale>
+    <bodyTypeFemale>Male</bodyTypeFemale>
+    <slot>Adulthood</slot>
+    <spawnCategories>
+      <li>FCP_Backstory_BoS_LostHills</li>
+    </spawnCategories>
+    <skillGains>
+      <Crafting>8</Crafting>
+      <Shooting>3</Shooting>
+    </skillGains>
+    <workDisables>
+      <li>Social</li>
+    </workDisables>
+    <forcedTraits>
+      <FCP_Trait_Sharpshooter>0</FCP_Trait_Sharpshooter>
+    </forcedTraits>
+  </BackstoryDef>
+  <!-- Lost Hills Medical Officer -->
+  <BackstoryDef>
+    <defName>FCP_BoS_LostHills_MedicalOfficerk</defName>
+    <title>Lost Hills Medical Officer</title>
+    <titleShort>Med Officer</titleShort>
+    <baseDesc>[PAWN_nameDef] treated wounded Brothers in the medical bay, using both pre-war medical knowledge and wasteland improvisation. [PAWN_pronoun] saw [PAWN_objective]self as keeping the Brotherhood's most valuable resource alive.</baseDesc>
+    <bodyTypeMale>Thin</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <slot>Adulthood</slot>
+    <spawnCategories>
+      <li>FCP_Backstory_BoS_LostHills</li>
+    </spawnCategories>
+    <skillGains>
+      <Medicine>7</Medicine>
+      <Intellectual>4</Intellectual>
+    </skillGains>
+    <workDisables>
+      <li>Violent</li>
+    </workDisables>
+  </BackstoryDef>
+  <!-- Lost Hills Security Chief -->
+  <BackstoryDef>
+    <defName>FCP_BoS_LostHills_SecurityChiefl</defName>
+    <title>Lost Hills Security Chief</title>
+    <titleShort>Sec Chief</titleShort>
+    <baseDesc>[PAWN_nameDef] oversaw security protocols for the bunker complex, ensuring no unauthorized access to Brotherhood secrets. [PAWN_pronoun] was paranoid about outsider infiltration.</baseDesc>
+    <bodyTypeMale>Hulk</bodyTypeMale>
+    <bodyTypeFemale>Hulk</bodyTypeFemale>
+    <slot>Adulthood</slot>
+    <spawnCategories>
+      <li>FCP_Backstory_BoS_LostHills</li>
+    </spawnCategories>
+    <skillGains>
+      <Shooting>6</Shooting>
+      <Melee>5</Melee>
+      <Social>2</Social>
+    </skillGains>
+    <workDisables>
+      <li>Artistic</li>
+    </workDisables>
+    <forcedTraits>
+      <FCP_Trait_Sharpshooter>0</FCP_Trait_Sharpshooter>
+    </forcedTraits>
+  </BackstoryDef>
+  <!-- Lost Hills Field Scribe -->
+  <BackstoryDef>
+    <defName>FCP_BoS_LostHills_FieldScribem</defName>
+    <title>Lost Hills Field Scribe</title>
+    <titleShort>Field Scribe</titleShort>
+    <baseDesc>[PAWN_nameDef] accompanied combat missions to document recovered technology. [PAWN_pronoun] balanced scholarly pursuits with basic combat training, though [PAWN_pronoun] preferred cataloging to fighting.</baseDesc>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <slot>Adulthood</slot>
+    <spawnCategories>
+      <li>FCP_Backstory_BoS_LostHills</li>
+    </spawnCategories>
+    <skillGains>
+      <Intellectual>5</Intellectual>
+      <Shooting>3</Shooting>
+      <Crafting>3</Crafting>
+    </skillGains>
+    <forcedTraits>
+      <FCP_Trait_Sharpshooter>0</FCP_Trait_Sharpshooter>
+    </forcedTraits>
+  </BackstoryDef>
+  <!-- Lost Hills Elder Councilor -->
+  <BackstoryDef>
+    <defName>FCP_BoS_LostHills_ElderCouncilorn</defName>
+    <title>Lost Hills Elder Councilor</title>
+    <titleShort>Elder</titleShort>
+    <baseDesc>[PAWN_nameDef] served on the Elder Council, making decisions that shaped the Brotherhood's future. [PAWN_pronoun] believed Lost Hills must remain the supreme authority over all chapters.</baseDesc>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <slot>Adulthood</slot>
+    <spawnCategories>
+      <li>FCP_Backstory_BoS_LostHills</li>
+    </spawnCategories>
+    <skillGains>
+      <Social>7</Social>
+      <Intellectual>6</Intellectual>
+    </skillGains>
+    <workDisables>
+      <li>ManualDumb</li>
+      <li>Violent</li>
+    </workDisables>
+  </BackstoryDef>
+  <!-- Lost Hills Power Armor Tech -->
+  <BackstoryDef>
+    <defName>FCP_BoS_LostHills_PowerArmorTecho</defName>
+    <title>Lost Hills Power Armor Tech</title>
+    <titleShort>PA Tech</titleShort>
+    <baseDesc>[PAWN_nameDef] specialized exclusively in power armor maintenance and modification. [PAWN_pronoun] knew every servo and fusion cell of the T-51b suits like [PAWN_pronoun] knew [PAWN_objective] own body.</baseDesc>
+    <bodyTypeMale>Hulk</bodyTypeMale>
+    <bodyTypeFemale>Male</bodyTypeFemale>
+    <slot>Adulthood</slot>
+    <spawnCategories>
+      <li>FCP_Backstory_BoS_LostHills</li>
+    </spawnCategories>
+    <skillGains>
+      <Crafting>9</Crafting>
+      <Intellectual>3</Intellectual>
+    </skillGains>
+    <workDisables>
+      <li>Social</li>
+      <li>Artistic</li>
+    </workDisables>
+  </BackstoryDef>
+  <!-- Lost Hills Logistics Officer -->
+  <BackstoryDef>
+    <defName>FCP_BoS_LostHills_LogisticsOfficerp</defName>
+    <title>Lost Hills Logistics Officer</title>
+    <titleShort>Logistics</titleShort>
+    <baseDesc>[PAWN_nameDef] managed supply lines and resource allocation for the bunker. [PAWN_pronoun] ensured the Brotherhood could maintain its isolationist stance while remaining self-sufficient.</baseDesc>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <slot>Adulthood</slot>
+    <spawnCategories>
+      <li>FCP_Backstory_BoS_LostHills</li>
+    </spawnCategories>
+    <skillGains>
+      <Social>4</Social>
+      <Intellectual>5</Intellectual>
+      <Crafting>2</Crafting>
+    </skillGains>
+  </BackstoryDef>
+  <!-- Lost Hills Recon Specialist -->
+  <BackstoryDef>
+    <defName>FCP_BoS_LostHills_ReconSpecialistq</defName>
+    <title>Lost Hills Recon Specialist</title>
+    <titleShort>Recon Spec</titleShort>
+    <baseDesc>[PAWN_nameDef] scouted the California wasteland for threats and technology caches. [PAWN_pronoun] moved silently through ruins, gathering intelligence for the Elder Council.</baseDesc>
+    <bodyTypeMale>Thin</bodyTypeMale>
+    <bodyTypeFemale>Thin</bodyTypeFemale>
+    <slot>Adulthood</slot>
+    <spawnCategories>
+      <li>FCP_Backstory_BoS_LostHills</li>
+    </spawnCategories>
+    <skillGains>
+      <Shooting>6</Shooting>
+      <Melee>4</Melee>
+    </skillGains>
+    <forcedTraits>
+      <FCP_Trait_Sharpshooter>0</FCP_Trait_Sharpshooter>
+    </forcedTraits>
+  </BackstoryDef>
+  <!-- Lost Hills Chemist -->
+  <BackstoryDef>
+    <defName>FCP_BoS_LostHills_ChemistScriber</defName>
+    <title>Lost Hills Chemist</title>
+    <titleShort>Chemist</titleShort>
+    <baseDesc>[PAWN_nameDef] studied pre-war chemical formulas and pharmaceutical knowledge. [PAWN_pronoun] synthesized medicine and experimental compounds in the Brotherhood's laboratories.</baseDesc>
+    <bodyTypeMale>Thin</bodyTypeMale>
+    <bodyTypeFemale>Thin</bodyTypeFemale>
+    <slot>Adulthood</slot>
+    <spawnCategories>
+      <li>FCP_Backstory_BoS_LostHills</li>
+    </spawnCategories>
+    <skillGains>
+      <Intellectual>6</Intellectual>
+      <Medicine>4</Medicine>
+      <Crafting>3</Crafting>
+    </skillGains>
+    <workDisables>
+      <li>Violent</li>
+    </workDisables>
+  </BackstoryDef>
+  <!-- Lost Hills Training Instructor -->
+  <BackstoryDef>
+    <defName>FCP_BoS_LostHills_TrainingInstructors</defName>
+    <title>Lost Hills Training Instructor</title>
+    <titleShort>Instructor</titleShort>
+    <baseDesc>[PAWN_nameDef] trained new Initiates in Brotherhood doctrine and combat skills. [PAWN_pronoun] was known for [PAWN_possessive] harsh methods and uncompromising standards.</baseDesc>
+    <bodyTypeMale>Hulk</bodyTypeMale>
+    <bodyTypeFemale>Hulk</bodyTypeFemale>
+    <slot>Adulthood</slot>
+    <spawnCategories>
+      <li>FCP_Backstory_BoS_LostHills</li>
+    </spawnCategories>
+    <skillGains>
+      <Shooting>5</Shooting>
+      <Melee>6</Melee>
+      <Social>3</Social>
+    </skillGains>
+    <forcedTraits>
+      <FCP_Trait_Sharpshooter>0</FCP_Trait_Sharpshooter>
+    </forcedTraits>
+  </BackstoryDef>
+  <!-- Lost Hills Engineer -->
+  <BackstoryDef>
+    <defName>FCP_BoS_LostHills_Engineert</defName>
+    <title>Lost Hills Engineer</title>
+    <titleShort>Engineer</titleShort>
+    <baseDesc>[PAWN_nameDef] maintained the bunker's infrastructure and life support systems. [PAWN_pronoun] understood that without working systems, all the Brotherhood's technology meant nothing.</baseDesc>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <slot>Adulthood</slot>
+    <spawnCategories>
+      <li>FCP_Backstory_BoS_LostHills</li>
+    </spawnCategories>
+    <skillGains>
+      <Crafting>6</Crafting>
+      <Construction>5</Construction>
+      <Intellectual>3</Intellectual>
+    </skillGains>
+  </BackstoryDef>
+  <!--__ Children __-->
+  <!-- Lost Hills bunker child -->
+  <BackstoryDef>
+    <defName>FCP_BoS_LostHills_BunkerChilda</defName>
+    <title>Lost Hills bunker child</title>
+    <titleShort>bunker child</titleShort>
+    <baseDesc>[PAWN_nameDef] grew up in the depths of the Lost Hills bunker, never seeing the sky until [PAWN_pronoun] was old enough for training. The sterile corridors and humming computers were [PAWN_possessive] only home.</baseDesc>
+    <bodyTypeMale>Thin</bodyTypeMale>
+    <bodyTypeFemale>Thin</bodyTypeFemale>
+    <slot>Childhood</slot>
+    <spawnCategories>
+      <li>FCP_Backstory_BoS_LostHills_Child</li>
+    </spawnCategories>
+    <skillGains>
+      <Intellectual>3</Intellectual>
+    </skillGains>
+    <workDisables>
+      <li>ManualDumb</li>
+    </workDisables>
+  </BackstoryDef>
+  <!-- Lost Hills scribe apprentice -->
+  <BackstoryDef>
+    <defName>FCP_BoS_LostHills_ScribeApprenticeb</defName>
+    <title>Lost Hills scribe apprentice</title>
+    <titleShort>apprentice</titleShort>
+    <baseDesc>[PAWN_nameDef] shadowed senior Scribes through the archives, learning to catalog pre-war technology. [PAWN_pronoun] showed early aptitude for technical knowledge.</baseDesc>
+    <bodyTypeMale>Thin</bodyTypeMale>
+    <bodyTypeFemale>Thin</bodyTypeFemale>
+    <slot>Childhood</slot>
+    <spawnCategories>
+      <li>FCP_Backstory_BoS_LostHills_Child</li>
+    </spawnCategories>
+    <skillGains>
+      <Intellectual>4</Intellectual>
+      <Crafting>2</Crafting>
+    </skillGains>
+  </BackstoryDef>
+  <!-- Lost Hills squire candidate -->
+  <BackstoryDef>
+    <defName>FCP_BoS_LostHills_SquireCandidatec</defName>
+    <title>Lost Hills squire candidate</title>
+    <titleShort>squire</titleShort>
+    <baseDesc>[PAWN_nameDef] trained in basic combat and Brotherhood doctrine, hoping to one day wear power armor. [PAWN_pronoun] idolized the Paladins who protected the chapter.</baseDesc>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <slot>Childhood</slot>
+    <spawnCategories>
+      <li>FCP_Backstory_BoS_LostHills_Child</li>
+    </spawnCategories>
+    <skillGains>
+      <Shooting>2</Shooting>
+      <Melee>3</Melee>
+    </skillGains>
+  </BackstoryDef>
+  <!-- Lost Hills codex student -->
+  <BackstoryDef>
+    <defName>FCP_BoS_LostHills_CodexStudentd</defName>
+    <title>Lost Hills codex student</title>
+    <titleShort>student</titleShort>
+    <baseDesc>[PAWN_nameDef] memorized passages from the original Codex written by Roger Maxson. [PAWN_pronoun] learned that the Brotherhood's way was the only way to save humanity.</baseDesc>
+    <bodyTypeMale>Thin</bodyTypeMale>
+    <bodyTypeFemale>Thin</bodyTypeFemale>
+    <slot>Childhood</slot>
+    <spawnCategories>
+      <li>FCP_Backstory_BoS_LostHills_Child</li>
+    </spawnCategories>
+    <skillGains>
+      <Intellectual>3</Intellectual>
+      <Social>2</Social>
+    </skillGains>
+  </BackstoryDef>
+  <!-- Lost Hills mechanic helper -->
+  <BackstoryDef>
+    <defName>FCP_BoS_LostHills_MechanicHelpere</defName>
+    <title>Lost Hills mechanic helper</title>
+    <titleShort>helper</titleShort>
+    <baseDesc>[PAWN_nameDef] assisted in the armory workshops, fetching tools and learning basic repairs. [PAWN_pronoun] dreamed of one day maintaining power armor.</baseDesc>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <slot>Childhood</slot>
+    <spawnCategories>
+      <li>FCP_Backstory_BoS_LostHills_Child</li>
+    </spawnCategories>
+    <skillGains>
+      <Crafting>4</Crafting>
+    </skillGains>
+  </BackstoryDef>
+  <!-- Lost Hills elder's descendant -->
+  <BackstoryDef>
+    <defName>FCP_BoS_LostHills_ElderDescendantf</defName>
+    <title>Lost Hills elder's descendant</title>
+    <titleShort>descendant</titleShort>
+    <baseDesc>[PAWN_nameDef] came from a prestigious bloodline dating back to the Brotherhood's founding. [PAWN_pronoun] felt the weight of expectation from birth.</baseDesc>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <slot>Childhood</slot>
+    <spawnCategories>
+      <li>FCP_Backstory_BoS_LostHills_Child</li>
+    </spawnCategories>
+    <skillGains>
+      <Social>3</Social>
+      <Intellectual>2</Intellectual>
+    </skillGains>
+    <workDisables>
+      <li>ManualDumb</li>
+    </workDisables>
+  </BackstoryDef>
+  <!-- Lost Hills security ward -->
+  <BackstoryDef>
+    <defName>FCP_BoS_LostHills_SecurityWardg</defName>
+    <title>Lost Hills security ward</title>
+    <titleShort>ward</titleShort>
+    <baseDesc>[PAWN_nameDef] shadowed security patrols through the bunker, learning to spot threats and maintain vigilance. [PAWN_pronoun] was taught to trust no outsider.</baseDesc>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <slot>Childhood</slot>
+    <spawnCategories>
+      <li>FCP_Backstory_BoS_LostHills_Child</li>
+    </spawnCategories>
+    <skillGains>
+      <Shooting>3</Shooting>
+      <Melee>2</Melee>
+    </skillGains>
+    <forcedTraits>
+      <FCP_Trait_Sharpshooter>0</FCP_Trait_Sharpshooter>
+    </forcedTraits>
+  </BackstoryDef>
+  <!-- Lost Hills data entry youth -->
+  <BackstoryDef>
+    <defName>FCP_BoS_LostHills_DataEntryYouthh</defName>
+    <title>Lost Hills data entry youth</title>
+    <titleShort>data youth</titleShort>
+    <baseDesc>[PAWN_nameDef] spent hours at terminals inputting information into the Brotherhood's databases. [PAWN_pronoun] found the repetitive work meditative.</baseDesc>
+    <bodyTypeMale>Thin</bodyTypeMale>
+    <bodyTypeFemale>Thin</bodyTypeFemale>
+    <slot>Childhood</slot>
+    <spawnCategories>
+      <li>FCP_Backstory_BoS_LostHills_Child</li>
+    </spawnCategories>
+    <skillGains>
+      <Intellectual>4</Intellectual>
+    </skillGains>
+    <workDisables>
+      <li>Social</li>
+      <li>Violent</li>
+    </workDisables>
+  </BackstoryDef>
+  <!-- Lost Hills gunrange youth -->
+  <BackstoryDef>
+    <defName>FCP_BoS_LostHills_GunrangeYouthi</defName>
+    <title>Lost Hills gunrange youth</title>
+    <titleShort>shooter</titleShort>
+    <baseDesc>[PAWN_nameDef] spent countless hours on the practice range, showing natural talent with firearms. The instructors predicted [PAWN_pronoun] would become a great warrior.</baseDesc>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <slot>Childhood</slot>
+    <spawnCategories>
+      <li>FCP_Backstory_BoS_LostHills_Child</li>
+    </spawnCategories>
+    <skillGains>
+      <Shooting>4</Shooting>
+    </skillGains>
+    <forcedTraits>
+      <FCP_Trait_Sharpshooter>0</FCP_Trait_Sharpshooter>
+    </forcedTraits>
+  </BackstoryDef>
+  <!-- Lost Hills medical aide -->
+  <BackstoryDef>
+    <defName>FCP_BoS_LostHills_MedicalAidej</defName>
+    <title>Lost Hills medical aide</title>
+    <titleShort>aide</titleShort>
+    <baseDesc>[PAWN_nameDef] helped in the medical bay, learning basic first aid and anatomy. [PAWN_pronoun] had a gentle touch and steady hands.</baseDesc>
+    <bodyTypeMale>Thin</bodyTypeMale>
+    <bodyTypeFemale>Thin</bodyTypeFemale>
+    <slot>Childhood</slot>
+    <spawnCategories>
+      <li>FCP_Backstory_BoS_LostHills_Child</li>
+    </spawnCategories>
+    <skillGains>
+      <Medicine>4</Medicine>
+      <Intellectual>2</Intellectual>
+    </skillGains>
+    <workDisables>
+      <li>Violent</li>
+    </workDisables>
+  </BackstoryDef>
 </Defs>

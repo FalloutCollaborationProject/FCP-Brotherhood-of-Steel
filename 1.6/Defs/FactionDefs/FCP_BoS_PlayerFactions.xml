@@ -183,6 +183,9 @@
             </li>
         </backstoryFilters>
         <modExtensions>
+			<li Class="FCP.Currencies.CurrencyReplacement">
+				<currency>FCP_Currency_BoS_Scrip</currency>
+			</li>
             <li Class="FCP_Shuttles.FactionModExtension">
                 <transportShipDef>FCP_BoS_Vertibird</transportShipDef>
                 <minDistanceBetweenShuttles>10</minDistanceBetweenShuttles>

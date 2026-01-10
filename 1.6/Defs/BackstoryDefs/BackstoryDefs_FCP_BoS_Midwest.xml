@@ -1,602 +1,577 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-
-	<!--__________ Midwestern Brotherhood Backstories __________-->
-
-	<!--__ Adults __-->
-
-	<!-- Midwestern tribal recruit -->
-
-	<BackstoryDef>
-		<defName>FCP_BoS_Midwest_TribalRecruita</defName>
-		<title>Midwestern tribal recruit</title>
-		<titleShort>recruit</titleShort>
-		<baseDesc>[PAWN_nameDef] was recruited from a tribal village, showing exceptional potential. The Midwestern Brotherhood saw value where Lost Hills saw only primitives.</baseDesc>
-		<bodyTypeMale>Male</bodyTypeMale>
-		<bodyTypeFemale>Female</bodyTypeFemale>
-		<slot>Adulthood</slot>
-		<spawnCategories>
-			<li>FCP_Backstory_BoS_Midwest</li>
-		</spawnCategories>
-		<skillGains>
-			<Melee>5</Melee>
-			<Shooting>3</Shooting>
-			<Plants>2</Plants>
-		</skillGains>
-	</BackstoryDef>
-
-	<!-- Midwestern warrior -->
-
-	<BackstoryDef>
-		<defName>FCP_BoS_Midwest_Warriorb</defName>
-		<title>Midwestern warrior</title>
-		<titleShort>warrior</titleShort>
-		<baseDesc>[PAWN_nameDef] served as frontline infantry in the Midwestern Brotherhood's expansionist campaigns. [PAWN_pronoun] believed technology should serve humanity, not be hoarded.</baseDesc>
-		<bodyTypeMale>Hulk</bodyTypeMale>
-		<bodyTypeFemale>Hulk</bodyTypeFemale>
-		<slot>Adulthood</slot>
-		<spawnCategories>
-			<li>FCP_Backstory_BoS_Midwest</li>
-		</spawnCategories>
-		<skillGains>
-			<Shooting>6</Shooting>
-			<Melee>5</Melee>
-		</skillGains>
-	</BackstoryDef>
-
-	<!-- Midwestern scribe -->
-
-	<BackstoryDef>
-		<defName>FCP_BoS_Midwest_Scribec</defName>
-		<title>Midwestern scribe</title>
-		<titleShort>scribe</titleShort>
-		<baseDesc>[PAWN_nameDef] documented the Brotherhood's expansion across the Midwest, recording both victories and lessons learned. [PAWN_pronoun] advocated for sharing knowledge with worthy outsiders.</baseDesc>
-		<bodyTypeMale>Thin</bodyTypeMale>
-		<bodyTypeFemale>Thin</bodyTypeFemale>
-		<slot>Adulthood</slot>
-		<spawnCategories>
-			<li>FCP_Backstory_BoS_Midwest</li>
-		</spawnCategories>
-		<skillGains>
-			<Intellectual>6</Intellectual>
-			<Social>3</Social>
-			<Crafting>2</Crafting>
-		</skillGains>
-	</BackstoryDef>
-
-	<!-- Midwestern knight -->
-
-	<BackstoryDef>
-		<defName>FCP_BoS_Midwest_Knightd</defName>
-		<title>Midwestern knight</title>
-		<titleShort>knight</titleShort>
-		<baseDesc>[PAWN_nameDef] wore power armor in defense of Midwestern settlements, seen as a protector rather than an overlord. [PAWN_pronoun] took pride in safeguarding the common people.</baseDesc>
-		<bodyTypeMale>Hulk</bodyTypeMale>
-		<bodyTypeFemale>Hulk</bodyTypeFemale>
-		<slot>Adulthood</slot>
-		<spawnCategories>
-			<li>FCP_Backstory_BoS_Midwest</li>
-		</spawnCategories>
-		<skillGains>
-			<Shooting>5</Shooting>
-			<Melee>6</Melee>
-			<Social>2</Social>
-		</skillGains>
-	</BackstoryDef>
-
-	<!-- Midwestern paladin -->
-
-	<BackstoryDef>
-		<defName>FCP_BoS_Midwest_Paladine</defName>
-		<title>Midwestern paladin</title>
-		<titleShort>paladin</titleShort>
-		<baseDesc>[PAWN_nameDef] led missions deep into hostile territory, bringing Brotherhood protection to isolated communities. [PAWN_pronoun] believed in active intervention, not isolation.</baseDesc>
-		<bodyTypeMale>Hulk</bodyTypeMale>
-		<bodyTypeFemale>Hulk</bodyTypeFemale>
-		<slot>Adulthood</slot>
-		<spawnCategories>
-			<li>FCP_Backstory_BoS_Midwest</li>
-		</spawnCategories>
-		<skillGains>
-			<Shooting>7</Shooting>
-			<Melee>6</Melee>
-			<Social>3</Social>
-		</skillGains>
-	</BackstoryDef>
-
-	<!-- Midwestern recruitment officer -->
-
-	<BackstoryDef>
-		<defName>FCP_BoS_Midwest_RecruitmentOfficerf</defName>
-		<title>Midwestern recruitment officer</title>
-		<titleShort>recruiter</titleShort>
-		<baseDesc>[PAWN_nameDef] traveled the wasteland seeking promising individuals to join the Brotherhood. Unlike Lost Hills, [PAWN_pronoun] valued character over pedigree.</baseDesc>
-		<bodyTypeMale>Male</bodyTypeMale>
-		<bodyTypeFemale>Female</bodyTypeFemale>
-		<slot>Adulthood</slot>
-		<spawnCategories>
-			<li>FCP_Backstory_BoS_Midwest</li>
-		</spawnCategories>
-		<skillGains>
-			<Social>7</Social>
-			<Shooting>3</Shooting>
-		</skillGains>
-	</BackstoryDef>
-
-	<!-- Midwestern settlement liaison -->
-
-	<BackstoryDef>
-		<defName>FCP_BoS_Midwest_SettlementLiaisong</defName>
-		<title>Midwestern settlement liaison</title>
-		<titleShort>liaison</titleShort>
-		<baseDesc>[PAWN_nameDef] maintained relations between the Brotherhood and civilian settlements. [PAWN_pronoun] negotiated trade agreements and mutual defense pacts.</baseDesc>
-		<bodyTypeMale>Male</bodyTypeMale>
-		<bodyTypeFemale>Female</bodyTypeFemale>
-		<slot>Adulthood</slot>
-		<spawnCategories>
-			<li>FCP_Backstory_BoS_Midwest</li>
-		</spawnCategories>
-		<skillGains>
-			<Social>6</Social>
-			<Intellectual>3</Intellectual>
-		</skillGains>
-		<workDisables>
-			<li>Violent</li>
-		</workDisables>
-	</BackstoryDef>
-
-	<!-- Midwestern tech specialist -->
-
-	<BackstoryDef>
-		<defName>FCP_BoS_Midwest_TechSpecialisth</defName>
-		<title>Midwestern tech specialist</title>
-		<titleShort>tech spec</titleShort>
-		<baseDesc>[PAWN_nameDef] repaired and maintained equipment in the field, often improvising when proper parts weren't available. [PAWN_pronoun] learned to be resourceful.</baseDesc>
-		<bodyTypeMale>Male</bodyTypeMale>
-		<bodyTypeFemale>Female</bodyTypeFemale>
-		<slot>Adulthood</slot>
-		<spawnCategories>
-			<li>FCP_Backstory_BoS_Midwest</li>
-		</spawnCategories>
-		<skillGains>
-			<Crafting>7</Crafting>
-			<Intellectual>4</Intellectual>
-		</skillGains>
-	</BackstoryDef>
-
-	<!-- Midwestern caravan guard -->
-
-	<BackstoryDef>
-		<defName>FCP_BoS_Midwest_CaravanGuardi</defName>
-		<title>Midwestern caravan guard</title>
-		<titleShort>guard</titleShort>
-		<baseDesc>[PAWN_nameDef] protected Brotherhood trade caravans across the dangerous Midwest. [PAWN_pronoun] knew every raider gang and mutant nest between settlements.</baseDesc>
-		<bodyTypeMale>Hulk</bodyTypeMale>
-		<bodyTypeFemale>Male</bodyTypeFemale>
-		<slot>Adulthood</slot>
-		<spawnCategories>
-			<li>FCP_Backstory_BoS_Midwest</li>
-		</spawnCategories>
-		<skillGains>
-			<Shooting>6</Shooting>
-			<Melee>4</Melee>
-		</skillGains>
-		<workDisables>
-			<li>Intellectual</li>
-		</workDisables>
-	</BackstoryDef>
-
-	<!-- Midwestern medic -->
-
-	<BackstoryDef>
-		<defName>FCP_BoS_Midwest_Medicj</defName>
-		<title>Midwestern medic</title>
-		<titleShort>medic</titleShort>
-		<baseDesc>[PAWN_nameDef] treated both Brotherhood members and civilians, believing medical care shouldn't be restricted by chapter politics. [PAWN_pronoun] saved many lives.</baseDesc>
-		<bodyTypeMale>Thin</bodyTypeMale>
-		<bodyTypeFemale>Female</bodyTypeFemale>
-		<slot>Adulthood</slot>
-		<spawnCategories>
-			<li>FCP_Backstory_BoS_Midwest</li>
-		</spawnCategories>
-		<skillGains>
-			<Medicine>7</Medicine>
-			<Intellectual>3</Intellectual>
-			<Social>2</Social>
-		</skillGains>
-	</BackstoryDef>
-
-	<!-- Midwestern sentinel -->
-
-	<BackstoryDef>
-		<defName>FCP_BoS_Midwest_Sentinelk</defName>
-		<title>Midwestern sentinel</title>
-		<titleShort>sentinel</titleShort>
-		<baseDesc>[PAWN_nameDef] achieved the highest warrior rank through decades of service. [PAWN_pronoun] commanded respect from both Brotherhood and civilians alike.</baseDesc>
-		<bodyTypeMale>Hulk</bodyTypeMale>
-		<bodyTypeFemale>Hulk</bodyTypeFemale>
-		<slot>Adulthood</slot>
-		<spawnCategories>
-			<li>FCP_Backstory_BoS_Midwest</li>
-		</spawnCategories>
-		<skillGains>
-			<Shooting>8</Shooting>
-			<Melee>7</Melee>
-			<Social>4</Social>
-		</skillGains>
-		<workDisables>
-			<li>PlantWork</li>
-		</workDisables>
-	</BackstoryDef>
-
-	<!-- Midwestern command officer -->
-
-	<BackstoryDef>
-		<defName>FCP_BoS_Midwest_CommandOfficerl</defName>
-		<title>Midwestern command officer</title>
-		<titleShort>commander</titleShort>
-		<baseDesc>[PAWN_nameDef] coordinated military operations across multiple settlements. [PAWN_pronoun] answered to the General, not some distant Elder Council.</baseDesc>
-		<bodyTypeMale>Male</bodyTypeMale>
-		<bodyTypeFemale>Female</bodyTypeFemale>
-		<slot>Adulthood</slot>
-		<spawnCategories>
-			<li>FCP_Backstory_BoS_Midwest</li>
-		</spawnCategories>
-		<skillGains>
-			<Social>6</Social>
-			<Shooting>5</Shooting>
-			<Intellectual>3</Intellectual>
-		</skillGains>
-	</BackstoryDef>
-
-	<!-- Midwestern salvage specialist -->
-
-	<BackstoryDef>
-		<defName>FCP_BoS_Midwest_SalvageSpecialistm</defName>
-		<title>Midwestern salvage specialist</title>
-		<titleShort>salvager</titleShort>
-		<baseDesc>[PAWN_nameDef] scavenged pre-war ruins for useful technology. [PAWN_pronoun] understood that in the Midwest, you used what you could find.</baseDesc>
-		<bodyTypeMale>Male</bodyTypeMale>
-		<bodyTypeFemale>Female</bodyTypeFemale>
-		<slot>Adulthood</slot>
-		<spawnCategories>
-			<li>FCP_Backstory_BoS_Midwest</li>
-		</spawnCategories>
-		<skillGains>
-			<Crafting>5</Crafting>
-			<Mining>4</Mining>
-			<Intellectual>2</Intellectual>
-		</skillGains>
-	</BackstoryDef>
-
-	<!-- Midwestern training sergeant -->
-
-	<BackstoryDef>
-		<defName>FCP_BoS_Midwest_Trainingsergeantn</defName>
-		<title>Midwestern training sergeant</title>
-		<titleShort>sergeant</titleShort>
-		<baseDesc>[PAWN_nameDef] trained diverse recruits from tribal and wasteland backgrounds. [PAWN_pronoun] proved that anyone could become Brotherhood, given proper instruction.</baseDesc>
-		<bodyTypeMale>Hulk</bodyTypeMale>
-		<bodyTypeFemale>Hulk</bodyTypeFemale>
-		<slot>Adulthood</slot>
-		<spawnCategories>
-			<li>FCP_Backstory_BoS_Midwest</li>
-		</spawnCategories>
-		<skillGains>
-			<Shooting>6</Shooting>
-			<Melee>5</Melee>
-			<Social>3</Social>
-		</skillGains>
-	</BackstoryDef>
-
-	<!-- Midwestern power armor pilot -->
-
-	<BackstoryDef>
-		<defName>FCP_BoS_Midwest_PowerArmorPiloto</defName>
-		<title>Midwestern power armor pilot</title>
-		<titleShort>PA pilot</titleShort>
-		<baseDesc>[PAWN_nameDef] piloted one of the chapter's precious power armor suits. Despite coming from humble origins, [PAWN_pronoun] earned this honor through merit.</baseDesc>
-		<bodyTypeMale>Hulk</bodyTypeMale>
-		<bodyTypeFemale>Hulk</bodyTypeFemale>
-		<slot>Adulthood</slot>
-		<spawnCategories>
-			<li>FCP_Backstory_BoS_Midwest</li>
-		</spawnCategories>
-		<skillGains>
-			<Shooting>6</Shooting>
-			<Melee>6</Melee>
-			<Crafting>2</Crafting>
-		</skillGains>
-	</BackstoryDef>
-
-	<!-- Midwestern field commander -->
-
-	<BackstoryDef>
-		<defName>FCP_BoS_Midwest_FieldCommanderp</defName>
-		<title>Midwestern field commander</title>
-		<titleShort>commander</titleShort>
-		<baseDesc>[PAWN_nameDef] led squads in territory expansion operations. [PAWN_pronoun] made tactical decisions independently, far from headquarters oversight.</baseDesc>
-		<bodyTypeMale>Male</bodyTypeMale>
-		<bodyTypeFemale>Female</bodyTypeFemale>
-		<slot>Adulthood</slot>
-		<spawnCategories>
-			<li>FCP_Backstory_BoS_Midwest</li>
-		</spawnCategories>
-		<skillGains>
-			<Shooting>5</Shooting>
-			<Social>5</Social>
-			<Intellectual>3</Intellectual>
-		</skillGains>
-	</BackstoryDef>
-
-	<!-- Midwestern engineer -->
-
-	<BackstoryDef>
-		<defName>FCP_BoS_Midwest_Engineerq</defName>
-		<title>Midwestern engineer</title>
-		<titleShort>engineer</titleShort>
-		<baseDesc>[PAWN_nameDef] built fortifications and infrastructure for expanding Brotherhood territory. [PAWN_pronoun] turned wilderness into civilization.</baseDesc>
-		<bodyTypeMale>Hulk</bodyTypeMale>
-		<bodyTypeFemale>Male</bodyTypeFemale>
-		<slot>Adulthood</slot>
-		<spawnCategories>
-			<li>FCP_Backstory_BoS_Midwest</li>
-		</spawnCategories>
-		<skillGains>
-			<Construction>7</Construction>
-			<Crafting>5</Crafting>
-		</skillGains>
-	</BackstoryDef>
-
-	<!-- Midwestern armourer -->
-
-	<BackstoryDef>
-		<defName>FCP_BoS_Midwest_Armourerr</defName>
-		<title>Midwestern armourer</title>
-		<titleShort>armourer</titleShort>
-		<baseDesc>[PAWN_nameDef] maintained weapons and armor for the chapter's diverse forces. [PAWN_pronoun] worked with everything from tribal spears to laser rifles.</baseDesc>
-		<bodyTypeMale>Male</bodyTypeMale>
-		<bodyTypeFemale>Female</bodyTypeFemale>
-		<slot>Adulthood</slot>
-		<spawnCategories>
-			<li>FCP_Backstory_BoS_Midwest</li>
-		</spawnCategories>
-		<skillGains>
-			<Crafting>8</Crafting>
-			<Shooting>2</Shooting>
-		</skillGains>
-	</BackstoryDef>
-
-	<!-- Midwestern scout ranger -->
-
-	<BackstoryDef>
-		<defName>FCP_BoS_Midwest_ScoutRangers</defName>
-		<title>Midwestern scout ranger</title>
-		<titleShort>ranger</titleShort>
-		<baseDesc>[PAWN_nameDef] ranged far ahead of Brotherhood forces, mapping territory and identifying threats. [PAWN_pronoun] spent more time in the wild than in any settlement.</baseDesc>
-		<bodyTypeMale>Thin</bodyTypeMale>
-		<bodyTypeFemale>Thin</bodyTypeFemale>
-		<slot>Adulthood</slot>
-		<spawnCategories>
-			<li>FCP_Backstory_BoS_Midwest</li>
-		</spawnCategories>
-		<skillGains>
-			<Shooting>6</Shooting>
-			<Animals>4</Animals>
-			<Plants>2</Plants>
-		</skillGains>
-	</BackstoryDef>
-
-	<!-- Midwestern general's aide -->
-
-	<BackstoryDef>
-		<defName>FCP_BoS_Midwest_GeneralAidet</defName>
-		<title>Midwestern general's aide</title>
-		<titleShort>aide</titleShort>
-		<baseDesc>[PAWN_nameDef] served directly under the General, helping implement the Midwest Doctrine. [PAWN_pronoun] witnessed the chapter's divergence from Lost Hills firsthand.</baseDesc>
-		<bodyTypeMale>Male</bodyTypeMale>
-		<bodyTypeFemale>Female</bodyTypeFemale>
-		<slot>Adulthood</slot>
-		<spawnCategories>
-			<li>FCP_Backstory_BoS_Midwest</li>
-		</spawnCategories>
-		<skillGains>
-			<Social>6</Social>
-			<Intellectual>5</Intellectual>
-		</skillGains>
-		<workDisables>
-			<li>ManualDumb</li>
-		</workDisables>
-	</BackstoryDef>
-
-	<!--__ Children __-->
-
-	<!-- Midwestern tribal youth -->
-
-	<BackstoryDef>
-		<defName>FCP_BoS_Midwest_TribalYoutha</defName>
-		<title>Midwestern tribal youth</title>
-		<titleShort>tribal</titleShort>
-		<baseDesc>[PAWN_nameDef] grew up in a tribal village before being recruited by the Brotherhood. [PAWN_pronoun] learned to blend old ways with new technology.</baseDesc>
-		<bodyTypeMale>Thin</bodyTypeMale>
-		<bodyTypeFemale>Thin</bodyTypeFemale>
-		<slot>Childhood</slot>
-		<spawnCategories>
-			<li>FCP_Backstory_BoS_Midwest_Child</li>
-		</spawnCategories>
-		<skillGains>
-			<Melee>3</Melee>
-			<Plants>3</Plants>
-		</skillGains>
-	</BackstoryDef>
-
-	<!-- Midwestern settlement child -->
-
-	<BackstoryDef>
-		<defName>FCP_BoS_Midwest_SettlementChildb</defName>
-		<title>Midwestern settlement child</title>
-		<titleShort>settler</titleShort>
-		<baseDesc>[PAWN_nameDef] grew up in a Brotherhood-protected settlement, seeing armored knights as heroes rather than overlords. [PAWN_pronoun] wanted to join them.</baseDesc>
-		<bodyTypeMale>Male</bodyTypeMale>
-		<bodyTypeFemale>Female</bodyTypeFemale>
-		<slot>Childhood</slot>
-		<spawnCategories>
-			<li>FCP_Backstory_BoS_Midwest_Child</li>
-		</spawnCategories>
-		<skillGains>
-			<Social>3</Social>
-			<Shooting>2</Shooting>
-		</skillGains>
-	</BackstoryDef>
-
-	<!-- Midwestern recruit trainee -->
-
-	<BackstoryDef>
-		<defName>FCP_BoS_Midwest_RecruitTraineec</defName>
-		<title>Midwestern recruit trainee</title>
-		<titleShort>trainee</titleShort>
-		<baseDesc>[PAWN_nameDef] entered Brotherhood training young, learning alongside children from diverse backgrounds. [PAWN_pronoun] saw the strength in unity.</baseDesc>
-		<bodyTypeMale>Male</bodyTypeMale>
-		<bodyTypeFemale>Female</bodyTypeFemale>
-		<slot>Childhood</slot>
-		<spawnCategories>
-			<li>FCP_Backstory_BoS_Midwest_Child</li>
-		</spawnCategories>
-		<skillGains>
-			<Shooting>3</Shooting>
-			<Melee>2</Melee>
-		</skillGains>
-	</BackstoryDef>
-
-	<!-- Midwestern scribe student -->
-
-	<BackstoryDef>
-		<defName>FCP_BoS_Midwest_ScribeStudentd</defName>
-		<title>Midwestern scribe student</title>
-		<titleShort>student</titleShort>
-		<baseDesc>[PAWN_nameDef] studied under Brotherhood Scribes, learning both technology and practical skills. [PAWN_pronoun] was taught that knowledge should help people, not just be preserved.</baseDesc>
-		<bodyTypeMale>Thin</bodyTypeMale>
-		<bodyTypeFemale>Thin</bodyTypeFemale>
-		<slot>Childhood</slot>
-		<spawnCategories>
-			<li>FCP_Backstory_BoS_Midwest_Child</li>
-		</spawnCategories>
-		<skillGains>
-			<Intellectual>4</Intellectual>
-			<Crafting>2</Crafting>
-		</skillGains>
-	</BackstoryDef>
-
-	<!-- Midwestern messenger kid -->
-
-	<BackstoryDef>
-		<defName>FCP_BoS_Midwest_MessengerKide</defName>
-		<title>Midwestern messenger kid</title>
-		<titleShort>messenger</titleShort>
-		<baseDesc>[PAWN_nameDef] ran messages between Brotherhood outposts, learning the territory. [PAWN_pronoun] was fast and reliable.</baseDesc>
-		<bodyTypeMale>Thin</bodyTypeMale>
-		<bodyTypeFemale>Thin</bodyTypeFemale>
-		<slot>Childhood</slot>
-		<spawnCategories>
-			<li>FCP_Backstory_BoS_Midwest_Child</li>
-		</spawnCategories>
-		<skillGains>
-			<Social>3</Social>
-		</skillGains>
-	</BackstoryDef>
-
-	<!-- Midwestern workshop helper -->
-
-	<BackstoryDef>
-		<defName>FCP_BoS_Midwest_WorkshopHelperf</defName>
-		<title>Midwestern workshop helper</title>
-		<titleShort>helper</titleShort>
-		<baseDesc>[PAWN_nameDef] assisted in repair workshops, learning to fix equipment. [PAWN_pronoun] showed aptitude for mechanical work.</baseDesc>
-		<bodyTypeMale>Male</bodyTypeMale>
-		<bodyTypeFemale>Female</bodyTypeFemale>
-		<slot>Childhood</slot>
-		<spawnCategories>
-			<li>FCP_Backstory_BoS_Midwest_Child</li>
-		</spawnCategories>
-		<skillGains>
-			<Crafting>4</Crafting>
-		</skillGains>
-	</BackstoryDef>
-
-	<!-- Midwestern orphan adoptee -->
-
-	<BackstoryDef>
-		<defName>FCP_BoS_Midwest_OrphanAdoptg</defName>
-		<title>Midwestern orphan adoptee</title>
-		<titleShort>orphan</titleShort>
-		<baseDesc>[PAWN_nameDef] was orphaned by raiders and taken in by the Brotherhood. [PAWN_pronoun] found a new family among the chapter's members.</baseDesc>
-		<bodyTypeMale>Thin</bodyTypeMale>
-		<bodyTypeFemale>Thin</bodyTypeFemale>
-		<slot>Childhood</slot>
-		<spawnCategories>
-			<li>FCP_Backstory_BoS_Midwest_Child</li>
-		</spawnCategories>
-		<skillGains>
-			<Social>2</Social>
-			<Shooting>2</Shooting>
-		</skillGains>
-	</BackstoryDef>
-
-	<!-- Midwestern farm youth -->
-
-	<BackstoryDef>
-		<defName>FCP_BoS_Midwest_FarmYouthh</defName>
-		<title>Midwestern farm youth</title>
-		<titleShort>farmer</titleShort>
-		<baseDesc>[PAWN_nameDef] worked on Brotherhood agricultural projects, helping feed the expanding territory. [PAWN_pronoun] learned that survival required more than weapons.</baseDesc>
-		<bodyTypeMale>Male</bodyTypeMale>
-		<bodyTypeFemale>Female</bodyTypeFemale>
-		<slot>Childhood</slot>
-		<spawnCategories>
-			<li>FCP_Backstory_BoS_Midwest_Child</li>
-		</spawnCategories>
-		<skillGains>
-			<Plants>4</Plants>
-			<Animals>2</Animals>
-		</skillGains>
-	</BackstoryDef>
-
-	<!-- Midwestern squire candidate -->
-
-	<BackstoryDef>
-		<defName>FCP_BoS_Midwest_SquireCandidatei</defName>
-		<title>Midwestern squire candidate</title>
-		<titleShort>squire</titleShort>
-		<baseDesc>[PAWN_nameDef] trained as a squire candidate, hoping to one day wear power armor. [PAWN_pronoun] knew anyone could rise through merit in the Midwestern chapter.</baseDesc>
-		<bodyTypeMale>Male</bodyTypeMale>
-		<bodyTypeFemale>Female</bodyTypeFemale>
-		<slot>Childhood</slot>
-		<spawnCategories>
-			<li>FCP_Backstory_BoS_Midwest_Child</li>
-		</spawnCategories>
-		<skillGains>
-			<Shooting>2</Shooting>
-			<Melee>3</Melee>
-		</skillGains>
-	</BackstoryDef>
-
-	<!-- Midwestern medical apprentice -->
-
-	<BackstoryDef>
-		<defName>FCP_BoS_Midwest_MedicalApprenticej</defName>
-		<title>Midwestern medical apprentice</title>
-		<titleShort>apprentice</titleShort>
-		<baseDesc>[PAWN_nameDef] learned medicine from Brotherhood medics, treating both members and civilians. [PAWN_pronoun] believed healing shouldn't be restricted.</baseDesc>
-		<bodyTypeMale>Thin</bodyTypeMale>
-		<bodyTypeFemale>Thin</bodyTypeFemale>
-		<slot>Childhood</slot>
-		<spawnCategories>
-			<li>FCP_Backstory_BoS_Midwest_Child</li>
-		</spawnCategories>
-		<skillGains>
-			<Medicine>4</Medicine>
-			<Intellectual>2</Intellectual>
-		</skillGains>
-	</BackstoryDef>
-
+  <!--__________ Midwestern Brotherhood Backstories __________-->
+  <!--__ Adults __-->
+  <!-- Midwestern tribal recruit -->
+  <BackstoryDef>
+    <defName>FCP_BoS_Midwest_TribalRecruita</defName>
+    <title>Midwestern tribal recruit</title>
+    <titleShort>recruit</titleShort>
+    <baseDesc>[PAWN_nameDef] was recruited from a tribal village, showing exceptional potential. The Midwestern Brotherhood saw value where Lost Hills saw only primitives.</baseDesc>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <slot>Adulthood</slot>
+    <spawnCategories>
+      <li>FCP_Backstory_BoS_Midwest</li>
+    </spawnCategories>
+    <skillGains>
+      <Melee>5</Melee>
+      <Shooting>3</Shooting>
+      <Plants>2</Plants>
+    </skillGains>
+    <forcedTraits>
+      <FCP_Trait_Sharpshooter>0</FCP_Trait_Sharpshooter>
+    </forcedTraits>
+  </BackstoryDef>
+  <!-- Midwestern warrior -->
+  <BackstoryDef>
+    <defName>FCP_BoS_Midwest_Warriorb</defName>
+    <title>Midwestern warrior</title>
+    <titleShort>warrior</titleShort>
+    <baseDesc>[PAWN_nameDef] served as frontline infantry in the Midwestern Brotherhood's expansionist campaigns. [PAWN_pronoun] believed technology should serve humanity, not be hoarded.</baseDesc>
+    <bodyTypeMale>Hulk</bodyTypeMale>
+    <bodyTypeFemale>Hulk</bodyTypeFemale>
+    <slot>Adulthood</slot>
+    <spawnCategories>
+      <li>FCP_Backstory_BoS_Midwest</li>
+    </spawnCategories>
+    <skillGains>
+      <Shooting>6</Shooting>
+      <Melee>5</Melee>
+    </skillGains>
+    <forcedTraits>
+      <FCP_Trait_Sharpshooter>0</FCP_Trait_Sharpshooter>
+    </forcedTraits>
+  </BackstoryDef>
+  <!-- Midwestern scribe -->
+  <BackstoryDef>
+    <defName>FCP_BoS_Midwest_Scribec</defName>
+    <title>Midwestern scribe</title>
+    <titleShort>scribe</titleShort>
+    <baseDesc>[PAWN_nameDef] documented the Brotherhood's expansion across the Midwest, recording both victories and lessons learned. [PAWN_pronoun] advocated for sharing knowledge with worthy outsiders.</baseDesc>
+    <bodyTypeMale>Thin</bodyTypeMale>
+    <bodyTypeFemale>Thin</bodyTypeFemale>
+    <slot>Adulthood</slot>
+    <spawnCategories>
+      <li>FCP_Backstory_BoS_Midwest</li>
+    </spawnCategories>
+    <skillGains>
+      <Intellectual>6</Intellectual>
+      <Social>3</Social>
+      <Crafting>2</Crafting>
+    </skillGains>
+  </BackstoryDef>
+  <!-- Midwestern knight -->
+  <BackstoryDef>
+    <defName>FCP_BoS_Midwest_Knightd</defName>
+    <title>Midwestern knight</title>
+    <titleShort>knight</titleShort>
+    <baseDesc>[PAWN_nameDef] wore power armor in defense of Midwestern settlements, seen as a protector rather than an overlord. [PAWN_pronoun] took pride in safeguarding the common people.</baseDesc>
+    <bodyTypeMale>Hulk</bodyTypeMale>
+    <bodyTypeFemale>Hulk</bodyTypeFemale>
+    <slot>Adulthood</slot>
+    <spawnCategories>
+      <li>FCP_Backstory_BoS_Midwest</li>
+    </spawnCategories>
+    <skillGains>
+      <Shooting>5</Shooting>
+      <Melee>6</Melee>
+      <Social>2</Social>
+    </skillGains>
+    <forcedTraits>
+      <FCP_Trait_Sharpshooter>0</FCP_Trait_Sharpshooter>
+    </forcedTraits>
+  </BackstoryDef>
+  <!-- Midwestern paladin -->
+  <BackstoryDef>
+    <defName>FCP_BoS_Midwest_Paladine</defName>
+    <title>Midwestern paladin</title>
+    <titleShort>paladin</titleShort>
+    <baseDesc>[PAWN_nameDef] led missions deep into hostile territory, bringing Brotherhood protection to isolated communities. [PAWN_pronoun] believed in active intervention, not isolation.</baseDesc>
+    <bodyTypeMale>Hulk</bodyTypeMale>
+    <bodyTypeFemale>Hulk</bodyTypeFemale>
+    <slot>Adulthood</slot>
+    <spawnCategories>
+      <li>FCP_Backstory_BoS_Midwest</li>
+    </spawnCategories>
+    <skillGains>
+      <Shooting>7</Shooting>
+      <Melee>6</Melee>
+      <Social>3</Social>
+    </skillGains>
+    <forcedTraits>
+      <FCP_Trait_Sharpshooter>0</FCP_Trait_Sharpshooter>
+    </forcedTraits>
+  </BackstoryDef>
+  <!-- Midwestern recruitment officer -->
+  <BackstoryDef>
+    <defName>FCP_BoS_Midwest_RecruitmentOfficerf</defName>
+    <title>Midwestern recruitment officer</title>
+    <titleShort>recruiter</titleShort>
+    <baseDesc>[PAWN_nameDef] traveled the wasteland seeking promising individuals to join the Brotherhood. Unlike Lost Hills, [PAWN_pronoun] valued character over pedigree.</baseDesc>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <slot>Adulthood</slot>
+    <spawnCategories>
+      <li>FCP_Backstory_BoS_Midwest</li>
+    </spawnCategories>
+    <skillGains>
+      <Social>7</Social>
+      <Shooting>3</Shooting>
+    </skillGains>
+    <forcedTraits>
+      <FCP_Trait_Sharpshooter>0</FCP_Trait_Sharpshooter>
+    </forcedTraits>
+  </BackstoryDef>
+  <!-- Midwestern settlement liaison -->
+  <BackstoryDef>
+    <defName>FCP_BoS_Midwest_SettlementLiaisong</defName>
+    <title>Midwestern settlement liaison</title>
+    <titleShort>liaison</titleShort>
+    <baseDesc>[PAWN_nameDef] maintained relations between the Brotherhood and civilian settlements. [PAWN_pronoun] negotiated trade agreements and mutual defense pacts.</baseDesc>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <slot>Adulthood</slot>
+    <spawnCategories>
+      <li>FCP_Backstory_BoS_Midwest</li>
+    </spawnCategories>
+    <skillGains>
+      <Social>6</Social>
+      <Intellectual>3</Intellectual>
+    </skillGains>
+    <workDisables>
+      <li>Violent</li>
+    </workDisables>
+  </BackstoryDef>
+  <!-- Midwestern tech specialist -->
+  <BackstoryDef>
+    <defName>FCP_BoS_Midwest_TechSpecialisth</defName>
+    <title>Midwestern tech specialist</title>
+    <titleShort>tech spec</titleShort>
+    <baseDesc>[PAWN_nameDef] repaired and maintained equipment in the field, often improvising when proper parts weren't available. [PAWN_pronoun] learned to be resourceful.</baseDesc>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <slot>Adulthood</slot>
+    <spawnCategories>
+      <li>FCP_Backstory_BoS_Midwest</li>
+    </spawnCategories>
+    <skillGains>
+      <Crafting>7</Crafting>
+      <Intellectual>4</Intellectual>
+    </skillGains>
+  </BackstoryDef>
+  <!-- Midwestern caravan guard -->
+  <BackstoryDef>
+    <defName>FCP_BoS_Midwest_CaravanGuardi</defName>
+    <title>Midwestern caravan guard</title>
+    <titleShort>guard</titleShort>
+    <baseDesc>[PAWN_nameDef] protected Brotherhood trade caravans across the dangerous Midwest. [PAWN_pronoun] knew every raider gang and mutant nest between settlements.</baseDesc>
+    <bodyTypeMale>Hulk</bodyTypeMale>
+    <bodyTypeFemale>Male</bodyTypeFemale>
+    <slot>Adulthood</slot>
+    <spawnCategories>
+      <li>FCP_Backstory_BoS_Midwest</li>
+    </spawnCategories>
+    <skillGains>
+      <Shooting>6</Shooting>
+      <Melee>4</Melee>
+    </skillGains>
+    <workDisables>
+      <li>Intellectual</li>
+    </workDisables>
+    <forcedTraits>
+      <FCP_Trait_Sharpshooter>0</FCP_Trait_Sharpshooter>
+    </forcedTraits>
+  </BackstoryDef>
+  <!-- Midwestern medic -->
+  <BackstoryDef>
+    <defName>FCP_BoS_Midwest_Medicj</defName>
+    <title>Midwestern medic</title>
+    <titleShort>medic</titleShort>
+    <baseDesc>[PAWN_nameDef] treated both Brotherhood members and civilians, believing medical care shouldn't be restricted by chapter politics. [PAWN_pronoun] saved many lives.</baseDesc>
+    <bodyTypeMale>Thin</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <slot>Adulthood</slot>
+    <spawnCategories>
+      <li>FCP_Backstory_BoS_Midwest</li>
+    </spawnCategories>
+    <skillGains>
+      <Medicine>7</Medicine>
+      <Intellectual>3</Intellectual>
+      <Social>2</Social>
+    </skillGains>
+  </BackstoryDef>
+  <!-- Midwestern sentinel -->
+  <BackstoryDef>
+    <defName>FCP_BoS_Midwest_Sentinelk</defName>
+    <title>Midwestern sentinel</title>
+    <titleShort>sentinel</titleShort>
+    <baseDesc>[PAWN_nameDef] achieved the highest warrior rank through decades of service. [PAWN_pronoun] commanded respect from both Brotherhood and civilians alike.</baseDesc>
+    <bodyTypeMale>Hulk</bodyTypeMale>
+    <bodyTypeFemale>Hulk</bodyTypeFemale>
+    <slot>Adulthood</slot>
+    <spawnCategories>
+      <li>FCP_Backstory_BoS_Midwest</li>
+    </spawnCategories>
+    <skillGains>
+      <Shooting>8</Shooting>
+      <Melee>7</Melee>
+      <Social>4</Social>
+    </skillGains>
+    <workDisables>
+      <li>PlantWork</li>
+    </workDisables>
+    <forcedTraits>
+      <FCP_Trait_Sharpshooter>0</FCP_Trait_Sharpshooter>
+    </forcedTraits>
+  </BackstoryDef>
+  <!-- Midwestern command officer -->
+  <BackstoryDef>
+    <defName>FCP_BoS_Midwest_CommandOfficerl</defName>
+    <title>Midwestern command officer</title>
+    <titleShort>commander</titleShort>
+    <baseDesc>[PAWN_nameDef] coordinated military operations across multiple settlements. [PAWN_pronoun] answered to the General, not some distant Elder Council.</baseDesc>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <slot>Adulthood</slot>
+    <spawnCategories>
+      <li>FCP_Backstory_BoS_Midwest</li>
+    </spawnCategories>
+    <skillGains>
+      <Social>6</Social>
+      <Shooting>5</Shooting>
+      <Intellectual>3</Intellectual>
+    </skillGains>
+    <forcedTraits>
+      <FCP_Trait_Sharpshooter>0</FCP_Trait_Sharpshooter>
+    </forcedTraits>
+  </BackstoryDef>
+  <!-- Midwestern salvage specialist -->
+  <BackstoryDef>
+    <defName>FCP_BoS_Midwest_SalvageSpecialistm</defName>
+    <title>Midwestern salvage specialist</title>
+    <titleShort>salvager</titleShort>
+    <baseDesc>[PAWN_nameDef] scavenged pre-war ruins for useful technology. [PAWN_pronoun] understood that in the Midwest, you used what you could find.</baseDesc>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <slot>Adulthood</slot>
+    <spawnCategories>
+      <li>FCP_Backstory_BoS_Midwest</li>
+    </spawnCategories>
+    <skillGains>
+      <Crafting>5</Crafting>
+      <Mining>4</Mining>
+      <Intellectual>2</Intellectual>
+    </skillGains>
+  </BackstoryDef>
+  <!-- Midwestern training sergeant -->
+  <BackstoryDef>
+    <defName>FCP_BoS_Midwest_Trainingsergeantn</defName>
+    <title>Midwestern training sergeant</title>
+    <titleShort>sergeant</titleShort>
+    <baseDesc>[PAWN_nameDef] trained diverse recruits from tribal and wasteland backgrounds. [PAWN_pronoun] proved that anyone could become Brotherhood, given proper instruction.</baseDesc>
+    <bodyTypeMale>Hulk</bodyTypeMale>
+    <bodyTypeFemale>Hulk</bodyTypeFemale>
+    <slot>Adulthood</slot>
+    <spawnCategories>
+      <li>FCP_Backstory_BoS_Midwest</li>
+    </spawnCategories>
+    <skillGains>
+      <Shooting>6</Shooting>
+      <Melee>5</Melee>
+      <Social>3</Social>
+    </skillGains>
+    <forcedTraits>
+      <FCP_Trait_Sharpshooter>0</FCP_Trait_Sharpshooter>
+    </forcedTraits>
+  </BackstoryDef>
+  <!-- Midwestern power armor pilot -->
+  <BackstoryDef>
+    <defName>FCP_BoS_Midwest_PowerArmorPiloto</defName>
+    <title>Midwestern power armor pilot</title>
+    <titleShort>PA pilot</titleShort>
+    <baseDesc>[PAWN_nameDef] piloted one of the chapter's precious power armor suits. Despite coming from humble origins, [PAWN_pronoun] earned this honor through merit.</baseDesc>
+    <bodyTypeMale>Hulk</bodyTypeMale>
+    <bodyTypeFemale>Hulk</bodyTypeFemale>
+    <slot>Adulthood</slot>
+    <spawnCategories>
+      <li>FCP_Backstory_BoS_Midwest</li>
+    </spawnCategories>
+    <skillGains>
+      <Shooting>6</Shooting>
+      <Melee>6</Melee>
+      <Crafting>2</Crafting>
+    </skillGains>
+    <forcedTraits>
+      <FCP_Trait_Sharpshooter>0</FCP_Trait_Sharpshooter>
+    </forcedTraits>
+  </BackstoryDef>
+  <!-- Midwestern field commander -->
+  <BackstoryDef>
+    <defName>FCP_BoS_Midwest_FieldCommanderp</defName>
+    <title>Midwestern field commander</title>
+    <titleShort>commander</titleShort>
+    <baseDesc>[PAWN_nameDef] led squads in territory expansion operations. [PAWN_pronoun] made tactical decisions independently, far from headquarters oversight.</baseDesc>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <slot>Adulthood</slot>
+    <spawnCategories>
+      <li>FCP_Backstory_BoS_Midwest</li>
+    </spawnCategories>
+    <skillGains>
+      <Shooting>5</Shooting>
+      <Social>5</Social>
+      <Intellectual>3</Intellectual>
+    </skillGains>
+    <forcedTraits>
+      <FCP_Trait_Sharpshooter>0</FCP_Trait_Sharpshooter>
+    </forcedTraits>
+  </BackstoryDef>
+  <!-- Midwestern engineer -->
+  <BackstoryDef>
+    <defName>FCP_BoS_Midwest_Engineerq</defName>
+    <title>Midwestern engineer</title>
+    <titleShort>engineer</titleShort>
+    <baseDesc>[PAWN_nameDef] built fortifications and infrastructure for expanding Brotherhood territory. [PAWN_pronoun] turned wilderness into civilization.</baseDesc>
+    <bodyTypeMale>Hulk</bodyTypeMale>
+    <bodyTypeFemale>Male</bodyTypeFemale>
+    <slot>Adulthood</slot>
+    <spawnCategories>
+      <li>FCP_Backstory_BoS_Midwest</li>
+    </spawnCategories>
+    <skillGains>
+      <Construction>7</Construction>
+      <Crafting>5</Crafting>
+    </skillGains>
+  </BackstoryDef>
+  <!-- Midwestern armourer -->
+  <BackstoryDef>
+    <defName>FCP_BoS_Midwest_Armourerr</defName>
+    <title>Midwestern armourer</title>
+    <titleShort>armourer</titleShort>
+    <baseDesc>[PAWN_nameDef] maintained weapons and armor for the chapter's diverse forces. [PAWN_pronoun] worked with everything from tribal spears to laser rifles.</baseDesc>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <slot>Adulthood</slot>
+    <spawnCategories>
+      <li>FCP_Backstory_BoS_Midwest</li>
+    </spawnCategories>
+    <skillGains>
+      <Crafting>8</Crafting>
+      <Shooting>2</Shooting>
+    </skillGains>
+  </BackstoryDef>
+  <!-- Midwestern scout ranger -->
+  <BackstoryDef>
+    <defName>FCP_BoS_Midwest_ScoutRangers</defName>
+    <title>Midwestern scout ranger</title>
+    <titleShort>ranger</titleShort>
+    <baseDesc>[PAWN_nameDef] ranged far ahead of Brotherhood forces, mapping territory and identifying threats. [PAWN_pronoun] spent more time in the wild than in any settlement.</baseDesc>
+    <bodyTypeMale>Thin</bodyTypeMale>
+    <bodyTypeFemale>Thin</bodyTypeFemale>
+    <slot>Adulthood</slot>
+    <spawnCategories>
+      <li>FCP_Backstory_BoS_Midwest</li>
+    </spawnCategories>
+    <skillGains>
+      <Shooting>6</Shooting>
+      <Animals>4</Animals>
+      <Plants>2</Plants>
+    </skillGains>
+    <forcedTraits>
+      <FCP_Trait_Sharpshooter>0</FCP_Trait_Sharpshooter>
+    </forcedTraits>
+  </BackstoryDef>
+  <!-- Midwestern general's aide -->
+  <BackstoryDef>
+    <defName>FCP_BoS_Midwest_GeneralAidet</defName>
+    <title>Midwestern general's aide</title>
+    <titleShort>aide</titleShort>
+    <baseDesc>[PAWN_nameDef] served directly under the General, helping implement the Midwest Doctrine. [PAWN_pronoun] witnessed the chapter's divergence from Lost Hills firsthand.</baseDesc>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <slot>Adulthood</slot>
+    <spawnCategories>
+      <li>FCP_Backstory_BoS_Midwest</li>
+    </spawnCategories>
+    <skillGains>
+      <Social>6</Social>
+      <Intellectual>5</Intellectual>
+    </skillGains>
+    <workDisables>
+      <li>ManualDumb</li>
+    </workDisables>
+  </BackstoryDef>
+  <!--__ Children __-->
+  <!-- Midwestern tribal youth -->
+  <BackstoryDef>
+    <defName>FCP_BoS_Midwest_TribalYoutha</defName>
+    <title>Midwestern tribal youth</title>
+    <titleShort>tribal</titleShort>
+    <baseDesc>[PAWN_nameDef] grew up in a tribal village before being recruited by the Brotherhood. [PAWN_pronoun] learned to blend old ways with new technology.</baseDesc>
+    <bodyTypeMale>Thin</bodyTypeMale>
+    <bodyTypeFemale>Thin</bodyTypeFemale>
+    <slot>Childhood</slot>
+    <spawnCategories>
+      <li>FCP_Backstory_BoS_Midwest_Child</li>
+    </spawnCategories>
+    <skillGains>
+      <Melee>3</Melee>
+      <Plants>3</Plants>
+    </skillGains>
+  </BackstoryDef>
+  <!-- Midwestern settlement child -->
+  <BackstoryDef>
+    <defName>FCP_BoS_Midwest_SettlementChildb</defName>
+    <title>Midwestern settlement child</title>
+    <titleShort>settler</titleShort>
+    <baseDesc>[PAWN_nameDef] grew up in a Brotherhood-protected settlement, seeing armored knights as heroes rather than overlords. [PAWN_pronoun] wanted to join them.</baseDesc>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <slot>Childhood</slot>
+    <spawnCategories>
+      <li>FCP_Backstory_BoS_Midwest_Child</li>
+    </spawnCategories>
+    <skillGains>
+      <Social>3</Social>
+      <Shooting>2</Shooting>
+    </skillGains>
+  </BackstoryDef>
+  <!-- Midwestern recruit trainee -->
+  <BackstoryDef>
+    <defName>FCP_BoS_Midwest_RecruitTraineec</defName>
+    <title>Midwestern recruit trainee</title>
+    <titleShort>trainee</titleShort>
+    <baseDesc>[PAWN_nameDef] entered Brotherhood training young, learning alongside children from diverse backgrounds. [PAWN_pronoun] saw the strength in unity.</baseDesc>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <slot>Childhood</slot>
+    <spawnCategories>
+      <li>FCP_Backstory_BoS_Midwest_Child</li>
+    </spawnCategories>
+    <skillGains>
+      <Shooting>3</Shooting>
+      <Melee>2</Melee>
+    </skillGains>
+    <forcedTraits>
+      <FCP_Trait_Sharpshooter>0</FCP_Trait_Sharpshooter>
+    </forcedTraits>
+  </BackstoryDef>
+  <!-- Midwestern scribe student -->
+  <BackstoryDef>
+    <defName>FCP_BoS_Midwest_ScribeStudentd</defName>
+    <title>Midwestern scribe student</title>
+    <titleShort>student</titleShort>
+    <baseDesc>[PAWN_nameDef] studied under Brotherhood Scribes, learning both technology and practical skills. [PAWN_pronoun] was taught that knowledge should help people, not just be preserved.</baseDesc>
+    <bodyTypeMale>Thin</bodyTypeMale>
+    <bodyTypeFemale>Thin</bodyTypeFemale>
+    <slot>Childhood</slot>
+    <spawnCategories>
+      <li>FCP_Backstory_BoS_Midwest_Child</li>
+    </spawnCategories>
+    <skillGains>
+      <Intellectual>4</Intellectual>
+      <Crafting>2</Crafting>
+    </skillGains>
+  </BackstoryDef>
+  <!-- Midwestern messenger kid -->
+  <BackstoryDef>
+    <defName>FCP_BoS_Midwest_MessengerKide</defName>
+    <title>Midwestern messenger kid</title>
+    <titleShort>messenger</titleShort>
+    <baseDesc>[PAWN_nameDef] ran messages between Brotherhood outposts, learning the territory. [PAWN_pronoun] was fast and reliable.</baseDesc>
+    <bodyTypeMale>Thin</bodyTypeMale>
+    <bodyTypeFemale>Thin</bodyTypeFemale>
+    <slot>Childhood</slot>
+    <spawnCategories>
+      <li>FCP_Backstory_BoS_Midwest_Child</li>
+    </spawnCategories>
+    <skillGains>
+      <Social>3</Social>
+    </skillGains>
+  </BackstoryDef>
+  <!-- Midwestern workshop helper -->
+  <BackstoryDef>
+    <defName>FCP_BoS_Midwest_WorkshopHelperf</defName>
+    <title>Midwestern workshop helper</title>
+    <titleShort>helper</titleShort>
+    <baseDesc>[PAWN_nameDef] assisted in repair workshops, learning to fix equipment. [PAWN_pronoun] showed aptitude for mechanical work.</baseDesc>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <slot>Childhood</slot>
+    <spawnCategories>
+      <li>FCP_Backstory_BoS_Midwest_Child</li>
+    </spawnCategories>
+    <skillGains>
+      <Crafting>4</Crafting>
+    </skillGains>
+  </BackstoryDef>
+  <!-- Midwestern orphan adoptee -->
+  <BackstoryDef>
+    <defName>FCP_BoS_Midwest_OrphanAdoptg</defName>
+    <title>Midwestern orphan adoptee</title>
+    <titleShort>orphan</titleShort>
+    <baseDesc>[PAWN_nameDef] was orphaned by raiders and taken in by the Brotherhood. [PAWN_pronoun] found a new family among the chapter's members.</baseDesc>
+    <bodyTypeMale>Thin</bodyTypeMale>
+    <bodyTypeFemale>Thin</bodyTypeFemale>
+    <slot>Childhood</slot>
+    <spawnCategories>
+      <li>FCP_Backstory_BoS_Midwest_Child</li>
+    </spawnCategories>
+    <skillGains>
+      <Social>2</Social>
+      <Shooting>2</Shooting>
+    </skillGains>
+  </BackstoryDef>
+  <!-- Midwestern farm youth -->
+  <BackstoryDef>
+    <defName>FCP_BoS_Midwest_FarmYouthh</defName>
+    <title>Midwestern farm youth</title>
+    <titleShort>farmer</titleShort>
+    <baseDesc>[PAWN_nameDef] worked on Brotherhood agricultural projects, helping feed the expanding territory. [PAWN_pronoun] learned that survival required more than weapons.</baseDesc>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <slot>Childhood</slot>
+    <spawnCategories>
+      <li>FCP_Backstory_BoS_Midwest_Child</li>
+    </spawnCategories>
+    <skillGains>
+      <Plants>4</Plants>
+      <Animals>2</Animals>
+    </skillGains>
+  </BackstoryDef>
+  <!-- Midwestern squire candidate -->
+  <BackstoryDef>
+    <defName>FCP_BoS_Midwest_SquireCandidatei</defName>
+    <title>Midwestern squire candidate</title>
+    <titleShort>squire</titleShort>
+    <baseDesc>[PAWN_nameDef] trained as a squire candidate, hoping to one day wear power armor. [PAWN_pronoun] knew anyone could rise through merit in the Midwestern chapter.</baseDesc>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <slot>Childhood</slot>
+    <spawnCategories>
+      <li>FCP_Backstory_BoS_Midwest_Child</li>
+    </spawnCategories>
+    <skillGains>
+      <Shooting>2</Shooting>
+      <Melee>3</Melee>
+    </skillGains>
+  </BackstoryDef>
+  <!-- Midwestern medical apprentice -->
+  <BackstoryDef>
+    <defName>FCP_BoS_Midwest_MedicalApprenticej</defName>
+    <title>Midwestern medical apprentice</title>
+    <titleShort>apprentice</titleShort>
+    <baseDesc>[PAWN_nameDef] learned medicine from Brotherhood medics, treating both members and civilians. [PAWN_pronoun] believed healing shouldn't be restricted.</baseDesc>
+    <bodyTypeMale>Thin</bodyTypeMale>
+    <bodyTypeFemale>Thin</bodyTypeFemale>
+    <slot>Childhood</slot>
+    <spawnCategories>
+      <li>FCP_Backstory_BoS_Midwest_Child</li>
+    </spawnCategories>
+    <skillGains>
+      <Medicine>4</Medicine>
+      <Intellectual>2</Intellectual>
+    </skillGains>
+  </BackstoryDef>
 </Defs>
