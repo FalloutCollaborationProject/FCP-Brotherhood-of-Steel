@@ -163,11 +163,6 @@
                     <li>FCP_Faction_BoS_Outcast_Remnants</li>
                 </hostileFactionDefs>
             </li>
-			<li Class="FCP.Enlist.FactionEnlistOptions">
-				<enlistOptionsDefs>
-					<li>FCP_Enlistment_Lyons_Pride</li>
-				</enlistOptionsDefs>
-			</li>
 			<li Class="FCP_Shuttles.FactionModExtension">
 				<transportShipDef>FCP_BoS_Lyons_Pride_Vertibird</transportShipDef>
 				<minDistanceBetweenShuttles>10</minDistanceBetweenShuttles>

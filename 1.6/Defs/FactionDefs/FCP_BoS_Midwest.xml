@@ -130,11 +130,6 @@
                     <li MayRequire="Rick.FCP.Enclave">FCP_Faction_Enclave</li>
                 </hostileFactionDefs>
             </li>
-			<li Class="FCP.Enlist.FactionEnlistOptions">
-				<enlistOptionsDefs>
-					<li>FCP_Enlistment_BoS</li>
-				</enlistOptionsDefs>
-			</li>
 			<li Class="FCP.Currencies.CurrencyReplacement">
 				<currency>FCP_Currency_BoS_Scrip</currency>
 			</li>
