@@ -16,7 +16,7 @@
             <graphicClass>Graphic_Single</graphicClass>
             <drawSize>0.90</drawSize>
         </graphicData>
-        <recipeMaker Inherit= "false">
+<recipeMaker Inherit= "false">
             <unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
             <researchPrerequisite>FCP_Research_BoS_Elder_Regalia</researchPrerequisite>
             <skillRequirements>
@@ -73,7 +73,7 @@
             <graphicClass>Graphic_Single</graphicClass>
             <drawSize>0.90</drawSize>
         </graphicData>
-        <recipeMaker Inherit= "false">
+<recipeMaker Inherit= "false">
             <unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
             <researchPrerequisite>FCP_Research_BoS_Knight_Equipment</researchPrerequisite>
             <skillRequirements>
@@ -125,7 +125,7 @@
             <graphicClass>Graphic_Single</graphicClass>
             <drawSize>0.90</drawSize>
         </graphicData>
-        <recipeMaker Inherit= "false">
+<recipeMaker Inherit= "false">
             <unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
             <researchPrerequisite>FCP_Research_BoS_Knight_Equipment</researchPrerequisite>
             <skillRequirements>
@@ -177,7 +177,7 @@
             <graphicClass>Graphic_Single</graphicClass>
             <drawSize>0.90</drawSize>
         </graphicData>
-        <recipeMaker Inherit= "false">
+<recipeMaker Inherit= "false">
             <unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
             <skillRequirements>
                 <Crafting>4</Crafting>
@@ -227,7 +227,7 @@
             <graphicClass>Graphic_Single</graphicClass>
             <drawSize>0.90</drawSize>
         </graphicData>
-        <recipeMaker Inherit= "false">
+<recipeMaker Inherit= "false">
             <unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
             <researchPrerequisite>FCP_Research_BoS_Specialized_Armor</researchPrerequisite>
             <skillRequirements>
@@ -281,7 +281,7 @@
             <graphicClass>Graphic_Single</graphicClass>
             <drawSize>0.90</drawSize>
         </graphicData>
-        <recipeMaker Inherit= "false">
+<recipeMaker Inherit= "false">
             <unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
             <researchPrerequisite>FCP_Research_BoS_Paladin_Training</researchPrerequisite>
             <skillRequirements>
@@ -337,7 +337,7 @@
             <graphicClass>Graphic_Single</graphicClass>
             <drawSize>0.90</drawSize>
         </graphicData>
-        <recipeMaker Inherit= "false">
+<recipeMaker Inherit= "false">
             <unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
             <researchPrerequisite>FCP_Research_BoS_Knight_Equipment</researchPrerequisite>
             <skillRequirements>
@@ -390,7 +390,7 @@
             <graphicClass>Graphic_Single</graphicClass>
             <drawSize>0.90</drawSize>
         </graphicData>
-        <recipeMaker Inherit= "false">
+<recipeMaker Inherit= "false">
             <unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
             <researchPrerequisite>FCP_Research_BoS_Knight_Equipment</researchPrerequisite>
             <skillRequirements>
@@ -446,7 +446,7 @@
             <graphicClass>Graphic_Single</graphicClass>
             <drawSize>0.90</drawSize>
         </graphicData>
-        <recipeMaker Inherit= "false">
+<recipeMaker Inherit= "false">
             <unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
             <researchPrerequisite>FCP_Research_BoS_Knight_Equipment</researchPrerequisite>
             <skillRequirements>
@@ -502,7 +502,7 @@
             <graphicClass>Graphic_Single</graphicClass>
             <drawSize>0.90</drawSize>
         </graphicData>
-        <recipeMaker Inherit= "false">
+<recipeMaker Inherit= "false">
             <unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
             <researchPrerequisite>FCP_Research_BoS_Scribe_Attire</researchPrerequisite>
             <skillRequirements>
@@ -558,7 +558,7 @@
             <graphicClass>Graphic_Single</graphicClass>
             <drawSize>0.90</drawSize>
         </graphicData>
-        <recipeMaker Inherit= "false">
+<recipeMaker Inherit= "false">
             <unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
             <researchPrerequisite>FCP_Research_BoS_Scribe_Attire</researchPrerequisite>
             <skillRequirements>
@@ -610,7 +610,7 @@
             <graphicClass>Graphic_Single</graphicClass>
             <drawSize>0.90</drawSize>
         </graphicData>
-        <recipeMaker Inherit= "false">
+<recipeMaker Inherit= "false">
             <unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
             <researchPrerequisite>FCP_Research_BoS_Scribe_Attire</researchPrerequisite>
             <skillRequirements>
@@ -661,7 +661,7 @@
             <graphicClass>Graphic_Single</graphicClass>
             <drawSize>0.90</drawSize>
         </graphicData>
-        <recipeMaker Inherit= "false">
+<recipeMaker Inherit= "false">
             <unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
             <researchPrerequisite>FCP_Research_BoS_Initiate_Equipment</researchPrerequisite>
             <skillRequirements>
@@ -777,7 +777,7 @@
             <graphicClass>Graphic_Single</graphicClass>
             <drawSize>0.90</drawSize>
         </graphicData>
-        <recipeMaker Inherit= "false">
+<recipeMaker Inherit= "false">
             <unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
             <researchPrerequisite>FCP_Research_BoS_Specialized_Armor</researchPrerequisite>
             <skillRequirements>
@@ -892,7 +892,7 @@
             <graphicClass>Graphic_Single</graphicClass>
             <drawSize>0.90</drawSize>
         </graphicData>
-        <recipeMaker Inherit="false">
+<recipeMaker Inherit="false">
             <unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
             <researchPrerequisite>FCP_Research_BoS_Outcast_Equipment</researchPrerequisite>
             <skillRequirements>
@@ -952,7 +952,7 @@
             <graphicClass>Graphic_Single</graphicClass>
             <drawSize>0.90</drawSize>
         </graphicData>
-        <recipeMaker Inherit="false">
+<recipeMaker Inherit="false">
             <unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
             <researchPrerequisite>FCP_Research_BoS_Outcast_Equipment</researchPrerequisite>
             <skillRequirements>

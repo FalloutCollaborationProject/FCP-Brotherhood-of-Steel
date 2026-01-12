@@ -141,4 +141,23 @@
         <tab>FCP_Faction_Research</tab>
     </ResearchProjectDef>
 
+    <!-- Brotherhood Advanced Weapons -->
+
+    <ResearchProjectDef ParentName="FCP_Pre_War_Military_Research_Base">
+        <defName>FCP_Research_BoS_Advanced_Weapons</defName>
+        <label>Holotape File: Brotherhood Advanced Weapons</label>
+        <description>Military holotape containing the schematics and manufacturing processes for the Brotherhood Advanced Weapons.</description>
+        <baseCost>3500</baseCost>
+        <techLevel>Spacer</techLevel>
+        <heldByFactionCategoryTags>
+            <li>FCP_Faction_BoS</li>
+        </heldByFactionCategoryTags>
+        <prerequisites>
+            <li>FCP_Research_Plasma_Weapons_Manufacturing</li>
+            <li>FCP_Research_Enclave_Advanced_Equipment</li>
+        </prerequisites>
+        <researchViewX>0.00</researchViewX>
+        <researchViewY>6.00</researchViewY>
+        <tab>FCP_Faction_Research</tab>
+    </ResearchProjectDef>
 </Defs>

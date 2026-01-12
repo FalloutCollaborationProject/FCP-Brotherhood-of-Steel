@@ -154,8 +154,6 @@
 				<kindDef>Settlement</kindDef>
 				<options>
 					<FCP_Pawnkind_BoS_Hopeful>10</FCP_Pawnkind_BoS_Hopeful>
-					<FCP_Pawnkind_BoS_Squire>6</FCP_Pawnkind_BoS_Squire>
-					<FCP_Pawnkind_BoS_Lancer>4</FCP_Pawnkind_BoS_Lancer>
 					<FCP_Pawnkind_BoS_Initiate>8</FCP_Pawnkind_BoS_Initiate>
 					<FCP_Pawnkind_BoS_Scribe>7</FCP_Pawnkind_BoS_Scribe>
 					<FCP_Pawnkind_BoS_Field_Scribe>5</FCP_Pawnkind_BoS_Field_Scribe>
