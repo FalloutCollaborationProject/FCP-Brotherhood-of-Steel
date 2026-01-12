@@ -1,584 +1,646 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
-  <!--__________ Mojave Brotherhood of Steel Backstories __________-->
-  <!--_____ Adult Backstories _____-->
-  <!-- Hidden Valley Knight -->
-  <BackstoryDef>
-    <defName>FCP_Backstory_BoS_Mojave_Hidden_Valley_Knight</defName>
-    <identifier>FCP_Backstory_BoS_Mojave_Hidden_Valley_Knight</identifier>
-    <slot>Adulthood</slot>
-    <title>Hidden Valley Knight</title>
-    <titleShort>Knight</titleShort>
-    <description>Served as a Knight in the Hidden Valley bunker under Elder McNamara's cautious leadership. Spent years on patrol missions and bunker security while the chapter remained in lockdown. Witnessed the gradual decline of morale and resources as the outside world moved on without them.</description>
-    <skillGains>
-      <Shooting>4</Shooting>
-      <Melee>3</Melee>
-      <Construction>1</Construction>
-    </skillGains>
-    <workDisables>None</workDisables>
-    <requiredWorkTags>Violent</requiredWorkTags>
-    <spawnCategories>
-      <li>FCP_Backstory_BoS_Mojave</li>
-    </spawnCategories>
-    <bodyTypeFemale>Female</bodyTypeFemale>
-    <bodyTypeMale>Male</bodyTypeMale>
-    <possessions />
-    <forcedTraits>
-      <FCP_Trait_Sharpshooter>0</FCP_Trait_Sharpshooter>
-    </forcedTraits>
-  </BackstoryDef>
-  <!-- Bunker Scribe -->
-  <BackstoryDef>
-    <defName>FCP_Backstory_BoS_Mojave_Bunker_Scribe</defName>
-    <identifier>FCP_Backstory_BoS_Mojave_Bunker_Scribe</identifier>
-    <slot>Adulthood</slot>
-    <title>Bunker Scribe</title>
-    <titleShort>Scribe</titleShort>
-    <description>Cataloged pre-war technology and maintained the bunker's systems during the years of isolation. Watched helplessly as equipment failures mounted and spare parts dwindled. Became an expert at jury-rigging solutions with whatever materials were available.</description>
-    <skillGains>
-      <Intellectual>5</Intellectual>
-      <Construction>3</Construction>
-      <Crafting>2</Crafting>
-    </skillGains>
-    <workDisables>None</workDisables>
-    <requiredWorkTags>None</requiredWorkTags>
-    <spawnCategories>
-      <li>FCP_Backstory_BoS_Mojave</li>
-    </spawnCategories>
-    <bodyTypeFemale>Thin</bodyTypeFemale>
-    <bodyTypeMale>Thin</bodyTypeMale>
-    <possessions />
-  </BackstoryDef>
-  <!-- Recon Specialist -->
-  <BackstoryDef>
-    <defName>FCP_Backstory_BoS_Mojave_Recon_Specialist</defName>
-    <identifier>FCP_Backstory_BoS_Mojave_Recon_Specialist</identifier>
-    <slot>Adulthood</slot>
-    <title>Mojave Recon Specialist</title>
-    <titleShort>Recon Specialist</titleShort>
-    <description>Conducted dangerous reconnaissance missions across the Mojave Wasteland while the chapter remained hidden. Observed the rise of the NCR, the growth of New Vegas, and the changing political landscape from the shadows. Master of stealth and survival.</description>
-    <skillGains>
-      <Shooting>3</Shooting>
-      <Intellectual>2</Intellectual>
-      <Animals>2</Animals>
-    </skillGains>
-    <workDisables>None</workDisables>
-    <requiredWorkTags>None</requiredWorkTags>
-    <spawnCategories>
-      <li>FCP_Backstory_BoS_Mojave</li>
-    </spawnCategories>
-    <bodyTypeFemale>Thin</bodyTypeFemale>
-    <bodyTypeMale>Thin</bodyTypeMale>
-    <possessions />
-    <forcedTraits>
-      <FCP_Trait_Sharpshooter>0</FCP_Trait_Sharpshooter>
-    </forcedTraits>
-  </BackstoryDef>
-  <!-- Paladin Veteran -->
-  <BackstoryDef>
-    <defName>FCP_Backstory_BoS_Mojave_Paladin_Veteran</defName>
-    <identifier>FCP_Backstory_BoS_Mojave_Paladin_Veteran</identifier>
-    <slot>Adulthood</slot>
-    <title>Mojave Paladin</title>
-    <titleShort>Paladin</titleShort>
-    <description>Rose through the ranks to become a Paladin before the chapter's isolation began. Led missions to HELIOS One and other pre-war facilities. Carries the weight of the Brotherhood's defeats and the knowledge of what they once were.</description>
-    <skillGains>
-      <Shooting>5</Shooting>
-      <Melee>4</Melee>
-      <Social>2</Social>
-      <Intellectual>1</Intellectual>
-    </skillGains>
-    <workDisables>None</workDisables>
-    <requiredWorkTags>Violent</requiredWorkTags>
-    <spawnCategories>
-      <li>FCP_Backstory_BoS_Mojave</li>
-    </spawnCategories>
-    <bodyTypeFemale>Hulk</bodyTypeFemale>
-    <bodyTypeMale>Hulk</bodyTypeMale>
-    <possessions />
-    <forcedTraits>
-      <FCP_Trait_Sharpshooter>0</FCP_Trait_Sharpshooter>
-    </forcedTraits>
-  </BackstoryDef>
-  <!-- Quartermaster -->
-  <BackstoryDef>
-    <defName>FCP_Backstory_BoS_Mojave_Quartermaster</defName>
-    <identifier>FCP_Backstory_BoS_Mojave_Quartermaster</identifier>
-    <slot>Adulthood</slot>
-    <title>Bunker Quartermaster</title>
-    <titleShort>Quartermaster</titleShort>
-    <description>Managed the dwindling supplies and equipment of Hidden Valley during its years of isolation. Became an expert at rationing, resource allocation, and making difficult decisions about what could be spared. Every bullet and battery pack was precious.</description>
-    <skillGains>
-      <Intellectual>3</Intellectual>
-      <Social>2</Social>
-      <Crafting>2</Crafting>
-    </skillGains>
-    <workDisables>None</workDisables>
-    <requiredWorkTags>None</requiredWorkTags>
-    <spawnCategories>
-      <li>FCP_Backstory_BoS_Mojave</li>
-    </spawnCategories>
-    <bodyTypeFemale>Female</bodyTypeFemale>
-    <bodyTypeMale>Male</bodyTypeMale>
-    <possessions />
-  </BackstoryDef>
-  <!-- Communications Officer -->
-  <BackstoryDef>
-    <defName>FCP_Backstory_BoS_Mojave_Communications_Officer</defName>
-    <identifier>FCP_Backstory_BoS_Mojave_Communications_Officer</identifier>
-    <slot>Adulthood</slot>
-    <title>Communications Officer</title>
-    <titleShort>Comms Officer</titleShort>
-    <description>Maintained contact with other Brotherhood chapters and monitored radio frequencies from Hidden Valley. Witnessed the silence that gradually fell over the Brotherhood's network as chapters went dark or fell to their enemies.</description>
-    <skillGains>
-      <Intellectual>4</Intellectual>
-      <Construction>2</Construction>
-      <Social>1</Social>
-    </skillGains>
-    <workDisables>None</workDisables>
-    <requiredWorkTags>None</requiredWorkTags>
-    <spawnCategories>
-      <li>FCP_Backstory_BoS_Mojave</li>
-    </spawnCategories>
-    <bodyTypeFemale>Thin</bodyTypeFemale>
-    <bodyTypeMale>Thin</bodyTypeMale>
-    <possessions />
-  </BackstoryDef>
-  <!-- Initiates -->
-  <BackstoryDef>
-    <defName>FCP_Backstory_BoS_Mojave_Initiate</defName>
-    <identifier>FCP_Backstory_BoS_Mojave_Initiate</identifier>
-    <slot>Adulthood</slot>
-    <title>Hidden Valley Initiate</title>
-    <titleShort>Initiate</titleShort>
-    <description>Served as an Initiate in the Hidden Valley bunker, performing maintenance duties and basic security tasks. Learned the Brotherhood's ways during its most isolated and demoralized period, when hope was in short supply.</description>
-    <skillGains>
-      <Shooting>2</Shooting>
-      <Construction>3</Construction>
-      <Crafting>1</Crafting>
-    </skillGains>
-    <workDisables>None</workDisables>
-    <requiredWorkTags>None</requiredWorkTags>
-    <spawnCategories>
-      <li>FCP_Backstory_BoS_Mojave</li>
-    </spawnCategories>
-    <bodyTypeFemale>Female</bodyTypeFemale>
-    <bodyTypeMale>Male</bodyTypeMale>
-    <possessions />
-  </BackstoryDef>
-  <!-- Medical Officer -->
-  <BackstoryDef>
-    <defName>FCP_Backstory_BoS_Mojave_Medical_Officer</defName>
-    <identifier>FCP_Backstory_BoS_Mojave_Medical_Officer</identifier>
-    <slot>Adulthood</slot>
-    <title>Brotherhood Medic</title>
-    <titleShort>Medic</titleShort>
-    <description>Provided medical care to the Hidden Valley chapter during years of declining health and morale. Treated radiation exposure, depression, and the various ailments that come from living in a sealed bunker for too long.</description>
-    <skillGains>
-      <Medicine>5</Medicine>
-      <Intellectual>2</Intellectual>
-      <Social>1</Social>
-    </skillGains>
-    <workDisables>None</workDisables>
-    <requiredWorkTags>None</requiredWorkTags>
-    <spawnCategories>
-      <li>FCP_Backstory_BoS_Mojave</li>
-    </spawnCategories>
-    <bodyTypeFemale>Female</bodyTypeFemale>
-    <bodyTypeMale>Male</bodyTypeMale>
-    <possessions />
-  </BackstoryDef>
-  <!-- Security Chief -->
-  <BackstoryDef>
-    <defName>FCP_Backstory_BoS_Mojave_Security_Chief</defName>
-    <identifier>FCP_Backstory_BoS_Mojave_Security_Chief</identifier>
-    <slot>Adulthood</slot>
-    <title>Bunker Security Chief</title>
-    <titleShort>Security Chief</titleShort>
-    <description>Oversaw internal security and discipline within Hidden Valley during its years of lockdown. Dealt with growing tensions, desertion attempts, and the slow breakdown of military order as hope faded.</description>
-    <skillGains>
-      <Shooting>3</Shooting>
-      <Melee>2</Melee>
-      <Social>3</Social>
-      <Intellectual>1</Intellectual>
-    </skillGains>
-    <workDisables>None</workDisables>
-    <requiredWorkTags>Violent</requiredWorkTags>
-    <spawnCategories>
-      <li>FCP_Backstory_BoS_Mojave</li>
-    </spawnCategories>
-    <bodyTypeFemale>Hulk</bodyTypeFemale>
-    <bodyTypeMale>Hulk</bodyTypeMale>
-    <possessions />
-    <forcedTraits>
-      <FCP_Trait_Sharpshooter>0</FCP_Trait_Sharpshooter>
-    </forcedTraits>
-  </BackstoryDef>
-  <!-- Tech Specialist -->
-  <BackstoryDef>
-    <defName>FCP_Backstory_BoS_Mojave_Tech_Specialist</defName>
-    <identifier>FCP_Backstory_BoS_Mojave_Tech_Specialist</identifier>
-    <slot>Adulthood</slot>
-    <title>Technology Specialist</title>
-    <titleShort>Tech Specialist</titleShort>
-    <description>Specialized in maintaining and reverse-engineering pre-war technology found in the Mojave. Worked on power armor systems, energy weapons, and the bunker's aging infrastructure with limited resources and growing desperation.</description>
-    <skillGains>
-      <Intellectual>4</Intellectual>
-      <Construction>4</Construction>
-      <Crafting>2</Crafting>
-    </skillGains>
-    <workDisables>None</workDisables>
-    <requiredWorkTags>None</requiredWorkTags>
-    <spawnCategories>
-      <li>FCP_Backstory_BoS_Mojave</li>
-    </spawnCategories>
-    <bodyTypeFemale>Thin</bodyTypeFemale>
-    <bodyTypeMale>Thin</bodyTypeMale>
-    <possessions />
-    <forcedTraits>
-      <FCP_Trait_Power_Armor_Trained>0</FCP_Trait_Power_Armor_Trained>
-    </forcedTraits>
-  </BackstoryDef>
-  <!-- Sentinel -->
-  <BackstoryDef>
-    <defName>FCP_Backstory_BoS_Mojave_Sentinel</defName>
-    <identifier>FCP_Backstory_BoS_Mojave_Sentinel</identifier>
-    <slot>Adulthood</slot>
-    <title>Mojave Sentinel</title>
-    <titleShort>Sentinel</titleShort>
-    <description>Served as a guard and patrol leader around Hidden Valley's perimeter. Spent countless hours watching the wasteland through periscopes and sensors, alert for NCR patrols or other threats while the chapter hid underground.</description>
-    <skillGains>
-      <Shooting>3</Shooting>
-      <Intellectual>1</Intellectual>
-      <Animals>2</Animals>
-    </skillGains>
-    <workDisables>None</workDisables>
-    <requiredWorkTags>None</requiredWorkTags>
-    <spawnCategories>
-      <li>FCP_Backstory_BoS_Mojave</li>
-    </spawnCategories>
-    <bodyTypeFemale>Female</bodyTypeFemale>
-    <bodyTypeMale>Male</bodyTypeMale>
-    <possessions />
-    <forcedTraits>
-      <FCP_Trait_Sharpshooter>0</FCP_Trait_Sharpshooter>
-    </forcedTraits>
-  </BackstoryDef>
-  <!-- Field Engineer -->
-  <BackstoryDef>
-    <defName>FCP_Backstory_BoS_Mojave_Field_Engineer</defName>
-    <identifier>FCP_Backstory_BoS_Mojave_Field_Engineer</identifier>
-    <slot>Adulthood</slot>
-    <title>Brotherhood Engineer</title>
-    <titleShort>Engineer</titleShort>
-    <description>Maintained the critical systems keeping Hidden Valley operational during its isolation. Jury-rigged solutions for failing power systems, water purification, and air recycling when replacement parts were unavailable.</description>
-    <skillGains>
-      <Construction>5</Construction>
-      <Intellectual>3</Intellectual>
-      <Crafting>2</Crafting>
-    </skillGains>
-    <workDisables>None</workDisables>
-    <requiredWorkTags>None</requiredWorkTags>
-    <spawnCategories>
-      <li>FCP_Backstory_BoS_Mojave</li>
-    </spawnCategories>
-    <bodyTypeFemale>Female</bodyTypeFemale>
-    <bodyTypeMale>Male</bodyTypeMale>
-    <possessions />
-  </BackstoryDef>
-  <!-- Supply Runner -->
-  <BackstoryDef>
-    <defName>FCP_Backstory_BoS_Mojave_Supply_Runner</defName>
-    <identifier>FCP_Backstory_BoS_Mojave_Supply_Runner</identifier>
-    <slot>Adulthood</slot>
-    <title>Covert Supply Runner</title>
-    <titleShort>Supply Runner</titleShort>
-    <description>Conducted secret missions to acquire supplies and equipment for the isolated Hidden Valley chapter. Learned to blend in with wastelanders and traders while maintaining Brotherhood loyalties and operational security.</description>
-    <skillGains>
-      <Social>3</Social>
-      <Shooting>2</Shooting>
-      <Intellectual>2</Intellectual>
-    </skillGains>
-    <workDisables>None</workDisables>
-    <requiredWorkTags>None</requiredWorkTags>
-    <spawnCategories>
-      <li>FCP_Backstory_BoS_Mojave</li>
-    </spawnCategories>
-    <bodyTypeFemale>Thin</bodyTypeFemale>
-    <bodyTypeMale>Thin</bodyTypeMale>
-    <possessions />
-  </BackstoryDef>
-  <!-- Armorer -->
-  <BackstoryDef>
-    <defName>FCP_Backstory_BoS_Mojave_Armorer</defName>
-    <identifier>FCP_Backstory_BoS_Mojave_Armorer</identifier>
-    <slot>Adulthood</slot>
-    <title>Brotherhood Armorer</title>
-    <titleShort>Armorer</titleShort>
-    <description>Maintained and repaired the chapter's weapons and armor during the lean years in Hidden Valley. Became an expert at keeping aging equipment functional with minimal resources and salvaged components.</description>
-    <skillGains>
-      <Crafting>5</Crafting>
-      <Construction>3</Construction>
-      <Shooting>1</Shooting>
-    </skillGains>
-    <workDisables>None</workDisables>
-    <requiredWorkTags>None</requiredWorkTags>
-    <spawnCategories>
-      <li>FCP_Backstory_BoS_Mojave</li>
-    </spawnCategories>
-    <bodyTypeFemale>Female</bodyTypeFemale>
-    <bodyTypeMale>Male</bodyTypeMale>
-    <possessions />
-  </BackstoryDef>
-  <!-- Intelligence Analyst -->
-  <BackstoryDef>
-    <defName>FCP_Backstory_BoS_Mojave_Intelligence_Analyst</defName>
-    <identifier>FCP_Backstory_BoS_Mojave_Intelligence_Analyst</identifier>
-    <slot>Adulthood</slot>
-    <title>Intelligence Analyst</title>
-    <titleShort>Analyst</titleShort>
-    <description>Analyzed intelligence reports and radio intercepts to track the movements and activities of potential enemies. Watched the NCR expand its influence while the Brotherhood remained powerless to act.</description>
-    <skillGains>
-      <Intellectual>5</Intellectual>
-      <Social>2</Social>
-    </skillGains>
-    <workDisables>None</workDisables>
-    <requiredWorkTags>None</requiredWorkTags>
-    <spawnCategories>
-      <li>FCP_Backstory_BoS_Mojave</li>
-    </spawnCategories>
-    <bodyTypeFemale>Thin</bodyTypeFemale>
-    <bodyTypeMale>Thin</bodyTypeMale>
-    <possessions />
-  </BackstoryDef>
-  <!--_____ Child Backstories _____-->
-  <!-- Bunker Child -->
-  <BackstoryDef>
-    <defName>FCP_Backstory_BoS_Mojave_Child_Bunker_Born</defName>
-    <identifier>FCP_Backstory_BoS_Mojave_Child_Bunker_Born</identifier>
-    <slot>Childhood</slot>
-    <title>Bunker Born</title>
-    <titleShort>Bunker Born</titleShort>
-    <description>Born and raised in the confines of Hidden Valley bunker during the chapter's isolation. Never saw the surface world until the evacuation, learning about the outside only through stories and old Brotherhood records.</description>
-    <skillGains>
-      <Intellectual>2</Intellectual>
-      <Construction>1</Construction>
-    </skillGains>
-    <spawnCategories>
-      <li>FCP_Backstory_BoS_Mojave_Child</li>
-    </spawnCategories>
-  </BackstoryDef>
-  <!-- Tech Apprentice -->
-  <BackstoryDef>
-    <defName>FCP_Backstory_BoS_Mojave_Child_Tech_Apprentice</defName>
-    <identifier>FCP_Backstory_BoS_Mojave_Child_Tech_Apprentice</identifier>
-    <slot>Childhood</slot>
-    <title>Tech Apprentice</title>
-    <titleShort>Tech Apprentice</titleShort>
-    <description>Spent childhood learning to maintain and repair the bunker's aging systems under the guidance of Brotherhood scribes. Small hands were perfect for reaching into tight spaces in the machinery.</description>
-    <skillGains>
-      <Construction>2</Construction>
-      <Intellectual>1</Intellectual>
-    </skillGains>
-    <spawnCategories>
-      <li>FCP_Backstory_BoS_Mojave_Child</li>
-    </spawnCategories>
-  </BackstoryDef>
-  <!-- Radio Operator's Kid -->
-  <BackstoryDef>
-    <defName>FCP_Backstory_BoS_Mojave_Child_Radio_Kid</defName>
-    <identifier>FCP_Backstory_BoS_Mojave_Child_Radio_Kid</identifier>
-    <slot>Childhood</slot>
-    <title>Communications Trainee</title>
-    <titleShort>Radio Kid</titleShort>
-    <description>Grew up helping in the communications center, learning radio protocols and encryption methods. Listened to distant signals from the outside world that painted pictures of places beyond the bunker walls.</description>
-    <skillGains>
-      <Intellectual>2</Intellectual>
-      <Social>1</Social>
-    </skillGains>
-    <spawnCategories>
-      <li>FCP_Backstory_BoS_Mojave_Child</li>
-    </spawnCategories>
-  </BackstoryDef>
-  <!-- Medic's Assistant -->
-  <BackstoryDef>
-    <defName>FCP_Backstory_BoS_Mojave_Child_Medic_Helper</defName>
-    <identifier>FCP_Backstory_BoS_Mojave_Child_Medic_Helper</identifier>
-    <slot>Childhood</slot>
-    <title>Medic's Helper</title>
-    <titleShort>Medic Helper</titleShort>
-    <description>Assisted the bunker's medical staff during childhood, learning basic first aid and patient care. Saw firsthand the physical and psychological toll that isolation took on the chapter members.</description>
-    <skillGains>
-      <Medicine>2</Medicine>
-      <Social>1</Social>
-    </skillGains>
-    <spawnCategories>
-      <li>FCP_Backstory_BoS_Mojave_Child</li>
-    </spawnCategories>
-  </BackstoryDef>
-  <!-- Archive Student -->
-  <BackstoryDef>
-    <defName>FCP_Backstory_BoS_Mojave_Child_Archive_Student</defName>
-    <identifier>FCP_Backstory_BoS_Mojave_Child_Archive_Student</identifier>
-    <slot>Childhood</slot>
-    <title>Archive Student</title>
-    <titleShort>Archive Student</titleShort>
-    <description>Spent childhood studying in the Brotherhood's archives, learning about pre-war technology and the chapter's history. Memorized technical manuals and the Codex while dreaming of the surface world.</description>
-    <skillGains>
-      <Intellectual>3</Intellectual>
-    </skillGains>
-    <spawnCategories>
-      <li>FCP_Backstory_BoS_Mojave_Child</li>
-    </spawnCategories>
-  </BackstoryDef>
-  <!-- Security Ward -->
-  <BackstoryDef>
-    <defName>FCP_Backstory_BoS_Mojave_Child_Security_Ward</defName>
-    <identifier>FCP_Backstory_BoS_Mojave_Child_Security_Ward</identifier>
-    <slot>Childhood</slot>
-    <title>Security Ward</title>
-    <titleShort>Security Ward</titleShort>
-    <description>Grew up under the protection and training of the bunker's security forces. Learned basic combat skills and discipline while helping with routine patrols and equipment maintenance.</description>
-    <skillGains>
-      <Shooting>1</Shooting>
-      <Melee>1</Melee>
-      <Social>1</Social>
-    </skillGains>
-    <spawnCategories>
-      <li>FCP_Backstory_BoS_Mojave_Child</li>
-    </spawnCategories>
-    <forcedTraits>
-      <FCP_Trait_Sharpshooter>0</FCP_Trait_Sharpshooter>
-    </forcedTraits>
-  </BackstoryDef>
-  <!-- Hydroponics Helper -->
-  <BackstoryDef>
-    <defName>FCP_Backstory_BoS_Mojave_Child_Hydroponics_Helper</defName>
-    <identifier>FCP_Backstory_BoS_Mojave_Child_Hydroponics_Helper</identifier>
-    <slot>Childhood</slot>
-    <title>Hydroponics Helper</title>
-    <titleShort>Hydro Helper</titleShort>
-    <description>Helped tend the bunker's small hydroponic gardens that supplemented their limited food supplies. Learned to coax life from artificial systems in the sterile underground environment.</description>
-    <skillGains>
-      <Plants>2</Plants>
-      <Intellectual>1</Intellectual>
-    </skillGains>
-    <spawnCategories>
-      <li>FCP_Backstory_BoS_Mojave_Child</li>
-    </spawnCategories>
-  </BackstoryDef>
-  <!-- Workshop Assistant -->
-  <BackstoryDef>
-    <defName>FCP_Backstory_BoS_Mojave_Child_Workshop_Assistant</defName>
-    <identifier>FCP_Backstory_BoS_Mojave_Child_Workshop_Assistant</identifier>
-    <slot>Childhood</slot>
-    <title>Workshop Assistant</title>
-    <titleShort>Workshop Kid</titleShort>
-    <description>Spent time in the bunker's workshops, learning to craft and repair equipment from salvaged materials. Developed steady hands and an eye for detail working alongside the chapter's craftsmen.</description>
-    <skillGains>
-      <Crafting>2</Crafting>
-      <Construction>1</Construction>
-    </skillGains>
-    <spawnCategories>
-      <li>FCP_Backstory_BoS_Mojave_Child</li>
-    </spawnCategories>
-  </BackstoryDef>
-  <!-- Courier's Kid -->
-  <BackstoryDef>
-    <defName>FCP_Backstory_BoS_Mojave_Child_Courier_Kid</defName>
-    <identifier>FCP_Backstory_BoS_Mojave_Child_Courier_Kid</identifier>
-    <slot>Childhood</slot>
-    <title>Message Runner</title>
-    <titleShort>Courier Kid</titleShort>
-    <description>Carried messages and small items between different sections of the bunker during childhood. Learned the layout of Hidden Valley's maze-like corridors and developed quick reflexes navigating the tight spaces.</description>
-    <skillGains>
-      <Social>2</Social>
-      <Construction>1</Construction>
-    </skillGains>
-    <spawnCategories>
-      <li>FCP_Backstory_BoS_Mojave_Child</li>
-    </spawnCategories>
-  </BackstoryDef>
-  <!-- Library Ward -->
-  <BackstoryDef>
-    <defName>FCP_Backstory_BoS_Mojave_Child_Library_Ward</defName>
-    <identifier>FCP_Backstory_BoS_Mojave_Child_Library_Ward</identifier>
-    <slot>Childhood</slot>
-    <title>Library Ward</title>
-    <titleShort>Library Ward</titleShort>
-    <description>Grew up in the bunker's archives and library, surrounded by pre-war books and Brotherhood documentation. Developed a love of learning and knowledge that helped pass the long, confined years.</description>
-    <skillGains>
-      <Intellectual>2</Intellectual>
-      <Artistic>1</Artistic>
-    </skillGains>
-    <spawnCategories>
-      <li>FCP_Backstory_BoS_Mojave_Child</li>
-    </spawnCategories>
-  </BackstoryDef>
-  <!-- Wasteland Dreamer -->
-  <BackstoryDef>
-    <defName>FCP_Backstory_BoS_Mojave_Child_Wasteland_Dreamer</defName>
-    <identifier>FCP_Backstory_BoS_Mojave_Child_Wasteland_Dreamer</identifier>
-    <slot>Childhood</slot>
-    <title>Wasteland Dreamer</title>
-    <titleShort>Dreamer</titleShort>
-    <description>Spent childhood listening to stories of the surface world and dreaming of exploration beyond the bunker walls. Imagination flourished in the confined space, creating elaborate fantasies of wasteland adventures.</description>
-    <skillGains>
-      <Artistic>2</Artistic>
-      <Social>1</Social>
-    </skillGains>
-    <spawnCategories>
-      <li>FCP_Backstory_BoS_Mojave_Child</li>
-    </spawnCategories>
-  </BackstoryDef>
-  <!-- Equipment Tender -->
-  <BackstoryDef>
-    <defName>FCP_Backstory_BoS_Mojave_Child_Equipment_Tender</defName>
-    <identifier>FCP_Backstory_BoS_Mojave_Child_Equipment_Tender</identifier>
-    <slot>Childhood</slot>
-    <title>Equipment Tender</title>
-    <titleShort>Gear Kid</titleShort>
-    <description>Helped maintain and organize the bunker's equipment during childhood. Learned to identify different tools and components while keeping the armory and storage areas tidy and functional.</description>
-    <skillGains>
-      <Construction>1</Construction>
-      <Crafting>1</Crafting>
-      <Intellectual>1</Intellectual>
-    </skillGains>
-    <spawnCategories>
-      <li>FCP_Backstory_BoS_Mojave_Child</li>
-    </spawnCategories>
-  </BackstoryDef>
-  <!-- Scribe Student -->
-  <BackstoryDef>
-    <defName>FCP_Backstory_BoS_Mojave_Child_Scribe_Student</defName>
-    <identifier>FCP_Backstory_BoS_Mojave_Child_Scribe_Student</identifier>
-    <slot>Childhood</slot>
-    <title>Scribe Student</title>
-    <titleShort>Scribe Student</titleShort>
-    <description>Trained from childhood to become a Scribe, learning to read technical documentation and understand pre-war technology. Showed early aptitude for analysis and problem-solving in the bunker's confined environment.</description>
-    <skillGains>
-      <Intellectual>2</Intellectual>
-      <Medicine>1</Medicine>
-    </skillGains>
-    <spawnCategories>
-      <li>FCP_Backstory_BoS_Mojave_Child</li>
-    </spawnCategories>
-  </BackstoryDef>
-  <!-- Isolation Survivor -->
-  <BackstoryDef>
-    <defName>FCP_Backstory_BoS_Mojave_Child_Isolation_Survivor</defName>
-    <identifier>FCP_Backstory_BoS_Mojave_Child_Isolation_Survivor</identifier>
-    <slot>Childhood</slot>
-    <title>Isolation Survivor</title>
-    <titleShort>Survivor</titleShort>
-    <description>Endured the psychological challenges of growing up in complete isolation from the outside world. Developed resilience and inner strength while watching the adults around them struggle with despair and cabin fever.</description>
-    <skillGains>
-      <Social>1</Social>
-      <Medicine>1</Medicine>
-      <Intellectual>1</Intellectual>
-    </skillGains>
-    <spawnCategories>
-      <li>FCP_Backstory_BoS_Mojave_Child</li>
-    </spawnCategories>
-  </BackstoryDef>
+
+	<!--__________ Mojave Brotherhood of Steel Backstories __________-->
+
+	<!--_____ Adult Backstories _____-->
+
+	<!-- Hidden Valley Knight -->
+
+	<BackstoryDef>
+		<defName>FCP_Backstory_BoS_Mojave_Hidden_Valley_Knight</defName>
+		<identifier>FCP_Backstory_BoS_Mojave_Hidden_Valley_Knight</identifier>
+		<slot>Adulthood</slot>
+		<title>Hidden Valley Knight</title>
+		<titleShort>Knight</titleShort>
+		<description>Served as a Knight in the Hidden Valley bunker under Elder McNamara's cautious leadership. Spent years on patrol missions and bunker security while the chapter remained in lockdown. Witnessed the gradual decline of morale and resources as the outside world moved on without them.</description>
+		<skillGains>
+			<Shooting>4</Shooting>
+			<Melee>3</Melee>
+			<Construction>1</Construction>
+		</skillGains>
+		<workDisables>None</workDisables>
+		<requiredWorkTags>Violent</requiredWorkTags>
+		<spawnCategories>
+			<li>FCP_Backstory_BoS_Mojave</li>
+		</spawnCategories>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<possessions />
+		<forcedTraits>
+			<FCP_Trait_Sharpshooter>0</FCP_Trait_Sharpshooter>
+		</forcedTraits>
+	</BackstoryDef>
+
+	<!-- Bunker Scribe -->
+
+	<BackstoryDef>
+		<defName>FCP_Backstory_BoS_Mojave_Bunker_Scribe</defName>
+		<identifier>FCP_Backstory_BoS_Mojave_Bunker_Scribe</identifier>
+		<slot>Adulthood</slot>
+		<title>Bunker Scribe</title>
+		<titleShort>Scribe</titleShort>
+		<description>Cataloged pre-war technology and maintained the bunker's systems during the years of isolation. Watched helplessly as equipment failures mounted and spare parts dwindled. Became an expert at jury-rigging solutions with whatever materials were available.</description>
+		<skillGains>
+			<Intellectual>5</Intellectual>
+			<Construction>3</Construction>
+			<Crafting>2</Crafting>
+		</skillGains>
+		<workDisables>None</workDisables>
+		<requiredWorkTags>None</requiredWorkTags>
+		<spawnCategories>
+			<li>FCP_Backstory_BoS_Mojave</li>
+		</spawnCategories>
+		<bodyTypeFemale>Thin</bodyTypeFemale>
+		<bodyTypeMale>Thin</bodyTypeMale>
+		<possessions />
+	</BackstoryDef>
+
+	<!-- Recon Specialist -->
+
+	<BackstoryDef>
+		<defName>FCP_Backstory_BoS_Mojave_Recon_Specialist</defName>
+		<identifier>FCP_Backstory_BoS_Mojave_Recon_Specialist</identifier>
+		<slot>Adulthood</slot>
+		<title>Mojave Recon Specialist</title>
+		<titleShort>Recon Specialist</titleShort>
+		<description>Conducted dangerous reconnaissance missions across the Mojave Wasteland while the chapter remained hidden. Observed the rise of the NCR, the growth of New Vegas, and the changing political landscape from the shadows. Master of stealth and survival.</description>
+		<skillGains>
+			<Shooting>3</Shooting>
+			<Intellectual>2</Intellectual>
+			<Animals>2</Animals>
+		</skillGains>
+		<workDisables>None</workDisables>
+		<requiredWorkTags>None</requiredWorkTags>
+		<spawnCategories>
+			<li>FCP_Backstory_BoS_Mojave</li>
+		</spawnCategories>
+		<bodyTypeFemale>Thin</bodyTypeFemale>
+		<bodyTypeMale>Thin</bodyTypeMale>
+		<possessions />
+		<forcedTraits>
+			<FCP_Trait_Sharpshooter>0</FCP_Trait_Sharpshooter>
+		</forcedTraits>
+	</BackstoryDef>
+
+	<!-- Paladin Veteran -->
+
+	<BackstoryDef>
+		<defName>FCP_Backstory_BoS_Mojave_Paladin_Veteran</defName>
+		<identifier>FCP_Backstory_BoS_Mojave_Paladin_Veteran</identifier>
+		<slot>Adulthood</slot>
+		<title>Mojave Paladin</title>
+		<titleShort>Paladin</titleShort>
+		<description>Rose through the ranks to become a Paladin before the chapter's isolation began. Led missions to HELIOS One and other pre-war facilities. Carries the weight of the Brotherhood's defeats and the knowledge of what they once were.</description>
+		<skillGains>
+			<Shooting>5</Shooting>
+			<Melee>4</Melee>
+			<Social>2</Social>
+			<Intellectual>1</Intellectual>
+		</skillGains>
+		<workDisables>None</workDisables>
+		<requiredWorkTags>Violent</requiredWorkTags>
+		<spawnCategories>
+			<li>FCP_Backstory_BoS_Mojave</li>
+		</spawnCategories>
+		<bodyTypeFemale>Hulk</bodyTypeFemale>
+		<bodyTypeMale>Hulk</bodyTypeMale>
+		<possessions />
+		<forcedTraits>
+			<FCP_Trait_Sharpshooter>0</FCP_Trait_Sharpshooter>
+		</forcedTraits>
+	</BackstoryDef>
+
+	<!-- Quartermaster -->
+
+	<BackstoryDef>
+		<defName>FCP_Backstory_BoS_Mojave_Quartermaster</defName>
+		<identifier>FCP_Backstory_BoS_Mojave_Quartermaster</identifier>
+		<slot>Adulthood</slot>
+		<title>Bunker Quartermaster</title>
+		<titleShort>Quartermaster</titleShort>
+		<description>Managed the dwindling supplies and equipment of Hidden Valley during its years of isolation. Became an expert at rationing, resource allocation, and making difficult decisions about what could be spared. Every bullet and battery pack was precious.</description>
+		<skillGains>
+			<Intellectual>3</Intellectual>
+			<Social>2</Social>
+			<Crafting>2</Crafting>
+		</skillGains>
+		<workDisables>None</workDisables>
+		<requiredWorkTags>None</requiredWorkTags>
+		<spawnCategories>
+			<li>FCP_Backstory_BoS_Mojave</li>
+		</spawnCategories>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<possessions />
+	</BackstoryDef>
+
+	<!-- Communications Officer -->
+
+	<BackstoryDef>
+		<defName>FCP_Backstory_BoS_Mojave_Communications_Officer</defName>
+		<identifier>FCP_Backstory_BoS_Mojave_Communications_Officer</identifier>
+		<slot>Adulthood</slot>
+		<title>Communications Officer</title>
+		<titleShort>Comms Officer</titleShort>
+		<description>Maintained contact with other Brotherhood chapters and monitored radio frequencies from Hidden Valley. Witnessed the silence that gradually fell over the Brotherhood's network as chapters went dark or fell to their enemies.</description>
+		<skillGains>
+			<Intellectual>4</Intellectual>
+			<Construction>2</Construction>
+			<Social>1</Social>
+		</skillGains>
+		<workDisables>None</workDisables>
+		<requiredWorkTags>None</requiredWorkTags>
+		<spawnCategories>
+			<li>FCP_Backstory_BoS_Mojave</li>
+		</spawnCategories>
+		<bodyTypeFemale>Thin</bodyTypeFemale>
+		<bodyTypeMale>Thin</bodyTypeMale>
+		<possessions />
+	</BackstoryDef>
+
+	<!-- Initiates -->
+
+	<BackstoryDef>
+		<defName>FCP_Backstory_BoS_Mojave_Initiate</defName>
+		<identifier>FCP_Backstory_BoS_Mojave_Initiate</identifier>
+		<slot>Adulthood</slot>
+		<title>Hidden Valley Initiate</title>
+		<titleShort>Initiate</titleShort>
+		<description>Served as an Initiate in the Hidden Valley bunker, performing maintenance duties and basic security tasks. Learned the Brotherhood's ways during its most isolated and demoralized period, when hope was in short supply.</description>
+		<skillGains>
+			<Shooting>2</Shooting>
+			<Construction>3</Construction>
+			<Crafting>1</Crafting>
+		</skillGains>
+		<workDisables>None</workDisables>
+		<requiredWorkTags>None</requiredWorkTags>
+		<spawnCategories>
+			<li>FCP_Backstory_BoS_Mojave</li>
+		</spawnCategories>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<possessions />
+	</BackstoryDef>
+
+	<!-- Medical Officer -->
+
+	<BackstoryDef>
+		<defName>FCP_Backstory_BoS_Mojave_Medical_Officer</defName>
+		<identifier>FCP_Backstory_BoS_Mojave_Medical_Officer</identifier>
+		<slot>Adulthood</slot>
+		<title>Brotherhood Medic</title>
+		<titleShort>Medic</titleShort>
+		<description>Provided medical care to the Hidden Valley chapter during years of declining health and morale. Treated radiation exposure, depression, and the various ailments that come from living in a sealed bunker for too long.</description>
+		<skillGains>
+			<Medicine>5</Medicine>
+			<Intellectual>2</Intellectual>
+			<Social>1</Social>
+		</skillGains>
+		<workDisables>None</workDisables>
+		<requiredWorkTags>None</requiredWorkTags>
+		<spawnCategories>
+			<li>FCP_Backstory_BoS_Mojave</li>
+		</spawnCategories>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<possessions />
+	</BackstoryDef>
+
+	<!-- Security Chief -->
+
+	<BackstoryDef>
+		<defName>FCP_Backstory_BoS_Mojave_Security_Chief</defName>
+		<identifier>FCP_Backstory_BoS_Mojave_Security_Chief</identifier>
+		<slot>Adulthood</slot>
+		<title>Bunker Security Chief</title>
+		<titleShort>Security Chief</titleShort>
+		<description>Oversaw internal security and discipline within Hidden Valley during its years of lockdown. Dealt with growing tensions, desertion attempts, and the slow breakdown of military order as hope faded.</description>
+		<skillGains>
+			<Shooting>3</Shooting>
+			<Melee>2</Melee>
+			<Social>3</Social>
+			<Intellectual>1</Intellectual>
+		</skillGains>
+		<workDisables>None</workDisables>
+		<requiredWorkTags>Violent</requiredWorkTags>
+		<spawnCategories>
+			<li>FCP_Backstory_BoS_Mojave</li>
+		</spawnCategories>
+		<bodyTypeFemale>Hulk</bodyTypeFemale>
+		<bodyTypeMale>Hulk</bodyTypeMale>
+		<possessions />
+		<forcedTraits>
+			<FCP_Trait_Sharpshooter>0</FCP_Trait_Sharpshooter>
+		</forcedTraits>
+	</BackstoryDef>
+
+	<!-- Tech Specialist -->
+
+	<BackstoryDef>
+		<defName>FCP_Backstory_BoS_Mojave_Tech_Specialist</defName>
+		<identifier>FCP_Backstory_BoS_Mojave_Tech_Specialist</identifier>
+		<slot>Adulthood</slot>
+		<title>Technology Specialist</title>
+		<titleShort>Tech Specialist</titleShort>
+		<description>Specialized in maintaining and reverse-engineering pre-war technology found in the Mojave. Worked on power armor systems, energy weapons, and the bunker's aging infrastructure with limited resources and growing desperation.</description>
+		<skillGains>
+			<Intellectual>4</Intellectual>
+			<Construction>4</Construction>
+			<Crafting>2</Crafting>
+		</skillGains>
+		<workDisables>None</workDisables>
+		<requiredWorkTags>None</requiredWorkTags>
+		<spawnCategories>
+			<li>FCP_Backstory_BoS_Mojave</li>
+		</spawnCategories>
+		<bodyTypeFemale>Thin</bodyTypeFemale>
+		<bodyTypeMale>Thin</bodyTypeMale>
+		<possessions />
+		<forcedTraits>
+			<FCP_Trait_Power_Armor_Trained>0</FCP_Trait_Power_Armor_Trained>
+		</forcedTraits>
+	</BackstoryDef>
+
+	<!-- Sentinel -->
+
+	<BackstoryDef>
+		<defName>FCP_Backstory_BoS_Mojave_Sentinel</defName>
+		<identifier>FCP_Backstory_BoS_Mojave_Sentinel</identifier>
+		<slot>Adulthood</slot>
+		<title>Mojave Sentinel</title>
+		<titleShort>Sentinel</titleShort>
+		<description>Served as a guard and patrol leader around Hidden Valley's perimeter. Spent countless hours watching the wasteland through periscopes and sensors, alert for NCR patrols or other threats while the chapter hid underground.</description>
+		<skillGains>
+			<Shooting>3</Shooting>
+			<Intellectual>1</Intellectual>
+			<Animals>2</Animals>
+		</skillGains>
+		<workDisables>None</workDisables>
+		<requiredWorkTags>None</requiredWorkTags>
+		<spawnCategories>
+			<li>FCP_Backstory_BoS_Mojave</li>
+		</spawnCategories>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<possessions />
+		<forcedTraits>
+			<FCP_Trait_Sharpshooter>0</FCP_Trait_Sharpshooter>
+		</forcedTraits>
+	</BackstoryDef>
+
+	<!-- Field Engineer -->
+
+	<BackstoryDef>
+		<defName>FCP_Backstory_BoS_Mojave_Field_Engineer</defName>
+		<identifier>FCP_Backstory_BoS_Mojave_Field_Engineer</identifier>
+		<slot>Adulthood</slot>
+		<title>Brotherhood Engineer</title>
+		<titleShort>Engineer</titleShort>
+		<description>Maintained the critical systems keeping Hidden Valley operational during its isolation. Jury-rigged solutions for failing power systems, water purification, and air recycling when replacement parts were unavailable.</description>
+		<skillGains>
+			<Construction>5</Construction>
+			<Intellectual>3</Intellectual>
+			<Crafting>2</Crafting>
+		</skillGains>
+		<workDisables>None</workDisables>
+		<requiredWorkTags>None</requiredWorkTags>
+		<spawnCategories>
+			<li>FCP_Backstory_BoS_Mojave</li>
+		</spawnCategories>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<possessions />
+	</BackstoryDef>
+
+	<!-- Supply Runner -->
+
+	<BackstoryDef>
+		<defName>FCP_Backstory_BoS_Mojave_Supply_Runner</defName>
+		<identifier>FCP_Backstory_BoS_Mojave_Supply_Runner</identifier>
+		<slot>Adulthood</slot>
+		<title>Covert Supply Runner</title>
+		<titleShort>Supply Runner</titleShort>
+		<description>Conducted secret missions to acquire supplies and equipment for the isolated Hidden Valley chapter. Learned to blend in with wastelanders and traders while maintaining Brotherhood loyalties and operational security.</description>
+		<skillGains>
+			<Social>3</Social>
+			<Shooting>2</Shooting>
+			<Intellectual>2</Intellectual>
+		</skillGains>
+		<workDisables>None</workDisables>
+		<requiredWorkTags>None</requiredWorkTags>
+		<spawnCategories>
+			<li>FCP_Backstory_BoS_Mojave</li>
+		</spawnCategories>
+		<bodyTypeFemale>Thin</bodyTypeFemale>
+		<bodyTypeMale>Thin</bodyTypeMale>
+		<possessions />
+	</BackstoryDef>
+
+	<!-- Armorer -->
+
+	<BackstoryDef>
+		<defName>FCP_Backstory_BoS_Mojave_Armorer</defName>
+		<identifier>FCP_Backstory_BoS_Mojave_Armorer</identifier>
+		<slot>Adulthood</slot>
+		<title>Brotherhood Armorer</title>
+		<titleShort>Armorer</titleShort>
+		<description>Maintained and repaired the chapter's weapons and armor during the lean years in Hidden Valley. Became an expert at keeping aging equipment functional with minimal resources and salvaged components.</description>
+		<skillGains>
+			<Crafting>5</Crafting>
+			<Construction>3</Construction>
+			<Shooting>1</Shooting>
+		</skillGains>
+		<workDisables>None</workDisables>
+		<requiredWorkTags>None</requiredWorkTags>
+		<spawnCategories>
+			<li>FCP_Backstory_BoS_Mojave</li>
+		</spawnCategories>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<possessions />
+	</BackstoryDef>
+
+	<!-- Intelligence Analyst -->
+
+	<BackstoryDef>
+		<defName>FCP_Backstory_BoS_Mojave_Intelligence_Analyst</defName>
+		<identifier>FCP_Backstory_BoS_Mojave_Intelligence_Analyst</identifier>
+		<slot>Adulthood</slot>
+		<title>Intelligence Analyst</title>
+		<titleShort>Analyst</titleShort>
+		<description>Analyzed intelligence reports and radio intercepts to track the movements and activities of potential enemies. Watched the NCR expand its influence while the Brotherhood remained powerless to act.</description>
+		<skillGains>
+			<Intellectual>5</Intellectual>
+			<Social>2</Social>
+		</skillGains>
+		<workDisables>None</workDisables>
+		<requiredWorkTags>None</requiredWorkTags>
+		<spawnCategories>
+			<li>FCP_Backstory_BoS_Mojave</li>
+		</spawnCategories>
+		<bodyTypeFemale>Thin</bodyTypeFemale>
+		<bodyTypeMale>Thin</bodyTypeMale>
+		<possessions />
+	</BackstoryDef>
+
+	<!--_____ Child Backstories _____-->
+
+	<!-- Bunker Child -->
+
+	<BackstoryDef>
+		<defName>FCP_Backstory_BoS_Mojave_Child_Bunker_Born</defName>
+		<identifier>FCP_Backstory_BoS_Mojave_Child_Bunker_Born</identifier>
+		<slot>Childhood</slot>
+		<title>Bunker Born</title>
+		<titleShort>Bunker Born</titleShort>
+		<description>Born and raised in the confines of Hidden Valley bunker during the chapter's isolation. Never saw the surface world until the evacuation, learning about the outside only through stories and old Brotherhood records.</description>
+		<skillGains>
+			<Intellectual>2</Intellectual>
+			<Construction>1</Construction>
+		</skillGains>
+		<spawnCategories>
+			<li>FCP_Backstory_BoS_Mojave_Child</li>
+		</spawnCategories>
+	</BackstoryDef>
+
+	<!-- Tech Apprentice -->
+
+	<BackstoryDef>
+		<defName>FCP_Backstory_BoS_Mojave_Child_Tech_Apprentice</defName>
+		<identifier>FCP_Backstory_BoS_Mojave_Child_Tech_Apprentice</identifier>
+		<slot>Childhood</slot>
+		<title>Tech Apprentice</title>
+		<titleShort>Tech Apprentice</titleShort>
+		<description>Spent childhood learning to maintain and repair the bunker's aging systems under the guidance of Brotherhood scribes. Small hands were perfect for reaching into tight spaces in the machinery.</description>
+		<skillGains>
+			<Construction>2</Construction>
+			<Intellectual>1</Intellectual>
+		</skillGains>
+		<spawnCategories>
+			<li>FCP_Backstory_BoS_Mojave_Child</li>
+		</spawnCategories>
+	</BackstoryDef>
+
+	<!-- Radio Operator's Kid -->
+
+	<BackstoryDef>
+		<defName>FCP_Backstory_BoS_Mojave_Child_Radio_Kid</defName>
+		<identifier>FCP_Backstory_BoS_Mojave_Child_Radio_Kid</identifier>
+		<slot>Childhood</slot>
+		<title>Communications Trainee</title>
+		<titleShort>Radio Kid</titleShort>
+		<description>Grew up helping in the communications center, learning radio protocols and encryption methods. Listened to distant signals from the outside world that painted pictures of places beyond the bunker walls.</description>
+		<skillGains>
+			<Intellectual>2</Intellectual>
+			<Social>1</Social>
+		</skillGains>
+		<spawnCategories>
+			<li>FCP_Backstory_BoS_Mojave_Child</li>
+		</spawnCategories>
+	</BackstoryDef>
+
+	<!-- Medic's Assistant -->
+
+	<BackstoryDef>
+		<defName>FCP_Backstory_BoS_Mojave_Child_Medic_Helper</defName>
+		<identifier>FCP_Backstory_BoS_Mojave_Child_Medic_Helper</identifier>
+		<slot>Childhood</slot>
+		<title>Medic's Helper</title>
+		<titleShort>Medic Helper</titleShort>
+		<description>Assisted the bunker's medical staff during childhood, learning basic first aid and patient care. Saw firsthand the physical and psychological toll that isolation took on the chapter members.</description>
+		<skillGains>
+			<Medicine>2</Medicine>
+			<Social>1</Social>
+		</skillGains>
+		<spawnCategories>
+			<li>FCP_Backstory_BoS_Mojave_Child</li>
+		</spawnCategories>
+	</BackstoryDef>
+
+	<!-- Archive Student -->
+
+	<BackstoryDef>
+		<defName>FCP_Backstory_BoS_Mojave_Child_Archive_Student</defName>
+		<identifier>FCP_Backstory_BoS_Mojave_Child_Archive_Student</identifier>
+		<slot>Childhood</slot>
+		<title>Archive Student</title>
+		<titleShort>Archive Student</titleShort>
+		<description>Spent childhood studying in the Brotherhood's archives, learning about pre-war technology and the chapter's history. Memorized technical manuals and the Codex while dreaming of the surface world.</description>
+		<skillGains>
+			<Intellectual>3</Intellectual>
+		</skillGains>
+		<spawnCategories>
+			<li>FCP_Backstory_BoS_Mojave_Child</li>
+		</spawnCategories>
+	</BackstoryDef>
+
+	<!-- Security Ward -->
+
+	<BackstoryDef>
+		<defName>FCP_Backstory_BoS_Mojave_Child_Security_Ward</defName>
+		<identifier>FCP_Backstory_BoS_Mojave_Child_Security_Ward</identifier>
+		<slot>Childhood</slot>
+		<title>Security Ward</title>
+		<titleShort>Security Ward</titleShort>
+		<description>Grew up under the protection and training of the bunker's security forces. Learned basic combat skills and discipline while helping with routine patrols and equipment maintenance.</description>
+		<skillGains>
+			<Shooting>1</Shooting>
+			<Melee>1</Melee>
+			<Social>1</Social>
+		</skillGains>
+		<spawnCategories>
+			<li>FCP_Backstory_BoS_Mojave_Child</li>
+		</spawnCategories>
+		<forcedTraits>
+			<FCP_Trait_Sharpshooter>0</FCP_Trait_Sharpshooter>
+		</forcedTraits>
+	</BackstoryDef>
+
+	<!-- Hydroponics Helper -->
+
+	<BackstoryDef>
+		<defName>FCP_Backstory_BoS_Mojave_Child_Hydroponics_Helper</defName>
+		<identifier>FCP_Backstory_BoS_Mojave_Child_Hydroponics_Helper</identifier>
+		<slot>Childhood</slot>
+		<title>Hydroponics Helper</title>
+		<titleShort>Hydro Helper</titleShort>
+		<description>Helped tend the bunker's small hydroponic gardens that supplemented their limited food supplies. Learned to coax life from artificial systems in the sterile underground environment.</description>
+		<skillGains>
+			<Plants>2</Plants>
+			<Intellectual>1</Intellectual>
+		</skillGains>
+		<spawnCategories>
+			<li>FCP_Backstory_BoS_Mojave_Child</li>
+		</spawnCategories>
+	</BackstoryDef>
+
+	<!-- Workshop Assistant -->
+
+	<BackstoryDef>
+		<defName>FCP_Backstory_BoS_Mojave_Child_Workshop_Assistant</defName>
+		<identifier>FCP_Backstory_BoS_Mojave_Child_Workshop_Assistant</identifier>
+		<slot>Childhood</slot>
+		<title>Workshop Assistant</title>
+		<titleShort>Workshop Kid</titleShort>
+		<description>Spent time in the bunker's workshops, learning to craft and repair equipment from salvaged materials. Developed steady hands and an eye for detail working alongside the chapter's craftsmen.</description>
+		<skillGains>
+			<Crafting>2</Crafting>
+			<Construction>1</Construction>
+		</skillGains>
+		<spawnCategories>
+			<li>FCP_Backstory_BoS_Mojave_Child</li>
+		</spawnCategories>
+	</BackstoryDef>
+
+	<!-- Courier's Kid -->
+
+	<BackstoryDef>
+		<defName>FCP_Backstory_BoS_Mojave_Child_Courier_Kid</defName>
+		<identifier>FCP_Backstory_BoS_Mojave_Child_Courier_Kid</identifier>
+		<slot>Childhood</slot>
+		<title>Message Runner</title>
+		<titleShort>Courier Kid</titleShort>
+		<description>Carried messages and small items between different sections of the bunker during childhood. Learned the layout of Hidden Valley's maze-like corridors and developed quick reflexes navigating the tight spaces.</description>
+		<skillGains>
+			<Social>2</Social>
+			<Construction>1</Construction>
+		</skillGains>
+		<spawnCategories>
+			<li>FCP_Backstory_BoS_Mojave_Child</li>
+		</spawnCategories>
+	</BackstoryDef>
+
+	<!-- Library Ward -->
+
+	<BackstoryDef>
+		<defName>FCP_Backstory_BoS_Mojave_Child_Library_Ward</defName>
+		<identifier>FCP_Backstory_BoS_Mojave_Child_Library_Ward</identifier>
+		<slot>Childhood</slot>
+		<title>Library Ward</title>
+		<titleShort>Library Ward</titleShort>
+		<description>Grew up in the bunker's archives and library, surrounded by pre-war books and Brotherhood documentation. Developed a love of learning and knowledge that helped pass the long, confined years.</description>
+		<skillGains>
+			<Intellectual>2</Intellectual>
+			<Artistic>1</Artistic>
+		</skillGains>
+		<spawnCategories>
+			<li>FCP_Backstory_BoS_Mojave_Child</li>
+		</spawnCategories>
+	</BackstoryDef>
+
+	<!-- Wasteland Dreamer -->
+
+	<BackstoryDef>
+		<defName>FCP_Backstory_BoS_Mojave_Child_Wasteland_Dreamer</defName>
+		<identifier>FCP_Backstory_BoS_Mojave_Child_Wasteland_Dreamer</identifier>
+		<slot>Childhood</slot>
+		<title>Wasteland Dreamer</title>
+		<titleShort>Dreamer</titleShort>
+		<description>Spent childhood listening to stories of the surface world and dreaming of exploration beyond the bunker walls. Imagination flourished in the confined space, creating elaborate fantasies of wasteland adventures.</description>
+		<skillGains>
+			<Artistic>2</Artistic>
+			<Social>1</Social>
+		</skillGains>
+		<spawnCategories>
+			<li>FCP_Backstory_BoS_Mojave_Child</li>
+		</spawnCategories>
+	</BackstoryDef>
+
+	<!-- Equipment Tender -->
+
+	<BackstoryDef>
+		<defName>FCP_Backstory_BoS_Mojave_Child_Equipment_Tender</defName>
+		<identifier>FCP_Backstory_BoS_Mojave_Child_Equipment_Tender</identifier>
+		<slot>Childhood</slot>
+		<title>Equipment Tender</title>
+		<titleShort>Gear Kid</titleShort>
+		<description>Helped maintain and organize the bunker's equipment during childhood. Learned to identify different tools and components while keeping the armory and storage areas tidy and functional.</description>
+		<skillGains>
+			<Construction>1</Construction>
+			<Crafting>1</Crafting>
+			<Intellectual>1</Intellectual>
+		</skillGains>
+		<spawnCategories>
+			<li>FCP_Backstory_BoS_Mojave_Child</li>
+		</spawnCategories>
+	</BackstoryDef>
+
+	<!-- Scribe Student -->
+
+	<BackstoryDef>
+		<defName>FCP_Backstory_BoS_Mojave_Child_Scribe_Student</defName>
+		<identifier>FCP_Backstory_BoS_Mojave_Child_Scribe_Student</identifier>
+		<slot>Childhood</slot>
+		<title>Scribe Student</title>
+		<titleShort>Scribe Student</titleShort>
+		<description>Trained from childhood to become a Scribe, learning to read technical documentation and understand pre-war technology. Showed early aptitude for analysis and problem-solving in the bunker's confined environment.</description>
+		<skillGains>
+			<Intellectual>2</Intellectual>
+			<Medicine>1</Medicine>
+		</skillGains>
+		<spawnCategories>
+			<li>FCP_Backstory_BoS_Mojave_Child</li>
+		</spawnCategories>
+	</BackstoryDef>
+
+	<!-- Isolation Survivor -->
+
+	<BackstoryDef>
+		<defName>FCP_Backstory_BoS_Mojave_Child_Isolation_Survivor</defName>
+		<identifier>FCP_Backstory_BoS_Mojave_Child_Isolation_Survivor</identifier>
+		<slot>Childhood</slot>
+		<title>Isolation Survivor</title>
+		<titleShort>Survivor</titleShort>
+		<description>Endured the psychological challenges of growing up in complete isolation from the outside world. Developed resilience and inner strength while watching the adults around them struggle with despair and cabin fever.</description>
+		<skillGains>
+			<Social>1</Social>
+			<Medicine>1</Medicine>
+			<Intellectual>1</Intellectual>
+		</skillGains>
+		<spawnCategories>
+			<li>FCP_Backstory_BoS_Mojave_Child</li>
+		</spawnCategories>
+	</BackstoryDef>
+
 </Defs>

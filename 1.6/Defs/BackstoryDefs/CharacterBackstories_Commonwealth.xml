@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
-    <!--========== Commonwealth Brotherhood of Steel Character Backstories ==========-->
+    <!--__________ Character Backstories - Fallout 4 __________-->
 
-    <!--_____ Elder Arthur Maxson _____-->
+    <!--_____ Commonwealth Brotherhood of Steel Character Backstories _____-->
+
+    <!-- Elder Arthur Maxson -->
 
     <BackstoryDef>
         <defName>FCP_Character_Backstory_Arthur_Maxson_Child</defName>
@@ -46,7 +48,7 @@
         </forcedTraits>
     </BackstoryDef>
 
-    <!--_____ Paladin Danse _____-->
+    <!-- Paladin Danse -->
 
     <BackstoryDef>
         <defName>FCP_Character_Backstory_Danse_Child</defName>
@@ -88,7 +90,7 @@
         </forcedTraits>
     </BackstoryDef>
 
-    <!--_____ Scribe Haylen _____-->
+    <!-- Scribe Haylen -->
 
     <BackstoryDef>
         <defName>FCP_Character_Backstory_Haylen_Child</defName>
@@ -127,7 +129,7 @@
         </skillGains>
     </BackstoryDef>
 
-    <!--_____ Knight Rhys _____-->
+    <!-- Knight Rhys -->
 
     <BackstoryDef>
         <defName>FCP_Character_Backstory_Rhys_Child</defName>
@@ -164,7 +166,7 @@
         </skillGains>
     </BackstoryDef>
 
-    <!--_____ Proctor Ingram _____-->
+    <!-- Proctor Ingram -->
 
     <BackstoryDef>
         <defName>FCP_Character_Backstory_Ingram_Child</defName>
@@ -204,7 +206,7 @@
         </forcedTraits>
     </BackstoryDef>
 
-    <!--_____ Lancer Captain Kells _____-->
+    <!-- Lancer Captain Kells -->
 
     <BackstoryDef>
         <defName>FCP_Character_Backstory_Kells_Child</defName>
@@ -241,7 +243,7 @@
         </skillGains>
     </BackstoryDef>
 
-    <!--_____ Paladin Brandis _____-->
+    <!-- Paladin Brandis -->
 
     <BackstoryDef>
         <defName>FCP_Character_Backstory_Brandis_Child</defName>
@@ -283,7 +285,7 @@
         </forcedTraits>
     </BackstoryDef>
 
-    <!--_____ Knight-Captain Cade _____-->
+    <!-- Knight-Captain Cade -->
 
     <BackstoryDef>
         <defName>FCP_Character_Backstory_Cade_Child</defName>
@@ -326,7 +328,7 @@
         </workDisables>
     </BackstoryDef>
 
-    <!--_____ Proctor Quinlan _____-->
+    <!-- Proctor Quinlan -->
 
     <BackstoryDef>
         <defName>FCP_Character_Backstory_Quinlan_Child</defName>
@@ -369,7 +371,7 @@
         </workDisables>
     </BackstoryDef>
 
-    <!--_____ Proctor Teagan _____-->
+    <!-- Proctor Teagan -->
 
     <BackstoryDef>
         <defName>FCP_Character_Backstory_Teagan_Child</defName>

@@ -13,6 +13,9 @@
         <xenotype>Baseliner</xenotype>
         <faction>FCP_Faction_BoS_Lyons_Pride_Remnants</faction>
         <roles>
+            <li Class="FCP.Core.CharacterRole_FactionLeader">
+                <seniority>1000</seniority>
+            </li>
         </roles>
         <definitions>
             <!-- Bio -->
@@ -43,6 +46,9 @@
         <xenotype>Baseliner</xenotype>
         <faction>FCP_Faction_BoS_Lyons_Pride_Remnants</faction>
         <roles>
+            <li Class="FCP.Core.CharacterRole_FactionLeader">
+                <seniority>999</seniority>
+            </li>
         </roles>
         <definitions>
             <!-- Bio -->
@@ -73,6 +79,9 @@
         <xenotype>Baseliner</xenotype>
         <faction>FCP_Faction_BoS_Lyons_Pride_Remnants</faction>
         <roles>
+            <li Class="FCP.Core.CharacterRole_FactionLeader">
+                <seniority>998</seniority>
+            </li>
         </roles>
         <definitions>
             <!-- Bio -->
@@ -103,6 +112,9 @@
         <xenotype>Baseliner</xenotype>
         <faction>FCP_Faction_BoS_Lyons_Pride_Remnants</faction>
         <roles>
+            <li Class="FCP.Core.CharacterRole_FactionLeader">
+                <seniority>997</seniority>
+            </li>
         </roles>
         <definitions>
             <!-- Bio -->
@@ -133,6 +145,9 @@
         <xenotype>Baseliner</xenotype>
         <faction>FCP_Faction_BoS_Lyons_Pride_Remnants</faction>
         <roles>
+            <li Class="FCP.Core.CharacterRole_FactionLeader">
+                <seniority>996</seniority>
+            </li>
         </roles>
         <definitions>
             <!-- Bio -->
@@ -162,7 +177,10 @@
         <pawnKind>FCP_Unique_Pawnkind_Paladin_Kodiak</pawnKind>
         <xenotype>Baseliner</xenotype>
         <faction>FCP_Faction_BoS_Lyons_Pride_Remnants</faction>
-        <roles>
+         <roles>
+            <li Class="FCP.Core.CharacterRole_FactionLeader">
+                <seniority>995</seniority>
+            </li>
         </roles>
         <definitions>
             <!-- Bio -->
@@ -193,6 +211,9 @@
         <xenotype>Baseliner</xenotype>
         <faction>FCP_Faction_BoS_Lyons_Pride_Remnants</faction>
         <roles>
+            <li Class="FCP.Core.CharacterRole_FactionLeader">
+                <seniority>994</seniority>
+            </li>
         </roles>
         <definitions>
             <!-- Bio -->
@@ -223,6 +244,9 @@
         <xenotype>Baseliner</xenotype>
         <faction>FCP_Faction_BoS_Lyons_Pride_Remnants</faction>
         <roles>
+            <li Class="FCP.Core.CharacterRole_FactionLeader">
+                <seniority>993</seniority>
+            </li>
         </roles>
         <definitions>
             <!-- Bio -->
@@ -253,6 +277,9 @@
         <xenotype>Baseliner</xenotype>
         <faction>FCP_Faction_BoS_Lyons_Pride_Remnants</faction>
         <roles>
+            <li Class="FCP.Core.CharacterRole_FactionLeader">
+                <seniority>992</seniority>
+            </li>
         </roles>
         <definitions>
             <!-- Bio -->
@@ -285,6 +312,9 @@
         <xenotype>Baseliner</xenotype>
         <faction>FCP_Faction_BoS_Outcast_Remnants</faction>
         <roles>
+            <li Class="FCP.Core.CharacterRole_FactionLeader">
+                <seniority>991</seniority>
+            </li>
         </roles>
         <definitions>
             <!-- Bio -->
@@ -315,6 +345,9 @@
         <xenotype>Baseliner</xenotype>
         <faction>FCP_Faction_BoS_Outcast_Remnants</faction>
         <roles>
+            <li Class="FCP.Core.CharacterRole_FactionLeader">
+                <seniority>990</seniority>
+            </li>
         </roles>
         <definitions>
             <!-- Bio -->
@@ -345,6 +378,9 @@
         <xenotype>Baseliner</xenotype>
         <faction>FCP_Faction_BoS_Outcast_Remnants</faction>
         <roles>
+            <li Class="FCP.Core.CharacterRole_FactionLeader">
+                <seniority>989</seniority>
+            </li>
         </roles>
         <definitions>
             <!-- Bio -->
@@ -375,6 +411,9 @@
         <xenotype>Baseliner</xenotype>
         <faction>FCP_Faction_BoS_Outcast_Remnants</faction>
         <roles>
+            <li Class="FCP.Core.CharacterRole_FactionLeader">
+                <seniority>988</seniority>
+            </li>
         </roles>
         <definitions>
             <!-- Bio -->

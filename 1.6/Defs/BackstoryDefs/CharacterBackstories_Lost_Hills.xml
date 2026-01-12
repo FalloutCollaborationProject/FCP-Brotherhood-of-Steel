@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
-    <!--========== Lost Hills Brotherhood of Steel Character Backstories ==========-->
+    <!--__________ Character Backstories - Fallout 1-2 __________-->
 
-    <!--_____ Head Paladin Rhombus _____-->
+    <!--_____ Lost Hills Brotherhood of Steel Character Backstories -->
+
+    <!-- Head Paladin Rhombus -->
 
     <BackstoryDef>
         <defName>FCP_Character_Backstory_Rhombus_Child</defName>
@@ -44,7 +46,7 @@
         </forcedTraits>
     </BackstoryDef>
 
-    <!--_____ Head Scribe Vree _____-->
+    <!-- Head Scribe Vree -->
 
     <BackstoryDef>
         <defName>FCP_Character_Backstory_Vree_Child</defName>
@@ -90,7 +92,7 @@
         </workDisables>
     </BackstoryDef>
 
-    <!--_____ Scribe Cabbot _____-->
+    <!-- Scribe Cabbot -->
 
     <BackstoryDef>
         <defName>FCP_Character_Backstory_Cabbot_Child</defName>
@@ -133,7 +135,7 @@
         </workDisables>
     </BackstoryDef>
 
-    <!--_____ Paladin Mathia _____-->
+    <!-- Paladin Mathia -->
 
     <BackstoryDef>
         <defName>FCP_Character_Backstory_Mathia_Child</defName>
@@ -171,7 +173,7 @@
         </skillGains>
     </BackstoryDef>
 
-    <!--_____ Initiate Michael _____-->
+    <!-- Initiate Michael -->
 
     <BackstoryDef>
         <defName>FCP_Character_Backstory_Michael_Child</defName>
@@ -209,7 +211,7 @@
         </skillGains>
     </BackstoryDef>
 
-    <!--_____ Paladin Talus _____-->
+    <!-- Paladin Talus -->
 
     <BackstoryDef>
         <defName>FCP_Character_Backstory_Talus_Child</defName>
@@ -246,7 +248,7 @@
         </skillGains>
     </BackstoryDef>
 
-    <!--_____ Senior Paladin Matthew _____-->
+    <!-- Senior Paladin Matthew -->
 
     <BackstoryDef>
         <defName>FCP_Character_Backstory_Matthew_Child</defName>
@@ -283,7 +285,7 @@
         </skillGains>
     </BackstoryDef>
 
-    <!--_____ Scribe Lorraine _____-->
+    <!-- Scribe Lorraine -->
 
     <BackstoryDef>
         <defName>FCP_Character_Backstory_Lorraine_Child</defName>

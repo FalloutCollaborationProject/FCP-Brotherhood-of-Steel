@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
-
     <!--__________ Backstories __________-->
 
     <!--_____ Factions _____-->
@@ -9,6 +8,7 @@
     <!--___ Brotherhood of Steel ___-->
 
     <!--__ Adults __-->
+    
     <!-- Requisitioner -->
     
     <BackstoryDef>
