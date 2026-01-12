@@ -1,0 +1,466 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <!--__________ Unique Commonwealth PawnKinds __________-->
+
+    <!--_____ Commonwealth Brotherhood of Steel _____-->
+
+    <!-- Elder Arthur Maxson -->
+    
+    <PawnKindDef ParentName="FCP_BoSkindBase">
+        <defName>FCP_Unique_Pawnkind_Elder_Arthur_Maxson</defName>
+        <label>Elder Arthur Maxson</label>
+        <defaultFactionDef>FCP_Faction_BoS</defaultFactionDef>
+        <factionLeader>true</factionLeader>
+        <combatPower>100</combatPower>
+        <itemQuality>Excellent</itemQuality>
+        <gearHealthRange>1.0~1.0</gearHealthRange>
+        <apparelRequired>
+            <li>FCP_Apparel_BoS_Brotherhood_Fatigues</li>
+            <li>FCP_Apparel_BoS_Battle_Coat</li>
+        </apparelRequired>
+        <forcedTraits>
+            <FCP_Trait_Power_Armor_Trained />
+        </forcedTraits>
+        <weaponMoney>2500~3500</weaponMoney>
+        <weaponTags>
+            <li MayRequire="Rick.FCP.EnergyWeapons">FCP_Heavy_Laser_Weapon</li>
+        </weaponTags>
+        <initialWillRange>7~8</initialWillRange>
+        <initialResistanceRange>30~40</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Character_Backstory_Arthur_Maxson_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Character_Backstory_Arthur_Maxson_Adult</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <inventoryOptions>
+            <skipChance>0.0</skipChance>
+            <subOptionsChooseOne>
+                <li>
+                    <thingDef>FCP_Currency_BoS_Scrip</thingDef>
+                    <countRange>200~300</countRange>
+                </li>
+            </subOptionsChooseOne>
+        </inventoryOptions>
+    </PawnKindDef>
+
+    <!-- Paladin Danse -->
+    
+    <PawnKindDef ParentName="FCP_BoSkindBase">
+        <defName>FCP_Unique_Pawnkind_Paladin_Danse</defName>
+        <label>Paladin Danse</label>
+        <defaultFactionDef>FCP_Faction_BoS</defaultFactionDef>
+        <combatPower>90</combatPower>
+        <itemQuality>Excellent</itemQuality>
+        <gearHealthRange>1.0~1.0</gearHealthRange>
+        <apparelRequired>
+            <li MayRequire="Rick.FCP.PowerArmor">FCP_Apparel_Power_Armor_Frame</li>
+            <li>FCP_Apparel_BoS_Jumpsuit</li>
+            <li MayRequire="Rick.FCP.PowerArmor">FCP_Apparel_Power_Armor_T60Armor</li>
+            <li MayRequire="Rick.FCP.PowerArmor">FCP_Apparel_Power_Armor_T60_Helmet</li>
+        </apparelRequired>
+        <forcedTraits>
+            <FCP_Trait_Power_Armor_Trained />
+        </forcedTraits>
+        <weaponMoney>2000~2800</weaponMoney>
+        <weaponTags>
+            <li MayRequire="Rick.FCP.EnergyWeapons">FCP_Heavy_Laser_Weapon</li>
+        </weaponTags>
+        <initialWillRange>6~7</initialWillRange>
+        <initialResistanceRange>28~36</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Character_Backstory_Danse_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Character_Backstory_Danse_Adult</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <inventoryOptions>
+            <skipChance>0.0</skipChance>
+            <subOptionsChooseOne>
+                <li>
+                    <thingDef>FCP_Currency_BoS_Scrip</thingDef>
+                    <countRange>100~180</countRange>
+                </li>
+                <li>
+                    <thingDef>MealSurvivalPack</thingDef>
+                    <countRange>3~5</countRange>
+                </li>
+                <li>
+                    <thingDef>MedicineIndustrial</thingDef>
+                    <countRange>2~4</countRange>
+                </li>
+            </subOptionsChooseOne>
+        </inventoryOptions>
+    </PawnKindDef>
+
+    <!-- Scribe Haylen -->
+    
+    <PawnKindDef ParentName="FCP_BoSkindBase">
+        <defName>FCP_Unique_Pawnkind_Scribe_Haylen</defName>
+        <label>Scribe Haylen</label>
+        <defaultFactionDef>FCP_Faction_BoS</defaultFactionDef>
+        <combatPower>40</combatPower>
+        <itemQuality>Good</itemQuality>
+        <gearHealthRange>0.8~1.0</gearHealthRange>
+        <weaponMoney>1000~1400</weaponMoney>
+        <weaponTags>
+            <li MayRequire="Rick.FCP.EnergyWeapons">FCP_Laser_Weapon</li>
+        </weaponTags>
+        <apparelRequired>
+            <li>FCP_Apparel_BoS_Scribe_Robes</li>
+        </apparelRequired>
+        <apparelDisallowTags>
+            <li>FCP_Power_Armor_Helmet</li>
+            <li>FCP_Power_Armor</li>
+        </apparelDisallowTags>
+        <initialWillRange>3~5</initialWillRange>
+        <initialResistanceRange>16~24</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Character_Backstory_Haylen_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Character_Backstory_Haylen_Adult</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <inventoryOptions>
+            <skipChance>0.0</skipChance>
+            <subOptionsChooseOne>
+                <li>
+                    <thingDef>FCP_Currency_BoS_Scrip</thingDef>
+                    <countRange>60~120</countRange>
+                </li>
+            </subOptionsChooseOne>
+        </inventoryOptions>
+    </PawnKindDef>
+
+    <!-- Knight Rhys -->
+    
+    <PawnKindDef ParentName="FCP_BoSkindBase">
+        <defName>FCP_Unique_Pawnkind_Knight_Rhys</defName>
+        <label>Knight Rhys</label>
+        <defaultFactionDef>FCP_Faction_BoS</defaultFactionDef>
+        <combatPower>60</combatPower>
+        <itemQuality>Good</itemQuality>
+        <gearHealthRange>0.8~1.0</gearHealthRange>
+        <weaponMoney>1500~2000</weaponMoney>
+        <weaponTags>
+            <li MayRequire="Rick.FCP.EnergyWeapons">FCP_Laser_Weapon</li>
+        </weaponTags>
+        <apparelRequired>
+            <li>FCP_Apparel_BoS_Recon_Hood</li>
+            <li>FCP_Apparel_BoS_Recon_Armor</li>
+        </apparelRequired>
+        <apparelDisallowTags>
+            <li>FCP_Power_Armor_Helmet</li>
+            <li>FCP_Power_Armor</li>
+        </apparelDisallowTags>
+        <initialWillRange>4~5</initialWillRange>
+        <initialResistanceRange>20~28</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Character_Backstory_Rhys_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Character_Backstory_Rhys_Adult</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <inventoryOptions>
+            <skipChance>0.0</skipChance>
+            <subOptionsChooseOne>
+                <li>
+                    <thingDef>FCP_Currency_BoS_Scrip</thingDef>
+                    <countRange>70~130</countRange>
+                </li>
+                <li>
+                    <thingDef>MealSurvivalPack</thingDef>
+                    <countRange>2~3</countRange>
+                </li>
+            </subOptionsChooseOne>
+        </inventoryOptions>
+    </PawnKindDef>
+
+    <!-- Proctor Ingram -->
+    
+    <PawnKindDef ParentName="FCP_BoSkindBase">
+        <defName>FCP_Unique_Pawnkind_Proctor_Ingram</defName>
+        <label>Proctor Ingram</label>
+        <defaultFactionDef>FCP_Faction_BoS</defaultFactionDef>
+        <combatPower>50</combatPower>
+        <itemQuality>Excellent</itemQuality>
+        <gearHealthRange>0.9~1.0</gearHealthRange>
+        <weaponMoney>1200~1600</weaponMoney>
+        <weaponTags>
+            <li MayRequire="Rick.FCP.EnergyWeapons">FCP_Laser_Weapon</li>
+        </weaponTags>
+        <apparelRequired>
+            <li MayRequire="Rick.FCP.PowerArmor">FCP_Apparel_Power_Armor_Frame</li>
+            <li>FCP_Apparel_BoS_Jumpsuit</li>
+        </apparelRequired>
+        <apparelDisallowTags>
+            <li>FCP_Power_Armor_Helmet</li>
+            <li>FCP_Power_Armor</li>
+        </apparelDisallowTags>
+        <initialWillRange>4~6</initialWillRange>
+        <initialResistanceRange>20~28</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Character_Backstory_Ingram_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Character_Backstory_Ingram_Adult</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <inventoryOptions>
+            <skipChance>0.0</skipChance>
+            <subOptionsChooseOne>
+                <li>
+                    <thingDef>FCP_Currency_BoS_Scrip</thingDef>
+                    <countRange>80~150</countRange>
+                </li>
+            </subOptionsChooseOne>
+        </inventoryOptions>
+    </PawnKindDef>
+
+    <!-- Lancer Captain Kells -->
+    
+    <PawnKindDef ParentName="FCP_BoSkindBase">
+        <defName>FCP_Unique_Pawnkind_Lancer_Captain_Kells</defName>
+        <label>Lancer Captain Kells</label>
+        <defaultFactionDef>FCP_Faction_BoS</defaultFactionDef>
+        <combatPower>70</combatPower>
+        <itemQuality>Excellent</itemQuality>
+        <gearHealthRange>1.0~1.0</gearHealthRange>
+        <weaponMoney>1800~2400</weaponMoney>
+        <weaponTags>
+            <li MayRequire="Rick.FCP.EnergyWeapons">FCP_Laser_Weapon</li>
+        </weaponTags>
+        <apparelRequired>
+            <li>FCP_Apparel_BoS_Lancer_Captain_Uniform</li>
+            <li>FCP_Apparel_BoS_Lancer_Captain_Hat</li>
+        </apparelRequired>
+        <apparelDisallowTags>
+            <li>FCP_Power_Armor_Helmet</li>
+            <li>FCP_Power_Armor</li>
+        </apparelDisallowTags>
+        <initialWillRange>5~6</initialWillRange>
+        <initialResistanceRange>24~32</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Character_Backstory_Kells_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Character_Backstory_Kells_Adult</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <inventoryOptions>
+            <skipChance>0.0</skipChance>
+            <subOptionsChooseOne>
+                <li>
+                    <thingDef>FCP_Currency_BoS_Scrip</thingDef>
+                    <countRange>100~180</countRange>
+                </li>
+            </subOptionsChooseOne>
+        </inventoryOptions>
+    </PawnKindDef>
+
+    <!-- Paladin Brandis -->
+    
+    <PawnKindDef ParentName="FCP_BoSkindBase">
+        <defName>FCP_Unique_Pawnkind_Paladin_Brandis</defName>
+        <label>Paladin Brandis</label>
+        <defaultFactionDef>FCP_Faction_BoS</defaultFactionDef>
+        <combatPower>85</combatPower>
+        <itemQuality>Good</itemQuality>
+        <gearHealthRange>0.7~0.9</gearHealthRange>
+        <apparelRequired>
+            <li MayRequire="Rick.FCP.PowerArmor">FCP_Apparel_Power_Armor_Frame</li>
+            <li>FCP_Apparel_BoS_Jumpsuit</li>
+            <li MayRequire="Rick.FCP.PowerArmor">FCP_Apparel_Power_Armor_T60Armor</li>
+            <li MayRequire="Rick.FCP.PowerArmor">FCP_Apparel_Power_Armor_T60_Helmet</li>
+        </apparelRequired>
+        <forcedTraits>
+            <FCP_Trait_Power_Armor_Trained />
+        </forcedTraits>
+        <weaponMoney>1800~2500</weaponMoney>
+        <weaponTags>
+            <li MayRequire="Rick.FCP.EnergyWeapons">FCP_Heavy_Laser_Weapon</li>
+        </weaponTags>
+        <initialWillRange>5~6</initialWillRange>
+        <initialResistanceRange>24~32</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Character_Backstory_Brandis_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Character_Backstory_Brandis_Adult</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <inventoryOptions>
+            <skipChance>0.0</skipChance>
+            <subOptionsChooseOne>
+                <li>
+                    <thingDef>FCP_Currency_BoS_Scrip</thingDef>
+                    <countRange>80~150</countRange>
+                </li>
+                <li>
+                    <thingDef>MealSurvivalPack</thingDef>
+                    <countRange>2~4</countRange>
+                </li>
+            </subOptionsChooseOne>
+        </inventoryOptions>
+    </PawnKindDef>
+
+    <!-- Knight-Captain Cade -->
+    
+    <PawnKindDef ParentName="FCP_BoSkindBase">
+        <defName>FCP_Unique_Pawnkind_Knight_Captain_Cade</defName>
+        <label>Knight-Captain Cade</label>
+        <defaultFactionDef>FCP_Faction_BoS</defaultFactionDef>
+        <combatPower>45</combatPower>
+        <itemQuality>Excellent</itemQuality>
+        <gearHealthRange>1.0~1.0</gearHealthRange>
+        <weaponMoney>1000~1400</weaponMoney>
+        <weaponTags>
+            <li MayRequire="Rick.FCP.EnergyWeapons">FCP_Laser_Weapon</li>
+        </weaponTags>
+        <apparelRequired>
+            <li>FCP_Apparel_BoS_Scribe_Robes</li>
+        </apparelRequired>
+        <apparelDisallowTags>
+            <li>FCP_Power_Armor_Helmet</li>
+            <li>FCP_Power_Armor</li>
+        </apparelDisallowTags>
+        <initialWillRange>4~5</initialWillRange>
+        <initialResistanceRange>18~26</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Character_Backstory_Cade_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Character_Backstory_Cade_Adult</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <inventoryOptions>
+            <skipChance>0.0</skipChance>
+            <subOptionsChooseOne>
+                <li>
+                    <thingDef>FCP_Currency_BoS_Scrip</thingDef>
+                    <countRange>70~130</countRange>
+                </li>
+                <li>
+                    <thingDef>MedicineIndustrial</thingDef>
+                    <countRange>3~5</countRange>
+                </li>
+            </subOptionsChooseOne>
+        </inventoryOptions>
+    </PawnKindDef>
+
+    <!-- Proctor Quinlan -->
+    
+    <PawnKindDef ParentName="FCP_BoSkindBase">
+        <defName>FCP_Unique_Pawnkind_Proctor_Quinlan</defName>
+        <label>Proctor Quinlan</label>
+        <defaultFactionDef>FCP_Faction_BoS</defaultFactionDef>
+        <combatPower>35</combatPower>
+        <itemQuality>Excellent</itemQuality>
+        <gearHealthRange>1.0~1.0</gearHealthRange>
+        <weaponMoney>800~1200</weaponMoney>
+        <weaponTags>
+            <li MayRequire="Rick.FCP.EnergyWeapons">FCP_Laser_Weapon</li>
+        </weaponTags>
+        <apparelRequired>
+            <li>FCP_Apparel_BoS_Scribe_Robes</li>
+        </apparelRequired>
+        <apparelDisallowTags>
+            <li>FCP_Power_Armor_Helmet</li>
+            <li>FCP_Power_Armor</li>
+        </apparelDisallowTags>
+        <initialWillRange>3~4</initialWillRange>
+        <initialResistanceRange>14~22</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Character_Backstory_Quinlan_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Character_Backstory_Quinlan_Adult</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <inventoryOptions>
+            <skipChance>0.0</skipChance>
+            <subOptionsChooseOne>
+                <li>
+                    <thingDef>FCP_Currency_BoS_Scrip</thingDef>
+                    <countRange>60~120</countRange>
+                </li>
+            </subOptionsChooseOne>
+        </inventoryOptions>
+    </PawnKindDef>
+
+    <!-- Proctor Teagan -->
+    
+    <PawnKindDef ParentName="FCP_BoSkindBase">
+        <defName>FCP_Unique_Pawnkind_Proctor_Teagan</defName>
+        <label>Proctor Teagan</label>
+        <defaultFactionDef>FCP_Faction_BoS</defaultFactionDef>
+        <combatPower>40</combatPower>
+        <itemQuality>Good</itemQuality>
+        <gearHealthRange>0.9~1.0</gearHealthRange>
+        <weaponMoney>1000~1400</weaponMoney>
+        <weaponTags>
+            <li MayRequire="Rick.FCP.EnergyWeapons">FCP_Laser_Weapon</li>
+        </weaponTags>
+        <apparelRequired>
+            <li>FCP_Apparel_BoS_Scribe_Robes</li>
+        </apparelRequired>
+        <apparelDisallowTags>
+            <li>FCP_Power_Armor_Helmet</li>
+            <li>FCP_Power_Armor</li>
+        </apparelDisallowTags>
+        <initialWillRange>3~5</initialWillRange>
+        <initialResistanceRange>16~24</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Character_Backstory_Teagan_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Character_Backstory_Teagan_Adult</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <inventoryOptions>
+            <skipChance>0.0</skipChance>
+            <subOptionsChooseOne>
+                <li>
+                    <thingDef>FCP_Currency_BoS_Scrip</thingDef>
+                    <countRange>80~150</countRange>
+                </li>
+            </subOptionsChooseOne>
+        </inventoryOptions>
+    </PawnKindDef>
+
+</Defs>

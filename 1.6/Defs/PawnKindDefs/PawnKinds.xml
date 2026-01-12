@@ -42,6 +42,8 @@
         <pawnGroupDevelopmentStage>Adult</pawnGroupDevelopmentStage>
     </PawnKindDef>
 
+    <!-- Power Armor Base -->
+
     <PawnKindDef ParentName="FCP_BoSkindBase" Name="FCP_BoS_PowerArmorBase" Abstract="True">
 		<weaponTags>
             <li>FCP_BoS_Heavy_Weapon</li>
@@ -57,6 +59,8 @@
         </forcedTraits>
     </PawnKindDef>
 
+    <!-- Lyons Pride Power Armor Base -->
+
     <PawnKindDef ParentName="FCP_BoSkindBase" Name="FCP_BoS_Lyons_PowerArmorBase" Abstract="True">
         <defaultFactionDef>FCP_Faction_BoS_Lyons_Pride_Remnants</defaultFactionDef>
         <apparelRequired>
@@ -69,6 +73,8 @@
             <FCP_Trait_Power_Armor_Trained />
         </forcedTraits>
     </PawnKindDef>
+
+    <!-- Outcast Power Armor Base -->
 
     <PawnKindDef ParentName="FCP_BoSkindBase" Name="FCP_BoS_Outcast_PowerArmorBase" Abstract="True">
         <defaultFactionDef>FCP_Faction_BoS_Outcast_Remnants</defaultFactionDef>
@@ -93,6 +99,7 @@
         <combatPower>30</combatPower>
         <itemQuality>Poor</itemQuality>
         <gearHealthRange>0.5~1.8</gearHealthRange>
+        <weaponMoney>800~1200</weaponMoney>
         <apparelRequired>
             <li>FCP_Apparel_BoS_Appalachia_Fatigues</li>
             <li>FCP_Apparel_BoS_Appalachia_Beret</li>
@@ -147,6 +154,7 @@
         <label>Brotherhood Initiate</label>
         <combatPower>40</combatPower>
         <gearHealthRange>0.5~1.8</gearHealthRange>
+        <weaponMoney>800~1200</weaponMoney>
         <apparelRequired>
             <li>FCP_Apparel_BoS_Appalachia_Fatigues</li>
             <li>FCP_Apparel_BoS_Appalachia_Beret</li>
@@ -184,7 +192,7 @@
         <label>Brotherhood Knight</label>
         <combatPower>55</combatPower>
         <gearHealthRange>0.6~1.9</gearHealthRange>
-        <weaponMoney>800~1200</weaponMoney>
+        <weaponMoney>800~1600</weaponMoney>
         <weaponTags>
 			<li>FCP_BoS_Weapon</li>
             <li MayRequire="Rick.FCP.EnergyWeapons">FCP_Laser_Weapon</li>
@@ -246,7 +254,7 @@
         <label>Brotherhood Knight-Sergeant</label>
         <combatPower>65</combatPower>
         <gearHealthRange>0.6~2</gearHealthRange>
-        <weaponMoney>800~1500</weaponMoney>
+        <weaponMoney>800~1700</weaponMoney>
         <weaponTags>
             <li MayRequire="Rick.FCP.EnergyWeapons">FCP_Laser_Weapon</li>
         </weaponTags>

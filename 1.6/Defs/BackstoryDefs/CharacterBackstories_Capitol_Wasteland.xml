@@ -1,0 +1,536 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <!--__________ Character Backstories - Fallout 3 __________-->
+
+    <!--_____ Lyons' Brotherhood of Steel _____-->
+
+    <!-- Elder Owyn Lyons - Childhood -->
+
+    <BackstoryDef>
+        <defName>FCP_Character_Backstory_Owyn_Lyons_Child</defName>
+        <identifier>FCP_Character_Backstory_Owyn_Lyons_Child</identifier>
+        <slot>Childhood</slot>
+        <title>Brotherhood Foundling</title>
+        <titleShort>Foundling</titleShort>
+        <description>Born into the Brotherhood of Steel in Lost Hills, Owyn grew up immersed in the Brotherhood's ideals of preserving technology and rebuilding civilization. From a young age, he showed exceptional leadership qualities and a deep sense of duty.</description>
+        <skillGains>
+            <Social>2</Social>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+        <spawnCategories>
+            <li>FCP_Character_Backstory_Owyn_Lyons_Child</li>
+        </spawnCategories>
+    </BackstoryDef>
+
+    <!-- Elder Owyn Lyons - Adulthood -->
+
+    <BackstoryDef>
+        <defName>FCP_Character_Backstory_Owyn_Lyons_Adult</defName>
+        <identifier>FCP_Character_Backstory_Owyn_Lyons_Adult</identifier>
+        <slot>Adulthood</slot>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <title>Elder of the Capital</title>
+        <titleShort>Elder</titleShort>
+        <description>Owyn Lyons led an expedition from California to the Capital Wasteland, where he established the Citadel. Unlike traditional Brotherhood doctrine, he believed in helping the people of the wasteland, a decision that earned him both respect and scorn. His compassionate leadership redefined what it meant to be Brotherhood.</description>
+        <skillGains>
+            <Social>6</Social>
+            <Intellectual>4</Intellectual>
+            <Shooting>2</Shooting>
+        </skillGains>
+        <spawnCategories>
+            <li>FCP_Character_Backstory_Owyn_Lyons_Adult</li>
+        </spawnCategories>
+        <forcedTraits>
+            <Kind>0</Kind>
+        </forcedTraits>
+    </BackstoryDef>
+
+    <!-- Sentinel Sarah Lyons - Childhood -->
+
+    <BackstoryDef>
+        <defName>FCP_Character_Backstory_Sarah_Lyons_Child</defName>
+        <identifier>FCP_Character_Backstory_Sarah_Lyons_Child</identifier>
+        <slot>Childhood</slot>
+        <title>Elder's Daughter</title>
+        <titleShort>Daughter</titleShort>
+        <description>Sarah grew up on the journey from California to DC, experiencing hardship and danger from a young age. Her father, Elder Lyons, ensured she received the finest military training the Brotherhood could provide, and she excelled in every aspect of combat.</description>
+        <skillGains>
+            <Shooting>3</Shooting>
+            <Melee>2</Melee>
+            <Social>1</Social>
+        </skillGains>
+        <spawnCategories>
+            <li>FCP_Character_Backstory_Sarah_Lyons_Child</li>
+        </spawnCategories>
+    </BackstoryDef>
+
+    <!-- Sentinel Sarah Lyons - Adulthood -->
+    
+    <BackstoryDef>
+        <defName>FCP_Character_Backstory_Sarah_Lyons_Adult</defName>
+        <identifier>FCP_Character_Backstory_Sarah_Lyons_Adult</identifier>
+        <slot>Adulthood</slot>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <title>Lyons' Pride Commander</title>
+        <titleShort>Sentinel</titleShort>
+        <description>Sarah became the youngest Sentinel in Brotherhood history and led the elite Lyons' Pride unit. Fierce, tactical, and unwavering in her commitment to protect the innocent, she earned the respect of every soldier under her command through courage and skill in countless battles.</description>
+        <skillGains>
+            <Shooting>7</Shooting>
+            <Melee>4</Melee>
+            <Social>3</Social>
+        </skillGains>
+        <spawnCategories>
+            <li>FCP_Character_Backstory_Sarah_Lyons_Adult</li>
+        </spawnCategories>
+        <forcedTraits>
+            <FCP_Trait_Sharpshooter>0</FCP_Trait_Sharpshooter>
+            <Brawler>0</Brawler>
+        </forcedTraits>
+    </BackstoryDef>
+
+    <!-- Star Paladin Cross - Childhood -->
+
+    <BackstoryDef>
+        <defName>FCP_Character_Backstory_Cross_Child</defName>
+        <identifier>FCP_Character_Backstory_Cross_Child</identifier>
+        <slot>Childhood</slot>
+        <title>Wasteland Survivor</title>
+        <titleShort>Survivor</titleShort>
+        <description>Cross survived the harsh realities of the wasteland as a young woman before being rescued by the Brotherhood. The experience forged her into a survivor with unshakeable determination and loyalty to those who saved her.</description>
+        <skillGains>
+            <Shooting>2</Shooting>
+            <Melee>2</Melee>
+            <Construction>1</Construction>
+        </skillGains>
+        <spawnCategories>
+            <li>FCP_Character_Backstory_Cross_Child</li>
+        </spawnCategories>
+    </BackstoryDef>
+
+    <!-- Star Paladin Cross - Adulthood -->
+
+    <BackstoryDef>
+        <defName>FCP_Character_Backstory_Cross_Adult</defName>
+        <identifier>FCP_Character_Backstory_Cross_Adult</identifier>
+        <slot>Adulthood</slot>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <title>Star Paladin Veteran</title>
+        <titleShort>Star Paladin</titleShort>
+        <description>Cross rose through the ranks to become one of the most respected Paladins in the Brotherhood. She served as personal bodyguard to the Lone Wanderer's father and has decades of combat experience. Her dedication to duty is absolute.</description>
+        <skillGains>
+            <Shooting>6</Shooting>
+            <Melee>5</Melee>
+            <Social>2</Social>
+        </skillGains>
+        <spawnCategories>
+            <li>FCP_Character_Backstory_Cross_Adult</li>
+        </spawnCategories>
+        <forcedTraits>
+            <FCP_Trait_Sharpshooter>0</FCP_Trait_Sharpshooter>
+        </forcedTraits>
+    </BackstoryDef>
+
+    <!-- Paladin Gunny - Childhood -->
+
+    <BackstoryDef>
+        <defName>FCP_Character_Backstory_Gunny_Child</defName>
+        <identifier>FCP_Character_Backstory_Gunny_Child</identifier>
+        <slot>Childhood</slot>
+        <title>Weapons Apprentice</title>
+        <titleShort>Apprentice</titleShort>
+        <description>Gunny grew up around weapons, learning to maintain and operate every firearm in the Brotherhood's arsenal. His fascination with ballistics became a lifelong passion.</description>
+        <skillGains>
+            <Shooting>3</Shooting>
+            <Crafting>2</Crafting>
+        </skillGains>
+        <spawnCategories>
+            <li>FCP_Character_Backstory_Gunny_Child</li>
+        </spawnCategories>
+    </BackstoryDef>
+
+    <!-- Paladin Gunny - Adulthood -->
+
+    <BackstoryDef>
+        <defName>FCP_Character_Backstory_Gunny_Adult</defName>
+        <identifier>FCP_Character_Backstory_Gunny_Adult</identifier>
+        <slot>Adulthood</slot>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <title>Weapons Master</title>
+        <titleShort>Gunny</titleShort>
+        <description>Gunny became the Brotherhood's primary weapons expert and range master. He trains new recruits in marksmanship and maintains the Citadel's armory. His expertise with firearms is unmatched.</description>
+        <skillGains>
+            <Shooting>7</Shooting>
+            <Crafting>4</Crafting>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+        <spawnCategories>
+            <li>FCP_Character_Backstory_Gunny_Adult</li>
+        </spawnCategories>
+        <forcedTraits>
+            <FCP_Trait_Sharpshooter>0</FCP_Trait_Sharpshooter>
+        </forcedTraits>
+    </BackstoryDef>
+
+    <!-- Paladin Glade - Childhood -->
+
+    <BackstoryDef>
+        <defName>FCP_Character_Backstory_Glade_Child</defName>
+        <identifier>FCP_Character_Backstory_Glade_Child</identifier>
+        <slot>Childhood</slot>
+        <title>Brotherhood Squire</title>
+        <titleShort>Squire</titleShort>
+        <description>Glade trained as a squire from childhood, learning the Brotherhood's codes and martial disciplines. He showed early promise as a tactical thinker.</description>
+        <skillGains>
+            <Shooting>2</Shooting>
+            <Melee>2</Melee>
+            <Intellectual>1</Intellectual>
+        </skillGains>
+        <spawnCategories>
+            <li>FCP_Character_Backstory_Glade_Child</li>
+        </spawnCategories>
+    </BackstoryDef>
+
+    <!-- Paladin Glade - Adulthood -->
+
+    <BackstoryDef>
+        <defName>FCP_Character_Backstory_Glade_Adult</defName>
+        <identifier>FCP_Character_Backstory_Glade_Adult</identifier>
+        <slot>Adulthood</slot>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <title>Paladin Commander</title>
+        <titleShort>Paladin</titleShort>
+        <description>Glade leads patrols through the ruins of DC, coordinating strike teams against super mutant strongholds. His strategic mind and calm demeanor make him an effective field commander.</description>
+        <skillGains>
+            <Shooting>6</Shooting>
+            <Melee>3</Melee>
+            <Social>3</Social>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+        <spawnCategories>
+            <li>FCP_Character_Backstory_Glade_Adult</li>
+        </spawnCategories>
+    </BackstoryDef>
+
+    <!-- Paladin Kodiak - Childhood -->
+
+    <BackstoryDef>
+        <defName>FCP_Character_Backstory_Kodiak_Child</defName>
+        <identifier>FCP_Character_Backstory_Kodiak_Child</identifier>
+        <slot>Childhood</slot>
+        <title>Heavy Weapons Trainee</title>
+        <titleShort>Trainee</titleShort>
+        <description>Kodiak's size and strength made him a natural for heavy weapons training. Even as a child, he could handle equipment that would burden most adults.</description>
+        <skillGains>
+            <Shooting>2</Shooting>
+            <Melee>3</Melee>
+        </skillGains>
+        <spawnCategories>
+            <li>FCP_Character_Backstory_Kodiak_Child</li>
+        </spawnCategories>
+    </BackstoryDef>
+
+    <!-- Paladin Kodiak - Adulthood -->
+
+    <BackstoryDef>
+        <defName>FCP_Character_Backstory_Kodiak_Adult</defName>
+        <identifier>FCP_Character_Backstory_Kodiak_Adult</identifier>
+        <slot>Adulthood</slot>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <title>Heavy Weapons Specialist</title>
+        <titleShort>Heavy</titleShort>
+        <description>Kodiak specializes in heavy weapons and power armor operations. He's often deployed to the most dangerous combat zones where overwhelming firepower is needed. His imposing presence and devastating firepower make him a legend among the ranks.</description>
+        <skillGains>
+            <Shooting>6</Shooting>
+            <Melee>4</Melee>
+            <Construction>2</Construction>
+        </skillGains>
+        <spawnCategories>
+            <li>FCP_Character_Backstory_Kodiak_Adult</li>
+        </spawnCategories>
+        <forcedTraits>
+            <Tough>0</Tough>
+        </forcedTraits>
+    </BackstoryDef>
+
+    <!-- Knight Captain Gallows - Childhood -->
+
+    <BackstoryDef>
+        <defName>FCP_Character_Backstory_Gallows_Child</defName>
+        <identifier>FCP_Character_Backstory_Gallows_Child</identifier>
+        <slot>Childhood</slot>
+        <title>Brotherhood Initiate</title>
+        <titleShort>Initiate</titleShort>
+        <description>Gallows showed leadership potential from an early age, often organizing training exercises among his peers and demonstrating tactical thinking beyond his years.</description>
+        <skillGains>
+            <Shooting>2</Shooting>
+            <Social>2</Social>
+            <Intellectual>1</Intellectual>
+        </skillGains>
+        <spawnCategories>
+            <li>FCP_Character_Backstory_Gallows_Child</li>
+        </spawnCategories>
+    </BackstoryDef>
+
+    <!-- Knight Captain Gallows - Adulthood -->
+
+    <BackstoryDef>
+        <defName>FCP_Character_Backstory_Gallows_Adult</defName>
+        <identifier>FCP_Character_Backstory_Gallows_Adult</identifier>
+        <slot>Adulthood</slot>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <title>Knight Captain</title>
+        <titleShort>Captain</titleShort>
+        <description>Gallows commands the A Ring security detail at the Citadel, ensuring the Brotherhood's headquarters remains secure. He's known for his strict adherence to protocol and his ability to maintain discipline.</description>
+        <skillGains>
+            <Shooting>5</Shooting>
+            <Social>4</Social>
+            <Melee>3</Melee>
+        </skillGains>
+        <spawnCategories>
+            <li>FCP_Character_Backstory_Gallows_Adult</li>
+        </spawnCategories>
+    </BackstoryDef>
+
+    <!-- Knight Captain Dusk - Childhood -->
+
+    <BackstoryDef>
+        <defName>FCP_Character_Backstory_Dusk_Child</defName>
+        <identifier>FCP_Character_Backstory_Dusk_Child</identifier>
+        <slot>Childhood</slot>
+        <title>Tech Enthusiast</title>
+        <titleShort>Enthusiast</titleShort>
+        <description>Dusk was fascinated by technology from a young age, spending hours studying pre-war systems and learning how they functioned. This knowledge would later prove invaluable.</description>
+        <skillGains>
+            <Intellectual>3</Intellectual>
+            <Shooting>1</Shooting>
+            <Crafting>1</Crafting>
+        </skillGains>
+        <spawnCategories>
+            <li>FCP_Character_Backstory_Dusk_Child</li>
+        </spawnCategories>
+    </BackstoryDef>
+
+    <!-- Knight Captain Dusk - Adulthood -->
+
+    <BackstoryDef>
+        <defName>FCP_Character_Backstory_Dusk_Adult</defName>
+        <identifier>FCP_Character_Backstory_Dusk_Adult</identifier>
+        <slot>Adulthood</slot>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <title>Tech-Knight Captain</title>
+        <titleShort>Captain</titleShort>
+        <description>Dusk oversees the B Ring laboratory at the Citadel, working closely with Scribes while maintaining security. His unique blend of technical knowledge and combat ability makes him invaluable to Brotherhood operations.</description>
+        <skillGains>
+            <Shooting>4</Shooting>
+            <Intellectual>5</Intellectual>
+            <Crafting>3</Crafting>
+        </skillGains>
+        <spawnCategories>
+            <li>FCP_Character_Backstory_Dusk_Adult</li>
+        </spawnCategories>
+    </BackstoryDef>
+
+    <!-- Scribe Rothchild - Childhood -->
+
+    <BackstoryDef>
+        <defName>FCP_Character_Backstory_Rothchild_Child</defName>
+        <identifier>FCP_Character_Backstory_Rothchild_Child</identifier>
+        <slot>Childhood</slot>
+        <title>Scholar Prodigy</title>
+        <titleShort>Prodigy</titleShort>
+        <description>Rothchild demonstrated exceptional intellectual ability from childhood, mastering complex technical manuals and showing an intuitive understanding of pre-war technology that impressed even senior Scribes.</description>
+        <skillGains>
+            <Intellectual>4</Intellectual>
+            <Crafting>1</Crafting>
+        </skillGains>
+        <spawnCategories>
+            <li>FCP_Character_Backstory_Rothchild_Child</li>
+        </spawnCategories>
+    </BackstoryDef>
+
+    <!-- Scribe Rothchild - Adulthood -->
+
+    <BackstoryDef>
+        <defName>FCP_Character_Backstory_Rothchild_Adult</defName>
+        <identifier>FCP_Character_Backstory_Rothchild_Adult</identifier>
+        <slot>Adulthood</slot>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <title>Head Scribe</title>
+        <titleShort>Head Scribe</titleShort>
+        <description>Rothchild is the Brotherhood's senior technical expert, overseeing all research and development at the Citadel. He restored Liberty Prime and manages the Brotherhood's most advanced technological projects. His knowledge is encyclopedic, but he has little patience for those who question his methods.</description>
+        <skillGains>
+            <Intellectual>8</Intellectual>
+            <Crafting>6</Crafting>
+            <Construction>3</Construction>
+        </skillGains>
+        <workDisables>
+            <li>ManualDumb</li>
+        </workDisables>
+        <spawnCategories>
+            <li>FCP_Character_Backstory_Rothchild_Adult</li>
+        </spawnCategories>
+    </BackstoryDef>
+
+    <!--_____ Brotherhood Outcasts _____-->
+
+    <!-- Protector Casdin - Childhood -->
+
+    <BackstoryDef>
+        <defName>FCP_Character_Backstory_Casdin_Child</defName>
+        <identifier>FCP_Character_Backstory_Casdin_Child</identifier>
+        <slot>Childhood</slot>
+        <title>Codex Student</title>
+        <titleShort>Student</titleShort>
+        <description>Henry was raised on strict Brotherhood doctrine, memorizing the Codex and learning the original mission: acquire and preserve technology. These teachings would shape his entire worldview.</description>
+        <skillGains>
+            <Intellectual>3</Intellectual>
+            <Shooting>2</Shooting>
+        </skillGains>
+        <spawnCategories>
+            <li>FCP_Character_Backstory_Casdin_Child</li>
+        </spawnCategories>
+    </BackstoryDef>
+
+    <!-- Protector Casdin - Adulthood -->
+
+    <BackstoryDef>
+        <defName>FCP_Character_Backstory_Casdin_Adult</defName>
+        <identifier>FCP_Character_Backstory_Casdin_Adult</identifier>
+        <slot>Adulthood</slot>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <title>Outcast Leader</title>
+        <titleShort>Protector</titleShort>
+        <description>Casdin led the schism from Lyons' Brotherhood, believing Elder Lyons had abandoned the true mission for sentimental humanitarianism. Now leading the Outcasts, he pursues technology with single-minded determination, trading with wastelanders only to acquire pre-war artifacts. To him, the Codex is law.</description>
+        <skillGains>
+            <Shooting>6</Shooting>
+            <Intellectual>5</Intellectual>
+            <Social>2</Social>
+            <Melee>3</Melee>
+        </skillGains>
+        <spawnCategories>
+            <li>FCP_Character_Backstory_Casdin_Adult</li>
+        </spawnCategories>
+    </BackstoryDef>
+
+    <!-- Defender Sibley - Childhood -->
+
+    <BackstoryDef>
+        <defName>FCP_Character_Backstory_Sibley_Child</defName>
+        <identifier>FCP_Character_Backstory_Sibley_Child</identifier>
+        <slot>Childhood</slot>
+        <title>Duty-Bound Youth</title>
+        <titleShort>Duty-Bound</titleShort>
+        <description>Sibley grew up believing in the Brotherhood's mission above all else. She learned early that personal feelings had no place when duty called.</description>
+        <skillGains>
+            <Shooting>2</Shooting>
+            <Melee>2</Melee>
+            <Social>1</Social>
+        </skillGains>
+        <spawnCategories>
+            <li>FCP_Character_Backstory_Sibley_Child</li>
+        </spawnCategories>
+    </BackstoryDef>
+
+    <!-- Defender Sibley - Adulthood -->
+
+    <BackstoryDef>
+        <defName>FCP_Character_Backstory_Sibley_Adult</defName>
+        <identifier>FCP_Character_Backstory_Sibley_Adult</identifier>
+        <slot>Adulthood</slot>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <title>Outcast Defender</title>
+        <titleShort>Defender</titleShort>
+        <description>Sibley serves as one of Casdin's most loyal soldiers, defending Fort Independence and leading patrols to secure technology. She followed Casdin in the split, believing Lyons had lost his way. Her dedication to the original Brotherhood mission is absolute.</description>
+        <skillGains>
+            <Shooting>6</Shooting>
+            <Melee>4</Melee>
+            <Social>2</Social>
+        </skillGains>
+        <spawnCategories>
+            <li>FCP_Character_Backstory_Sibley_Adult</li>
+        </spawnCategories>
+        <forcedTraits>
+            <FCP_Trait_Sharpshooter>0</FCP_Trait_Sharpshooter>
+        </forcedTraits>
+    </BackstoryDef>
+
+    <!-- Specialist Olin - Childhood -->
+
+    <BackstoryDef>
+        <defName>FCP_Character_Backstory_Olin_Child</defName>
+        <identifier>FCP_Character_Backstory_Olin_Child</identifier>
+        <slot>Childhood</slot>
+        <title>Archive Assistant</title>
+        <titleShort>Assistant</titleShort>
+        <description>Olin spent his youth cataloging technology and learning to identify valuable pre-war artifacts. His attention to detail was remarkable.</description>
+        <skillGains>
+            <Intellectual>3</Intellectual>
+            <Crafting>2</Crafting>
+        </skillGains>
+        <spawnCategories>
+            <li>FCP_Character_Backstory_Olin_Child</li>
+        </spawnCategories>
+    </BackstoryDef>
+
+    <!-- Specialist Olin - Adulthood -->
+
+    <BackstoryDef>
+        <defName>FCP_Character_Backstory_Olin_Adult</defName>
+        <identifier>FCP_Character_Backstory_Olin_Adult</identifier>
+        <slot>Adulthood</slot>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <title>Technology Specialist</title>
+        <titleShort>Specialist</titleShort>
+        <description>Olin evaluates technology brought to the Outcasts, determining what's valuable and what's worthless. He maintains the inventory at Fort Independence and ensures every piece of tech is properly cataloged and stored.</description>
+        <skillGains>
+            <Intellectual>7</Intellectual>
+            <Crafting>5</Crafting>
+            <Shooting>2</Shooting>
+        </skillGains>
+        <spawnCategories>
+            <li>FCP_Character_Backstory_Olin_Adult</li>
+        </spawnCategories>
+    </BackstoryDef>
+
+    <!-- Protector McGraw - Childhood -->
+
+    <BackstoryDef>
+        <defName>FCP_Character_Backstory_McGraw_Child</defName>
+        <identifier>FCP_Character_Backstory_McGraw_Child</identifier>
+        <slot>Childhood</slot>
+        <title>Patrol Scout</title>
+        <titleShort>Scout</titleShort>
+        <description>McGraw learned reconnaissance and patrol tactics as a young recruit, developing keen observational skills and the ability to navigate dangerous territory.</description>
+        <skillGains>
+            <Shooting>2</Shooting>
+            <Animals>1</Animals>
+            <Melee>2</Melee>
+        </skillGains>
+        <spawnCategories>
+            <li>FCP_Character_Backstory_McGraw_Child</li>
+        </spawnCategories>
+    </BackstoryDef>
+
+    <!-- Protector McGraw - Adulthood -->
+
+    <BackstoryDef>
+        <defName>FCP_Character_Backstory_McGraw_Adult</defName>
+        <identifier>FCP_Character_Backstory_McGraw_Adult</identifier>
+        <slot>Adulthood</slot>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <title>Outcast Protector</title>
+        <titleShort>Protector</titleShort>
+        <description>McGraw leads field operations for the Outcasts, scouring the wasteland for technology and eliminating threats to the mission. He's a pragmatic soldier who believes the Brotherhood's true purpose is too important to be diluted by compassion.</description>
+        <skillGains>
+            <Shooting>6</Shooting>
+            <Melee>4</Melee>
+            <Intellectual>2</Intellectual>
+            <Social>2</Social>
+        </skillGains>
+        <spawnCategories>
+            <li>FCP_Character_Backstory_McGraw_Adult</li>
+        </spawnCategories>
+    </BackstoryDef>
+
+</Defs>

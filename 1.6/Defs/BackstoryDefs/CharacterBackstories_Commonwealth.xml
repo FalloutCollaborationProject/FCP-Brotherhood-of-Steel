@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <!--========== Commonwealth Brotherhood of Steel Character Backstories ==========-->
+
+    <!--_____ Elder Arthur Maxson _____-->
+
+    <BackstoryDef>
+        <defName>FCP_Character_Backstory_Arthur_Maxson_Child</defName>
+        <title>Maxson Heir</title>
+        <titleShort>Heir</titleShort>
+        <baseDesc>[PAWN_nameDef] was born into the legendary Maxson bloodline and raised to lead the Brotherhood. As a child, [PAWN_pronoun] witnessed the corruption and decay that followed Lyons' humanitarian policies. [PAWN_pronoun] was trained in both combat and command, learning that only through strength and discipline could the Brotherhood fulfill its true purpose.</baseDesc>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Male</bodyTypeFemale>
+        <slot>Childhood</slot>
+        <spawnCategories>
+            <li>FCP_Character_Backstory_Arthur_Maxson_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>3</Shooting>
+            <Melee>3</Melee>
+            <Social>4</Social>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>FCP_Character_Backstory_Arthur_Maxson_Adult</defName>
+        <title>Elder of the Brotherhood</title>
+        <titleShort>Elder</titleShort>
+        <baseDesc>[PAWN_nameDef] became the youngest Elder in Brotherhood history, uniting the fractured East Coast chapters under [PAWN_possessive] iron will. [PAWN_pronoun] commands the Prydwen and its forces with absolute authority, determined to cleanse the Commonwealth of synths and mutants while reclaiming technology for humanity's survival.</baseDesc>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Male</bodyTypeFemale>
+        <slot>Adulthood</slot>
+        <spawnCategories>
+            <li>FCP_Character_Backstory_Arthur_Maxson_Adult</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>6</Shooting>
+            <Melee>5</Melee>
+            <Social>8</Social>
+            <Intellectual>4</Intellectual>
+        </skillGains>
+        <forcedTraits>
+            <Tough>0</Tough>
+        </forcedTraits>
+    </BackstoryDef>
+
+    <!--_____ Paladin Danse _____-->
+
+    <BackstoryDef>
+        <defName>FCP_Character_Backstory_Danse_Child</defName>
+        <title>Rivet City Orphan</title>
+        <titleShort>Orphan</titleShort>
+        <baseDesc>[PAWN_nameDef] grew up believing [PAWN_pronoun] was an orphan in the Capital Wasteland. [PAWN_pronoun] witnessed the Brotherhood's power and nobility firsthand, developing an unwavering belief in their mission. What [PAWN_pronoun] didn't know was that these memories were fabricated - [PAWN_pronoun] was actually a synth.</baseDesc>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Hulk</bodyTypeFemale>
+        <slot>Childhood</slot>
+        <spawnCategories>
+            <li>FCP_Character_Backstory_Danse_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>2</Shooting>
+            <Melee>3</Melee>
+            <Construction>2</Construction>
+        </skillGains>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>FCP_Character_Backstory_Danse_Adult</defName>
+        <title>Paladin of Steel</title>
+        <titleShort>Paladin</titleShort>
+        <baseDesc>[PAWN_nameDef] rose through the Brotherhood ranks to become a respected Paladin, leading recon teams with tactical precision and unwavering dedication. [PAWN_pronoun] believes absolutely in the Brotherhood's mission, never suspecting [PAWN_possessive] true nature until it's revealed [PAWN_pronoun] is a synth - the very thing [PAWN_pronoun] was trained to destroy.</baseDesc>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Hulk</bodyTypeFemale>
+        <slot>Adulthood</slot>
+        <spawnCategories>
+            <li>FCP_Character_Backstory_Danse_Adult</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>7</Shooting>
+            <Melee>6</Melee>
+            <Social>3</Social>
+            <Construction>2</Construction>
+        </skillGains>
+        <forcedTraits>
+            <Tough>0</Tough>
+        </forcedTraits>
+    </BackstoryDef>
+
+    <!--_____ Scribe Haylen _____-->
+
+    <BackstoryDef>
+        <defName>FCP_Character_Backstory_Haylen_Child</defName>
+        <title>Technical Apprentice</title>
+        <titleShort>Apprentice</titleShort>
+        <baseDesc>[PAWN_nameDef] showed early aptitude for technology and science, earning [PAWN_possessive] place in the Brotherhood's Scribe order. [PAWN_pronoun] studied pre-war technology with fascination, learning to diagnose and repair complex systems while developing field survival skills.</baseDesc>
+        <bodyTypeMale>Female</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <slot>Childhood</slot>
+        <spawnCategories>
+            <li>FCP_Character_Backstory_Haylen_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>4</Intellectual>
+            <Crafting>3</Crafting>
+            <Medicine>2</Medicine>
+        </skillGains>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>FCP_Character_Backstory_Haylen_Adult</defName>
+        <title>Field Scribe</title>
+        <titleShort>Field Scribe</titleShort>
+        <baseDesc>[PAWN_nameDef] serves as a field scribe with Recon Squad Gladius, providing technical support and intelligence analysis in dangerous territory. [PAWN_pronoun] maintains communications equipment and analyzes data while supporting [PAWN_possessive] teammates in combat situations.</baseDesc>
+        <bodyTypeMale>Female</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <slot>Adulthood</slot>
+        <spawnCategories>
+            <li>FCP_Character_Backstory_Haylen_Adult</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>6</Intellectual>
+            <Crafting>5</Crafting>
+            <Medicine>4</Medicine>
+            <Shooting>2</Shooting>
+        </skillGains>
+    </BackstoryDef>
+
+    <!--_____ Knight Rhys _____-->
+
+    <BackstoryDef>
+        <defName>FCP_Character_Backstory_Rhys_Child</defName>
+        <title>Brotherhood Born</title>
+        <titleShort>BoS Born</titleShort>
+        <baseDesc>[PAWN_nameDef] was born into the Brotherhood and raised with strict military discipline. [PAWN_pronoun] trained constantly in combat techniques, developing a competitive nature and strong sense of Brotherhood superiority over outsiders.</baseDesc>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Male</bodyTypeFemale>
+        <slot>Childhood</slot>
+        <spawnCategories>
+            <li>FCP_Character_Backstory_Rhys_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>3</Shooting>
+            <Melee>3</Melee>
+        </skillGains>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>FCP_Character_Backstory_Rhys_Adult</defName>
+        <title>Brotherhood Knight</title>
+        <titleShort>Knight</titleShort>
+        <baseDesc>[PAWN_nameDef] earned the rank of Knight through rigorous training and combat experience. [PAWN_pronoun] serves with Recon Squad Gladius, displaying considerable combat skill but struggling with trust issues toward outsiders and a bitter attitude from past losses.</baseDesc>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Male</bodyTypeFemale>
+        <slot>Adulthood</slot>
+        <spawnCategories>
+            <li>FCP_Character_Backstory_Rhys_Adult</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>6</Shooting>
+            <Melee>5</Melee>
+            <Social>1</Social>
+        </skillGains>
+    </BackstoryDef>
+
+    <!--_____ Proctor Ingram _____-->
+
+    <BackstoryDef>
+        <defName>FCP_Character_Backstory_Ingram_Child</defName>
+        <title>Engineering Prodigy</title>
+        <titleShort>Prodigy</titleShort>
+        <baseDesc>[PAWN_nameDef] showed exceptional mechanical aptitude from childhood. [PAWN_pronoun] could disassemble and rebuild power armor components before most children could read, earning [PAWN_possessive] place in the Brotherhood's engineering division.</baseDesc>
+        <bodyTypeMale>Female</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <slot>Childhood</slot>
+        <spawnCategories>
+            <li>FCP_Character_Backstory_Ingram_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>3</Intellectual>
+            <Crafting>5</Crafting>
+        </skillGains>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>FCP_Character_Backstory_Ingram_Adult</defName>
+        <title>Head Engineer</title>
+        <titleShort>Proctor</titleShort>
+        <baseDesc>[PAWN_nameDef] became the Brotherhood's chief engineer despite losing [PAWN_possessive] legs in combat. [PAWN_pronoun] designed [PAWN_possessive] own power armor exoskeleton to compensate, and now maintains the entire Brotherhood fleet including the Prydwen. [PAWN_possessive] expertise keeps the Brotherhood's technology operational.</baseDesc>
+        <bodyTypeMale>Female</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <slot>Adulthood</slot>
+        <spawnCategories>
+            <li>FCP_Character_Backstory_Ingram_Adult</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>6</Intellectual>
+            <Crafting>8</Crafting>
+            <Construction>4</Construction>
+        </skillGains>
+        <forcedTraits>
+            <Industriousness>1</Industriousness>
+        </forcedTraits>
+    </BackstoryDef>
+
+    <!--_____ Lancer Captain Kells _____-->
+
+    <BackstoryDef>
+        <defName>FCP_Character_Backstory_Kells_Child</defName>
+        <title>Strategic Mind</title>
+        <titleShort>Strategist</titleShort>
+        <baseDesc>[PAWN_nameDef] grew up studying military history and tactics, showing natural leadership abilities. [PAWN_pronoun] learned to coordinate complex operations and manage logistics, preparing for a command role in the Brotherhood.</baseDesc>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Male</bodyTypeFemale>
+        <slot>Childhood</slot>
+        <spawnCategories>
+            <li>FCP_Character_Backstory_Kells_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>3</Social>
+            <Intellectual>4</Intellectual>
+        </skillGains>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>FCP_Character_Backstory_Kells_Adult</defName>
+        <title>Prydwen Captain</title>
+        <titleShort>Captain</titleShort>
+        <baseDesc>[PAWN_nameDef] commands the Prydwen, the Brotherhood's massive airship headquarters. [PAWN_pronoun] manages all air operations and coordinates ground missions with tactical precision. [PAWN_possessive] by-the-book approach and unwavering loyalty to Elder Maxson make [PAWN_objective] an invaluable asset.</baseDesc>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Male</bodyTypeFemale>
+        <slot>Adulthood</slot>
+        <spawnCategories>
+            <li>FCP_Character_Backstory_Kells_Adult</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>7</Social>
+            <Intellectual>6</Intellectual>
+            <Shooting>3</Shooting>
+        </skillGains>
+    </BackstoryDef>
+
+    <!--_____ Paladin Brandis _____-->
+
+    <BackstoryDef>
+        <defName>FCP_Character_Backstory_Brandis_Child</defName>
+        <title>Wasteland Fighter</title>
+        <titleShort>Fighter</titleShort>
+        <baseDesc>[PAWN_nameDef] learned to fight for survival in the harsh wasteland before joining the Brotherhood. [PAWN_pronoun] found purpose and structure in the Brotherhood's ranks, dedicating [PAWN_objective]self to their military doctrine.</baseDesc>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Male</bodyTypeFemale>
+        <slot>Childhood</slot>
+        <spawnCategories>
+            <li>FCP_Character_Backstory_Brandis_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>3</Shooting>
+            <Melee>3</Melee>
+            <Animals>2</Animals>
+        </skillGains>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>FCP_Character_Backstory_Brandis_Adult</defName>
+        <title>Sole Survivor</title>
+        <titleShort>Survivor</titleShort>
+        <baseDesc>[PAWN_nameDef] led Recon Squad Artemis until disaster struck - [PAWN_possessive] entire team was killed in the Commonwealth. Wracked with guilt and trauma, [PAWN_pronoun] went into hiding, questioning everything [PAWN_pronoun] once believed about the Brotherhood's invincibility.</baseDesc>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Male</bodyTypeFemale>
+        <slot>Adulthood</slot>
+        <spawnCategories>
+            <li>FCP_Character_Backstory_Brandis_Adult</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>7</Shooting>
+            <Melee>5</Melee>
+            <Animals>3</Animals>
+            <Social>-2</Social>
+        </skillGains>
+        <forcedTraits>
+            <Tough>0</Tough>
+        </forcedTraits>
+    </BackstoryDef>
+
+    <!--_____ Knight-Captain Cade _____-->
+
+    <BackstoryDef>
+        <defName>FCP_Character_Backstory_Cade_Child</defName>
+        <title>Medical Student</title>
+        <titleShort>Student</titleShort>
+        <baseDesc>[PAWN_nameDef] showed early interest in medicine and human anatomy. [PAWN_pronoun] studied pre-war medical texts and learned to treat injuries, preparing for a career saving lives in the Brotherhood.</baseDesc>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <slot>Childhood</slot>
+        <spawnCategories>
+            <li>FCP_Character_Backstory_Cade_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Medicine>5</Medicine>
+            <Intellectual>3</Intellectual>
+        </skillGains>
+        <workDisables>
+            <li>ManualDumb</li>
+        </workDisables>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>FCP_Character_Backstory_Cade_Adult</defName>
+        <title>Chief Medical Officer</title>
+        <titleShort>Doctor</titleShort>
+        <baseDesc>[PAWN_nameDef] serves as the Brotherhood's chief medical officer aboard the Prydwen. [PAWN_pronoun] treats wounded soldiers and manages medical supplies with clinical efficiency. [PAWN_possessive] gruff bedside manner hides genuine concern for [PAWN_possessive] patients' wellbeing.</baseDesc>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <slot>Adulthood</slot>
+        <spawnCategories>
+            <li>FCP_Character_Backstory_Cade_Adult</li>
+        </spawnCategories>
+        <skillGains>
+            <Medicine>8</Medicine>
+            <Intellectual>6</Intellectual>
+            <Social>2</Social>
+        </skillGains>
+        <workDisables>
+            <li>ManualDumb</li>
+        </workDisables>
+    </BackstoryDef>
+
+    <!--_____ Proctor Quinlan _____-->
+
+    <BackstoryDef>
+        <defName>FCP_Character_Backstory_Quinlan_Child</defName>
+        <title>Archive Assistant</title>
+        <titleShort>Assistant</titleShort>
+        <baseDesc>[PAWN_nameDef] spent [PAWN_possessive] youth organizing and cataloging the Brotherhood's extensive archives. [PAWN_pronoun] memorized vast amounts of information and developed expertise in research methodologies and data analysis.</baseDesc>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <slot>Childhood</slot>
+        <spawnCategories>
+            <li>FCP_Character_Backstory_Quinlan_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>5</Intellectual>
+            <Artistic>2</Artistic>
+        </skillGains>
+        <workDisables>
+            <li>ManualDumb</li>
+        </workDisables>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>FCP_Character_Backstory_Quinlan_Adult</defName>
+        <title>Head Scribe</title>
+        <titleShort>Proctor</titleShort>
+        <baseDesc>[PAWN_nameDef] leads the Brotherhood's Scribe division, managing all research and intelligence operations. [PAWN_pronoun] processes field reports, maintains archives, and coordinates technical support for military operations. [PAWN_possessive] encyclopedic knowledge makes [PAWN_objective] invaluable to the Brotherhood's mission.</baseDesc>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <slot>Adulthood</slot>
+        <spawnCategories>
+            <li>FCP_Character_Backstory_Quinlan_Adult</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>8</Intellectual>
+            <Artistic>3</Artistic>
+            <Social>3</Social>
+        </skillGains>
+        <workDisables>
+            <li>ManualDumb</li>
+        </workDisables>
+    </BackstoryDef>
+
+    <!--_____ Proctor Teagan _____-->
+
+    <BackstoryDef>
+        <defName>FCP_Character_Backstory_Teagan_Child</defName>
+        <title>Supply Counter</title>
+        <titleShort>Counter</titleShort>
+        <baseDesc>[PAWN_nameDef] learned logistics and resource management from a young age. [PAWN_pronoun] tracked supplies, managed inventories, and developed an understanding of what the Brotherhood needed to survive and thrive.</baseDesc>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Male</bodyTypeFemale>
+        <slot>Childhood</slot>
+        <spawnCategories>
+            <li>FCP_Character_Backstory_Teagan_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>3</Intellectual>
+            <Social>3</Social>
+        </skillGains>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>FCP_Character_Backstory_Teagan_Adult</defName>
+        <title>Quartermaster</title>
+        <titleShort>Quartermaster</titleShort>
+        <baseDesc>[PAWN_nameDef] manages the Brotherhood's supply operations as head quartermaster. [PAWN_pronoun] acquires resources through trade, requisition, and occasionally morally questionable means. [PAWN_pronoun] believes the Brotherhood's mission justifies any method of securing needed supplies.</baseDesc>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Male</bodyTypeFemale>
+        <slot>Adulthood</slot>
+        <spawnCategories>
+            <li>FCP_Character_Backstory_Teagan_Adult</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>5</Intellectual>
+            <Social>6</Social>
+            <Crafting>2</Crafting>
+        </skillGains>
+    </BackstoryDef>
+
+</Defs>

@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <!--========== Lost Hills Brotherhood of Steel Character Backstories ==========-->
+
+    <!--_____ Head Paladin Rhombus _____-->
+
+    <BackstoryDef>
+        <defName>FCP_Character_Backstory_Rhombus_Child</defName>
+        <title>Wasteland Survivor</title>
+        <titleShort>Survivor</titleShort>
+        <baseDesc>[PAWN_nameDef] grew up in the harsh wasteland, learning to fight for survival from an early age. [PAWN_pronoun] witnessed the dangers of uncontrolled technology and lawless raiders, which shaped [PAWN_possessive] worldview. When the Brotherhood recruited [PAWN_objective], [PAWN_pronoun] found purpose in their disciplined military structure.</baseDesc>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Hulk</bodyTypeFemale>
+        <slot>Childhood</slot>
+        <spawnCategories>
+            <li>FCP_Character_Backstory_Rhombus_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>3</Shooting>
+            <Melee>4</Melee>
+            <Construction>1</Construction>
+        </skillGains>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>FCP_Character_Backstory_Rhombus_Adult</defName>
+        <title>Head Paladin</title>
+        <titleShort>Head Paladin</titleShort>
+        <baseDesc>[PAWN_nameDef] became the Brotherhood's Head Paladin, commanding all military operations. [PAWN_pronoun] is known for [PAWN_possessive] strict interpretation of the Codex and unwavering dedication to the Brotherhood's isolationist policies. [PAWN_pronoun] believes outsiders are dangerous and that the Brotherhood must remain pure and separate from the wasteland's chaos.</baseDesc>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Hulk</bodyTypeFemale>
+        <slot>Adulthood</slot>
+        <spawnCategories>
+            <li>FCP_Character_Backstory_Rhombus_Adult</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>6</Shooting>
+            <Melee>7</Melee>
+            <Social>2</Social>
+        </skillGains>
+        <forcedTraits>
+            <Tough>0</Tough>
+        </forcedTraits>
+    </BackstoryDef>
+
+    <!--_____ Head Scribe Vree _____-->
+
+    <BackstoryDef>
+        <defName>FCP_Character_Backstory_Vree_Child</defName>
+        <title>Scholar's Apprentice</title>
+        <titleShort>Apprentice</titleShort>
+        <baseDesc>[PAWN_nameDef] showed exceptional intellectual aptitude from a young age. [PAWN_pronoun] was fascinated by pre-war technology and spent countless hours in the Brotherhood's archives, reading everything [PAWN_pronoun] could find. The elder scribes recognized [PAWN_possessive] potential and provided advanced training in scientific methods and technological analysis.</baseDesc>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <slot>Childhood</slot>
+        <spawnCategories>
+            <li>FCP_Character_Backstory_Vree_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>5</Intellectual>
+            <Crafting>2</Crafting>
+        </skillGains>
+        <workDisables>
+            <li>ManualDumb</li>
+        </workDisables>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>FCP_Character_Backstory_Vree_Adult</defName>
+        <title>Head Scribe</title>
+        <titleShort>Head Scribe</titleShort>
+        <baseDesc>[PAWN_nameDef] became the Brotherhood's Head Scribe, leading all research and documentation efforts. [PAWN_pronoun] conducted groundbreaking research on super mutants and wrote detailed reports on [PAWN_possessive] findings. [PAWN_possessive] work is meticulous and [PAWN_pronoun] believes knowledge and understanding are the Brotherhood's greatest weapons.</baseDesc>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <slot>Adulthood</slot>
+        <spawnCategories>
+            <li>FCP_Character_Backstory_Vree_Adult</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>8</Intellectual>
+            <Crafting>4</Crafting>
+            <Medicine>3</Medicine>
+        </skillGains>
+        <forcedTraits>
+            <Industriousness>1</Industriousness>
+        </forcedTraits>
+        <workDisables>
+            <li>ManualDumb</li>
+        </workDisables>
+    </BackstoryDef>
+
+    <!--_____ Scribe Cabbot _____-->
+
+    <BackstoryDef>
+        <defName>FCP_Character_Backstory_Cabbot_Child</defName>
+        <title>Library Helper</title>
+        <titleShort>Helper</titleShort>
+        <baseDesc>[PAWN_nameDef] grew up surrounded by books and holotapes in the Brotherhood's extensive library. [PAWN_pronoun] helped organize and catalog materials from an early age, developing a deep appreciation for the preservation of knowledge. [PAWN_pronoun] learned to read multiple pre-war languages and became skilled at deciphering damaged texts.</baseDesc>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <slot>Childhood</slot>
+        <spawnCategories>
+            <li>FCP_Character_Backstory_Cabbot_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>4</Intellectual>
+            <Artistic>2</Artistic>
+        </skillGains>
+        <workDisables>
+            <li>ManualDumb</li>
+        </workDisables>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>FCP_Character_Backstory_Cabbot_Adult</defName>
+        <title>Master Librarian</title>
+        <titleShort>Librarian</titleShort>
+        <baseDesc>[PAWN_nameDef] became the chief librarian at Lost Hills, managing the Brotherhood's vast collection of pre-war knowledge. [PAWN_pronoun] is the go-to expert for finding specific information and has memorized the location of thousands of documents. [PAWN_pronoun] takes great pride in helping others access the information they need.</baseDesc>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <slot>Adulthood</slot>
+        <spawnCategories>
+            <li>FCP_Character_Backstory_Cabbot_Adult</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>6</Intellectual>
+            <Artistic>3</Artistic>
+            <Social>2</Social>
+        </skillGains>
+        <workDisables>
+            <li>ManualDumb</li>
+        </workDisables>
+    </BackstoryDef>
+
+    <!--_____ Paladin Mathia _____-->
+
+    <BackstoryDef>
+        <defName>FCP_Character_Backstory_Mathia_Child</defName>
+        <title>Military Brat</title>
+        <titleShort>Military Kid</titleShort>
+        <baseDesc>[PAWN_nameDef] was born into a Brotherhood military family and raised with strict discipline. [PAWN_pronoun] trained in combat from childhood, learning to handle weapons and wear power armor. [PAWN_pronoun] excelled in physical training and showed natural leadership abilities that impressed [PAWN_possessive] instructors.</baseDesc>
+        <bodyTypeMale>Female</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <slot>Childhood</slot>
+        <spawnCategories>
+            <li>FCP_Character_Backstory_Mathia_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>3</Shooting>
+            <Melee>3</Melee>
+            <Social>1</Social>
+        </skillGains>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>FCP_Character_Backstory_Mathia_Adult</defName>
+        <title>Brotherhood Paladin</title>
+        <titleShort>Paladin</titleShort>
+        <baseDesc>[PAWN_nameDef] earned the rank of Paladin through dedication and combat prowess. [PAWN_pronoun] serves as a guard within Lost Hills and participates in field operations when needed. [PAWN_pronoun] is respected by [PAWN_possessive] peers for [PAWN_possessive] reliability and commitment to the Brotherhood's mission.</baseDesc>
+        <bodyTypeMale>Female</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <slot>Adulthood</slot>
+        <spawnCategories>
+            <li>FCP_Character_Backstory_Mathia_Adult</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>5</Shooting>
+            <Melee>5</Melee>
+            <Social>2</Social>
+        </skillGains>
+    </BackstoryDef>
+
+    <!--_____ Initiate Michael _____-->
+
+    <BackstoryDef>
+        <defName>FCP_Character_Backstory_Michael_Child</defName>
+        <title>Brotherhood Recruit</title>
+        <titleShort>Recruit</titleShort>
+        <baseDesc>[PAWN_nameDef] was recruited into the Brotherhood as a young child after showing promise. [PAWN_pronoun] underwent basic training and education, learning the Brotherhood's values and principles. [PAWN_pronoun] worked hard to prove [PAWN_pronoun] belonged, eager to advance through the ranks and serve the organization.</baseDesc>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Male</bodyTypeFemale>
+        <slot>Childhood</slot>
+        <spawnCategories>
+            <li>FCP_Character_Backstory_Michael_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>2</Shooting>
+            <Melee>2</Melee>
+            <Construction>2</Construction>
+        </skillGains>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>FCP_Character_Backstory_Michael_Adult</defName>
+        <title>Gate Guardian</title>
+        <titleShort>Guardian</titleShort>
+        <baseDesc>[PAWN_nameDef] serves as an Initiate guarding the entrance to Lost Hills. [PAWN_pronoun] is responsible for screening visitors and protecting the base from threats. Though still low in rank, [PAWN_pronoun] takes [PAWN_possessive] duties seriously and dreams of one day becoming a full Paladin.</baseDesc>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Male</bodyTypeFemale>
+        <slot>Adulthood</slot>
+        <spawnCategories>
+            <li>FCP_Character_Backstory_Michael_Adult</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>4</Shooting>
+            <Melee>3</Melee>
+            <Construction>2</Construction>
+        </skillGains>
+    </BackstoryDef>
+
+    <!--_____ Paladin Talus _____-->
+
+    <BackstoryDef>
+        <defName>FCP_Character_Backstory_Talus_Child</defName>
+        <title>Security Detail</title>
+        <titleShort>Security</titleShort>
+        <baseDesc>[PAWN_nameDef] grew up learning the importance of vigilance and protection. [PAWN_pronoun] was trained to identify threats and respond quickly to danger. [PAWN_possessive] instructors noted [PAWN_possessive] sharp reflexes and ability to remain calm under pressure.</baseDesc>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Male</bodyTypeFemale>
+        <slot>Childhood</slot>
+        <spawnCategories>
+            <li>FCP_Character_Backstory_Talus_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>3</Shooting>
+            <Melee>2</Melee>
+        </skillGains>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>FCP_Character_Backstory_Talus_Adult</defName>
+        <title>Entrance Paladin</title>
+        <titleShort>Paladin</titleShort>
+        <baseDesc>[PAWN_nameDef] earned the rank of Paladin and was assigned to guard the entrance to Lost Hills alongside other defenders. [PAWN_pronoun] has proven [PAWN_objective]self in combat and is trusted to be the first line of defense against any threats to the Brotherhood's primary base.</baseDesc>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Male</bodyTypeFemale>
+        <slot>Adulthood</slot>
+        <spawnCategories>
+            <li>FCP_Character_Backstory_Talus_Adult</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>5</Shooting>
+            <Melee>4</Melee>
+            <Social>1</Social>
+        </skillGains>
+    </BackstoryDef>
+
+    <!--_____ Senior Paladin Matthew _____-->
+
+    <BackstoryDef>
+        <defName>FCP_Character_Backstory_Matthew_Child</defName>
+        <title>West Coast Wanderer</title>
+        <titleShort>Wanderer</titleShort>
+        <baseDesc>[PAWN_nameDef] spent [PAWN_possessive] youth traveling the West Coast with [PAWN_possessive] Brotherhood family. [PAWN_pronoun] learned about the various settlements and factions, developing an understanding of the wasteland beyond Lost Hills. This experience gave [PAWN_objective] a broader perspective than many Brotherhood members.</baseDesc>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Male</bodyTypeFemale>
+        <slot>Childhood</slot>
+        <spawnCategories>
+            <li>FCP_Character_Backstory_Matthew_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>2</Shooting>
+            <Social>3</Social>
+        </skillGains>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>FCP_Character_Backstory_Matthew_Adult</defName>
+        <title>Senior Paladin</title>
+        <titleShort>Senior Paladin</titleShort>
+        <baseDesc>[PAWN_nameDef] rose to the rank of Senior Paladin and was assigned to the Brotherhood outpost in San Francisco. [PAWN_pronoun] helps maintain Brotherhood interests on the frontier while keeping contact with Lost Hills. [PAWN_possessive] experience and rank make [PAWN_objective] a valuable asset to the organization.</baseDesc>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Male</bodyTypeFemale>
+        <slot>Adulthood</slot>
+        <spawnCategories>
+            <li>FCP_Character_Backstory_Matthew_Adult</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>6</Shooting>
+            <Melee>4</Melee>
+            <Social>4</Social>
+        </skillGains>
+    </BackstoryDef>
+
+    <!--_____ Scribe Lorraine _____-->
+
+    <BackstoryDef>
+        <defName>FCP_Character_Backstory_Lorraine_Child</defName>
+        <title>Technical Prodigy</title>
+        <titleShort>Prodigy</titleShort>
+        <baseDesc>[PAWN_nameDef] showed exceptional technical aptitude from a young age. [PAWN_pronoun] could disassemble and repair complex devices with ease, impressing the Brotherhood's scribes. [PAWN_pronoun] received specialized training in technology and recruitment assessment.</baseDesc>
+        <bodyTypeMale>Female</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <slot>Childhood</slot>
+        <spawnCategories>
+            <li>FCP_Character_Backstory_Lorraine_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>4</Intellectual>
+            <Crafting>3</Crafting>
+        </skillGains>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>FCP_Character_Backstory_Lorraine_Adult</defName>
+        <title>Recruitment Officer</title>
+        <titleShort>Recruiter</titleShort>
+        <baseDesc>[PAWN_nameDef] serves as a Scribe in the Brotherhood's San Francisco outpost, focusing on recruitment efforts. [PAWN_pronoun] evaluates potential recruits and determines if they have the skills and dedication the Brotherhood needs. [PAWN_possessive] assessment abilities have brought many valuable members into the organization.</baseDesc>
+        <bodyTypeMale>Female</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <slot>Adulthood</slot>
+        <spawnCategories>
+            <li>FCP_Character_Backstory_Lorraine_Adult</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>5</Intellectual>
+            <Crafting>4</Crafting>
+            <Social>4</Social>
+        </skillGains>
+    </BackstoryDef>
+
+</Defs>

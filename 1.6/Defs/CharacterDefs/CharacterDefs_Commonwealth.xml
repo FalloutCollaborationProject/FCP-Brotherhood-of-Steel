@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <!--__________ Fallout 4 Characters __________-->
+
+    <!--_____ Commonwealth Brotherhood of Steel _____-->
+
+    <!-- Elder Arthur Maxson -->
+
+    <FCP.Core.CharacterDef>
+        <defName>FCP_Character_BoS_Elder_Arthur_Maxson</defName>
+        <pawnKind>FCP_Unique_Pawnkind_Elder_Arthur_Maxson</pawnKind>
+        <xenotype>Baseliner</xenotype>
+        <faction>FCP_Faction_BoS</faction>
+        <roles>
+        </roles>
+        <definitions>
+            <!-- Bio -->
+            <li Class="FCP.Core.CharacterStoryDefinition">
+                <firstName>Arthur</firstName>
+                <lastName>Maxson</lastName>
+                <nickname>Elder Maxson</nickname>
+                <gender>Male</gender>
+                <age>20</age>
+            </li>
+            <!-- Appearance -->
+            <li Class="FCP.Core.CharacterAppearanceDefinition">
+                <hairColor>(50, 40, 30)</hairColor>
+                <hairDef>FCP_Hair_Urban_Ranger</hairDef>
+                <beardDef>Full</beardDef>
+                <skinColorOverride>(195, 170, 145)</skinColorOverride>
+                <headTypeDef>Male_AverageNormal</headTypeDef>
+                <bodyTypeDef>Male</bodyTypeDef>
+            </li>
+        </definitions>
+    </FCP.Core.CharacterDef>
+
+    <!-- Paladin Danse -->
+
+    <FCP.Core.CharacterDef>
+        <defName>FCP_Character_BoS_Paladin_Danse</defName>
+        <pawnKind>FCP_Unique_Pawnkind_Paladin_Danse</pawnKind>
+        <xenotype>Baseliner</xenotype>
+        <faction>FCP_Faction_BoS</faction>
+        <roles>
+        </roles>
+        <definitions>
+            <!-- Bio -->
+            <li Class="FCP.Core.CharacterStoryDefinition">
+                <firstName />
+                <lastName>Danse</lastName>
+                <nickname>Paladin Danse</nickname>
+                <gender>Male</gender>
+                <age>32</age>
+            </li>
+            <!-- Appearance -->
+            <li Class="FCP.Core.CharacterAppearanceDefinition">
+                <hairColor>(70, 60, 50)</hairColor>
+                <hairDef>FCP_Hair_Pompadour</hairDef>
+                <beardDef>NoBeard</beardDef>
+                <skinColorOverride>(185, 160, 135)</skinColorOverride>
+                <headTypeDef>Male_AverageNormal</headTypeDef>
+                <bodyTypeDef>Male</bodyTypeDef>
+            </li>
+        </definitions>
+    </FCP.Core.CharacterDef>
+
+    <!-- Scribe Haylen -->
+
+    <FCP.Core.CharacterDef>
+        <defName>FCP_Character_BoS_Scribe_Haylen</defName>
+        <pawnKind>FCP_Unique_Pawnkind_Scribe_Haylen</pawnKind>
+        <xenotype>Baseliner</xenotype>
+        <faction>FCP_Faction_BoS</faction>
+        <roles>
+        </roles>
+        <definitions>
+            <!-- Bio -->
+            <li Class="FCP.Core.CharacterStoryDefinition">
+                <firstName />
+                <lastName>Haylen</lastName>
+                <nickname>Scribe Haylen</nickname>
+                <gender>Female</gender>
+                <age>28</age>
+            </li>
+            <!-- Appearance -->
+            <li Class="FCP.Core.CharacterAppearanceDefinition">
+                <hairColor>(90, 70, 50)</hairColor>
+                <hairDef>Wavy</hairDef>
+                <beardDef>NoBeard</beardDef>
+                <skinColorOverride>(200, 175, 150)</skinColorOverride>
+                <headTypeDef>Female_AverageNormal</headTypeDef>
+                <bodyTypeDef>Female</bodyTypeDef>
+            </li>
+        </definitions>
+    </FCP.Core.CharacterDef>
+
+    <!-- Knight Rhys -->
+
+    <FCP.Core.CharacterDef>
+        <defName>FCP_Character_BoS_Knight_Rhys</defName>
+        <pawnKind>FCP_Unique_Pawnkind_Knight_Rhys</pawnKind>
+        <xenotype>Baseliner</xenotype>
+        <faction>FCP_Faction_BoS</faction>
+        <roles>
+        </roles>
+        <definitions>
+            <!-- Bio -->
+            <li Class="FCP.Core.CharacterStoryDefinition">
+                <firstName />
+                <lastName>Rhys</lastName>
+                <nickname>Knight Rhys</nickname>
+                <gender>Male</gender>
+                <age>30</age>
+            </li>
+            <!-- Appearance -->
+            <li Class="FCP.Core.CharacterAppearanceDefinition">
+                <hairColor>(80, 70, 55)</hairColor>
+                <hairDef>FCP_Hair_Buzz_Cut</hairDef>
+                <beardDef>Goatee</beardDef>
+                <skinColorOverride>(190, 165, 140)</skinColorOverride>
+                <headTypeDef>Male_AverageNormal</headTypeDef>
+                <bodyTypeDef>Male</bodyTypeDef>
+            </li>
+        </definitions>
+    </FCP.Core.CharacterDef>
+
+    <!-- Proctor Ingram -->
+
+    <FCP.Core.CharacterDef>
+        <defName>FCP_Character_BoS_Proctor_Ingram</defName>
+        <pawnKind>FCP_Unique_Pawnkind_Proctor_Ingram</pawnKind>
+        <xenotype>Baseliner</xenotype>
+        <faction>FCP_Faction_BoS</faction>
+        <roles>
+        </roles>
+        <definitions>
+            <!-- Bio -->
+            <li Class="FCP.Core.CharacterStoryDefinition">
+                <firstName />
+                <lastName>Ingram</lastName>
+                <nickname>Proctor Ingram</nickname>
+                <gender>Female</gender>
+                <age>38</age>
+            </li>
+            <!-- Appearance -->
+            <li Class="FCP.Core.CharacterAppearanceDefinition">
+                <hairColor>(110, 100, 90)</hairColor>
+                <hairDef>Wavy</hairDef>
+                <beardDef>NoBeard</beardDef>
+                <skinColorOverride>(160, 135, 110)</skinColorOverride>
+                <headTypeDef>Female_AverageNormal</headTypeDef>
+                <bodyTypeDef>Female</bodyTypeDef>
+            </li>
+        </definitions>
+    </FCP.Core.CharacterDef>
+
+    <!-- Lancer Captain Kells -->
+
+    <FCP.Core.CharacterDef>
+        <defName>FCP_Character_BoS_Lancer_Captain_Kells</defName>
+        <pawnKind>FCP_Unique_Pawnkind_Lancer_Captain_Kells</pawnKind>
+        <xenotype>Baseliner</xenotype>
+        <faction>FCP_Faction_BoS</faction>
+        <roles>
+        </roles>
+        <definitions>
+            <!-- Bio -->
+            <li Class="FCP.Core.CharacterStoryDefinition">
+                <firstName />
+                <lastName>Kells</lastName>
+                <nickname>Captain Kells</nickname>
+                <gender>Male</gender>
+                <age>42</age>
+            </li>
+            <!-- Appearance -->
+            <li Class="FCP.Core.CharacterAppearanceDefinition">
+                <hairColor>(120, 110, 100)</hairColor>
+                <hairDef>Mop</hairDef>
+                <beardDef>Moustache</beardDef>
+                <skinColorOverride>(140, 110, 85)</skinColorOverride>
+                <headTypeDef>Male_AverageNormal</headTypeDef>
+                <bodyTypeDef>Male</bodyTypeDef>
+            </li>
+        </definitions>
+    </FCP.Core.CharacterDef>
+
+    <!-- Paladin Brandis -->
+
+    <FCP.Core.CharacterDef>
+        <defName>FCP_Character_BoS_Paladin_Brandis</defName>
+        <pawnKind>FCP_Unique_Pawnkind_Paladin_Brandis</pawnKind>
+        <xenotype>Baseliner</xenotype>
+        <faction>FCP_Faction_BoS</faction>
+        <roles>
+        </roles>
+        <definitions>
+            <!-- Bio -->
+            <li Class="FCP.Core.CharacterStoryDefinition">
+                <firstName />
+                <lastName>Brandis</lastName>
+                <nickname>Paladin Brandis</nickname>
+                <gender>Male</gender>
+                <age>45</age>
+            </li>
+            <!-- Appearance -->
+            <li Class="FCP.Core.CharacterAppearanceDefinition">
+                <hairColor>(130, 120, 110)</hairColor>
+                <hairDef>Messy</hairDef>
+                <beardDef>Full</beardDef>
+                <skinColorOverride>(180, 155, 130)</skinColorOverride>
+                <headTypeDef>Male_AverageNormal</headTypeDef>
+                <bodyTypeDef>Male</bodyTypeDef>
+            </li>
+        </definitions>
+    </FCP.Core.CharacterDef>
+
+    <!-- Knight-Captain Cade -->
+
+    <FCP.Core.CharacterDef>
+        <defName>FCP_Character_BoS_Knight_Captain_Cade</defName>
+        <pawnKind>FCP_Unique_Pawnkind_Knight_Captain_Cade</pawnKind>
+        <xenotype>Baseliner</xenotype>
+        <faction>FCP_Faction_BoS</faction>
+        <roles>
+        </roles>
+        <definitions>
+            <!-- Bio -->
+            <li Class="FCP.Core.CharacterStoryDefinition">
+                <firstName />
+                <lastName>Cade</lastName>
+                <nickname>Knight-Captain Cade</nickname>
+                <gender>Male</gender>
+                <age>52</age>
+            </li>
+            <!-- Appearance -->
+            <li Class="FCP.Core.CharacterAppearanceDefinition">
+                <hairColor>(140, 135, 130)</hairColor>
+                <hairDef>FCP_Hair_Balding</hairDef>
+                <beardDef>Goatee</beardDef>
+                <skinColorOverride>(200, 175, 150)</skinColorOverride>
+                <headTypeDef>Male_AverageNormal</headTypeDef>
+                <bodyTypeDef>Thin</bodyTypeDef>
+            </li>
+        </definitions>
+    </FCP.Core.CharacterDef>
+
+    <!-- Proctor Quinlan -->
+
+    <FCP.Core.CharacterDef>
+        <defName>FCP_Character_BoS_Proctor_Quinlan</defName>
+        <pawnKind>FCP_Unique_Pawnkind_Proctor_Quinlan</pawnKind>
+        <xenotype>Baseliner</xenotype>
+        <faction>FCP_Faction_BoS</faction>
+        <roles>
+        </roles>
+        <definitions>
+            <!-- Bio -->
+            <li Class="FCP.Core.CharacterStoryDefinition">
+                <firstName />
+                <lastName>Quinlan</lastName>
+                <nickname>Proctor Quinlan</nickname>
+                <gender>Male</gender>
+                <age>48</age>
+            </li>
+            <!-- Appearance -->
+            <li Class="FCP.Core.CharacterAppearanceDefinition">
+                <hairColor>(150, 145, 140)</hairColor>
+                <hairDef>FCP_Hair_Balding</hairDef>
+                <beardDef>Moustache</beardDef>
+                <skinColorOverride>(210, 185, 160)</skinColorOverride>
+                <headTypeDef>Male_AverageNormal</headTypeDef>
+                <bodyTypeDef>Thin</bodyTypeDef>
+            </li>
+        </definitions>
+    </FCP.Core.CharacterDef>
+
+    <!-- Proctor Teagan -->
+
+    <FCP.Core.CharacterDef>
+        <defName>FCP_Character_BoS_Proctor_Teagan</defName>
+        <pawnKind>FCP_Unique_Pawnkind_Proctor_Teagan</pawnKind>
+        <xenotype>Baseliner</xenotype>
+        <faction>FCP_Faction_BoS</faction>
+        <roles>
+        </roles>
+        <definitions>
+            <!-- Bio -->
+            <li Class="FCP.Core.CharacterStoryDefinition">
+                <firstName />
+                <lastName>Teagan</lastName>
+                <nickname>Proctor Teagan</nickname>
+                <gender>Male</gender>
+                <age>40</age>
+            </li>
+            <!-- Appearance -->
+            <li Class="FCP.Core.CharacterAppearanceDefinition">
+                <hairColor>(95, 80, 65)</hairColor>
+                <hairDef>Shaved</hairDef>
+                <beardDef>NoBeard</beardDef>
+                <skinColorOverride>(185, 160, 135)</skinColorOverride>
+                <headTypeDef>Male_AverageNormal</headTypeDef>
+                <bodyTypeDef>Male</bodyTypeDef>
+            </li>
+        </definitions>
+    </FCP.Core.CharacterDef>
+
+</Defs>

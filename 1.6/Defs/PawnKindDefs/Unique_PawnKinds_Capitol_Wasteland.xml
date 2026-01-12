@@ -1,0 +1,589 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <!--__________ Unique Fallout 3 PawnKinds __________-->
+
+    <!--_____ Lyons' Brotherhood of Steel _____-->
+
+    <!-- Elder Owyn Lyons -->
+    
+    <PawnKindDef ParentName="FCP_BoSkindBase">
+        <defName>FCP_Unique_Pawnkind_Elder_Owyn_Lyons</defName>
+        <label>Elder Owyn Lyons</label>
+        <defaultFactionDef>FCP_Faction_BoS_Lyons_Pride_Remnants</defaultFactionDef>
+        <factionLeader>true</factionLeader>
+        <combatPower>25</combatPower>
+        <itemQuality>Excellent</itemQuality>
+        <gearHealthRange>1.0~1.0</gearHealthRange>
+        <apparelRequired>
+            <li>FCP_Apparel_BoS_Elder_Robes</li>
+        </apparelRequired>
+        <apparelDisallowTags>
+            <li>FCP_Power_Armor_Helmet</li>
+            <li>FCP_Power_Armor</li>
+            <li>FCP_Power_Armor_Lyons</li>
+            <li>FCP_Power_Armor_Outcast</li>
+        </apparelDisallowTags>
+        <weaponMoney>500~800</weaponMoney>
+        <weaponTags>
+            <li MayRequire="Rick.FCP.EnergyWeapons">FCP_Laser_Weapon</li>
+        </weaponTags>
+        <initialWillRange>5~6</initialWillRange>
+        <initialResistanceRange>18~23</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Character_Backstory_Owyn_Lyons_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Character_Backstory_Owyn_Lyons_Adult</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <inventoryOptions>
+            <skipChance>0.0</skipChance>
+            <subOptionsChooseOne>
+                <li>
+                    <thingDef>FCP_Currency_BoS_Scrip</thingDef>
+                    <countRange>100~200</countRange>
+                </li>
+            </subOptionsChooseOne>
+        </inventoryOptions>
+    </PawnKindDef>
+
+    <!-- Sentinel Sarah Lyons -->
+    
+    <PawnKindDef ParentName="FCP_BoS_Lyons_PowerArmorBase">
+        <defName>FCP_Unique_Pawnkind_Sentinel_Sarah_Lyons</defName>
+        <label>Sentinel Sarah Lyons</label>
+        <defaultFactionDef>FCP_Faction_BoS_Lyons_Pride_Remnants</defaultFactionDef>
+        <combatPower>90</combatPower>
+        <itemQuality>Excellent</itemQuality>
+        <gearHealthRange>1.0~1.0</gearHealthRange>
+        <weaponMoney>1800~2500</weaponMoney>
+        <weaponTags>
+            <li MayRequire="Rick.FCP.EnergyWeapons">FCP_Heavy_Laser_Weapon</li>
+        </weaponTags>
+        <initialWillRange>5~6</initialWillRange>
+        <initialResistanceRange>25~35</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Character_Backstory_Sarah_Lyons_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Character_Backstory_Sarah_Lyons_Adult</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <inventoryOptions>
+            <skipChance>0.0</skipChance>
+            <subOptionsChooseOne>
+                <li>
+                    <thingDef>FCP_Currency_BoS_Scrip</thingDef>
+                    <countRange>80~150</countRange>
+                </li>
+                <li>
+                    <thingDef>MealSurvivalPack</thingDef>
+                    <countRange>3~5</countRange>
+                </li>
+                <li>
+                    <thingDef>MedicineIndustrial</thingDef>
+                    <countRange>2~4</countRange>
+                </li>
+            </subOptionsChooseOne>
+        </inventoryOptions>
+    </PawnKindDef>
+
+    <!-- Star Paladin Cross -->
+    
+    <PawnKindDef ParentName="FCP_BoS_Lyons_PowerArmorBase">
+        <defName>FCP_Unique_Pawnkind_Star_Paladin_Cross</defName>
+        <label>Star Paladin Cross</label>
+        <defaultFactionDef>FCP_Faction_BoS_Lyons_Pride_Remnants</defaultFactionDef>
+        <combatPower>85</combatPower>
+        <itemQuality>Excellent</itemQuality>
+        <gearHealthRange>1.0~1.0</gearHealthRange>
+        <weaponMoney>1600~2200</weaponMoney>
+        <weaponTags>
+            <li MayRequire="Rick.FCP.EnergyWeapons">FCP_Laser_Weapon</li>
+        </weaponTags>
+        <initialWillRange>5~6</initialWillRange>
+        <initialResistanceRange>24~34</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Character_Backstory_Cross_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Character_Backstory_Cross_Adult</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <inventoryOptions>
+            <skipChance>0.0</skipChance>
+            <subOptionsChooseOne>
+                <li>
+                    <thingDef>FCP_Currency_BoS_Scrip</thingDef>
+                    <countRange>60~120</countRange>
+                </li>
+                <li>
+                    <thingDef>MealSurvivalPack</thingDef>
+                    <countRange>2~4</countRange>
+                </li>
+                <li>
+                    <thingDef>MedicineIndustrial</thingDef>
+                    <countRange>2~3</countRange>
+                </li>
+            </subOptionsChooseOne>
+        </inventoryOptions>
+    </PawnKindDef>
+
+    <!-- Paladin Gunny -->
+    
+    <PawnKindDef ParentName="FCP_BoS_Lyons_PowerArmorBase">
+        <defName>FCP_Unique_Pawnkind_Paladin_Gunny</defName>
+        <label>Paladin Gunny</label>
+        <defaultFactionDef>FCP_Faction_BoS_Lyons_Pride_Remnants</defaultFactionDef>
+        <combatPower>75</combatPower>
+        <itemQuality>Good</itemQuality>
+        <gearHealthRange>0.9~1.0</gearHealthRange>
+        <weaponMoney>1400~2000</weaponMoney>
+        <weaponTags>
+            <li MayRequire="Rick.FCP.EnergyWeapons">FCP_Laser_Weapon</li>
+        </weaponTags>
+        <initialWillRange>4~5</initialWillRange>
+        <initialResistanceRange>21~30</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Character_Backstory_Gunny_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Character_Backstory_Gunny_Adult</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <inventoryOptions>
+            <skipChance>0.0</skipChance>
+            <subOptionsChooseOne>
+                <li>
+                    <thingDef>FCP_Currency_BoS_Scrip</thingDef>
+                    <countRange>50~100</countRange>
+                </li>
+                <li>
+                    <thingDef>MealSurvivalPack</thingDef>
+                    <countRange>2~3</countRange>
+                </li>
+            </subOptionsChooseOne>
+        </inventoryOptions>
+    </PawnKindDef>
+
+    <!-- Paladin Glade -->
+    
+    <PawnKindDef ParentName="FCP_BoS_Lyons_PowerArmorBase">
+        <defName>FCP_Unique_Pawnkind_Paladin_Glade</defName>
+        <label>Paladin Glade</label>
+        <defaultFactionDef>FCP_Faction_BoS_Lyons_Pride_Remnants</defaultFactionDef>
+        <combatPower>75</combatPower>
+        <itemQuality>Good</itemQuality>
+        <gearHealthRange>0.9~1.0</gearHealthRange>
+        <weaponMoney>1400~2000</weaponMoney>
+        <weaponTags>
+            <li MayRequire="Rick.FCP.EnergyWeapons">FCP_Laser_Weapon</li>
+        </weaponTags>
+        <initialWillRange>4~5</initialWillRange>
+        <initialResistanceRange>20~29</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Character_Backstory_Glade_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Character_Backstory_Glade_Adult</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <inventoryOptions>
+            <skipChance>0.0</skipChance>
+            <subOptionsChooseOne>
+                <li>
+                    <thingDef>FCP_Currency_BoS_Scrip</thingDef>
+                    <countRange>50~100</countRange>
+                </li>
+                <li>
+                    <thingDef>MealSurvivalPack</thingDef>
+                    <countRange>2~3</countRange>
+                </li>
+            </subOptionsChooseOne>
+        </inventoryOptions>
+    </PawnKindDef>
+
+    <!-- Paladin Kodiak -->
+    
+    <PawnKindDef ParentName="FCP_BoS_Lyons_PowerArmorBase">
+        <defName>FCP_Unique_Pawnkind_Paladin_Kodiak</defName>
+        <label>Paladin Kodiak</label>
+        <defaultFactionDef>FCP_Faction_BoS_Lyons_Pride_Remnants</defaultFactionDef>
+        <combatPower>78</combatPower>
+        <itemQuality>Good</itemQuality>
+        <gearHealthRange>0.9~1.0</gearHealthRange>
+        <weaponMoney>1500~2100</weaponMoney>
+        <weaponTags>
+            <li MayRequire="Rick.FCP.EnergyWeapons">FCP_Heavy_Laser_Weapon</li>
+        </weaponTags>
+        <initialWillRange>4~5</initialWillRange>
+        <initialResistanceRange>21~31</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Character_Backstory_Kodiak_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Character_Backstory_Kodiak_Adult</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <inventoryOptions>
+            <skipChance>0.0</skipChance>
+            <subOptionsChooseOne>
+                <li>
+                    <thingDef>FCP_Currency_BoS_Scrip</thingDef>
+                    <countRange>50~100</countRange>
+                </li>
+                <li>
+                    <thingDef>MealSurvivalPack</thingDef>
+                    <countRange>2~3</countRange>
+                </li>
+            </subOptionsChooseOne>
+        </inventoryOptions>
+    </PawnKindDef>
+
+    <!-- Knight Captain Gallows -->
+    
+    <PawnKindDef ParentName="FCP_BoSkindBase">
+        <defName>FCP_Unique_Pawnkind_Knight_Captain_Gallows</defName>
+        <label>Knight Captain Gallows</label>
+        <defaultFactionDef>FCP_Faction_BoS_Lyons_Pride_Remnants</defaultFactionDef>
+        <combatPower>65</combatPower>
+        <itemQuality>Good</itemQuality>
+        <gearHealthRange>0.8~1.0</gearHealthRange>
+        <weaponMoney>1200~1600</weaponMoney>
+        <weaponTags>
+            <li MayRequire="Rick.FCP.EnergyWeapons">FCP_Laser_Weapon</li>
+        </weaponTags>
+        <apparelRequired>
+            <li>FCP_Apparel_BoS_Recon_Hood</li>
+            <li>FCP_Apparel_BoS_Recon_Armor</li>
+        </apparelRequired>
+        <apparelDisallowTags>
+            <li>FCP_Power_Armor_Helmet</li>
+            <li>FCP_Power_Armor</li>
+            <li>FCP_Power_Armor_Lyons</li>
+            <li>FCP_Power_Armor_Outcast</li>
+        </apparelDisallowTags>
+        <specificApparelRequirements>
+            <li>
+                <bodyPartGroup>Torso</bodyPartGroup>
+                <apparelLayer>Shell</apparelLayer>
+                <stuff>Plasteel</stuff>
+            </li>
+        </specificApparelRequirements>
+        <initialWillRange>3~5</initialWillRange>
+        <initialResistanceRange>18~26</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Character_Backstory_Gallows_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Character_Backstory_Gallows_Adult</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <inventoryOptions>
+            <skipChance>0.0</skipChance>
+            <subOptionsChooseOne>
+                <li>
+                    <thingDef>FCP_Currency_BoS_Scrip</thingDef>
+                    <countRange>40~80</countRange>
+                </li>
+                <li>
+                    <thingDef>MealSurvivalPack</thingDef>
+                    <countRange>2~3</countRange>
+                </li>
+            </subOptionsChooseOne>
+        </inventoryOptions>
+    </PawnKindDef>
+
+    <!-- Knight Captain Dusk -->
+    
+    <PawnKindDef ParentName="FCP_BoSkindBase">
+        <defName>FCP_Unique_Pawnkind_Knight_Captain_Dusk</defName>
+        <label>Knight Captain Dusk</label>
+        <defaultFactionDef>FCP_Faction_BoS_Lyons_Pride_Remnants</defaultFactionDef>
+        <combatPower>65</combatPower>
+        <itemQuality>Good</itemQuality>
+        <gearHealthRange>0.8~1.0</gearHealthRange>
+        <weaponMoney>1200~1600</weaponMoney>
+        <weaponTags>
+            <li MayRequire="Rick.FCP.EnergyWeapons">FCP_Laser_Weapon</li>
+        </weaponTags>
+        <apparelRequired>
+            <li>FCP_Apparel_BoS_Recon_Hood</li>
+            <li>FCP_Apparel_BoS_Recon_Armor</li>
+        </apparelRequired>
+        <apparelDisallowTags>
+            <li>FCP_Power_Armor_Helmet</li>
+            <li>FCP_Power_Armor</li>
+            <li>FCP_Power_Armor_Lyons</li>
+            <li>FCP_Power_Armor_Outcast</li>
+        </apparelDisallowTags>
+        <specificApparelRequirements>
+            <li>
+                <bodyPartGroup>Torso</bodyPartGroup>
+                <apparelLayer>Shell</apparelLayer>
+                <stuff>Plasteel</stuff>
+            </li>
+        </specificApparelRequirements>
+        <initialWillRange>3~5</initialWillRange>
+        <initialResistanceRange>17~25</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Character_Backstory_Dusk_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Character_Backstory_Dusk_Adult</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <inventoryOptions>
+            <skipChance>0.0</skipChance>
+            <subOptionsChooseOne>
+                <li>
+                    <thingDef>FCP_Currency_BoS_Scrip</thingDef>
+                    <countRange>40~80</countRange>
+                </li>
+                <li>
+                    <thingDef>MealSurvivalPack</thingDef>
+                    <countRange>2~3</countRange>
+                </li>
+            </subOptionsChooseOne>
+        </inventoryOptions>
+    </PawnKindDef>
+
+    <!-- Scribe Rothchild -->
+    
+    <PawnKindDef ParentName="FCP_BoSkindBase">
+        <defName>FCP_Unique_Pawnkind_Scribe_Rothchild</defName>
+        <label>Scribe Rothchild</label>
+        <defaultFactionDef>FCP_Faction_BoS_Lyons_Pride_Remnants</defaultFactionDef>
+        <combatPower>35</combatPower>
+        <itemQuality>Good</itemQuality>
+        <gearHealthRange>0.7~1.0</gearHealthRange>
+        <weaponMoney>800~1200</weaponMoney>
+        <weaponTags>
+            <li MayRequire="Rick.FCP.EnergyWeapons">FCP_Laser_Weapon</li>
+        </weaponTags>
+        <apparelRequired>
+            <li>FCP_Apparel_BoS_Scribe_Robes</li>
+        </apparelRequired>
+        <apparelDisallowTags>
+            <li>FCP_Power_Armor_Helmet</li>
+            <li>FCP_Power_Armor</li>
+            <li>FCP_Power_Armor_Lyons</li>
+            <li>FCP_Power_Armor_Outcast</li>
+        </apparelDisallowTags>
+        <initialWillRange>2~4</initialWillRange>
+        <initialResistanceRange>14~20</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Character_Backstory_Rothchild_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Character_Backstory_Rothchild_Adult</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <inventoryOptions>
+            <skipChance>0.0</skipChance>
+            <subOptionsChooseOne>
+                <li>
+                    <thingDef>FCP_Currency_BoS_Scrip</thingDef>
+                    <countRange>30~60</countRange>
+                </li>
+            </subOptionsChooseOne>
+        </inventoryOptions>
+    </PawnKindDef>
+
+    <!--_____ Brotherhood Outcasts _____-->
+
+    <!-- Protector Casdin -->
+    
+    <PawnKindDef ParentName="FCP_BoS_Outcast_PowerArmorBase">
+        <defName>FCP_Unique_Pawnkind_Protector_Casdin</defName>
+        <label>Protector Casdin</label>
+        <defaultFactionDef>FCP_Faction_BoS_Outcast_Remnants</defaultFactionDef>
+        <factionLeader>true</factionLeader>
+        <combatPower>85</combatPower>
+        <itemQuality>Excellent</itemQuality>
+        <gearHealthRange>1.0~1.0</gearHealthRange>
+        <weaponMoney>1800~2400</weaponMoney>
+        <weaponTags>
+            <li MayRequire="Rick.FCP.EnergyWeapons">FCP_Laser_Weapon</li>
+        </weaponTags>
+        <initialWillRange>5~6</initialWillRange>
+        <initialResistanceRange>24~34</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Character_Backstory_Casdin_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Character_Backstory_Casdin_Adult</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <inventoryOptions>
+            <skipChance>0.0</skipChance>
+            <subOptionsChooseOne>
+                <li>
+                    <thingDef>FCP_Currency_BoS_Scrip</thingDef>
+                    <countRange>100~200</countRange>
+                </li>
+                <li>
+                    <thingDef>MealSurvivalPack</thingDef>
+                    <countRange>3~5</countRange>
+                </li>
+            </subOptionsChooseOne>
+        </inventoryOptions>
+    </PawnKindDef>
+
+    <!-- Defender Sibley -->
+    
+    <PawnKindDef ParentName="FCP_BoS_Outcast_PowerArmorBase">
+        <defName>FCP_Unique_Pawnkind_Defender_Sibley</defName>
+        <label>Defender Sibley</label>
+        <defaultFactionDef>FCP_Faction_BoS_Outcast_Remnants</defaultFactionDef>
+        <combatPower>70</combatPower>
+        <itemQuality>Good</itemQuality>
+        <gearHealthRange>0.9~1.0</gearHealthRange>
+        <weaponMoney>1400~1900</weaponMoney>
+        <weaponTags>
+            <li MayRequire="Rick.FCP.EnergyWeapons">FCP_Laser_Weapon</li>
+        </weaponTags>
+        <initialWillRange>3~5</initialWillRange>
+        <initialResistanceRange>19~28</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Character_Backstory_Sibley_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Character_Backstory_Sibley_Adult</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <inventoryOptions>
+            <skipChance>0.0</skipChance>
+            <subOptionsChooseOne>
+                <li>
+                    <thingDef>FCP_Currency_BoS_Scrip</thingDef>
+                    <countRange>50~100</countRange>
+                </li>
+                <li>
+                    <thingDef>MealSurvivalPack</thingDef>
+                    <countRange>2~3</countRange>
+                </li>
+            </subOptionsChooseOne>
+        </inventoryOptions>
+    </PawnKindDef>
+
+    <!-- Specialist Olin -->
+    
+    <PawnKindDef ParentName="FCP_BoSkindBase">
+        <defName>FCP_Unique_Pawnkind_Specialist_Olin</defName>
+        <label>Specialist Olin</label>
+        <defaultFactionDef>FCP_Faction_BoS_Outcast_Remnants</defaultFactionDef>
+        <combatPower>50</combatPower>
+        <itemQuality>Good</itemQuality>
+        <gearHealthRange>0.8~1.0</gearHealthRange>
+        <weaponMoney>1000~1400</weaponMoney>
+        <weaponTags>
+            <li MayRequire="Rick.FCP.EnergyWeapons">FCP_Laser_Weapon</li>
+        </weaponTags>
+        <apparelRequired>
+            <li>FCP_Apparel_BoS_Outcast_Scribe_Robes</li>
+        </apparelRequired>
+        <apparelDisallowTags>
+            <li>FCP_Power_Armor_Helmet</li>
+            <li>FCP_Power_Armor</li>
+            <li>FCP_Power_Armor_Lyons</li>
+            <li>FCP_Power_Armor_Outcast</li>
+        </apparelDisallowTags>
+        <initialWillRange>2~4</initialWillRange>
+        <initialResistanceRange>15~22</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Character_Backstory_Olin_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Character_Backstory_Olin_Adult</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <inventoryOptions>
+            <skipChance>0.0</skipChance>
+            <subOptionsChooseOne>
+                <li>
+                    <thingDef>FCP_Currency_BoS_Scrip</thingDef>
+                    <countRange>40~80</countRange>
+                </li>
+            </subOptionsChooseOne>
+        </inventoryOptions>
+    </PawnKindDef>
+
+    <!-- Protector McGraw -->
+    
+    <PawnKindDef ParentName="FCP_BoS_Outcast_PowerArmorBase">
+        <defName>FCP_Unique_Pawnkind_Protector_McGraw</defName>
+        <label>Protector McGraw</label>
+        <defaultFactionDef>FCP_Faction_BoS_Outcast_Remnants</defaultFactionDef>
+        <combatPower>75</combatPower>
+        <itemQuality>Good</itemQuality>
+        <gearHealthRange>0.9~1.0</gearHealthRange>
+        <weaponMoney>1500~2000</weaponMoney>
+        <weaponTags>
+            <li MayRequire="Rick.FCP.EnergyWeapons">FCP_Heavy_Laser_Weapon</li>
+        </weaponTags>
+        <initialWillRange>4~5</initialWillRange>
+        <initialResistanceRange>20~29</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Character_Backstory_McGraw_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Character_Backstory_McGraw_Adult</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <inventoryOptions>
+            <skipChance>0.0</skipChance>
+            <subOptionsChooseOne>
+                <li>
+                    <thingDef>FCP_Currency_BoS_Scrip</thingDef>
+                    <countRange>50~100</countRange>
+                </li>
+                <li>
+                    <thingDef>MealSurvivalPack</thingDef>
+                    <countRange>2~3</countRange>
+                </li>
+            </subOptionsChooseOne>
+        </inventoryOptions>
+    </PawnKindDef>
+
+</Defs>

@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <!--__________ Fallout 3 Characters __________-->
+
+    <!--_____ Lyons' Brotherhood of Steel _____-->
+
+    <!-- Elder Owyn Lyons -->
+
+    <FCP.Core.CharacterDef>
+        <defName>FCP_Character_Lyons_Elder_Owyn_Lyons</defName>
+        <pawnKind>FCP_Unique_Pawnkind_Elder_Owyn_Lyons</pawnKind>
+        <xenotype>Baseliner</xenotype>
+        <faction>FCP_Faction_BoS_Lyons_Pride_Remnants</faction>
+        <roles>
+        </roles>
+        <definitions>
+            <!-- Bio -->
+            <li Class="FCP.Core.CharacterStoryDefinition">
+                <firstName>Owyn</firstName>
+                <lastName>Lyons</lastName>
+                <nickname>Elder Lyons</nickname>
+                <gender>Male</gender>
+                <age>75</age>
+            </li>
+            <!-- Appearance -->
+            <li Class="FCP.Core.CharacterAppearanceDefinition">
+                <hairColor>(200, 200, 200)</hairColor>
+                <hairDef>FCP_Hair_Balding</hairDef>
+                <beardDef>Bushy</beardDef>
+                <skinColorOverride>(220, 195, 170)</skinColorOverride>
+                <headTypeDef>Male_AverageNormal</headTypeDef>
+                <bodyTypeDef>Male</bodyTypeDef>
+            </li>
+        </definitions>
+    </FCP.Core.CharacterDef>
+
+    <!-- Sentinel Sarah Lyons -->
+
+    <FCP.Core.CharacterDef>
+        <defName>FCP_Character_Lyons_Sentinel_Sarah_Lyons</defName>
+        <pawnKind>FCP_Unique_Pawnkind_Sentinel_Sarah_Lyons</pawnKind>
+        <xenotype>Baseliner</xenotype>
+        <faction>FCP_Faction_BoS_Lyons_Pride_Remnants</faction>
+        <roles>
+        </roles>
+        <definitions>
+            <!-- Bio -->
+            <li Class="FCP.Core.CharacterStoryDefinition">
+                <firstName>Sarah</firstName>
+                <lastName>Lyons</lastName>
+                <nickname>Sentinel Lyons</nickname>
+                <gender>Female</gender>
+                <age>28</age>
+            </li>
+            <!-- Appearance -->
+            <li Class="FCP.Core.CharacterAppearanceDefinition">
+                <hairColor>(100, 70, 50)</hairColor>
+                <hairDef>Bob</hairDef>
+                <beardDef>NoBeard</beardDef>
+                <skinColorOverride>(230, 200, 175)</skinColorOverride>
+                <headTypeDef>Female_AverageNormal</headTypeDef>
+                <bodyTypeDef>Female</bodyTypeDef>
+            </li>
+        </definitions>
+    </FCP.Core.CharacterDef>
+
+    <!-- Star Paladin Cross -->
+
+    <FCP.Core.CharacterDef>
+        <defName>FCP_Character_Lyons_Star_Paladin_Cross</defName>
+        <pawnKind>FCP_Unique_Pawnkind_Star_Paladin_Cross</pawnKind>
+        <xenotype>Baseliner</xenotype>
+        <faction>FCP_Faction_BoS_Lyons_Pride_Remnants</faction>
+        <roles>
+        </roles>
+        <definitions>
+            <!-- Bio -->
+            <li Class="FCP.Core.CharacterStoryDefinition">
+                <firstName />
+                <lastName>Cross</lastName>
+                <nickname>Star Paladin Cross</nickname>
+                <gender>Female</gender>
+                <age>60</age>
+            </li>
+            <!-- Appearance -->
+            <li Class="FCP.Core.CharacterAppearanceDefinition">
+                <hairColor>(120, 120, 110)</hairColor>
+                <hairDef>FCP_Hair_Buzz_Cut</hairDef>
+                <beardDef>NoBeard</beardDef>
+                <skinColorOverride>(140, 105, 75)</skinColorOverride>
+                <headTypeDef>Female_AverageNormal</headTypeDef>
+                <bodyTypeDef>Female</bodyTypeDef>
+            </li>
+        </definitions>
+    </FCP.Core.CharacterDef>
+
+    <!-- Paladin Gunny -->
+
+    <FCP.Core.CharacterDef>
+        <defName>FCP_Character_Lyons_Paladin_Gunny</defName>
+        <pawnKind>FCP_Unique_Pawnkind_Paladin_Gunny</pawnKind>
+        <xenotype>Baseliner</xenotype>
+        <faction>FCP_Faction_BoS_Lyons_Pride_Remnants</faction>
+        <roles>
+        </roles>
+        <definitions>
+            <!-- Bio -->
+            <li Class="FCP.Core.CharacterStoryDefinition">
+                <firstName />
+                <lastName>Gunny</lastName>
+                <nickname>Paladin Gunny</nickname>
+                <gender>Male</gender>
+                <age>45</age>
+            </li>
+            <!-- Appearance -->
+            <li Class="FCP.Core.CharacterAppearanceDefinition">
+                <hairColor>(90, 70, 55)</hairColor>
+                <hairDef>FCP_Hair_Buzz_Cut</hairDef>
+                <beardDef>NoBeard</beardDef>
+                <skinColorOverride>(130, 100, 70)</skinColorOverride>
+                <headTypeDef>Male_AverageNormal</headTypeDef>
+                <bodyTypeDef>Male</bodyTypeDef>
+            </li>
+        </definitions>
+    </FCP.Core.CharacterDef>
+
+    <!-- Paladin Glade -->
+
+    <FCP.Core.CharacterDef>
+        <defName>FCP_Character_Lyons_Paladin_Glade</defName>
+        <pawnKind>FCP_Unique_Pawnkind_Paladin_Glade</pawnKind>
+        <xenotype>Baseliner</xenotype>
+        <faction>FCP_Faction_BoS_Lyons_Pride_Remnants</faction>
+        <roles>
+        </roles>
+        <definitions>
+            <!-- Bio -->
+            <li Class="FCP.Core.CharacterStoryDefinition">
+                <firstName />
+                <lastName>Glade</lastName>
+                <nickname>Paladin Glade</nickname>
+                <gender>Male</gender>
+                <age>35</age>
+            </li>
+            <!-- Appearance -->
+            <li Class="FCP.Core.CharacterAppearanceDefinition">
+                <hairColor>(110, 85, 60)</hairColor>
+                <hairDef>FCP_Hair_Buzz_Cut</hairDef>
+                <beardDef>NoBeard</beardDef>
+                <skinColorOverride>(180, 150, 120)</skinColorOverride>
+                <headTypeDef>Male_AverageNormal</headTypeDef>
+                <bodyTypeDef>Male</bodyTypeDef>
+            </li>
+        </definitions>
+    </FCP.Core.CharacterDef>
+
+    <!-- Paladin Kodiak -->
+
+    <FCP.Core.CharacterDef>
+        <defName>FCP_Character_Lyons_Paladin_Kodiak</defName>
+        <pawnKind>FCP_Unique_Pawnkind_Paladin_Kodiak</pawnKind>
+        <xenotype>Baseliner</xenotype>
+        <faction>FCP_Faction_BoS_Lyons_Pride_Remnants</faction>
+        <roles>
+        </roles>
+        <definitions>
+            <!-- Bio -->
+            <li Class="FCP.Core.CharacterStoryDefinition">
+                <firstName />
+                <lastName>Kodiak</lastName>
+                <nickname>Paladin Kodiak</nickname>
+                <gender>Male</gender>
+                <age>42</age>
+            </li>
+            <!-- Appearance -->
+            <li Class="FCP.Core.CharacterAppearanceDefinition">
+                <hairColor>(100, 80, 60)</hairColor>
+                <hairDef>FCP_Hair_Buzz_Cut</hairDef>
+                <beardDef>Moustache</beardDef>
+                <skinColorOverride>(150, 120, 90)</skinColorOverride>
+                <headTypeDef>Male_AverageNormal</headTypeDef>
+                <bodyTypeDef>Hulk</bodyTypeDef>
+            </li>
+        </definitions>
+    </FCP.Core.CharacterDef>
+
+    <!-- Knight Captain Gallows -->
+
+    <FCP.Core.CharacterDef>
+        <defName>FCP_Character_Lyons_Knight_Captain_Gallows</defName>
+        <pawnKind>FCP_Unique_Pawnkind_Knight_Captain_Gallows</pawnKind>
+        <xenotype>Baseliner</xenotype>
+        <faction>FCP_Faction_BoS_Lyons_Pride_Remnants</faction>
+        <roles>
+        </roles>
+        <definitions>
+            <!-- Bio -->
+            <li Class="FCP.Core.CharacterStoryDefinition">
+                <firstName />
+                <lastName>Gallows</lastName>
+                <nickname>Knight Captain Gallows</nickname>
+                <gender>Male</gender>
+                <age>38</age>
+            </li>
+            <!-- Appearance -->
+            <li Class="FCP.Core.CharacterAppearanceDefinition">
+                <hairColor>(90, 70, 50)</hairColor>
+                <hairDef>FCP_Hair_Buzz_Cut</hairDef>
+                <beardDef>NoBeard</beardDef>
+                <skinColorOverride>(210, 180, 150)</skinColorOverride>
+                <headTypeDef>Male_AverageNormal</headTypeDef>
+                <bodyTypeDef>Male</bodyTypeDef>
+            </li>
+        </definitions>
+    </FCP.Core.CharacterDef>
+
+    <!-- Knight Captain Dusk -->
+
+    <FCP.Core.CharacterDef>
+        <defName>FCP_Character_Lyons_Knight_Captain_Dusk</defName>
+        <pawnKind>FCP_Unique_Pawnkind_Knight_Captain_Dusk</pawnKind>
+        <xenotype>Baseliner</xenotype>
+        <faction>FCP_Faction_BoS_Lyons_Pride_Remnants</faction>
+        <roles>
+        </roles>
+        <definitions>
+            <!-- Bio -->
+            <li Class="FCP.Core.CharacterStoryDefinition">
+                <firstName />
+                <lastName>Dusk</lastName>
+                <nickname>Knight Captain Dusk</nickname>
+                <gender>Male</gender>
+                <age>36</age>
+            </li>
+            <!-- Appearance -->
+            <li Class="FCP.Core.CharacterAppearanceDefinition">
+                <hairColor>(80, 60, 45)</hairColor>
+                <hairDef>FCP_Hair_Buzz_Cut</hairDef>
+                <beardDef>NoBeard</beardDef>
+                <skinColorOverride>(200, 170, 140)</skinColorOverride>
+                <headTypeDef>Male_AverageNormal</headTypeDef>
+                <bodyTypeDef>Male</bodyTypeDef>
+            </li>
+        </definitions>
+    </FCP.Core.CharacterDef>
+
+    <!-- Scribe Rothchild -->
+
+    <FCP.Core.CharacterDef>
+        <defName>FCP_Character_Lyons_Scribe_Rothchild</defName>
+        <pawnKind>FCP_Unique_Pawnkind_Scribe_Rothchild</pawnKind>
+        <xenotype>Baseliner</xenotype>
+        <faction>FCP_Faction_BoS_Lyons_Pride_Remnants</faction>
+        <roles>
+        </roles>
+        <definitions>
+            <!-- Bio -->
+            <li Class="FCP.Core.CharacterStoryDefinition">
+                <firstName>Reginald</firstName>
+                <lastName>Rothchild</lastName>
+                <nickname>Scribe Rothchild</nickname>
+                <gender>Male</gender>
+                <age>52</age>
+            </li>
+            <!-- Appearance -->
+            <li Class="FCP.Core.CharacterAppearanceDefinition">
+                <hairColor>(150, 140, 130)</hairColor>
+                <hairDef>FCP_Hair_Balding</hairDef>
+                <beardDef>NoBeard</beardDef>
+                <skinColorOverride>(220, 190, 160)</skinColorOverride>
+                <headTypeDef>Male_AverageNormal</headTypeDef>
+                <bodyTypeDef>Thin</bodyTypeDef>
+            </li>
+        </definitions>
+    </FCP.Core.CharacterDef>
+
+    <!--_____ Brotherhood Outcasts _____-->
+
+    <!-- Protector Casdin -->
+
+    <FCP.Core.CharacterDef>
+        <defName>FCP_Character_Outcast_Protector_Casdin</defName>
+        <pawnKind>FCP_Unique_Pawnkind_Protector_Casdin</pawnKind>
+        <xenotype>Baseliner</xenotype>
+        <faction>FCP_Faction_BoS_Outcast_Remnants</faction>
+        <roles>
+        </roles>
+        <definitions>
+            <!-- Bio -->
+            <li Class="FCP.Core.CharacterStoryDefinition">
+                <firstName>Henry</firstName>
+                <lastName>Casdin</lastName>
+                <nickname>Protector Casdin</nickname>
+                <gender>Male</gender>
+                <age>48</age>
+            </li>
+            <!-- Appearance -->
+            <li Class="FCP.Core.CharacterAppearanceDefinition">
+                <hairColor>(100, 90, 80)</hairColor>
+                <hairDef>FCP_Hair_Buzz_Cut</hairDef>
+                <beardDef>Moustache</beardDef>
+                <skinColorOverride>(180, 150, 120)</skinColorOverride>
+                <headTypeDef>Male_AverageNormal</headTypeDef>
+                <bodyTypeDef>Male</bodyTypeDef>
+            </li>
+        </definitions>
+    </FCP.Core.CharacterDef>
+
+    <!-- Defender Sibley -->
+
+    <FCP.Core.CharacterDef>
+        <defName>FCP_Character_Outcast_Defender_Sibley</defName>
+        <pawnKind>FCP_Unique_Pawnkind_Defender_Sibley</pawnKind>
+        <xenotype>Baseliner</xenotype>
+        <faction>FCP_Faction_BoS_Outcast_Remnants</faction>
+        <roles>
+        </roles>
+        <definitions>
+            <!-- Bio -->
+            <li Class="FCP.Core.CharacterStoryDefinition">
+                <firstName />
+                <lastName>Sibley</lastName>
+                <nickname>Defender Sibley</nickname>
+                <gender>Female</gender>
+                <age>32</age>
+            </li>
+            <!-- Appearance -->
+            <li Class="FCP.Core.CharacterAppearanceDefinition">
+                <hairColor>(90, 70, 50)</hairColor>
+                <hairDef>FCP_Hair_Buzz_Cut</hairDef>
+                <beardDef>NoBeard</beardDef>
+                <skinColorOverride>(170, 145, 115)</skinColorOverride>
+                <headTypeDef>Female_AverageNormal</headTypeDef>
+                <bodyTypeDef>Female</bodyTypeDef>
+            </li>
+        </definitions>
+    </FCP.Core.CharacterDef>
+
+    <!-- Specialist Olin -->
+
+    <FCP.Core.CharacterDef>
+        <defName>FCP_Character_Outcast_Specialist_Olin</defName>
+        <pawnKind>FCP_Unique_Pawnkind_Specialist_Olin</pawnKind>
+        <xenotype>Baseliner</xenotype>
+        <faction>FCP_Faction_BoS_Outcast_Remnants</faction>
+        <roles>
+        </roles>
+        <definitions>
+            <!-- Bio -->
+            <li Class="FCP.Core.CharacterStoryDefinition">
+                <firstName />
+                <lastName>Olin</lastName>
+                <nickname>Specialist Olin</nickname>
+                <gender>Male</gender>
+                <age>38</age>
+            </li>
+            <!-- Appearance -->
+            <li Class="FCP.Core.CharacterAppearanceDefinition">
+                <hairColor>(110, 85, 60)</hairColor>
+                <hairDef>FCP_Hair_Buzz_Cut</hairDef>
+                <beardDef>NoBeard</beardDef>
+                <skinColorOverride>(200, 175, 145)</skinColorOverride>
+                <headTypeDef>Male_AverageNormal</headTypeDef>
+                <bodyTypeDef>Male</bodyTypeDef>
+            </li>
+        </definitions>
+    </FCP.Core.CharacterDef>
+
+    <!-- Protector McGraw -->
+
+    <FCP.Core.CharacterDef>
+        <defName>FCP_Character_Outcast_Protector_McGraw</defName>
+        <pawnKind>FCP_Unique_Pawnkind_Protector_McGraw</pawnKind>
+        <xenotype>Baseliner</xenotype>
+        <faction>FCP_Faction_BoS_Outcast_Remnants</faction>
+        <roles>
+        </roles>
+        <definitions>
+            <!-- Bio -->
+            <li Class="FCP.Core.CharacterStoryDefinition">
+                <firstName />
+                <lastName>McGraw</lastName>
+                <nickname>Protector McGraw</nickname>
+                <gender>Male</gender>
+                <age>44</age>
+            </li>
+            <!-- Appearance -->
+            <li Class="FCP.Core.CharacterAppearanceDefinition">
+                <hairColor>(85, 65, 50)</hairColor>
+                <hairDef>FCP_Hair_Buzz_Cut</hairDef>
+                <beardDef>Moustache</beardDef>
+                <skinColorOverride>(190, 160, 130)</skinColorOverride>
+                <headTypeDef>Male_AverageNormal</headTypeDef>
+                <bodyTypeDef>Male</bodyTypeDef>
+            </li>
+        </definitions>
+    </FCP.Core.CharacterDef>
+
+</Defs>

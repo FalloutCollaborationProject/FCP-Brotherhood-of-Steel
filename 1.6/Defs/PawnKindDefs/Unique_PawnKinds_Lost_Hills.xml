@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <!--__________ Unique Lost Hills PawnKinds __________-->
+
+    <!--_____ Lost Hills Brotherhood of Steel _____-->
+
+    <!-- Head Paladin Rhombus -->
+    
+    <PawnKindDef ParentName="FCP_BoSkindBase">
+        <defName>FCP_Unique_Pawnkind_Head_Paladin_Rhombus</defName>
+        <label>Head Paladin Rhombus</label>
+        <defaultFactionDef>FCP_Faction_BoS_Lost_Hills</defaultFactionDef>
+        <combatPower>95</combatPower>
+        <itemQuality>Excellent</itemQuality>
+        <gearHealthRange>1.0~1.0</gearHealthRange>
+        <apparelRequired>
+            <li MayRequire="Rick.FCP.PowerArmor">FCP_Apparel_Power_Armor_Frame</li>
+            <li>FCP_Apparel_BoS_Jumpsuit</li>
+            <li MayRequire="Rick.FCP.PowerArmor">FCP_Apparel_BoS_Lost_Hills_T51_Power_Armor</li>
+            <li MayRequire="Rick.FCP.PowerArmor">FCP_Apparel_Power_Armor_T51_Helmet</li>
+        </apparelRequired>
+        <forcedTraits>
+            <FCP_Trait_Power_Armor_Trained />
+        </forcedTraits>
+        <weaponMoney>2000~2800</weaponMoney>
+        <weaponTags>
+            <li MayRequire="Rick.FCP.EnergyWeapons">FCP_Heavy_Laser_Weapon</li>
+        </weaponTags>
+        <initialWillRange>6~7</initialWillRange>
+        <initialResistanceRange>28~38</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Character_Backstory_Rhombus_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Character_Backstory_Rhombus_Adult</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <inventoryOptions>
+            <skipChance>0.0</skipChance>
+            <subOptionsChooseOne>
+                <li>
+                    <thingDef>FCP_Currency_BoS_Scrip</thingDef>
+                    <countRange>100~180</countRange>
+                </li>
+                <li>
+                    <thingDef>MealSurvivalPack</thingDef>
+                    <countRange>3~5</countRange>
+                </li>
+                <li>
+                    <thingDef>MedicineIndustrial</thingDef>
+                    <countRange>2~4</countRange>
+                </li>
+            </subOptionsChooseOne>
+        </inventoryOptions>
+    </PawnKindDef>
+
+    <!-- Head Scribe Vree -->
+    
+    <PawnKindDef ParentName="FCP_BoSkindBase">
+        <defName>FCP_Unique_Pawnkind_Head_Scribe_Vree</defName>
+        <label>Head Scribe Vree</label>
+        <defaultFactionDef>FCP_Faction_BoS_Lost_Hills</defaultFactionDef>
+        <combatPower>40</combatPower>
+        <itemQuality>Excellent</itemQuality>
+        <gearHealthRange>0.8~1.0</gearHealthRange>
+        <weaponMoney>1000~1400</weaponMoney>
+        <weaponTags>
+            <li MayRequire="Rick.FCP.EnergyWeapons">FCP_Laser_Weapon</li>
+        </weaponTags>
+        <apparelRequired>
+            <li>FCP_Apparel_BoS_Scribe_Robes</li>
+        </apparelRequired>
+        <apparelDisallowTags>
+            <li>FCP_Power_Armor_Helmet</li>
+            <li>FCP_Power_Armor</li>
+            <li>FCP_Power_Armor_Lyons</li>
+            <li>FCP_Power_Armor_Outcast</li>
+        </apparelDisallowTags>
+        <initialWillRange>3~5</initialWillRange>
+        <initialResistanceRange>16~24</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Character_Backstory_Vree_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Character_Backstory_Vree_Adult</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <inventoryOptions>
+            <skipChance>0.0</skipChance>
+            <subOptionsChooseOne>
+                <li>
+                    <thingDef>FCP_Currency_BoS_Scrip</thingDef>
+                    <countRange>60~120</countRange>
+                </li>
+            </subOptionsChooseOne>
+        </inventoryOptions>
+    </PawnKindDef>
+
+    <!-- Scribe Cabbot -->
+    
+    <PawnKindDef ParentName="FCP_BoSkindBase">
+        <defName>FCP_Unique_Pawnkind_Scribe_Cabbot</defName>
+        <label>Scribe Cabbot</label>
+        <defaultFactionDef>FCP_Faction_BoS_Lost_Hills</defaultFactionDef>
+        <combatPower>30</combatPower>
+        <itemQuality>Good</itemQuality>
+        <gearHealthRange>0.7~1.0</gearHealthRange>
+        <weaponMoney>700~1100</weaponMoney>
+        <weaponTags>
+            <li MayRequire="Rick.FCP.EnergyWeapons">FCP_Laser_Weapon</li>
+        </weaponTags>
+        <apparelRequired>
+            <li>FCP_Apparel_BoS_Scribe_Robes</li>
+        </apparelRequired>
+        <apparelDisallowTags>
+            <li>FCP_Power_Armor_Helmet</li>
+            <li>FCP_Power_Armor</li>
+            <li>FCP_Power_Armor_Lyons</li>
+            <li>FCP_Power_Armor_Outcast</li>
+        </apparelDisallowTags>
+        <initialWillRange>2~4</initialWillRange>
+        <initialResistanceRange>12~18</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Character_Backstory_Cabbot_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Character_Backstory_Cabbot_Adult</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <inventoryOptions>
+            <skipChance>0.0</skipChance>
+            <subOptionsChooseOne>
+                <li>
+                    <thingDef>FCP_Currency_BoS_Scrip</thingDef>
+                    <countRange>40~80</countRange>
+                </li>
+            </subOptionsChooseOne>
+        </inventoryOptions>
+    </PawnKindDef>
+
+    <!-- Paladin Mathia -->
+    
+    <PawnKindDef ParentName="FCP_BoSkindBase">
+        <defName>FCP_Unique_Pawnkind_Paladin_Mathia</defName>
+        <label>Paladin Mathia</label>
+        <defaultFactionDef>FCP_Faction_BoS_Lost_Hills</defaultFactionDef>
+        <combatPower>75</combatPower>
+        <itemQuality>Good</itemQuality>
+        <gearHealthRange>0.9~1.0</gearHealthRange>
+        <apparelRequired>
+            <li MayRequire="Rick.FCP.PowerArmor">FCP_Apparel_Power_Armor_Frame</li>
+            <li>FCP_Apparel_BoS_Jumpsuit</li>
+            <li MayRequire="Rick.FCP.PowerArmor">FCP_Apparel_BoS_Lost_Hills_T51_Power_Armor</li>
+            <li MayRequire="Rick.FCP.PowerArmor">FCP_Apparel_Power_Armor_T51_Helmet</li>
+        </apparelRequired>
+        <forcedTraits>
+            <FCP_Trait_Power_Armor_Trained />
+        </forcedTraits>
+        <weaponMoney>1500~2000</weaponMoney>
+        <weaponTags>
+            <li MayRequire="Rick.FCP.EnergyWeapons">FCP_Laser_Weapon</li>
+        </weaponTags>
+        <initialWillRange>4~5</initialWillRange>
+        <initialResistanceRange>20~28</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Character_Backstory_Mathia_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Character_Backstory_Mathia_Adult</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <inventoryOptions>
+            <skipChance>0.0</skipChance>
+            <subOptionsChooseOne>
+                <li>
+                    <thingDef>FCP_Currency_BoS_Scrip</thingDef>
+                    <countRange>50~100</countRange>
+                </li>
+                <li>
+                    <thingDef>MealSurvivalPack</thingDef>
+                    <countRange>2~3</countRange>
+                </li>
+            </subOptionsChooseOne>
+        </inventoryOptions>
+    </PawnKindDef>
+
+    <!-- Initiate Michael -->
+    
+    <PawnKindDef ParentName="FCP_BoSkindBase">
+        <defName>FCP_Unique_Pawnkind_Initiate_Michael</defName>
+        <label>Initiate Michael</label>
+        <defaultFactionDef>FCP_Faction_BoS_Lost_Hills</defaultFactionDef>
+        <combatPower>45</combatPower>
+        <itemQuality>Normal</itemQuality>
+        <gearHealthRange>0.7~0.9</gearHealthRange>
+        <weaponMoney>800~1200</weaponMoney>
+        <weaponTags>
+            <li MayRequire="Rick.FCP.EnergyWeapons">FCP_Laser_Weapon</li>
+        </weaponTags>
+        <apparelRequired>
+            <li>FCP_Apparel_BoS_Recon_Hood</li>
+            <li>FCP_Apparel_BoS_Recon_Armor</li>
+        </apparelRequired>
+        <apparelDisallowTags>
+            <li>FCP_Power_Armor_Helmet</li>
+            <li>FCP_Power_Armor</li>
+            <li>FCP_Power_Armor_Lyons</li>
+            <li>FCP_Power_Armor_Outcast</li>
+        </apparelDisallowTags>
+        <initialWillRange>2~3</initialWillRange>
+        <initialResistanceRange>10~16</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Character_Backstory_Michael_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Character_Backstory_Michael_Adult</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <inventoryOptions>
+            <skipChance>0.0</skipChance>
+            <subOptionsChooseOne>
+                <li>
+                    <thingDef>FCP_Currency_BoS_Scrip</thingDef>
+                    <countRange>20~50</countRange>
+                </li>
+            </subOptionsChooseOne>
+        </inventoryOptions>
+    </PawnKindDef>
+
+    <!-- Paladin Talus -->
+    
+    <PawnKindDef ParentName="FCP_BoSkindBase">
+        <defName>FCP_Unique_Pawnkind_Paladin_Talus</defName>
+        <label>Paladin Talus</label>
+        <defaultFactionDef>FCP_Faction_BoS_Lost_Hills</defaultFactionDef>
+        <combatPower>70</combatPower>
+        <itemQuality>Good</itemQuality>
+        <gearHealthRange>0.9~1.0</gearHealthRange>
+        <apparelRequired>
+            <li MayRequire="Rick.FCP.PowerArmor">FCP_Apparel_Power_Armor_Frame</li>
+            <li>FCP_Apparel_BoS_Jumpsuit</li>
+            <li MayRequire="Rick.FCP.PowerArmor">FCP_Apparel_BoS_Lost_Hills_T51_Power_Armor</li>
+            <li MayRequire="Rick.FCP.PowerArmor">FCP_Apparel_Power_Armor_T51_Helmet</li>
+        </apparelRequired>
+        <forcedTraits>
+            <FCP_Trait_Power_Armor_Trained />
+        </forcedTraits>
+        <weaponMoney>1400~1900</weaponMoney>
+        <weaponTags>
+            <li MayRequire="Rick.FCP.EnergyWeapons">FCP_Laser_Weapon</li>
+        </weaponTags>
+        <initialWillRange>3~5</initialWillRange>
+        <initialResistanceRange>18~26</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Character_Backstory_Talus_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Character_Backstory_Talus_Adult</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <inventoryOptions>
+            <skipChance>0.0</skipChance>
+            <subOptionsChooseOne>
+                <li>
+                    <thingDef>FCP_Currency_BoS_Scrip</thingDef>
+                    <countRange>45~90</countRange>
+                </li>
+                <li>
+                    <thingDef>MealSurvivalPack</thingDef>
+                    <countRange>2~3</countRange>
+                </li>
+            </subOptionsChooseOne>
+        </inventoryOptions>
+    </PawnKindDef>
+
+    <!-- Senior Paladin Matthew -->
+    
+    <PawnKindDef ParentName="FCP_BoSkindBase">
+        <defName>FCP_Unique_Pawnkind_Senior_Paladin_Matthew</defName>
+        <label>Senior Paladin Matthew</label>
+        <defaultFactionDef>FCP_Faction_BoS_Lost_Hills</defaultFactionDef>
+        <combatPower>85</combatPower>
+        <itemQuality>Excellent</itemQuality>
+        <gearHealthRange>1.0~1.0</gearHealthRange>
+        <apparelRequired>
+            <li MayRequire="Rick.FCP.PowerArmor">FCP_Apparel_Power_Armor_Frame</li>
+            <li>FCP_Apparel_BoS_Jumpsuit</li>
+            <li MayRequire="Rick.FCP.PowerArmor">FCP_Apparel_BoS_Lost_Hills_T51_Power_Armor</li>
+            <li MayRequire="Rick.FCP.PowerArmor">FCP_Apparel_Power_Armor_T51_Helmet</li>
+        </apparelRequired>
+        <forcedTraits>
+            <FCP_Trait_Power_Armor_Trained />
+        </forcedTraits>
+        <weaponMoney>1800~2400</weaponMoney>
+        <weaponTags>
+            <li MayRequire="Rick.FCP.EnergyWeapons">FCP_Laser_Weapon</li>
+        </weaponTags>
+        <initialWillRange>5~6</initialWillRange>
+        <initialResistanceRange>24~32</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Character_Backstory_Matthew_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Character_Backstory_Matthew_Adult</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <inventoryOptions>
+            <skipChance>0.0</skipChance>
+            <subOptionsChooseOne>
+                <li>
+                    <thingDef>FCP_Currency_BoS_Scrip</thingDef>
+                    <countRange>80~150</countRange>
+                </li>
+                <li>
+                    <thingDef>MealSurvivalPack</thingDef>
+                    <countRange>3~5</countRange>
+                </li>
+            </subOptionsChooseOne>
+        </inventoryOptions>
+    </PawnKindDef>
+
+    <!-- Scribe Lorraine -->
+    
+    <PawnKindDef ParentName="FCP_BoSkindBase">
+        <defName>FCP_Unique_Pawnkind_Scribe_Lorraine</defName>
+        <label>Scribe Lorraine</label>
+        <defaultFactionDef>FCP_Faction_BoS_Lost_Hills</defaultFactionDef>
+        <combatPower>35</combatPower>
+        <itemQuality>Good</itemQuality>
+        <gearHealthRange>0.7~1.0</gearHealthRange>
+        <weaponMoney>700~1100</weaponMoney>
+        <weaponTags>
+            <li MayRequire="Rick.FCP.EnergyWeapons">FCP_Laser_Weapon</li>
+        </weaponTags>
+        <apparelRequired>
+            <li>FCP_Apparel_BoS_Scribe_Robes</li>
+        </apparelRequired>
+        <apparelDisallowTags>
+            <li>FCP_Power_Armor_Helmet</li>
+            <li>FCP_Power_Armor</li>
+            <li>FCP_Power_Armor_Lyons</li>
+            <li>FCP_Power_Armor_Outcast</li>
+        </apparelDisallowTags>
+        <initialWillRange>2~4</initialWillRange>
+        <initialResistanceRange>12~18</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Character_Backstory_Lorraine_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Character_Backstory_Lorraine_Adult</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <inventoryOptions>
+            <skipChance>0.0</skipChance>
+            <subOptionsChooseOne>
+                <li>
+                    <thingDef>FCP_Currency_BoS_Scrip</thingDef>
+                    <countRange>40~80</countRange>
+                </li>
+            </subOptionsChooseOne>
+        </inventoryOptions>
+    </PawnKindDef>
+
+</Defs>
