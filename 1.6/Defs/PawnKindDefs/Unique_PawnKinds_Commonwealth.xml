@@ -116,7 +116,8 @@
             <li MayRequire="Rick.FCP.EnergyWeapons">FCP_Laser_Weapon</li>
         </weaponTags>
         <apparelRequired>
-            <li>FCP_Apparel_BoS_Scribe_Robes</li>
+            <li>FCP_Apparel_BoS_Field_Scribe</li>
+            <li>FCP_Apparel_BoS_Field_Scribe_Hat</li>
         </apparelRequired>
         <apparelDisallowTags>
             <li>FCP_Power_Armor_Helmet</li>
@@ -344,7 +345,7 @@
             <li MayRequire="Rick.FCP.EnergyWeapons">FCP_Laser_Weapon</li>
         </weaponTags>
         <apparelRequired>
-            <li>FCP_Apparel_BoS_Scribe_Robes</li>
+            <li>FCP_Apparel_BoS_Brotherhood_Field_Medic_Fatigues</li>
         </apparelRequired>
         <apparelDisallowTags>
             <li>FCP_Power_Armor_Helmet</li>
@@ -391,7 +392,7 @@
             <li MayRequire="Rick.FCP.EnergyWeapons">FCP_Laser_Weapon</li>
         </weaponTags>
         <apparelRequired>
-            <li>FCP_Apparel_BoS_Scribe_Robes</li>
+            <li>FCP_Apparel_BoS_Science_Scribe</li>
         </apparelRequired>
         <apparelDisallowTags>
             <li>FCP_Power_Armor_Helmet</li>
@@ -434,7 +435,7 @@
             <li MayRequire="Rick.FCP.EnergyWeapons">FCP_Laser_Weapon</li>
         </weaponTags>
         <apparelRequired>
-            <li>FCP_Apparel_BoS_Scribe_Robes</li>
+            <li>FCP_Apparel_BoS_Brotherhood_Fatigues</li>
         </apparelRequired>
         <apparelDisallowTags>
             <li>FCP_Power_Armor_Helmet</li>

@@ -26,8 +26,8 @@
             <!-- Appearance -->
             <li Class="FCP.Core.CharacterAppearanceDefinition">
                 <hairColor>(180, 180, 180)</hairColor>
-                <hairDef>Mage</hairDef>
-                <beardDef>BeardShort</beardDef>
+                <hairDef>Mop</hairDef>
+                <beardDef>Goatee</beardDef>
                 <skinColorOverride>(195, 170, 145)</skinColorOverride>
                 <headTypeDef>Male_AverageNormal</headTypeDef>
                 <bodyTypeDef>Male</bodyTypeDef>
@@ -146,7 +146,7 @@
             <!-- Appearance -->
             <li Class="FCP.Core.CharacterAppearanceDefinition">
                 <hairColor>(110, 90, 70)</hairColor>
-                <hairDef>Manbun</hairDef>
+                <hairDef>Mop</hairDef>
                 <beardDef>NoBeard</beardDef>
                 <skinColorOverride>(185, 160, 135)</skinColorOverride>
                 <headTypeDef>Male_AverageNormal</headTypeDef>
@@ -177,7 +177,7 @@
             <li Class="FCP.Core.CharacterAppearanceDefinition">
                 <hairColor>(150, 145, 140)</hairColor>
                 <hairDef>FCP_Hair_Balding</hairDef>
-                <beardDef>BeardShort</beardDef>
+                <beardDef>Goatee</beardDef>
                 <skinColorOverride>(205, 180, 155)</skinColorOverride>
                 <headTypeDef>Male_AverageNormal</headTypeDef>
                 <bodyTypeDef>Thin</bodyTypeDef>
@@ -266,7 +266,7 @@
             <!-- Appearance -->
             <li Class="FCP.Core.CharacterAppearanceDefinition">
                 <hairColor>(60, 40, 25)</hairColor>
-                <hairDef>Pixie</hairDef>
+                <hairDef>Shaved</hairDef>
                 <beardDef>NoBeard</beardDef>
                 <skinColorOverride>(190, 165, 140)</skinColorOverride>
                 <headTypeDef>Female_AverageNormal</headTypeDef>
