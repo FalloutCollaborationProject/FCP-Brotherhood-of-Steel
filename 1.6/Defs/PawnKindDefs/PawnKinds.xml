@@ -17,6 +17,9 @@
         <chemicalAddictionChance>0</chemicalAddictionChance>
         <invNutrition>2.7</invNutrition>
         <invFoodDef>MealSurvivalPack</invFoodDef>
+        <apparelMoney>0</apparelMoney>
+        <apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
+        <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
         <weaponTags>
 			<li>FCP_BoS_Weapon</li>
             <li MayRequire="Rick.FCP.EnergyWeapons">FCP_Laser_Weapon</li>
@@ -45,14 +48,15 @@
     <!-- Power Armor Base -->
 
     <PawnKindDef ParentName="FCP_BoSkindBase" Name="FCP_BoS_PowerArmorBase" Abstract="True">
+        <apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
 		<weaponTags>
             <li>FCP_BoS_Heavy_Weapon</li>
 		</weaponTags>
         <apparelRequired>
             <li MayRequire="Rick.FCP.PowerArmor">FCP_Apparel_Power_Armor_Frame</li>
             <li>FCP_Apparel_BoS_Jumpsuit</li>
-            <li MayRequire="Rick.FCP.PowerArmor">FCP_Apparel_Power_Armor_T60Armor</li>
-            <li MayRequire="Rick.FCP.PowerArmor">FCP_Apparel_Power_Armor_T60_Helmet</li>
+            <li MayRequire="Rick.FCP.PowerArmor">FCP_Apparel_BoS_T60_Power_Armor</li>
+            <li MayRequire="Rick.FCP.PowerArmor">FCP_Apparel_BoS_T60_Power_Armor_Helmet</li>
         </apparelRequired>
         <forcedTraits>
             <FCP_Trait_Power_Armor_Trained />
@@ -62,6 +66,7 @@
     <!-- Lyons Pride Power Armor Base -->
 
     <PawnKindDef ParentName="FCP_BoSkindBase" Name="FCP_BoS_Lyons_PowerArmorBase" Abstract="True">
+        <apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
         <defaultFactionDef>FCP_Faction_BoS_Lyons_Pride_Remnants</defaultFactionDef>
         <apparelRequired>
             <li MayRequire="Rick.FCP.PowerArmor">FCP_Apparel_Power_Armor_Frame</li>
@@ -77,6 +82,7 @@
     <!-- Outcast Power Armor Base -->
 
     <PawnKindDef ParentName="FCP_BoSkindBase" Name="FCP_BoS_Outcast_PowerArmorBase" Abstract="True">
+        <apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
         <defaultFactionDef>FCP_Faction_BoS_Outcast_Remnants</defaultFactionDef>
         <apparelRequired>
             <li MayRequire="Rick.FCP.PowerArmor">FCP_Apparel_Power_Armor_Frame</li>
@@ -918,6 +924,7 @@
     
     <PawnKindDef ParentName="FCP_BoSkindBase" Name="FCP_Mojave_BoSkindBase" Abstract="True">
         <defaultFactionDef>FCP_Faction_BoS_Mojave_Player</defaultFactionDef>
+        <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
         <backstoryFiltersOverride>
             <li>
                 <categoriesAdulthood>
@@ -1118,7 +1125,7 @@
         <combatPower>25</combatPower>
         <itemQuality>Poor</itemQuality>
         <gearHealthRange>0.5~1.8</gearHealthRange>
-        <apparelMoney>400~600</apparelMoney>
+        <apparelMoney>0</apparelMoney>
         <apparelDisallowTags>
             <li>FCP_Power_Armor_Helmet</li>
             <li>FCP_Power_Armor</li>
