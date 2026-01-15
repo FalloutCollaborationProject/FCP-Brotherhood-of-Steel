@@ -768,7 +768,7 @@
 
     <!-- Classic Combat Armor Reinforced -->
 
-    <ThingDef ParentName="ApparelBase" MayRequire="Rick.FCP.Wastelanders">
+    <ThingDef ParentName="ArmorMachineableBase" MayRequire="Rick.FCP.Wastelanders">
         <defName>FCP_Apparel_BoS_Classic_Combat_Armor_Reinforced</defName>
         <label>BoS Reinforced Combat Armor</label>
         <description>Enhanced combat armor upgraded with Brotherhood of Steel technology. This armor retains the design of the original while incorporating improved protection and environmental sealing systems.</description>
@@ -777,6 +777,10 @@
             <graphicClass>Graphic_Single</graphicClass>
             <drawSize>0.90</drawSize>
         </graphicData>
+        <thingCategories>
+            <li>ApparelArmor</li>
+        </thingCategories>
+        <techLevel>Industrial</techLevel>
         <recipeMaker Inherit= "false">
             <unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
             <researchPrerequisite>FCP_Research_BoS_Specialized_Armor</researchPrerequisite>
