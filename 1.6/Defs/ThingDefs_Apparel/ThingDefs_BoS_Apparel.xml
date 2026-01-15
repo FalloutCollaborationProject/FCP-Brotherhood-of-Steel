@@ -796,12 +796,13 @@
         </costList>
         <statBases>
             <MaxHitPoints>120</MaxHitPoints>
-            <ArmorRating_Sharp>1.04</ArmorRating_Sharp>
-            <ArmorRating_Blunt>0.52</ArmorRating_Blunt>
+            <ArmorRating_Sharp>1.35</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.65</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.60</ArmorRating_Heat>
             <WorkToMake>100</WorkToMake>
             <Mass>2</Mass>
-            <Insulation_Cold>3.0</Insulation_Cold>
-            <Insulation_Heat>2.3</Insulation_Heat>
+            <Insulation_Cold>14.0</Insulation_Cold>
+            <Insulation_Heat>12.0</Insulation_Heat>
             <EquipDelay>3</EquipDelay>
         </statBases>
         <equippedStatOffsets>
@@ -975,11 +976,11 @@
             <MaxHitPoints>200</MaxHitPoints>
             <WorkToMake>12000</WorkToMake>
             <Mass>7</Mass>
-            <ArmorRating_Sharp>0.90</ArmorRating_Sharp>
-            <ArmorRating_Blunt>0.36</ArmorRating_Blunt>
-            <ArmorRating_Heat>0.54</ArmorRating_Heat>
+            <ArmorRating_Sharp>1.05</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.48</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.40</ArmorRating_Heat>
             <Insulation_Cold>12</Insulation_Cold>
-            <Insulation_Heat>6</Insulation_Heat>
+            <Insulation_Heat>8</Insulation_Heat>
             <EquipDelay>4</EquipDelay>
         </statBases>
         <equippedStatOffsets>
