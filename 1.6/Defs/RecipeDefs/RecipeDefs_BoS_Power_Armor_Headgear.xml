@@ -15,7 +15,6 @@
         <effectWorking>Smith</effectWorking>
         <soundWorking>Recipe_Smith</soundWorking>
         <workAmount>500</workAmount>
-        <unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
         <recipeUsers>
             <li>FCP_Production_Armor_Workbench</li>
         </recipeUsers>
@@ -66,7 +65,6 @@
         <effectWorking>Smith</effectWorking>
         <soundWorking>Recipe_Smith</soundWorking>
         <workAmount>500</workAmount>
-        <unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
         <recipeUsers>
             <li>FCP_Production_Armor_Workbench</li>
         </recipeUsers>
@@ -117,7 +115,6 @@
         <effectWorking>Smith</effectWorking>
         <soundWorking>Recipe_Smith</soundWorking>
         <workAmount>500</workAmount>
-        <unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
         <recipeUsers>
             <li>FCP_Production_Armor_Workbench</li>
         </recipeUsers>
@@ -168,7 +165,6 @@
         <effectWorking>Smith</effectWorking>
         <soundWorking>Recipe_Smith</soundWorking>
         <workAmount>500</workAmount>
-        <unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
         <recipeUsers>
             <li>FCP_Production_Armor_Workbench</li>
         </recipeUsers>
@@ -219,7 +215,6 @@
         <effectWorking>Smith</effectWorking>
         <soundWorking>Recipe_Smith</soundWorking>
         <workAmount>500</workAmount>
-        <unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
         <recipeUsers>
             <li>FCP_Production_Armor_Workbench</li>
         </recipeUsers>
@@ -270,7 +265,6 @@
         <effectWorking>Smith</effectWorking>
         <soundWorking>Recipe_Smith</soundWorking>
         <workAmount>500</workAmount>
-        <unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
         <recipeUsers>
             <li>FCP_Production_Armor_Workbench</li>
         </recipeUsers>

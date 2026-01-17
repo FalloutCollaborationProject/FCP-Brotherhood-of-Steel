@@ -7,15 +7,14 @@
 
     <RecipeDef MayRequire="Rick.FCP.PowerArmor">
         <defName>Make_BoS_Appalachia_T60_Power_Armor</defName>
-        <label>make Appalachia t60 power armor</label>
-        <description>Make a Appalachia t60 power armor.</description>
-        <jobString>Making Appalachia t60 power armor.</jobString>
+        <label>paint T-60 power armor Appalachia chapter</label>
+        <description>Paint a T-60 power armor with Appalachia Brotherhood Appalachia colors.</description>
+        <jobString>Painting T-60 power armor.</jobString>
         <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
         <workSkill>Crafting</workSkill>
         <effectWorking>Smith</effectWorking>
         <soundWorking>Recipe_Smith</soundWorking>
         <workAmount>500</workAmount>
-        <unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
         <recipeUsers>
             <li>FCP_Production_Armor_Workbench</li>
         </recipeUsers>
@@ -58,15 +57,14 @@
 
     <RecipeDef MayRequire="Rick.FCP.PowerArmor">
         <defName>Make_BoS_T60_Power_Armor</defName>
-        <label>make t60 power armor</label>
-        <description>Make a t60 power armor.</description>
-        <jobString>Making t60 power armor.</jobString>
+        <label>paint T-60 power armor Appalachia chapter</label>
+        <description>Paint a T-60 power armor with standard Brotherhood Appalachia colors.</description>
+        <jobString>Painting T-60 power armor.</jobString>
         <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
         <workSkill>Crafting</workSkill>
         <effectWorking>Smith</effectWorking>
         <soundWorking>Recipe_Smith</soundWorking>
         <workAmount>500</workAmount>
-        <unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
         <recipeUsers>
             <li>FCP_Production_Armor_Workbench</li>
         </recipeUsers>
@@ -109,15 +107,14 @@
 
     <RecipeDef MayRequire="Rick.FCP.PowerArmor">
         <defName>Make_BoS_T51_Power_Armor</defName>
-        <label>make t51 power armor</label>
-        <description>Make a t51 power armor.</description>
-        <jobString>Making t51 power armor.</jobString>
+        <label>paint T-51 power armor Appalachia chapter</label>
+        <description>Paint a T-51 power armor with standard Brotherhood Appalachia colors.</description>
+        <jobString>Painting T-51 power armor.</jobString>
         <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
         <workSkill>Crafting</workSkill>
         <effectWorking>Smith</effectWorking>
         <soundWorking>Recipe_Smith</soundWorking>
         <workAmount>500</workAmount>
-        <unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
         <recipeUsers>
             <li>FCP_Production_Armor_Workbench</li>
         </recipeUsers>
@@ -160,15 +157,14 @@
 
     <RecipeDef MayRequire="Rick.FCP.PowerArmor">
         <defName>Make_BoS_Appalachia_T51_Power_Armor</defName>
-        <label>make t51 Appalachia power armor</label>
-        <description>Make a t51 Appalachia power armor.</description>
-        <jobString>Making t51 Appalachia power armor.</jobString>
+        <label>paint T-51 power armor Appalachia chapter</label>
+        <description>Paint a T-51 power armor with Appalachia Brotherhood Appalachia colors.</description>
+        <jobString>Painting T-51 power armor.</jobString>
         <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
         <workSkill>Crafting</workSkill>
         <effectWorking>Smith</effectWorking>
         <soundWorking>Recipe_Smith</soundWorking>
         <workAmount>500</workAmount>
-        <unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
         <recipeUsers>
             <li>FCP_Production_Armor_Workbench</li>
         </recipeUsers>
@@ -211,15 +207,14 @@
 
     <RecipeDef MayRequire="Rick.FCP.PowerArmor">
         <defName>Make_BoS_T45_Lyons_Power_Armor</defName>
-        <label>make t45 lyonspower armor</label>
-        <description>Make a t45 lyons power armor.</description>
-        <jobString>Making t45 lyons power armor.</jobString>
+        <label>paint T-45 power armor (Lyons Pride)</label>
+        <description>Paint a T-45 power armor with Lyons Pride Brotherhood of Steel colors.</description>
+        <jobString>Painting T-45 power armor.</jobString>
         <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
         <workSkill>Crafting</workSkill>
         <effectWorking>Smith</effectWorking>
         <soundWorking>Recipe_Smith</soundWorking>
         <workAmount>500</workAmount>
-        <unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
         <recipeUsers>
             <li>FCP_Production_Armor_Workbench</li>
         </recipeUsers>
@@ -262,15 +257,14 @@
 
     <RecipeDef MayRequire="Rick.FCP.PowerArmor">
         <defName>Make_BoS_T45_Outcast_Power_Armor</defName>
-        <label>make t45 outcast power armor</label>
-        <description>Make a t45 outcast power armor.</description>
-        <jobString>Making t45 outcast power armor.</jobString>
+        <label>paint T-45 power armor (Outcast)</label>
+        <description>Paint a T-45 power armor with Outcast Brotherhood of Steel colors.</description>
+        <jobString>Painting T-45 power armor.</jobString>
         <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
         <workSkill>Crafting</workSkill>
         <effectWorking>Smith</effectWorking>
         <soundWorking>Recipe_Smith</soundWorking>
         <workAmount>500</workAmount>
-        <unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
         <recipeUsers>
             <li>FCP_Production_Armor_Workbench</li>
         </recipeUsers>
