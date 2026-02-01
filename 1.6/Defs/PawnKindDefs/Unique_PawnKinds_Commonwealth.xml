@@ -387,7 +387,7 @@
         <combatPower>35</combatPower>
         <itemQuality>Excellent</itemQuality>
         <gearHealthRange>1.0~1.0</gearHealthRange>
-        <weaponMoney>800~1200</weaponMoney>
+        <weaponMoney>900~1200</weaponMoney>
         <weaponTags>
             <li MayRequire="Rick.FCP.EnergyWeapons">FCP_Laser_Weapon</li>
         </weaponTags>

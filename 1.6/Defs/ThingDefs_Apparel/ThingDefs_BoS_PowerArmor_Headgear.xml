@@ -6,11 +6,11 @@
 
     <!--_____ BoS Power Armors Helmets _____-->
 
-    <!-- BoS Appalachia T60 Power Armor Helmet -->
+    <!-- BoS Appalachia T-60 Power Armor Helmet -->
 
     <ThingDef ParentName="FCP_Apparel_Power_Armor_Helmet_Base" MayRequire="Rick.FCP.PowerArmor">
         <defName>FCP_Apparel_BoS_Appalachia_T60_Power_Armor_Helmet</defName>
-        <label>BoS Appalachia T60 Power Armor Helmet</label>
+        <label>BoS Appalachia T-60 Power Armor Helmet</label>
         <description>Advanced T-60 power armor helmet featuring integrated HUD systems and environmental sensors. The distinctive Appalachian Brotherhood insignia marks this as belonging to the faction that emerged from Vault 76 to reclaim the wasteland and preserve humanity's technological heritage.</description>
         <techLevel>Industrial</techLevel>
         <graphicData>
@@ -61,11 +61,11 @@
         </comps>
     </ThingDef>
 
-    <!-- BoS T60 Power Armor Helmet -->
+    <!-- BoS T-60 Power Armor Helmet -->
 
     <ThingDef ParentName="FCP_Apparel_Power_Armor_Helmet_Base" MayRequire="Rick.FCP.PowerArmor">
         <defName>FCP_Apparel_BoS_T60_Power_Armor_Helmet</defName>
-        <label>BoS T60 Power Armor Helmet</label>
+        <label>BoS T-60 Power Armor Helmet</label>
         <description>Standard issue T-60 power armor helmet worn by Brotherhood knights and paladins. Features advanced targeting systems, environmental protection, and the iconic red optical sensors that strike fear into the hearts of those who would misuse technology.</description>
         <techLevel>Industrial</techLevel>
         <graphicData>
@@ -116,11 +116,11 @@
         </comps>
     </ThingDef>
 
-    <!-- BoS T51 Power Armor Helmet -->
+    <!-- BoS T-51 Power Armor Helmet -->
 
     <ThingDef ParentName="FCP_Apparel_Power_Armor_Helmet_Base" MayRequire="Rick.FCP.PowerArmor">
         <defName>FCP_Apparel_BoS_T51_Power_Armor_Helmet</defName>
-        <label>BoS T51 Power Armor Helmet</label>
+        <label>BoS T-51 Power Armor Helmet</label>
         <description>Time-tested T-51 power armor helmet that has protected Brotherhood soldiers for generations. While lacking some of the advanced features of newer models, its proven reliability and rugged construction make it a trusted companion in the wasteland.</description>
         <techLevel>Industrial</techLevel>
         <graphicData>
@@ -171,11 +171,11 @@
         </comps>
     </ThingDef>
 
-    <!-- BoS T51 Appalachia Power Armor Helmet -->
+    <!-- BoS T-51 Appalachia Power Armor Helmet -->
 
     <ThingDef ParentName="FCP_Apparel_Power_Armor_Helmet_Base" MayRequire="Rick.FCP.PowerArmor">
         <defName>FCP_Apparel_BoS_T51_Appalachia_Power_Armor_Helmet</defName>
-        <label>BoS T51 Appalachia Power Armor Helmet</label>
+        <label>BoS Appalachia T-51  Power Armor Helmet</label>
         <description>T-51 power armor helmet modified for the unique challenges of Appalachian operations. Enhanced with improved radiation detection systems and environmental filtering, essential for surviving the irradiated mountains and forests of post-war Appalachia.</description>
         <techLevel>Industrial</techLevel>
         <graphicData>
@@ -226,11 +226,11 @@
         </comps>
     </ThingDef>
 
-    <!-- BoS Lyons T45 Power Armor Helmet -->
+    <!-- BoS Lyons T-45 Power Armor Helmet -->
 
     <ThingDef ParentName="FCP_Apparel_Power_Armor_Helmet_Base" MayRequire="Rick.FCP.PowerArmor">
         <defName>FCP_Apparel_BoS_T45_Lyons_Power_Armor_Helmet</defName>
-        <label>BoS Lyons T45 Power Armor Helmet</label>
+        <label>BoS Lyons T-45 Power Armor Helmet</label>
         <description>T-45 power armor helmet worn by soldiers loyal to Elder Lyons' humanitarian mission. This helmet symbolizes a Brotherhood more concerned with protecting the innocent than hoarding technology, representing hope and compassion in the wasteland.</description>
         <generateCommonality>0.001</generateCommonality>
         <techLevel>Industrial</techLevel>
@@ -285,11 +285,11 @@
         </comps>
     </ThingDef>
 
-    <!-- BoS Outcast T45 Power Armor Helmet -->
+    <!-- BoS Outcast T-45 Power Armor Helmet -->
 
     <ThingDef ParentName="FCP_Apparel_Power_Armor_Helmet_Base" MayRequire="Rick.FCP.PowerArmor">
         <defName>FCP_Apparel_BoS_T45_Outcast_Power_Armor_Helmet</defName>
-        <label>BoS Outcast T45 Power Armor Helmet</label>
+        <label>BoS Outcast T-45 Power Armor Helmet</label>
         <description>T-45 power armor helmet painted in the black and red colors of the Brotherhood Outcasts. This helmet represents unwavering dedication to the traditional Brotherhood mission of technology acquisition above all else, worn by those who refused to compromise their principles.</description>
         <generateCommonality>0.001</generateCommonality>
         <techLevel>Industrial</techLevel>

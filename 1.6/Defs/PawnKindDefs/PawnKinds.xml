@@ -105,7 +105,7 @@
         <combatPower>30</combatPower>
         <itemQuality>Poor</itemQuality>
         <gearHealthRange>0.5~1.8</gearHealthRange>
-        <weaponMoney>800~1200</weaponMoney>
+        <weaponMoney>900~1200</weaponMoney>
         <apparelRequired>
             <li>FCP_Apparel_BoS_Appalachia_Fatigues</li>
             <li>FCP_Apparel_BoS_Appalachia_Beret</li>
@@ -160,7 +160,7 @@
         <label>Brotherhood Initiate</label>
         <combatPower>40</combatPower>
         <gearHealthRange>0.5~1.8</gearHealthRange>
-        <weaponMoney>800~1200</weaponMoney>
+        <weaponMoney>900~1200</weaponMoney>
         <apparelRequired>
             <li>FCP_Apparel_BoS_Appalachia_Fatigues</li>
             <li>FCP_Apparel_BoS_Appalachia_Beret</li>
@@ -198,7 +198,7 @@
         <label>Brotherhood Knight</label>
         <combatPower>55</combatPower>
         <gearHealthRange>0.6~1.9</gearHealthRange>
-        <weaponMoney>800~1600</weaponMoney>
+        <weaponMoney>900~1600</weaponMoney>
         <weaponTags>
 			<li>FCP_BoS_Weapon</li>
             <li MayRequire="Rick.FCP.EnergyWeapons">FCP_Laser_Weapon</li>
@@ -260,7 +260,7 @@
         <label>Brotherhood Knight-Sergeant</label>
         <combatPower>65</combatPower>
         <gearHealthRange>0.6~2</gearHealthRange>
-        <weaponMoney>800~1700</weaponMoney>
+        <weaponMoney>900~1700</weaponMoney>
         <weaponTags>
             <li MayRequire="Rick.FCP.EnergyWeapons">FCP_Laser_Weapon</li>
         </weaponTags>
@@ -321,7 +321,7 @@
         <label>Brotherhood Paladin</label>
         <combatPower>70</combatPower>
         <gearHealthRange>0.7~2</gearHealthRange>
-        <weaponMoney>800~1800</weaponMoney>
+        <weaponMoney>900~1800</weaponMoney>
         <weaponTags>
             <li MayRequire="Rick.FCP.EnergyWeapons">FCP_Laser_Weapon</li>
             <li MayRequire="Rick.FCP.EnergyWeapons">FCP_Heavy_Laser_Weapon</li>
@@ -374,7 +374,7 @@
         <label>Brotherhood Star Paladin</label>
         <combatPower>75</combatPower>
         <gearHealthRange>0.7~2.2</gearHealthRange>
-        <weaponMoney>800~2000</weaponMoney>
+        <weaponMoney>900~2000</weaponMoney>
         <weaponTags>
             <li MayRequire="Rick.FCP.EnergyWeapons">FCP_Laser_Weapon</li>
             <li MayRequire="Rick.FCP.EnergyWeapons">FCP_Heavy_Laser_Weapon</li>
@@ -429,7 +429,7 @@
         <defaultFactionDef>FCP_Faction_BoS_Lyons_Pride_Remnants</defaultFactionDef>
         <combatPower>80</combatPower>
         <gearHealthRange>0.7~2.2</gearHealthRange>
-        <weaponMoney>800~2000</weaponMoney>
+        <weaponMoney>900~2000</weaponMoney>
         <weaponTags>
             <li MayRequire="Rick.FCP.EnergyWeapons">FCP_Laser_Weapon</li>
             <li MayRequire="Rick.FCP.EnergyWeapons">FCP_Heavy_Laser_Weapon</li>
@@ -461,7 +461,7 @@
         <defaultFactionDef>FCP_Faction_BoS_Lyons_Pride_Remnants</defaultFactionDef>
         <combatPower>70</combatPower>
         <gearHealthRange>0.7~2</gearHealthRange>
-        <weaponMoney>800~1800</weaponMoney>
+        <weaponMoney>900~1800</weaponMoney>
         <weaponTags>
             <li MayRequire="Rick.FCP.EnergyWeapons">FCP_Laser_Weapon</li>
             <li MayRequire="Rick.FCP.EnergyWeapons">FCP_Heavy_Laser_Weapon</li>
@@ -493,7 +493,7 @@
         <defaultFactionDef>FCP_Faction_BoS_Lyons_Pride_Remnants</defaultFactionDef>
         <combatPower>60</combatPower>
         <gearHealthRange>0.5~1.8</gearHealthRange>
-        <weaponMoney>800~1200</weaponMoney>
+        <weaponMoney>900~1200</weaponMoney>
         <weaponTags>
             <li MayRequire="Rick.FCP.EnergyWeapons">FCP_Laser_Weapon</li>
         </weaponTags>
@@ -533,7 +533,7 @@
         <label>Brotherhood Sentinel</label>
         <combatPower>80</combatPower>
         <gearHealthRange>0.7~2.2</gearHealthRange>
-        <weaponMoney>800~1800</weaponMoney>
+        <weaponMoney>900~1800</weaponMoney>
         <weaponTags>
             <li MayRequire="Rick.FCP.EnergyWeapons">FCP_Laser_Weapon</li>
             <li MayRequire="Rick.FCP.EnergyWeapons">FCP_Heavy_Laser_Weapon</li>
@@ -575,7 +575,7 @@
             <li>FCP_Power_Armor_Lyons</li>
             <li>FCP_Power_Armor_Outcast</li>
         </apparelDisallowTags>
-        <weaponMoney>800~1200</weaponMoney>
+        <weaponMoney>900~1200</weaponMoney>
         <weaponTags>
             <li>Gun</li>
             <li MayRequire="Rick.FCP.EnergyWeapons">FCP_Laser_Weapon</li>
@@ -616,7 +616,7 @@
             <li>FCP_Power_Armor_Lyons</li>
             <li>FCP_Power_Armor_Outcast</li>
         </apparelDisallowTags>
-        <weaponMoney>800~1200</weaponMoney>
+        <weaponMoney>900~1200</weaponMoney>
         <weaponTags>
             <li>Gun</li>
             <li MayRequire="Rick.FCP.EnergyWeapons">FCP_Laser_Weapon</li>
@@ -656,7 +656,7 @@
             <li>FCP_Power_Armor_Lyons</li>
             <li>FCP_Power_Armor_Outcast</li>
         </apparelDisallowTags>
-        <weaponMoney>800~1200</weaponMoney>
+        <weaponMoney>900~1200</weaponMoney>
         <weaponTags>
             <li>Gun</li>
             <li MayRequire="Rick.FCP.EnergyWeapons">FCP_Laser_Weapon</li>
@@ -778,7 +778,7 @@
             <li>FCP_Power_Armor_Lyons</li>
             <li>FCP_Power_Armor_Outcast</li>
         </apparelDisallowTags>
-        <weaponMoney>800~1200</weaponMoney>
+        <weaponMoney>900~1200</weaponMoney>
         <weaponTags>
             <li>Gun</li>
             <li MayRequire="Rick.FCP.EnergyWeapons">FCP_Laser_Weapon</li>
@@ -805,7 +805,7 @@
         <defaultFactionDef>FCP_Faction_BoS_Outcast_Remnants</defaultFactionDef>
         <combatPower>50</combatPower>
         <gearHealthRange>0.5~1.8</gearHealthRange>
-        <weaponMoney>800~1200</weaponMoney>
+        <weaponMoney>900~1200</weaponMoney>
         <weaponTags>
             <li>Gun</li>
             <li MayRequire="Rick.FCP.EnergyWeapons">FCP_Laser_Weapon</li>
@@ -833,7 +833,7 @@
         <factionLeader>true</factionLeader>
         <combatPower>30</combatPower>
         <gearHealthRange>0.5~1.8</gearHealthRange>
-        <weaponMoney>800~1200</weaponMoney>
+        <weaponMoney>900~1200</weaponMoney>
         <weaponTags>
             <li>Gun</li>
             <li MayRequire="Rick.FCP.EnergyWeapons">FCP_Laser_Weapon</li>
@@ -920,6 +920,7 @@
     </PawnKindDef>
 
     <!--___ Mojave Chapter Pawns ___-->
+    
     <!-- Mojave Base -->
     
     <PawnKindDef ParentName="FCP_BoSkindBase" Name="FCP_Mojave_BoSkindBase" Abstract="True">
@@ -960,7 +961,7 @@
         <label>Mojave Brotherhood Paladin</label>
         <combatPower>70</combatPower>
         <gearHealthRange>0.7~2</gearHealthRange>
-        <weaponMoney>800~1800</weaponMoney>
+        <weaponMoney>900~1800</weaponMoney>
         <weaponTags>
             <li>Gun</li>
             <li MayRequire="Rick.FCP.EnergyWeapons">FCP_Laser_Weapon</li>
@@ -983,7 +984,7 @@
         <defaultFactionDef>FCP_Faction_BoS_Mojave_Player</defaultFactionDef>
         <combatPower>60</combatPower>
         <gearHealthRange>0.5~1.8</gearHealthRange>
-        <weaponMoney>800~1200</weaponMoney>
+        <weaponMoney>900~1200</weaponMoney>
         <weaponTags>
             <li MayRequire="Rick.FCP.EnergyWeapons">FCP_Laser_Weapon</li>
         </weaponTags>
@@ -1013,7 +1014,7 @@
         <label>Mojave Brotherhood Knight</label>
         <combatPower>60</combatPower>
         <gearHealthRange>0.5~1.8</gearHealthRange>
-        <weaponMoney>800~1200</weaponMoney>
+        <weaponMoney>900~1200</weaponMoney>
         <weaponTags>
             <li MayRequire="Rick.FCP.EnergyWeapons">FCP_Laser_Weapon</li>
         </weaponTags>
@@ -1052,7 +1053,7 @@
             <li>FCP_Power_Armor_Lyons</li>
             <li>FCP_Power_Armor_Outcast</li>
         </apparelDisallowTags>
-        <weaponMoney>800~1200</weaponMoney>
+        <weaponMoney>900~1200</weaponMoney>
         <weaponTags>
             <li>Gun</li>
             <li MayRequire="Rick.FCP.EnergyWeapons">FCP_Laser_Weapon</li>
@@ -1172,7 +1173,7 @@
             <li MayRequire="Rick.FCP.PowerArmor">FCP_Apparel_BoS_Lost_Hills_T51_Power_Armor</li>
             <li MayRequire="Rick.FCP.PowerArmor">FCP_Apparel_Power_Armor_T51_Helmet</li>
         </apparelRequired>
-        <weaponMoney>800~1800</weaponMoney>
+        <weaponMoney>900~1800</weaponMoney>
         <weaponTags>
             <li>Gun</li>
             <li MayRequire="Rick.FCP.EnergyWeapons">FCP_Laser_Weapon</li>
@@ -1258,7 +1259,7 @@
             <li MayRequire="Rick.FCP.PowerArmor">FCP_Apparel_BoS_Midwestern_Power_Armor</li>
             <li MayRequire="Rick.FCP.PowerArmor">FCP_Apparel_BoS_Midwestern_Power_Armor_Helmet</li>
         </apparelRequired>
-        <weaponMoney>800~1800</weaponMoney>
+        <weaponMoney>900~1800</weaponMoney>
         <weaponTags>
             <li>Gun</li>
             <li MayRequire="Rick.FCP.EnergyWeapons">FCP_Laser_Weapon</li>

@@ -154,7 +154,6 @@
         </heldByFactionCategoryTags>
         <prerequisites>
             <li>FCP_Research_Plasma_Weapons_Manufacturing</li>
-            <li>FCP_Research_Enclave_Advanced_Equipment</li>
         </prerequisites>
         <researchViewX>0.00</researchViewX>
         <researchViewY>6.00</researchViewY>

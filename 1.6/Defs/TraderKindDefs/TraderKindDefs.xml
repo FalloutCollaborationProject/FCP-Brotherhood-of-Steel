@@ -277,7 +277,7 @@
 
             <!-- Fusion Cores -->
 
-            <li Class="StockGenerator_SingleDef">
+            <li Class="StockGenerator_SingleDef" MayRequire="Rick.FCP.PowerArmor">
                 <thingDef>FCP_Item_Fusion_Core</thingDef>
                 <countRange>1~4</countRange>
             </li>

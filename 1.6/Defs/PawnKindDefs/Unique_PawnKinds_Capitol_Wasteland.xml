@@ -24,7 +24,7 @@
             <li>FCP_Power_Armor_Lyons</li>
             <li>FCP_Power_Armor_Outcast</li>
         </apparelDisallowTags>
-        <weaponMoney>500~800</weaponMoney>
+        <weaponMoney>900~1500</weaponMoney>
         <weaponTags>
             <li MayRequire="Rick.FCP.EnergyWeapons">FCP_Laser_Weapon</li>
         </weaponTags>
@@ -382,7 +382,7 @@
         <combatPower>35</combatPower>
         <itemQuality>Good</itemQuality>
         <gearHealthRange>0.7~1.0</gearHealthRange>
-        <weaponMoney>800~1200</weaponMoney>
+        <weaponMoney>900~1200</weaponMoney>
         <weaponTags>
             <li MayRequire="Rick.FCP.EnergyWeapons">FCP_Laser_Weapon</li>
         </weaponTags>

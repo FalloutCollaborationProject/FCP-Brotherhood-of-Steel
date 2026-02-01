@@ -112,7 +112,7 @@
         <combatPower>30</combatPower>
         <itemQuality>Good</itemQuality>
         <gearHealthRange>0.7~1.0</gearHealthRange>
-        <weaponMoney>700~1100</weaponMoney>
+        <weaponMoney>900~1100</weaponMoney>
         <weaponTags>
             <li MayRequire="Rick.FCP.EnergyWeapons">FCP_Laser_Weapon</li>
         </weaponTags>
@@ -206,7 +206,7 @@
         <combatPower>45</combatPower>
         <itemQuality>Normal</itemQuality>
         <gearHealthRange>0.7~0.9</gearHealthRange>
-        <weaponMoney>800~1200</weaponMoney>
+        <weaponMoney>900~1200</weaponMoney>
         <weaponTags>
             <li MayRequire="Rick.FCP.EnergyWeapons">FCP_Laser_Weapon</li>
         </weaponTags>
@@ -350,7 +350,7 @@
         <combatPower>35</combatPower>
         <itemQuality>Good</itemQuality>
         <gearHealthRange>0.7~1.0</gearHealthRange>
-        <weaponMoney>700~1100</weaponMoney>
+        <weaponMoney>900~1100</weaponMoney>
         <weaponTags>
             <li MayRequire="Rick.FCP.EnergyWeapons">FCP_Laser_Weapon</li>
         </weaponTags>

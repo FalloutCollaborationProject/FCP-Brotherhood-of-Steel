@@ -76,7 +76,7 @@
 		</xenotypeSet>
 
 		<!--__________ Backstories __________-->
-	
+
 		<backstoryFilters>
 			<li>
 				<categories>
@@ -167,12 +167,12 @@
 		</pawnGroupMakers>
 		<settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
 		<modExtensions>
-            <!-- Make them hostile to the Enclave -->
-            <li Class="FCP.Core.ModExtension_FactionPermanentlyHostileTo">
-                <hostileFactionDefs>
-                    <li MayRequire="Rick.FCP.Enclave">FCP_Faction_Enclave</li>
-                </hostileFactionDefs>
-            </li>
+			<!-- Make them hostile to the Enclave -->
+			<li Class="FCP.Core.ModExtension_FactionPermanentlyHostileTo">
+				<hostileFactionDefs>
+					<li MayRequire="Rick.FCP.Enclave">FCP_Faction_Enclave</li>
+				</hostileFactionDefs>
+			</li>
 			<li Class="FCP.Enlist.FactionEnlistOptions">
 				<enlistOptionsDefs>
 					<li>FCP_Enlistment_BoS</li>
@@ -186,40 +186,40 @@
 				<minDistanceBetweenShuttles>10</minDistanceBetweenShuttles>
 				<maxPawnCountInOneShuttle>6</maxPawnCountInOneShuttle>
 			</li>
-            <!-- Ideology stuff -->
-            <li Class="FCP.Core.ModExtension_FixedIdeo">
-                <ideoIconDef>FCP_Icon_BoS</ideoIconDef>
-                <ideoColorDef>LightGrey</ideoColorDef>
-                <memberName>Brother</memberName>
-                <adjective>Brother</adjective>
-                <roleOverrides>
-                    <li>
-                        <preceptDef>IdeoRole_Leader</preceptDef>
-                        <disableApparelRequirements>true</disableApparelRequirements>
-                    </li>
-                    <li>
-                        <preceptDef>FCP_IdeoRole_Paladin</preceptDef>
-                        <newName>Paladin</newName>
-                        <disableApparelRequirements>true</disableApparelRequirements>
-                        <apparelRequirementsOverride></apparelRequirementsOverride>
-                    </li>
-                    <li>
-                        <preceptDef>IdeoRole_Moralist</preceptDef>
-                        <newName>Sentinel</newName>
-                        <disableApparelRequirements>true</disableApparelRequirements>
-                        <!--<apparelRequirementsOverride></apparelRequirementsOverride>-->
-                    </li>
-                </roleOverrides>
-            </li>
-            <!-- Make them unable to use drop pods -->
-            <li Class="FCP.Core.ModExtension_FactionBannedArrivalModes">
-                <arrivalModes>
-                    <li>EdgeDrop</li>
-                    <li>EdgeDropGroups</li>
-                    <li>CenterDrop</li>
-                    <li>RandomDrop</li>
-                </arrivalModes>
-            </li>
+			<!-- Ideology stuff -->
+			<li Class="FCP.Core.ModExtension_FixedIdeo">
+				<ideoIconDef>FCP_Icon_BoS</ideoIconDef>
+				<ideoColorDef>LightGrey</ideoColorDef>
+				<memberName>Brother</memberName>
+				<adjective>Brother</adjective>
+				<roleOverrides>
+					<li>
+						<preceptDef>IdeoRole_Leader</preceptDef>
+						<disableApparelRequirements>true</disableApparelRequirements>
+					</li>
+					<li>
+						<preceptDef>FCP_IdeoRole_Paladin</preceptDef>
+						<newName>Paladin</newName>
+						<disableApparelRequirements>true</disableApparelRequirements>
+						<apparelRequirementsOverride></apparelRequirementsOverride>
+					</li>
+					<li>
+						<preceptDef>IdeoRole_Moralist</preceptDef>
+						<newName>Sentinel</newName>
+						<disableApparelRequirements>true</disableApparelRequirements>
+						<!--<apparelRequirementsOverride></apparelRequirementsOverride>-->
+					</li>
+				</roleOverrides>
+			</li>
+			<!-- Make them unable to use drop pods -->
+			<li Class="FCP.Core.ModExtension_FactionBannedArrivalModes">
+				<arrivalModes>
+					<li>EdgeDrop</li>
+					<li>EdgeDropGroups</li>
+					<li>CenterDrop</li>
+					<li>RandomDrop</li>
+				</arrivalModes>
+			</li>
 		</modExtensions>
 	</FactionDef>
 
