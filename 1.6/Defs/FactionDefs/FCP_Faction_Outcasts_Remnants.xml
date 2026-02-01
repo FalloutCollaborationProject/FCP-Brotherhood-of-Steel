@@ -159,7 +159,7 @@
 					<li>FCP_Faction_BoS_Lyons_Pride_Remnants</li>
                 </hostileFactionDefs>
             </li>
-			<li Class="FCP_Shuttles.FactionModExtension">
+			<li Class="FCP.Core.Shuttles.FactionModExtension">
 				<transportShipDef>FCP_BoS_Outcast_Vertibird</transportShipDef>
 				<minDistanceBetweenShuttles>10</minDistanceBetweenShuttles>
 				<maxPawnCountInOneShuttle>6</maxPawnCountInOneShuttle>

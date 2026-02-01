@@ -40,7 +40,7 @@
                     </kindCounts>
                 </li>
                 <!-- Pawn Arrival Method -->
-                <li Class="FCP_Shuttles.ScenPart_PlayerPawnsArriveInShuttle">
+                <li Class="FCP.Core.Shuttles.ScenPart_PlayerPawnsArriveInShuttle">
                     <def>FCP_PlayerPawnsArriveInShuttle</def>
                 </li>
                 <!-- Map generation -->
@@ -157,7 +157,7 @@
                     </kindCounts>
                 </li>
                 <!-- Player starting stuff spawn method-->
-                <li Class="FCP_Shuttles.ScenPart_PlayerPawnsArriveInShuttle">
+                <li Class="FCP.Core.Shuttles.ScenPart_PlayerPawnsArriveInShuttle">
                     <def>FCP_PlayerPawnsArriveInShuttle</def>
                 </li>
                 <!-- Map generation -->
@@ -229,7 +229,7 @@
             </playerFaction>
             <parts>
                 <!-- Player starting stuff spawn method-->
-                <li Class="FCP_Shuttles.ScenPart_PlayerPawnsArriveInShuttle">
+                <li Class="FCP.Core.Shuttles.ScenPart_PlayerPawnsArriveInShuttle">
                     <def>FCP_PlayerPawnsArriveInShuttle</def>
                 </li>
                 <!-- Configure pawns -->
@@ -328,7 +328,7 @@
             </playerFaction>
             <parts>
                 <!-- Player starting stuff spawn method-->
-                <li Class="FCP_Shuttles.ScenPart_PlayerPawnsArriveInShuttle">
+                <li Class="FCP.Core.Shuttles.ScenPart_PlayerPawnsArriveInShuttle">
                     <def>FCP_PlayerPawnsArriveInShuttle</def>
                 </li>
                 <!-- Configure pawns -->
@@ -427,7 +427,7 @@
             </playerFaction>
             <parts>
                 <!-- Player starting stuff spawn method-->
-                <li Class="FCP_Shuttles.ScenPart_PlayerPawnsArriveInShuttle">
+                <li Class="FCP.Core.Shuttles.ScenPart_PlayerPawnsArriveInShuttle">
                     <def>FCP_PlayerPawnsArriveInShuttle</def>
                 </li>
                 <!-- Map generation -->
