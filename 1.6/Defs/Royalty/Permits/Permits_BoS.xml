@@ -34,7 +34,7 @@
 			<favorCost>6</favorCost>
 		</royalAid>
 		<modExtensions>
-			<li Class="FCP.Factions.MaxTitlePermitExtension">
+			<li Class="FCP.Factions.PermitExtension_MaxFactionTitle">
 				<maxTitle>FCP_Title_BoS_Elder</maxTitle>
 			</li>
 		</modExtensions>
@@ -60,7 +60,7 @@
 			<favorCost>6</favorCost>
 		</royalAid>
 		<modExtensions>
-			<li Class="FCP.Factions.MaxTitlePermitExtension">
+			<li Class="FCP.Factions.PermitExtension_MaxFactionTitle">
 				<maxTitle>FCP_Title_BoS_Elder</maxTitle>
 			</li>
 		</modExtensions>
@@ -86,7 +86,7 @@
 			<favorCost>6</favorCost>
 		</royalAid>
 		<modExtensions>
-			<li Class="FCP.Factions.MaxTitlePermitExtension">
+			<li Class="FCP.Factions.PermitExtension_MaxFactionTitle">
 				<maxTitle>FCP_Title_BoS_Elder</maxTitle>
 			</li>
 		</modExtensions>
@@ -112,7 +112,7 @@
 			<favorCost>6</favorCost>
 		</royalAid>
 		<modExtensions>
-			<li Class="FCP.Factions.MaxTitlePermitExtension">
+			<li Class="FCP.Factions.PermitExtension_MaxFactionTitle">
 				<maxTitle>FCP_Title_BoS_Elder</maxTitle>
 			</li>
 		</modExtensions>

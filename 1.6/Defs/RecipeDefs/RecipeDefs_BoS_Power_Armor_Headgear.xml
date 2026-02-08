@@ -45,7 +45,7 @@
             <li>FCP_Research_Power_Armor_Training</li>
         </researchPrerequisites>
         <modExtensions>
-            <li Class="FCP.Core.RecipeExtension_GoodwillCheck">
+            <li Class="FCP.Factions.RecipeExtension_FactionGoodwillCheck">
                 <requireFaction>FCP_Faction_BoS</requireFaction>
                 <minimumGoodwill>60</minimumGoodwill>
                 <uncraftableIfFactionDefeated>true</uncraftableIfFactionDefeated>
@@ -95,7 +95,7 @@
             <li>FCP_Research_Power_Armor_Training</li>
         </researchPrerequisites>
         <modExtensions>
-            <li Class="FCP.Core.RecipeExtension_GoodwillCheck">
+            <li Class="FCP.Factions.RecipeExtension_FactionGoodwillCheck">
                 <requireFaction>FCP_Faction_BoS</requireFaction>
                 <minimumGoodwill>60</minimumGoodwill>
                 <uncraftableIfFactionDefeated>true</uncraftableIfFactionDefeated>
@@ -145,7 +145,7 @@
             <li>FCP_Research_Power_Armor_Training</li>
         </researchPrerequisites>
         <modExtensions>
-            <li Class="FCP.Core.RecipeExtension_GoodwillCheck">
+            <li Class="FCP.Factions.RecipeExtension_FactionGoodwillCheck">
                 <requireFaction>FCP_Faction_BoS</requireFaction>
                 <minimumGoodwill>60</minimumGoodwill>
                 <uncraftableIfFactionDefeated>true</uncraftableIfFactionDefeated>
@@ -195,7 +195,7 @@
             <li>FCP_Research_Power_Armor_Training</li>
         </researchPrerequisites>
         <modExtensions>
-            <li Class="FCP.Core.RecipeExtension_GoodwillCheck">
+            <li Class="FCP.Factions.RecipeExtension_FactionGoodwillCheck">
                 <requireFaction>FCP_Faction_BoS</requireFaction>
                 <minimumGoodwill>60</minimumGoodwill>
                 <uncraftableIfFactionDefeated>true</uncraftableIfFactionDefeated>
@@ -245,7 +245,7 @@
             <li>FCP_Research_Power_Armor_Training</li>
         </researchPrerequisites>
         <modExtensions>
-            <li Class="FCP.Core.RecipeExtension_GoodwillCheck">
+            <li Class="FCP.Factions.RecipeExtension_FactionGoodwillCheck">
                 <requireFaction>FCP_Faction_BoS_Lyons_Pride_Remnants</requireFaction>
                 <minimumGoodwill>60</minimumGoodwill>
                 <uncraftableIfFactionDefeated>true</uncraftableIfFactionDefeated>
@@ -295,7 +295,7 @@
             <li>FCP_Research_Power_Armor_Training</li>
         </researchPrerequisites>
         <modExtensions>
-            <li Class="FCP.Core.RecipeExtension_GoodwillCheck">
+            <li Class="FCP.Factions.RecipeExtension_FactionGoodwillCheck">
                 <requireFaction>FCP_Faction_BoS_Outcast_Remnants</requireFaction>
                 <minimumGoodwill>60</minimumGoodwill>
                 <uncraftableIfFactionDefeated>true</uncraftableIfFactionDefeated>

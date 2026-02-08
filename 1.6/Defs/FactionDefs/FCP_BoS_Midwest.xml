@@ -125,7 +125,7 @@
 		<settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
 		<modExtensions>
             <!-- Make them hostile to the Enclave -->
-            <li Class="FCP.Core.ModExtension_FactionPermanentlyHostileTo">
+            <li Class="FCP.Factions.FactionExtension_PermanentlyHostileTo">
                 <hostileFactionDefs>
                     <li MayRequire="Rick.FCP.Enclave">FCP_Faction_Enclave</li>
                 </hostileFactionDefs>
@@ -139,7 +139,7 @@
 				<maxPawnCountInOneShuttle>6</maxPawnCountInOneShuttle>
 			</li>
             <!-- Ideology stuff -->
-            <!-- <li Class="FCP.Core.ModExtension_FixedIdeo">
+            <!-- <li Class="FCP.Factions.FactionExtension_FixedIdeo">
                 <ideoIconDef>FCP_Icon_Midwest</ideoIconDef>
                 <ideoColorDef>LightGrey</ideoColorDef>
                 <memberName>Brother</memberName>
@@ -158,7 +158,7 @@
                 </roleOverrides>
             </li> -->
             <!-- Make them unable to use drop pods -->
-            <li Class="FCP.Core.ModExtension_FactionBannedArrivalModes">
+            <li Class="FCP.Factions.FactionExtension_BannedArrivalModes">
                 <arrivalModes>
                     <li>EdgeDrop</li>
                     <li>EdgeDropGroups</li>
