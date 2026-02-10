@@ -156,6 +156,10 @@
 		</pawnGroupMakers>
 		<settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
 		<modExtensions>
+			<!-- Faction tab label override -->
+			<li Class="FCP.Factions.FactionExtension_FactionTabLabelOverride">
+				<newLabel>Benevolent Chapter</newLabel>
+			</li>
             <!-- Make them hostile to the Enclave and Outcast Remnants -->
             <li Class="FCP.Factions.FactionExtension_PermanentlyHostileTo">
                 <hostileFactionDefs>

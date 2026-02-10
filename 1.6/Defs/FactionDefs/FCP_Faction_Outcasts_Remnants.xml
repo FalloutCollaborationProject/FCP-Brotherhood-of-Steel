@@ -152,6 +152,10 @@
 		</pawnGroupMakers>
 		<settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
 		<modExtensions>
+			<!-- Faction tab label override -->
+			<li Class="FCP.Factions.FactionExtension_FactionTabLabelOverride">
+				<newLabel>Outcast Hardliners</newLabel>
+			</li>
             <!-- Make them hostile to the Enclave and Lyons' Pride Remnants -->
             <li Class="FCP.Factions.FactionExtension_PermanentlyHostileTo">
                 <hostileFactionDefs>
