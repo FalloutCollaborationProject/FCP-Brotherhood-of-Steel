@@ -708,7 +708,7 @@
 
     <!-- Classic Combat Armor Reinforced -->
 
-    <ThingDef ParentName="ApparelUpgradeableBase" MayRequire="Rick.FCP.Wastelanders">
+    <ThingDef ParentName="FCP_ApparelUpgradeableBase" MayRequire="Rick.FCP.Wastelanders">
         <defName>FCP_Apparel_BoS_Classic_Combat_Armor_Reinforced</defName>
         <label>BoS Reinforced Combat Armor</label>
         <description>Enhanced combat armor upgraded with Brotherhood of Steel technology. This armor retains the design of the original while incorporating improved protection and environmental sealing systems.</description>
