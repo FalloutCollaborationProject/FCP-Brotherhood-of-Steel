@@ -7,11 +7,10 @@
 
     <!-- BoS Appalachia Beret -->
 
-    <ThingDef ParentName="HatMakeableBase">
+    <ThingDef ParentName="FCP_Hat_Makeable_Base">
         <defName>FCP_Apparel_BoS_Appalachia_Beret</defName>
         <label>BoS Appalachia Beret</label>
         <description>A soft beret worn by Brotherhood detachments in Appalachia. Embroidered with the Brotherhood crest, it is used for identification and ceremonial duties by officers and specialized units.</description>
-        <techLevel>Industrial</techLevel>
         <graphicData>
             <texPath>Things/Apparel/BoS_Headgear/BoS_Apalacia_Beret/FCP_BoS_Apalacia_Beret</texPath>
             <graphicClass>Graphic_Single</graphicClass>
@@ -20,14 +19,10 @@
             <Cloth>15</Cloth>
         </costList>
         <recipeMaker>
-            <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
             <researchPrerequisite>FCP_Research_BoS_Knight_Equipment</researchPrerequisite>
             <skillRequirements>
                 <Crafting>3</Crafting>
             </skillRequirements>
-            <recipeUsers>
-                <li>FCP_Production_Tailoring_Workbench</li>
-            </recipeUsers>
         </recipeMaker>
         <statBases>
             <WorkToMake>3000</WorkToMake>
@@ -56,11 +51,10 @@
 
     <!-- BoS Appalachia Infantry Hood -->
 
-    <ThingDef ParentName="HatMakeableBase">
+    <ThingDef ParentName="FCP_Hat_Makeable_Base">
         <defName>FCP_Apparel_BoS_Appalachia_Infantry_Hood</defName>
         <label>BoS Appalachia Infantry Hood</label>
         <description>Standard-issue hood used by Brotherhood infantry for concealment and basic protection from the elements during patrols and tactical operations.</description>
-        <techLevel>Industrial</techLevel>
         <graphicData>
             <texPath>Things/Apparel/BoS_Headgear/BoS_Apalacia_Infantry_Hood/FCP_BoS_Apalacia_Infantry_Hood</texPath>
             <graphicClass>Graphic_Single</graphicClass>
@@ -69,14 +63,10 @@
             <Cloth>15</Cloth>
         </costList>
         <recipeMaker>
-            <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
             <researchPrerequisite>FCP_Research_BoS_Knight_Equipment</researchPrerequisite>
             <skillRequirements>
                 <Crafting>3</Crafting>
             </skillRequirements>
-            <recipeUsers>
-                <li>FCP_Production_Tailoring_Workbench</li>
-            </recipeUsers>
         </recipeMaker>
         <statBases>
             <WorkToMake>3000</WorkToMake>
@@ -105,11 +95,10 @@
 
     <!-- BoS B35C Helmet -->
 
-    <ThingDef ParentName="HatMakeableBase">
+    <ThingDef ParentName="FCP_Hat_Makeable_Base">
         <defName>FCP_Apparel_BoS_B35C_Helmet</defName>
         <label>BoS B35C Helmet</label>
         <description>A reinforced combat helmet issued to Brotherhood ground troops. Built to resist shrapnel and small-arms fire, commonly paired with infantry armor on patrols and engagements.</description>
-        <techLevel>Industrial</techLevel>
         <graphicData>
             <texPath>Things/Apparel/BoS_Headgear/BoS_B35C_Armor_Helmet/FCP_BoS_B35C_Helmet</texPath>
             <graphicClass>Graphic_Single</graphicClass>
@@ -118,14 +107,10 @@
             <Cloth>15</Cloth>
         </costList>
         <recipeMaker>
-            <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
             <researchPrerequisite>FCP_Research_BoS_Specialized_Armor</researchPrerequisite>
             <skillRequirements>
                 <Crafting>3</Crafting>
             </skillRequirements>
-            <recipeUsers>
-                <li>FCP_Production_Tailoring_Workbench</li>
-            </recipeUsers>
         </recipeMaker>
         <statBases>
             <WorkToMake>3000</WorkToMake>
@@ -155,11 +140,10 @@
 
     <!-- BoS Flight Helmet -->
 
-    <ThingDef ParentName="HatMakeableBase">
+    <ThingDef ParentName="FCP_Hat_Makeable_Base">
         <defName>FCP_Apparel_BoS_Flight_Helmet</defName>
         <label>BoS Flight Helmet</label>
         <description>Pilot helmet used by Brotherhood aircrews and vertibird crews, fitted with padding and basic communications gear to protect crew during flight and rotor operations.</description>
-        <techLevel>Industrial</techLevel>
         <graphicData>
             <texPath>Things/Apparel/BoS_Headgear/BoS_Flight_Helmet/FCP_BoS_Flight_Helmet</texPath>
             <graphicClass>Graphic_Single</graphicClass>
@@ -168,14 +152,10 @@
             <Cloth>15</Cloth>
         </costList>
         <recipeMaker>
-            <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
             <researchPrerequisite>FCP_Research_BoS_Knight_Equipment</researchPrerequisite>
             <skillRequirements>
                 <Crafting>3</Crafting>
             </skillRequirements>
-            <recipeUsers>
-                <li>FCP_Production_Tailoring_Workbench</li>
-            </recipeUsers>
         </recipeMaker>
         <statBases>
             <WorkToMake>3000</WorkToMake>
@@ -204,11 +184,10 @@
 
     <!-- BoS Recon Hood -->
 
-    <ThingDef ParentName="HatMakeableBase">
+    <ThingDef ParentName="FCP_Hat_Makeable_Base">
         <defName>FCP_Apparel_BoS_Recon_Hood</defName>
         <label>BoS Recon Hood</label>
         <description>Lightweight hood favored by recon teams. Woven for low visibility and reduced glare to aid scouting, observation, and stealthy movement.</description>
-        <techLevel>Industrial</techLevel>
         <graphicData>
             <texPath>Things/Apparel/BoS_Headgear/BoS_Recon_Armor_Hood/FCP_BoS_Recon_Hood</texPath>
             <graphicClass>Graphic_Single</graphicClass>
@@ -217,14 +196,10 @@
             <Cloth>15</Cloth>
         </costList>
         <recipeMaker>
-            <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
             <researchPrerequisite>FCP_Research_BoS_Specialized_Armor</researchPrerequisite>
             <skillRequirements>
                 <Crafting>3</Crafting>
             </skillRequirements>
-            <recipeUsers>
-                <li>FCP_Production_Tailoring_Workbench</li>
-            </recipeUsers>
         </recipeMaker>
         <statBases>
             <WorkToMake>3000</WorkToMake>
@@ -254,11 +229,10 @@
 
     <!-- BoS Lancer Captain Hat -->
 
-    <ThingDef ParentName="HatMakeableBase">
+    <ThingDef ParentName="FCP_Hat_Makeable_Base">
         <defName>FCP_Apparel_BoS_Lancer_Captain_Hat</defName>
         <label>BoS Lancer's Captain Hat</label>
         <description>A peaked cap worn by officers of lancer units to denote rank and authority within the Brotherhood during inspections and official duties.</description>
-        <techLevel>Industrial</techLevel>
         <graphicData>
             <texPath>Things/Apparel/BoS_Headgear/BoS_Lancer_Captains_Cap/FCP_Lancer_Captain_Hat_south</texPath>
             <graphicClass>Graphic_Single</graphicClass>
@@ -267,14 +241,10 @@
             <Cloth>15</Cloth>
         </costList>
         <recipeMaker>
-            <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
             <researchPrerequisite>FCP_Research_BoS_Paladin_Training</researchPrerequisite>
             <skillRequirements>
                 <Crafting>3</Crafting>
             </skillRequirements>
-            <recipeUsers>
-                <li>FCP_Production_Tailoring_Workbench</li>
-            </recipeUsers>
         </recipeMaker>
         <statBases>
             <WorkToMake>3000</WorkToMake>
@@ -303,11 +273,10 @@
 
     <!-- BoS Field Scribe Hat -->
 
-    <ThingDef ParentName="HatMakeableBase">
+    <ThingDef ParentName="FCP_Hat_Makeable_Base">
         <defName>FCP_Apparel_BoS_Field_Scribe_Hat</defName>
         <label>BoS Science Field Hat</label>
         <description>Field hat worn by Brotherhood scribes and researchers on expeditions. It offers sun and light-weather protection while marking the wearer as part of the research and recovery cadre.</description>
-        <techLevel>Industrial</techLevel>
         <graphicData>
             <texPath>Things/Apparel/BoS_Headgear/BoS_Field_Scribe_Cap/FCP_BoS_Field_Scribe_Hat</texPath>
             <graphicClass>Graphic_Single</graphicClass>
@@ -316,14 +285,10 @@
             <Cloth>15</Cloth>
         </costList>
         <recipeMaker>
-            <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
             <researchPrerequisite>FCP_Research_BoS_Scribe_Attire</researchPrerequisite>
             <skillRequirements>
                 <Crafting>3</Crafting>
             </skillRequirements>
-            <recipeUsers>
-                <li>FCP_Production_Tailoring_Workbench</li>
-            </recipeUsers>
         </recipeMaker>
         <statBases>
             <WorkToMake>3000</WorkToMake>
@@ -352,11 +317,10 @@
 
     <!-- BoS Science Scribe Hat -->
 
-    <ThingDef ParentName="HatMakeableBase">
+    <ThingDef ParentName="FCP_Hat_Makeable_Base">
         <defName>FCP_Apparel_BoS_Science_Scribe_Hat</defName>
         <label>BoS Science Scribe Hat</label>
         <description>Cap worn by science scribes to identify members of the Brotherhood's research corps. Scribes focus on study, salvage, and the preservation of prewar technology.</description>
-        <techLevel>Industrial</techLevel>
         <graphicData>
             <texPath>Things/Apparel/BoS_Headgear/BoS_Science_Scribe_Helmet/FCP_BoS_Science_Scribe_Hat</texPath>
             <graphicClass>Graphic_Single</graphicClass>
@@ -365,14 +329,10 @@
             <Cloth>15</Cloth>
         </costList>
         <recipeMaker>
-            <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
             <researchPrerequisite>FCP_Research_BoS_Scribe_Attire</researchPrerequisite>
             <skillRequirements>
                 <Crafting>3</Crafting>
             </skillRequirements>
-            <recipeUsers>
-                <li>FCP_Production_Tailoring_Workbench</li>
-            </recipeUsers>
         </recipeMaker>
         <statBases>
             <WorkToMake>3000</WorkToMake>
@@ -401,11 +361,10 @@
 
     <!-- BoS Squire Hat -->
 
-    <ThingDef ParentName="HatMakeableBase">
+    <ThingDef ParentName="FCP_Hat_Makeable_Base">
         <defName>FCP_Apparel_BoS_Squire_Hat</defName>
         <label>BoS Squire Hat</label>
         <description>A simple cap issued to squires and trainees. Squires are apprentices attached to knights and paladins, learning fieldcraft and Brotherhood traditions.</description>
-        <techLevel>Industrial</techLevel>
         <graphicData>
             <texPath>Things/Apparel/BoS_Headgear/BoS_Squire_Hat/FCP_BoS_Squire_Hat</texPath>
             <graphicClass>Graphic_Single</graphicClass>
@@ -414,14 +373,10 @@
             <Cloth>15</Cloth>
         </costList>
         <recipeMaker>
-            <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
             <researchPrerequisite>FCP_Research_BoS_Initiate_Equipment</researchPrerequisite>
             <skillRequirements>
                 <Crafting>3</Crafting>
             </skillRequirements>
-            <recipeUsers>
-                <li>FCP_Production_Tailoring_Workbench</li>
-            </recipeUsers>
         </recipeMaker>
         <statBases>
             <WorkToMake>3000</WorkToMake>
@@ -450,23 +405,19 @@
 
     <!-- BoS Outcast Recon Hood -->
 
-    <ThingDef ParentName="HatMakeableBase">
+    <ThingDef ParentName="FCP_Hat_Makeable_Base">
         <defName>FCP_Apparel_BoS_Outcast_Recon_Hood</defName>
         <label>BoS Outcast Recon Hood</label>
         <description>A tactical hood worn by Brotherhood Outcast reconnaissance specialists. This hood features enhanced optics integration, communication equipment, and environmental protection systems modified to Outcast specifications for extended field operations behind enemy lines.</description>
-        <techLevel>Industrial</techLevel>
         <graphicData>
             <texPath>Things/Apparel/BoS_Headgear/Outcast_Recon_Armor_Hood/FCP_Outast_Recon_Armor_Hood</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
-        <recipeMaker Inherit="false">
+        <recipeMaker>
             <researchPrerequisite>FCP_Research_BoS_Outcast_Equipment</researchPrerequisite>
             <skillRequirements>
                 <Crafting>5</Crafting>
             </skillRequirements>
-            <recipeUsers>
-                <li>FCP_Production_Tailoring_Workbench</li>
-            </recipeUsers>
         </recipeMaker>
         <costList>
             <Steel>25</Steel>
