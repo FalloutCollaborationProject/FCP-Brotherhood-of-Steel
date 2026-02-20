@@ -16,15 +16,11 @@
             <graphicClass>Graphic_Single</graphicClass>
             <drawSize>0.90</drawSize>
         </graphicData>
-        <recipeMaker Inherit= "false">
-            <unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
+        <recipeMaker>
             <researchPrerequisite>FCP_Research_BoS_Elder_Regalia</researchPrerequisite>
             <skillRequirements>
                 <Crafting>4</Crafting>
             </skillRequirements>
-            <recipeUsers>
-                <li>FCP_Production_Tailoring_Workbench</li>
-            </recipeUsers>
         </recipeMaker>
         <costList>
             <Cloth>40</Cloth>
@@ -73,15 +69,11 @@
             <graphicClass>Graphic_Single</graphicClass>
             <drawSize>0.90</drawSize>
         </graphicData>
-        <recipeMaker Inherit= "false">
-            <unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
+        <recipeMaker>
             <researchPrerequisite>FCP_Research_BoS_Knight_Equipment</researchPrerequisite>
             <skillRequirements>
                 <Crafting>4</Crafting>
             </skillRequirements>
-            <recipeUsers>
-                <li>FCP_Production_Tailoring_Workbench</li>
-            </recipeUsers>
         </recipeMaker>
         <costList>
             <Cloth>50</Cloth>
@@ -125,15 +117,11 @@
             <graphicClass>Graphic_Single</graphicClass>
             <drawSize>0.90</drawSize>
         </graphicData>
-        <recipeMaker Inherit= "false">
-            <unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
+        <recipeMaker>
             <researchPrerequisite>FCP_Research_BoS_Knight_Equipment</researchPrerequisite>
             <skillRequirements>
                 <Crafting>4</Crafting>
             </skillRequirements>
-            <recipeUsers>
-                <li>FCP_Production_Tailoring_Workbench</li>
-            </recipeUsers>
         </recipeMaker>
         <costList>
             <Cloth>50</Cloth>
@@ -177,14 +165,10 @@
             <graphicClass>Graphic_Single</graphicClass>
             <drawSize>0.90</drawSize>
         </graphicData>
-        <recipeMaker Inherit= "false">
-            <unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
+        <recipeMaker>
             <skillRequirements>
                 <Crafting>4</Crafting>
             </skillRequirements>
-            <recipeUsers>
-                <li>FCP_Production_Tailoring_Workbench</li>
-            </recipeUsers>
         </recipeMaker>
         <costList>
             <Cloth>40</Cloth>
@@ -227,15 +211,11 @@
             <graphicClass>Graphic_Single</graphicClass>
             <drawSize>0.90</drawSize>
         </graphicData>
-        <recipeMaker Inherit= "false">
-            <unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
+        <recipeMaker>
             <researchPrerequisite>FCP_Research_BoS_Specialized_Armor</researchPrerequisite>
             <skillRequirements>
                 <Crafting>4</Crafting>
             </skillRequirements>
-            <recipeUsers>
-                <li>FCP_Production_Tailoring_Workbench</li>
-            </recipeUsers>
         </recipeMaker>
         <costList>
             <Cloth>50</Cloth>
@@ -281,15 +261,11 @@
             <graphicClass>Graphic_Single</graphicClass>
             <drawSize>0.90</drawSize>
         </graphicData>
-        <recipeMaker Inherit= "false">
-            <unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
+        <recipeMaker>
             <researchPrerequisite>FCP_Research_BoS_Paladin_Training</researchPrerequisite>
             <skillRequirements>
                 <Crafting>4</Crafting>
             </skillRequirements>
-            <recipeUsers>
-                <li>FCP_Production_Tailoring_Workbench</li>
-            </recipeUsers>
         </recipeMaker>
         <costList>
             <Cloth>40</Cloth>
@@ -337,15 +313,11 @@
             <graphicClass>Graphic_Single</graphicClass>
             <drawSize>0.90</drawSize>
         </graphicData>
-        <recipeMaker Inherit= "false">
-            <unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
+        <recipeMaker>
             <researchPrerequisite>FCP_Research_BoS_Knight_Equipment</researchPrerequisite>
             <skillRequirements>
                 <Crafting>4</Crafting>
             </skillRequirements>
-            <recipeUsers>
-                <li>FCP_Production_Tailoring_Workbench</li>
-            </recipeUsers>
         </recipeMaker>
         <costList>
             <Cloth>40</Cloth>
@@ -390,15 +362,11 @@
             <graphicClass>Graphic_Single</graphicClass>
             <drawSize>0.90</drawSize>
         </graphicData>
-        <recipeMaker Inherit= "false">
-            <unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
+        <recipeMaker>
             <researchPrerequisite>FCP_Research_BoS_Knight_Equipment</researchPrerequisite>
             <skillRequirements>
                 <Crafting>4</Crafting>
             </skillRequirements>
-            <recipeUsers>
-                <li>FCP_Production_Tailoring_Workbench</li>
-            </recipeUsers>
         </recipeMaker>
         <costList>
             <Cloth>40</Cloth>
@@ -446,15 +414,11 @@
             <graphicClass>Graphic_Single</graphicClass>
             <drawSize>0.90</drawSize>
         </graphicData>
-        <recipeMaker Inherit= "false">
-            <unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
+        <recipeMaker>
             <researchPrerequisite>FCP_Research_BoS_Knight_Equipment</researchPrerequisite>
             <skillRequirements>
                 <Crafting>4</Crafting>
             </skillRequirements>
-            <recipeUsers>
-                <li>FCP_Production_Tailoring_Workbench</li>
-            </recipeUsers>
         </recipeMaker>
         <costList>
             <Cloth>40</Cloth>
@@ -502,15 +466,11 @@
             <graphicClass>Graphic_Single</graphicClass>
             <drawSize>0.90</drawSize>
         </graphicData>
-        <recipeMaker Inherit= "false">
-            <unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
+        <recipeMaker>
             <researchPrerequisite>FCP_Research_BoS_Scribe_Attire</researchPrerequisite>
             <skillRequirements>
                 <Crafting>4</Crafting>
             </skillRequirements>
-            <recipeUsers>
-                <li>FCP_Production_Tailoring_Workbench</li>
-            </recipeUsers>
         </recipeMaker>
         <costList>
             <Cloth>40</Cloth>
@@ -558,15 +518,11 @@
             <graphicClass>Graphic_Single</graphicClass>
             <drawSize>0.90</drawSize>
         </graphicData>
-        <recipeMaker Inherit= "false">
-            <unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
+        <recipeMaker>
             <researchPrerequisite>FCP_Research_BoS_Scribe_Attire</researchPrerequisite>
             <skillRequirements>
                 <Crafting>4</Crafting>
             </skillRequirements>
-            <recipeUsers>
-                <li>FCP_Production_Tailoring_Workbench</li>
-            </recipeUsers>
         </recipeMaker>
         <costList>
             <Cloth>50</Cloth>
@@ -610,15 +566,11 @@
             <graphicClass>Graphic_Single</graphicClass>
             <drawSize>0.90</drawSize>
         </graphicData>
-        <recipeMaker Inherit= "false">
-            <unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
+        <recipeMaker>
             <researchPrerequisite>FCP_Research_BoS_Scribe_Attire</researchPrerequisite>
             <skillRequirements>
                 <Crafting>4</Crafting>
             </skillRequirements>
-            <recipeUsers>
-                <li>FCP_Production_Tailoring_Workbench</li>
-            </recipeUsers>
         </recipeMaker>
         <costList>
             <Cloth>50</Cloth>
@@ -661,15 +613,11 @@
             <graphicClass>Graphic_Single</graphicClass>
             <drawSize>0.90</drawSize>
         </graphicData>
-        <recipeMaker Inherit= "false">
-            <unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
+        <recipeMaker>
             <researchPrerequisite>FCP_Research_BoS_Initiate_Equipment</researchPrerequisite>
             <skillRequirements>
                 <Crafting>4</Crafting>
             </skillRequirements>
-            <recipeUsers>
-                <li>FCP_Production_Tailoring_Workbench</li>
-            </recipeUsers>
         </recipeMaker>
         <costList>
             <Cloth>50</Cloth>
@@ -710,7 +658,7 @@
 
     <!-- B35C Armor -->
 
-    <ThingDef ParentName="ArmorMachineableBase">
+    <ThingDef ParentName="FCP_Armor_Machineable_Base">
         <defName>FCP_Apparel_BoS_B35C_Armor</defName>
         <label>BoS B35C Armor</label>
         <description>A vacuum-sealed asbestos jumpsuit covering the entire body. Its purpose is twofold: it allows the user to actually operate the armor and protect soft tissue from moving parts inside the suit and heat. Unlike the BOS uniform, the Recon Armor provides decent protection on its own and is often used by Brotherhood agents on scouting missions or other situations where the clunky and loud power armor would draw too much attention.</description>
@@ -719,19 +667,11 @@
             <graphicClass>Graphic_Single</graphicClass>
             <drawSize>0.90</drawSize>
         </graphicData>
-        <thingCategories>
-            <li>ApparelArmor</li>
-        </thingCategories>
-        <techLevel>Industrial</techLevel>
-        <recipeMaker Inherit= "false">
-            <unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
+        <recipeMaker>
             <researchPrerequisite>FCP_Research_BoS_Specialized_Armor</researchPrerequisite>
             <skillRequirements>
                 <Crafting>4</Crafting>
             </skillRequirements>
-            <recipeUsers>
-                <li>FCP_Production_Tailoring_Workbench</li>
-            </recipeUsers>
         </recipeMaker>
         <costList>
             <Steel>50</Steel>
@@ -777,7 +717,6 @@
             <graphicClass>Graphic_Single</graphicClass>
             <drawSize>0.90</drawSize>
         </graphicData>
-        <techLevel>Industrial</techLevel>
         <statBases>
             <MaxHitPoints>120</MaxHitPoints>
             <ArmorRating_Sharp>1.35</ArmorRating_Sharp>
@@ -815,7 +754,7 @@
 
     <!-- Recon Armor -->
 
-    <ThingDef ParentName="ArmorMachineableBase">
+    <ThingDef ParentName="FCP_Armor_Machineable_Base">
         <defName>FCP_Apparel_BoS_Recon_Armor</defName>
         <label>BoS Recon Armor</label>
         <description>Lightweight tactical armor used by Brotherhood reconnaissance units. The Recon Armor provides solid protection while maintaining mobility and stealth capabilities, making it ideal for scouting missions and situations where full power armor would be impractical. Features advanced composite materials and integrated sensor systems.</description>
@@ -824,19 +763,11 @@
             <graphicClass>Graphic_Single</graphicClass>
             <drawSize>0.90</drawSize>
         </graphicData>
-        <thingCategories>
-            <li>ApparelArmor</li>
-        </thingCategories>
-        <techLevel>Industrial</techLevel>
-        <recipeMaker Inherit= "false">
-            <unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
+        <recipeMaker>
             <researchPrerequisite>FCP_Research_BoS_Specialized_Armor</researchPrerequisite>
             <skillRequirements>
                 <Crafting>4</Crafting>
             </skillRequirements>
-            <recipeUsers>
-                <li>FCP_Production_Tailoring_Workbench</li>
-            </recipeUsers>
         </recipeMaker>
         <costList>
             <Steel>50</Steel>
@@ -881,15 +812,11 @@
             <graphicClass>Graphic_Single</graphicClass>
             <drawSize>0.90</drawSize>
         </graphicData>
-        <recipeMaker Inherit="false">
-            <unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
+        <recipeMaker>
             <researchPrerequisite>FCP_Research_BoS_Outcast_Equipment</researchPrerequisite>
             <skillRequirements>
                 <Crafting>4</Crafting>
             </skillRequirements>
-            <recipeUsers>
-                <li>FCP_Production_Tailoring_Workbench</li>
-            </recipeUsers>
         </recipeMaker>
         <costList>
             <Cloth>35</Cloth>
@@ -932,7 +859,7 @@
 
     <!-- BoS Outcast Recon Armor -->
 
-    <ThingDef ParentName="FCP_Apparel_Makeable_Base">
+    <ThingDef ParentName="FCP_Armor_Machineable_Base">
         <defName>FCP_Apparel_BoS_Outcast_Recon_Armor</defName>
         <label>BoS Outcast Recon Armor</label>
         <description>Specialized reconnaissance armor worn by Brotherhood Outcast scouts and advance teams. This armor has been modified with enhanced mobility systems and stealth enhancements, featuring the distinctive Outcast markings and tactical modifications that reflect their more aggressive operational doctrine.</description>
@@ -941,15 +868,11 @@
             <graphicClass>Graphic_Single</graphicClass>
             <drawSize>0.90</drawSize>
         </graphicData>
-        <recipeMaker Inherit="false">
-            <unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
+        <recipeMaker>
             <researchPrerequisite>FCP_Research_BoS_Outcast_Equipment</researchPrerequisite>
             <skillRequirements>
                 <Crafting>6</Crafting>
             </skillRequirements>
-            <recipeUsers>
-                <li>FCP_Production_Fabrication_Workbench</li>
-            </recipeUsers>
         </recipeMaker>
         <costList>
             <Steel>60</Steel>

@@ -7,7 +7,7 @@
 
     <!-- M-94 Plasma Rifle -->
 
-    <ThingDef ParentName="BaseHumanMakeableGun">
+    <ThingDef ParentName="FCP_Complex_Gun_Base">
         <defName>FCP_Gun_BoS_M94_Plasma_Rifle</defName>
         <label>BoS M-94 Plasma Rifle</label>
         <description>A refined plasma rifle developed and manufactured by the Brotherhood of Steel's West Coast chapters. The M-94 represents decades of Brotherhood weapons research, featuring improved magnetic confinement, enhanced cooling systems, and superior durability compared to standard plasma rifles. Each weapon is carefully crafted by Brotherhood scribes and tested to rigorous military standards. The Brotherhood's trademark attention to detail and technological excellence make this one of the most reliable plasma weapons in the wasteland.</description>
@@ -35,9 +35,6 @@
             <skillRequirements>
                 <Crafting>10</Crafting>
             </skillRequirements>
-            <recipeUsers Inherit="False">
-                <li>FCP_Production_Complex_Weapons_Workbench</li>
-            </recipeUsers>
         </recipeMaker>
         <costList>
             <Plasteel>40</Plasteel>
@@ -99,7 +96,7 @@
 
     <!-- Ultracite Rifle -->
 
-    <ThingDef ParentName="BaseHumanMakeableGun">
+    <ThingDef ParentName="FCP_Complex_Gun_Base">
         <defName>FCP_Gun_BoS_Ultracite_Rifle</defName>
         <label>BoS Ultracite Rifle</label>
         <description>A cutting-edge energy weapon developed by the Brotherhood of Steel using ultracite, a rare crystalline material with exceptional energy-conducting properties. This experimental rifle fires rapid bursts of ultracite-charged plasma that penetrates armor more effectively than standard plasma weapons while maintaining a higher rate of fire. The weapon's advanced cooling system and compact design make it a favorite among Brotherhood field operatives who need to engage heavily armored targets quickly. Each rifle is painstakingly assembled in Brotherhood workshops from carefully refined ultracite cores.</description>
@@ -127,9 +124,6 @@
             <skillRequirements>
                 <Crafting>11</Crafting>
             </skillRequirements>
-            <recipeUsers Inherit="False">
-                <li>FCP_Production_Complex_Weapons_Workbench</li>
-            </recipeUsers>
         </recipeMaker>
         <costList>
             <Plasteel>45</Plasteel>
@@ -194,11 +188,10 @@
 
     <!-- 10mm Crusader Pistol -->
 
-    <ThingDef ParentName="BaseHumanMakeableGun">
+    <ThingDef ParentName="FCP_Complex_Gun_Base">
         <defName>FCP_Gun_BoS_Crusader_Pistol</defName>
         <label>BoS 10mm Crusader Pistol</label>
         <description>A precision-engineered 10mm pistol manufactured by the Brotherhood of Steel. The Crusader represents the Brotherhood's philosophy of combining proven ballistic technology with modern manufacturing techniques. Featuring a reinforced frame, enhanced rifling, and superior materials, this sidearm offers exceptional reliability and accuracy compared to standard wasteland pistols. Brotherhood knights and paladins carry these as secondary weapons, trusting in their consistent performance when every shot counts.</description>
-        <techLevel>Industrial</techLevel>
         <graphicData>
             <texPath>Things/Items/Weapons/FCP_BoS_Crusader_Pistol</texPath>
             <graphicClass>Graphic_Single</graphicClass>
@@ -222,9 +215,6 @@
             <skillRequirements>
                 <Crafting>8</Crafting>
             </skillRequirements>
-            <recipeUsers Inherit="False">
-                <li>FCP_Production_Complex_Weapons_Workbench</li>
-            </recipeUsers>
         </recipeMaker>
         <costList>
             <Steel>35</Steel>
@@ -282,7 +272,7 @@
 
     <!-- BoS Super Sledge -->
 
-    <ThingDef ParentName="BaseMeleeWeapon_Blunt_Quality">
+    <ThingDef ParentName="FCP_Melee_Blunt_Base">
         <defName>FCP_Melee_BoS_Super_Sledge</defName>
         <label>BoS Super Sledge</label>
         <description>A Brotherhood of Steel manufactured super sledgehammer, built to their exacting specifications. This legendary weapon combines a reinforced durasteel head with advanced kinetic energy storage technology. Upon impact, the stored energy releases in a devastating shockwave, multiplying the force of each blow. Brotherhood paladins favor this weapon for breaching fortifications and engaging heavily armored targets in close combat. The BoS insignia stamped on the handle marks this as official Brotherhood equipment, built to last through countless battles.</description>
