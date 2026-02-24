@@ -9,7 +9,7 @@
 		<defName>FCP_Faction_BoS_Outcast_Remnants</defName>
 		<label>Brotherhood Outcasts</label>
 		<description>The Outcast Remnants are a hardened splinter group of the Brotherhood of Steel, formed by those who rejected the Brotherhood's changing ideals and chose to uphold the original mission: the recovery and preservation of advanced technology at any cost. Isolated from their former brothers, the Outcasts are fiercely independent, pragmatic, and often distrustful of outsiders. Their camps are fortified, their patrols relentless, and their loyalty to their cause unwavering. Though their numbers are few, their discipline, technical expertise, and mastery of power armor make them a formidable force in the wasteland.</description>
-		<royalTitleTags MayRequire="Ludeon.RimWorld.Royalty">
+		<royalTitleTags>
 			<li>FCP_Title_Outcast</li>
 		</royalTitleTags>
 		<royalFavorLabel MayRequire="Ludeon.RimWorld.Royalty">Tech Scrip</royalFavorLabel>
@@ -90,6 +90,9 @@
 			<li>Caravan_Outlander_BulkGoods</li>
 			<li>Caravan_Outlander_CombatSupplier</li>
 			<li>FCP_Caravan_BoS_Prisoner_Exchange</li>
+			<li>FCP_Caravan_Outcast_Tech_Buyer</li>
+			<li>FCP_Caravan_BoS_Apparel_Trader</li>
+			<li>FCP_Caravan_BoS_Scribe_Trader</li>
 			<li>Caravan_Outlander_Exotic</li>
 			<li>Caravan_Outlander_PirateMerchant</li>
 		</caravanTraderKinds>

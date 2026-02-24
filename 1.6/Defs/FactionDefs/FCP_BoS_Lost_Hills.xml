@@ -9,7 +9,7 @@
 		<defName>FCP_Faction_BoS_Lost_Hills</defName>
 		<label>Lost Hills Chapter</label>
 		<description>The Lost Hills Chapter is the original Brotherhood of Steel, founded by Roger Maxson in the ruins of the Mariposa Military Base. As the first and founding chapter, Lost Hills represents the purest form of the Brotherhood's ideals - technological preservation, military discipline, and isolationist philosophy. They are the keepers of the original Codex and consider themselves the supreme authority over all Brotherhood chapters. Their fortress in the Lost Hills bunker complex remains one of the most technologically advanced facilities in the wasteland, housing pre-war military hardware and the Brotherhood's most elite soldiers.</description>
-		<royalTitleTags MayRequire="Ludeon.RimWorld.Royalty">
+		<royalTitleTags>
 			<li>FCP_Title_BoS</li>
 		</royalTitleTags>
 		<royalFavorLabel MayRequire="Ludeon.RimWorld.Royalty">Honor</royalFavorLabel>
@@ -80,6 +80,8 @@
 			<li>Caravan_Outlander_BulkGoods</li>
 			<li>Caravan_Outlander_CombatSupplier</li>
 			<li>FCP_Caravan_BoS_Prisoner_Exchange</li>
+			<li>FCP_Caravan_BoS_Apparel_Trader</li>
+			<li>FCP_Caravan_BoS_Scribe_Trader</li>
 			<li>Caravan_Outlander_Exotic</li>
 		</caravanTraderKinds>
 		<visitorTraderKinds>

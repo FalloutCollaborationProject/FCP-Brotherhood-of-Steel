@@ -9,7 +9,7 @@
 		<defName>FCP_Faction_BoS_Lyons_Pride_Remnants</defName>
 		<label>Lyons' Pride Remnants</label>
 		<description>The Lyons' Pride remnants are a faction of disciplined and technologically advanced warriors, striving to preserve the ideals of their late leader, Elder Lyons. Once a proud and unified chapter, they now operate as a fragmented yet determined group, clinging to their mission of protecting humanity and safeguarding advanced technology. Though their numbers have dwindled, their resolve remains unshaken, and they continue to uphold their code of honor amidst the chaos of the wasteland. Their advanced weaponry, power armor, and tactical expertise make them a formidable force, whether as allies or adversaries.</description>
-		<royalTitleTags MayRequire="Ludeon.RimWorld.Royalty">
+		<royalTitleTags>
 			<li>FCP_Title_Lyons_Pride</li>
 		</royalTitleTags>
 		<royalFavorLabel MayRequire="Ludeon.RimWorld.Royalty">Pride Honor</royalFavorLabel>
@@ -90,6 +90,8 @@
 			<li>Caravan_Outlander_BulkGoods</li>
 			<li>Caravan_Outlander_CombatSupplier</li>
 			<li>FCP_Caravan_BoS_Prisoner_Exchange</li>
+			<li>FCP_Caravan_BoS_Apparel_Trader</li>
+			<li>FCP_Caravan_BoS_Scribe_Trader</li>
 			<li>Caravan_Outlander_Exotic</li>
 			<li>Caravan_Outlander_PirateMerchant</li>
 		</caravanTraderKinds>

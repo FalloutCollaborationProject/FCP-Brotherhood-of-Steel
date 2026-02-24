@@ -166,6 +166,7 @@
             <drawSize>0.90</drawSize>
         </graphicData>
         <recipeMaker>
+            <researchPrerequisite>FCP_Research_BoS_Initiate_Equipment</researchPrerequisite>
             <skillRequirements>
                 <Crafting>4</Crafting>
             </skillRequirements>
