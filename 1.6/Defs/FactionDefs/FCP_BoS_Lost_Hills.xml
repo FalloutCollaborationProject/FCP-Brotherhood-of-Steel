@@ -176,7 +176,12 @@
                     <li>RandomDrop</li>
                 </arrivalModes>
             </li>
-		</modExtensions>
-	</FactionDef>
+            <!-- Clusters and biome configuration -->
+            <li Class="FCP.Factions.FactionExtension_SpawnConfig">
+                <clustered>true</clustered>
+                <clusterRadius>30</clusterRadius>
+            </li>
+                </modExtensions>
+        </FactionDef>
 
 </Defs>
