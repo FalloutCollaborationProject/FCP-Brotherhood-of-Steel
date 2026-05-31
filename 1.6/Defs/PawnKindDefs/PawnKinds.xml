@@ -149,6 +149,14 @@
                     <thingDef>MealSurvivalPack</thingDef>
                     <countRange>1~2</countRange>
                 </li>
+                <li MayRequire="Rick.FCP.Chems">
+                    <thingDef>FCP_Chem_Stimpak</thingDef>
+                    <countRange>1~2</countRange>
+                </li>
+                <li MayRequire="Rick.FCP.PreWarFood">
+                    <thingDef>FCP_Food_Cram</thingDef>
+                    <countRange>1~2</countRange>
+                </li>
             </subOptionsChooseOne>
         </inventoryOptions>
     </PawnKindDef>
@@ -189,6 +197,27 @@
                 </categoriesAdulthood>
             </li>
         </backstoryFiltersOverride>
+        <inventoryOptions>
+            <skipChance>0.70</skipChance>
+            <subOptionsChooseOne>
+                <li MayRequire="Rick.FCP.Chems">
+                    <thingDef>FCP_Chem_Stimpak</thingDef>
+                    <countRange>1~2</countRange>
+                </li>
+                <li MayRequire="Rick.FCP.PreWarFood">
+                    <thingDef>FCP_Food_Cram</thingDef>
+                    <countRange>2~3</countRange>
+                </li>
+                <li MayRequire="Rick.FCP.PreWarFood">
+                    <thingDef>FCP_Food_Sugar_Bombs</thingDef>
+                    <countRange>1~2</countRange>
+                </li>
+                <li MayRequire="Rick.FCP.NukaCola">
+                    <thingDef>FCP_Nuka_Cola</thingDef>
+                    <countRange>1</countRange>
+                </li>
+            </subOptionsChooseOne>
+        </inventoryOptions>
     </PawnKindDef>
 
     <!-- Brotherhood Knight -->
@@ -249,6 +278,22 @@
                     <thingDef>MedicineIndustrial</thingDef>
                     <countRange>1~2</countRange>
                 </li>
+                <li MayRequire="Rick.FCP.Chems">
+                    <thingDef>FCP_Chem_Stimpak</thingDef>
+                    <countRange>1~2</countRange>
+                </li>
+                <li MayRequire="Rick.FCP.PreWarFood">
+                    <thingDef>FCP_Food_Cram</thingDef>
+                    <countRange>2~3</countRange>
+                </li>
+                <li MayRequire="Rick.FCP.PreWarFood">
+                    <thingDef>FCP_Food_Sugar_Bombs</thingDef>
+                    <countRange>1~2</countRange>
+                </li>
+                <li MayRequire="Rick.FCP.NukaCola">
+                    <thingDef>FCP_Nuka_Cola</thingDef>
+                    <countRange>1</countRange>
+                </li>
             </subOptionsChooseOne>
         </inventoryOptions>
     </PawnKindDef>
@@ -298,6 +343,26 @@
                 </li>
                 <li>
                     <thingDef>MedicineIndustrial</thingDef>
+                    <countRange>1~2</countRange>
+                </li>
+                <li MayRequire="Rick.FCP.Chems">
+                    <thingDef>FCP_Chem_Stimpak</thingDef>
+                    <countRange>2~3</countRange>
+                </li>
+                <li MayRequire="Rick.FCP.Chems">
+                    <thingDef>FCP_Chem_MedX</thingDef>
+                    <countRange>1~2</countRange>
+                </li>
+                <li MayRequire="Rick.FCP.PreWarFood">
+                    <thingDef>FCP_Food_Cram</thingDef>
+                    <countRange>2~4</countRange>
+                </li>
+                <li MayRequire="Rick.FCP.PreWarFood">
+                    <thingDef>FCP_Food_Sugar_Bombs</thingDef>
+                    <countRange>1~2</countRange>
+                </li>
+                <li MayRequire="Rick.FCP.NukaCola">
+                    <thingDef>FCP_Nuka_Cola</thingDef>
                     <countRange>1~2</countRange>
                 </li>
             </subOptionsChooseOne>
@@ -363,6 +428,26 @@
                     <thingDef>MedicineIndustrial</thingDef>
                     <countRange>2~3</countRange>
                 </li>
+                <li MayRequire="Rick.FCP.Chems">
+                    <thingDef>FCP_Chem_Stimpak</thingDef>
+                    <countRange>2~3</countRange>
+                </li>
+                <li MayRequire="Rick.FCP.Chems">
+                    <thingDef>FCP_Chem_MedX</thingDef>
+                    <countRange>1~2</countRange>
+                </li>
+                <li MayRequire="Rick.FCP.PreWarFood">
+                    <thingDef>FCP_Food_Cram</thingDef>
+                    <countRange>2~4</countRange>
+                </li>
+                <li MayRequire="Rick.FCP.PreWarFood">
+                    <thingDef>FCP_Food_Sugar_Bombs</thingDef>
+                    <countRange>1~2</countRange>
+                </li>
+                <li MayRequire="Rick.FCP.NukaCola">
+                    <thingDef>FCP_Nuka_Cola</thingDef>
+                    <countRange>1~2</countRange>
+                </li>
             </subOptionsChooseOne>
         </inventoryOptions>
     </PawnKindDef>
@@ -417,6 +502,26 @@
                     <thingDef>MedicineIndustrial</thingDef>
                     <countRange>2~4</countRange>
                 </li>
+                <li MayRequire="Rick.FCP.Chems">
+                    <thingDef>FCP_Chem_Stimpak</thingDef>
+                    <countRange>3~4</countRange>
+                </li>
+                <li MayRequire="Rick.FCP.Chems">
+                    <thingDef>FCP_Chem_MedX</thingDef>
+                    <countRange>2~3</countRange>
+                </li>
+                <li MayRequire="Rick.FCP.PreWarFood">
+                    <thingDef>FCP_Food_Cram</thingDef>
+                    <countRange>3~5</countRange>
+                </li>
+                <li MayRequire="Rick.FCP.PreWarFood">
+                    <thingDef>FCP_Food_Sugar_Bombs</thingDef>
+                    <countRange>2~3</countRange>
+                </li>
+                <li MayRequire="Rick.FCP.NukaCola">
+                    <thingDef>FCP_Nuka_Cola</thingDef>
+                    <countRange>2~3</countRange>
+                </li>
             </subOptionsChooseOne>
         </inventoryOptions>
     </PawnKindDef>
@@ -451,10 +556,33 @@
                 </categoriesChildhood>
             </li>
         </backstoryFiltersOverride>
-    </PawnKindDef>
+    <inventoryOptions>
+        <skipChance>0.60</skipChance>
+        <subOptionsChooseOne>
+            <li MayRequire="Rick.FCP.Chems">
+                <thingDef>FCP_Chem_Stimpak</thingDef>
+                <countRange>3~4</countRange>
+            </li>
+            <li MayRequire="Rick.FCP.Chems">
+                <thingDef>FCP_Chem_MedX</thingDef>
+                <countRange>2~3</countRange>
+            </li>
+            <li MayRequire="Rick.FCP.PreWarFood">
+                <thingDef>FCP_Food_Cram</thingDef>
+                <countRange>3~5</countRange>
+            </li>
+            <li MayRequire="Rick.FCP.PreWarFood">
+                <thingDef>FCP_Food_Sugar_Bombs</thingDef>
+                <countRange>2~3</countRange>
+            </li>
+            <li MayRequire="Rick.FCP.NukaCola">
+                <thingDef>FCP_Nuka_Cola</thingDef>
+                <countRange>2~3</countRange>
+            </li>
+        </subOptionsChooseOne>
+    </inventoryOptions>
+</PawnKindDef>
 
-    <!-- Lyons Pride Paladin -->
-    
     <PawnKindDef ParentName="FCP_BoS_Lyons_PowerArmorBase">
         <defName>FCP_Pawnkind_Lyons_Pride_Paladin</defName>
         <label>Lyons Pride Paladin</label>
@@ -483,10 +611,33 @@
                 </categoriesChildhood>
             </li>
         </backstoryFiltersOverride>
-    </PawnKindDef>
+    <inventoryOptions>
+        <skipChance>0.65</skipChance>
+        <subOptionsChooseOne>
+            <li MayRequire="Rick.FCP.Chems">
+                <thingDef>FCP_Chem_Stimpak</thingDef>
+                <countRange>2~3</countRange>
+            </li>
+            <li MayRequire="Rick.FCP.Chems">
+                <thingDef>FCP_Chem_MedX</thingDef>
+                <countRange>1~2</countRange>
+            </li>
+            <li MayRequire="Rick.FCP.PreWarFood">
+                <thingDef>FCP_Food_Cram</thingDef>
+                <countRange>2~4</countRange>
+            </li>
+            <li MayRequire="Rick.FCP.PreWarFood">
+                <thingDef>FCP_Food_Sugar_Bombs</thingDef>
+                <countRange>1~2</countRange>
+            </li>
+            <li MayRequire="Rick.FCP.NukaCola">
+                <thingDef>FCP_Nuka_Cola</thingDef>
+                <countRange>1~2</countRange>
+            </li>
+        </subOptionsChooseOne>
+    </inventoryOptions>
+</PawnKindDef>
 
-    <!-- Lyons Pride Knight -->
-    
     <PawnKindDef ParentName="FCP_BoSkindBase">
         <defName>FCP_Pawnkind_Lyons_Pride_Knight</defName>
         <label>Lyons Pride Knight</label>
@@ -524,10 +675,29 @@
                 </categoriesChildhood>
             </li>
         </backstoryFiltersOverride>
-    </PawnKindDef>
+    <inventoryOptions>
+        <skipChance>0.70</skipChance>
+        <subOptionsChooseOne>
+            <li MayRequire="Rick.FCP.Chems">
+                <thingDef>FCP_Chem_Stimpak</thingDef>
+                <countRange>1~2</countRange>
+            </li>
+            <li MayRequire="Rick.FCP.PreWarFood">
+                <thingDef>FCP_Food_Cram</thingDef>
+                <countRange>2~3</countRange>
+            </li>
+            <li MayRequire="Rick.FCP.PreWarFood">
+                <thingDef>FCP_Food_Sugar_Bombs</thingDef>
+                <countRange>1~2</countRange>
+            </li>
+            <li MayRequire="Rick.FCP.NukaCola">
+                <thingDef>FCP_Nuka_Cola</thingDef>
+                <countRange>1</countRange>
+            </li>
+        </subOptionsChooseOne>
+    </inventoryOptions>
+</PawnKindDef>
 
-    <!-- Brotherhood Sentinel -->
-    
     <PawnKindDef ParentName="FCP_BoS_PowerArmorBase">
         <defName>FCP_Pawnkind_BoS_Sentinel</defName>
         <label>Brotherhood Sentinel</label>
@@ -597,10 +767,29 @@
                 </categoriesAdulthood>
             </li>
         </backstoryFiltersOverride>
-    </PawnKindDef>
+    <inventoryOptions>
+        <skipChance>0.70</skipChance>
+        <subOptionsChooseOne>
+            <li MayRequire="Rick.FCP.Chems">
+                <thingDef>FCP_Chem_Stimpak</thingDef>
+                <countRange>1~2</countRange>
+            </li>
+            <li MayRequire="Rick.FCP.Chems">
+                <thingDef>FCP_Chem_MedX</thingDef>
+                <countRange>1</countRange>
+            </li>
+            <li MayRequire="Rick.FCP.PreWarFood">
+                <thingDef>FCP_Food_Cram</thingDef>
+                <countRange>2~3</countRange>
+            </li>
+            <li MayRequire="Rick.FCP.NukaCola">
+                <thingDef>FCP_Nuka_Cola</thingDef>
+                <countRange>1</countRange>
+            </li>
+        </subOptionsChooseOne>
+    </inventoryOptions>
+</PawnKindDef>
 
-    <!-- Brotherhood Science Scribe -->
-    
     <PawnKindDef ParentName="FCP_BoSkindBase">
         <defName>FCP_Pawnkind_BoS_Science_Scribe</defName>
         <label>Brotherhood Science Scribe</label>
@@ -638,10 +827,29 @@
                 </categoriesAdulthood>
             </li>
         </backstoryFiltersOverride>
-    </PawnKindDef>
+    <inventoryOptions>
+        <skipChance>0.70</skipChance>
+        <subOptionsChooseOne>
+            <li MayRequire="Rick.FCP.Chems">
+                <thingDef>FCP_Chem_Stimpak</thingDef>
+                <countRange>1~2</countRange>
+            </li>
+            <li MayRequire="Rick.FCP.Chems">
+                <thingDef>FCP_Chem_MedX</thingDef>
+                <countRange>1</countRange>
+            </li>
+            <li MayRequire="Rick.FCP.PreWarFood">
+                <thingDef>FCP_Food_Cram</thingDef>
+                <countRange>2~3</countRange>
+            </li>
+            <li MayRequire="Rick.FCP.NukaCola">
+                <thingDef>FCP_Nuka_Cola</thingDef>
+                <countRange>1</countRange>
+            </li>
+        </subOptionsChooseOne>
+    </inventoryOptions>
+</PawnKindDef>
 
-    <!-- Brotherhood Scribe -->
-    
     <PawnKindDef ParentName="FCP_BoSkindBase">
         <defName>FCP_Pawnkind_BoS_Scribe</defName>
         <label>Brotherhood Scribe</label>
@@ -719,10 +927,33 @@
                 </categoriesAdulthood>
             </li>
         </backstoryFiltersOverride>
-    </PawnKindDef>
+    <inventoryOptions>
+        <skipChance>0.60</skipChance>
+        <subOptionsChooseOne>
+            <li MayRequire="Rick.FCP.Chems">
+                <thingDef>FCP_Chem_Stimpak</thingDef>
+                <countRange>3~4</countRange>
+            </li>
+            <li MayRequire="Rick.FCP.Chems">
+                <thingDef>FCP_Chem_MedX</thingDef>
+                <countRange>2~3</countRange>
+            </li>
+            <li MayRequire="Rick.FCP.PreWarFood">
+                <thingDef>FCP_Food_Cram</thingDef>
+                <countRange>3~5</countRange>
+            </li>
+            <li MayRequire="Rick.FCP.PreWarFood">
+                <thingDef>FCP_Food_Sugar_Bombs</thingDef>
+                <countRange>2~3</countRange>
+            </li>
+            <li MayRequire="Rick.FCP.NukaCola">
+                <thingDef>FCP_Nuka_Cola</thingDef>
+                <countRange>2~3</countRange>
+            </li>
+        </subOptionsChooseOne>
+    </inventoryOptions>
+</PawnKindDef>
 
-    <!-- Brotherhood High Elder -->
-    
     <PawnKindDef ParentName="FCP_BoSkindBase">
         <defName>FCP_Pawnkind_BoS_High_Elder</defName>
         <label>Brotherhood High Elder</label>
@@ -762,6 +993,7 @@
     </PawnKindDef>
 
     <!--___ Traders ___-->
+
     <!-- Brotherhood Scribe Proctor -->
     
     <PawnKindDef ParentName="FCP_BoSkindBase">
@@ -787,14 +1019,35 @@
         <initialResistanceRange>10~17</initialResistanceRange>
         <backstoryFiltersOverride>
             <li>
-                <categoriesAdulthood>
-                    <li>FCP_Backstory_Outcast_Defender</li>
-                </categoriesAdulthood>
                 <categoriesChildhood>
-                    <li>FCP_Backstory_Outcasts_Child</li>
+                    <li>FCP_Backstory_BoS_Child</li>
                 </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Backstory_BoS_Scribe</li>
+                </categoriesAdulthood>
             </li>
         </backstoryFiltersOverride>
+        <inventoryOptions>
+            <skipChance>0.70</skipChance>
+            <subOptionsChooseOne>
+                <li MayRequire="Rick.FCP.Chems">
+                    <thingDef>FCP_Chem_Stimpak</thingDef>
+                    <countRange>1~2</countRange>
+                </li>
+                <li MayRequire="Rick.FCP.Chems">
+                    <thingDef>FCP_Chem_MedX</thingDef>
+                    <countRange>1</countRange>
+                </li>
+                <li MayRequire="Rick.FCP.PreWarFood">
+                    <thingDef>FCP_Food_Cram</thingDef>
+                    <countRange>2~3</countRange>
+                </li>
+                <li MayRequire="Rick.FCP.NukaCola">
+                    <thingDef>FCP_Nuka_Cola</thingDef>
+                    <countRange>1</countRange>
+                </li>
+            </subOptionsChooseOne>
+        </inventoryOptions>
     </PawnKindDef>
 
     <!-- Brotherhood Outcast Defender -->
@@ -822,6 +1075,31 @@
                 </categoriesChildhood>
             </li>
         </backstoryFiltersOverride>
+    <inventoryOptions>
+        <skipChance>0.65</skipChance>
+        <subOptionsChooseOne>
+            <li MayRequire="Rick.FCP.Chems">
+                <thingDef>FCP_Chem_Stimpak</thingDef>
+                <countRange>2~3</countRange>
+            </li>
+            <li MayRequire="Rick.FCP.Chems">
+                <thingDef>FCP_Chem_MedX</thingDef>
+                <countRange>1~2</countRange>
+            </li>
+            <li MayRequire="Rick.FCP.PreWarFood">
+                <thingDef>FCP_Food_Cram</thingDef>
+                <countRange>2~4</countRange>
+            </li>
+            <li MayRequire="Rick.FCP.PreWarFood">
+                <thingDef>FCP_Food_Sugar_Bombs</thingDef>
+                <countRange>1~2</countRange>
+            </li>
+            <li MayRequire="Rick.FCP.NukaCola">
+                <thingDef>FCP_Nuka_Cola</thingDef>
+                <countRange>1~2</countRange>
+            </li>
+        </subOptionsChooseOne>
+    </inventoryOptions>
     </PawnKindDef>
 
     <!-- Brotherhood Outcast Protector -->
@@ -831,25 +1109,50 @@
         <label>Brotherhood Outcast Protector</label>
         <defaultFactionDef>FCP_Faction_BoS_Outcast_Remnants</defaultFactionDef>
         <factionLeader>true</factionLeader>
-        <combatPower>30</combatPower>
+        <combatPower>60</combatPower>
         <gearHealthRange>0.5~1.8</gearHealthRange>
         <weaponMoney>900~1200</weaponMoney>
         <weaponTags>
             <li>Gun</li>
             <li MayRequire="Rick.FCP.EnergyWeapons">FCP_Laser_Weapon</li>
         </weaponTags>
-        <initialWillRange>1~3</initialWillRange>
-        <initialResistanceRange>10~17</initialResistanceRange>
+        <initialWillRange>3~5</initialWillRange>
+        <initialResistanceRange>15~22</initialResistanceRange>
         <backstoryFiltersOverride>
             <li>
                 <categoriesAdulthood>
-                    <li>FCP_Backstory_Outcast_Recon</li>
+                    <li>FCP_Backstory_Outcast_Defender</li>
                 </categoriesAdulthood>
                 <categoriesChildhood>
                     <li>FCP_Backstory_Outcasts_Child</li>
                 </categoriesChildhood>
             </li>
         </backstoryFiltersOverride>
+        <inventoryOptions>
+        <skipChance>0.60</skipChance>
+        <subOptionsChooseOne>
+            <li MayRequire="Rick.FCP.Chems">
+                <thingDef>FCP_Chem_Stimpak</thingDef>
+                <countRange>3~4</countRange>
+            </li>
+            <li MayRequire="Rick.FCP.Chems">
+                <thingDef>FCP_Chem_MedX</thingDef>
+                <countRange>2~3</countRange>
+            </li>
+            <li MayRequire="Rick.FCP.PreWarFood">
+                <thingDef>FCP_Food_Cram</thingDef>
+                <countRange>3~5</countRange>
+            </li>
+            <li MayRequire="Rick.FCP.PreWarFood">
+                <thingDef>FCP_Food_Sugar_Bombs</thingDef>
+                <countRange>2~3</countRange>
+            </li>
+            <li MayRequire="Rick.FCP.NukaCola">
+                <thingDef>FCP_Nuka_Cola</thingDef>
+                <countRange>2~3</countRange>
+            </li>
+        </subOptionsChooseOne>
+    </inventoryOptions>
     </PawnKindDef>
 
     <!-- Brotherhood Outcast Specialist -->
@@ -881,13 +1184,34 @@
                 </categoriesChildhood>
             </li>
         </backstoryFiltersOverride>
+    <inventoryOptions>
+        <skipChance>0.70</skipChance>
+        <subOptionsChooseOne>
+            <li MayRequire="Rick.FCP.Chems">
+                <thingDef>FCP_Chem_Stimpak</thingDef>
+                <countRange>1~2</countRange>
+            </li>
+            <li MayRequire="Rick.FCP.Chems">
+                <thingDef>FCP_Chem_MedX</thingDef>
+                <countRange>1</countRange>
+            </li>
+            <li MayRequire="Rick.FCP.PreWarFood">
+                <thingDef>FCP_Food_Cram</thingDef>
+                <countRange>2~3</countRange>
+            </li>
+            <li MayRequire="Rick.FCP.NukaCola">
+                <thingDef>FCP_Nuka_Cola</thingDef>
+                <countRange>1</countRange>
+            </li>
+        </subOptionsChooseOne>
+    </inventoryOptions>
     </PawnKindDef>
 
-    <!-- Brotherhood Outcast Recon -->
+    <!-- Brotherhood Outcast Recon Specialist -->
     
     <PawnKindDef ParentName="FCP_BoSkindBase">
-        <defName>FCP_Pawnkind_BoS_Outcast_Recon</defName>
-        <label>Brotherhood Outcast Recon</label>
+        <defName>FCP_Pawnkind_BoS_Outcast_Recon_Specialist</defName>
+        <label>Brotherhood Outcast Recon Specialist</label>
         <defaultFactionDef>FCP_Faction_BoS_Outcast_Remnants</defaultFactionDef>
         <combatPower>40</combatPower>
         <gearHealthRange>0.5~1.8</gearHealthRange>
@@ -917,11 +1241,30 @@
                 </categoriesChildhood>
             </li>
         </backstoryFiltersOverride>
+    <inventoryOptions>
+        <skipChance>0.70</skipChance>
+        <subOptionsChooseOne>
+            <li MayRequire="Rick.FCP.Chems">
+                <thingDef>FCP_Chem_Stimpak</thingDef>
+                <countRange>1~2</countRange>
+            </li>
+            <li MayRequire="Rick.FCP.PreWarFood">
+                <thingDef>FCP_Food_Cram</thingDef>
+                <countRange>2~3</countRange>
+            </li>
+            <li MayRequire="Rick.FCP.PreWarFood">
+                <thingDef>FCP_Food_Sugar_Bombs</thingDef>
+                <countRange>1~2</countRange>
+            </li>
+            <li MayRequire="Rick.FCP.NukaCola">
+                <thingDef>FCP_Nuka_Cola</thingDef>
+                <countRange>1</countRange>
+            </li>
+        </subOptionsChooseOne>
+    </inventoryOptions>
     </PawnKindDef>
 
-    <!--___ Mojave Chapter Pawns ___-->
-    
-    <!-- Mojave Base -->
+    <!-- Mojave Brotherhood Base -->
     
     <PawnKindDef ParentName="FCP_BoSkindBase" Name="FCP_Mojave_BoSkindBase" Abstract="True">
         <defaultFactionDef>FCP_Faction_BoS_Mojave_Player</defaultFactionDef>
@@ -974,6 +1317,31 @@
         <techHediffsChance>0.03</techHediffsChance>
         <initialWillRange>3~5</initialWillRange>
         <initialResistanceRange>19~30</initialResistanceRange>
+        <inventoryOptions>
+            <skipChance>0.65</skipChance>
+            <subOptionsChooseOne>
+                <li MayRequire="Rick.FCP.Chems">
+                    <thingDef>FCP_Chem_Stimpak</thingDef>
+                    <countRange>2~3</countRange>
+                </li>
+                <li MayRequire="Rick.FCP.Chems">
+                    <thingDef>FCP_Chem_MedX</thingDef>
+                    <countRange>1~2</countRange>
+                </li>
+                <li MayRequire="Rick.FCP.PreWarFood">
+                    <thingDef>FCP_Food_Cram</thingDef>
+                    <countRange>2~4</countRange>
+                </li>
+                <li MayRequire="Rick.FCP.PreWarFood">
+                    <thingDef>FCP_Food_Sugar_Bombs</thingDef>
+                    <countRange>1~2</countRange>
+                </li>
+                <li MayRequire="Rick.FCP.NukaCola">
+                    <thingDef>FCP_Nuka_Cola</thingDef>
+                    <countRange>1~2</countRange>
+                </li>
+            </subOptionsChooseOne>
+        </inventoryOptions>
     </PawnKindDef>
 
     <!-- Mojave Brotherhood Knight (Player) -->
@@ -1005,6 +1373,27 @@
         <techHediffsChance>0.03</techHediffsChance>
         <initialWillRange>2~5</initialWillRange>
         <initialResistanceRange>15~24</initialResistanceRange>
+        <inventoryOptions>
+            <skipChance>0.70</skipChance>
+            <subOptionsChooseOne>
+                <li MayRequire="Rick.FCP.Chems">
+                    <thingDef>FCP_Chem_Stimpak</thingDef>
+                    <countRange>1~2</countRange>
+                </li>
+                <li MayRequire="Rick.FCP.PreWarFood">
+                    <thingDef>FCP_Food_Cram</thingDef>
+                    <countRange>2~3</countRange>
+                </li>
+                <li MayRequire="Rick.FCP.PreWarFood">
+                    <thingDef>FCP_Food_Sugar_Bombs</thingDef>
+                    <countRange>1~2</countRange>
+                </li>
+                <li MayRequire="Rick.FCP.NukaCola">
+                    <thingDef>FCP_Nuka_Cola</thingDef>
+                    <countRange>1</countRange>
+                </li>
+            </subOptionsChooseOne>
+        </inventoryOptions>
     </PawnKindDef>
 
     <!-- Mojave Brotherhood Knight -->
@@ -1035,6 +1424,27 @@
         <techHediffsChance>0.03</techHediffsChance>
         <initialWillRange>2~5</initialWillRange>
         <initialResistanceRange>15~24</initialResistanceRange>
+        <inventoryOptions>
+            <skipChance>0.70</skipChance>
+            <subOptionsChooseOne>
+                <li MayRequire="Rick.FCP.Chems">
+                    <thingDef>FCP_Chem_Stimpak</thingDef>
+                    <countRange>1~2</countRange>
+                </li>
+                <li MayRequire="Rick.FCP.PreWarFood">
+                    <thingDef>FCP_Food_Cram</thingDef>
+                    <countRange>2~3</countRange>
+                </li>
+                <li MayRequire="Rick.FCP.PreWarFood">
+                    <thingDef>FCP_Food_Sugar_Bombs</thingDef>
+                    <countRange>1~2</countRange>
+                </li>
+                <li MayRequire="Rick.FCP.NukaCola">
+                    <thingDef>FCP_Nuka_Cola</thingDef>
+                    <countRange>1</countRange>
+                </li>
+            </subOptionsChooseOne>
+        </inventoryOptions>
     </PawnKindDef>
 
     <!-- Mojave Brotherhood Scribe -->
@@ -1065,6 +1475,27 @@
         <techHediffsChance>0.03</techHediffsChance>
         <initialWillRange>1~3</initialWillRange>
         <initialResistanceRange>12~18</initialResistanceRange>
+        <inventoryOptions>
+            <skipChance>0.70</skipChance>
+            <subOptionsChooseOne>
+                <li MayRequire="Rick.FCP.Chems">
+                    <thingDef>FCP_Chem_Stimpak</thingDef>
+                    <countRange>1~2</countRange>
+                </li>
+                <li MayRequire="Rick.FCP.Chems">
+                    <thingDef>FCP_Chem_MedX</thingDef>
+                    <countRange>1</countRange>
+                </li>
+                <li MayRequire="Rick.FCP.PreWarFood">
+                    <thingDef>FCP_Food_Cram</thingDef>
+                    <countRange>2~3</countRange>
+                </li>
+                <li MayRequire="Rick.FCP.NukaCola">
+                    <thingDef>FCP_Nuka_Cola</thingDef>
+                    <countRange>1</countRange>
+                </li>
+            </subOptionsChooseOne>
+        </inventoryOptions>
     </PawnKindDef>
 
     <!-- Mojave Brotherhood Elder -->
@@ -1095,6 +1526,31 @@
         <techHediffsChance>0.03</techHediffsChance>
         <initialWillRange>5~6</initialWillRange>
         <initialResistanceRange>17~22</initialResistanceRange>
+        <inventoryOptions>
+            <skipChance>0.60</skipChance>
+            <subOptionsChooseOne>
+                <li MayRequire="Rick.FCP.Chems">
+                    <thingDef>FCP_Chem_Stimpak</thingDef>
+                    <countRange>3~4</countRange>
+                </li>
+                <li MayRequire="Rick.FCP.Chems">
+                    <thingDef>FCP_Chem_MedX</thingDef>
+                    <countRange>2~3</countRange>
+                </li>
+                <li MayRequire="Rick.FCP.PreWarFood">
+                    <thingDef>FCP_Food_Cram</thingDef>
+                    <countRange>3~5</countRange>
+                </li>
+                <li MayRequire="Rick.FCP.PreWarFood">
+                    <thingDef>FCP_Food_Sugar_Bombs</thingDef>
+                    <countRange>2~3</countRange>
+                </li>
+                <li MayRequire="Rick.FCP.NukaCola">
+                    <thingDef>FCP_Nuka_Cola</thingDef>
+                    <countRange>2~3</countRange>
+                </li>
+            </subOptionsChooseOne>
+        </inventoryOptions>
     </PawnKindDef>
 
     <!-- Mojave Brotherhood Scribe Trader -->
@@ -1116,6 +1572,27 @@
         </apparelDisallowTags>
         <initialWillRange>1~3</initialWillRange>
         <initialResistanceRange>10~17</initialResistanceRange>
+        <inventoryOptions>
+            <skipChance>0.70</skipChance>
+            <subOptionsChooseOne>
+                <li MayRequire="Rick.FCP.Chems">
+                    <thingDef>FCP_Chem_Stimpak</thingDef>
+                    <countRange>1~2</countRange>
+                </li>
+                <li MayRequire="Rick.FCP.Chems">
+                    <thingDef>FCP_Chem_MedX</thingDef>
+                    <countRange>1</countRange>
+                </li>
+                <li MayRequire="Rick.FCP.PreWarFood">
+                    <thingDef>FCP_Food_Cram</thingDef>
+                    <countRange>2~3</countRange>
+                </li>
+                <li MayRequire="Rick.FCP.NukaCola">
+                    <thingDef>FCP_Nuka_Cola</thingDef>
+                    <countRange>1</countRange>
+                </li>
+            </subOptionsChooseOne>
+        </inventoryOptions>
     </PawnKindDef>
 
     <!-- Prisoner -->
@@ -1201,10 +1678,33 @@
                 </categoriesAdulthood>
             </li>
         </backstoryFiltersOverride>
-    </PawnKindDef>
+    <inventoryOptions>
+        <skipChance>0.65</skipChance>
+        <subOptionsChooseOne>
+            <li MayRequire="Rick.FCP.Chems">
+                <thingDef>FCP_Chem_Stimpak</thingDef>
+                <countRange>2~3</countRange>
+            </li>
+            <li MayRequire="Rick.FCP.Chems">
+                <thingDef>FCP_Chem_MedX</thingDef>
+                <countRange>1~2</countRange>
+            </li>
+            <li MayRequire="Rick.FCP.PreWarFood">
+                <thingDef>FCP_Food_Cram</thingDef>
+                <countRange>2~4</countRange>
+            </li>
+            <li MayRequire="Rick.FCP.PreWarFood">
+                <thingDef>FCP_Food_Sugar_Bombs</thingDef>
+                <countRange>1~2</countRange>
+            </li>
+            <li MayRequire="Rick.FCP.NukaCola">
+                <thingDef>FCP_Nuka_Cola</thingDef>
+                <countRange>1~2</countRange>
+            </li>
+        </subOptionsChooseOne>
+    </inventoryOptions>
+</PawnKindDef>
 
-    <!-- Lost Hills Elder -->
-    
     <PawnKindDef ParentName="FCP_BoSkindBase">
         <defName>FCP_Pawnkind_BoS_Lost_Hills_Elder</defName>
         <label>Lost Hills Elder</label>
@@ -1287,10 +1787,33 @@
                 </categoriesAdulthood>
             </li>
         </backstoryFiltersOverride>
-    </PawnKindDef>
+    <inventoryOptions>
+        <skipChance>0.65</skipChance>
+        <subOptionsChooseOne>
+            <li MayRequire="Rick.FCP.Chems">
+                <thingDef>FCP_Chem_Stimpak</thingDef>
+                <countRange>2~3</countRange>
+            </li>
+            <li MayRequire="Rick.FCP.Chems">
+                <thingDef>FCP_Chem_MedX</thingDef>
+                <countRange>1~2</countRange>
+            </li>
+            <li MayRequire="Rick.FCP.PreWarFood">
+                <thingDef>FCP_Food_Cram</thingDef>
+                <countRange>2~4</countRange>
+            </li>
+            <li MayRequire="Rick.FCP.PreWarFood">
+                <thingDef>FCP_Food_Sugar_Bombs</thingDef>
+                <countRange>1~2</countRange>
+            </li>
+            <li MayRequire="Rick.FCP.NukaCola">
+                <thingDef>FCP_Nuka_Cola</thingDef>
+                <countRange>1~2</countRange>
+            </li>
+        </subOptionsChooseOne>
+    </inventoryOptions>
+</PawnKindDef>
 
-    <!-- Midwestern Head Paladin (General) -->
-    
     <PawnKindDef ParentName="FCP_BoSkindBase">
         <defName>FCP_Pawnkind_BoS_Midwest_General</defName>
         <label>Midwestern General</label>
@@ -1333,7 +1856,31 @@
                 </categoriesAdulthood>
             </li>
         </backstoryFiltersOverride>
-    </PawnKindDef>
+    <inventoryOptions>
+        <skipChance>0.60</skipChance>
+        <subOptionsChooseOne>
+            <li MayRequire="Rick.FCP.Chems">
+                <thingDef>FCP_Chem_Stimpak</thingDef>
+                <countRange>3~4</countRange>
+            </li>
+            <li MayRequire="Rick.FCP.Chems">
+                <thingDef>FCP_Chem_MedX</thingDef>
+                <countRange>2~3</countRange>
+            </li>
+            <li MayRequire="Rick.FCP.PreWarFood">
+                <thingDef>FCP_Food_Cram</thingDef>
+                <countRange>3~5</countRange>
+            </li>
+            <li MayRequire="Rick.FCP.PreWarFood">
+                <thingDef>FCP_Food_Sugar_Bombs</thingDef>
+                <countRange>2~3</countRange>
+            </li>
+            <li MayRequire="Rick.FCP.NukaCola">
+                <thingDef>FCP_Nuka_Cola</thingDef>
+                <countRange>2~3</countRange>
+            </li>
+        </subOptionsChooseOne>
+    </inventoryOptions>
+</PawnKindDef>
+
 </Defs>
-
-

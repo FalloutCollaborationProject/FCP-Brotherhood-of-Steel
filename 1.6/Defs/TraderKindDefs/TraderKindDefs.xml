@@ -218,6 +218,52 @@
                 <countRange>2~4</countRange>
             </li>
 
+            <!--__ Medicine __-->
+
+            <!-- Stimpak -->
+
+            <li Class="StockGenerator_SingleDef" MayRequire="Rick.FCP.Chems">
+                <thingDef>FCP_Chem_Stimpak</thingDef>
+                <countRange>20~50</countRange>
+            </li>
+
+            <!-- Med-X -->
+
+            <li Class="StockGenerator_SingleDef" MayRequire="Rick.FCP.Chems">
+                <thingDef>FCP_Chem_MedX</thingDef>
+                <countRange>15~35</countRange>
+            </li>
+
+            <!--__ Food __-->
+
+            <!-- Cram -->
+
+            <li Class="StockGenerator_SingleDef" MayRequire="Rick.FCP.PreWarFood">
+                <thingDef>FCP_Food_Cram</thingDef>
+                <countRange>15~40</countRange>
+            </li>
+
+            <!-- Sugar Bombs -->
+
+            <li Class="StockGenerator_SingleDef" MayRequire="Rick.FCP.PreWarFood">
+                <thingDef>FCP_Food_Sugar_Bombs</thingDef>
+                <countRange>15~35</countRange>
+            </li>
+
+            <!-- Fancy Lad Snack Cakes -->
+
+            <li Class="StockGenerator_SingleDef" MayRequire="Rick.FCP.PreWarFood">
+                <thingDef>FCP_Food_Fancy_Lad_Snack_Cakes</thingDef>
+                <countRange>5~15</countRange>
+            </li>
+
+            <!-- Nuka-Cola -->
+
+            <li Class="StockGenerator_SingleDef" MayRequire="Rick.FCP.NukaCola">
+                <thingDef>FCP_Nuka_Cola</thingDef>
+                <countRange>10~25</countRange>
+            </li>
+
             <!--__ Currency __-->
 
             <!-- BoS Scrips -->
@@ -227,12 +273,14 @@
                 <countRange>500~1000</countRange>
             </li>
 
-            <!-- Buying -->
+            <!--__ Buying __-->
+
             <li Class="StockGenerator_BuyExpensiveSimple" />
             <li Class="StockGenerator_BuyTradeTag"><tag>Art</tag></li>
             <li Class="StockGenerator_BuyTradeTag"><tag>Techprints</tag></li>
             <li Class="StockGenerator_BuyTradeTag"><tag>WeaponMelee</tag></li>
             <li Class="StockGenerator_BuyTradeTag"><tag>WeaponRanged</tag></li>
+            <li Class="StockGenerator_BuyTradeTag" MayRequire="Rick.FCP.EnergyWeapons"><tag>FCP_Energy_Weapon</tag></li>
 
         </stockGenerators>
     </TraderKindDef>
@@ -321,6 +369,52 @@
                 <countRange>0~1</countRange>
             </li>
 
+            <!--__ Medicine __-->
+
+            <!-- Stimpak -->
+
+            <li Class="StockGenerator_SingleDef" MayRequire="Rick.FCP.Chems">
+                <thingDef>FCP_Chem_Stimpak</thingDef>
+                <countRange>20~50</countRange>
+            </li>
+
+            <!-- Med-X -->
+
+            <li Class="StockGenerator_SingleDef" MayRequire="Rick.FCP.Chems">
+                <thingDef>FCP_Chem_MedX</thingDef>
+                <countRange>15~35</countRange>
+            </li>
+
+            <!--__ Food __-->
+
+            <!-- Cram -->
+
+            <li Class="StockGenerator_SingleDef" MayRequire="Rick.FCP.PreWarFood">
+                <thingDef>FCP_Food_Cram</thingDef>
+                <countRange>15~40</countRange>
+            </li>
+
+            <!-- Sugar Bombs -->
+
+            <li Class="StockGenerator_SingleDef" MayRequire="Rick.FCP.PreWarFood">
+                <thingDef>FCP_Food_Sugar_Bombs</thingDef>
+                <countRange>15~35</countRange>
+            </li>
+
+            <!-- Fancy Lad Snack Cakes -->
+
+            <li Class="StockGenerator_SingleDef" MayRequire="Rick.FCP.PreWarFood">
+                <thingDef>FCP_Food_Fancy_Lad_Snack_Cakes</thingDef>
+                <countRange>5~15</countRange>
+            </li>
+
+            <!-- Nuka-Cola -->
+
+            <li Class="StockGenerator_SingleDef" MayRequire="Rick.FCP.NukaCola">
+                <thingDef>FCP_Nuka_Cola</thingDef>
+                <countRange>10~25</countRange>
+            </li>
+
             <!--__ Currency __-->
 
             <!-- BoS Scrips -->
@@ -333,6 +427,7 @@
             <!-- Buying -->
             <li Class="StockGenerator_BuyExpensiveSimple" />
             <li Class="StockGenerator_BuyTradeTag"><tag>Techprints</tag></li>
+            <li Class="StockGenerator_BuyTradeTag" MayRequire="Rick.FCP.EnergyWeapons"><tag>FCP_Energy_Weapon</tag></li>
 
         </stockGenerators>
     </TraderKindDef>
