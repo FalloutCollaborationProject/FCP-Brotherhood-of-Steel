@@ -178,6 +178,12 @@
             </li>
             <!-- Clusters and biome configuration -->
             <li Class="FCP.Factions.FactionExtension_SettlementControl">
+                <allowedBiomes>
+                    <li>AridShrubland</li>
+                    <li>Desert</li>
+                    <li>ExtremeDesert</li>
+                    <li>TemperateForest</li>
+                </allowedBiomes>
                 <clustered>true</clustered>
                 <clusterRadius>30</clusterRadius>
             </li>
