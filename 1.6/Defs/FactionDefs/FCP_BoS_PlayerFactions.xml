@@ -17,6 +17,7 @@
         <pawnsPlural>Brothers</pawnsPlural>
         <leaderTitle>Elder</leaderTitle>
         <factionIconPath>World_Icon/BoS_Icon/FCP_BoS_World_Icon</factionIconPath>
+        <factionNameMaker>FCP_Namer_Faction_BoS_Player</factionNameMaker>
         <colorSpectrum>
 			<li>(1, 1, 1)</li>
         </colorSpectrum>
@@ -54,6 +55,7 @@
         <pawnsPlural>Brothers</pawnsPlural>
         <leaderTitle>Elder</leaderTitle>
         <factionIconPath>World_Icon/BoS_Icon/FCP_Lyons_Pride_Remnants_World_Icon</factionIconPath>
+        <factionNameMaker>FCP_Namer_Faction_BoS_Player</factionNameMaker>
         <colorSpectrum>
 			<li>(1, 1, 1)</li>
         </colorSpectrum>
@@ -91,6 +93,7 @@
         <pawnsPlural>Outcasts</pawnsPlural>
         <leaderTitle>Protector</leaderTitle>
         <factionIconPath>World_Icon/BoS_Icon/FCP_Outcast_World_Icon</factionIconPath>
+        <factionNameMaker>FCP_Namer_Faction_BoS_Player</factionNameMaker>
         <colorSpectrum>
 			<li>(1, 1, 1)</li>
         </colorSpectrum>
@@ -131,6 +134,7 @@
         <pawnsPlural>Brothers</pawnsPlural>
         <leaderTitle>Elder</leaderTitle>
         <factionIconPath>World_Icon/BoS_Icon/FCP_Mojave_World_Icon</factionIconPath>
+        <factionNameMaker>FCP_Namer_Faction_BoS_Player</factionNameMaker>
         <colorSpectrum>
 			<li>(1, 1, 1)</li>
         </colorSpectrum>
@@ -168,6 +172,7 @@
         <pawnsPlural>Brothers</pawnsPlural>
         <leaderTitle>Paladin</leaderTitle>
         <factionIconPath>World_Icon/BoS_Icon/FCP_Appalaccia_World_Icon</factionIconPath>
+        <factionNameMaker>FCP_Namer_Faction_BoS_Player</factionNameMaker>
         <colorSpectrum>
 			<li>(1, 1, 1)</li>
         </colorSpectrum>
