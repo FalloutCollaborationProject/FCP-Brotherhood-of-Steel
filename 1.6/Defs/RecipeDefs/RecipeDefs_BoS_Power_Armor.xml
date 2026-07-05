@@ -6,7 +6,7 @@
     <!-- BoS Appalachia T60 Power Armor Recipe -->
 
     <RecipeDef MayRequire="Rick.FCP.PowerArmor">
-        <defName>Make_BoS_Appalachia_T60_Power_Armor</defName>
+        <defName>FCP_Paint_Apparel_BoS_Appalachia_T60_Power_Armor</defName>
         <label>paint T-60 power armor Appalachia chapter</label>
         <description>Paint a T-60 power armor with Appalachia Brotherhood Appalachia colors.</description>
         <jobString>Painting T-60 power armor.</jobString>
@@ -56,7 +56,7 @@
     <!-- BoS Appalachia T60 Power Armor Recipe -->
 
     <RecipeDef MayRequire="Rick.FCP.PowerArmor">
-        <defName>Make_BoS_T60_Power_Armor</defName>
+        <defName>FCP_Paint_Apparel_BoS_T60_Power_Armor</defName>
         <label>paint T-60 power armor Appalachia chapter</label>
         <description>Paint a T-60 power armor with standard Brotherhood Appalachia colors.</description>
         <jobString>Painting T-60 power armor.</jobString>
@@ -106,7 +106,7 @@
     <!-- BoS T51 Power Armor Recipe -->
 
     <RecipeDef MayRequire="Rick.FCP.PowerArmor">
-        <defName>Make_BoS_T51_Power_Armor</defName>
+        <defName>FCP_Paint_Apparel_BoS_T51_Power_Armor</defName>
         <label>paint T-51 power armor Appalachia chapter</label>
         <description>Paint a T-51 power armor with standard Brotherhood Appalachia colors.</description>
         <jobString>Painting T-51 power armor.</jobString>
@@ -156,7 +156,7 @@
     <!-- BoS T51 Power Armor Recipe -->
 
     <RecipeDef MayRequire="Rick.FCP.PowerArmor">
-        <defName>Make_BoS_Appalachia_T51_Power_Armor</defName>
+        <defName>FCP_Paint_Apparel_BoS_Appalachia_T51_Power_Armor</defName>
         <label>paint T-51 power armor Appalachia chapter</label>
         <description>Paint a T-51 power armor with Appalachia Brotherhood Appalachia colors.</description>
         <jobString>Painting T-51 power armor.</jobString>
@@ -206,7 +206,7 @@
     <!-- BoS T45 Lyon Power Armor Recipe -->
 
     <RecipeDef MayRequire="Rick.FCP.PowerArmor">
-        <defName>Make_BoS_T45_Lyons_Power_Armor</defName>
+        <defName>FCP_Paint_Apparel_BoS_T45_Lyons_Power_Armor</defName>
         <label>paint T-45 power armor (Lyons Pride)</label>
         <description>Paint a T-45 power armor with Lyons Pride Brotherhood of Steel colors.</description>
         <jobString>Painting T-45 power armor.</jobString>
@@ -256,7 +256,7 @@
     <!-- BoS T45 Outcast Power Armor Recipe -->
 
     <RecipeDef MayRequire="Rick.FCP.PowerArmor">
-        <defName>Make_BoS_T45_Outcast_Power_Armor</defName>
+        <defName>FCP_Paint_Apparel_BoS_T45_Outcast_Power_Armor</defName>
         <label>paint T-45 power armor (Outcast)</label>
         <description>Paint a T-45 power armor with Outcast Brotherhood of Steel colors.</description>
         <jobString>Painting T-45 power armor.</jobString>
@@ -301,6 +301,104 @@
                 <uncraftableIfFactionDefeated>true</uncraftableIfFactionDefeated>
             </li>
         </modExtensions>
+    </RecipeDef>
+
+    <!-- Repaint to original -->
+
+    <RecipeDef MayRequire="Rick.FCP.PowerArmor">
+        <defName>FCP_Paint_Apparel_BoS_Restore_T60_Power_Armor</defName>
+        <label>Strip paint for T-60 power armor</label>
+        <description>Strip paint and restore a T-60 power armor to its original finish.</description>
+        <jobString>Restoring T-60 power armor.</jobString>
+        <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+        <workSkill>Crafting</workSkill>
+        <effectWorking>Smith</effectWorking>
+        <soundWorking>Recipe_Smith</soundWorking>
+        <workAmount>500</workAmount>
+        <recipeUsers>
+            <li>FCP_Production_Armor_Workbench</li>
+        </recipeUsers>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>FCP_Apparel_BoS_Appalachia_T60_Power_Armor</li>
+                        <li>FCP_Apparel_BoS_T60_Power_Armor</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+        </ingredients>
+        <products>
+            <FCP_Apparel_Power_Armor_T60Armor>1</FCP_Apparel_Power_Armor_T60Armor>
+        </products>
+        <skillRequirements>
+            <Crafting>8</Crafting>
+        </skillRequirements>
+    </RecipeDef>
+
+    <RecipeDef MayRequire="Rick.FCP.PowerArmor">
+        <defName>FCP_Paint_Apparel_BoS_Restore_T51_Power_Armor</defName>
+        <label>Strip paint for T-51 power armor</label>
+        <description>Strip paint and restore a T-51 power armor to its original finish.</description>
+        <jobString>Restoring T-51 power armor.</jobString>
+        <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+        <workSkill>Crafting</workSkill>
+        <effectWorking>Smith</effectWorking>
+        <soundWorking>Recipe_Smith</soundWorking>
+        <workAmount>500</workAmount>
+        <recipeUsers>
+            <li>FCP_Production_Armor_Workbench</li>
+        </recipeUsers>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>FCP_Apparel_BoS_T51_Power_Armor</li>
+                        <li>FCP_Apparel_BoS_T51_Appalachia_Power_Armor</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+        </ingredients>
+        <products>
+            <FCP_Apparel_Power_Armor_T51Armor>1</FCP_Apparel_Power_Armor_T51Armor>
+        </products>
+        <skillRequirements>
+            <Crafting>8</Crafting>
+        </skillRequirements>
+    </RecipeDef>
+
+    <RecipeDef MayRequire="Rick.FCP.PowerArmor">
+        <defName>FCP_Paint_Apparel_BoS_Restore_T45_Power_Armor</defName>
+        <label>Strip paint for T-45 power armor</label>
+        <description>Strip paint and restore a T-45 power armor to its original finish.</description>
+        <jobString>Restoring T-45 power armor.</jobString>
+        <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+        <workSkill>Crafting</workSkill>
+        <effectWorking>Smith</effectWorking>
+        <soundWorking>Recipe_Smith</soundWorking>
+        <workAmount>500</workAmount>
+        <recipeUsers>
+            <li>FCP_Production_Armor_Workbench</li>
+        </recipeUsers>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>FCP_Apparel_BoS_T45_Lyons_Power_Armor</li>
+                        <li>FCP_Apparel_BoS_T45_Outcast_Power_Armor</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+        </ingredients>
+        <products>
+            <FCP_Apparel_Power_Armor_T45Armor>1</FCP_Apparel_Power_Armor_T45Armor>
+        </products>
+        <skillRequirements>
+            <Crafting>8</Crafting>
+        </skillRequirements>
     </RecipeDef>
 
 </Defs>

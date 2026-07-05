@@ -16,6 +16,21 @@
             <displayName>FCP - Tools</displayName>
             <downloadUrl>https://github.com/FalloutCollaborationProject/FCP-Tools</downloadUrl>
         </li>
+        <li>
+            <packageId>Rick.FCP.PowerArmor</packageId>
+            <displayName>FCP - Power Armor</displayName>
+            <downloadUrl>https://github.com/FalloutCollaborationProject/FCP-PowerArmor</downloadUrl>
+        </li>
+        <li>
+            <packageId>Rick.FCP.EnergyWeapons</packageId>
+            <displayName>FCP - Energy Weapons</displayName>
+            <downloadUrl>https://github.com/FalloutCollaborationProject/FCP-EnergyWeapons</downloadUrl>
+        </li>
+        <li>
+            <packageId>Rick.FCP.Wastelanders</packageId>
+            <displayName>FCP - Wastelanders</displayName>
+            <downloadUrl>https://github.com/FalloutCollaborationProject/FCP-Wastelanders</downloadUrl>
+        </li>
     </modDependencies>
     <loadAfter>
         <li>Rick.FCP.Core.Tools</li>

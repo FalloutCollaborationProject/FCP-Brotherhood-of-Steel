@@ -54,7 +54,7 @@
 		</weaponTags>
         <apparelRequired>
             <li MayRequire="Rick.FCP.PowerArmor">FCP_Apparel_Power_Armor_Frame</li>
-            <li>FCP_Apparel_BoS_Jumpsuit</li>
+            <li>FCP_Apparel_BoS_Knight_Under_Armor</li>
             <li MayRequire="Rick.FCP.PowerArmor">FCP_Apparel_BoS_T60_Power_Armor</li>
             <li MayRequire="Rick.FCP.PowerArmor">FCP_Apparel_BoS_T60_Power_Armor_Helmet</li>
         </apparelRequired>
@@ -225,7 +225,7 @@
     <PawnKindDef ParentName="FCP_BoSkindBase">
         <defName>FCP_Pawnkind_BoS_Knight</defName>
         <label>Brotherhood Knight</label>
-        <combatPower>55</combatPower>
+        <combatPower>60</combatPower>
         <gearHealthRange>0.6~1.9</gearHealthRange>
         <weaponMoney>900~1600</weaponMoney>
         <weaponTags>
@@ -233,9 +233,13 @@
             <li MayRequire="Rick.FCP.EnergyWeapons">FCP_Laser_Weapon</li>
         </weaponTags>
         <apparelRequired>
-            <li>FCP_Apparel_BoS_Recon_Hood</li>
-            <li>FCP_Apparel_BoS_Recon_Armor</li>
+            <li>FCP_Apparel_BoS_Soldier_Undersuit</li>
         </apparelRequired>
+        <apparelTags>
+            <li>FCP_BoS_Combat_Armor</li>
+        </apparelTags>
+        <apparelMoney>1500~2000</apparelMoney>
+        <apparelAllowHeadgearChance>1.0</apparelAllowHeadgearChance>
         <apparelDisallowTags>
             <li>FCP_Power_Armor_Helmet</li>
             <li>FCP_Power_Armor</li>
@@ -391,6 +395,92 @@
             <li MayRequire="Rick.FCP.EnergyWeapons">FCP_Laser_Weapon</li>
             <li MayRequire="Rick.FCP.EnergyWeapons">FCP_Heavy_Laser_Weapon</li>
         </weaponTags>
+        <techHediffsMoney>50~50</techHediffsMoney>
+        <techHediffsTags>
+            <li>Poor</li>
+        </techHediffsTags>
+        <techHediffsChance>0.03</techHediffsChance>
+        <initialWillRange>3~5</initialWillRange>
+        <initialResistanceRange>19~30</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Backstory_Wastelander_Child</li>
+                    <li>FCP_Backstory_BoS_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Backstory_BoS_Paladins</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <inventoryOptions>
+            <skipChance>0.65</skipChance>
+            <subOptionsChooseOne>
+                <li>
+                    <thingDef>FCP_Currency_BoS_Scrip</thingDef>
+                    <countRange>25~60</countRange>
+                </li>
+                <li>
+                    <thingDef>FCP_Currency_Caps</thingDef>
+                    <countRange>20~45</countRange>
+                </li>
+                <li>
+                    <thingDef>MealSurvivalPack</thingDef>
+                    <countRange>2~4</countRange>
+                </li>
+                <li>
+                    <thingDef>MedicineIndustrial</thingDef>
+                    <countRange>2~3</countRange>
+                </li>
+                <li MayRequire="Rick.FCP.Chems">
+                    <thingDef>FCP_Chem_Stimpak</thingDef>
+                    <countRange>2~3</countRange>
+                </li>
+                <li MayRequire="Rick.FCP.Chems">
+                    <thingDef>FCP_Chem_MedX</thingDef>
+                    <countRange>1~2</countRange>
+                </li>
+                <li MayRequire="Rick.FCP.PreWarFood">
+                    <thingDef>FCP_Food_Cram</thingDef>
+                    <countRange>2~4</countRange>
+                </li>
+                <li MayRequire="Rick.FCP.PreWarFood">
+                    <thingDef>FCP_Food_Sugar_Bombs</thingDef>
+                    <countRange>1~2</countRange>
+                </li>
+                <li MayRequire="Rick.FCP.NukaCola">
+                    <thingDef>FCP_Nuka_Cola</thingDef>
+                    <countRange>1~2</countRange>
+                </li>
+            </subOptionsChooseOne>
+        </inventoryOptions>
+    </PawnKindDef>
+
+    <!-- Brotherhood Field Paladin -->
+    
+    <PawnKindDef ParentName="FCP_BoSkindBase">
+        <defName>FCP_Pawnkind_BoS_Paladin_Field</defName>
+        <label>Brotherhood Field Paladin</label>
+        <combatPower>72</combatPower>
+        <gearHealthRange>0.7~2</gearHealthRange>
+        <weaponMoney>900~1800</weaponMoney>
+        <weaponTags>
+            <li MayRequire="Rick.FCP.EnergyWeapons">FCP_Laser_Weapon</li>
+        </weaponTags>
+        <apparelRequired>
+            <li>FCP_Apparel_BoS_Officer_Undersuit</li>
+        </apparelRequired>
+        <apparelTags>
+            <li>FCP_BoS_Combat_Armor</li>
+        </apparelTags>
+        <apparelMoney>1800~2500</apparelMoney>
+        <apparelAllowHeadgearChance>1.0</apparelAllowHeadgearChance>
+        <apparelDisallowTags>
+            <li>FCP_Power_Armor_Helmet</li>
+            <li>FCP_Power_Armor</li>
+            <li>FCP_Power_Armor_Lyons</li>
+            <li>FCP_Power_Armor_Outcast</li>
+        </apparelDisallowTags>
         <techHediffsMoney>50~50</techHediffsMoney>
         <techHediffsTags>
             <li>Poor</li>

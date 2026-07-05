@@ -54,6 +54,11 @@
                 <li>FCP_BoS_Apparel</li>
             </tags>
         </apparel>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Rare</rarity>
+            </li>
+        </comps>
     </ThingDef>
 
     <!--___ Appalachia Chapter ___-->
@@ -104,6 +109,11 @@
                 <li>FCP_BoS_Apparel</li>
             </tags>
         </apparel>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Common</rarity>
+            </li>
+        </comps>
     </ThingDef>
 
     <!-- Appalachia Infantry Uniform -->
@@ -152,6 +162,11 @@
                 <li>FCP_BoS_Apparel</li>
             </tags>
         </apparel>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Common</rarity>
+            </li>
+        </comps>
     </ThingDef>
 
     <!-- Jumpsuit -->
@@ -197,6 +212,166 @@
                 <li>FCP_BoS_Apparel</li>
             </tags>
         </apparel>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Common</rarity>
+            </li>
+        </comps>
+    </ThingDef>
+
+    <!-- Knight Under Armor -->
+
+    <ThingDef ParentName="FCP_Apparel_Makeable_Base">
+        <defName>FCP_Apparel_BoS_Knight_Under_Armor</defName>
+        <label>BoS Knight Under Armor</label>
+        <description>Standardized under-armor worn by Brotherhood Knights operating Commonwealth-era power armor. This form-fitting layer provides comfort and protection beneath power armor plating while incorporating moisture-wicking materials for extended field operations.</description>
+        <graphicData>
+            <texPath>Things/Apparel/Bos_Apparel/BoS_Knight_Under_Armor/FCP_BoS_Knight_Under_Armor</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>0.90</drawSize>
+        </graphicData>
+        <recipeMaker>
+            <researchPrerequisite>FCP_Research_BoS_Knight_Equipment</researchPrerequisite>
+            <skillRequirements>
+                <Crafting>4</Crafting>
+            </skillRequirements>
+        </recipeMaker>
+        <costList>
+            <Cloth>45</Cloth>
+        </costList>
+        <statBases>
+            <MaxHitPoints>120</MaxHitPoints>
+            <WorkToMake>6000</WorkToMake>
+            <Mass>2</Mass>
+            <Insulation_Cold>3.0</Insulation_Cold>
+            <Insulation_Heat>2.3</Insulation_Heat>
+            <EquipDelay>3</EquipDelay>
+        </statBases>
+        <apparel>
+            <bodyPartGroups>
+                <li>Torso</li>
+                <li>Shoulders</li>
+                <li>Arms</li>
+                <li>Legs</li>
+            </bodyPartGroups>
+            <wornGraphicPath>Things/Apparel/Bos_Apparel/BoS_Knight_Under_Armor/FCP_BoS_Knight_Under_Armor</wornGraphicPath>
+            <layers>
+                <li>OnSkin</li>
+            </layers>
+            <tags>
+                <li>FCP_BoS_Apparel</li>
+            </tags>
+        </apparel>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Common</rarity>
+            </li>
+        </comps>
+    </ThingDef>
+
+    <!-- Soldier Undersuit -->
+
+    <ThingDef ParentName="FCP_Apparel_Makeable_Base">
+        <defName>FCP_Apparel_BoS_Soldier_Undersuit</defName>
+        <label>BoS Soldier Undersuit</label>
+        <description>Tactical undersuit issued to Brotherhood Knights operating without power armor. This combat-ready garment provides flexibility and basic environmental protection while allowing full range of motion for extended field operations.</description>
+        <graphicData>
+            <texPath>Things/Apparel/Bos_Apparel/BoS_Soldier_Under_Armor/FCP_BoS_Soldier_Under_Armor</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>0.90</drawSize>
+        </graphicData>
+        <recipeMaker>
+            <researchPrerequisite>FCP_Research_BoS_Knight_Equipment</researchPrerequisite>
+            <skillRequirements>
+                <Crafting>4</Crafting>
+            </skillRequirements>
+        </recipeMaker>
+        <costList>
+            <Cloth>45</Cloth>
+        </costList>
+        <statBases>
+            <MaxHitPoints>120</MaxHitPoints>
+            <ArmorRating_Sharp>0.10</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.05</ArmorRating_Blunt>
+            <WorkToMake>6000</WorkToMake>
+            <Mass>2</Mass>
+            <Insulation_Cold>3.0</Insulation_Cold>
+            <Insulation_Heat>2.3</Insulation_Heat>
+            <EquipDelay>3</EquipDelay>
+        </statBases>
+        <apparel>
+            <bodyPartGroups>
+                <li>Torso</li>
+                <li>Shoulders</li>
+                <li>Arms</li>
+                <li>Legs</li>
+            </bodyPartGroups>
+            <wornGraphicPath>Things/Apparel/Bos_Apparel/BoS_Soldier_Under_Armor/FCP_BoS_Soldier_Under_Armor</wornGraphicPath>
+            <layers>
+                <li>OnSkin</li>
+            </layers>
+            <tags>
+                <li>FCP_BoS_Apparel</li>
+            </tags>
+        </apparel>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Common</rarity>
+            </li>
+        </comps>
+    </ThingDef>
+
+    <!-- Officer Undersuit -->
+
+    <ThingDef ParentName="FCP_Apparel_Makeable_Base">
+        <defName>FCP_Apparel_BoS_Officer_Undersuit</defName>
+        <label>BoS Officer Undersuit</label>
+        <description>Elite undersuit worn by Brotherhood Paladins operating in the field without power armor. Constructed from advanced materials, this uniform offers superior protection and comfort while maintaining the professional appearance expected of Brotherhood officers.</description>
+        <graphicData>
+            <texPath>Things/Apparel/Bos_Apparel/BoS_Officer_Under_Armor/FCP_BoS_Officer_Under_Armor</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>0.90</drawSize>
+        </graphicData>
+        <recipeMaker>
+            <researchPrerequisite>FCP_Research_BoS_Paladin_Training</researchPrerequisite>
+            <skillRequirements>
+                <Crafting>5</Crafting>
+            </skillRequirements>
+        </recipeMaker>
+        <costList>
+            <Cloth>50</Cloth>
+            <Leather_Plain>15</Leather_Plain>
+        </costList>
+        <statBases>
+            <MaxHitPoints>120</MaxHitPoints>
+            <ArmorRating_Sharp>0.15</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.08</ArmorRating_Blunt>
+            <WorkToMake>7000</WorkToMake>
+            <Mass>2</Mass>
+            <Insulation_Cold>4.0</Insulation_Cold>
+            <Insulation_Heat>3.0</Insulation_Heat>
+            <EquipDelay>3</EquipDelay>
+        </statBases>
+        <apparel>
+            <bodyPartGroups>
+                <li>Torso</li>
+                <li>Shoulders</li>
+                <li>Arms</li>
+                <li>Legs</li>
+            </bodyPartGroups>
+            <wornGraphicPath>Things/Apparel/Bos_Apparel/BoS_Officer_Under_Armor/FCP_BoS_Officer_Under_Armor</wornGraphicPath>
+            <layers>
+                <li>OnSkin</li>
+            </layers>
+            <tags>
+                <li>FCP_BoS_Apparel</li>
+            </tags>
+        </apparel>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Rare</rarity>
+            </li>
+        </comps>
     </ThingDef>
 
     <!--___ East Coast Chapter ___-->
@@ -249,6 +424,11 @@
                 <li>FCP_BoS_Apparel</li>
             </tags>
         </apparel>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Rare</rarity>
+            </li>
+        </comps>
     </ThingDef>
 
     <!-- Lancer Captain's Uniform -->
@@ -301,6 +481,11 @@
                 <li>FCP_BoS_Apparel</li>
             </tags>
         </apparel>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Rare</rarity>
+            </li>
+        </comps>
     </ThingDef>
 
     <!-- Bomber Jacket -->
@@ -350,6 +535,11 @@
                 <li>FCP_BoS_Apparel</li>
             </tags>
         </apparel>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Rare</rarity>
+            </li>
+        </comps>
     </ThingDef>
 
     <!-- Brotherhood Fatigues -->
@@ -402,6 +592,11 @@
                 <li>FCP_BoS_Apparel</li>
             </tags>
         </apparel>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Common</rarity>
+            </li>
+        </comps>
     </ThingDef>
 
     <!-- Brotherhood Field Medic Fatigues -->
@@ -454,6 +649,11 @@
                 <li>FCP_BoS_Apparel</li>
             </tags>
         </apparel>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Common</rarity>
+            </li>
+        </comps>
     </ThingDef>
 
     <!-- Field Scribe -->
@@ -506,6 +706,11 @@
                 <li>FCP_BoS_Apparel</li>
             </tags>
         </apparel>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Common</rarity>
+            </li>
+        </comps>
     </ThingDef>
 
     <!-- Science Scribe -->
@@ -554,6 +759,11 @@
                 <li>FCP_BoS_Apparel</li>
             </tags>
         </apparel>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Common</rarity>
+            </li>
+        </comps>
     </ThingDef>
 
     <!-- Scribe Robes -->
@@ -601,6 +811,11 @@
                 <li>FCP_BoS_Apparel</li>
             </tags>
         </apparel>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Common</rarity>
+            </li>
+        </comps>
     </ThingDef>
 
     <!-- Squire-->
@@ -650,6 +865,11 @@
                 <li>FCP_BoS_Apparel</li>
             </tags>
         </apparel>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Common</rarity>
+            </li>
+        </comps>
     </ThingDef>
 
 
@@ -703,6 +923,11 @@
                 <li>FCP_BoS_Apparel</li>
             </tags>
         </apparel>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Rare</rarity>
+            </li>
+        </comps>
     </ThingDef>
 
     <!--___ West Coast ___-->
@@ -749,6 +974,194 @@
                 <li>FCP_BoS_Apparel_Lyons</li>
             </tags>
         </apparel>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Rare</rarity>
+            </li>
+        </comps>
+    </ThingDef>
+
+    <!--___ Commonwealth Chapter ___-->
+
+    <!-- Light Combat Armor -->
+
+    <ThingDef ParentName="FCP_Armor_Machineable_Base" MayRequire="Rick.FCP.Wastelanders">
+        <defName>FCP_Apparel_BoS_Light_Combat_Armor</defName>
+        <label>BoS Light Combat Armor</label>
+        <description>Light combat armor bearing Brotherhood of Steel markings. This field-proven armor combines pre-war design with Brotherhood modifications, offering solid protection while maintaining mobility for reconnaissance and patrol operations.</description>
+        <smeltable>false</smeltable>
+        <graphicData>
+            <texPath>Things/Apparel/BoS_Armor/BoS_Modular_Combat_Armor_Light_Chest/FCP_BoS_Modular_Combat_Armor_Light_Chest</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <recipeMaker>
+            <skillRequirements>
+                <Crafting>5</Crafting>
+            </skillRequirements>
+            <researchPrerequisite>FCP_Research_CombatArmorStandard</researchPrerequisite>
+        </recipeMaker>
+        <costList>
+            <Steel>45</Steel>
+            <ComponentIndustrial>1</ComponentIndustrial>
+        </costList>
+        <statBases>
+            <MaxHitPoints>250</MaxHitPoints>
+            <WorkToMake>9200</WorkToMake>
+            <Mass>5.0</Mass>
+            <MarketValue>350</MarketValue>
+            <ArmorRating_Sharp>0.95</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.40</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.35</ArmorRating_Heat>
+            <Insulation_Cold>8</Insulation_Cold>
+            <Insulation_Heat>6</Insulation_Heat>
+            <EquipDelay>1.2</EquipDelay>
+        </statBases>
+        <apparel>
+            <bodyPartGroups>
+                <li>Neck</li>
+                <li>Torso</li>
+                <li>Shoulders</li>
+            </bodyPartGroups>
+            <wornGraphicPath>Things/Apparel/BoS_Armor/BoS_Modular_Combat_Armor_Light_Chest/FCP_BoS_Modular_Combat_Armor_Light_Chest</wornGraphicPath>
+            <layers>
+                <li>Shell</li>
+                <li>Middle</li>
+            </layers>
+            <tags>
+                <li>FCP_BoS_Apparel</li>
+                <li>FCP_BoS_Combat_Armor</li>
+                <li>FCP_Combat_Armor_Modular</li>
+                <li>FCP_Combat_Armor</li>
+            </tags>
+            <defaultOutfitTags>
+                <li>FCP_Combat_Armors</li>
+            </defaultOutfitTags>
+        </apparel>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Common</rarity>
+            </li>
+        </comps>
+    </ThingDef>
+
+    <!-- Sturdy Combat Armor -->
+
+    <ThingDef ParentName="FCP_Armor_Machineable_Base" MayRequire="Rick.FCP.Wastelanders">
+        <defName>FCP_Apparel_BoS_Sturdy_Combat_Armor</defName>
+        <label>BoS Sturdy Combat Armor</label>
+        <description>Sturdy combat armor upgraded with Brotherhood technology. This reinforced armor provides excellent protection for Knights operating in high-threat environments, balancing defensive capability with operational mobility.</description>
+        <smeltable>false</smeltable>
+        <graphicData>
+            <texPath>Things/Apparel/BoS_Armor/BoS_Modular_Combat_Armor_Sturdy_Chest/FCP_BoS_Modular_Combat_Armor_Sturdy_Chest</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <recipeMaker>
+            <skillRequirements>
+                <Crafting>6</Crafting>
+            </skillRequirements>
+            <researchPrerequisite>FCP_Research_CombatArmorStandard</researchPrerequisite>
+        </recipeMaker>
+        <costList>
+            <Steel>55</Steel>
+            <ComponentIndustrial>2</ComponentIndustrial>
+        </costList>
+        <statBases>
+            <MaxHitPoints>250</MaxHitPoints>
+            <WorkToMake>9200</WorkToMake>
+            <Mass>5.0</Mass>
+            <MarketValue>650</MarketValue>
+            <ArmorRating_Sharp>1.10</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.48</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.45</ArmorRating_Heat>
+            <Insulation_Cold>10</Insulation_Cold>
+            <Insulation_Heat>8</Insulation_Heat>
+            <EquipDelay>1.2</EquipDelay>
+        </statBases>
+        <apparel>
+            <bodyPartGroups>
+                <li>Neck</li>
+                <li>Torso</li>
+                <li>Shoulders</li>
+            </bodyPartGroups>
+            <wornGraphicPath>Things/Apparel/BoS_Armor/BoS_Modular_Combat_Armor_Sturdy_Chest/FCP_BoS_Modular_Combat_Armor_Sturdy_Chest</wornGraphicPath>
+            <layers>
+                <li>Shell</li>
+                <li>Middle</li>
+            </layers>
+            <tags>
+                <li>FCP_BoS_Apparel</li>
+                <li>FCP_BoS_Combat_Armor</li>
+                <li>FCP_Combat_Armor_Modular</li>
+            </tags>
+            <defaultOutfitTags>
+                <li>FCP_Combat_Armors</li>
+            </defaultOutfitTags>
+        </apparel>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Common</rarity>
+            </li>
+        </comps>
+    </ThingDef>
+
+    <!-- Heavy Combat Armor -->
+
+    <ThingDef ParentName="FCP_Armor_Machineable_Base" MayRequire="Rick.FCP.Wastelanders">
+        <defName>FCP_Apparel_BoS_Heavy_Combat_Armor</defName>
+        <label>BoS Heavy Combat Armor</label>
+        <description>Heavy combat armor marked with Brotherhood insignia. This top-tier non-powered armor offers exceptional protection for veteran Knights and Paladins operating without power armor, approaching the defensive capabilities of lighter power armor variants.</description>
+        <smeltable>false</smeltable>
+        <graphicData>
+            <texPath>Things/Apparel/BoS_Armor/BoS_Modular_Combat_Armor_Heavy_Chest/FCP_BoS_Modular_Combat_Armor_Heavy_Chest</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <recipeMaker>
+            <skillRequirements>
+                <Crafting>7</Crafting>
+            </skillRequirements>
+            <researchPrerequisite>FCP_Research_CombatArmorStandard</researchPrerequisite>
+        </recipeMaker>
+        <costList>
+            <Steel>70</Steel>
+            <ComponentIndustrial>3</ComponentIndustrial>
+        </costList>
+        <statBases>
+            <MaxHitPoints>250</MaxHitPoints>
+            <WorkToMake>9200</WorkToMake>
+            <Mass>5.0</Mass>
+            <MarketValue>1050</MarketValue>
+            <ArmorRating_Sharp>1.25</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.60</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.55</ArmorRating_Heat>
+            <Insulation_Cold>12</Insulation_Cold>
+            <Insulation_Heat>10</Insulation_Heat>
+            <EquipDelay>1.2</EquipDelay>
+        </statBases>
+        <apparel>
+            <bodyPartGroups>
+                <li>Neck</li>
+                <li>Torso</li>
+                <li>Shoulders</li>
+            </bodyPartGroups>
+            <wornGraphicPath>Things/Apparel/BoS_Armor/BoS_Modular_Combat_Armor_Heavy_Chest/FCP_BoS_Modular_Combat_Armor_Heavy_Chest</wornGraphicPath>
+            <layers>
+                <li>Shell</li>
+                <li>Middle</li>
+            </layers>
+            <tags>
+                <li>FCP_BoS_Apparel</li>
+                <li>FCP_BoS_Combat_Armor</li>
+                <li>FCP_Combat_Armor_Modular</li>
+            </tags>
+            <defaultOutfitTags>
+                <li>FCP_Combat_Armors</li>
+            </defaultOutfitTags>
+        </apparel>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Rare</rarity>
+            </li>
+        </comps>
     </ThingDef>
 
     <!--___ Common ___-->
@@ -856,6 +1269,11 @@
         <tradeTags>
             <li>FCP_BoS_Clothing</li>
         </tradeTags>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Common</rarity>
+            </li>
+        </comps>
     </ThingDef>
 
     <!-- BoS Outcast Recon Armor -->

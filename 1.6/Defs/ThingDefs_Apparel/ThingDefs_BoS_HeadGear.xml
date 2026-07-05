@@ -47,6 +47,11 @@
                 <li>FCP_BoS_Apparel</li>
             </tags>
         </apparel>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Common</rarity>
+            </li>
+        </comps>
     </ThingDef>
 
     <!-- BoS Appalachia Infantry Hood -->
@@ -91,6 +96,11 @@
                 <li>FCP_BoS_Apparel</li>
             </tags>
         </apparel>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Common</rarity>
+            </li>
+        </comps>
     </ThingDef>
 
     <!-- BoS B35C Helmet -->
@@ -136,6 +146,11 @@
                 <li>FCP_BoS_Apparel_Lyons</li>
             </tags>
         </apparel>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Rare</rarity>
+            </li>
+        </comps>
     </ThingDef>
 
     <!-- BoS Flight Helmet -->
@@ -180,6 +195,11 @@
                 <li>FCP_BoS_Apparel</li>
             </tags>
         </apparel>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Rare</rarity>
+            </li>
+        </comps>
     </ThingDef>
 
     <!-- BoS Recon Hood -->
@@ -225,6 +245,11 @@
                 <li>FCP_BoS_Apparel_Lyons</li>
             </tags>
         </apparel>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Rare</rarity>
+            </li>
+        </comps>
     </ThingDef>
 
     <!-- BoS Lancer Captain Hat -->
@@ -269,6 +294,11 @@
                 <li>FCP_BoS_Apparel</li>
             </tags>
         </apparel>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Rare</rarity>
+            </li>
+        </comps>
     </ThingDef>
 
     <!-- BoS Field Scribe Hat -->
@@ -313,6 +343,11 @@
                 <li>FCP_BoS_Apparel</li>
             </tags>
         </apparel>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Common</rarity>
+            </li>
+        </comps>
     </ThingDef>
 
     <!-- BoS Science Scribe Hat -->
@@ -357,6 +392,11 @@
                 <li>FCP_BoS_Apparel</li>
             </tags>
         </apparel>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Common</rarity>
+            </li>
+        </comps>
     </ThingDef>
 
     <!-- BoS Squire Hat -->
@@ -401,6 +441,67 @@
                 <li>FCP_BoS_Apparel</li>
             </tags>
         </apparel>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Common</rarity>
+            </li>
+        </comps>
+    </ThingDef>
+
+    <!--_____ Combat Armor Helmets _____-->
+
+    <!-- BoS Combat Armor Helmet -->
+
+    <ThingDef ParentName="FCP_Armor_Helmet_Makeable_Base" MayRequire="Rick.FCP.Wastelanders">
+        <defName>FCP_Apparel_BoS_Combat_Armor_Helmet</defName>
+        <label>BoS Combat Armor Helmet</label>
+        <description>Combat armor helmet bearing Brotherhood of Steel markings. This field-proven helmet provides solid head protection with an integrated headlamp for extended operations.</description>
+        <graphicData>
+            <texPath>Things/Apparel/BoS_Headgear/BoS_Modular_Combat_Armor_Helmet/FCP_BoS_Modular_Combat_Armor_Helmet</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <smeltable>false</smeltable>
+        <recipeMaker>
+            <researchPrerequisite>FCP_Research_CombatArmorStandard</researchPrerequisite>
+            <skillRequirements>
+                <Crafting>8</Crafting>
+            </skillRequirements>
+        </recipeMaker>
+        <costList>
+            <Steel>35</Steel>
+            <ComponentIndustrial>1</ComponentIndustrial>
+        </costList>
+        <statBases>
+            <WorkToMake>3000</WorkToMake>
+            <MaxHitPoints>80</MaxHitPoints>
+            <Mass>0.8</Mass>
+            <MarketValue>120</MarketValue>
+            <ArmorRating_Sharp>0.60</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.30</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.28</ArmorRating_Heat>
+            <Insulation_Cold>2</Insulation_Cold>
+            <Insulation_Heat>2</Insulation_Heat>
+            <EquipDelay>1.5</EquipDelay>
+        </statBases>
+        <apparel>
+            <bodyPartGroups>
+                <li>UpperHead</li>
+            </bodyPartGroups>
+            <wornGraphicPath>Things/Apparel/BoS_Headgear/BoS_Modular_Combat_Armor_Helmet/FCP_BoS_Modular_Combat_Armor_Helmet</wornGraphicPath>
+            <layers>
+                <li>Overhead</li>
+            </layers>
+            <tags>
+                <li>FCP_BoS_Apparel</li>
+                <li>FCP_BoS_Combat_Armor</li>
+                <li>FCP_Combat_Armor_Modular</li>
+            </tags>
+        </apparel>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Common</rarity>
+            </li>
+        </comps>
     </ThingDef>
 
     <!-- BoS Outcast Recon Hood -->
@@ -455,6 +556,11 @@
         <tradeTags>
             <li>FCP_BoS_Headgear</li>
         </tradeTags>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Rare</rarity>
+            </li>
+        </comps>
     </ThingDef>
 
 </Defs>

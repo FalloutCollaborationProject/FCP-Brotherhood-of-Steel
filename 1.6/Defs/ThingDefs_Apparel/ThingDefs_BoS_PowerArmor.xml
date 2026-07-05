@@ -70,6 +70,11 @@
             <li>FCP_Power_Armor_Basic</li>
         </tradeTags>
         <building />
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Rare</rarity>
+            </li>
+        </comps>
     </ThingDef>
 
     <!-- BoS T-60 Power Armor -->
@@ -136,6 +141,11 @@
             <li>FCP_Power_Armor_Basic</li>
         </tradeTags>
         <building />
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Rare</rarity>
+            </li>
+        </comps>
     </ThingDef>
 
     <!-- BoS T-51 Power Armor -->
@@ -202,6 +212,11 @@
             <li>FCP_Power_Armor_Basic</li>
         </tradeTags>
         <building />
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Rare</rarity>
+            </li>
+        </comps>
     </ThingDef>
 
     <!-- BoS Appalachia T-51 Power Armor -->
@@ -268,6 +283,11 @@
             <li>FCP_Power_Armor_Basic</li>
         </tradeTags>
         <building />
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Rare</rarity>
+            </li>
+        </comps>
     </ThingDef>
 
     <!-- BoS Lost Hills T-51 Power Armor -->
@@ -334,6 +354,11 @@
             <li>FCP_Power_Armor_Basic</li>
         </tradeTags>
         <building />
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Rare</rarity>
+            </li>
+        </comps>
     </ThingDef>
 
     <!-- BoS Lyons T-45 Power Armor -->
@@ -400,6 +425,11 @@
             <li>FCP_Power_Armor_Basic</li>
         </tradeTags>
         <building />
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Rare</rarity>
+            </li>
+        </comps>
     </ThingDef>
 
     <!-- BoS Midwestern Horned Power Armor -->
@@ -467,6 +497,11 @@
             <li>FCP_Power_Armor_Basic</li>
         </tradeTags>
         <building />
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Rare</rarity>
+            </li>
+        </comps>
     </ThingDef>
 
     <!-- BoS Outcast T-45 Power Armor -->
@@ -533,6 +568,11 @@
             <li>FCP_Power_Armor_Basic</li>
         </tradeTags>
         <building />
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Rare</rarity>
+            </li>
+        </comps>
     </ThingDef>
 
 </Defs>

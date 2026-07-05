@@ -80,7 +80,7 @@
         <gearHealthRange>1.0~1.0</gearHealthRange>
         <apparelRequired>
             <li MayRequire="Rick.FCP.PowerArmor">FCP_Apparel_Power_Armor_Frame</li>
-            <li>FCP_Apparel_BoS_Jumpsuit</li>
+            <li>FCP_Apparel_BoS_Knight_Under_Armor</li>
             <li MayRequire="Rick.FCP.PowerArmor">FCP_Apparel_Power_Armor_T60Armor</li>
             <li MayRequire="Rick.FCP.PowerArmor">FCP_Apparel_Power_Armor_T60_Helmet</li>
         </apparelRequired>
@@ -216,8 +216,7 @@
             <li MayRequire="Rick.FCP.EnergyWeapons">FCP_Laser_Weapon</li>
         </weaponTags>
         <apparelRequired>
-            <li>FCP_Apparel_BoS_Recon_Hood</li>
-            <li>FCP_Apparel_BoS_Recon_Armor</li>
+            <li>FCP_Apparel_BoS_Soldier_Undersuit</li>
         </apparelRequired>
         <apparelDisallowTags>
             <li>FCP_Power_Armor_Helmet</li>
@@ -285,7 +284,7 @@
         </weaponTags>
         <apparelRequired>
             <li MayRequire="Rick.FCP.PowerArmor">FCP_Apparel_Power_Armor_Frame</li>
-            <li>FCP_Apparel_BoS_Jumpsuit</li>
+            <li>FCP_Apparel_BoS_Soldier_Undersuit</li>
         </apparelRequired>
         <apparelDisallowTags>
             <li>FCP_Power_Armor_Helmet</li>
@@ -409,7 +408,7 @@
         <gearHealthRange>0.7~0.9</gearHealthRange>
         <apparelRequired>
             <li MayRequire="Rick.FCP.PowerArmor">FCP_Apparel_Power_Armor_Frame</li>
-            <li>FCP_Apparel_BoS_Jumpsuit</li>
+            <li>FCP_Apparel_BoS_Knight_Under_Armor</li>
             <li MayRequire="Rick.FCP.PowerArmor">FCP_Apparel_Power_Armor_T60Armor</li>
             <li MayRequire="Rick.FCP.PowerArmor">FCP_Apparel_Power_Armor_T60_Helmet</li>
         </apparelRequired>

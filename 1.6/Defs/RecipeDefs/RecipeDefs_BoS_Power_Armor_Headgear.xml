@@ -6,7 +6,7 @@
     <!-- Paint T60 Helmet - Appalachia Colors -->
 
     <RecipeDef MayRequire="Rick.FCP.PowerArmor">
-        <defName>Make_BoS_Appalachia_T60_Power_Armor_Helmet</defName>
+        <defName>FCP_Paint_Apparel_BoS_Appalachia_T60_Power_Armor_Helmet</defName>
         <label>paint T60 helmet (Appalachia)</label>
         <description>Paint a T60 power armor helmet in Brotherhood Appalachia chapter colors.</description>
         <jobString>Painting T60 helmet in Appalachia colors.</jobString>
@@ -56,7 +56,7 @@
     <!-- Paint T60 Helmet - Standard BoS Colors -->
 
     <RecipeDef MayRequire="Rick.FCP.PowerArmor">
-        <defName>Make_BoS_T60_Power_Armor_Helmet</defName>
+        <defName>FCP_Paint_Apparel_BoS_T60_Power_Armor_Helmet</defName>
         <label>paint T60 helmet (BoS standard)</label>
         <description>Paint a T60 power armor helmet in standard Brotherhood of Steel colors.</description>
         <jobString>Painting T60 helmet in BoS colors.</jobString>
@@ -106,7 +106,7 @@
     <!-- Paint T51 Helmet - Standard BoS Colors -->
 
     <RecipeDef MayRequire="Rick.FCP.PowerArmor">
-        <defName>Make_BoS_T51_Power_Armor_Helmet</defName>
+        <defName>FCP_Paint_Apparel_BoS_T51_Power_Armor_Helmet</defName>
         <label>paint T51 helmet (BoS standard)</label>
         <description>Paint a T51 power armor helmet in standard Brotherhood of Steel colors.</description>
         <jobString>Painting T51 helmet in BoS colors.</jobString>
@@ -156,7 +156,7 @@
     <!-- Paint T51 Helmet - Appalachia Colors -->
 
     <RecipeDef MayRequire="Rick.FCP.PowerArmor">
-        <defName>Make_BoS_Appalachia_T51_Power_Armor_Helmet</defName>
+        <defName>FCP_Paint_Apparel_BoS_Appalachia_T51_Power_Armor_Helmet</defName>
         <label>paint T51 helmet (Appalachia)</label>
         <description>Paint a T51 power armor helmet in Brotherhood Appalachia chapter colors.</description>
         <jobString>Painting T51 helmet in Appalachia colors.</jobString>
@@ -206,7 +206,7 @@
     <!-- Paint T45 Helmet - Lyons Pride Colors -->
 
     <RecipeDef MayRequire="Rick.FCP.PowerArmor">
-        <defName>Make_BoS_T45_Lyons_Power_Armor_Helmet</defName>
+        <defName>FCP_Paint_Apparel_BoS_T45_Lyons_Power_Armor_Helmet</defName>
         <label>paint T45 helmet (Lyons Pride)</label>
         <description>Paint a T45 power armor helmet in Lyons Pride Remnants colors.</description>
         <jobString>Painting T45 helmet in Lyons Pride colors.</jobString>
@@ -256,7 +256,7 @@
     <!-- Paint T45 Helmet - Outcast Colors -->
 
     <RecipeDef MayRequire="Rick.FCP.PowerArmor">
-        <defName>Make_BoS_T45_Outcast_Power_Armor_Helmet</defName>
+        <defName>FCP_Paint_Apparel_BoS_T45_Outcast_Power_Armor_Helmet</defName>
         <label>paint T45 helmet (Outcast)</label>
         <description>Paint a T45 power armor helmet in Brotherhood Outcast colors.</description>
         <jobString>Painting T45 helmet in Outcast colors.</jobString>
@@ -301,6 +301,104 @@
                 <uncraftableIfFactionDefeated>true</uncraftableIfFactionDefeated>
             </li>
         </modExtensions>
+    </RecipeDef>
+
+    <!-- Repaint to original -->
+
+    <RecipeDef MayRequire="Rick.FCP.PowerArmor">
+        <defName>FCP_Paint_Apparel_BoS_Restore_T60_Power_Armor_Helmet</defName>
+        <label>Strip paint for T-60 power armor helmet</label>
+        <description>Strip paint and restore a T-60 power armor helmet to its original finish.</description>
+        <jobString>Restoring T-60 power armor helmet.</jobString>
+        <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+        <workSkill>Crafting</workSkill>
+        <effectWorking>Smith</effectWorking>
+        <soundWorking>Recipe_Smith</soundWorking>
+        <workAmount>500</workAmount>
+        <recipeUsers>
+            <li>FCP_Production_Armor_Workbench</li>
+        </recipeUsers>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>FCP_Apparel_BoS_Appalachia_T60_Power_Armor_Helmet</li>
+                        <li>FCP_Apparel_BoS_T60_Power_Armor_Helmet</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+        </ingredients>
+        <products>
+            <FCP_Apparel_Power_Armor_T60_Helmet>1</FCP_Apparel_Power_Armor_T60_Helmet>
+        </products>
+        <skillRequirements>
+            <Crafting>8</Crafting>
+        </skillRequirements>
+    </RecipeDef>
+
+    <RecipeDef MayRequire="Rick.FCP.PowerArmor">
+        <defName>FCP_Paint_Apparel_BoS_Restore_T51_Power_Armor_Helmet</defName>
+        <label>Strip paint for T-51 power armor helmet</label>
+        <description>Strip paint and restore a T-51 power armor helmet to its original finish.</description>
+        <jobString>Restoring T-51 power armor helmet.</jobString>
+        <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+        <workSkill>Crafting</workSkill>
+        <effectWorking>Smith</effectWorking>
+        <soundWorking>Recipe_Smith</soundWorking>
+        <workAmount>500</workAmount>
+        <recipeUsers>
+            <li>FCP_Production_Armor_Workbench</li>
+        </recipeUsers>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>FCP_Apparel_BoS_T51_Power_Armor_Helmet</li>
+                        <li>FCP_Apparel_BoS_T51_Appalachia_Power_Armor_Helmet</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+        </ingredients>
+        <products>
+            <FCP_Apparel_Power_Armor_T51_Helmet>1</FCP_Apparel_Power_Armor_T51_Helmet>
+        </products>
+        <skillRequirements>
+            <Crafting>8</Crafting>
+        </skillRequirements>
+    </RecipeDef>
+
+    <RecipeDef MayRequire="Rick.FCP.PowerArmor">
+        <defName>FCP_Paint_Apparel_BoS_Restore_T45_Power_Armor_Helmet</defName>
+        <label>Strip paint for T-45 power armor helmet</label>
+        <description>Strip paint and restore a T-45 power armor helmet to its original finish.</description>
+        <jobString>Restoring T-45 power armor helmet.</jobString>
+        <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+        <workSkill>Crafting</workSkill>
+        <effectWorking>Smith</effectWorking>
+        <soundWorking>Recipe_Smith</soundWorking>
+        <workAmount>500</workAmount>
+        <recipeUsers>
+            <li>FCP_Production_Armor_Workbench</li>
+        </recipeUsers>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>FCP_Apparel_BoS_T45_Lyons_Power_Armor_Helmet</li>
+                        <li>FCP_Apparel_BoS_T45_Outcast_Power_Armor_Helmet</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+        </ingredients>
+        <products>
+            <FCP_Apparel_Power_Armor_T45_Helmet>1</FCP_Apparel_Power_Armor_T45_Helmet>
+        </products>
+        <skillRequirements>
+            <Crafting>8</Crafting>
+        </skillRequirements>
     </RecipeDef>
 
 </Defs>

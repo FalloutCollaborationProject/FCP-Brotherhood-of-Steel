@@ -119,7 +119,8 @@
 				<options>
 					<FCP_Pawnkind_BoS_Initiate>8</FCP_Pawnkind_BoS_Initiate>
 					<FCP_Pawnkind_BoS_Field_Scribe>5</FCP_Pawnkind_BoS_Field_Scribe>
-					<FCP_Pawnkind_BoS_Knight>2</FCP_Pawnkind_BoS_Knight>
+					<FCP_Pawnkind_BoS_Knight>3</FCP_Pawnkind_BoS_Knight>
+					<FCP_Pawnkind_BoS_Paladin_Field>2</FCP_Pawnkind_BoS_Paladin_Field>
 					<FCP_Pawnkind_BoS_Paladin>1</FCP_Pawnkind_BoS_Paladin>
 					<FCP_Pawnkind_BoS_Sentinel>1</FCP_Pawnkind_BoS_Sentinel>
 					<FCP_Pawnkind_BoS_Elder>1</FCP_Pawnkind_BoS_Elder>
@@ -130,7 +131,8 @@
 				<options>
 					<FCP_Pawnkind_BoS_Initiate>8</FCP_Pawnkind_BoS_Initiate>
 					<FCP_Pawnkind_BoS_Field_Scribe>5</FCP_Pawnkind_BoS_Field_Scribe>
-					<FCP_Pawnkind_BoS_Knight>2</FCP_Pawnkind_BoS_Knight>
+					<FCP_Pawnkind_BoS_Knight>3</FCP_Pawnkind_BoS_Knight>
+					<FCP_Pawnkind_BoS_Paladin_Field>2</FCP_Pawnkind_BoS_Paladin_Field>
 					<FCP_Pawnkind_BoS_Paladin>1</FCP_Pawnkind_BoS_Paladin>
 					<FCP_Pawnkind_BoS_Sentinel>1</FCP_Pawnkind_BoS_Sentinel>
 					<FCP_Pawnkind_BoS_Elder>1</FCP_Pawnkind_BoS_Elder>
@@ -147,7 +149,8 @@
 				<guards>
 					<FCP_Pawnkind_BoS_Field_Scribe>7</FCP_Pawnkind_BoS_Field_Scribe>
 					<FCP_Pawnkind_BoS_Initiate>3</FCP_Pawnkind_BoS_Initiate>
-					<FCP_Pawnkind_BoS_Knight>2</FCP_Pawnkind_BoS_Knight>
+					<FCP_Pawnkind_BoS_Knight>3</FCP_Pawnkind_BoS_Knight>
+					<FCP_Pawnkind_BoS_Paladin_Field>2</FCP_Pawnkind_BoS_Paladin_Field>
 					<FCP_Pawnkind_BoS_Paladin>1</FCP_Pawnkind_BoS_Paladin>
 					<FCP_Pawnkind_BoS_Elder>1</FCP_Pawnkind_BoS_Elder>
 				</guards>
@@ -160,7 +163,8 @@
 					<FCP_Pawnkind_BoS_Scribe>7</FCP_Pawnkind_BoS_Scribe>
 					<FCP_Pawnkind_BoS_Field_Scribe>5</FCP_Pawnkind_BoS_Field_Scribe>
 					<FCP_Pawnkind_BoS_Science_Scribe>4</FCP_Pawnkind_BoS_Science_Scribe>
-					<FCP_Pawnkind_BoS_Knight>3</FCP_Pawnkind_BoS_Knight>
+					<FCP_Pawnkind_BoS_Knight>5</FCP_Pawnkind_BoS_Knight>
+					<FCP_Pawnkind_BoS_Paladin_Field>3</FCP_Pawnkind_BoS_Paladin_Field>
 					<FCP_Pawnkind_BoS_Paladin>2</FCP_Pawnkind_BoS_Paladin>
 					<FCP_Pawnkind_BoS_Sentinel>1</FCP_Pawnkind_BoS_Sentinel>
 					<FCP_Pawnkind_BoS_Elder>1</FCP_Pawnkind_BoS_Elder>
