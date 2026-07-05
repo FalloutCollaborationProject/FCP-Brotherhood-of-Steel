@@ -69,6 +69,27 @@
                 <countRange>1~3</countRange>
             </li>
 
+            <!-- Knight Under Armor -->
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>FCP_Apparel_BoS_Knight_Under_Armor</thingDef>
+                <countRange>1~3</countRange>
+            </li>
+
+            <!-- Soldier Undersuit -->
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>FCP_Apparel_BoS_Soldier_Undersuit</thingDef>
+                <countRange>2~4</countRange>
+            </li>
+
+            <!-- Officer Undersuit -->
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>FCP_Apparel_BoS_Officer_Undersuit</thingDef>
+                <countRange>1~2</countRange>
+            </li>
+
             <!-- Battle Coat -->
 
             <li Class="StockGenerator_SingleDef">
@@ -153,6 +174,27 @@
                 <countRange>1~3</countRange>
             </li>
 
+            <!-- Light Combat Armor -->
+
+            <li Class="StockGenerator_SingleDef" MayRequire="Rick.FCP.Wastelanders">
+                <thingDef>FCP_Apparel_BoS_Light_Combat_Armor</thingDef>
+                <countRange>2~4</countRange>
+            </li>
+
+            <!-- Sturdy Combat Armor -->
+
+            <li Class="StockGenerator_SingleDef" MayRequire="Rick.FCP.Wastelanders">
+                <thingDef>FCP_Apparel_BoS_Sturdy_Combat_Armor</thingDef>
+                <countRange>1~3</countRange>
+            </li>
+
+            <!-- Heavy Combat Armor -->
+
+            <li Class="StockGenerator_SingleDef" MayRequire="Rick.FCP.Wastelanders">
+                <thingDef>FCP_Apparel_BoS_Heavy_Combat_Armor</thingDef>
+                <countRange>1~2</countRange>
+            </li>
+
             <!--__ Brotherhood Headgear __-->
 
             <!-- Appalachia Beret -->
@@ -174,6 +216,13 @@
             <li Class="StockGenerator_SingleDef">
                 <thingDef>FCP_Apparel_BoS_B35C_Helmet</thingDef>
                 <countRange>1~2</countRange>
+            </li>
+
+            <!-- Combat Armor Helmet -->
+
+            <li Class="StockGenerator_SingleDef" MayRequire="Rick.FCP.Wastelanders">
+                <thingDef>FCP_Apparel_BoS_Combat_Armor_Helmet</thingDef>
+                <countRange>2~4</countRange>
             </li>
 
             <!-- Flight Helmet -->
