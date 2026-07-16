@@ -18,7 +18,7 @@
         <enlistButtonDescKey>FCP_BoS_Enlist_Button_Desc</enlistButtonDescKey>
         <enlistRequrementsNotSatisfiedKey>FCP_BoS_Enlist_Requrements_Not_Satisfied</enlistRequrementsNotSatisfiedKey>
         <enlistedToHostileFactionKey>FCP_BoS_Enlisted_To_Hostile_Faction</enlistedToHostileFactionKey>
-        <enlistButtonIconTexPath>Things/UI/Enlisted/FCP_BoS_Enlist</enlistButtonIconTexPath>
+        <enlistButtonIconTexPath>Things/Items/BoS_Crates/BoS_Food_and_Uniform_Crate/BoSEnlistment</enlistButtonIconTexPath>
         <enlistedSoundDef>FCP_Sound_Card_Use</enlistedSoundDef>
         <enlistedWithKey>FCP_BoS_Enlisted_With_Key</enlistedWithKey>
 
@@ -27,8 +27,8 @@
         <missionsAreEnabled>true</missionsAreEnabled>
         <missionsLabelKey>FCP_BoS_Missions_Label</missionsLabelKey>
         <missionsDescKey>FCP_BoS_Missions_Desc</missionsDescKey>
-        <missionsButtonIconTexPath>Things/UI/Enlisted/FCP_BoS_Missions</missionsButtonIconTexPath>
-        <missionsBackgroundMenuTexPath>Things/UI/Enlisted/FCP_BoS_Missions</missionsBackgroundMenuTexPath>
+        <missionsButtonIconTexPath>Things/UI/Ideology/BoS/FCP_BoS_Elder</missionsButtonIconTexPath>
+        <missionsBackgroundMenuTexPath>Things/UI/Ideology/BoS/FCP_BoS_Elder</missionsBackgroundMenuTexPath>
         <missionsMenuDescriptionKey>FCP_BoS_Menu_Missions_Desc</missionsMenuDescriptionKey>
         <missionsMenuSelectQuestKey>FCP_BoS_Menu_Missions_Select_Quest</missionsMenuSelectQuestKey>
         <missionsMenuStartQuestKey>FCP_BoS_Menu_Missions_Start_Quest</missionsMenuStartQuestKey>
@@ -41,7 +41,7 @@
         <salaryDef>FCP_Currency_BoS_Scrip</salaryDef>
         <salaryLabelKey>FCP_BoS_Salary_Label</salaryLabelKey>
         <salaryDescKey>FCP_BoS_Salary_Desc</salaryDescKey>
-        <salaryButtonIconTexPath>Things/UI/Enlisted/FCP_BoS_Salary</salaryButtonIconTexPath>
+        <salaryButtonIconTexPath>Things/Items/Currencies/FCP_BoS_Scrip_Currency/FCP_BoS_Scrip_Currency_a</salaryButtonIconTexPath>
         <salaryRange>875~1225</salaryRange>
         <salaryPeriodDays>14</salaryPeriodDays>
 
@@ -51,7 +51,7 @@
             <li>
                 <provisionsLabelKey>FCP_BoS_Provisions_Label</provisionsLabelKey>
                 <provisionsDescKey>FCP_BoS_Provisions_Desc</provisionsDescKey>
-                <provisionsButtonIconTexPath>Things/UI/Enlisted/FCP_BoS_Provisions</provisionsButtonIconTexPath>
+                <provisionsButtonIconTexPath>Things/Items/BoS_Crates/BoS_Food_and_Uniform_Crate/FCP_BoS_Food_Uniform_Crate</provisionsButtonIconTexPath>
                 <provisions>
                     <li>
                         <thing>FCP_Item_BoS_Food_Crate</thing>
@@ -63,7 +63,7 @@
             <li>
                 <provisionsLabelKey>FCP_BoS_Provisions_Label_Standard_Issue</provisionsLabelKey>
                 <provisionsDescKey>FCP_BoS_Provisions_Desc_Standard_Issue</provisionsDescKey>
-                <provisionsButtonIconTexPath>Things/UI/Enlisted/FCP_BoS_Standard_Issue</provisionsButtonIconTexPath>
+                <provisionsButtonIconTexPath>Things/Items/BoS_Crates/BoS_Food_and_Uniform_Crate/FCP_BoS_Food_Uniform_Crate</provisionsButtonIconTexPath>
                 <provisions>
                     <li>
                         <thing>FCP_Item_BoS_Standard_Weapon_Crate</thing>
@@ -87,7 +87,7 @@
         <storageIsEnabled>true</storageIsEnabled>
         <storageLabelKey>FCP_BoS_Storage_Label</storageLabelKey>
         <storageDescKey>FCP_BoS_Storage_Desc</storageDescKey>
-        <storageButtonIconTexPath>Things/UI/Enlisted/FCP_BoS_Storage</storageButtonIconTexPath>
+        <storageButtonIconTexPath>Things/Items/BoS_Crates/BoS_Food_and_Uniform_Crate/FCP_BoS_Food_Uniform_Crate</storageButtonIconTexPath>
 
         <!-- Work Options -->
 
@@ -96,14 +96,14 @@
             <li>
                 <workLabelKey>FCP_BoS_Part_Time_Job_Label</workLabelKey>
                 <workDescKey>FCP_BoS_Part_Time_Job_Desc</workDescKey>
-                <workButtonIconTexPath>Things/UI/Enlisted/FCP_BoS_Part_Time_Job</workButtonIconTexPath>
+                <workButtonIconTexPath>Things/Items/Currencies/FCP_BoS_Scrip_Currency/FCP_BoS_Scrip_Currency_b</workButtonIconTexPath>
                 <additionalRestFall>0.25</additionalRestFall>
                 <silverGainPerHour>10</silverGainPerHour>
             </li>
             <li>
                 <workLabelKey>FCP_BoS_Hospital_Label</workLabelKey>
                 <workDescKey>FCP_BoS_Hospital_Desc</workDescKey>
-                <workButtonIconTexPath>Things/UI/Enlisted/FCP_BoS_Hospital</workButtonIconTexPath>
+                <workButtonIconTexPath>World_Icon/BoS_Icon/FCP_BoS_World_Icon</workButtonIconTexPath>
                 <additionalRestFall>0.25</additionalRestFall>
                 <tendCaravanMembersEveryTicks>600</tendCaravanMembersEveryTicks>
                 <medicinesToTend>
@@ -114,7 +114,7 @@
             <li>
                 <workLabelKey>FCP_BoS_Knight_Training_Label</workLabelKey>
                 <workDescKey>FCP_BoS_Knight_Training_Desc</workDescKey>
-                <workButtonIconTexPath>Things/UI/Enlisted/FCP_BoS_Knight_Training</workButtonIconTexPath>
+                <workButtonIconTexPath>Things/UI/Ideology/BoS/FCP_BoS_Paladin</workButtonIconTexPath>
                 <experienceGainsPerHour>
                     <Shooting>600</Shooting>
                     <Melee>100</Melee>
@@ -124,7 +124,7 @@
             <li>
                 <workLabelKey>FCP_BoS_Scribe_Training_Label</workLabelKey>
                 <workDescKey>FCP_BoS_Scribe_Training_Desc</workDescKey>
-                <workButtonIconTexPath>Things/UI/Enlisted/FCP_BoS_Scribe_Training</workButtonIconTexPath>
+                <workButtonIconTexPath>Things/UI/Ideology/BoS/FCP_BoS_Codex_Supremacy</workButtonIconTexPath>
                 <experienceGainsPerHour>
                     <Crafting>800</Crafting>
                     <Intellectual>200</Intellectual>
@@ -157,7 +157,7 @@
         <resignLetterLabelKey>FCP_BoS_Resign_Letter_Label</resignLetterLabelKey>
         <resignButtonLabelKey>FCP_BoS_Resign_Button_Label</resignButtonLabelKey>
         <resignButtonDescKey>FCP_BoS_Resign_Button_Desc</resignButtonDescKey>
-        <resignButtonIconTexPath>Things/UI/Enlisted/FCP_BoS_Resign</resignButtonIconTexPath>
+        <resignButtonIconTexPath>World_Icon/BoS_Icon/FCP_BoS_World_Icon</resignButtonIconTexPath>
 
         <!-- Kicked Out Options -->
 
@@ -169,7 +169,7 @@
         <reinforcementsAreEnabled>true</reinforcementsAreEnabled>
         <reinforcementsButtonLabelKey>FCP_BoS_Reinforcements_Button_Label</reinforcementsButtonLabelKey>
         <reinforcementsButtonDescKey>FCP_BoS_Reinforcements_Button_Desc</reinforcementsButtonDescKey>
-        <reinforcementsButtonIconTexPath>Things/UI/Enlisted/FCP_BoS_Call_Reinforcements</reinforcementsButtonIconTexPath>
+        <reinforcementsButtonIconTexPath>Things/UI/Ideology/BoS/FCP_BoS_Paladin</reinforcementsButtonIconTexPath>
         <reinforcementCallGoodwillCost>-5</reinforcementCallGoodwillCost>
         <reinforcementCallCooldownTicks>50000</reinforcementCallCooldownTicks>
         <reinforcementOptions>

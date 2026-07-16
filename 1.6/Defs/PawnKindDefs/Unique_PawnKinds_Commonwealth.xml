@@ -290,6 +290,9 @@
             <li>FCP_Power_Armor_Helmet</li>
             <li>FCP_Power_Armor</li>
         </apparelDisallowTags>
+        <forcedTraits>
+            <FCP_Trait_Power_Armor_Trained />
+        </forcedTraits>
         <initialWillRange>4~6</initialWillRange>
         <initialResistanceRange>20~28</initialResistanceRange>
         <backstoryFiltersOverride>

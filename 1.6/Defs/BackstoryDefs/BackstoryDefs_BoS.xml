@@ -1067,6 +1067,8 @@
     
     <BackstoryDef>
         <defName>FCP_Backstory_BoS_Brotherhood_Loner</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <identifier>FCP_Backstory_BoS_JBrotherhood_Loner</identifier>
         <slot>Childhood</slot>
         <title>Brotherhood Loner</title>

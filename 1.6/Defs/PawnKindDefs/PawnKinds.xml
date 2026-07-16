@@ -23,6 +23,8 @@
         <weaponTags>
 			<li>FCP_BoS_Weapon</li>
             <li MayRequire="Rick.FCP.EnergyWeapons">FCP_Laser_Weapon</li>
+            <li MayRequire="Rick.FCP.COA">FCP_Gamma_Gun</li>
+            <li MayRequire="Rick.FCP.COA">FCP_Radium_Rifle</li>
         </weaponTags>
         <disallowedTraits>
             <li>Nudist</li>
@@ -231,6 +233,8 @@
         <weaponTags>
 			<li>FCP_BoS_Weapon</li>
             <li MayRequire="Rick.FCP.EnergyWeapons">FCP_Laser_Weapon</li>
+            <li MayRequire="Rick.FCP.COA">FCP_Gamma_Gun</li>
+            <li MayRequire="Rick.FCP.COA">FCP_Radium_Rifle</li>
         </weaponTags>
         <apparelRequired>
             <li>FCP_Apparel_BoS_Soldier_Undersuit</li>

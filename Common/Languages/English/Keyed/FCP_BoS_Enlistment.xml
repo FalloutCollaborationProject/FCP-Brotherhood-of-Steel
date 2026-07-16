@@ -51,10 +51,10 @@
 	<FCP_BoS_Part_Time_Job_Desc>Pull additional duties and cover for your knight and scribe brothers for $10 an hour.</FCP_BoS_Part_Time_Job_Desc>
 	<FCP_BoS_Hospital_Label>Hospital</FCP_BoS_Hospital_Label>
 	<FCP_BoS_Hospital_Desc>Check in with the hospital of this base. This service tends to all of your team with industrial medicine. Immunity gain is also increased while your team is in the hospital.</FCP_BoS_Hospital_Desc>
-	<FCP_BoS_Shooting_Training_Label>Training: Knight training</FCP_BoS_Shooting_Training_Label>
-	<FCP_BoS_Shooting_Training_Desc>Train your knights, paladins and intitiats with hourly experience gain on the following skills:\n\n- Shooting, Melee \n\n Hourly experience gain stops when this faction is resting at night.</FCP_BoS_Shooting_Training_Desc>
-	<FCP_BoS_Survival_Training_Label>Training: Scribe training</FCP_BoS_Survival_Training_Label>
-	<FCP_BoS_Survival_Training_Desc>Train your scribes with hourly experience gain on the following skills:\n\n- \n- Crafting\n- Intellectual\n- Medicine\n\nHourly experience gain stops when this faction is resting at night.</FCP_BoS_Survival_Training_Desc>
+	<FCP_BoS_Knight_Training_Label>Training: Knight training</FCP_BoS_Knight_Training_Label>
+	<FCP_BoS_Knight_Training_Desc>Train your knights, paladins and intitiats with hourly experience gain on the following skills:\n\n- Shooting, Melee \n\n Hourly experience gain stops when this faction is resting at night.</FCP_BoS_Knight_Training_Desc>
+	<FCP_BoS_Scribe_Training_Label>Training: Scribe training</FCP_BoS_Scribe_Training_Label>
+	<FCP_BoS_Scribe_Training_Desc>Train your scribes with hourly experience gain on the following skills:\n\n- \n- Crafting\n- Intellectual\n- Medicine\n\nHourly experience gain stops when this faction is resting at night.</FCP_BoS_Scribe_Training_Desc>
 
 	<!-- Bounty Options -->
 

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <!--__________ BoS Crashed Vertibird __________-->
+
+    <ThingDef ParentName="NonDeconstructibleAncientBuildingBase">
+        <defName>FCP_BoS_Vertibird_Crashed</defName>
+        <label>crashed BoS vertibird</label>
+        <description>A destroyed Brotherhood of Steel vertibird transport. The Brotherhood's cog insignia is still visible on the scorched hull. The wreck may still hold usable Brotherhood equipment.</description>
+        <rotatable>false</rotatable>
+        <graphicData>
+            <texPath>Things/Vehicles/Shuttles/BoSVertibird/FCP_BoS_Light_Vertibird_a</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>(9,9)</drawSize>
+            <shadowData>
+                <volume>(0.9, 0.7, 3.8)</volume>
+            </shadowData>
+        </graphicData>
+        <size>(11,9)</size>
+        <fillPercent>0.5</fillPercent>
+        <passability>PassThroughOnly</passability>
+        <pathCost>50</pathCost>
+        <statBases>
+            <MaxHitPoints>600</MaxHitPoints>
+        </statBases>
+        <killedLeavings>
+            <ChunkSlagSteel>2</ChunkSlagSteel>
+        </killedLeavings>
+        <comps>
+            <li Class="FCP.Core.CompProperties_UsableOnce">
+                <useJob>UseItem</useJob>
+                <useLabel>Search wreckage</useLabel>
+                <showUseGizmo>true</showUseGizmo>
+            </li>
+            <li Class="FCP.Core.CompProperties_UseEffectItemBox">
+                <numWeightedDrops>4</numWeightedDrops>
+                <guaranteedDrops>
+                </guaranteedDrops>
+                <weightedDrops>
+                    <!-- Currency -->
+                    <li>
+                        <thingDef>FCP_Currency_Caps</thingDef>
+                        <countRange>1~80</countRange>
+                    </li>
+                    <!-- BoS Apparel -->
+                    <li>
+                        <thingDef>FCP_Apparel_BoS_T51_Power_Armor</thingDef>
+                        <countRange>1</countRange>
+                        <weight>0.3</weight>
+                    </li>
+                    <!-- BoS Weapons -->
+                    <li>
+                        <thingDef>FCP_Gun_BoS_Crusader_Pistol</thingDef>
+                        <countRange>0~2</countRange>
+                    </li>
+                    <li>
+                        <thingDef>FCP_Melee_BoS_Super_Sledge</thingDef>
+                        <countRange>0~1</countRange>
+                        <weight>0.4</weight>
+                    </li>
+                    <!-- Medical Supplies -->
+                    <li>
+                        <thingDef>MedicineIndustrial</thingDef>
+                        <countRange>0~5</countRange>
+                    </li>
+                    <li>
+                        <thingDef>MealSurvivalPack</thingDef>
+                        <countRange>0~5</countRange>
+                    </li>
+                    <li MayRequire="Ludeon.RimWorld.Odyssey">
+                        <thingDef>FCP_Vertibird_Engine</thingDef>
+                        <countRange>0~1</countRange>
+                        <weight>0.15</weight>
+                    </li>
+                    <li>
+                        <thingDef>ComponentIndustrial</thingDef>
+                        <countRange>0~4</countRange>
+                        <weight>0.5</weight>
+                    </li>
+                </weightedDrops>
+            </li>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Rare</rarity>
+            </li>
+        </comps>
+    </ThingDef>
+
+</Defs>

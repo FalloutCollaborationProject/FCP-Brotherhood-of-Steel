@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <!-- Site: Lost Technology -->
+
+    <SitePartDef>
+        <defName>FCP_Site_BoS_Tech_Cache</defName>
+        <label>hostile camp</label>
+        <description>A raider camp sitting on an undocumented pre-war cache.</description>
+        <workerClass>SitePartWorker_Outpost</workerClass>
+        <siteTexture>World/WorldObjects/DefaultSettlement</siteTexture>
+        <expandingIconTexture>MapIcons/Sites/FCP_Vault_Site</expandingIconTexture>
+        <forceExitAndRemoveMapCountdownDurationDays>6</forceExitAndRemoveMapCountdownDurationDays>
+        <requiresFaction>true</requiresFaction>
+        <wantsThreatPoints>true</wantsThreatPoints>
+        <tags>
+            <li>FCP_Site_BoS_Tech_Cache</li>
+        </tags>
+    </SitePartDef>
+
+    <GenStepDef>
+        <defName>FCP_Site_BoS_Tech_Cache_Outpost</defName>
+        <linkWithSite>FCP_Site_BoS_Tech_Cache</linkWithSite>
+        <order>450</order>
+        <genStep Class="GenStep_Outpost"/>
+    </GenStepDef>
+
+    <GenStepDef>
+        <defName>FCP_Site_BoS_Tech_Cache_Power</defName>
+        <linkWithSite>FCP_Site_BoS_Tech_Cache</linkWithSite>
+        <order>451</order>
+        <genStep Class="GenStep_Power"/>
+    </GenStepDef>
+
+    <!-- Site: Outcast Holdout -->
+
+    <SitePartDef>
+        <defName>FCP_Site_BoS_Outcast_Holdout</defName>
+        <label>Outcast holdout</label>
+        <description>A band of Brotherhood Outcasts squatting on Brotherhood territory.</description>
+        <workerClass>SitePartWorker_Outpost</workerClass>
+        <siteTexture>World/WorldObjects/DefaultSettlement</siteTexture>
+        <expandingIconTexture>MapIcons/Sites/FCP_Small_Ruins_Site</expandingIconTexture>
+        <forceExitAndRemoveMapCountdownDurationDays>6</forceExitAndRemoveMapCountdownDurationDays>
+        <requiresFaction>true</requiresFaction>
+        <wantsThreatPoints>true</wantsThreatPoints>
+        <tags>
+            <li>FCP_Site_BoS_Outcast_Holdout</li>
+        </tags>
+    </SitePartDef>
+
+    <GenStepDef>
+        <defName>FCP_Site_BoS_Outcast_Holdout_Outpost</defName>
+        <linkWithSite>FCP_Site_BoS_Outcast_Holdout</linkWithSite>
+        <order>450</order>
+        <genStep Class="GenStep_Outpost"/>
+    </GenStepDef>
+
+    <GenStepDef>
+        <defName>FCP_Site_BoS_Outcast_Holdout_Power</defName>
+        <linkWithSite>FCP_Site_BoS_Outcast_Holdout</linkWithSite>
+        <order>451</order>
+        <genStep Class="GenStep_Power"/>
+    </GenStepDef>
+
+</Defs>

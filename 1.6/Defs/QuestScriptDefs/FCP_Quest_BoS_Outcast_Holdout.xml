@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <QuestScriptDef>
+        <defName>FCP_Quest_BoS_Outcast_Holdout</defName>
+        <rootSelectionWeight>1.0</rootSelectionWeight>
+        <rootMinPoints>250</rootMinPoints>
+        <defaultChallengeRating>2</defaultChallengeRating>
+        <canGiveRoyalFavor>true</canGiveRoyalFavor>
+        <expireDaysRange>6~12</expireDaysRange>
+        <questNameRules>
+            <rulesStrings>
+                <li>questName->Outcast Holdout</li>
+                <li>questName->Renegade Knights</li>
+                <li>questName->The Fallen Chapter</li>
+                <li>questName->Purging the Outcasts</li>
+                <li>questName->Broken Oaths</li>
+            </rulesStrings>
+        </questNameRules>
+        <questDescriptionRules>
+            <rulesStrings>
+                <li>questDescription->A squad of Outcasts dug in nearby, sitting on tech they should've handed over to the Brotherhood years ago. [asker_nameFull] would rather bring them back in line, but won't lose sleep either way.</li>
+                <li>questDescription->[asker_nameFull]: "Outcasts broke their oaths the day they walked out on the Codex. Now they're camped close enough to be our problem again. Handle it."</li>
+                <li>questDescription->The elders found a band of Outcasts squatting on Brotherhood ground. [asker_nameFull] figures letting them stay there sends the wrong message to every chapter watching.</li>
+                <li>questDescription->Outcast renegades turned up nearby, armed and not looking to talk. [asker_nameFull] doesn't need a lecture on old grudges to know how this ends.</li>
+                <li>questDescription->Outcast scavengers are hoarding tech that belongs to the Brotherhood by rights. [asker_nameFull] wants their camp cleared and the salvage brought home.</li>
+            </rulesStrings>
+        </questDescriptionRules>
+        <root Class="QuestNode_Sequence">
+            <nodes>
+                <li Class="QuestNode_SubScript">
+                    <def>Util_RandomizePointsChallengeRating</def>
+                    <parms>
+                        <pointsFactorTwoStar>1.4</pointsFactorTwoStar>
+                        <pointsFactorThreeStar>1.8</pointsFactorThreeStar>
+                    </parms>
+                </li>
+                <li Class="QuestNode_SubScript">
+                    <def>Util_AdjustPointsForDistantFight</def>
+                </li>
+                <li Class="QuestNode_GetMap" />
+                <li Class="FCP.Core.RadiantQuests.QuestNode_GetFactionFromList">
+                    <storeAs>askerFaction</storeAs>
+                    <factionDefs>
+                        <li MayRequire="Rick.FCP.BOS">FCP_Faction_BoS</li>
+                    </factionDefs>
+                </li>
+                <li Class="FCP.Core.RadiantQuests.QuestNode_GetLeaderOfFaction">
+                    <storeAs>asker</storeAs>
+                    <factionToUse>$askerFaction</factionToUse>
+                </li>
+                <li Class="QuestNode_GetSiteTile">
+                    <storeAs>siteTile</storeAs>
+                    <preferCloserTiles>true</preferCloserTiles>
+                </li>
+                <li Class="QuestNode_GetSitePartDefsByTagsAndFaction">
+                    <storeAs>sitePartDefs</storeAs>
+                    <sitePartsTags>
+                        <li>
+                            <tag>FCP_Site_BoS_Outcast_Holdout</tag>
+                        </li>
+                    </sitePartsTags>
+                </li>
+                <li Class="QuestNode_GetDefaultSitePartsParams">
+                    <tile>$siteTile</tile>
+                    <faction>FCP_Faction_BoS_Outcast_Remnants</faction>
+                    <sitePartDefs>$sitePartDefs</sitePartDefs>
+                    <storeSitePartsParamsAs>sitePartsParams</storeSitePartsParamsAs>
+                </li>
+                <li Class="QuestNode_GetSiteThreatPoints">
+                    <storeAs>sitePoints</storeAs>
+                    <sitePartsParams>$sitePartsParams</sitePartsParams>
+                </li>
+                <li Class="QuestNode_SubScript">
+                    <def>Util_GetDefaultRewardValueFromPoints</def>
+                    <parms>
+                        <points>$sitePoints</points>
+                    </parms>
+                </li>
+                <li Class="QuestNode_Multiply">
+                    <value1>$rewardValue</value1>
+                    <value2>1.5</value2>
+                    <storeAs>rewardValue</storeAs>
+                </li>
+                <li Class="QuestNode_SubScript">
+                    <def>Util_GenerateSite</def>
+                    <parms>
+                        <siteFaction>FCP_Faction_BoS_Outcast_Remnants</siteFaction>
+                    </parms>
+                </li>
+                <li Class="QuestNode_SpawnWorldObjects">
+                    <worldObjects>$site</worldObjects>
+                </li>
+                <li Class="QuestNode_WorldObjectTimeout">
+                    <worldObject>$site</worldObject>
+                    <isQuestTimeout>true</isQuestTimeout>
+                    <delayTicks>$(randInt(12,24)*60000)</delayTicks>
+                    <inSignalDisable>site.MapGenerated</inSignalDisable>
+                    <destroyOnCleanup>true</destroyOnCleanup>
+                    <node Class="QuestNode_Sequence">
+                        <nodes>
+                            <li Class="QuestNode_Letter">
+                                <label TKey="LetterLabelQuestExpired">quest expired: [resolvedQuestName]</label>
+                                <text TKey="LetterTextQuestExpired">The Outcasts abandoned their holdout. Quest [resolvedQuestName] expired.</text>
+                            </li>
+                            <li Class="QuestNode_End">
+                                <outcome>Fail</outcome>
+                            </li>
+                        </nodes>
+                    </node>
+                </li>
+                <li Class="QuestNode_Signal">
+                    <inSignal>site.Destroyed</inSignal>
+                    <node Class="QuestNode_Sequence">
+                        <nodes>
+                            <li Class="QuestNode_Letter">
+                                <label TKey="LetterLabelQuestFailed">quest failed: [resolvedQuestName]</label>
+                                <text TKey="LetterTextQuestFailed">The Outcasts fled after discovery. Quest [resolvedQuestName] ended.</text>
+                            </li>
+                            <li Class="QuestNode_End">
+                                <outcome>Fail</outcome>
+                            </li>
+                        </nodes>
+                    </node>
+                </li>
+                <li Class="QuestNode_Signal">
+                    <inSignal>site.AllEnemiesDefeated</inSignal>
+                    <node Class="QuestNode_Sequence">
+                        <nodes>
+                            <li Class="QuestNode_Notify_PlayerRaidedSomeone">
+                                <getRaidersFromMapParent>$site</getRaidersFromMapParent>
+                            </li>
+                            <li Class="QuestNode_GiveRewards">
+                                <parms>
+                                    <allowGoodwill>true</allowGoodwill>
+                                    <allowRoyalFavor>false</allowRoyalFavor>
+                                </parms>
+                                <addCampLootReward>true</addCampLootReward>
+                                <customLetterLabel>Outcasts dealt with</customLetterLabel>
+                                <customLetterText>The Outcast holdout has been cleared. The Brotherhood has paid you for your service.</customLetterText>
+                            </li>
+                        </nodes>
+                    </node>
+                </li>
+                <li Class="QuestNode_End">
+                    <inSignal>site.AllEnemiesDefeated</inSignal>
+                    <outcome>Success</outcome>
+                </li>
+                <li Class="QuestNode_NoWorldObject">
+                    <worldObject>$site</worldObject>
+                    <node Class="QuestNode_End" />
+                </li>
+            </nodes>
+        </root>
+    </QuestScriptDef>
+
+</Defs>

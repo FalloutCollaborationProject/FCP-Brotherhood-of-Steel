@@ -196,6 +196,38 @@
 				<minDistanceBetweenShuttles>10</minDistanceBetweenShuttles>
 				<maxPawnCountInOneShuttle>6</maxPawnCountInOneShuttle>
 			</li>
+			<li Class="FCP.Core.RadiantQuests.FactionExtension_Vertibird">
+				<crashedVertibird>FCP_BoS_Vertibird_Crashed</crashedVertibird>
+				<survivorGroups>
+					<li>
+						<leaderKind>FCP_Pawnkind_BoS_Knight_Sergeant</leaderKind>
+						<basicKind>FCP_Pawnkind_BoS_Initiate</basicKind>
+						<count>8</count>
+						<difficultyMultiplier>1.0</difficultyMultiplier>
+					</li>
+					<li>
+						<basicKind>FCP_Pawnkind_BoS_Knight</basicKind>
+						<count>8</count>
+						<difficultyMultiplier>1.0</difficultyMultiplier>
+					</li>
+					<li>
+						<basicKind>FCP_Pawnkind_BoS_Paladin</basicKind>
+						<count>3</count>
+						<difficultyMultiplier>1.3</difficultyMultiplier>
+					</li>
+					<li>
+						<leaderKind>FCP_Pawnkind_BoS_Elder</leaderKind>
+						<basicKind>FCP_Pawnkind_BoS_Knight</basicKind>
+						<count>8</count>
+						<difficultyMultiplier>1.5</difficultyMultiplier>
+					</li>
+					<li>
+						<basicKind>FCP_Pawnkind_BoS_Star_Paladin</basicKind>
+						<count>4</count>
+						<difficultyMultiplier>2.0</difficultyMultiplier>
+					</li>
+				</survivorGroups>
+			</li>
 			<!-- Ideology stuff -->
 			<li Class="FCP.Factions.FactionExtension_FixedIdeo">
 				<ideoIconDef>FCP_Icon_BoS</ideoIconDef>

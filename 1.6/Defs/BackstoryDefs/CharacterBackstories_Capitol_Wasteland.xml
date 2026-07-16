@@ -9,6 +9,8 @@
 
     <BackstoryDef>
         <defName>FCP_Character_Backstory_Owyn_Lyons_Child</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <identifier>FCP_Character_Backstory_Owyn_Lyons_Child</identifier>
         <slot>Childhood</slot>
         <title>Brotherhood Foundling</title>
@@ -27,6 +29,7 @@
 
     <BackstoryDef>
         <defName>FCP_Character_Backstory_Owyn_Lyons_Adult</defName>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <identifier>FCP_Character_Backstory_Owyn_Lyons_Adult</identifier>
         <slot>Adulthood</slot>
         <bodyTypeMale>Male</bodyTypeMale>
@@ -50,6 +53,8 @@
 
     <BackstoryDef>
         <defName>FCP_Character_Backstory_Sarah_Lyons_Child</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <identifier>FCP_Character_Backstory_Sarah_Lyons_Child</identifier>
         <slot>Childhood</slot>
         <title>Elder's Daughter</title>
@@ -69,6 +74,7 @@
     
     <BackstoryDef>
         <defName>FCP_Character_Backstory_Sarah_Lyons_Adult</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
         <identifier>FCP_Character_Backstory_Sarah_Lyons_Adult</identifier>
         <slot>Adulthood</slot>
         <bodyTypeFemale>Female</bodyTypeFemale>
@@ -93,6 +99,8 @@
 
     <BackstoryDef>
         <defName>FCP_Character_Backstory_Cross_Child</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <identifier>FCP_Character_Backstory_Cross_Child</identifier>
         <slot>Childhood</slot>
         <title>Wasteland Survivor</title>
@@ -112,6 +120,7 @@
 
     <BackstoryDef>
         <defName>FCP_Character_Backstory_Cross_Adult</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
         <identifier>FCP_Character_Backstory_Cross_Adult</identifier>
         <slot>Adulthood</slot>
         <bodyTypeFemale>Female</bodyTypeFemale>
@@ -135,6 +144,8 @@
 
     <BackstoryDef>
         <defName>FCP_Character_Backstory_Gunny_Child</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <identifier>FCP_Character_Backstory_Gunny_Child</identifier>
         <slot>Childhood</slot>
         <title>Weapons Apprentice</title>
@@ -153,6 +164,7 @@
 
     <BackstoryDef>
         <defName>FCP_Character_Backstory_Gunny_Adult</defName>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <identifier>FCP_Character_Backstory_Gunny_Adult</identifier>
         <slot>Adulthood</slot>
         <bodyTypeMale>Male</bodyTypeMale>
@@ -176,6 +188,8 @@
 
     <BackstoryDef>
         <defName>FCP_Character_Backstory_Glade_Child</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <identifier>FCP_Character_Backstory_Glade_Child</identifier>
         <slot>Childhood</slot>
         <title>Brotherhood Squire</title>
@@ -195,6 +209,7 @@
 
     <BackstoryDef>
         <defName>FCP_Character_Backstory_Glade_Adult</defName>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <identifier>FCP_Character_Backstory_Glade_Adult</identifier>
         <slot>Adulthood</slot>
         <bodyTypeMale>Male</bodyTypeMale>
@@ -216,6 +231,8 @@
 
     <BackstoryDef>
         <defName>FCP_Character_Backstory_Kodiak_Child</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <identifier>FCP_Character_Backstory_Kodiak_Child</identifier>
         <slot>Childhood</slot>
         <title>Heavy Weapons Trainee</title>
@@ -234,6 +251,7 @@
 
     <BackstoryDef>
         <defName>FCP_Character_Backstory_Kodiak_Adult</defName>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <identifier>FCP_Character_Backstory_Kodiak_Adult</identifier>
         <slot>Adulthood</slot>
         <bodyTypeMale>Hulk</bodyTypeMale>
@@ -257,6 +275,8 @@
 
     <BackstoryDef>
         <defName>FCP_Character_Backstory_Gallows_Child</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <identifier>FCP_Character_Backstory_Gallows_Child</identifier>
         <slot>Childhood</slot>
         <title>Brotherhood Initiate</title>
@@ -276,6 +296,7 @@
 
     <BackstoryDef>
         <defName>FCP_Character_Backstory_Gallows_Adult</defName>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <identifier>FCP_Character_Backstory_Gallows_Adult</identifier>
         <slot>Adulthood</slot>
         <bodyTypeMale>Male</bodyTypeMale>
@@ -296,6 +317,8 @@
 
     <BackstoryDef>
         <defName>FCP_Character_Backstory_Dusk_Child</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <identifier>FCP_Character_Backstory_Dusk_Child</identifier>
         <slot>Childhood</slot>
         <title>Tech Enthusiast</title>
@@ -315,6 +338,7 @@
 
     <BackstoryDef>
         <defName>FCP_Character_Backstory_Dusk_Adult</defName>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <identifier>FCP_Character_Backstory_Dusk_Adult</identifier>
         <slot>Adulthood</slot>
         <bodyTypeMale>Male</bodyTypeMale>
@@ -335,6 +359,8 @@
 
     <BackstoryDef>
         <defName>FCP_Character_Backstory_Rothchild_Child</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <identifier>FCP_Character_Backstory_Rothchild_Child</identifier>
         <slot>Childhood</slot>
         <title>Scholar Prodigy</title>
@@ -353,6 +379,7 @@
 
     <BackstoryDef>
         <defName>FCP_Character_Backstory_Rothchild_Adult</defName>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <identifier>FCP_Character_Backstory_Rothchild_Adult</identifier>
         <slot>Adulthood</slot>
         <bodyTypeMale>Thin</bodyTypeMale>
@@ -378,6 +405,8 @@
 
     <BackstoryDef>
         <defName>FCP_Character_Backstory_Casdin_Child</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <identifier>FCP_Character_Backstory_Casdin_Child</identifier>
         <slot>Childhood</slot>
         <title>Codex Student</title>
@@ -396,6 +425,7 @@
 
     <BackstoryDef>
         <defName>FCP_Character_Backstory_Casdin_Adult</defName>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <identifier>FCP_Character_Backstory_Casdin_Adult</identifier>
         <slot>Adulthood</slot>
         <bodyTypeMale>Male</bodyTypeMale>
@@ -417,6 +447,8 @@
 
     <BackstoryDef>
         <defName>FCP_Character_Backstory_Sibley_Child</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <identifier>FCP_Character_Backstory_Sibley_Child</identifier>
         <slot>Childhood</slot>
         <title>Duty-Bound Youth</title>
@@ -436,6 +468,7 @@
 
     <BackstoryDef>
         <defName>FCP_Character_Backstory_Sibley_Adult</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
         <identifier>FCP_Character_Backstory_Sibley_Adult</identifier>
         <slot>Adulthood</slot>
         <bodyTypeFemale>Female</bodyTypeFemale>
@@ -459,6 +492,8 @@
 
     <BackstoryDef>
         <defName>FCP_Character_Backstory_Olin_Child</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <identifier>FCP_Character_Backstory_Olin_Child</identifier>
         <slot>Childhood</slot>
         <title>Archive Assistant</title>
@@ -477,6 +512,7 @@
 
     <BackstoryDef>
         <defName>FCP_Character_Backstory_Olin_Adult</defName>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <identifier>FCP_Character_Backstory_Olin_Adult</identifier>
         <slot>Adulthood</slot>
         <bodyTypeMale>Male</bodyTypeMale>
@@ -497,6 +533,8 @@
 
     <BackstoryDef>
         <defName>FCP_Character_Backstory_McGraw_Child</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <identifier>FCP_Character_Backstory_McGraw_Child</identifier>
         <slot>Childhood</slot>
         <title>Patrol Scout</title>
@@ -516,6 +554,7 @@
 
     <BackstoryDef>
         <defName>FCP_Character_Backstory_McGraw_Adult</defName>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <identifier>FCP_Character_Backstory_McGraw_Adult</identifier>
         <slot>Adulthood</slot>
         <bodyTypeMale>Male</bodyTypeMale>

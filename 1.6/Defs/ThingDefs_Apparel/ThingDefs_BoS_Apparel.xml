@@ -1030,8 +1030,6 @@
             <tags>
                 <li>FCP_BoS_Apparel</li>
                 <li>FCP_BoS_Combat_Armor</li>
-                <li>FCP_Combat_Armor_Modular</li>
-                <li>FCP_Combat_Armor</li>
             </tags>
             <defaultOutfitTags>
                 <li>FCP_Combat_Armors</li>
@@ -1091,7 +1089,6 @@
             <tags>
                 <li>FCP_BoS_Apparel</li>
                 <li>FCP_BoS_Combat_Armor</li>
-                <li>FCP_Combat_Armor_Modular</li>
             </tags>
             <defaultOutfitTags>
                 <li>FCP_Combat_Armors</li>
@@ -1151,7 +1148,6 @@
             <tags>
                 <li>FCP_BoS_Apparel</li>
                 <li>FCP_BoS_Combat_Armor</li>
-                <li>FCP_Combat_Armor_Modular</li>
             </tags>
             <defaultOutfitTags>
                 <li>FCP_Combat_Armors</li>

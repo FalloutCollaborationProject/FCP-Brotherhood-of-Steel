@@ -390,6 +390,8 @@
 
 	<BackstoryDef>
 		<defName>FCP_Backstory_BoS_Mojave_Child_Bunker_Born</defName>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
 		<identifier>FCP_Backstory_BoS_Mojave_Child_Bunker_Born</identifier>
 		<slot>Childhood</slot>
 		<title>Bunker Born</title>
@@ -408,6 +410,8 @@
 
 	<BackstoryDef>
 		<defName>FCP_Backstory_BoS_Mojave_Child_Tech_Apprentice</defName>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
 		<identifier>FCP_Backstory_BoS_Mojave_Child_Tech_Apprentice</identifier>
 		<slot>Childhood</slot>
 		<title>Tech Apprentice</title>
@@ -426,6 +430,8 @@
 
 	<BackstoryDef>
 		<defName>FCP_Backstory_BoS_Mojave_Child_Radio_Kid</defName>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
 		<identifier>FCP_Backstory_BoS_Mojave_Child_Radio_Kid</identifier>
 		<slot>Childhood</slot>
 		<title>Communications Trainee</title>
@@ -444,6 +450,8 @@
 
 	<BackstoryDef>
 		<defName>FCP_Backstory_BoS_Mojave_Child_Medic_Helper</defName>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
 		<identifier>FCP_Backstory_BoS_Mojave_Child_Medic_Helper</identifier>
 		<slot>Childhood</slot>
 		<title>Medic's Helper</title>
@@ -462,6 +470,8 @@
 
 	<BackstoryDef>
 		<defName>FCP_Backstory_BoS_Mojave_Child_Archive_Student</defName>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
 		<identifier>FCP_Backstory_BoS_Mojave_Child_Archive_Student</identifier>
 		<slot>Childhood</slot>
 		<title>Archive Student</title>
@@ -479,6 +489,8 @@
 
 	<BackstoryDef>
 		<defName>FCP_Backstory_BoS_Mojave_Child_Security_Ward</defName>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
 		<identifier>FCP_Backstory_BoS_Mojave_Child_Security_Ward</identifier>
 		<slot>Childhood</slot>
 		<title>Security Ward</title>
@@ -501,6 +513,8 @@
 
 	<BackstoryDef>
 		<defName>FCP_Backstory_BoS_Mojave_Child_Hydroponics_Helper</defName>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
 		<identifier>FCP_Backstory_BoS_Mojave_Child_Hydroponics_Helper</identifier>
 		<slot>Childhood</slot>
 		<title>Hydroponics Helper</title>
@@ -519,6 +533,8 @@
 
 	<BackstoryDef>
 		<defName>FCP_Backstory_BoS_Mojave_Child_Workshop_Assistant</defName>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
 		<identifier>FCP_Backstory_BoS_Mojave_Child_Workshop_Assistant</identifier>
 		<slot>Childhood</slot>
 		<title>Workshop Assistant</title>
@@ -537,6 +553,8 @@
 
 	<BackstoryDef>
 		<defName>FCP_Backstory_BoS_Mojave_Child_Courier_Kid</defName>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
 		<identifier>FCP_Backstory_BoS_Mojave_Child_Courier_Kid</identifier>
 		<slot>Childhood</slot>
 		<title>Message Runner</title>
@@ -555,6 +573,8 @@
 
 	<BackstoryDef>
 		<defName>FCP_Backstory_BoS_Mojave_Child_Library_Ward</defName>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
 		<identifier>FCP_Backstory_BoS_Mojave_Child_Library_Ward</identifier>
 		<slot>Childhood</slot>
 		<title>Library Ward</title>
@@ -573,6 +593,8 @@
 
 	<BackstoryDef>
 		<defName>FCP_Backstory_BoS_Mojave_Child_Wasteland_Dreamer</defName>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
 		<identifier>FCP_Backstory_BoS_Mojave_Child_Wasteland_Dreamer</identifier>
 		<slot>Childhood</slot>
 		<title>Wasteland Dreamer</title>
@@ -591,6 +613,8 @@
 
 	<BackstoryDef>
 		<defName>FCP_Backstory_BoS_Mojave_Child_Equipment_Tender</defName>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
 		<identifier>FCP_Backstory_BoS_Mojave_Child_Equipment_Tender</identifier>
 		<slot>Childhood</slot>
 		<title>Equipment Tender</title>
@@ -610,6 +634,8 @@
 
 	<BackstoryDef>
 		<defName>FCP_Backstory_BoS_Mojave_Child_Scribe_Student</defName>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
 		<identifier>FCP_Backstory_BoS_Mojave_Child_Scribe_Student</identifier>
 		<slot>Childhood</slot>
 		<title>Scribe Student</title>
@@ -628,6 +654,8 @@
 
 	<BackstoryDef>
 		<defName>FCP_Backstory_BoS_Mojave_Child_Isolation_Survivor</defName>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
 		<identifier>FCP_Backstory_BoS_Mojave_Child_Isolation_Survivor</identifier>
 		<slot>Childhood</slot>
 		<title>Isolation Survivor</title>
