@@ -345,6 +345,38 @@
                 <countRange>2~5</countRange>
             </li>
 
+            <!--__ Heavy Weapons __-->
+
+            <li Class="StockGenerator_SingleDef" MayRequire="Rick.FCP.ExplosiveWeapons">
+                <thingDef>FCP_Gun_25MM_Grenade_Launcher</thingDef>
+                <countRange>0~1</countRange>
+            </li>
+
+            <li Class="StockGenerator_SingleDef" MayRequire="Rick.FCP.ExplosiveWeapons">
+                <thingDef>FCP_Gun_Grenade_Machinegun</thingDef>
+                <countRange>0~1</countRange>
+            </li>
+
+            <li Class="StockGenerator_SingleDef" MayRequire="Rick.FCP.ExplosiveWeapons">
+                <thingDef>FCP_Gun_Missile_Launcher</thingDef>
+                <countRange>0~1</countRange>
+            </li>
+
+            <li Class="StockGenerator_SingleDef" MayRequire="Rick.FCP.ExplosiveWeapons">
+                <thingDef>FCP_Gun_Rockwell_Big_Bazooka</thingDef>
+                <countRange>0~1</countRange>
+            </li>
+
+            <li Class="StockGenerator_SingleDef" MayRequire="Rick.FCP.ExplosiveWeapons">
+                <thingDef>FCP_Gun_Fatman</thingDef>
+                <countRange>0~1</countRange>
+            </li>
+
+            <li Class="StockGenerator_SingleDef" MayRequire="Rick.FCP.ExplosiveWeapons">
+                <thingDef>FCP_Gun_Auto_Cannon</thingDef>
+                <countRange>0~1</countRange>
+            </li>
+
             <!--__ Currency __-->
 
             <!-- BoS Scrips -->
