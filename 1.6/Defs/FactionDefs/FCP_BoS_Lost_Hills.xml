@@ -102,17 +102,33 @@
 			</points>
 		</maxPawnCostPerTotalPointsCurve>
 		<pawnGroupMakers>
-			<li>
+			<!-- Combat patrol: Rhombus and his ranking paladins -->
+			<li Class="FCP.Core.GroupMakerWithCustomChar">
 				<kindDef>Combat</kindDef>
 				<options>
 					<FCP_Pawnkind_BoS_Lost_Hills_Paladin>8</FCP_Pawnkind_BoS_Lost_Hills_Paladin>
 				</options>
+				<characterDefs>
+					<li>FCP_Character_Lost_Hills_Head_Paladin_Rhombus</li>
+					<li>FCP_Character_Lost_Hills_Senior_Paladin_Matthew</li>
+					<li>FCP_Character_Lost_Hills_Paladin_Mathia</li>
+					<li>FCP_Character_Lost_Hills_Paladin_Talus</li>
+					<li>FCP_Character_Lost_Hills_Initiate_Michael</li>
+				</characterDefs>
+				<characterChance>0.35</characterChance>
 			</li>
-			<li>
+			<!-- Peaceful envoy: the chapter's scribes and researchers -->
+			<li Class="FCP.Core.GroupMakerWithCustomChar">
 				<kindDef>Peaceful</kindDef>
 				<options>
 					<FCP_Pawnkind_BoS_Lost_Hills_Paladin>8</FCP_Pawnkind_BoS_Lost_Hills_Paladin>
 				</options>
+				<characterDefs>
+					<li>FCP_Character_Lost_Hills_Head_Scribe_Vree</li>
+					<li>FCP_Character_Lost_Hills_Scribe_Cabbot</li>
+					<li>FCP_Character_Lost_Hills_Scribe_Lorraine</li>
+				</characterDefs>
+				<characterChance>0.25</characterChance>
 			</li>
 			<li>
 				<kindDef>Settlement</kindDef>

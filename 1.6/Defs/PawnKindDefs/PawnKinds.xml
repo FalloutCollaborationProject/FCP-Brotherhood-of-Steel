@@ -1147,7 +1147,7 @@
     <!-- Brotherhood Outcast Defender -->
     
     <PawnKindDef ParentName="FCP_BoS_Outcast_PowerArmorBase">
-        <defName>FCP_Pawnkind_BoS_Outcast_Defeneder</defName>
+        <defName>FCP_Pawnkind_BoS_Outcast_Defender</defName>
         <label>Brotherhood Outcast Defender</label>
         <defaultFactionDef>FCP_Faction_BoS_Outcast_Remnants</defaultFactionDef>
         <combatPower>50</combatPower>

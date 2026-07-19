@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <QuestScriptDef MayRequire="Rick.FCP.SuperMutants">
+        <defName>FCP_Quest_BoS_LostHills_Source_Of_Mutation</defName>
+        <rootSelectionWeight>1.0</rootSelectionWeight>
+        <rootMinPoints>100</rootMinPoints>
+        <defaultChallengeRating>2</defaultChallengeRating>
+        <canGiveRoyalFavor>true</canGiveRoyalFavor>
+        <expireDaysRange>6~12</expireDaysRange>
+        <questNameRules>
+            <rulesStrings>
+                <li>questName->The Source of the Mutation</li>
+                <li>questName->Vree's Theory</li>
+                <li>questName->Rhombus's Directive</li>
+                <li>questName->Tracing the FEV</li>
+                <li>questName->What the Vats Made</li>
+            </rulesStrings>
+        </questNameRules>
+        <questDescriptionRules>
+            <rulesStrings>
+                <li>requirements->Requirements: defeat every mutant in the war band. If they break camp and scatter before you arrive, the trail goes cold.</li>
+                <li>questDescription->Head Scribe Vree traced a super mutant war band back to what she believes is a source of their mutation - a vat, a lab, something manufacturing them rather than just breeding in the wild. Head Paladin Rhombus wants it confirmed and the band destroyed before Vree's theory becomes everyone's problem. [asker_nameFull] signed the order.\n\n[requirements]</li>
+                <li>questDescription->[asker_nameFull]: "Head Scribe Vree says these mutants aren't natural - something out there is making more of them. Rhombus wants the band wiped out and whatever Vree finds brought back to Lost Hills intact."\n\n[requirements]</li>
+                <li>questDescription->The Lost Hills Chapter has old, uncomfortable history with vats that turn men into monsters. When Head Paladin Rhombus heard a super mutant band was massing nearby, he didn't hesitate. [asker_nameFull] wants it ended, and Vree wants to know why it started.\n\n[requirements]</li>
+                <li>questDescription->[asker_nameFull] admits Head Scribe Vree has been insufferable since she found evidence of a mutation source nearby. Insufferable or not, she's usually right. Clear the mutant band before it grows into something Lost Hills can't ignore.\n\n[requirements]</li>
+            </rulesStrings>
+        </questDescriptionRules>
+        <root Class="QuestNode_Sequence">
+            <nodes>
+                <li Class="QuestNode_SubScript">
+                    <def>Util_RandomizePointsChallengeRating</def>
+                    <parms>
+                        <pointsFactorTwoStar>1.3</pointsFactorTwoStar>
+                        <pointsFactorThreeStar>1.7</pointsFactorThreeStar>
+                    </parms>
+                </li>
+                <li Class="QuestNode_SubScript">
+                    <def>Util_AdjustPointsForDistantFight</def>
+                </li>
+                <li Class="QuestNode_GetMap" />
+                <li Class="FCP.Core.RadiantQuests.QuestNode_GetFactionFromList">
+                    <storeAs>askerFaction</storeAs>
+                    <factionDefs>
+                        <li>FCP_Faction_BoS_Lost_Hills</li>
+                    </factionDefs>
+                </li>
+                <li Class="FCP.Core.RadiantQuests.QuestNode_GetLeaderOfFaction">
+                    <storeAs>asker</storeAs>
+                    <factionToUse>$askerFaction</factionToUse>
+                </li>
+                <li Class="FCP.Core.RadiantQuests.QuestNode_GetFactionFromList">
+                    <storeAs>enemyFaction</storeAs>
+                    <factionDefs>
+                        <li>FCP_Faction_MastersArmy</li>
+                        <li>FCP_Faction_Vault87</li>
+                    </factionDefs>
+                </li>
+                <li Class="QuestNode_GetSiteTile">
+                    <storeAs>siteTile</storeAs>
+                    <preferCloserTiles>true</preferCloserTiles>
+                </li>
+                <li Class="FCP.Core.RadiantQuests.QuestNode_GetSitePartDefsByTagsAndFaction">
+                    <factionToUse>$enemyFaction</factionToUse>
+                    <storeAs>sitePartDefs</storeAs>
+                    <storeFactionAs>siteFaction</storeFactionAs>
+                    <sitePartsTags>
+                        <li>
+                            <tag>FCP_Site_SuperMutants_War_Camp</tag>
+                        </li>
+                    </sitePartsTags>
+                </li>
+                <li Class="QuestNode_GetDefaultSitePartsParams">
+                    <tile>$siteTile</tile>
+                    <faction>$siteFaction</faction>
+                    <sitePartDefs>$sitePartDefs</sitePartDefs>
+                    <storeSitePartsParamsAs>sitePartsParams</storeSitePartsParamsAs>
+                </li>
+                <li Class="QuestNode_GetSiteThreatPoints">
+                    <storeAs>sitePoints</storeAs>
+                    <sitePartsParams>$sitePartsParams</sitePartsParams>
+                </li>
+                <li Class="QuestNode_SubScript">
+                    <def>Util_GetDefaultRewardValueFromPoints</def>
+                    <parms>
+                        <points>$sitePoints</points>
+                    </parms>
+                </li>
+                <li Class="QuestNode_Multiply">
+                    <value1>$rewardValue</value1>
+                    <value2>1.6</value2>
+                    <storeAs>rewardValue</storeAs>
+                </li>
+                <li Class="QuestNode_SubScript">
+                    <def>Util_GenerateSite</def>
+                    <parms>
+                        <sitePartsParams>$sitePartsParams</sitePartsParams>
+                        <hiddenSitePartsPossible>true</hiddenSitePartsPossible>
+                    </parms>
+                </li>
+                <li Class="QuestNode_SpawnWorldObjects">
+                    <worldObjects>$site</worldObjects>
+                    <defsToExcludeFromHyperlinks>Human</defsToExcludeFromHyperlinks>
+                </li>
+                <li Class="QuestNode_Signal">
+                    <inSignal>site.MapGenerated</inSignal>
+                    <node Class="QuestNode_Sequence">
+                        <nodes>
+                            <li Class="FCP.Core.RadiantQuests.QuestNode_GeneratePawns">
+                                <storeAs>mutants</storeAs>
+                                <faction>$siteFaction</faction>
+                                <pawnGroupKind>Combat</pawnGroupKind>
+                                <pointsToUse>$sitePoints</pointsToUse>
+                            </li>
+                            <li Class="FCP.Core.RadiantQuests.QuestNode_SpawnRaiders">
+                                <inSignal>site.MapGenerated</inSignal>
+                                <spawnOnEdge>false</spawnOnEdge>
+                                <pawns>$mutants</pawns>
+                                <radius>20</radius>
+                            </li>
+                        </nodes>
+                    </node>
+                </li>
+                <li Class="QuestNode_WorldObjectTimeout">
+                    <worldObject>$site</worldObject>
+                    <isQuestTimeout>true</isQuestTimeout>
+                    <delayTicks>$(randInt(10,20)*60000)</delayTicks>
+                    <inSignalDisable>site.MapGenerated</inSignalDisable>
+                    <node Class="QuestNode_Sequence">
+                        <nodes>
+                            <li Class="QuestNode_Letter">
+                                <label>Trail gone cold</label>
+                                <text>The mutant band moved on before it could be cleared. Vree's theory stays a theory, and Rhombus is not pleased.</text>
+                            </li>
+                            <li Class="QuestNode_End">
+                                <outcome>Fail</outcome>
+                                <goodwillChangeAmount>-5</goodwillChangeAmount>
+                                <goodwillChangeFactionOf>$asker</goodwillChangeFactionOf>
+                            </li>
+                        </nodes>
+                    </node>
+                </li>
+                <li Class="QuestNode_Signal">
+                    <inSignal>site.AllEnemiesDefeated</inSignal>
+                    <node Class="QuestNode_Sequence">
+                        <nodes>
+                            <li Class="QuestNode_Letter">
+                                <letterDef>PositiveEvent</letterDef>
+                                <label>Band destroyed</label>
+                                <text>The mutant band is dead. Whatever Vree wanted to learn from the wreckage, she'll get her chance now - and Lost Hills owes you for it.</text>
+                            </li>
+                            <li Class="QuestNode_GiveRewards">
+                                <parms>
+                                    <allowGoodwill>true</allowGoodwill>
+                                    <allowRoyalFavor>true</allowRoyalFavor>
+                                    <chosenPawnSignal>ChosenPawnForReward</chosenPawnSignal>
+                                </parms>
+                                <addCampLootReward>true</addCampLootReward>
+                                <customLetterLabel>Payment from Lost Hills</customLetterLabel>
+                                <customLetterText>Head Paladin Rhombus sends payment, along with a terse note that Head Scribe Vree already wants to send you back out for a follow-up.</customLetterText>
+                                <nodeIfChosenPawnSignalUsed Class="QuestNode_Letter">
+                                    <letterDef>ChoosePawn</letterDef>
+                                    <label TKey="LetterLabelFavorReceiver">[asker_faction_royalFavorLabel]</label>
+                                    <text TKey="LetterTextFavorReceiver">These colonists participated in the victory for the quest [resolvedQuestName]. [asker_definite] wants to know who should receive the [royalFavorReward_amount] [asker_faction_royalFavorLabel] for this service.</text>
+                                    <useColonistsOnMap>$site</useColonistsOnMap>
+                                    <chosenPawnSignal>ChosenPawnForReward</chosenPawnSignal>
+                                </nodeIfChosenPawnSignalUsed>
+                            </li>
+                            <li Class="QuestNode_End">
+                                <outcome>Success</outcome>
+                            </li>
+                        </nodes>
+                    </node>
+                </li>
+                <li Class="QuestNode_Signal">
+                    <inSignal>site.Destroyed</inSignal>
+                    <node Class="QuestNode_Sequence">
+                        <nodes>
+                            <li Class="QuestNode_Letter">
+                                <label>Camp lost</label>
+                                <text>Without action in time, the mutant band scattered and the trail went cold.</text>
+                            </li>
+                            <li Class="QuestNode_End">
+                                <outcome>Fail</outcome>
+                                <goodwillChangeAmount>-5</goodwillChangeAmount>
+                                <goodwillChangeFactionOf>$asker</goodwillChangeFactionOf>
+                            </li>
+                        </nodes>
+                    </node>
+                </li>
+            </nodes>
+        </root>
+    </QuestScriptDef>
+
+</Defs>

@@ -8,7 +8,7 @@
 	<FactionDef ParentName="FactionBase">
 		<defName>FCP_Faction_BoS_Lyons_Pride_Remnants</defName>
 		<label>Lyons' Pride Remnants</label>
-		<description>The Lyons' Pride remnants are a faction of disciplined and technologically advanced warriors, striving to preserve the ideals of their late leader, Elder Lyons. Once a proud and unified chapter, they now operate as a fragmented yet determined group, clinging to their mission of protecting humanity and safeguarding advanced technology. Though their numbers have dwindled, their resolve remains unshaken, and they continue to uphold their code of honor amidst the chaos of the wasteland. Their advanced weaponry, power armor, and tactical expertise make them a formidable force, whether as allies or adversaries.</description>
+		<description>The Lyons' Pride remnants are a faction of disciplined and technologically advanced warriors, striving to uphold the ideals of their aging leader, Elder Lyons, who still carries on the cause he has championed for decades. Once a proud and unified chapter, they now operate as a fragmented yet determined group, clinging to their mission of protecting humanity and safeguarding advanced technology. Though their numbers have dwindled, their resolve remains unshaken, and they continue to uphold their code of honor amidst the chaos of the wasteland. Their advanced weaponry, power armor, and tactical expertise make them a formidable force, whether as allies or adversaries.</description>
 		<royalTitleTags>
 			<li>FCP_Title_Lyons_Pride</li>
 		</royalTitleTags>
@@ -113,7 +113,21 @@
 			</points>
 		</maxPawnCostPerTotalPointsCurve>
 		<pawnGroupMakers>
-			<li>
+			<!-- Elder Lyons' personal escort: his daughter Sarah and his bodyguard Cross, the Pride's finest -->
+			<li Class="FCP.Core.GroupMakerWithCustomChar">
+				<kindDef>Combat</kindDef>
+				<options>
+					<FCP_Pawnkind_Lyons_Pride_Star_Paladin>2</FCP_Pawnkind_Lyons_Pride_Star_Paladin>
+					<FCP_Pawnkind_Lyons_Pride_Paladin>2</FCP_Pawnkind_Lyons_Pride_Paladin>
+				</options>
+				<characterDefs>
+					<li>FCP_Character_Lyons_Elder_Owyn_Lyons</li>
+					<li>FCP_Character_Lyons_Sentinel_Sarah_Lyons</li>
+					<li>FCP_Character_Lyons_Star_Paladin_Cross</li>
+				</characterDefs>
+				<characterChance>0.18</characterChance>
+			</li>
+			<li Class="FCP.Core.GroupMakerWithCustomChar">
 				<!-- Normal fights, standard mix -->
 				<kindDef>Combat</kindDef>
 				<options>
@@ -122,8 +136,16 @@
 					<FCP_Pawnkind_Lyons_Pride_Star_Paladin>1</FCP_Pawnkind_Lyons_Pride_Star_Paladin>
 					<FCP_Pawnkind_BoS_Elder>1</FCP_Pawnkind_BoS_Elder>
 				</options>
+				<characterDefs>
+					<li>FCP_Character_Lyons_Paladin_Gunny</li>
+					<li>FCP_Character_Lyons_Paladin_Glade</li>
+					<li>FCP_Character_Lyons_Paladin_Kodiak</li>
+					<li>FCP_Character_Lyons_Knight_Captain_Gallows</li>
+					<li>FCP_Character_Lyons_Knight_Captain_Dusk</li>
+				</characterDefs>
+				<characterChance>0.35</characterChance>
 			</li>
-			<li>
+			<li Class="FCP.Core.GroupMakerWithCustomChar">
 				<kindDef>Peaceful</kindDef>
 				<options>
 					<FCP_Pawnkind_Lyons_Pride_Knight>2</FCP_Pawnkind_Lyons_Pride_Knight>
@@ -131,6 +153,10 @@
 					<FCP_Pawnkind_Lyons_Pride_Star_Paladin>1</FCP_Pawnkind_Lyons_Pride_Star_Paladin>
 					<FCP_Pawnkind_BoS_Elder>1</FCP_Pawnkind_BoS_Elder>
 				</options>
+				<characterDefs>
+					<li>FCP_Character_Lyons_Scribe_Rothchild</li>
+				</characterDefs>
+				<characterChance>0.25</characterChance>
 			</li>
 			<li>
 				<kindDef>Trader</kindDef>

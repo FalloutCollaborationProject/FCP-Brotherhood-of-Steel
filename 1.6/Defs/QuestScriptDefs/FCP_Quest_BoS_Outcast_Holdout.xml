@@ -19,11 +19,12 @@
         </questNameRules>
         <questDescriptionRules>
             <rulesStrings>
-                <li>questDescription->A squad of Outcasts dug in nearby, sitting on tech they should've handed over to the Brotherhood years ago. [asker_nameFull] would rather bring them back in line, but won't lose sleep either way.</li>
-                <li>questDescription->[asker_nameFull]: "Outcasts broke their oaths the day they walked out on the Codex. Now they're camped close enough to be our problem again. Handle it."</li>
-                <li>questDescription->The elders found a band of Outcasts squatting on Brotherhood ground. [asker_nameFull] figures letting them stay there sends the wrong message to every chapter watching.</li>
-                <li>questDescription->Outcast renegades turned up nearby, armed and not looking to talk. [asker_nameFull] doesn't need a lecture on old grudges to know how this ends.</li>
-                <li>questDescription->Outcast scavengers are hoarding tech that belongs to the Brotherhood by rights. [asker_nameFull] wants their camp cleared and the salvage brought home.</li>
+                <li>requirements->Requirements: defeat every Outcast at the holdout. If they abandon the position before you arrive, there's nothing left to clear.</li>
+                <li>questDescription->A squad of Outcasts dug in nearby, sitting on tech they should've handed over to the Brotherhood years ago. [asker_nameFull] would rather bring them back in line, but won't lose sleep either way.\n\n[requirements]</li>
+                <li>questDescription->[asker_nameFull]: "Outcasts broke their oaths the day they walked out on the Codex. Now they're camped close enough to be our problem again. Handle it."\n\n[requirements]</li>
+                <li>questDescription->The elders found a band of Outcasts squatting on Brotherhood ground. [asker_nameFull] figures letting them stay there sends the wrong message to every chapter watching.\n\n[requirements]</li>
+                <li>questDescription->Outcast renegades turned up nearby, armed and not looking to talk. [asker_nameFull] doesn't need a lecture on old grudges to know how this ends.\n\n[requirements]</li>
+                <li>questDescription->Outcast scavengers are hoarding tech that belongs to the Brotherhood by rights. [asker_nameFull] wants their camp cleared and the salvage brought home.\n\n[requirements]</li>
             </rulesStrings>
         </questDescriptionRules>
         <root Class="QuestNode_Sequence">

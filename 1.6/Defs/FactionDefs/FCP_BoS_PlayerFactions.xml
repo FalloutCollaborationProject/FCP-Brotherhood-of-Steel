@@ -88,7 +88,7 @@
         <isPlayer>true</isPlayer>
         <classicIdeo>true</classicIdeo>
         <techLevel>Industrial</techLevel>
-        <basicMemberKind>FCP_Pawnkind_BoS_Outcast_Defeneder</basicMemberKind>
+        <basicMemberKind>FCP_Pawnkind_BoS_Outcast_Defender</basicMemberKind>
         <pawnSingular>Outcast</pawnSingular>
         <pawnsPlural>Outcasts</pawnsPlural>
         <leaderTitle>Protector</leaderTitle>

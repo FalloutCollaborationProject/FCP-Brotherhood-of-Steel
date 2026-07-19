@@ -8,7 +8,7 @@
 	<FactionDef ParentName="FactionBase">
 		<defName>FCP_Faction_BoS_Outcast_Remnants</defName>
 		<label>Brotherhood Outcasts</label>
-		<description>The Outcast Remnants are a hardened splinter group of the Brotherhood of Steel, formed by those who rejected the Brotherhood's changing ideals and chose to uphold the original mission: the recovery and preservation of advanced technology at any cost. Isolated from their former brothers, the Outcasts are fiercely independent, pragmatic, and often distrustful of outsiders. Their camps are fortified, their patrols relentless, and their loyalty to their cause unwavering. Though their numbers are few, their discipline, technical expertise, and mastery of power armor make them a formidable force in the wasteland.</description>
+		<description>The Outcast Remnants are a hardened splinter group of the Brotherhood of Steel, formed by those who broke from Elder Lyons when he redirected the chapter's mission from hoarding and preserving technology toward the humanitarian defense of Capital Wasteland civilians. Branding this shift a betrayal of the Brotherhood's founding purpose - the preservation of advanced technology above all else - they left to uphold the original doctrine: the recovery and safeguarding of technology at any cost. Isolated from their former brothers, the Outcasts are fiercely independent, pragmatic, and often distrustful of outsiders. Their camps are fortified, their patrols relentless, and their loyalty to their cause unwavering. Though their numbers are few, their discipline, technical expertise, and mastery of power armor make them a formidable force in the wasteland.</description>
 		<royalTitleTags>
 			<li>FCP_Title_Outcast</li>
 		</royalTitleTags>
@@ -114,21 +114,31 @@
 			</points>
 		</maxPawnCostPerTotalPointsCurve>
 		<pawnGroupMakers>
-			<li>
-				<!-- Normal fights, standard mix -->
+			<li Class="FCP.Core.GroupMakerWithCustomChar">
+				<!-- Normal fights, standard mix - Casdin leads his hardliner protectors and defenders -->
 				<kindDef>Combat</kindDef>
 				<options>
-					<FCP_Pawnkind_BoS_Outcast_Defeneder>5</FCP_Pawnkind_BoS_Outcast_Defeneder>
+					<FCP_Pawnkind_BoS_Outcast_Defender>5</FCP_Pawnkind_BoS_Outcast_Defender>
 					<FCP_Pawnkind_BoS_Outcast_Protector>1</FCP_Pawnkind_BoS_Outcast_Protector>
 				</options>
+				<characterDefs>
+					<li>FCP_Character_Outcast_Protector_Casdin</li>
+					<li>FCP_Character_Outcast_Protector_McGraw</li>
+					<li>FCP_Character_Outcast_Defender_Sibley</li>
+				</characterDefs>
+				<characterChance>0.30</characterChance>
 			</li>
-			<li>
+			<li Class="FCP.Core.GroupMakerWithCustomChar">
 				<kindDef>Peaceful</kindDef>
 				<options>
 					<FCP_Pawnkind_BoS_Outcast_Specialist>7</FCP_Pawnkind_BoS_Outcast_Specialist>
-					<FCP_Pawnkind_BoS_Outcast_Defeneder>3</FCP_Pawnkind_BoS_Outcast_Defeneder>
+					<FCP_Pawnkind_BoS_Outcast_Defender>3</FCP_Pawnkind_BoS_Outcast_Defender>
 					<FCP_Pawnkind_BoS_Outcast_Protector>1</FCP_Pawnkind_BoS_Outcast_Protector>
 				</options>
+				<characterDefs>
+					<li>FCP_Character_Outcast_Specialist_Olin</li>
+				</characterDefs>
+				<characterChance>0.25</characterChance>
 			</li>
 			<li>
 				<kindDef>Trader</kindDef>
@@ -140,7 +150,7 @@
 				</carriers>
 				<guards>
 					<FCP_Pawnkind_BoS_Outcast_Specialist>7</FCP_Pawnkind_BoS_Outcast_Specialist>
-					<FCP_Pawnkind_BoS_Outcast_Defeneder>3</FCP_Pawnkind_BoS_Outcast_Defeneder>
+					<FCP_Pawnkind_BoS_Outcast_Defender>3</FCP_Pawnkind_BoS_Outcast_Defender>
 					<FCP_Pawnkind_BoS_Outcast_Protector>1</FCP_Pawnkind_BoS_Outcast_Protector>
 				</guards>
 			</li>
@@ -148,7 +158,7 @@
 				<kindDef>Settlement</kindDef>
 				<options>
 					<FCP_Pawnkind_BoS_Outcast_Specialist>7</FCP_Pawnkind_BoS_Outcast_Specialist>
-					<FCP_Pawnkind_BoS_Outcast_Defeneder>3</FCP_Pawnkind_BoS_Outcast_Defeneder>
+					<FCP_Pawnkind_BoS_Outcast_Defender>3</FCP_Pawnkind_BoS_Outcast_Defender>
 					<FCP_Pawnkind_BoS_Outcast_Protector>1</FCP_Pawnkind_BoS_Outcast_Protector>
 				</options>
 			</li>

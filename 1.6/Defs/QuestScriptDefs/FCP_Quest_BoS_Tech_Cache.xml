@@ -19,10 +19,11 @@
         </questNameRules>
         <questDescriptionRules>
             <rulesStrings>
-                <li>questDescription->A Brotherhood extraction team pulled a pre-war cache out of the ground and now they're pinned down while hostiles close in. [asker_nameFull] wants that tech - and those scribes - out alive.</li>
-                <li>questDescription->[asker_nameFull]: "Our people found something worth having, and now they're about to lose it along with their lives. Get to the dig site before it's overrun."</li>
-                <li>questDescription->A recovery team is holding a cache site against incoming hostiles. [asker_nameFull] says the Brotherhood doesn't abandon a find this valuable, or the people who found it.</li>
-                <li>questDescription->Word from [asker_nameFull]: a tech recovery is going bad. The team's dug in, but they won't last without reinforcement. Move now.</li>
+                <li>requirements->Requirements: keep at least one member of the extraction team alive until the attack ends. If they're all killed, the recovery is a failure.</li>
+                <li>questDescription->A Brotherhood extraction team pulled a pre-war cache out of the ground and now they're pinned down while hostiles close in. [asker_nameFull] wants that tech - and those scribes - out alive.\n\n[requirements]</li>
+                <li>questDescription->[asker_nameFull]: "Our people found something worth having, and now they're about to lose it along with their lives. Get to the dig site before it's overrun."\n\n[requirements]</li>
+                <li>questDescription->A recovery team is holding a cache site against incoming hostiles. [asker_nameFull] says the Brotherhood doesn't abandon a find this valuable, or the people who found it.\n\n[requirements]</li>
+                <li>questDescription->Word from [asker_nameFull]: a tech recovery is going bad. The team's dug in, but they won't last without reinforcement. Move now.\n\n[requirements]</li>
             </rulesStrings>
         </questDescriptionRules>
         <root Class="QuestNode_Sequence">
