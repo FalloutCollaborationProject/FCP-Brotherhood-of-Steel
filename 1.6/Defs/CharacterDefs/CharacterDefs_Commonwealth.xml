@@ -38,39 +38,6 @@
         </definitions>
     </FCP.Core.CharacterDef>
 
-    <!-- Paladin Danse -->
-
-    <FCP.Core.CharacterDef>
-        <defName>FCP_Character_BoS_Paladin_Danse</defName>
-        <pawnKind>FCP_Unique_Pawnkind_Paladin_Danse</pawnKind>
-        <xenotype>Baseliner</xenotype>
-        <faction>FCP_Faction_BoS</faction>
-        <roles>
-            <li Class="FCP.Core.CharacterRole_FactionLeader">
-                <seniority>999</seniority>
-            </li>
-        </roles>
-        <definitions>
-            <!-- Bio -->
-            <li Class="FCP.Core.CharacterStoryDefinition">
-                <firstName />
-                <lastName>Danse</lastName>
-                <nickname>Paladin Danse</nickname>
-                <gender>Male</gender>
-                <age>32</age>
-            </li>
-            <!-- Appearance -->
-            <li Class="FCP.Core.CharacterAppearanceDefinition">
-                <hairColor>(70, 60, 50)</hairColor>
-                <hairDef>FCP_Hair_Pompadour</hairDef>
-                <beardDef>NoBeard</beardDef>
-                <skinColorOverride>(185, 160, 135)</skinColorOverride>
-                <headTypeDef>Male_AverageNormal</headTypeDef>
-                <bodyTypeDef>Male</bodyTypeDef>
-            </li>
-        </definitions>
-    </FCP.Core.CharacterDef>
-
     <!-- Scribe Haylen -->
 
     <FCP.Core.CharacterDef>

@@ -43,6 +43,11 @@
                 <li Class="FCP.Core.Shuttles.ScenPart_PlayerPawnsArriveInShuttle">
                     <def>FCP_PlayerPawnsArriveInShuttle</def>
                 </li>
+                <li Class="FCP.Enlist.ScenPart_StartEnlisted">
+                    <def>FCP_StartEnlisted</def>
+                    <factionDef>FCP_Faction_BoS</factionDef>
+                    <enlistOptionsDef>FCP_Enlistment_BoS</enlistOptionsDef>
+                </li>
                 <!-- Map generation -->
                 <li Class="ScenPart_CreateIncident">
                     <def>CreateIncident</def>
@@ -160,6 +165,11 @@
                 <li Class="FCP.Core.Shuttles.ScenPart_PlayerPawnsArriveInShuttle">
                     <def>FCP_PlayerPawnsArriveInShuttle</def>
                 </li>
+                <li Class="FCP.Enlist.ScenPart_StartEnlisted">
+                    <def>FCP_StartEnlisted</def>
+                    <factionDef>FCP_Faction_BoS_Lyons_Pride_Remnants</factionDef>
+                    <enlistOptionsDef>FCP_Enlistment_BoS</enlistOptionsDef>
+                </li>
                 <!-- Map generation -->
                 <li Class="ScenPart_CreateIncident">
                     <def>CreateIncident</def>
@@ -232,11 +242,33 @@
                 <li Class="FCP.Core.Shuttles.ScenPart_PlayerPawnsArriveInShuttle">
                     <def>FCP_PlayerPawnsArriveInShuttle</def>
                 </li>
+                <li Class="FCP.Enlist.ScenPart_StartEnlisted">
+                    <def>FCP_StartEnlisted</def>
+                    <factionDef>FCP_Faction_BoS_Outcast_Remnants</factionDef>
+                    <enlistOptionsDef>FCP_Enlistment_BoS</enlistOptionsDef>
+                </li>
                 <!-- Configure pawns -->
-                <li Class="ScenPart_ConfigPage_ConfigureStartingPawns">
-                    <def>ConfigPage_ConfigureStartingPawns</def>
-                    <pawnCount>3</pawnCount>
+                <li Class="ScenPart_ConfigPage_ConfigureStartingPawns_KindDefs">
+                    <def>ConfigurePawnsKindDefs</def>
                     <pawnChoiceCount>8</pawnChoiceCount>
+                    <leftBehindPawnKind>FCP_Pawnkind_BoS_Outcast_Defender</leftBehindPawnKind>
+                    <kindCounts>
+                        <li>
+                            <kindDef>FCP_Pawnkind_BoS_Outcast_Protector</kindDef>
+                            <count>1</count>
+                            <requiredAtStart>true</requiredAtStart>
+                        </li>
+                        <li>
+                            <kindDef>FCP_Pawnkind_BoS_Outcast_Defender</kindDef>
+                            <count>2</count>
+                            <requiredAtStart>false</requiredAtStart>
+                        </li>
+                        <li>
+                            <kindDef>FCP_Pawnkind_BoS_Outcast_Recon_Specialist</kindDef>
+                            <count>1</count>
+                            <requiredAtStart>false</requiredAtStart>
+                        </li>
+                    </kindCounts>
                 </li>
                 <!-- All pawns have trait issues with social -->
                 <li Class="ScenPart_ForcedTrait">
@@ -331,11 +363,33 @@
                 <li Class="FCP.Core.Shuttles.ScenPart_PlayerPawnsArriveInShuttle">
                     <def>FCP_PlayerPawnsArriveInShuttle</def>
                 </li>
+                <li Class="FCP.Enlist.ScenPart_StartEnlisted">
+                    <def>FCP_StartEnlisted</def>
+                    <factionDef>FCP_Faction_BoS</factionDef>
+                    <enlistOptionsDef>FCP_Enlistment_BoS</enlistOptionsDef>
+                </li>
                 <!-- Configure pawns -->
-                <li Class="ScenPart_ConfigPage_ConfigureStartingPawns">
-                    <def>ConfigPage_ConfigureStartingPawns</def>
-                    <pawnCount>5</pawnCount>
+                <li Class="ScenPart_ConfigPage_ConfigureStartingPawns_KindDefs">
+                    <def>ConfigurePawnsKindDefs</def>
                     <pawnChoiceCount>10</pawnChoiceCount>
+                    <leftBehindPawnKind>FCP_Pawnkind_BoS_Initiate</leftBehindPawnKind>
+                    <kindCounts>
+                        <li>
+                            <kindDef>FCP_Pawnkind_BoS_Knight_Sergeant</kindDef>
+                            <count>1</count>
+                            <requiredAtStart>true</requiredAtStart>
+                        </li>
+                        <li>
+                            <kindDef>FCP_Pawnkind_BoS_Knight</kindDef>
+                            <count>3</count>
+                            <requiredAtStart>false</requiredAtStart>
+                        </li>
+                        <li>
+                            <kindDef>FCP_Pawnkind_BoS_Field_Scribe</kindDef>
+                            <count>1</count>
+                            <requiredAtStart>false</requiredAtStart>
+                        </li>
+                    </kindCounts>
                 </li>
                 <!-- Some trauma from the past -->
                 <li Class="ScenPart_ForcedTrait">
@@ -430,17 +484,39 @@
                 <li Class="FCP.Core.Shuttles.ScenPart_PlayerPawnsArriveInShuttle">
                     <def>FCP_PlayerPawnsArriveInShuttle</def>
                 </li>
+                <li Class="FCP.Enlist.ScenPart_StartEnlisted">
+                    <def>FCP_StartEnlisted</def>
+                    <factionDef>FCP_Faction_BoS</factionDef>
+                    <enlistOptionsDef>FCP_Enlistment_BoS</enlistOptionsDef>
+                </li>
                 <!-- Map generation -->
                 <li Class="ScenPart_CreateIncident">
                     <def>CreateIncident</def>
                     <incident>RaidEnemy</incident>
                     <intervalDays>35</intervalDays>
                 </li>
-                <!-- Set surface layer -->
-                <li Class="ScenPart_ConfigPage_ConfigureStartingPawns">
-                    <def>ConfigPage_ConfigureStartingPawns</def>
-                    <pawnCount>4</pawnCount>
+                <!-- Configure pawns -->
+                <li Class="ScenPart_ConfigPage_ConfigureStartingPawns_KindDefs">
+                    <def>ConfigurePawnsKindDefs</def>
                     <pawnChoiceCount>8</pawnChoiceCount>
+                    <leftBehindPawnKind>FCP_Pawnkind_BoS_Mojave_Knight</leftBehindPawnKind>
+                    <kindCounts>
+                        <li>
+                            <kindDef>FCP_Pawnkind_BoS_Mojave_Paladin</kindDef>
+                            <count>1</count>
+                            <requiredAtStart>true</requiredAtStart>
+                        </li>
+                        <li>
+                            <kindDef>FCP_Pawnkind_BoS_Mojave_Knight_Player</kindDef>
+                            <count>2</count>
+                            <requiredAtStart>false</requiredAtStart>
+                        </li>
+                        <li>
+                            <kindDef>FCP_Pawnkind_BoS_Mojave_Scribe</kindDef>
+                            <count>1</count>
+                            <requiredAtStart>false</requiredAtStart>
+                        </li>
+                    </kindCounts>
                 </li>
                 <!-- Recon Armor -->
                 <li Class="ScenPart_StartingThing_Defined">
