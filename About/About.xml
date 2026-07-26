@@ -38,6 +38,7 @@
         <li>Rick.FCP.EnergyWeapons</li>
         <li>Rick.FCP.PowerArmor</li>
         <li>Rick.FCP.Wastelanders</li>
+        <li>Rick.FCP.Robotics</li>
     </loadAfter>
 
 </ModMetaData>

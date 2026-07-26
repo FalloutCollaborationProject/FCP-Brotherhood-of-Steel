@@ -120,6 +120,9 @@
 				<options>
 					<FCP_Pawnkind_BoS_Outcast_Defender>5</FCP_Pawnkind_BoS_Outcast_Defender>
 					<FCP_Pawnkind_BoS_Outcast_Protector>1</FCP_Pawnkind_BoS_Outcast_Protector>
+					<FCP_Pawnkind_Protectron MayRequire="Rick.FCP.Robotics">2</FCP_Pawnkind_Protectron>
+					<FCP_Pawnkind_Securitron_Normal MayRequire="Rick.FCP.Robotics">1</FCP_Pawnkind_Securitron_Normal>
+					<FCP_Pawnkind_SentryBot_Minigun MayRequire="Rick.FCP.Robotics">1</FCP_Pawnkind_SentryBot_Minigun>
 				</options>
 				<characterDefs>
 					<li>FCP_Character_Outcast_Protector_Casdin</li>
@@ -134,6 +137,8 @@
 					<FCP_Pawnkind_BoS_Outcast_Specialist>7</FCP_Pawnkind_BoS_Outcast_Specialist>
 					<FCP_Pawnkind_BoS_Outcast_Defender>3</FCP_Pawnkind_BoS_Outcast_Defender>
 					<FCP_Pawnkind_BoS_Outcast_Protector>1</FCP_Pawnkind_BoS_Outcast_Protector>
+					<FCP_Pawnkind_Protectron MayRequire="Rick.FCP.Robotics">2</FCP_Pawnkind_Protectron>
+					<FCP_Pawnkind_Securitron_Normal MayRequire="Rick.FCP.Robotics">1</FCP_Pawnkind_Securitron_Normal>
 				</options>
 				<characterDefs>
 					<li>FCP_Character_Outcast_Specialist_Olin</li>
@@ -160,6 +165,8 @@
 					<FCP_Pawnkind_BoS_Outcast_Specialist>7</FCP_Pawnkind_BoS_Outcast_Specialist>
 					<FCP_Pawnkind_BoS_Outcast_Defender>3</FCP_Pawnkind_BoS_Outcast_Defender>
 					<FCP_Pawnkind_BoS_Outcast_Protector>1</FCP_Pawnkind_BoS_Outcast_Protector>
+					<FCP_Pawnkind_Protectron MayRequire="Rick.FCP.Robotics">2</FCP_Pawnkind_Protectron>
+					<FCP_Pawnkind_Securitron_Normal MayRequire="Rick.FCP.Robotics">1</FCP_Pawnkind_Securitron_Normal>
 				</options>
 			</li>
 		</pawnGroupMakers>
