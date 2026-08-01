@@ -264,6 +264,7 @@
 			</li>
 			<!-- Clusters and biome configuration -->
 			<li Class="FCP.Factions.FactionExtension_SettlementControl">
+				<maxSettlements>4</maxSettlements>
 				<allowedBiomes>
                     <li MayRequire="FIP.Arktos">Arktos_CentralValley</li>
                     <li MayRequire="FIP.Arktos">Arktos_Divide</li>
@@ -282,6 +283,60 @@
 				</allowedBiomes>
 				<clustered>true</clustered>
 				<clusterRadius>30</clusterRadius>
+				<namedSettlements>
+					<!-- Boston Airport -->
+					<li>
+						<name>Boston Airport</name>
+						<traders>
+							<li>
+								<traderName>Teagan's Requisitions</traderName>
+								<traderKind>FCP_Trader_BostonAirport_TeagansRequisitions</traderKind>
+							</li>
+							<li>
+								<traderName>Ingram's Motor Pool</traderName>
+								<traderKind>FCP_Trader_BostonAirport_IngramsMotorPool</traderKind>
+							</li>
+							<li>
+								<traderName>Quinlan's Archive</traderName>
+								<traderKind>FCP_Trader_BostonAirport_QuinlansArchive</traderKind>
+							</li>
+						</traders>
+					</li>
+					<!-- Cambridge Police Station -->
+					<li>
+						<name>Cambridge Police Station</name>
+						<traders>
+							<li>
+								<traderName>Rhys' Armory</traderName>
+								<traderKind>FCP_Trader_Cambridge_RhysArmory</traderKind>
+							</li>
+							<li>
+								<traderName>Haylen's Field Clinic</traderName>
+								<traderKind>FCP_Trader_Cambridge_HaylensFieldClinic</traderKind>
+							</li>
+						</traders>
+					</li>
+					<!-- Listening Post Bravo -->
+					<li>
+						<name>Listening Post Bravo</name>
+						<traders>
+							<li>
+								<traderName>Brandis' Signal Depot</traderName>
+								<traderKind>FCP_Trader_ListeningPostBravo_BrandisSignalDepot</traderKind>
+							</li>
+						</traders>
+					</li>
+					<!-- Fort Strong -->
+					<li>
+						<name>Fort Strong</name>
+						<traders>
+							<li>
+								<traderName>Fort Strong Ordnance Depot</traderName>
+								<traderKind>FCP_Trader_FortStrong_OrdnanceDepot</traderKind>
+							</li>
+						</traders>
+					</li>
+				</namedSettlements>
 			</li>
 		</modExtensions>
 	</FactionDef>

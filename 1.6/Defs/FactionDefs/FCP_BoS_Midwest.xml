@@ -180,6 +180,7 @@
             </li>
             <!-- Clusters and biome configuration -->
             <li Class="FCP.Factions.FactionExtension_SettlementControl">
+                <maxSettlements>2</maxSettlements>
                 <allowedBiomes>
                     <li MayRequire="FIP.Arktos">Arktos_CentralValley</li>
                     <li MayRequire="FIP.Arktos">Arktos_Divide</li>
@@ -197,6 +198,32 @@
                 </allowedBiomes>
                 <clustered>true</clustered>
                 <clusterRadius>30</clusterRadius>
+                <namedSettlements>
+                    <!-- Chicago -->
+                    <li>
+                        <name>Chicago</name>
+                        <traders>
+                            <li>
+                                <traderName>Barnaky's Armory</traderName>
+                                <traderKind>FCP_Trader_Chicago_BarnakysArmory</traderKind>
+                            </li>
+                            <li>
+                                <traderName>Trent's Archive</traderName>
+                                <traderKind>FCP_Trader_Chicago_TrentsArchive</traderKind>
+                            </li>
+                        </traders>
+                    </li>
+                    <!-- Bunker Alpha -->
+                    <li>
+                        <name>Bunker Alpha</name>
+                        <traders>
+                            <li>
+                                <traderName>Octavius' Quartermaster</traderName>
+                                <traderKind>FCP_Trader_BunkerAlpha_OctaviusQuartermaster</traderKind>
+                            </li>
+                        </traders>
+                    </li>
+                </namedSettlements>
             </li>
                 </modExtensions>
         </FactionDef>

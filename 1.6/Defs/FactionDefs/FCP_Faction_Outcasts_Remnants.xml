@@ -225,6 +225,7 @@
             </li>
 			<!-- Clusters and biome configuration -->
 			<li Class="FCP.Factions.FactionExtension_SettlementControl">
+				<maxSettlements>2</maxSettlements>
 				<allowedBiomes>
                     <li MayRequire="FIP.Arktos">Arktos_CentralValley</li>
                     <li MayRequire="FIP.Arktos">Arktos_Divide</li>
@@ -241,6 +242,32 @@
 				</allowedBiomes>
 				<clustered>true</clustered>
 				<clusterRadius>30</clusterRadius>
+				<namedSettlements>
+					<!-- Fort Independence -->
+					<li>
+						<name>Fort Independence</name>
+						<traders>
+							<li>
+								<traderName>Casdin's Armory</traderName>
+								<traderKind>FCP_Trader_FortIndependence_CasdinsArmory</traderKind>
+							</li>
+							<li>
+								<traderName>Olin's Tech Vault</traderName>
+								<traderKind>FCP_Trader_FortIndependence_OlinsTechVault</traderKind>
+							</li>
+						</traders>
+					</li>
+					<!-- Outcast Outpost -->
+					<li>
+						<name>Outcast Outpost</name>
+						<traders>
+							<li>
+								<traderName>Morrill's Watch</traderName>
+								<traderKind>FCP_Trader_OutcastOutpost_MorrillsWatch</traderKind>
+							</li>
+						</traders>
+					</li>
+				</namedSettlements>
 			</li>
 		</modExtensions>
 	</FactionDef>

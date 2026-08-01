@@ -194,6 +194,7 @@
             </li>
             <!-- Clusters and biome configuration -->
             <li Class="FCP.Factions.FactionExtension_SettlementControl">
+                <maxSettlements>2</maxSettlements>
                 <allowedBiomes>
                     <li MayRequire="FIP.Arktos">Arktos_CentralValley</li>
                     <li MayRequire="FIP.Arktos">Arktos_Divide</li>
@@ -212,6 +213,32 @@
                 </allowedBiomes>
                 <clustered>true</clustered>
                 <clusterRadius>30</clusterRadius>
+                <namedSettlements>
+                    <!-- Lost Hills -->
+                    <li>
+                        <name>Lost Hills</name>
+                        <traders>
+                            <li>
+                                <traderName>Rhombus' Armory</traderName>
+                                <traderKind>FCP_Trader_LostHills_RhombusArmory</traderKind>
+                            </li>
+                            <li>
+                                <traderName>Vree's Archive</traderName>
+                                <traderKind>FCP_Trader_LostHills_VreesArchive</traderKind>
+                            </li>
+                        </traders>
+                    </li>
+                    <!-- San Francisco Brotherhood Outpost -->
+                    <li>
+                        <name>San Francisco Brotherhood Outpost</name>
+                        <traders>
+                            <li>
+                                <traderName>Matthew's Watch</traderName>
+                                <traderKind>FCP_Trader_SFOutpost_MatthewsWatch</traderKind>
+                            </li>
+                        </traders>
+                    </li>
+                </namedSettlements>
             </li>
                 </modExtensions>
         </FactionDef>
