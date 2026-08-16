@@ -3,7 +3,7 @@
 
     <!--__________ Hidden Valley Bunker Entrance __________-->
 
-    <ThingDef ParentName="BuildingBase">
+    <ThingDef ParentName="BuildingBase" MayRequire="Rick.FCPPocketMap">
         <defName>FCP_BoS_HiddenValleyBunker_Entrance</defName>
         <label>Hidden Valley bunker entrance</label>
         <description>A concealed entrance built into the rock face, leading down to the Brotherhood of Steel's Hidden Valley bunker. Heavy blast doors guard the passage to the chapter's underground halls.</description>
@@ -54,7 +54,7 @@
 
     <!--__________ Hidden Valley Bunker Map Generation __________-->
 
-    <GenStepDef>
+    <GenStepDef MayRequire="Rick.FCPPocketMap">
         <defName>FCP_BoS_HiddenValleyBunker_NamedPawns</defName>
         <order>600</order>
         <genStep Class="FCP.BrotherhoodOfSteel.GenStep_HiddenValleyNamedPawns">
@@ -99,7 +99,7 @@
         </genStep>
     </GenStepDef>
 
-    <MapGeneratorDef>
+    <MapGeneratorDef MayRequire="Rick.FCPPocketMap">
         <defName>FCP_BoS_HiddenValleyBunker_MapGen</defName>
         <label>Hidden Valley bunker</label>
         <isUnderground>true</isUnderground>

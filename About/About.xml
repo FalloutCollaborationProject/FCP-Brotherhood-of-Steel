@@ -16,11 +16,6 @@
             <displayName>Odyssey</displayName>
         </li>
         <li>
-            <packageId>Rick.FCPPocketMap</packageId>
-            <displayName>FCP - Pocket Maps</displayName>
-            <downloadUrl>https://github.com/FalloutCollaborationProject/FCP-PocketMaps</downloadUrl>
-        </li>
-        <li>
             <packageId>Rick.FCP.Core.Tools</packageId>
             <displayName>FCP - Tools</displayName>
             <downloadUrl>https://github.com/FalloutCollaborationProject/FCP-Tools</downloadUrl>
@@ -39,11 +34,6 @@
             <packageId>Rick.FCP.Wastelanders</packageId>
             <displayName>FCP - Wastelanders</displayName>
             <downloadUrl>https://github.com/FalloutCollaborationProject/FCP-Wastelanders</downloadUrl>
-        </li>
-        <li>
-            <packageId>Rick.FCP.Furniture</packageId>
-            <displayName>FCP - Furniture</displayName>
-            <downloadUrl>https://github.com/FalloutCollaborationProject/FCP-Furniture</downloadUrl>
         </li>
         <li>
             <packageId>Rick.FCP.Lore</packageId>

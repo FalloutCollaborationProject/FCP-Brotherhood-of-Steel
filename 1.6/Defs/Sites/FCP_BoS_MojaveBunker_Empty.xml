@@ -3,7 +3,7 @@
 
     <!--__________ Mojave Bunker Shell __________-->
 
-    <ThingDef ParentName="BuildingBase" Name="FCP_BoS_MojaveBunker_Entrance_North">
+    <ThingDef ParentName="BuildingBase" Name="FCP_BoS_MojaveBunker_Entrance_North" MayRequire="Rick.FCPPocketMap">
         <defName>FCP_BoS_MojaveBunker_Entrance_North</defName>
         <label>bunker breach (north)</label>
         <description>A collapsed section of a Brotherhood of Steel bunker, breached from above. The passage leads down into an abandoned, stripped-out facility.</description>
@@ -52,13 +52,13 @@
         </modExtensions>
     </ThingDef>
 
-    <ThingDef ParentName="FCP_BoS_MojaveBunker_Entrance_North">
+    <ThingDef ParentName="FCP_BoS_MojaveBunker_Entrance_North" MayRequire="Rick.FCPPocketMap">
         <defName>FCP_BoS_MojaveBunker_Entrance_South</defName>
         <label>bunker breach (south)</label>
         <description>A second breach into the same abandoned Brotherhood of Steel bunker, some distance from the other. The passage leads down into an abandoned, stripped-out facility.</description>
     </ThingDef>
 
-    <FCP.PocketMaps.PocketMapPrefabDef>
+    <FCP.PocketMaps.PocketMapPrefabDef MayRequire="Rick.FCPPocketMap">
         <defName>FCP_BoS_MojaveBunker_Empty</defName>
         <floorDef>FCP_Floor_BunkerStraightGrills</floorDef>
         <size>(22,16)</size>

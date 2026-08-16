@@ -3,7 +3,7 @@
 
     <!--__________ Hidden Valley Bunker - Level 1 __________-->
 
-    <FCP.PocketMaps.PocketMapPrefabDef>
+    <FCP.PocketMaps.PocketMapPrefabDef MayRequire="Rick.FCPPocketMap">
         <defName>FCP_BoS_HiddenValleyBunker_L1</defName>
         <floorDef>FCP_Floor_BunkerStraightGrills</floorDef>
         <size>(77,20)</size>
@@ -185,23 +185,23 @@
                 <position>(2,0,4)</position>
                 <stuff>Steel</stuff>
             </Table2x2c>
-            <FCP_Furniture_Bunker_Chair>
+            <FCP_Furniture_Bunker_Chair MayRequire="Rick.FCP.Furniture">
                 <position>(1,0,3)</position>
                 <relativeRotation>east</relativeRotation>
             </FCP_Furniture_Bunker_Chair>
-            <FCP_Furniture_Bunker_Chair>
+            <FCP_Furniture_Bunker_Chair MayRequire="Rick.FCP.Furniture">
                 <position>(4,0,3)</position>
                 <relativeRotation>west</relativeRotation>
             </FCP_Furniture_Bunker_Chair>
-            <FCP_Furniture_Bunker_Chair>
+            <FCP_Furniture_Bunker_Chair MayRequire="Rick.FCP.Furniture">
                 <position>(1,0,5)</position>
                 <relativeRotation>east</relativeRotation>
             </FCP_Furniture_Bunker_Chair>
-            <FCP_Furniture_Bunker_Chair>
+            <FCP_Furniture_Bunker_Chair MayRequire="Rick.FCP.Furniture">
                 <position>(4,0,5)</position>
                 <relativeRotation>west</relativeRotation>
             </FCP_Furniture_Bunker_Chair>
-            <FCP_Furniture_TV_Small>
+            <FCP_Furniture_TV_Small MayRequire="Rick.FCP.Furniture">
                 <position>(6,0,4)</position>
                 <relativeRotation>west</relativeRotation>
             </FCP_Furniture_TV_Small>
@@ -215,36 +215,36 @@
             </MealSurvivalPack>
 
             <!-- Sleeping quarters 1 -->
-            <FCP_Furniture_Bunker_Bed>
+            <FCP_Furniture_Bunker_Bed MayRequire="Rick.FCP.Furniture">
                 <position>(9,0,2)</position>
             </FCP_Furniture_Bunker_Bed>
-            <FCP_Furniture_Metal_Bunker_Bed_Shelf>
+            <FCP_Furniture_Metal_Bunker_Bed_Shelf MayRequire="Rick.FCP.Furniture">
                 <position>(9,0,4)</position>
             </FCP_Furniture_Metal_Bunker_Bed_Shelf>
-            <FCP_Furniture_Bunker_Bed>
+            <FCP_Furniture_Bunker_Bed MayRequire="Rick.FCP.Furniture">
                 <position>(12,0,2)</position>
             </FCP_Furniture_Bunker_Bed>
-            <FCP_Furniture_Metal_Bunker_Bed_Shelf>
+            <FCP_Furniture_Metal_Bunker_Bed_Shelf MayRequire="Rick.FCP.Furniture">
                 <position>(12,0,4)</position>
             </FCP_Furniture_Metal_Bunker_Bed_Shelf>
-            <FCP_Furniture_Metal_Bunker_Dresser>
+            <FCP_Furniture_Metal_Bunker_Dresser MayRequire="Rick.FCP.Furniture">
                 <position>(10,0,6)</position>
             </FCP_Furniture_Metal_Bunker_Dresser>
 
             <!-- Sleeping quarters 2 -->
-            <FCP_Furniture_Bunker_Bed>
+            <FCP_Furniture_Bunker_Bed MayRequire="Rick.FCP.Furniture">
                 <position>(16,0,2)</position>
             </FCP_Furniture_Bunker_Bed>
-            <FCP_Furniture_Metal_Bunker_Bed_Shelf>
+            <FCP_Furniture_Metal_Bunker_Bed_Shelf MayRequire="Rick.FCP.Furniture">
                 <position>(16,0,4)</position>
             </FCP_Furniture_Metal_Bunker_Bed_Shelf>
-            <FCP_Furniture_Bunker_Bed>
+            <FCP_Furniture_Bunker_Bed MayRequire="Rick.FCP.Furniture">
                 <position>(19,0,2)</position>
             </FCP_Furniture_Bunker_Bed>
-            <FCP_Furniture_Metal_Bunker_Bed_Shelf>
+            <FCP_Furniture_Metal_Bunker_Bed_Shelf MayRequire="Rick.FCP.Furniture">
                 <position>(19,0,4)</position>
             </FCP_Furniture_Metal_Bunker_Bed_Shelf>
-            <FCP_Furniture_Metal_Bunker_Dresser>
+            <FCP_Furniture_Metal_Bunker_Dresser MayRequire="Rick.FCP.Furniture">
                 <position>(17,0,6)</position>
             </FCP_Furniture_Metal_Bunker_Dresser>
 
@@ -252,10 +252,10 @@
             <FCP_Production_Old_Table_Terminal>
                 <position>(23,0,3)</position>
             </FCP_Production_Old_Table_Terminal>
-            <FCP_Furniture_Bunker_Chair>
+            <FCP_Furniture_Bunker_Chair MayRequire="Rick.FCP.Furniture">
                 <position>(23,0,2)</position>
             </FCP_Furniture_Bunker_Chair>
-            <FCP_Turret_Machinegun_MkII>
+            <FCP_Turret_Machinegun_MkII MayRequire="Rick.FCP.Furniture">
                 <position>(24,0,6)</position>
             </FCP_Turret_Machinegun_MkII>
 
@@ -263,7 +263,7 @@
             <FCP_Production_Old_Wall_Terminal>
                 <position>(3,0,18)</position>
             </FCP_Production_Old_Wall_Terminal>
-            <FCP_Furniture_Bunker_Chair>
+            <FCP_Furniture_Bunker_Chair MayRequire="Rick.FCP.Furniture">
                 <position>(3,0,17)</position>
             </FCP_Furniture_Bunker_Chair>
 
@@ -271,15 +271,15 @@
             <FCP_Production_Clean_Wall_Terminal>
                 <position>(10,0,18)</position>
             </FCP_Production_Clean_Wall_Terminal>
-            <FCP_Furniture_Bunker_Chair>
+            <FCP_Furniture_Bunker_Chair MayRequire="Rick.FCP.Furniture">
                 <position>(10,0,17)</position>
             </FCP_Furniture_Bunker_Chair>
 
             <!-- Ramos's office -->
-            <FCP_Furniture_Bunker_Chair>
+            <FCP_Furniture_Bunker_Chair MayRequire="Rick.FCP.Furniture">
                 <position>(17,0,14)</position>
             </FCP_Furniture_Bunker_Chair>
-            <FCP_Furniture_Metal_Bunker_Dresser>
+            <FCP_Furniture_Metal_Bunker_Dresser MayRequire="Rick.FCP.Furniture">
                 <position>(18,0,17)</position>
             </FCP_Furniture_Metal_Bunker_Dresser>
 
@@ -287,15 +287,15 @@
             <FCP_Production_Old_Table_Terminal>
                 <position>(24,0,15)</position>
             </FCP_Production_Old_Table_Terminal>
-            <FCP_Furniture_Bunker_Chair>
+            <FCP_Furniture_Bunker_Chair MayRequire="Rick.FCP.Furniture">
                 <position>(24,0,14)</position>
             </FCP_Furniture_Bunker_Chair>
 
             <!-- Classroom -->
-            <FCP_Furniture_Metal_Bench>
+            <FCP_Furniture_Metal_Bench MayRequire="Rick.FCP.Furniture">
                 <position>(30,0,2)</position>
             </FCP_Furniture_Metal_Bench>
-            <FCP_Furniture_Metal_Bench>
+            <FCP_Furniture_Metal_Bench MayRequire="Rick.FCP.Furniture">
                 <position>(34,0,2)</position>
             </FCP_Furniture_Metal_Bench>
             <FCP_Production_Old_Table_Terminal>
@@ -303,10 +303,10 @@
             </FCP_Production_Old_Table_Terminal>
 
             <!-- Torres's office -->
-            <FCP_Furniture_Bunker_Chair>
+            <FCP_Furniture_Bunker_Chair MayRequire="Rick.FCP.Furniture">
                 <position>(32,0,14)</position>
             </FCP_Furniture_Bunker_Chair>
-            <FCP_Furniture_Metal_Bunker_Dresser>
+            <FCP_Furniture_Metal_Bunker_Dresser MayRequire="Rick.FCP.Furniture">
                 <position>(33,0,17)</position>
             </FCP_Furniture_Metal_Bunker_Dresser>
 
@@ -345,7 +345,7 @@
             <!-- Wing B: armory, workshop, mess, barracks -->
             <!-- ============================================================ -->
 
-            <FCP_Turret_Laser_MkIV>
+            <FCP_Turret_Laser_MkIV MayRequire="Rick.FCP.Furniture">
                 <rects>
                     <li>(46,1,46,1)</li>
                     <li>(62,4,62,4)</li>
@@ -354,7 +354,7 @@
                     <li>(67,10,67,10)</li>
                 </rects>
             </FCP_Turret_Laser_MkIV>
-            <FCP_Turret_Laser_MkI>
+            <FCP_Turret_Laser_MkI MayRequire="Rick.FCP.Furniture">
                 <rects>
                     <li>(41,1,41,1)</li>
                     <li>(41,7,41,7)</li>
@@ -398,10 +398,10 @@
                 <stuff>Steel</stuff>
                 <quality>Normal</quality>
             </Table1x2c>
-            <FCP_Furniture_Medium_Freezer_Buildable>
+            <FCP_Furniture_Medium_Freezer_Buildable MayRequire="Rick.FCP.Furniture">
                 <position>(59, 0, 6)</position>
             </FCP_Furniture_Medium_Freezer_Buildable>
-            <FCP_Furniture_Metal_Bunker_Bed_Shelf>
+            <FCP_Furniture_Metal_Bunker_Bed_Shelf MayRequire="Rick.FCP.Furniture">
                 <rects>
                     <li>(56,14,56,14)</li>
                     <li>(58,14,58,14)</li>
@@ -412,7 +412,7 @@
                 </rects>
                 <relativeRotation>south</relativeRotation>
             </FCP_Furniture_Metal_Bunker_Bed_Shelf>
-            <FCP_Furniture_Metal_Bunker_Bed_Shelf>
+            <FCP_Furniture_Metal_Bunker_Bed_Shelf MayRequire="Rick.FCP.Furniture">
                 <rects>
                     <li>(56,16,56,16)</li>
                     <li>(58,16,58,16)</li>
@@ -422,7 +422,7 @@
                     <li>(67,16,67,16)</li>
                 </rects>
             </FCP_Furniture_Metal_Bunker_Bed_Shelf>
-            <FCP_Furniture_Refrigerator_Buildable>
+            <FCP_Furniture_Refrigerator_Buildable MayRequire="Rick.FCP.Furniture">
                 <rects>
                     <li>(55,7,56,7)</li>
                 </rects>
@@ -637,7 +637,7 @@
             <FCP_Production_Complex_Weapons_Workbench>
                 <position>(49, 0, 17)</position>
             </FCP_Production_Complex_Weapons_Workbench>
-            <FCP_Furniture_Bunker_Bed>
+            <FCP_Furniture_Bunker_Bed MayRequire="Rick.FCP.Furniture">
                 <positions>
                     <li>(56, 0, 12)</li>
                     <li>(58, 0, 12)</li>
@@ -648,7 +648,7 @@
                 </positions>
                 <quality>Normal</quality>
             </FCP_Furniture_Bunker_Bed>
-            <FCP_Furniture_Bunker_Bed>
+            <FCP_Furniture_Bunker_Bed MayRequire="Rick.FCP.Furniture">
                 <positions>
                     <li>(56, 0, 18)</li>
                     <li>(58, 0, 18)</li>
