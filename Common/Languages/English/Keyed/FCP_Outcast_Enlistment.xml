@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<!--__________ Enlistments with Factions Letter Text __________-->
+
+	<!--_____ Brotherhood Outcasts _____-->
+
+	<!-- Enlistment Options -->
+
+	<FCP_Outcast_Enlist_Letter_Title>You have Enlisted into the {FACTION_name}.</FCP_Outcast_Enlist_Letter_Title>
+	<FCP_Outcast_Enlist_Letter_Label>You've been vetted, and the Protector has signed off. Understand this: we don't hand out charity and we don't apologize for what we are. Technology comes first, always. If that doesn't sit right with you, walk away now.\n\nYou'll draw a standard salary every week for you and your team, along with provisions collected at our camps when you're not out in the field. We're few, but we're not soft.\n\n -Ad Victoriam</FCP_Outcast_Enlist_Letter_Label>
+	<FCP_Outcast_Enlist_Button_Label>Enlist into the {FACTION_name}.</FCP_Outcast_Enlist_Button_Label>
+	<FCP_Outcast_Enlist_Button_Desc>Sign a new contract with the {FACTION_name}.</FCP_Outcast_Enlist_Button_Desc>
+	<FCP_Outcast_Enlist_Requrements_Not_Satisfied>You need a minimum of 10 goodwill, currently you have only {0} goodwill.</FCP_Outcast_Enlist_Requrements_Not_Satisfied>
+	<FCP_Outcast_Enlisted_With_Key>Enlisted with: the {FACTION_name}</FCP_Outcast_Enlisted_With_Key>
+
+	<!-- Mission Options -->
+
+	<FCP_Outcast_Missions_Label>Tasks</FCP_Outcast_Missions_Label>
+	<FCP_Outcast_Missions_Desc>Task descriptions</FCP_Outcast_Missions_Desc>
+	<FCP_Outcast_Menu_Missions_Desc>While leaving the camp you ask around about any potential tasks that need doing.</FCP_Outcast_Menu_Missions_Desc>
+	<FCP_Outcast_Menu_Missions_Select_Quest>Select a Task: </FCP_Outcast_Menu_Missions_Select_Quest>
+	<FCP_Outcast_Menu_Missions_Start_Quest>Accept Task</FCP_Outcast_Menu_Missions_Start_Quest>
+	<FCP_Outcast_Menu_Missions_Collect_Bounty>Collect Reward</FCP_Outcast_Menu_Missions_Collect_Bounty>
+	<FCP_Outcast_Not_Enough_Money>Not enough caps</FCP_Outcast_Not_Enough_Money>
+
+	<!-- Salary Options -->
+
+	<FCP_Outcast_Salary_Label>Wages</FCP_Outcast_Salary_Label>
+	<FCP_Outcast_Salary_Desc>You are entitled to collect wages from this faction every 14 days.</FCP_Outcast_Salary_Desc>
+
+	<!-- Provision Options -->
+
+	<FCP_Outcast_Provisions_Label>Provisions</FCP_Outcast_Provisions_Label>
+	<FCP_Outcast_Provisions_Desc>Provisions will arrive via your caravan inventory every 10 days:\n\n- ×5 BoS Food Crate</FCP_Outcast_Provisions_Desc>
+
+	<FCP_Outcast_Provisions_Label_Standard_Issue>Standard Issue</FCP_Outcast_Provisions_Label_Standard_Issue>
+	<FCP_Outcast_Provisions_Desc_Standard_Issue>Outcast standard issue gear will arrive via your caravan inventory every 45 days:\n\n- ×2 BoS Weapon Crate\n- ×2 BoS Tech Resource Crate\n- ×2 Outcast Uniform Crate</FCP_Outcast_Provisions_Desc_Standard_Issue>
+
+	<!-- Storage Options -->
+
+	<FCP_Outcast_Storage_Label>Storage</FCP_Outcast_Storage_Label>
+	<FCP_Outcast_Storage_Desc>Store items from your caravan to your faction stash. Faction stashes transfer across all of the faction's outposts and will save contents even if you are no longer enlisted.</FCP_Outcast_Storage_Desc>
+
+	<!-- Work Options -->
+
+	<FCP_Outcast_Part_Time_Job_Label>Part-Time Job</FCP_Outcast_Part_Time_Job_Label>
+	<FCP_Outcast_Part_Time_Job_Desc>Pull additional duties around camp for $10 an hour.</FCP_Outcast_Part_Time_Job_Desc>
+	<FCP_Outcast_Hospital_Label>Hospital</FCP_Outcast_Hospital_Label>
+	<FCP_Outcast_Hospital_Desc>Check in with the camp's hospital. This service tends to all of your team with industrial medicine. Immunity gain is also increased while your team is in the hospital.</FCP_Outcast_Hospital_Desc>
+	<FCP_Outcast_Defender_Training_Label>Training: Defender training</FCP_Outcast_Defender_Training_Label>
+	<FCP_Outcast_Defender_Training_Desc>Train with the Outcasts' fortified camp defenders, with hourly experience gain on the following skills:\n\n- Shooting, Melee\n\nHourly experience gain stops when this faction is resting at night.</FCP_Outcast_Defender_Training_Desc>
+	<FCP_Outcast_Recon_Training_Label>Training: Recon training</FCP_Outcast_Recon_Training_Label>
+	<FCP_Outcast_Recon_Training_Desc>Train scouting and salvage analysis alongside the Outcasts' Recon Specialists, with hourly experience gain on the following skills:\n\n- Intellectual\n- Shooting\n\nHourly experience gain stops when this faction is resting at night.</FCP_Outcast_Recon_Training_Desc>
+
+	<!-- Bounty Options -->
+
+	<FCP_Outcast_Turn_In_Label>Turn in</FCP_Outcast_Turn_In_Label>
+	<FCP_Outcast_Turn_In_Desc>Turn in war prisoners and high value targets to Outcast camps.\n\n -Turning over any hostile pawns do not result in a slavery debuff-</FCP_Outcast_Turn_In_Desc>
+	<FCP_Outcast_Turn_In_Trader_Name>Camp Warden</FCP_Outcast_Turn_In_Trader_Name>
+
+	<!-- Resign Options -->
+
+	<FCP_Outcast_Resign_Menu_Text>You will resign from the {FACTION_name} effective immediately. (-25 in relations)</FCP_Outcast_Resign_Menu_Text>
+	<FCP_Outcast_Resign_Letter_Title>Resigned</FCP_Outcast_Resign_Letter_Title>
+	<FCP_Outcast_Resign_Letter_Label>Resign</FCP_Outcast_Resign_Letter_Label>
+	<FCP_Outcast_Resign_Button_Label>You have successfully resigned from the {FACTION_name}. (-25 relations)</FCP_Outcast_Resign_Button_Label>
+	<FCP_Outcast_Resign_Button_Desc>Leave this faction.</FCP_Outcast_Resign_Button_Desc>
+	<FCP_Outcast_Enlisted_To_Hostile_Faction>cannot join because you are enlisted with their enemy, {HOSTILEFACTION_name}</FCP_Outcast_Enlisted_To_Hostile_Faction>
+
+	<!-- Kicked Out Options -->
+
+	<FCP_Outcast_Kick_Out_Letter_Title>Kicked out</FCP_Outcast_Kick_Out_Letter_Title>
+	<FCP_Outcast_Kick_Out_Label_Title>An order for your contract's immediate termination from service has been filed by {LEADER_nameDef}. You have been kicked out from the {FACTION_name}.</FCP_Outcast_Kick_Out_Label_Title>
+
+	<!-- Reinforcement Options -->
+
+	<FCP_Outcast_Reinforcements_Button_Label>Reinforcements</FCP_Outcast_Reinforcements_Button_Label>
+	<FCP_Outcast_Reinforcements_Button_Desc>Call for reinforcements from your faction. The number of Defenders and Specialists they send depends on your current relations.</FCP_Outcast_Reinforcements_Button_Desc>
+
+</LanguageData>

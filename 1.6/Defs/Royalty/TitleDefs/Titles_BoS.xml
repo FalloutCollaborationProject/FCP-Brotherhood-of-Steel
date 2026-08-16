@@ -22,6 +22,94 @@
         <permitPointsAwarded>1</permitPointsAwarded>
     </RoyalTitleDef>
 
+    <!-- Squire -->
+
+    <RoyalTitleDef ParentName="FCP_Base_Empire_Titles">
+        <defName>FCP_Title_BoS_Squire</defName>
+        <label>Squire</label>
+        <description>Squires have moved past their first days as Initiates and now shadow full members of the Brotherhood, running errands and learning the trade before they're old enough to choose a path.</description>
+        <tags>
+            <li>FCP_Title_BoS</li>
+        </tags>
+        <seniority>100</seniority>
+        <favorCost>3</favorCost>
+        <changeHeirQuestPoints>1000</changeHeirQuestPoints>
+        <allowDignifiedMeditationFocus>False</allowDignifiedMeditationFocus>
+        <awardWorkerClass>RoyalTitleAwardWorker_Instant</awardWorkerClass>
+        <permitPointsAwarded>1</permitPointsAwarded>
+    </RoyalTitleDef>
+
+    <!-- Aspirant -->
+
+    <RoyalTitleDef ParentName="FCP_Base_Empire_Titles">
+        <defName>FCP_Title_BoS_Aspirant</defName>
+        <label>Aspirant</label>
+        <description>Aspirants stand at the fork in the road every Brotherhood member faces: the sword or the quill. Old enough to choose, they train alongside both Knights and Scribes until they commit to a path.</description>
+        <tags>
+            <li>FCP_Title_BoS</li>
+        </tags>
+        <seniority>200</seniority>
+        <favorCost>5</favorCost>
+        <changeHeirQuestPoints>1000</changeHeirQuestPoints>
+        <allowDignifiedMeditationFocus>False</allowDignifiedMeditationFocus>
+        <awardWorkerClass>RoyalTitleAwardWorker_Instant</awardWorkerClass>
+        <permitPointsAwarded>1</permitPointsAwarded>
+    </RoyalTitleDef>
+
+    <!-- Knight Initiate -->
+
+    <RoyalTitleDef ParentName="FCP_Base_Empire_Titles">
+        <defName>FCP_Title_BoS_Knight_Initiate</defName>
+        <label>Knight Initiate</label>
+        <description>Having chosen the path of the sword, a Knight Initiate drills in power armor operation and combat doctrine, preparing for the day they earn the full rank of Knight.</description>
+        <tags>
+            <li>FCP_Title_BoS</li>
+        </tags>
+        <seniority>250</seniority>
+        <favorCost>7</favorCost>
+        <changeHeirQuestPoints>1000</changeHeirQuestPoints>
+        <allowDignifiedMeditationFocus>True</allowDignifiedMeditationFocus>
+        <awardWorkerClass>RoyalTitleAwardWorker_Instant</awardWorkerClass>
+        <requiredApparel>
+            <li>
+                <bodyPartGroupsMatchAny>
+                    <li>Torso</li>
+                </bodyPartGroupsMatchAny>
+                <requiredTags>
+                    <li>FCP_Power_Armor</li>
+                </requiredTags>
+            </li>
+        </requiredApparel>
+        <permitPointsAwarded>2</permitPointsAwarded>
+    </RoyalTitleDef>
+
+    <!-- Scribe Initiate -->
+
+    <RoyalTitleDef ParentName="FCP_Base_Empire_Titles">
+        <defName>FCP_Title_BoS_Scribe_Initiate</defName>
+        <label>Scribe Initiate</label>
+        <description>Having chosen the path of the quill, a Scribe Initiate is assigned to the archives and workshops, learning to catalog and repair pre-War technology under a full Scribe's supervision.</description>
+        <tags>
+            <li>FCP_Title_BoS</li>
+        </tags>
+        <seniority>250</seniority>
+        <favorCost>7</favorCost>
+        <changeHeirQuestPoints>1000</changeHeirQuestPoints>
+        <allowDignifiedMeditationFocus>True</allowDignifiedMeditationFocus>
+        <awardWorkerClass>RoyalTitleAwardWorker_Instant</awardWorkerClass>
+        <requiredApparel>
+            <li>
+                <bodyPartGroupsMatchAny>
+                    <li>Torso</li>
+                </bodyPartGroupsMatchAny>
+                <requiredTags>
+                    <li>FCP_BoS_Apparel</li>
+                </requiredTags>
+            </li>
+        </requiredApparel>
+        <permitPointsAwarded>2</permitPointsAwarded>
+    </RoyalTitleDef>
+
     <!-- Knight -->
 
     <RoyalTitleDef ParentName="FCP_Base_Empire_Titles">
@@ -78,6 +166,90 @@
         <permitPointsAwarded>2</permitPointsAwarded>
     </RoyalTitleDef>
 
+    <!-- Senior Knight -->
+
+    <RoyalTitleDef ParentName="FCP_Base_Empire_Titles">
+        <defName>FCP_Title_BoS_Senior_Knight</defName>
+        <label>Senior Knight</label>
+        <description>Senior Knights have logged years of field service, earning the trust to lead smaller patrols and mentor the Knights beneath them.</description>
+        <tags>
+            <li>FCP_Title_BoS</li>
+        </tags>
+        <seniority>400</seniority>
+        <favorCost>9</favorCost>
+        <changeHeirQuestPoints>1000</changeHeirQuestPoints>
+        <commonality>1</commonality>
+        <allowDignifiedMeditationFocus>True</allowDignifiedMeditationFocus>
+        <awardWorkerClass>RoyalTitleAwardWorker_Instant</awardWorkerClass>
+        <requiredApparel>
+            <li>
+                <bodyPartGroupsMatchAny>
+                    <li>Torso</li>
+                </bodyPartGroupsMatchAny>
+                <requiredTags>
+                    <li>FCP_Power_Armor</li>
+                </requiredTags>
+            </li>
+        </requiredApparel>
+        <permitPointsAwarded>2</permitPointsAwarded>
+    </RoyalTitleDef>
+
+    <!-- Senior Scribe -->
+
+    <RoyalTitleDef ParentName="FCP_Base_Empire_Titles">
+        <defName>FCP_Title_BoS_Senior_Scribe</defName>
+        <label>Senior Scribe</label>
+        <description>Senior Scribes have succeeded on projects of real consequence, taking on a mix of research leadership and hands-on Science and Technology work.</description>
+        <tags>
+            <li>FCP_Title_BoS</li>
+        </tags>
+        <seniority>500</seniority>
+        <favorCost>10</favorCost>
+        <changeHeirQuestPoints>1000</changeHeirQuestPoints>
+        <commonality>1</commonality>
+        <allowDignifiedMeditationFocus>True</allowDignifiedMeditationFocus>
+        <awardWorkerClass>RoyalTitleAwardWorker_Instant</awardWorkerClass>
+        <requiredApparel>
+            <li>
+                <bodyPartGroupsMatchAny>
+                    <li>Torso</li>
+                </bodyPartGroupsMatchAny>
+                <requiredTags>
+                    <li>FCP_BoS_Apparel</li>
+                </requiredTags>
+            </li>
+        </requiredApparel>
+        <permitPointsAwarded>2</permitPointsAwarded>
+    </RoyalTitleDef>
+
+    <!-- Knight Commander -->
+
+    <RoyalTitleDef ParentName="FCP_Base_Empire_Titles">
+        <defName>FCP_Title_BoS_Knight_Commander</defName>
+        <label>Knight Commander</label>
+        <description>Knight Commanders answer for entire squads in the field, the last rank before a Knight is trusted with the title of Paladin.</description>
+        <tags>
+            <li>FCP_Title_BoS</li>
+        </tags>
+        <seniority>500</seniority>
+        <favorCost>10</favorCost>
+        <changeHeirQuestPoints>1000</changeHeirQuestPoints>
+        <commonality>1</commonality>
+        <allowDignifiedMeditationFocus>True</allowDignifiedMeditationFocus>
+        <awardWorkerClass>RoyalTitleAwardWorker_Instant</awardWorkerClass>
+        <requiredApparel>
+            <li>
+                <bodyPartGroupsMatchAny>
+                    <li>Torso</li>
+                </bodyPartGroupsMatchAny>
+                <requiredTags>
+                    <li>FCP_Power_Armor</li>
+                </requiredTags>
+            </li>
+        </requiredApparel>
+        <permitPointsAwarded>2</permitPointsAwarded>
+    </RoyalTitleDef>
+
     <!-- Paladin -->
 
     <RoyalTitleDef ParentName="FCP_Base_Empire_Titles">
@@ -106,6 +278,174 @@
         <permitPointsAwarded>3</permitPointsAwarded>
     </RoyalTitleDef>
 
+    <!-- Senior Paladin -->
+
+    <RoyalTitleDef ParentName="FCP_Base_Empire_Titles">
+        <defName>FCP_Title_BoS_Senior_Paladin</defName>
+        <label>Senior Paladin</label>
+        <description>Senior Paladins have led enough operations to be trusted with independent command, answering only to Head Paladins and the Elder.</description>
+        <tags>
+            <li>FCP_Title_BoS</li>
+        </tags>
+        <seniority>650</seniority>
+        <favorCost>12</favorCost>
+        <changeHeirQuestPoints>1000</changeHeirQuestPoints>
+        <commonality>1</commonality>
+        <allowDignifiedMeditationFocus>True</allowDignifiedMeditationFocus>
+        <awardWorkerClass>RoyalTitleAwardWorker_Instant</awardWorkerClass>
+        <requiredApparel>
+            <li>
+                <bodyPartGroupsMatchAny>
+                    <li>Torso</li>
+                </bodyPartGroupsMatchAny>
+                <requiredTags>
+                    <li>FCP_Power_Armor</li>
+                </requiredTags>
+            </li>
+        </requiredApparel>
+        <permitPointsAwarded>3</permitPointsAwarded>
+    </RoyalTitleDef>
+
+    <!-- Head Paladin -->
+
+    <RoyalTitleDef ParentName="FCP_Base_Empire_Titles">
+        <defName>FCP_Title_BoS_Head_Paladin</defName>
+        <label>Head Paladin</label>
+        <description>The Head Paladin commands the chapter's military arm, directing Paladins and Knights alike and reporting straight to the Elder.</description>
+        <tags>
+            <li>FCP_Title_BoS</li>
+        </tags>
+        <seniority>700</seniority>
+        <favorCost>12</favorCost>
+        <changeHeirQuestPoints>1000</changeHeirQuestPoints>
+        <commonality>1</commonality>
+        <allowDignifiedMeditationFocus>True</allowDignifiedMeditationFocus>
+        <awardWorkerClass>RoyalTitleAwardWorker_Instant</awardWorkerClass>
+        <requiredApparel>
+            <li>
+                <bodyPartGroupsMatchAny>
+                    <li>Torso</li>
+                </bodyPartGroupsMatchAny>
+                <requiredTags>
+                    <li>FCP_Power_Armor</li>
+                </requiredTags>
+            </li>
+        </requiredApparel>
+        <permitPointsAwarded>3</permitPointsAwarded>
+    </RoyalTitleDef>
+
+    <!-- Proctor -->
+
+    <RoyalTitleDef ParentName="FCP_Base_Empire_Titles">
+        <defName>FCP_Title_BoS_Proctor</defName>
+        <label>Proctor</label>
+        <description>A Proctor oversees an entire order of Scribes, approving their projects and assigning the right minds to the right work.</description>
+        <tags>
+            <li>FCP_Title_BoS</li>
+        </tags>
+        <seniority>700</seniority>
+        <favorCost>12</favorCost>
+        <changeHeirQuestPoints>1000</changeHeirQuestPoints>
+        <commonality>1</commonality>
+        <allowDignifiedMeditationFocus>True</allowDignifiedMeditationFocus>
+        <awardWorkerClass>RoyalTitleAwardWorker_Instant</awardWorkerClass>
+        <requiredApparel>
+            <li>
+                <bodyPartGroupsMatchAny>
+                    <li>Torso</li>
+                </bodyPartGroupsMatchAny>
+                <requiredTags>
+                    <li>FCP_BoS_Apparel</li>
+                </requiredTags>
+            </li>
+        </requiredApparel>
+        <permitPointsAwarded>3</permitPointsAwarded>
+    </RoyalTitleDef>
+
+    <!-- Star Paladin -->
+
+    <RoyalTitleDef ParentName="FCP_Base_Empire_Titles">
+        <defName>FCP_Title_BoS_Star_Paladin</defName>
+        <label>Star Paladin</label>
+        <description>Star Paladins are chosen for extraordinary service, often serving as personal bodyguards to an Elder or leading the chapter's most critical missions.</description>
+        <tags>
+            <li>FCP_Title_BoS</li>
+        </tags>
+        <seniority>800</seniority>
+        <favorCost>13</favorCost>
+        <changeHeirQuestPoints>1000</changeHeirQuestPoints>
+        <commonality>1</commonality>
+        <allowDignifiedMeditationFocus>True</allowDignifiedMeditationFocus>
+        <awardWorkerClass>RoyalTitleAwardWorker_Instant</awardWorkerClass>
+        <requiredApparel>
+            <li>
+                <bodyPartGroupsMatchAny>
+                    <li>Torso</li>
+                </bodyPartGroupsMatchAny>
+                <requiredTags>
+                    <li>FCP_Power_Armor</li>
+                </requiredTags>
+            </li>
+        </requiredApparel>
+        <permitPointsAwarded>3</permitPointsAwarded>
+    </RoyalTitleDef>
+
+    <!-- Sentinel -->
+
+    <RoyalTitleDef ParentName="FCP_Base_Empire_Titles">
+        <defName>FCP_Title_BoS_Sentinel</defName>
+        <label>Sentinel</label>
+        <description>Sentinel is reserved for the chapter's most distinguished and experienced soldier, a rank below only the Elder and held by no more than one at a time.</description>
+        <tags>
+            <li>FCP_Title_BoS</li>
+        </tags>
+        <seniority>890</seniority>
+        <favorCost>14</favorCost>
+        <changeHeirQuestPoints>1000</changeHeirQuestPoints>
+        <commonality>1</commonality>
+        <allowDignifiedMeditationFocus>True</allowDignifiedMeditationFocus>
+        <awardWorkerClass>RoyalTitleAwardWorker_Instant</awardWorkerClass>
+        <requiredApparel>
+            <li>
+                <bodyPartGroupsMatchAny>
+                    <li>Torso</li>
+                </bodyPartGroupsMatchAny>
+                <requiredTags>
+                    <li>FCP_Power_Armor</li>
+                </requiredTags>
+            </li>
+        </requiredApparel>
+        <permitPointsAwarded>4</permitPointsAwarded>
+    </RoyalTitleDef>
+
+    <!-- Head Scribe -->
+
+    <RoyalTitleDef ParentName="FCP_Base_Empire_Titles">
+        <defName>FCP_Title_BoS_Head_Scribe</defName>
+        <label>Head Scribe</label>
+        <description>The Head Scribe is the highest-ranking civilian authority in the chapter, choosing which Scribes work which projects and who among them is elevated to Proctor.</description>
+        <tags>
+            <li>FCP_Title_BoS</li>
+        </tags>
+        <seniority>890</seniority>
+        <favorCost>14</favorCost>
+        <changeHeirQuestPoints>1000</changeHeirQuestPoints>
+        <commonality>1</commonality>
+        <allowDignifiedMeditationFocus>True</allowDignifiedMeditationFocus>
+        <awardWorkerClass>RoyalTitleAwardWorker_Instant</awardWorkerClass>
+        <requiredApparel>
+            <li>
+                <bodyPartGroupsMatchAny>
+                    <li>Torso</li>
+                </bodyPartGroupsMatchAny>
+                <requiredTags>
+                    <li>FCP_BoS_Apparel</li>
+                </requiredTags>
+            </li>
+        </requiredApparel>
+        <permitPointsAwarded>4</permitPointsAwarded>
+    </RoyalTitleDef>
+
     <!-- Elder -->
 
     <RoyalTitleDef ParentName="FCP_Base_Empire_Titles">
@@ -128,6 +468,34 @@
                 </bodyPartGroupsMatchAny>
                 <requiredTags>
                     <li>FCP_BoS_Apparel</li>
+                    <li>FCP_Power_Armor</li>
+                </requiredTags>
+            </li>
+        </requiredApparel>
+        <permitPointsAwarded>4</permitPointsAwarded>
+    </RoyalTitleDef>
+
+    <!-- Midwest General -->
+
+    <RoyalTitleDef ParentName="FCP_Base_Empire_Titles">
+        <defName>FCP_Title_BoS_Midwest_General</defName>
+        <label>General</label>
+        <description>The General commands the Midwestern Brotherhood's sprawling territory, a soldier's rank earned through results rather than doctrine. Unlike the Elders of other chapters, a General answers for expansion, recruitment, and the defense of a frontier too large for isolationism.</description>
+        <tags>
+            <li>FCP_Title_BoS</li>
+        </tags>
+        <seniority>900</seniority>
+        <favorCost>14</favorCost>
+        <changeHeirQuestPoints>1000</changeHeirQuestPoints>
+        <commonality>1</commonality>
+        <allowDignifiedMeditationFocus>True</allowDignifiedMeditationFocus>
+        <awardWorkerClass>RoyalTitleAwardWorker_Instant</awardWorkerClass>
+        <requiredApparel>
+            <li>
+                <bodyPartGroupsMatchAny>
+                    <li>Torso</li>
+                </bodyPartGroupsMatchAny>
+                <requiredTags>
                     <li>FCP_Power_Armor</li>
                 </requiredTags>
             </li>
@@ -182,6 +550,118 @@
         <permitPointsAwarded>2</permitPointsAwarded>
     </RoyalTitleDef>
 
+    <!-- Knight -->
+
+    <RoyalTitleDef ParentName="FCP_Base_Empire_Titles">
+        <defName>FCP_Title_Lyons_Knight</defName>
+        <label>Knight</label>
+        <description>Knights of the Pride are front-line soldiers who have chosen the sword over the quill, trained to defend Capital Wasteland communities as much as to fight.</description>
+        <tags>
+            <li>FCP_Title_Lyons_Pride</li>
+        </tags>
+        <seniority>400</seniority>
+        <favorCost>9</favorCost>
+        <changeHeirQuestPoints>1000</changeHeirQuestPoints>
+        <commonality>1</commonality>
+        <allowDignifiedMeditationFocus>True</allowDignifiedMeditationFocus>
+        <awardWorkerClass>RoyalTitleAwardWorker_Instant</awardWorkerClass>
+        <requiredApparel>
+            <li>
+                <bodyPartGroupsMatchAny>
+                    <li>Torso</li>
+                </bodyPartGroupsMatchAny>
+                <requiredTags>
+                    <li>FCP_Power_Armor_Lyons</li>
+                </requiredTags>
+            </li>
+        </requiredApparel>
+        <permitPointsAwarded>2</permitPointsAwarded>
+    </RoyalTitleDef>
+
+    <!-- Scribe -->
+
+    <RoyalTitleDef ParentName="FCP_Base_Empire_Titles">
+        <defName>FCP_Title_Lyons_Scribe</defName>
+        <label>Scribe</label>
+        <description>Lyons' Pride Scribes keep the Citadel's laboratories running, splitting their time between preserving technology and treating the wounded the Pride brings home.</description>
+        <tags>
+            <li>FCP_Title_Lyons_Pride</li>
+        </tags>
+        <seniority>400</seniority>
+        <favorCost>9</favorCost>
+        <changeHeirQuestPoints>1000</changeHeirQuestPoints>
+        <commonality>1</commonality>
+        <allowDignifiedMeditationFocus>True</allowDignifiedMeditationFocus>
+        <awardWorkerClass>RoyalTitleAwardWorker_Instant</awardWorkerClass>
+        <requiredApparel>
+            <li>
+                <bodyPartGroupsMatchAny>
+                    <li>Torso</li>
+                </bodyPartGroupsMatchAny>
+                <requiredTags>
+                    <li>FCP_BoS_Apparel_Lyons</li>
+                </requiredTags>
+            </li>
+        </requiredApparel>
+        <permitPointsAwarded>2</permitPointsAwarded>
+    </RoyalTitleDef>
+
+    <!-- Knight Captain -->
+
+    <RoyalTitleDef ParentName="FCP_Base_Empire_Titles">
+        <defName>FCP_Title_Lyons_Knight_Captain</defName>
+        <label>Knight Captain</label>
+        <description>Knight Captains lead squads of the Pride's Knights, trusted with independent patrols through the ruins of the Capital Wasteland.</description>
+        <tags>
+            <li>FCP_Title_Lyons_Pride</li>
+        </tags>
+        <seniority>450</seniority>
+        <favorCost>10</favorCost>
+        <changeHeirQuestPoints>1000</changeHeirQuestPoints>
+        <commonality>1</commonality>
+        <allowDignifiedMeditationFocus>True</allowDignifiedMeditationFocus>
+        <awardWorkerClass>RoyalTitleAwardWorker_Instant</awardWorkerClass>
+        <requiredApparel>
+            <li>
+                <bodyPartGroupsMatchAny>
+                    <li>Torso</li>
+                </bodyPartGroupsMatchAny>
+                <requiredTags>
+                    <li>FCP_Power_Armor_Lyons</li>
+                </requiredTags>
+            </li>
+        </requiredApparel>
+        <permitPointsAwarded>2</permitPointsAwarded>
+    </RoyalTitleDef>
+
+    <!-- Paladin -->
+
+    <RoyalTitleDef ParentName="FCP_Base_Empire_Titles">
+        <defName>FCP_Title_Lyons_Paladin</defName>
+        <label>Paladin</label>
+        <description>Paladins of the Pride have proven themselves in enough engagements to be trusted with the Citadel's finest equipment and its most dangerous missions.</description>
+        <tags>
+            <li>FCP_Title_Lyons_Pride</li>
+        </tags>
+        <seniority>550</seniority>
+        <favorCost>11</favorCost>
+        <changeHeirQuestPoints>1000</changeHeirQuestPoints>
+        <commonality>1</commonality>
+        <allowDignifiedMeditationFocus>True</allowDignifiedMeditationFocus>
+        <awardWorkerClass>RoyalTitleAwardWorker_Instant</awardWorkerClass>
+        <requiredApparel>
+            <li>
+                <bodyPartGroupsMatchAny>
+                    <li>Torso</li>
+                </bodyPartGroupsMatchAny>
+                <requiredTags>
+                    <li>FCP_Power_Armor_Lyons</li>
+                </requiredTags>
+            </li>
+        </requiredApparel>
+        <permitPointsAwarded>3</permitPointsAwarded>
+    </RoyalTitleDef>
+
     <!-- Shield of the People -->
 
     <RoyalTitleDef ParentName="FCP_Base_Empire_Titles">
@@ -208,6 +688,90 @@
             </li>
         </requiredApparel>
         <permitPointsAwarded>3</permitPointsAwarded>
+    </RoyalTitleDef>
+
+    <!-- Head Scribe -->
+
+    <RoyalTitleDef ParentName="FCP_Base_Empire_Titles">
+        <defName>FCP_Title_Lyons_Head_Scribe</defName>
+        <label>Head Scribe</label>
+        <description>The Head Scribe runs the Citadel's laboratories outright, balancing research against the constant demand to treat and re-equip the Pride's wounded.</description>
+        <tags>
+            <li>FCP_Title_Lyons_Pride</li>
+        </tags>
+        <seniority>700</seniority>
+        <favorCost>12</favorCost>
+        <changeHeirQuestPoints>1000</changeHeirQuestPoints>
+        <commonality>1</commonality>
+        <allowDignifiedMeditationFocus>True</allowDignifiedMeditationFocus>
+        <awardWorkerClass>RoyalTitleAwardWorker_Instant</awardWorkerClass>
+        <requiredApparel>
+            <li>
+                <bodyPartGroupsMatchAny>
+                    <li>Torso</li>
+                </bodyPartGroupsMatchAny>
+                <requiredTags>
+                    <li>FCP_BoS_Apparel_Lyons</li>
+                </requiredTags>
+            </li>
+        </requiredApparel>
+        <permitPointsAwarded>3</permitPointsAwarded>
+    </RoyalTitleDef>
+
+    <!-- Star Paladin -->
+
+    <RoyalTitleDef ParentName="FCP_Base_Empire_Titles">
+        <defName>FCP_Title_Lyons_Star_Paladin</defName>
+        <label>Star Paladin</label>
+        <description>Star Paladins are chosen for extraordinary service, often serving as personal bodyguards to the Pride's leadership or leading its most critical missions.</description>
+        <tags>
+            <li>FCP_Title_Lyons_Pride</li>
+        </tags>
+        <seniority>700</seniority>
+        <favorCost>12</favorCost>
+        <changeHeirQuestPoints>1000</changeHeirQuestPoints>
+        <commonality>1</commonality>
+        <allowDignifiedMeditationFocus>True</allowDignifiedMeditationFocus>
+        <awardWorkerClass>RoyalTitleAwardWorker_Instant</awardWorkerClass>
+        <requiredApparel>
+            <li>
+                <bodyPartGroupsMatchAny>
+                    <li>Torso</li>
+                </bodyPartGroupsMatchAny>
+                <requiredTags>
+                    <li>FCP_Power_Armor_Lyons</li>
+                </requiredTags>
+            </li>
+        </requiredApparel>
+        <permitPointsAwarded>3</permitPointsAwarded>
+    </RoyalTitleDef>
+
+    <!-- Sentinel -->
+
+    <RoyalTitleDef ParentName="FCP_Base_Empire_Titles">
+        <defName>FCP_Title_Lyons_Sentinel</defName>
+        <label>Sentinel</label>
+        <description>Sentinel is reserved for the Pride's most distinguished soldier, a rank below only Lyons' Champion and traditionally held by the Elder's own kin.</description>
+        <tags>
+            <li>FCP_Title_Lyons_Pride</li>
+        </tags>
+        <seniority>800</seniority>
+        <favorCost>13</favorCost>
+        <changeHeirQuestPoints>1000</changeHeirQuestPoints>
+        <commonality>1</commonality>
+        <allowDignifiedMeditationFocus>True</allowDignifiedMeditationFocus>
+        <awardWorkerClass>RoyalTitleAwardWorker_Instant</awardWorkerClass>
+        <requiredApparel>
+            <li>
+                <bodyPartGroupsMatchAny>
+                    <li>Torso</li>
+                </bodyPartGroupsMatchAny>
+                <requiredTags>
+                    <li>FCP_Power_Armor_Lyons</li>
+                </requiredTags>
+            </li>
+        </requiredApparel>
+        <permitPointsAwarded>4</permitPointsAwarded>
     </RoyalTitleDef>
 
     <!-- Lyons' Champion -->
@@ -283,6 +847,24 @@
                 </requiredTags>
             </li>
         </requiredApparel>
+        <permitPointsAwarded>2</permitPointsAwarded>
+    </RoyalTitleDef>
+
+    <!-- Recon Specialist -->
+
+    <RoyalTitleDef ParentName="FCP_Base_Empire_Titles">
+        <defName>FCP_Title_Outcast_Recon_Specialist</defName>
+        <label>Recon Specialist</label>
+        <description>Recon Specialists range far from Outcast camps alone, scouting salvage sites and mapping threats before a Defender squad is ever committed. They trade heavy power armor for speed and a sharper eye.</description>
+        <tags>
+            <li>FCP_Title_Outcast</li>
+        </tags>
+        <seniority>300</seniority>
+        <favorCost>8</favorCost>
+        <changeHeirQuestPoints>1000</changeHeirQuestPoints>
+        <commonality>1</commonality>
+        <allowDignifiedMeditationFocus>True</allowDignifiedMeditationFocus>
+        <awardWorkerClass>RoyalTitleAwardWorker_Instant</awardWorkerClass>
         <permitPointsAwarded>2</permitPointsAwarded>
     </RoyalTitleDef>
 

@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <!--__________ Midwestern Brotherhood Rank Perks __________-->
+
+    <HediffDef Name="FCP_Hediff_Midwest_RankBase" Abstract="True">
+        <hediffClass>HediffWithComps</hediffClass>
+        <isBad>false</isBad>
+        <tendable>false</tendable>
+        <scenarioCanAdd>false</scenarioCanAdd>
+        <maxSeverity>1</maxSeverity>
+        <initialSeverity>1</initialSeverity>
+    </HediffDef>
+
+    <HediffDef ParentName="FCP_Hediff_Midwest_RankBase">
+        <defName>FCP_Hediff_Midwest_Rank_KnightInitiate</defName>
+        <label>Vanguard Knight Initiate training</label>
+        <description>Basic power armor drilling under the Steel Vanguard's pragmatic doctrine.</description>
+        <stages>
+            <li>
+                <statOffsets>
+                    <ShootingAccuracyPawn>1</ShootingAccuracyPawn>
+                </statOffsets>
+            </li>
+        </stages>
+    </HediffDef>
+
+    <HediffDef ParentName="FCP_Hediff_Midwest_RankBase">
+        <defName>FCP_Hediff_Midwest_Rank_Knight</defName>
+        <label>Vanguard Knight training</label>
+        <description>Full combat training suited to holding a frontier too large for isolationism.</description>
+        <stages>
+            <li>
+                <statOffsets>
+                    <ShootingAccuracyPawn>3</ShootingAccuracyPawn>
+                </statOffsets>
+            </li>
+        </stages>
+    </HediffDef>
+
+    <HediffDef ParentName="FCP_Hediff_Midwest_RankBase">
+        <defName>FCP_Hediff_Midwest_Rank_SeniorKnight</defName>
+        <label>Vanguard Senior Knight training</label>
+        <description>Field experience leading mixed squads of tribals and wastelanders alike.</description>
+        <stages>
+            <li>
+                <statOffsets>
+                    <ShootingAccuracyPawn>4</ShootingAccuracyPawn>
+                    <SocialImpact>0.04</SocialImpact>
+                </statOffsets>
+            </li>
+        </stages>
+    </HediffDef>
+
+    <HediffDef ParentName="FCP_Hediff_Midwest_RankBase">
+        <defName>FCP_Hediff_Midwest_Rank_KnightCommander</defName>
+        <label>Vanguard Knight Commander training</label>
+        <description>Command experience over an entire company spread across the Midwest.</description>
+        <stages>
+            <li>
+                <statOffsets>
+                    <ShootingAccuracyPawn>5</ShootingAccuracyPawn>
+                    <SocialImpact>0.06</SocialImpact>
+                </statOffsets>
+            </li>
+        </stages>
+    </HediffDef>
+
+    <HediffDef ParentName="FCP_Hediff_Midwest_RankBase">
+        <defName>FCP_Hediff_Midwest_Rank_Paladin</defName>
+        <label>Vanguard Paladin training</label>
+        <description>Elite command training focused on expansion and welcoming worthy recruits.</description>
+        <stages>
+            <li>
+                <statOffsets>
+                    <ShootingAccuracyPawn>6</ShootingAccuracyPawn>
+                    <SocialImpact>0.08</SocialImpact>
+                    <NegotiationAbility>0.1</NegotiationAbility>
+                </statOffsets>
+            </li>
+        </stages>
+    </HediffDef>
+
+    <HediffDef ParentName="FCP_Hediff_Midwest_RankBase">
+        <defName>FCP_Hediff_Midwest_Rank_SeniorPaladin</defName>
+        <label>Vanguard Senior Paladin training</label>
+        <description>Independent command over entire settlements.</description>
+        <stages>
+            <li>
+                <statOffsets>
+                    <ShootingAccuracyPawn>7</ShootingAccuracyPawn>
+                    <SocialImpact>0.1</SocialImpact>
+                </statOffsets>
+            </li>
+        </stages>
+    </HediffDef>
+
+    <HediffDef ParentName="FCP_Hediff_Midwest_RankBase">
+        <defName>FCP_Hediff_Midwest_Rank_Sentinel</defName>
+        <label>Vanguard Sentinel training</label>
+        <description>The Vanguard's most distinguished soldier, a rank below only the General.</description>
+        <stages>
+            <li>
+                <statOffsets>
+                    <ShootingAccuracyPawn>9</ShootingAccuracyPawn>
+                    <ArmorRating_Sharp>0.08</ArmorRating_Sharp>
+                </statOffsets>
+            </li>
+        </stages>
+    </HediffDef>
+
+    <HediffDef ParentName="FCP_Hediff_Midwest_RankBase">
+        <defName>FCP_Hediff_Midwest_Rank_General</defName>
+        <label>Vanguard General training</label>
+        <description>Command of the Midwestern Brotherhood's entire sprawling territory.</description>
+        <stages>
+            <li>
+                <statOffsets>
+                    <ShootingAccuracyPawn>10</ShootingAccuracyPawn>
+                    <SocialImpact>0.12</SocialImpact>
+                    <NegotiationAbility>0.15</NegotiationAbility>
+                </statOffsets>
+            </li>
+        </stages>
+    </HediffDef>
+
+    <!-- General Presence Aura -->
+
+    <HediffDef>
+        <defName>FCP_Hediff_Midwest_General_Presence</defName>
+        <hediffClass>HediffWithComps</hediffClass>
+        <label>the General's presence</label>
+        <description>The General commands from the field. Nearby Brothers fight with steadier hands.</description>
+        <isBad>false</isBad>
+        <tendable>false</tendable>
+        <scenarioCanAdd>false</scenarioCanAdd>
+        <maxSeverity>1</maxSeverity>
+        <initialSeverity>1</initialSeverity>
+        <comps>
+            <li Class="HediffCompProperties_Disappears">
+                <disappearsAfterTicks>310</disappearsAfterTicks>
+                <showRemainingTime>false</showRemainingTime>
+            </li>
+        </comps>
+        <stages>
+            <li>
+                <statOffsets>
+                    <MoveSpeed>0.2</MoveSpeed>
+                    <ShootingAccuracyPawn>3</ShootingAccuracyPawn>
+                    <MeleeDodgeChance>0.05</MeleeDodgeChance>
+                </statOffsets>
+            </li>
+        </stages>
+    </HediffDef>
+
+    <!-- General Rally -->
+
+    <HediffDef>
+        <defName>FCP_Hediff_Midwest_General_Rally</defName>
+        <hediffClass>HediffWithComps</hediffClass>
+        <label>rallied</label>
+        <description>The General has called the Vanguard to arms. A surge of speed and morale answers the call.</description>
+        <isBad>false</isBad>
+        <tendable>false</tendable>
+        <scenarioCanAdd>false</scenarioCanAdd>
+        <maxSeverity>1</maxSeverity>
+        <initialSeverity>1</initialSeverity>
+        <comps>
+            <li Class="HediffCompProperties_Disappears">
+                <disappearsAfterTicks>2500</disappearsAfterTicks>
+                <showRemainingTime>true</showRemainingTime>
+            </li>
+        </comps>
+        <stages>
+            <li>
+                <statOffsets>
+                    <MoveSpeed>1</MoveSpeed>
+                    <ShootingAccuracyPawn>5</ShootingAccuracyPawn>
+                    <MeleeDodgeChance>0.1</MeleeDodgeChance>
+                </statOffsets>
+            </li>
+        </stages>
+    </HediffDef>
+
+</Defs>

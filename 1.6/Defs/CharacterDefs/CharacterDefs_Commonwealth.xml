@@ -18,6 +18,10 @@
             </li>
         </roles>
         <definitions>
+            <!-- Rank -->
+            <li Class="FCP.Core.CharacterRankDefinition">
+                <tier>FCP_Rank_BoS_Elder</tier>
+            </li>
             <!-- Bio -->
             <li Class="FCP.Core.CharacterStoryDefinition">
                 <firstName>Arthur</firstName>
@@ -51,6 +55,10 @@
             </li>
         </roles>
         <definitions>
+            <!-- Rank -->
+            <li Class="FCP.Core.CharacterRankDefinition">
+                <tier>FCP_Rank_BoS_Scribe</tier>
+            </li>
             <!-- Bio -->
             <li Class="FCP.Core.CharacterStoryDefinition">
                 <firstName />
@@ -84,6 +92,10 @@
             </li>
         </roles>
         <definitions>
+            <!-- Rank -->
+            <li Class="FCP.Core.CharacterRankDefinition">
+                <tier>FCP_Rank_BoS_Knight</tier>
+            </li>
             <!-- Bio -->
             <li Class="FCP.Core.CharacterStoryDefinition">
                 <firstName />
@@ -117,6 +129,10 @@
             </li>
         </roles>
         <definitions>
+            <!-- Rank -->
+            <li Class="FCP.Core.CharacterRankDefinition">
+                <tier>FCP_Rank_BoS_Proctor</tier>
+            </li>
             <!-- Bio -->
             <li Class="FCP.Core.CharacterStoryDefinition">
                 <firstName />
@@ -150,6 +166,10 @@
             </li>
         </roles>
         <definitions>
+            <!-- Rank -->
+            <li Class="FCP.Core.CharacterRankDefinition">
+                <tier>FCP_Rank_BoS_StarPaladin</tier>
+            </li>
             <!-- Bio -->
             <li Class="FCP.Core.CharacterStoryDefinition">
                 <firstName />
@@ -180,6 +200,10 @@
         <roles>
         </roles>
         <definitions>
+            <!-- Rank -->
+            <li Class="FCP.Core.CharacterRankDefinition">
+                <tier>FCP_Rank_BoS_Paladin</tier>
+            </li>
             <!-- Bio -->
             <li Class="FCP.Core.CharacterStoryDefinition">
                 <firstName />
@@ -213,6 +237,10 @@
             </li>
         </roles>
         <definitions>
+            <!-- Rank -->
+            <li Class="FCP.Core.CharacterRankDefinition">
+                <tier>FCP_Rank_BoS_KnightCommander</tier>
+            </li>
             <!-- Bio -->
             <li Class="FCP.Core.CharacterStoryDefinition">
                 <firstName />
@@ -246,6 +274,10 @@
             </li>
         </roles>
         <definitions>
+            <!-- Rank -->
+            <li Class="FCP.Core.CharacterRankDefinition">
+                <tier>FCP_Rank_BoS_Proctor</tier>
+            </li>
             <!-- Bio -->
             <li Class="FCP.Core.CharacterStoryDefinition">
                 <firstName />
@@ -279,6 +311,10 @@
             </li>
         </roles>
         <definitions>
+            <!-- Rank -->
+            <li Class="FCP.Core.CharacterRankDefinition">
+                <tier>FCP_Rank_BoS_Proctor</tier>
+            </li>
             <!-- Bio -->
             <li Class="FCP.Core.CharacterStoryDefinition">
                 <firstName />
@@ -295,6 +331,43 @@
                 <skinColorOverride>(185, 160, 135)</skinColorOverride>
                 <headTypeDef>Male_AverageNormal</headTypeDef>
                 <bodyTypeDef>Male</bodyTypeDef>
+            </li>
+        </definitions>
+    </FCP.Core.CharacterDef>
+
+    <!-- Senior Scribe Neriah -->
+
+    <FCP.Core.CharacterDef>
+        <defName>FCP_Character_BoS_Senior_Scribe_Neriah</defName>
+        <pawnKind>FCP_Unique_Pawnkind_Senior_Scribe_Neriah</pawnKind>
+        <xenotype>Baseliner</xenotype>
+        <faction>FCP_Faction_BoS</faction>
+        <roles>
+            <li Class="FCP.Core.CharacterRole_FactionLeader">
+                <seniority>991</seniority>
+            </li>
+        </roles>
+        <definitions>
+            <!-- Rank -->
+            <li Class="FCP.Core.CharacterRankDefinition">
+                <tier>FCP_Rank_BoS_SeniorScribe</tier>
+            </li>
+            <!-- Bio -->
+            <li Class="FCP.Core.CharacterStoryDefinition">
+                <firstName />
+                <lastName>Neriah</lastName>
+                <nickname>Senior Scribe Neriah</nickname>
+                <gender>Female</gender>
+                <age>36</age>
+            </li>
+            <!-- Appearance -->
+            <li Class="FCP.Core.CharacterAppearanceDefinition">
+                <hairColor>(40, 30, 25)</hairColor>
+                <hairDef>FCP_Hair_Domestic_Goddess</hairDef>
+                <beardDef>NoBeard</beardDef>
+                <skinColorOverride>(110, 80, 60)</skinColorOverride>
+                <headTypeDef>Female_AverageNormal</headTypeDef>
+                <bodyTypeDef>Thin</bodyTypeDef>
             </li>
         </definitions>
     </FCP.Core.CharacterDef>

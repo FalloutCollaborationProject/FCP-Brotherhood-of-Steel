@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
     <!--__________ Unique Fallout 3 PawnKinds __________-->
@@ -589,6 +589,184 @@
                 <li MayRequire="Rick.FCP.PreWarFood">
                     <thingDef>FCP_Food_Sugar_Bombs</thingDef>
                     <countRange>2~4</countRange>
+                </li>
+                <li MayRequire="Rick.FCP.NukaCola">
+                    <thingDef>FCP_Nuka_Cola</thingDef>
+                    <countRange>2~3</countRange>
+                </li>
+            </subOptionsChooseOne>
+        </inventoryOptions>
+    </PawnKindDef>
+
+    <!-- Paladin Vargas -->
+
+    <PawnKindDef ParentName="FCP_BoS_Lyons_PowerArmorBase">
+        <defName>FCP_Unique_Pawnkind_Paladin_Vargas</defName>
+        <label>Paladin Vargas</label>
+        <defaultFactionDef>FCP_Faction_BoS_Lyons_Pride_Remnants</defaultFactionDef>
+        <combatPower>80</combatPower>
+        <itemQuality>Excellent</itemQuality>
+        <gearHealthRange>1.0~1.0</gearHealthRange>
+        <weaponMoney>1500~2100</weaponMoney>
+        <weaponTags>
+            <li MayRequire="Rick.FCP.EnergyWeapons">FCP_Laser_Weapon</li>
+        </weaponTags>
+        <initialWillRange>4~5</initialWillRange>
+        <initialResistanceRange>22~31</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Character_Backstory_Vargas_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Character_Backstory_Vargas_Adult</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <inventoryOptions>
+            <skipChance>0.0</skipChance>
+            <subOptionsChooseOne>
+                <li>
+                    <thingDef>FCP_Currency_BoS_Scrip</thingDef>
+                    <countRange>55~110</countRange>
+                </li>
+                <li>
+                    <thingDef>MealSurvivalPack</thingDef>
+                    <countRange>2~3</countRange>
+                </li>
+                <li MayRequire="Rick.FCP.Chems">
+                    <thingDef>FCP_Chem_Stimpak</thingDef>
+                    <countRange>2~4</countRange>
+                </li>
+                <li MayRequire="Rick.FCP.PreWarFood">
+                    <thingDef>FCP_Food_Cram</thingDef>
+                    <countRange>3~5</countRange>
+                </li>
+                <li MayRequire="Rick.FCP.NukaCola">
+                    <thingDef>FCP_Nuka_Cola</thingDef>
+                    <countRange>2~3</countRange>
+                </li>
+            </subOptionsChooseOne>
+        </inventoryOptions>
+    </PawnKindDef>
+
+    <!-- Knight Captain Colvin -->
+
+    <PawnKindDef ParentName="FCP_BoSkindBase">
+        <defName>FCP_Unique_Pawnkind_Knight_Captain_Colvin</defName>
+        <label>Knight Captain Colvin</label>
+        <defaultFactionDef>FCP_Faction_BoS_Lyons_Pride_Remnants</defaultFactionDef>
+        <combatPower>65</combatPower>
+        <itemQuality>Good</itemQuality>
+        <gearHealthRange>0.8~1.0</gearHealthRange>
+        <weaponMoney>1200~1600</weaponMoney>
+        <weaponTags>
+            <li MayRequire="Rick.FCP.EnergyWeapons">FCP_Laser_Weapon</li>
+        </weaponTags>
+        <apparelRequired>
+            <li>FCP_Apparel_BoS_Recon_Hood</li>
+            <li>FCP_Apparel_BoS_Recon_Armor</li>
+        </apparelRequired>
+        <apparelDisallowTags>
+            <li>FCP_Power_Armor_Helmet</li>
+            <li>FCP_Power_Armor</li>
+            <li>FCP_Power_Armor_Lyons</li>
+            <li>FCP_Power_Armor_Outcast</li>
+        </apparelDisallowTags>
+        <specificApparelRequirements>
+            <li>
+                <bodyPartGroup>Torso</bodyPartGroup>
+                <apparelLayer>Shell</apparelLayer>
+                <stuff>Plasteel</stuff>
+            </li>
+        </specificApparelRequirements>
+        <initialWillRange>3~5</initialWillRange>
+        <initialResistanceRange>18~26</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Character_Backstory_Colvin_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Character_Backstory_Colvin_Adult</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <inventoryOptions>
+            <skipChance>0.0</skipChance>
+            <subOptionsChooseOne>
+                <li>
+                    <thingDef>FCP_Currency_BoS_Scrip</thingDef>
+                    <countRange>40~80</countRange>
+                </li>
+                <li>
+                    <thingDef>MealSurvivalPack</thingDef>
+                    <countRange>2~3</countRange>
+                </li>
+                <li MayRequire="Rick.FCP.Chems">
+                    <thingDef>FCP_Chem_Stimpak</thingDef>
+                    <countRange>2~4</countRange>
+                </li>
+                <li MayRequire="Rick.FCP.PreWarFood">
+                    <thingDef>FCP_Food_Cram</thingDef>
+                    <countRange>3~5</countRange>
+                </li>
+                <li MayRequire="Rick.FCP.NukaCola">
+                    <thingDef>FCP_Nuka_Cola</thingDef>
+                    <countRange>2~3</countRange>
+                </li>
+            </subOptionsChooseOne>
+        </inventoryOptions>
+    </PawnKindDef>
+
+    <!-- Scribe Peabody -->
+
+    <PawnKindDef ParentName="FCP_BoSkindBase">
+        <defName>FCP_Unique_Pawnkind_Scribe_Peabody</defName>
+        <label>Scribe Peabody</label>
+        <defaultFactionDef>FCP_Faction_BoS_Lyons_Pride_Remnants</defaultFactionDef>
+        <combatPower>35</combatPower>
+        <itemQuality>Good</itemQuality>
+        <gearHealthRange>0.7~1.0</gearHealthRange>
+        <weaponMoney>900~1200</weaponMoney>
+        <weaponTags>
+            <li MayRequire="Rick.FCP.EnergyWeapons">FCP_Laser_Weapon</li>
+        </weaponTags>
+        <apparelRequired>
+            <li>FCP_Apparel_BoS_Scribe_Robes</li>
+        </apparelRequired>
+        <apparelDisallowTags>
+            <li>FCP_Power_Armor_Helmet</li>
+            <li>FCP_Power_Armor</li>
+            <li>FCP_Power_Armor_Lyons</li>
+            <li>FCP_Power_Armor_Outcast</li>
+        </apparelDisallowTags>
+        <initialWillRange>2~4</initialWillRange>
+        <initialResistanceRange>14~20</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Character_Backstory_Peabody_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Character_Backstory_Peabody_Adult</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <inventoryOptions>
+            <skipChance>0.0</skipChance>
+            <subOptionsChooseOne>
+                <li>
+                    <thingDef>FCP_Currency_BoS_Scrip</thingDef>
+                    <countRange>30~60</countRange>
+                </li>
+                <li MayRequire="Rick.FCP.Chems">
+                    <thingDef>FCP_Chem_Stimpak</thingDef>
+                    <countRange>2~4</countRange>
+                </li>
+                <li MayRequire="Rick.FCP.PreWarFood">
+                    <thingDef>FCP_Food_Cram</thingDef>
+                    <countRange>3~5</countRange>
                 </li>
                 <li MayRequire="Rick.FCP.NukaCola">
                     <thingDef>FCP_Nuka_Cola</thingDef>

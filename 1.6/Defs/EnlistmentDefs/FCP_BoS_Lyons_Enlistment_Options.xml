@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <!--__________ Enlistments with Factions __________-->
+
+    <!--_____ Lyons' Pride Remnants _____-->
+
+    <FCP.Enlist.FactionEnlistOptionsDef>
+        <defName>FCP_Enlistment_Lyons</defName>
+        <minGoodwillRequrementToEnlist>10</minGoodwillRequrementToEnlist>
+        <enlistGoodwillGain>5</enlistGoodwillGain>
+        <minGoodwillUponEnlist>75</minGoodwillUponEnlist>
+
+        <!-- Enlistment Options -->
+
+        <enlistLetterTitleKey>FCP_Lyons_Enlist_Letter_Title</enlistLetterTitleKey>
+        <enlistLetterLabelKey>FCP_Lyons_Enlist_Letter_Label</enlistLetterLabelKey>
+        <enlistButtonLabelKey>FCP_Lyons_Enlist_Button_Label</enlistButtonLabelKey>
+        <enlistButtonDescKey>FCP_Lyons_Enlist_Button_Desc</enlistButtonDescKey>
+        <enlistRequrementsNotSatisfiedKey>FCP_Lyons_Enlist_Requrements_Not_Satisfied</enlistRequrementsNotSatisfiedKey>
+        <enlistedToHostileFactionKey>FCP_Lyons_Enlisted_To_Hostile_Faction</enlistedToHostileFactionKey>
+        <enlistButtonIconTexPath>Things/Items/BoS_Crates/BoS_Food_and_Uniform_Crate/BoSEnlistment</enlistButtonIconTexPath>
+        <enlistedSoundDef>FCP_Sound_Card_Use</enlistedSoundDef>
+        <enlistedWithKey>FCP_Lyons_Enlisted_With_Key</enlistedWithKey>
+
+        <!-- Mission Options -->
+
+        <missionsAreEnabled>true</missionsAreEnabled>
+        <missionsLabelKey>FCP_Lyons_Missions_Label</missionsLabelKey>
+        <missionsDescKey>FCP_Lyons_Missions_Desc</missionsDescKey>
+        <missionsButtonIconTexPath>Things/UI/Ideology/Lyons_Pride/FCP_Lyons_Pride_Shield_of_the_People</missionsButtonIconTexPath>
+        <missionsBackgroundMenuTexPath>Things/UI/Ideology/Lyons_Pride/FCP_Lyons_Pride_Shield_of_the_People</missionsBackgroundMenuTexPath>
+        <missionsMenuDescriptionKey>FCP_Lyons_Menu_Missions_Desc</missionsMenuDescriptionKey>
+        <missionsMenuSelectQuestKey>FCP_Lyons_Menu_Missions_Select_Quest</missionsMenuSelectQuestKey>
+        <missionsMenuStartQuestKey>FCP_Lyons_Menu_Missions_Start_Quest</missionsMenuStartQuestKey>
+        <missionsBountyRewardRange>24~64</missionsBountyRewardRange>
+        <missionsMenuCollectBountyKey>FCP_Lyons_Menu_Missions_Collect_Bounty</missionsMenuCollectBountyKey>
+
+        <!-- Salary Options -->
+
+        <salaryIsEnabled>true</salaryIsEnabled>
+        <salaryDef>FCP_Currency_Caps</salaryDef>
+        <salaryLabelKey>FCP_Lyons_Salary_Label</salaryLabelKey>
+        <salaryDescKey>FCP_Lyons_Salary_Desc</salaryDescKey>
+        <salaryButtonIconTexPath>Things/Items/Currencies/FCP_Bottle_Caps_Currency/FCP_Bottle_Caps_Currency_a</salaryButtonIconTexPath>
+        <salaryRange>700~1000</salaryRange>
+        <salaryPeriodDays>14</salaryPeriodDays>
+
+        <!-- Provision Options -->
+
+        <provisionOptions>
+            <li>
+                <provisionsLabelKey>FCP_Lyons_Provisions_Label</provisionsLabelKey>
+                <provisionsDescKey>FCP_Lyons_Provisions_Desc</provisionsDescKey>
+                <provisionsButtonIconTexPath>Things/Items/BoS_Crates/BoS_Food_and_Uniform_Crate/FCP_BoS_Food_Uniform_Crate</provisionsButtonIconTexPath>
+                <provisions>
+                    <li>
+                        <thing>FCP_Item_BoS_Food_Crate</thing>
+                        <amountRange>5</amountRange>
+                    </li>
+                </provisions>
+                <provisionsRestockInDays>10</provisionsRestockInDays>
+            </li>
+            <li>
+                <provisionsLabelKey>FCP_Lyons_Provisions_Label_Standard_Issue</provisionsLabelKey>
+                <provisionsDescKey>FCP_Lyons_Provisions_Desc_Standard_Issue</provisionsDescKey>
+                <provisionsButtonIconTexPath>Things/Items/BoS_Crates/BoS_Food_and_Uniform_Crate/FCP_BoS_Food_Uniform_Crate</provisionsButtonIconTexPath>
+                <provisions>
+                    <li>
+                        <thing>FCP_Item_BoS_Standard_Weapon_Crate</thing>
+                        <amountRange>1</amountRange>
+                    </li>
+                    <li>
+                        <thing>FCP_Item_BoS_Standard_Tech_Resource_Crate</thing>
+                        <amountRange>1</amountRange>
+                    </li>
+                    <li>
+                        <thing>FCP_Item_BoS_Lyons_Pride_Uniform_Crate</thing>
+                        <amountRange>2</amountRange>
+                    </li>
+                </provisions>
+                <provisionsRestockInDays>45</provisionsRestockInDays>
+            </li>
+        </provisionOptions>
+
+        <!-- Storage Options -->
+
+        <storageIsEnabled>true</storageIsEnabled>
+        <storageLabelKey>FCP_Lyons_Storage_Label</storageLabelKey>
+        <storageDescKey>FCP_Lyons_Storage_Desc</storageDescKey>
+        <storageButtonIconTexPath>Things/Items/BoS_Crates/BoS_Food_and_Uniform_Crate/FCP_BoS_Food_Uniform_Crate</storageButtonIconTexPath>
+
+        <!-- Work Options -->
+
+        <recreationGainPerTick>0.0001</recreationGainPerTick>
+        <workOptions>
+            <li>
+                <workLabelKey>FCP_Lyons_Part_Time_Job_Label</workLabelKey>
+                <workDescKey>FCP_Lyons_Part_Time_Job_Desc</workDescKey>
+                <workButtonIconTexPath>Things/Items/Currencies/FCP_Bottle_Caps_Currency/FCP_Bottle_Caps_Currency_b</workButtonIconTexPath>
+                <additionalRestFall>0.25</additionalRestFall>
+                <silverGainPerHour>10</silverGainPerHour>
+            </li>
+            <li>
+                <workLabelKey>FCP_Lyons_Hospital_Label</workLabelKey>
+                <workDescKey>FCP_Lyons_Hospital_Desc</workDescKey>
+                <workButtonIconTexPath>World_Icon/BoS_Icon/FCP_Lyons_Pride_Remnants_World_Icon</workButtonIconTexPath>
+                <additionalRestFall>0.25</additionalRestFall>
+                <tendCaravanMembersEveryTicks>600</tendCaravanMembersEveryTicks>
+                <medicinesToTend>
+                    <li>MedicineIndustrial</li>
+                </medicinesToTend>
+                <immunityGainSpeedMultiplier>2</immunityGainSpeedMultiplier>
+            </li>
+            <li>
+                <workLabelKey>FCP_Lyons_Knight_Training_Label</workLabelKey>
+                <workDescKey>FCP_Lyons_Knight_Training_Desc</workDescKey>
+                <workButtonIconTexPath>Things/UI/Ideology/Lyons_Pride/FCP_Lyons_Pride_Shield_of_the_People</workButtonIconTexPath>
+                <experienceGainsPerHour>
+                    <Shooting>550</Shooting>
+                    <Melee>100</Melee>
+                    <Medicine>75</Medicine>
+                </experienceGainsPerHour>
+                <additionalRestFall>0.1</additionalRestFall>
+            </li>
+            <li>
+                <workLabelKey>FCP_Lyons_Scribe_Training_Label</workLabelKey>
+                <workDescKey>FCP_Lyons_Scribe_Training_Desc</workDescKey>
+                <workButtonIconTexPath>Things/UI/Ideology/Lyons_Pride/FCP_Lyons_Pride_Steel_Compassion</workButtonIconTexPath>
+                <experienceGainsPerHour>
+                    <Crafting>600</Crafting>
+                    <Intellectual>200</Intellectual>
+                    <Medicine>150</Medicine>
+                </experienceGainsPerHour>
+                <additionalRestFall>0.2</additionalRestFall>
+            </li>
+        </workOptions>
+
+        <!-- Bounty Options -->
+
+        <turnInIsEnabled>true</turnInIsEnabled>
+        <turnInLabelKey>FCP_Lyons_Turn_In_Label</turnInLabelKey>
+        <turnInDescKey>FCP_Lyons_Turn_In_Desc</turnInDescKey>
+        <turnInButtonIconTexPath>Things/UI/Enlisted/FCP_Turn_In</turnInButtonIconTexPath>
+        <turnInTraderKind>FCP_Caravan_BoS_Prisoner_Exchange</turnInTraderKind>
+        <turnInThought>FCP_BoS_Turned_In_An_Outlaw</turnInThought>
+        <turnInRefreshSilverInDays>7</turnInRefreshSilverInDays>
+        <turnInTraderNameKey>FCP_Lyons_Turn_In_Trader_Name</turnInTraderNameKey>
+
+        <!-- Drop Pod Options -->
+
+        <dropPodServiceIsEnabled>false</dropPodServiceIsEnabled>
+
+        <!-- Resign Options -->
+
+        <resignGoodwillGain>-25</resignGoodwillGain>
+        <resignMenuTextKey>FCP_Lyons_Resign_Menu_Text</resignMenuTextKey>
+        <resignLetterTitleKey>FCP_Lyons_Resign_Letter_Title</resignLetterTitleKey>
+        <resignLetterLabelKey>FCP_Lyons_Resign_Letter_Label</resignLetterLabelKey>
+        <resignButtonLabelKey>FCP_Lyons_Resign_Button_Label</resignButtonLabelKey>
+        <resignButtonDescKey>FCP_Lyons_Resign_Button_Desc</resignButtonDescKey>
+        <resignButtonIconTexPath>World_Icon/BoS_Icon/FCP_Lyons_Pride_Remnants_World_Icon</resignButtonIconTexPath>
+
+        <!-- Kicked Out Options -->
+
+        <kickOutLetterTitleKey>FCP_Lyons_Kick_Out_Letter_Title</kickOutLetterTitleKey>
+        <kickOutLetterLabelKey>FCP_Lyons_Kick_Out_Label_Title</kickOutLetterLabelKey>
+
+        <!-- Reinforcements Options -->
+
+        <reinforcementsAreEnabled>true</reinforcementsAreEnabled>
+        <reinforcementsButtonLabelKey>FCP_Lyons_Reinforcements_Button_Label</reinforcementsButtonLabelKey>
+        <reinforcementsButtonDescKey>FCP_Lyons_Reinforcements_Button_Desc</reinforcementsButtonDescKey>
+        <reinforcementsButtonIconTexPath>Things/UI/Ideology/Lyons_Pride/FCP_Lyons_Pride_Shield_of_the_People</reinforcementsButtonIconTexPath>
+        <reinforcementCallGoodwillCost>-5</reinforcementCallGoodwillCost>
+        <reinforcementCallCooldownTicks>50000</reinforcementCallCooldownTicks>
+        <reinforcementOptions>
+            <li>
+                <relationsRange>75~100</relationsRange>
+                <pointsRange>500~1200</pointsRange>
+            </li>
+            <li>
+                <relationsRange>50~74</relationsRange>
+                <pointsRange>350~600</pointsRange>
+            </li>
+        </reinforcementOptions>
+
+    </FCP.Enlist.FactionEnlistOptionsDef>
+
+</Defs>

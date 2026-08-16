@@ -1,0 +1,980 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <!--__________ Fallout: New Vegas Characters __________-->
+
+    <!--_____ Hidden Valley Bunker (West Coast Brotherhood) _____-->
+
+    <!-- Patrol Knight -->
+
+    <PawnKindDef ParentName="FCP_BoSkindBase">
+        <defName>FCP_Pawnkind_HiddenValley_Knight</defName>
+        <label>Brotherhood Knight</label>
+        <combatPower>60</combatPower>
+        <gearHealthRange>0.6~1.9</gearHealthRange>
+        <weaponMoney>900~1600</weaponMoney>
+        <weaponTags>
+            <li>FCP_BoS_Weapon</li>
+            <li MayRequire="Rick.FCP.EnergyWeapons">FCP_Laser_Weapon</li>
+        </weaponTags>
+        <apparelRequired>
+            <li>FCP_Apparel_BoS_Recon_Armor</li>
+            <li>FCP_Apparel_BoS_Recon_Hood</li>
+        </apparelRequired>
+        <apparelMoney>0</apparelMoney>
+        <apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
+        <apparelDisallowTags>
+            <li>FCP_Power_Armor_Helmet</li>
+            <li>FCP_Power_Armor</li>
+            <li>FCP_Power_Armor_Lyons</li>
+            <li>FCP_Power_Armor_Outcast</li>
+        </apparelDisallowTags>
+        <techHediffsMoney>50~50</techHediffsMoney>
+        <techHediffsTags>
+            <li>Poor</li>
+        </techHediffsTags>
+        <techHediffsChance>0.03</techHediffsChance>
+        <initialWillRange>2~5</initialWillRange>
+        <initialResistanceRange>16~25</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Backstory_BoS_LostHills_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Backstory_BoS_LostHills</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+    </PawnKindDef>
+
+    <!-- Scribe -->
+
+    <PawnKindDef ParentName="FCP_BoSkindBase">
+        <defName>FCP_Pawnkind_HiddenValley_Scribe</defName>
+        <label>Brotherhood Scribe</label>
+        <combatPower>45</combatPower>
+        <gearHealthRange>0.5~1.8</gearHealthRange>
+        <apparelRequired>
+            <li>FCP_Apparel_BoS_Scribe_Robes</li>
+        </apparelRequired>
+        <apparelDisallowTags>
+            <li>FCP_Power_Armor_Helmet</li>
+            <li>FCP_Power_Armor</li>
+            <li>FCP_Power_Armor_Lyons</li>
+            <li>FCP_Power_Armor_Outcast</li>
+        </apparelDisallowTags>
+        <weaponMoney>900~1200</weaponMoney>
+        <weaponTags>
+            <li>Gun</li>
+            <li MayRequire="Rick.FCP.EnergyWeapons">FCP_Laser_Weapon</li>
+        </weaponTags>
+        <techHediffsMoney>50~50</techHediffsMoney>
+        <techHediffsTags>
+            <li>Poor</li>
+        </techHediffsTags>
+        <techHediffsChance>0.03</techHediffsChance>
+        <initialWillRange>1~3</initialWillRange>
+        <initialResistanceRange>12~18</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Backstory_BoS_LostHills_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Backstory_BoS_LostHills</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+    </PawnKindDef>
+
+    <!-- Scribe Proctor (trader) -->
+
+    <PawnKindDef ParentName="FCP_BoSkindBase">
+        <defName>FCP_Pawnkind_HiddenValley_Scribe_Trader</defName>
+        <label>Brotherhood Scribe Proctor</label>
+        <trader>true</trader>
+        <combatPower>30</combatPower>
+        <apparelRequired>
+            <li>FCP_Apparel_BoS_Scribe_Robes</li>
+        </apparelRequired>
+        <apparelDisallowTags>
+            <li>FCP_Power_Armor_Helmet</li>
+            <li>FCP_Power_Armor</li>
+            <li>FCP_Power_Armor_Lyons</li>
+            <li>FCP_Power_Armor_Outcast</li>
+        </apparelDisallowTags>
+        <weaponMoney>900~1200</weaponMoney>
+        <weaponTags>
+            <li>Gun</li>
+            <li MayRequire="Rick.FCP.EnergyWeapons">FCP_Laser_Weapon</li>
+        </weaponTags>
+        <initialWillRange>1~3</initialWillRange>
+        <initialResistanceRange>10~17</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Backstory_BoS_LostHills_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Backstory_BoS_LostHills</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+    </PawnKindDef>
+
+    <!-- Elder McNamara PawnKind -->
+
+    <PawnKindDef ParentName="FCP_BoSkindBase">
+        <defName>FCP_Unique_Pawnkind_HiddenValley_McNamara</defName>
+        <label>Elder Nolan McNamara</label>
+        <defaultFactionDef>FCP_Faction_BoS_Lost_Hills</defaultFactionDef>
+        <factionLeader>true</factionLeader>
+        <combatPower>45</combatPower>
+        <itemQuality>Excellent</itemQuality>
+        <gearHealthRange>0.9~1.0</gearHealthRange>
+        <weaponMoney>1000~1400</weaponMoney>
+        <weaponTags>
+            <li MayRequire="Rick.FCP.EnergyWeapons">FCP_Laser_Weapon</li>
+        </weaponTags>
+        <apparelRequired>
+            <li>FCP_Apparel_BoS_Scribe_Robes</li>
+        </apparelRequired>
+        <apparelDisallowTags>
+            <li>FCP_Power_Armor_Helmet</li>
+            <li>FCP_Power_Armor</li>
+            <li>FCP_Power_Armor_Lyons</li>
+            <li>FCP_Power_Armor_Outcast</li>
+        </apparelDisallowTags>
+        <initialWillRange>5~6</initialWillRange>
+        <initialResistanceRange>22~30</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Character_Backstory_McNamara_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Character_Backstory_McNamara_Adult</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <inventoryOptions>
+            <skipChance>0.0</skipChance>
+            <subOptionsChooseOne>
+                <li>
+                    <thingDef>FCP_Currency_BoS_Scrip</thingDef>
+                    <countRange>100~180</countRange>
+                </li>
+                <li MayRequire="Rick.FCP.Chems">
+                    <thingDef>FCP_Chem_Stimpak</thingDef>
+                    <countRange>2~3</countRange>
+                </li>
+                <li MayRequire="Rick.FCP.PreWarFood">
+                    <thingDef>FCP_Food_Cram</thingDef>
+                    <countRange>2~4</countRange>
+                </li>
+                <li MayRequire="Rick.FCP.NukaCola">
+                    <thingDef>FCP_Nuka_Cola</thingDef>
+                    <countRange>1~2</countRange>
+                </li>
+            </subOptionsChooseOne>
+        </inventoryOptions>
+    </PawnKindDef>
+
+    <!-- Head Paladin Hardin PawnKind -->
+
+    <PawnKindDef ParentName="FCP_BoSkindBase">
+        <defName>FCP_Unique_Pawnkind_HiddenValley_Hardin</defName>
+        <label>Head Paladin Edgar Hardin</label>
+        <defaultFactionDef>FCP_Faction_BoS_Lost_Hills</defaultFactionDef>
+        <combatPower>95</combatPower>
+        <itemQuality>Excellent</itemQuality>
+        <gearHealthRange>1.0~1.0</gearHealthRange>
+        <apparelRequired>
+            <li MayRequire="Rick.FCP.PowerArmor">FCP_Apparel_Power_Armor_Frame</li>
+            <li>FCP_Apparel_BoS_Jumpsuit</li>
+            <li MayRequire="Rick.FCP.PowerArmor">FCP_Apparel_BoS_Lost_Hills_T51_Power_Armor</li>
+            <li MayRequire="Rick.FCP.PowerArmor">FCP_Apparel_Power_Armor_T51_Helmet</li>
+        </apparelRequired>
+        <forcedTraits>
+            <FCP_Trait_Power_Armor_Trained />
+        </forcedTraits>
+        <weaponMoney>2000~2800</weaponMoney>
+        <weaponTags>
+            <li MayRequire="Rick.FCP.EnergyWeapons">FCP_Heavy_Laser_Weapon</li>
+        </weaponTags>
+        <initialWillRange>6~7</initialWillRange>
+        <initialResistanceRange>28~38</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Character_Backstory_Hardin_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Character_Backstory_Hardin_Adult</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <inventoryOptions>
+            <skipChance>0.0</skipChance>
+            <subOptionsChooseOne>
+                <li>
+                    <thingDef>FCP_Currency_BoS_Scrip</thingDef>
+                    <countRange>90~160</countRange>
+                </li>
+                <li>
+                    <thingDef>MealSurvivalPack</thingDef>
+                    <countRange>2~4</countRange>
+                </li>
+                <li MayRequire="Rick.FCP.Chems">
+                    <thingDef>FCP_Chem_Stimpak</thingDef>
+                    <countRange>2~4</countRange>
+                </li>
+                <li MayRequire="Rick.FCP.PreWarFood">
+                    <thingDef>FCP_Food_Cram</thingDef>
+                    <countRange>2~4</countRange>
+                </li>
+                <li MayRequire="Rick.FCP.NukaCola">
+                    <thingDef>FCP_Nuka_Cola</thingDef>
+                    <countRange>1~2</countRange>
+                </li>
+            </subOptionsChooseOne>
+        </inventoryOptions>
+    </PawnKindDef>
+
+    <!-- Senior Paladin Ramos PawnKind -->
+
+    <PawnKindDef ParentName="FCP_BoSkindBase">
+        <defName>FCP_Unique_Pawnkind_HiddenValley_Ramos</defName>
+        <label>Senior Paladin Ramos</label>
+        <defaultFactionDef>FCP_Faction_BoS_Lost_Hills</defaultFactionDef>
+        <combatPower>82</combatPower>
+        <itemQuality>Excellent</itemQuality>
+        <gearHealthRange>1.0~1.0</gearHealthRange>
+        <apparelRequired>
+            <li MayRequire="Rick.FCP.PowerArmor">FCP_Apparel_Power_Armor_Frame</li>
+            <li>FCP_Apparel_BoS_Jumpsuit</li>
+            <li MayRequire="Rick.FCP.PowerArmor">FCP_Apparel_BoS_Lost_Hills_T51_Power_Armor</li>
+            <li MayRequire="Rick.FCP.PowerArmor">FCP_Apparel_Power_Armor_T51_Helmet</li>
+        </apparelRequired>
+        <forcedTraits>
+            <FCP_Trait_Power_Armor_Trained />
+        </forcedTraits>
+        <weaponMoney>1750~2350</weaponMoney>
+        <weaponTags>
+            <li MayRequire="Rick.FCP.EnergyWeapons">FCP_Laser_Weapon</li>
+        </weaponTags>
+        <initialWillRange>5~6</initialWillRange>
+        <initialResistanceRange>23~32</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Character_Backstory_Ramos_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Character_Backstory_Ramos_Adult</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <inventoryOptions>
+            <skipChance>0.0</skipChance>
+            <subOptionsChooseOne>
+                <li>
+                    <thingDef>FCP_Currency_BoS_Scrip</thingDef>
+                    <countRange>80~150</countRange>
+                </li>
+                <li MayRequire="Rick.FCP.Chems">
+                    <thingDef>FCP_Chem_Stimpak</thingDef>
+                    <countRange>2~4</countRange>
+                </li>
+                <li MayRequire="Rick.FCP.PreWarFood">
+                    <thingDef>FCP_Food_Cram</thingDef>
+                    <countRange>2~4</countRange>
+                </li>
+                <li MayRequire="Rick.FCP.NukaCola">
+                    <thingDef>FCP_Nuka_Cola</thingDef>
+                    <countRange>1~2</countRange>
+                </li>
+            </subOptionsChooseOne>
+        </inventoryOptions>
+    </PawnKindDef>
+
+    <!-- Senior Knight Lorenzo PawnKind -->
+
+    <PawnKindDef ParentName="FCP_BoSkindBase">
+        <defName>FCP_Unique_Pawnkind_HiddenValley_Lorenzo</defName>
+        <label>Senior Knight Lorenzo</label>
+        <defaultFactionDef>FCP_Faction_BoS_Lost_Hills</defaultFactionDef>
+        <combatPower>76</combatPower>
+        <itemQuality>Excellent</itemQuality>
+        <gearHealthRange>0.9~1.0</gearHealthRange>
+        <apparelRequired>
+            <li MayRequire="Rick.FCP.PowerArmor">FCP_Apparel_Power_Armor_Frame</li>
+            <li>FCP_Apparel_BoS_Jumpsuit</li>
+            <li MayRequire="Rick.FCP.PowerArmor">FCP_Apparel_BoS_Lost_Hills_T51_Power_Armor</li>
+            <li MayRequire="Rick.FCP.PowerArmor">FCP_Apparel_Power_Armor_T51_Helmet</li>
+        </apparelRequired>
+        <forcedTraits>
+            <FCP_Trait_Power_Armor_Trained />
+        </forcedTraits>
+        <weaponMoney>1650~2200</weaponMoney>
+        <weaponTags>
+            <li MayRequire="Rick.FCP.EnergyWeapons">FCP_Laser_Weapon</li>
+        </weaponTags>
+        <initialWillRange>5~6</initialWillRange>
+        <initialResistanceRange>22~30</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Character_Backstory_Lorenzo_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Character_Backstory_Lorenzo_Adult</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <inventoryOptions>
+            <skipChance>0.0</skipChance>
+            <subOptionsChooseOne>
+                <li>
+                    <thingDef>FCP_Currency_BoS_Scrip</thingDef>
+                    <countRange>70~130</countRange>
+                </li>
+                <li MayRequire="Rick.FCP.Chems">
+                    <thingDef>FCP_Chem_Stimpak</thingDef>
+                    <countRange>1~2</countRange>
+                </li>
+                <li MayRequire="Rick.FCP.PreWarFood">
+                    <thingDef>FCP_Food_Cram</thingDef>
+                    <countRange>2~3</countRange>
+                </li>
+                <li MayRequire="Rick.FCP.NukaCola">
+                    <thingDef>FCP_Nuka_Cola</thingDef>
+                    <countRange>1</countRange>
+                </li>
+            </subOptionsChooseOne>
+        </inventoryOptions>
+    </PawnKindDef>
+
+    <!-- Head Scribe Taggart PawnKind -->
+
+    <PawnKindDef ParentName="FCP_BoSkindBase">
+        <defName>FCP_Unique_Pawnkind_HiddenValley_Taggart</defName>
+        <label>Head Scribe Taggart</label>
+        <defaultFactionDef>FCP_Faction_BoS_Lost_Hills</defaultFactionDef>
+        <trader>true</trader>
+        <combatPower>32</combatPower>
+        <itemQuality>Excellent</itemQuality>
+        <gearHealthRange>0.7~1.0</gearHealthRange>
+        <weaponMoney>900~1200</weaponMoney>
+        <weaponTags>
+            <li MayRequire="Rick.FCP.EnergyWeapons">FCP_Laser_Weapon</li>
+        </weaponTags>
+        <apparelRequired>
+            <li>FCP_Apparel_BoS_Scribe_Robes</li>
+        </apparelRequired>
+        <apparelDisallowTags>
+            <li>FCP_Power_Armor_Helmet</li>
+            <li>FCP_Power_Armor</li>
+            <li>FCP_Power_Armor_Lyons</li>
+            <li>FCP_Power_Armor_Outcast</li>
+        </apparelDisallowTags>
+        <initialWillRange>2~4</initialWillRange>
+        <initialResistanceRange>13~19</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Character_Backstory_Taggart_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Character_Backstory_Taggart_Adult</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <inventoryOptions>
+            <skipChance>0.0</skipChance>
+            <subOptionsChooseOne>
+                <li>
+                    <thingDef>FCP_Currency_BoS_Scrip</thingDef>
+                    <countRange>50~100</countRange>
+                </li>
+                <li MayRequire="Rick.FCP.Chems">
+                    <thingDef>FCP_Chem_Stimpak</thingDef>
+                    <countRange>1~2</countRange>
+                </li>
+                <li MayRequire="Rick.FCP.PreWarFood">
+                    <thingDef>FCP_Food_Cram</thingDef>
+                    <countRange>2~3</countRange>
+                </li>
+                <li MayRequire="Rick.FCP.NukaCola">
+                    <thingDef>FCP_Nuka_Cola</thingDef>
+                    <countRange>1</countRange>
+                </li>
+            </subOptionsChooseOne>
+        </inventoryOptions>
+    </PawnKindDef>
+
+    <!-- Knight Torres PawnKind -->
+
+    <PawnKindDef ParentName="FCP_BoSkindBase">
+        <defName>FCP_Unique_Pawnkind_HiddenValley_Torres</defName>
+        <label>Knight Torres</label>
+        <defaultFactionDef>FCP_Faction_BoS_Lost_Hills</defaultFactionDef>
+        <combatPower>55</combatPower>
+        <itemQuality>Good</itemQuality>
+        <gearHealthRange>0.8~1.0</gearHealthRange>
+        <weaponMoney>1000~1300</weaponMoney>
+        <weaponTags>
+            <li MayRequire="Rick.FCP.EnergyWeapons">FCP_Laser_Weapon</li>
+        </weaponTags>
+        <apparelRequired>
+            <li>FCP_Apparel_BoS_Recon_Hood</li>
+            <li>FCP_Apparel_BoS_Recon_Armor</li>
+        </apparelRequired>
+        <apparelDisallowTags>
+            <li>FCP_Power_Armor_Helmet</li>
+            <li>FCP_Power_Armor</li>
+            <li>FCP_Power_Armor_Lyons</li>
+            <li>FCP_Power_Armor_Outcast</li>
+        </apparelDisallowTags>
+        <initialWillRange>3~4</initialWillRange>
+        <initialResistanceRange>15~21</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Character_Backstory_HVTorres_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Character_Backstory_HVTorres_Adult</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <inventoryOptions>
+            <skipChance>0.0</skipChance>
+            <subOptionsChooseOne>
+                <li>
+                    <thingDef>FCP_Currency_BoS_Scrip</thingDef>
+                    <countRange>35~70</countRange>
+                </li>
+                <li MayRequire="Rick.FCP.Chems">
+                    <thingDef>FCP_Chem_Stimpak</thingDef>
+                    <countRange>1~2</countRange>
+                </li>
+                <li MayRequire="Rick.FCP.PreWarFood">
+                    <thingDef>FCP_Food_Cram</thingDef>
+                    <countRange>2~3</countRange>
+                </li>
+                <li MayRequire="Rick.FCP.NukaCola">
+                    <thingDef>FCP_Nuka_Cola</thingDef>
+                    <countRange>1</countRange>
+                </li>
+            </subOptionsChooseOne>
+        </inventoryOptions>
+    </PawnKindDef>
+
+    <!-- Paladin Sato PawnKind -->
+
+    <PawnKindDef ParentName="FCP_BoSkindBase">
+        <defName>FCP_Unique_Pawnkind_HiddenValley_Sato</defName>
+        <label>Paladin Sato</label>
+        <defaultFactionDef>FCP_Faction_BoS_Lost_Hills</defaultFactionDef>
+        <trader>true</trader>
+        <combatPower>73</combatPower>
+        <itemQuality>Good</itemQuality>
+        <gearHealthRange>0.9~1.0</gearHealthRange>
+        <apparelRequired>
+            <li MayRequire="Rick.FCP.PowerArmor">FCP_Apparel_Power_Armor_Frame</li>
+            <li>FCP_Apparel_BoS_Jumpsuit</li>
+            <li MayRequire="Rick.FCP.PowerArmor">FCP_Apparel_BoS_Lost_Hills_T51_Power_Armor</li>
+            <li MayRequire="Rick.FCP.PowerArmor">FCP_Apparel_Power_Armor_T51_Helmet</li>
+        </apparelRequired>
+        <forcedTraits>
+            <FCP_Trait_Power_Armor_Trained />
+        </forcedTraits>
+        <weaponMoney>1400~1900</weaponMoney>
+        <weaponTags>
+            <li MayRequire="Rick.FCP.EnergyWeapons">FCP_Laser_Weapon</li>
+        </weaponTags>
+        <initialWillRange>3~5</initialWillRange>
+        <initialResistanceRange>18~26</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Character_Backstory_Sato_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Character_Backstory_Sato_Adult</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <inventoryOptions>
+            <skipChance>0.0</skipChance>
+            <subOptionsChooseOne>
+                <li>
+                    <thingDef>FCP_Currency_BoS_Scrip</thingDef>
+                    <countRange>45~90</countRange>
+                </li>
+                <li MayRequire="Rick.FCP.Chems">
+                    <thingDef>FCP_Chem_Stimpak</thingDef>
+                    <countRange>2~3</countRange>
+                </li>
+                <li MayRequire="Rick.FCP.PreWarFood">
+                    <thingDef>FCP_Food_Cram</thingDef>
+                    <countRange>2~4</countRange>
+                </li>
+                <li MayRequire="Rick.FCP.NukaCola">
+                    <thingDef>FCP_Nuka_Cola</thingDef>
+                    <countRange>1~2</countRange>
+                </li>
+            </subOptionsChooseOne>
+        </inventoryOptions>
+    </PawnKindDef>
+
+    <!-- Senior Scribe Schuler PawnKind -->
+
+    <PawnKindDef ParentName="FCP_BoSkindBase">
+        <defName>FCP_Unique_Pawnkind_HiddenValley_Schuler</defName>
+        <label>Senior Scribe Schuler</label>
+        <defaultFactionDef>FCP_Faction_BoS_Lost_Hills</defaultFactionDef>
+        <combatPower>40</combatPower>
+        <itemQuality>Excellent</itemQuality>
+        <gearHealthRange>0.8~1.0</gearHealthRange>
+        <weaponMoney>1000~1300</weaponMoney>
+        <weaponTags>
+            <li MayRequire="Rick.FCP.EnergyWeapons">FCP_Laser_Weapon</li>
+        </weaponTags>
+        <apparelRequired>
+            <li>FCP_Apparel_BoS_Scribe_Robes</li>
+        </apparelRequired>
+        <apparelDisallowTags>
+            <li>FCP_Power_Armor_Helmet</li>
+            <li>FCP_Power_Armor</li>
+            <li>FCP_Power_Armor_Lyons</li>
+            <li>FCP_Power_Armor_Outcast</li>
+        </apparelDisallowTags>
+        <initialWillRange>3~4</initialWillRange>
+        <initialResistanceRange>15~21</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Character_Backstory_Schuler_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Character_Backstory_Schuler_Adult</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <inventoryOptions>
+            <skipChance>0.0</skipChance>
+            <subOptionsChooseOne>
+                <li>
+                    <thingDef>FCP_Currency_BoS_Scrip</thingDef>
+                    <countRange>40~80</countRange>
+                </li>
+                <li MayRequire="Rick.FCP.Chems">
+                    <thingDef>FCP_Chem_Stimpak</thingDef>
+                    <countRange>1~2</countRange>
+                </li>
+                <li MayRequire="Rick.FCP.PreWarFood">
+                    <thingDef>FCP_Food_Cram</thingDef>
+                    <countRange>2~3</countRange>
+                </li>
+                <li MayRequire="Rick.FCP.NukaCola">
+                    <thingDef>FCP_Nuka_Cola</thingDef>
+                    <countRange>1</countRange>
+                </li>
+            </subOptionsChooseOne>
+        </inventoryOptions>
+    </PawnKindDef>
+
+    <!-- Scribe Ibsen PawnKind -->
+
+    <PawnKindDef ParentName="FCP_BoSkindBase">
+        <defName>FCP_Unique_Pawnkind_HiddenValley_Ibsen</defName>
+        <label>Scribe Ibsen</label>
+        <defaultFactionDef>FCP_Faction_BoS_Lost_Hills</defaultFactionDef>
+        <combatPower>30</combatPower>
+        <itemQuality>Good</itemQuality>
+        <gearHealthRange>0.7~1.0</gearHealthRange>
+        <weaponMoney>900~1100</weaponMoney>
+        <weaponTags>
+            <li MayRequire="Rick.FCP.EnergyWeapons">FCP_Laser_Weapon</li>
+        </weaponTags>
+        <apparelRequired>
+            <li>FCP_Apparel_BoS_Scribe_Robes</li>
+        </apparelRequired>
+        <apparelDisallowTags>
+            <li>FCP_Power_Armor_Helmet</li>
+            <li>FCP_Power_Armor</li>
+            <li>FCP_Power_Armor_Lyons</li>
+            <li>FCP_Power_Armor_Outcast</li>
+        </apparelDisallowTags>
+        <initialWillRange>2~4</initialWillRange>
+        <initialResistanceRange>12~18</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Character_Backstory_Ibsen_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Character_Backstory_Ibsen_Adult</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <inventoryOptions>
+            <skipChance>0.0</skipChance>
+            <subOptionsChooseOne>
+                <li>
+                    <thingDef>FCP_Currency_BoS_Scrip</thingDef>
+                    <countRange>40~80</countRange>
+                </li>
+                <li MayRequire="Rick.FCP.Chems">
+                    <thingDef>FCP_Chem_Stimpak</thingDef>
+                    <countRange>1~2</countRange>
+                </li>
+                <li MayRequire="Rick.FCP.PreWarFood">
+                    <thingDef>FCP_Food_Cram</thingDef>
+                    <countRange>2~3</countRange>
+                </li>
+                <li MayRequire="Rick.FCP.NukaCola">
+                    <thingDef>FCP_Nuka_Cola</thingDef>
+                    <countRange>1</countRange>
+                </li>
+            </subOptionsChooseOne>
+        </inventoryOptions>
+    </PawnKindDef>
+
+    <!-- Elder Nolan McNamara -->
+
+    <FCP.Core.CharacterDef>
+        <defName>FCP_Character_HiddenValley_McNamara</defName>
+        <pawnKind>FCP_Unique_Pawnkind_HiddenValley_McNamara</pawnKind>
+        <xenotype>Baseliner</xenotype>
+        <faction>FCP_Faction_BoS_Lost_Hills</faction>
+        <roles>
+            <li Class="FCP.Core.CharacterRole_FactionLeader">
+                <seniority>509</seniority>
+            </li>
+        </roles>
+        <definitions>
+            <!-- Rank -->
+            <li Class="FCP.Core.CharacterRankDefinition">
+                <tier>FCP_Rank_LostHills_Elder</tier>
+            </li>
+            <!-- Bio -->
+            <li Class="FCP.Core.CharacterStoryDefinition">
+                <firstName>Nolan</firstName>
+                <lastName>McNamara</lastName>
+                <nickname>Elder McNamara</nickname>
+                <gender>Male</gender>
+                <age>62</age>
+            </li>
+            <!-- Appearance -->
+            <li Class="FCP.Core.CharacterAppearanceDefinition">
+                <hairColor>(180, 175, 170)</hairColor>
+                <hairDef>FCP_Hair_Balding</hairDef>
+                <beardDef>NoBeard</beardDef>
+                <skinColorOverride>(195, 170, 145)</skinColorOverride>
+                <headTypeDef>Male_AverageNormal</headTypeDef>
+                <bodyTypeDef>Male</bodyTypeDef>
+            </li>
+        </definitions>
+    </FCP.Core.CharacterDef>
+
+    <!-- Head Paladin Edgar Hardin -->
+
+    <FCP.Core.CharacterDef>
+        <defName>FCP_Character_HiddenValley_Hardin</defName>
+        <pawnKind>FCP_Unique_Pawnkind_HiddenValley_Hardin</pawnKind>
+        <xenotype>Baseliner</xenotype>
+        <faction>FCP_Faction_BoS_Lost_Hills</faction>
+        <roles>
+            <li Class="FCP.Core.CharacterRole_FactionLeader">
+                <seniority>508</seniority>
+            </li>
+        </roles>
+        <definitions>
+            <!-- Rank -->
+            <li Class="FCP.Core.CharacterRankDefinition">
+                <tier>FCP_Rank_LostHills_HeadPaladin</tier>
+            </li>
+            <!-- Bio -->
+            <li Class="FCP.Core.CharacterStoryDefinition">
+                <firstName>Edgar</firstName>
+                <lastName>Hardin</lastName>
+                <nickname>Head Paladin Hardin</nickname>
+                <gender>Male</gender>
+                <age>50</age>
+            </li>
+            <!-- Appearance -->
+            <li Class="FCP.Core.CharacterAppearanceDefinition">
+                <hairColor>(50, 45, 40)</hairColor>
+                <hairDef>FCP_Hair_Buzz_Cut</hairDef>
+                <beardDef>NoBeard</beardDef>
+                <skinColorOverride>(170, 140, 115)</skinColorOverride>
+                <headTypeDef>Male_AverageNormal</headTypeDef>
+                <bodyTypeDef>Hulk</bodyTypeDef>
+            </li>
+        </definitions>
+    </FCP.Core.CharacterDef>
+
+    <!-- Senior Paladin Ramos -->
+
+    <FCP.Core.CharacterDef>
+        <defName>FCP_Character_HiddenValley_Ramos</defName>
+        <pawnKind>FCP_Unique_Pawnkind_HiddenValley_Ramos</pawnKind>
+        <xenotype>Baseliner</xenotype>
+        <faction>FCP_Faction_BoS_Lost_Hills</faction>
+        <roles>
+            <li Class="FCP.Core.CharacterRole_FactionLeader">
+                <seniority>507</seniority>
+            </li>
+        </roles>
+        <definitions>
+            <!-- Rank -->
+            <li Class="FCP.Core.CharacterRankDefinition">
+                <tier>FCP_Rank_LostHills_SeniorPaladin</tier>
+            </li>
+            <!-- Bio -->
+            <li Class="FCP.Core.CharacterStoryDefinition">
+                <firstName />
+                <lastName>Ramos</lastName>
+                <nickname>Senior Paladin Ramos</nickname>
+                <gender>Male</gender>
+                <age>44</age>
+            </li>
+            <!-- Appearance -->
+            <li Class="FCP.Core.CharacterAppearanceDefinition">
+                <hairColor>(60, 55, 50)</hairColor>
+                <hairDef>FCP_Hair_Buzz_Cut</hairDef>
+                <beardDef>NoBeard</beardDef>
+                <skinColorOverride>(120, 90, 70)</skinColorOverride>
+                <headTypeDef>Male_AverageNormal</headTypeDef>
+                <bodyTypeDef>Hulk</bodyTypeDef>
+            </li>
+        </definitions>
+    </FCP.Core.CharacterDef>
+
+    <!-- Senior Knight Lorenzo -->
+
+    <FCP.Core.CharacterDef>
+        <defName>FCP_Character_HiddenValley_Lorenzo</defName>
+        <pawnKind>FCP_Unique_Pawnkind_HiddenValley_Lorenzo</pawnKind>
+        <xenotype>Baseliner</xenotype>
+        <faction>FCP_Faction_BoS_Lost_Hills</faction>
+        <roles>
+            <li Class="FCP.Core.CharacterRole_FactionLeader">
+                <seniority>506</seniority>
+            </li>
+        </roles>
+        <definitions>
+            <!-- Rank -->
+            <li Class="FCP.Core.CharacterRankDefinition">
+                <tier>FCP_Rank_LostHills_SeniorPaladin</tier>
+            </li>
+            <!-- Bio -->
+            <li Class="FCP.Core.CharacterStoryDefinition">
+                <firstName />
+                <lastName>Lorenzo</lastName>
+                <nickname>Senior Knight Lorenzo</nickname>
+                <gender>Male</gender>
+                <age>41</age>
+            </li>
+            <!-- Appearance -->
+            <li Class="FCP.Core.CharacterAppearanceDefinition">
+                <hairColor>(40, 35, 30)</hairColor>
+                <hairDef>FCP_Hair_Buzz_Cut</hairDef>
+                <beardDef>Moustache</beardDef>
+                <skinColorOverride>(155, 120, 95)</skinColorOverride>
+                <headTypeDef>Male_AverageNormal</headTypeDef>
+                <bodyTypeDef>Male</bodyTypeDef>
+            </li>
+        </definitions>
+    </FCP.Core.CharacterDef>
+
+    <!-- Head Scribe Taggart -->
+
+    <FCP.Core.CharacterDef>
+        <defName>FCP_Character_HiddenValley_Taggart</defName>
+        <pawnKind>FCP_Unique_Pawnkind_HiddenValley_Taggart</pawnKind>
+        <xenotype>Baseliner</xenotype>
+        <faction>FCP_Faction_BoS_Lost_Hills</faction>
+        <roles>
+            <li Class="FCP.Core.CharacterRole_FactionLeader">
+                <seniority>505</seniority>
+            </li>
+        </roles>
+        <definitions>
+            <!-- Rank -->
+            <li Class="FCP.Core.CharacterRankDefinition">
+                <tier>FCP_Rank_LostHills_HeadScribe</tier>
+            </li>
+            <!-- Bio -->
+            <li Class="FCP.Core.CharacterStoryDefinition">
+                <firstName>Lars</firstName>
+                <lastName>Taggart</lastName>
+                <nickname>Head Scribe Taggart</nickname>
+                <gender>Male</gender>
+                <age>47</age>
+            </li>
+            <!-- Appearance -->
+            <li Class="FCP.Core.CharacterAppearanceDefinition">
+                <hairColor>(130, 125, 120)</hairColor>
+                <hairDef>FCP_Hair_Balding</hairDef>
+                <beardDef>Goatee</beardDef>
+                <skinColorOverride>(190, 165, 140)</skinColorOverride>
+                <headTypeDef>Male_AverageNormal</headTypeDef>
+                <bodyTypeDef>Thin</bodyTypeDef>
+            </li>
+        </definitions>
+    </FCP.Core.CharacterDef>
+
+    <!-- Knight Torres -->
+
+    <FCP.Core.CharacterDef>
+        <defName>FCP_Character_HiddenValley_Torres</defName>
+        <pawnKind>FCP_Unique_Pawnkind_HiddenValley_Torres</pawnKind>
+        <xenotype>Baseliner</xenotype>
+        <faction>FCP_Faction_BoS_Lost_Hills</faction>
+        <roles>
+            <li Class="FCP.Core.CharacterRole_FactionLeader">
+                <seniority>504</seniority>
+            </li>
+        </roles>
+        <definitions>
+            <!-- Rank -->
+            <li Class="FCP.Core.CharacterRankDefinition">
+                <tier>FCP_Rank_LostHills_Knight</tier>
+            </li>
+            <!-- Bio -->
+            <li Class="FCP.Core.CharacterStoryDefinition">
+                <firstName />
+                <lastName>Torres</lastName>
+                <nickname>Knight Torres</nickname>
+                <gender>Male</gender>
+                <age>36</age>
+            </li>
+            <!-- Appearance -->
+            <li Class="FCP.Core.CharacterAppearanceDefinition">
+                <hairColor>(45, 35, 30)</hairColor>
+                <hairDef>FCP_Hair_Balding</hairDef>
+                <beardDef>Goatee</beardDef>
+                <skinColorOverride>(150, 115, 90)</skinColorOverride>
+                <headTypeDef>Male_AverageNormal</headTypeDef>
+                <bodyTypeDef>Thin</bodyTypeDef>
+            </li>
+        </definitions>
+    </FCP.Core.CharacterDef>
+
+    <!-- Paladin Sato -->
+
+    <FCP.Core.CharacterDef>
+        <defName>FCP_Character_HiddenValley_Sato</defName>
+        <pawnKind>FCP_Unique_Pawnkind_HiddenValley_Sato</pawnKind>
+        <xenotype>Baseliner</xenotype>
+        <faction>FCP_Faction_BoS_Lost_Hills</faction>
+        <roles>
+            <li Class="FCP.Core.CharacterRole_FactionLeader">
+                <seniority>503</seniority>
+            </li>
+        </roles>
+        <definitions>
+            <!-- Rank -->
+            <li Class="FCP.Core.CharacterRankDefinition">
+                <tier>FCP_Rank_LostHills_Paladin</tier>
+            </li>
+            <!-- Bio -->
+            <li Class="FCP.Core.CharacterStoryDefinition">
+                <firstName />
+                <lastName>Sato</lastName>
+                <nickname>Paladin Sato</nickname>
+                <gender>Male</gender>
+                <age>34</age>
+            </li>
+            <!-- Appearance -->
+            <li Class="FCP.Core.CharacterAppearanceDefinition">
+                <hairColor>(30, 25, 20)</hairColor>
+                <hairDef>FCP_Hair_Buzz_Cut</hairDef>
+                <beardDef>NoBeard</beardDef>
+                <skinColorOverride>(180, 150, 120)</skinColorOverride>
+                <headTypeDef>Male_AverageNormal</headTypeDef>
+                <bodyTypeDef>Male</bodyTypeDef>
+            </li>
+        </definitions>
+    </FCP.Core.CharacterDef>
+
+    <!-- Senior Scribe Schuler -->
+
+    <FCP.Core.CharacterDef>
+        <defName>FCP_Character_HiddenValley_Schuler</defName>
+        <pawnKind>FCP_Unique_Pawnkind_HiddenValley_Schuler</pawnKind>
+        <xenotype>Baseliner</xenotype>
+        <faction>FCP_Faction_BoS_Lost_Hills</faction>
+        <roles>
+            <li Class="FCP.Core.CharacterRole_FactionLeader">
+                <seniority>502</seniority>
+            </li>
+        </roles>
+        <definitions>
+            <!-- Rank -->
+            <li Class="FCP.Core.CharacterRankDefinition">
+                <tier>FCP_Rank_LostHills_SeniorScribe</tier>
+            </li>
+            <!-- Bio -->
+            <li Class="FCP.Core.CharacterStoryDefinition">
+                <firstName />
+                <lastName>Schuler</lastName>
+                <nickname>Senior Scribe Schuler</nickname>
+                <gender>Female</gender>
+                <age>39</age>
+            </li>
+            <!-- Appearance -->
+            <li Class="FCP.Core.CharacterAppearanceDefinition">
+                <hairColor>(90, 70, 50)</hairColor>
+                <hairDef>Bob</hairDef>
+                <beardDef>NoBeard</beardDef>
+                <skinColorOverride>(200, 175, 150)</skinColorOverride>
+                <headTypeDef>Female_AverageNormal</headTypeDef>
+                <bodyTypeDef>Thin</bodyTypeDef>
+            </li>
+        </definitions>
+    </FCP.Core.CharacterDef>
+
+    <!-- Scribe Ibsen -->
+
+    <FCP.Core.CharacterDef>
+        <defName>FCP_Character_HiddenValley_Ibsen</defName>
+        <pawnKind>FCP_Unique_Pawnkind_HiddenValley_Ibsen</pawnKind>
+        <xenotype>Baseliner</xenotype>
+        <faction>FCP_Faction_BoS_Lost_Hills</faction>
+        <roles>
+            <li Class="FCP.Core.CharacterRole_FactionLeader">
+                <seniority>501</seniority>
+            </li>
+        </roles>
+        <definitions>
+            <!-- Rank -->
+            <li Class="FCP.Core.CharacterRankDefinition">
+                <tier>FCP_Rank_LostHills_Scribe</tier>
+            </li>
+            <!-- Bio -->
+            <li Class="FCP.Core.CharacterStoryDefinition">
+                <firstName />
+                <lastName>Ibsen</lastName>
+                <nickname>Scribe Ibsen</nickname>
+                <gender>Male</gender>
+                <age>33</age>
+            </li>
+            <!-- Appearance -->
+            <li Class="FCP.Core.CharacterAppearanceDefinition">
+                <hairColor>(95, 80, 65)</hairColor>
+                <hairDef>Messy</hairDef>
+                <beardDef>NoBeard</beardDef>
+                <skinColorOverride>(195, 170, 145)</skinColorOverride>
+                <headTypeDef>Male_AverageNormal</headTypeDef>
+                <bodyTypeDef>Thin</bodyTypeDef>
+            </li>
+        </definitions>
+    </FCP.Core.CharacterDef>
+
+</Defs>

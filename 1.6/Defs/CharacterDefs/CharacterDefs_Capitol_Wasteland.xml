@@ -18,6 +18,10 @@
             </li>
         </roles>
         <definitions>
+            <!-- Rank -->
+            <li Class="FCP.Core.CharacterRankDefinition">
+                <tier>FCP_Rank_Lyons_Champion</tier>
+            </li>
             <!-- Bio -->
             <li Class="FCP.Core.CharacterStoryDefinition">
                 <firstName>Owyn</firstName>
@@ -51,6 +55,10 @@
             </li>
         </roles>
         <definitions>
+            <!-- Rank -->
+            <li Class="FCP.Core.CharacterRankDefinition">
+                <tier>FCP_Rank_Lyons_Sentinel</tier>
+            </li>
             <!-- Bio -->
             <li Class="FCP.Core.CharacterStoryDefinition">
                 <firstName>Sarah</firstName>
@@ -84,6 +92,10 @@
             </li>
         </roles>
         <definitions>
+            <!-- Rank -->
+            <li Class="FCP.Core.CharacterRankDefinition">
+                <tier>FCP_Rank_Lyons_StarPaladin</tier>
+            </li>
             <!-- Bio -->
             <li Class="FCP.Core.CharacterStoryDefinition">
                 <firstName />
@@ -117,6 +129,10 @@
             </li>
         </roles>
         <definitions>
+            <!-- Rank -->
+            <li Class="FCP.Core.CharacterRankDefinition">
+                <tier>FCP_Rank_Lyons_Paladin</tier>
+            </li>
             <!-- Bio -->
             <li Class="FCP.Core.CharacterStoryDefinition">
                 <firstName />
@@ -150,6 +166,10 @@
             </li>
         </roles>
         <definitions>
+            <!-- Rank -->
+            <li Class="FCP.Core.CharacterRankDefinition">
+                <tier>FCP_Rank_Lyons_Paladin</tier>
+            </li>
             <!-- Bio -->
             <li Class="FCP.Core.CharacterStoryDefinition">
                 <firstName />
@@ -183,6 +203,10 @@
             </li>
         </roles>
         <definitions>
+            <!-- Rank -->
+            <li Class="FCP.Core.CharacterRankDefinition">
+                <tier>FCP_Rank_Lyons_Paladin</tier>
+            </li>
             <!-- Bio -->
             <li Class="FCP.Core.CharacterStoryDefinition">
                 <firstName />
@@ -216,6 +240,10 @@
             </li>
         </roles>
         <definitions>
+            <!-- Rank -->
+            <li Class="FCP.Core.CharacterRankDefinition">
+                <tier>FCP_Rank_Lyons_KnightCaptain</tier>
+            </li>
             <!-- Bio -->
             <li Class="FCP.Core.CharacterStoryDefinition">
                 <firstName />
@@ -249,6 +277,10 @@
             </li>
         </roles>
         <definitions>
+            <!-- Rank -->
+            <li Class="FCP.Core.CharacterRankDefinition">
+                <tier>FCP_Rank_Lyons_KnightCaptain</tier>
+            </li>
             <!-- Bio -->
             <li Class="FCP.Core.CharacterStoryDefinition">
                 <firstName />
@@ -282,6 +314,10 @@
             </li>
         </roles>
         <definitions>
+            <!-- Rank -->
+            <li Class="FCP.Core.CharacterRankDefinition">
+                <tier>FCP_Rank_Lyons_HeadScribe</tier>
+            </li>
             <!-- Bio -->
             <li Class="FCP.Core.CharacterStoryDefinition">
                 <firstName>Reginald</firstName>
@@ -296,6 +332,117 @@
                 <hairDef>FCP_Hair_Balding</hairDef>
                 <beardDef>NoBeard</beardDef>
                 <skinColorOverride>(220, 190, 160)</skinColorOverride>
+                <headTypeDef>Male_AverageNormal</headTypeDef>
+                <bodyTypeDef>Thin</bodyTypeDef>
+            </li>
+        </definitions>
+    </FCP.Core.CharacterDef>
+
+    <!-- Paladin Vargas -->
+
+    <FCP.Core.CharacterDef>
+        <defName>FCP_Character_Lyons_Paladin_Vargas</defName>
+        <pawnKind>FCP_Unique_Pawnkind_Paladin_Vargas</pawnKind>
+        <xenotype>Baseliner</xenotype>
+        <faction>FCP_Faction_BoS_Lyons_Pride_Remnants</faction>
+        <roles>
+            <li Class="FCP.Core.CharacterRole_FactionLeader">
+                <seniority>985</seniority>
+            </li>
+        </roles>
+        <definitions>
+            <!-- Rank -->
+            <li Class="FCP.Core.CharacterRankDefinition">
+                <tier>FCP_Rank_Lyons_Paladin</tier>
+            </li>
+            <!-- Bio -->
+            <li Class="FCP.Core.CharacterStoryDefinition">
+                <firstName />
+                <lastName>Vargas</lastName>
+                <nickname>Paladin Vargas</nickname>
+                <gender>Male</gender>
+                <age>46</age>
+            </li>
+            <!-- Appearance -->
+            <li Class="FCP.Core.CharacterAppearanceDefinition">
+                <hairColor>(70, 55, 40)</hairColor>
+                <hairDef>FCP_Hair_Buzz_Cut</hairDef>
+                <beardDef>NoBeard</beardDef>
+                <skinColorOverride>(145, 110, 85)</skinColorOverride>
+                <headTypeDef>Male_AverageNormal</headTypeDef>
+                <bodyTypeDef>Hulk</bodyTypeDef>
+            </li>
+        </definitions>
+    </FCP.Core.CharacterDef>
+
+    <!-- Knight Captain Colvin -->
+
+    <FCP.Core.CharacterDef>
+        <defName>FCP_Character_Lyons_Knight_Captain_Colvin</defName>
+        <pawnKind>FCP_Unique_Pawnkind_Knight_Captain_Colvin</pawnKind>
+        <xenotype>Baseliner</xenotype>
+        <faction>FCP_Faction_BoS_Lyons_Pride_Remnants</faction>
+        <roles>
+            <li Class="FCP.Core.CharacterRole_FactionLeader">
+                <seniority>984</seniority>
+            </li>
+        </roles>
+        <definitions>
+            <!-- Rank -->
+            <li Class="FCP.Core.CharacterRankDefinition">
+                <tier>FCP_Rank_Lyons_KnightCaptain</tier>
+            </li>
+            <!-- Bio -->
+            <li Class="FCP.Core.CharacterStoryDefinition">
+                <firstName />
+                <lastName>Colvin</lastName>
+                <nickname>Knight Captain Colvin</nickname>
+                <gender>Male</gender>
+                <age>40</age>
+            </li>
+            <!-- Appearance -->
+            <li Class="FCP.Core.CharacterAppearanceDefinition">
+                <hairColor>(50, 40, 35)</hairColor>
+                <hairDef>FCP_Hair_Buzz_Cut</hairDef>
+                <beardDef>NoBeard</beardDef>
+                <skinColorOverride>(175, 145, 120)</skinColorOverride>
+                <headTypeDef>Male_AverageNormal</headTypeDef>
+                <bodyTypeDef>Male</bodyTypeDef>
+            </li>
+        </definitions>
+    </FCP.Core.CharacterDef>
+
+    <!-- Scribe Peabody -->
+
+    <FCP.Core.CharacterDef>
+        <defName>FCP_Character_Lyons_Scribe_Peabody</defName>
+        <pawnKind>FCP_Unique_Pawnkind_Scribe_Peabody</pawnKind>
+        <xenotype>Baseliner</xenotype>
+        <faction>FCP_Faction_BoS_Lyons_Pride_Remnants</faction>
+        <roles>
+            <li Class="FCP.Core.CharacterRole_FactionLeader">
+                <seniority>983</seniority>
+            </li>
+        </roles>
+        <definitions>
+            <!-- Rank -->
+            <li Class="FCP.Core.CharacterRankDefinition">
+                <tier>FCP_Rank_Lyons_Scribe</tier>
+            </li>
+            <!-- Bio -->
+            <li Class="FCP.Core.CharacterStoryDefinition">
+                <firstName />
+                <lastName>Peabody</lastName>
+                <nickname>Scribe Peabody</nickname>
+                <gender>Male</gender>
+                <age>40</age>
+            </li>
+            <!-- Appearance -->
+            <li Class="FCP.Core.CharacterAppearanceDefinition">
+                <hairColor>(120, 110, 100)</hairColor>
+                <hairDef>FCP_Hair_Balding</hairDef>
+                <beardDef>NoBeard</beardDef>
+                <skinColorOverride>(195, 170, 145)</skinColorOverride>
                 <headTypeDef>Male_AverageNormal</headTypeDef>
                 <bodyTypeDef>Thin</bodyTypeDef>
             </li>
@@ -317,6 +464,10 @@
             </li>
         </roles>
         <definitions>
+            <!-- Rank -->
+            <li Class="FCP.Core.CharacterRankDefinition">
+                <tier>FCP_Rank_Outcast_Protector</tier>
+            </li>
             <!-- Bio -->
             <li Class="FCP.Core.CharacterStoryDefinition">
                 <firstName>Henry</firstName>
@@ -350,6 +501,10 @@
             </li>
         </roles>
         <definitions>
+            <!-- Rank -->
+            <li Class="FCP.Core.CharacterRankDefinition">
+                <tier>FCP_Rank_Outcast_Defender</tier>
+            </li>
             <!-- Bio -->
             <li Class="FCP.Core.CharacterStoryDefinition">
                 <firstName />
@@ -383,6 +538,10 @@
             </li>
         </roles>
         <definitions>
+            <!-- Rank -->
+            <li Class="FCP.Core.CharacterRankDefinition">
+                <tier>FCP_Rank_Outcast_Specialist</tier>
+            </li>
             <!-- Bio -->
             <li Class="FCP.Core.CharacterStoryDefinition">
                 <firstName />
@@ -416,6 +575,10 @@
             </li>
         </roles>
         <definitions>
+            <!-- Rank -->
+            <li Class="FCP.Core.CharacterRankDefinition">
+                <tier>FCP_Rank_Outcast_Protector</tier>
+            </li>
             <!-- Bio -->
             <li Class="FCP.Core.CharacterStoryDefinition">
                 <firstName />

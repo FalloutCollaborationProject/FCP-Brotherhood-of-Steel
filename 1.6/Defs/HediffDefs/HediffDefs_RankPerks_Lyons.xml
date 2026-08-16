@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <!--__________ Lyons' Pride Rank Perks __________-->
+
+    <HediffDef Name="FCP_Hediff_Lyons_RankBase" Abstract="True">
+        <hediffClass>HediffWithComps</hediffClass>
+        <isBad>false</isBad>
+        <tendable>false</tendable>
+        <scenarioCanAdd>false</scenarioCanAdd>
+        <maxSeverity>1</maxSeverity>
+        <initialSeverity>1</initialSeverity>
+    </HediffDef>
+
+    <!--_____ Path of the Knight _____-->
+
+    <HediffDef ParentName="FCP_Hediff_Lyons_RankBase">
+        <defName>FCP_Hediff_Lyons_Rank_Knight</defName>
+        <label>Pride Knight training</label>
+        <description>Combat drilling focused on defending communities, not just artifacts.</description>
+        <stages>
+            <li>
+                <statOffsets>
+                    <ShootingAccuracyPawn>2</ShootingAccuracyPawn>
+                </statOffsets>
+            </li>
+        </stages>
+    </HediffDef>
+
+    <HediffDef ParentName="FCP_Hediff_Lyons_RankBase">
+        <defName>FCP_Hediff_Lyons_Rank_KnightCaptain</defName>
+        <label>Pride Knight Captain training</label>
+        <description>Independent patrol command through the ruins of the Capital Wasteland.</description>
+        <stages>
+            <li>
+                <statOffsets>
+                    <ShootingAccuracyPawn>4</ShootingAccuracyPawn>
+                </statOffsets>
+            </li>
+        </stages>
+    </HediffDef>
+
+    <HediffDef ParentName="FCP_Hediff_Lyons_RankBase">
+        <defName>FCP_Hediff_Lyons_Rank_Paladin</defName>
+        <label>Pride Paladin training</label>
+        <description>Trusted with the Citadel's finest equipment and its most dangerous rescues.</description>
+        <stages>
+            <li>
+                <statOffsets>
+                    <ShootingAccuracyPawn>5</ShootingAccuracyPawn>
+                    <MedicalTendQuality>0.05</MedicalTendQuality>
+                </statOffsets>
+            </li>
+        </stages>
+    </HediffDef>
+
+    <HediffDef ParentName="FCP_Hediff_Lyons_RankBase">
+        <defName>FCP_Hediff_Lyons_Rank_ShieldPaladin</defName>
+        <label>Shield Paladin training</label>
+        <description>The living shield between wasteland communities and the dangers that threaten them.</description>
+        <stages>
+            <li>
+                <statOffsets>
+                    <ShootingAccuracyPawn>6</ShootingAccuracyPawn>
+                    <MedicalTendSpeed>0.15</MedicalTendSpeed>
+                    <MedicalTendQuality>0.1</MedicalTendQuality>
+                </statOffsets>
+            </li>
+        </stages>
+    </HediffDef>
+
+    <HediffDef ParentName="FCP_Hediff_Lyons_RankBase">
+        <defName>FCP_Hediff_Lyons_Rank_StarPaladin</defName>
+        <label>Star Paladin training</label>
+        <description>Chosen for extraordinary service as a bodyguard or a leader of critical rescues.</description>
+        <stages>
+            <li>
+                <statOffsets>
+                    <ShootingAccuracyPawn>8</ShootingAccuracyPawn>
+                    <MeleeDodgeChance>0.06</MeleeDodgeChance>
+                    <MedicalTendQuality>0.1</MedicalTendQuality>
+                </statOffsets>
+            </li>
+        </stages>
+    </HediffDef>
+
+    <HediffDef ParentName="FCP_Hediff_Lyons_RankBase">
+        <defName>FCP_Hediff_Lyons_Rank_Sentinel</defName>
+        <label>Pride Sentinel training</label>
+        <description>The Pride's most distinguished soldier, a rank below only Lyons' Champion.</description>
+        <stages>
+            <li>
+                <statOffsets>
+                    <ShootingAccuracyPawn>10</ShootingAccuracyPawn>
+                    <ArmorRating_Sharp>0.06</ArmorRating_Sharp>
+                    <MedicalTendSpeed>0.15</MedicalTendSpeed>
+                </statOffsets>
+            </li>
+        </stages>
+    </HediffDef>
+
+    <!--_____ Path of the Scribe _____-->
+
+    <HediffDef ParentName="FCP_Hediff_Lyons_RankBase">
+        <defName>FCP_Hediff_Lyons_Rank_Scribe</defName>
+        <label>Pride Scribe training</label>
+        <description>Laboratory work split between research and treating the Pride's wounded.</description>
+        <stages>
+            <li>
+                <statOffsets>
+                    <ResearchSpeed>0.04</ResearchSpeed>
+                    <MedicalTendQuality>0.05</MedicalTendQuality>
+                </statOffsets>
+            </li>
+        </stages>
+    </HediffDef>
+
+    <HediffDef ParentName="FCP_Hediff_Lyons_RankBase">
+        <defName>FCP_Hediff_Lyons_Rank_HeadScribe</defName>
+        <label>Pride Head Scribe training</label>
+        <description>Runs the Citadel's laboratories outright, balancing research against the demand to treat and re-equip the wounded.</description>
+        <stages>
+            <li>
+                <statOffsets>
+                    <ResearchSpeed>0.1</ResearchSpeed>
+                    <MedicalTendSpeed>0.15</MedicalTendSpeed>
+                    <MedicalTendQuality>0.1</MedicalTendQuality>
+                </statOffsets>
+            </li>
+        </stages>
+    </HediffDef>
+
+    <!--_____ Summit _____-->
+
+    <HediffDef ParentName="FCP_Hediff_Lyons_RankBase">
+        <defName>FCP_Hediff_Lyons_Rank_Champion</defName>
+        <label>Lyons' Champion training</label>
+        <description>Carries on Elder Lyons' legacy through action - compassion over dogma, humanity over tradition.</description>
+        <stages>
+            <li>
+                <statOffsets>
+                    <ShootingAccuracyPawn>8</ShootingAccuracyPawn>
+                    <SocialImpact>0.1</SocialImpact>
+                    <MedicalTendSpeed>0.15</MedicalTendSpeed>
+                    <MedicalTendQuality>0.1</MedicalTendQuality>
+                </statOffsets>
+            </li>
+        </stages>
+    </HediffDef>
+
+    <!-- Champion Presence Aura -->
+
+    <HediffDef>
+        <defName>FCP_Hediff_Lyons_Champion_Presence</defName>
+        <hediffClass>HediffWithComps</hediffClass>
+        <label>the Champion's presence</label>
+        <description>Lyons' Champion leads from the field. Nearby Pride members fight and tend with steadier hands.</description>
+        <isBad>false</isBad>
+        <tendable>false</tendable>
+        <scenarioCanAdd>false</scenarioCanAdd>
+        <maxSeverity>1</maxSeverity>
+        <initialSeverity>1</initialSeverity>
+        <comps>
+            <li Class="HediffCompProperties_Disappears">
+                <disappearsAfterTicks>310</disappearsAfterTicks>
+                <showRemainingTime>false</showRemainingTime>
+            </li>
+        </comps>
+        <stages>
+            <li>
+                <statOffsets>
+                    <MoveSpeed>0.2</MoveSpeed>
+                    <MeleeDodgeChance>0.05</MeleeDodgeChance>
+                    <MedicalTendQuality>0.05</MedicalTendQuality>
+                </statOffsets>
+            </li>
+        </stages>
+    </HediffDef>
+
+    <!-- Champion Rally -->
+
+    <HediffDef>
+        <defName>FCP_Hediff_Lyons_Champion_Rally</defName>
+        <hediffClass>HediffWithComps</hediffClass>
+        <label>rallied</label>
+        <description>Lyons' Champion has called the Pride to arms. A surge of speed and morale answers the call.</description>
+        <isBad>false</isBad>
+        <tendable>false</tendable>
+        <scenarioCanAdd>false</scenarioCanAdd>
+        <maxSeverity>1</maxSeverity>
+        <initialSeverity>1</initialSeverity>
+        <comps>
+            <li Class="HediffCompProperties_Disappears">
+                <disappearsAfterTicks>2500</disappearsAfterTicks>
+                <showRemainingTime>true</showRemainingTime>
+            </li>
+        </comps>
+        <stages>
+            <li>
+                <statOffsets>
+                    <MoveSpeed>1</MoveSpeed>
+                    <MeleeDodgeChance>0.1</MeleeDodgeChance>
+                    <ShootingAccuracyPawn>3</ShootingAccuracyPawn>
+                </statOffsets>
+            </li>
+        </stages>
+    </HediffDef>
+
+</Defs>

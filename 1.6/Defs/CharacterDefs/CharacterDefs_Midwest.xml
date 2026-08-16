@@ -15,6 +15,10 @@
         <roles>
         </roles>
         <definitions>
+            <!-- Rank -->
+            <li Class="FCP.Core.CharacterRankDefinition">
+                <tier>FCP_Rank_Midwest_General</tier>
+            </li>
             <!-- Bio -->
             <li Class="FCP.Core.CharacterStoryDefinition">
                 <firstName>Simon</firstName>
@@ -35,7 +39,7 @@
         </definitions>
     </FCP.Core.CharacterDef>
 
-    <!-- Paladin Lord Dekker -->
+    <!-- General Dekker -->
 
     <FCP.Core.CharacterDef>
         <defName>FCP_Character_Midwest_Paladin_Lord_Dekker</defName>
@@ -45,11 +49,15 @@
         <roles>
         </roles>
         <definitions>
+            <!-- Rank -->
+            <li Class="FCP.Core.CharacterRankDefinition">
+                <tier>FCP_Rank_Midwest_General</tier>
+            </li>
             <!-- Bio -->
             <li Class="FCP.Core.CharacterStoryDefinition">
                 <firstName />
                 <lastName>Dekker</lastName>
-                <nickname>Paladin Lord Dekker</nickname>
+                <nickname>General Dekker</nickname>
                 <gender>Male</gender>
                 <age>47</age>
             </li>
@@ -75,6 +83,10 @@
         <roles>
         </roles>
         <definitions>
+            <!-- Rank -->
+            <li Class="FCP.Core.CharacterRankDefinition">
+                <tier>FCP_Rank_Midwest_Paladin</tier>
+            </li>
             <!-- Bio -->
             <li Class="FCP.Core.CharacterStoryDefinition">
                 <firstName>Andrea</firstName>
@@ -105,6 +117,10 @@
         <roles>
         </roles>
         <definitions>
+            <!-- Rank -->
+            <li Class="FCP.Core.CharacterRankDefinition">
+                <tier>FCP_Rank_Midwest_SeniorPaladin</tier>
+            </li>
             <!-- Bio -->
             <li Class="FCP.Core.CharacterStoryDefinition">
                 <firstName />
@@ -125,7 +141,7 @@
         </definitions>
     </FCP.Core.CharacterDef>
 
-    <!-- Paladin Commander Stiles -->
+    <!-- Paladin Ryczek (Sarge) -->
 
     <FCP.Core.CharacterDef>
         <defName>FCP_Character_Midwest_Paladin_Commander_Stiles</defName>
@@ -135,13 +151,17 @@
         <roles>
         </roles>
         <definitions>
+            <!-- Rank -->
+            <li Class="FCP.Core.CharacterRankDefinition">
+                <tier>FCP_Rank_Midwest_Paladin</tier>
+            </li>
             <!-- Bio -->
             <li Class="FCP.Core.CharacterStoryDefinition">
                 <firstName />
-                <lastName>Stiles</lastName>
-                <nickname>Commander Stiles</nickname>
+                <lastName>Ryczek</lastName>
+                <nickname>Paladin Ryczek (Sarge)</nickname>
                 <gender>Male</gender>
-                <age>45</age>
+                <age>49</age>
             </li>
             <!-- Appearance -->
             <li Class="FCP.Core.CharacterAppearanceDefinition">
@@ -185,36 +205,6 @@
         </definitions>
     </FCP.Core.CharacterDef>
 
-    <!-- Senior Scribe Veronica -->
-
-    <FCP.Core.CharacterDef>
-        <defName>FCP_Character_Midwest_Senior_Scribe_Veronica</defName>
-        <pawnKind>FCP_Unique_Pawnkind_Senior_Scribe_Veronica</pawnKind>
-        <xenotype>Baseliner</xenotype>
-        <faction>FCP_Faction_BoS_Midwest</faction>
-        <roles>
-        </roles>
-        <definitions>
-            <!-- Bio -->
-            <li Class="FCP.Core.CharacterStoryDefinition">
-                <firstName />
-                <lastName>Veronica</lastName>
-                <nickname>Senior Scribe Veronica</nickname>
-                <gender>Female</gender>
-                <age>44</age>
-            </li>
-            <!-- Appearance -->
-            <li Class="FCP.Core.CharacterAppearanceDefinition">
-                <hairColor>(105, 85, 65)</hairColor>
-                <hairDef>FCP_Hair_Domestic_Goddess</hairDef>
-                <beardDef>NoBeard</beardDef>
-                <skinColorOverride>(215, 190, 165)</skinColorOverride>
-                <headTypeDef>Female_AverageNormal</headTypeDef>
-                <bodyTypeDef>Thin</bodyTypeDef>
-            </li>
-        </definitions>
-    </FCP.Core.CharacterDef>
-
     <!-- Knight Captain Pierce -->
 
     <FCP.Core.CharacterDef>
@@ -225,6 +215,10 @@
         <roles>
         </roles>
         <definitions>
+            <!-- Rank -->
+            <li Class="FCP.Core.CharacterRankDefinition">
+                <tier>FCP_Rank_Midwest_SeniorKnight</tier>
+            </li>
             <!-- Bio -->
             <li Class="FCP.Core.CharacterStoryDefinition">
                 <firstName />
@@ -255,6 +249,10 @@
         <roles>
         </roles>
         <definitions>
+            <!-- Rank -->
+            <li Class="FCP.Core.CharacterRankDefinition">
+                <tier>FCP_Rank_Midwest_Knight</tier>
+            </li>
             <!-- Bio -->
             <li Class="FCP.Core.CharacterStoryDefinition">
                 <firstName />

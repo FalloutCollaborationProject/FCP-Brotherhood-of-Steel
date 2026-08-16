@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <FCP.Ranks.RankTrackDef>
+        <defName>FCP_RankTrack_BoS_LostHills</defName>
+        <label>Western Chapter Ranks</label>
+        <iconPath>World_Icon/BoS_Icon/FCP_Lost_Hills_World_Icon</iconPath>
+        <rootTier>FCP_Rank_LostHills_Initiate</rootTier>
+        <owningFaction>FCP_Faction_BoS_Lost_Hills</owningFaction>
+        <allowsGearMaintenance>true</allowsGearMaintenance>
+        <collectiveNoun>the Western Chapter</collectiveNoun>
+        <drillLabel>Drill with...</drillLabel>
+        <drillDesc>Drill with any colonist. Both stop, stand apart, and draw their weapons for the session. Both gain skill XP. Once per day.</drillDesc>
+        <studyLabel>Study with...</studyLabel>
+        <studyDesc>Study scripture and technical texts with another scribe-path colonist. Both gain skill XP. Once per day.</studyDesc>
+        <inspectLabel>Gear Inspection...</inspectLabel>
+        <inspectDesc>Inspect a lower-ranked colonist's weapon and power armor condition. Well-maintained gear earns a commendation, neglected gear earns a reprimand.</inspectDesc>
+        <punishLabel>Assign Extra Duties...</punishLabel>
+        <punishDesc>Assign a lower-ranked colonist a stretch of extra duties for a discipline lapse, souring their mood. Once per day per colonist.</punishDesc>
+        <rallyLabel>Rally the Chapter</rallyLabel>
+        <rallyDesc>Rally every combat-ranked member of {0} on this map with a burst of speed and combat effectiveness. Once every few days.</rallyDesc>
+        <fallInLabel>Muster</fallInLabel>
+        <fallInDesc>Order {0} to muster behind you in ranks, up to four deep, interrupting whatever they're doing. They'll hold formation until dismissed.</fallInDesc>
+        <dismissLabel>Dismiss</dismissLabel>
+        <dismissDesc>Dismiss {0} from muster, letting them return to their duties.</dismissDesc>
+    </FCP.Ranks.RankTrackDef>
+
+    <FCP.Ranks.RankTrackDef>
+        <defName>FCP_RankTrack_BoS_Midwest</defName>
+        <label>Steel Vanguard Ranks</label>
+        <iconPath>World_Icon/BoS_Icon/FCP_Midwestern_BoS_World_Icon</iconPath>
+        <rootTier>FCP_Rank_Midwest_Initiate</rootTier>
+        <owningFaction>FCP_Faction_BoS_Midwest</owningFaction>
+        <allowsGearMaintenance>true</allowsGearMaintenance>
+        <collectiveNoun>the Steel Vanguard</collectiveNoun>
+        <drillLabel>Drill with...</drillLabel>
+        <drillDesc>Drill with any colonist. Both stop, stand apart, and draw their weapons for the session. Both gain skill XP. Once per day.</drillDesc>
+        <studyLabel>Study with...</studyLabel>
+        <studyDesc>Study scripture and technical texts with another scribe-path colonist. Both gain skill XP. Once per day.</studyDesc>
+        <inspectLabel>Gear Inspection...</inspectLabel>
+        <inspectDesc>Inspect a lower-ranked colonist's weapon and power armor condition. Well-maintained gear earns a commendation, neglected gear earns a reprimand.</inspectDesc>
+        <punishLabel>Assign Extra Duties...</punishLabel>
+        <punishDesc>Assign a lower-ranked colonist a stretch of extra duties for a discipline lapse, souring their mood. Once per day per colonist.</punishDesc>
+        <rallyLabel>Rally the Vanguard</rallyLabel>
+        <rallyDesc>Rally every combat-ranked member of {0} on this map with a burst of speed and combat effectiveness. Once every few days.</rallyDesc>
+        <fallInLabel>Muster</fallInLabel>
+        <fallInDesc>Order {0} to muster behind you in ranks, up to four deep, interrupting whatever they're doing. They'll hold formation until dismissed.</fallInDesc>
+        <dismissLabel>Dismiss</dismissLabel>
+        <dismissDesc>Dismiss {0} from muster, letting them return to their duties.</dismissDesc>
+    </FCP.Ranks.RankTrackDef>
+
+    <FCP.Ranks.RankTrackDef>
+        <defName>FCP_RankTrack_Lyons_Pride</defName>
+        <label>Lyons' Pride Ranks</label>
+        <iconPath>World_Icon/BoS_Icon/FCP_Lyons_Pride_Remnants_World_Icon</iconPath>
+        <rootTier>FCP_Rank_Lyons_Recruit</rootTier>
+        <owningFaction>FCP_Faction_BoS_Lyons_Pride_Remnants</owningFaction>
+        <allowsGearMaintenance>true</allowsGearMaintenance>
+        <collectiveNoun>Lyons' Pride</collectiveNoun>
+        <drillLabel>Drill with...</drillLabel>
+        <drillDesc>Drill with any colonist. Both stop, stand apart, and draw their weapons for the session. Both gain skill XP. Once per day.</drillDesc>
+        <studyLabel>Study with...</studyLabel>
+        <studyDesc>Study scripture and technical texts with another scribe-path colonist. Both gain skill XP. Once per day.</studyDesc>
+        <inspectLabel>Gear Inspection...</inspectLabel>
+        <inspectDesc>Inspect a lower-ranked colonist's weapon and power armor condition. Well-maintained gear earns a commendation, neglected gear earns a reprimand.</inspectDesc>
+        <punishLabel>Assign Extra Duties...</punishLabel>
+        <punishDesc>Assign a lower-ranked colonist a stretch of extra duties for a discipline lapse, souring their mood. Once per day per colonist.</punishDesc>
+        <rallyLabel>Rally the Pride</rallyLabel>
+        <rallyDesc>Rally every combat-ranked member of {0} on this map with a burst of speed and combat effectiveness. Once every few days.</rallyDesc>
+        <fallInLabel>Muster</fallInLabel>
+        <fallInDesc>Order {0} to muster behind you in ranks, up to four deep, interrupting whatever they're doing. They'll hold formation until dismissed.</fallInDesc>
+        <dismissLabel>Dismiss</dismissLabel>
+        <dismissDesc>Dismiss {0} from muster, letting them return to their duties.</dismissDesc>
+    </FCP.Ranks.RankTrackDef>
+
+    <FCP.Ranks.RankTrackDef>
+        <defName>FCP_RankTrack_Outcast</defName>
+        <label>Outcast Ranks</label>
+        <iconPath>World_Icon/BoS_Icon/FCP_Outcast_World_Icon</iconPath>
+        <rootTier>FCP_Rank_Outcast_Specialist</rootTier>
+        <owningFaction>FCP_Faction_BoS_Outcast_Remnants</owningFaction>
+        <allowsGearMaintenance>true</allowsGearMaintenance>
+        <collectiveNoun>the Outcasts</collectiveNoun>
+        <drillLabel>Drill with...</drillLabel>
+        <drillDesc>Drill with any colonist. Both stop, stand apart, and draw their weapons for the session. Both gain skill XP. Once per day.</drillDesc>
+        <studyLabel>Study with...</studyLabel>
+        <studyDesc>Study technical texts with another scribe-path colonist. Both gain skill XP. Once per day.</studyDesc>
+        <inspectLabel>Gear Inspection...</inspectLabel>
+        <inspectDesc>Inspect a lower-ranked colonist's weapon and power armor condition. Well-maintained gear earns a commendation, neglected gear earns a reprimand.</inspectDesc>
+        <punishLabel>Assign Extra Duties...</punishLabel>
+        <punishDesc>Assign a lower-ranked colonist a stretch of extra duties for a discipline lapse, souring their mood. Once per day per colonist.</punishDesc>
+        <rallyLabel>Rally the Outcasts</rallyLabel>
+        <rallyDesc>Rally every combat-ranked member of {0} on this map with a burst of speed and combat effectiveness. Once every few days.</rallyDesc>
+        <fallInLabel>Muster</fallInLabel>
+        <fallInDesc>Order {0} to muster behind you in ranks, up to four deep, interrupting whatever they're doing. They'll hold formation until dismissed.</fallInDesc>
+        <dismissLabel>Dismiss</dismissLabel>
+        <dismissDesc>Dismiss {0} from muster, letting them return to their duties.</dismissDesc>
+    </FCP.Ranks.RankTrackDef>
+
+</Defs>

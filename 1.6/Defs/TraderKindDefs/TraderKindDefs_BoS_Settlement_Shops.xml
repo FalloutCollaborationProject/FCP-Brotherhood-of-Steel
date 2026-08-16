@@ -864,10 +864,6 @@
                 <thingDef>FCP_Apparel_BoS_B35C_Armor</thingDef>
                 <countRange>1~3</countRange>
             </li>
-            <li Class="StockGenerator_SingleDef">
-                <thingDef>FCP_Apparel_BoS_B35C_Helmet</thingDef>
-                <countRange>1~3</countRange>
-            </li>
 
             <!--__ Weapons __-->
 

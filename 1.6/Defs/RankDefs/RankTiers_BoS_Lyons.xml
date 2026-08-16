@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <!--__________ Lyons' Pride Ranks __________-->
+
+    <!--_____ Trunk _____-->
+
+    <FCP.Ranks.RankTierDef>
+        <defName>FCP_Rank_Lyons_Recruit</defName>
+        <label>Recruit</label>
+        <description>New members of Lyons' Pride, sworn to protect the Capital Wasteland rather than hoard its ruins.</description>
+        <correspondingRoyalTitle MayRequire="Ludeon.RimWorld.Royalty">FCP_Title_Lyons_Pride_Recruit</correspondingRoyalTitle>
+        <nextTierOptions>
+            <li>FCP_Rank_Lyons_PrideMember</li>
+        </nextTierOptions>
+    </FCP.Ranks.RankTierDef>
+
+    <FCP.Ranks.RankTierDef>
+        <defName>FCP_Rank_Lyons_PrideMember</defName>
+        <label>Pride Member</label>
+        <description>Full members of the Pride, trusted to choose whether they'll defend the innocent with a rifle or a research terminal.</description>
+        <minDaysInRank>4</minDaysInRank>
+        <correspondingRoyalTitle MayRequire="Ludeon.RimWorld.Royalty">FCP_Title_Lyons_Pride_Member</correspondingRoyalTitle>
+        <nextTierOptions>
+            <li>FCP_Rank_Lyons_Knight</li>
+            <li>FCP_Rank_Lyons_Scribe</li>
+        </nextTierOptions>
+    </FCP.Ranks.RankTierDef>
+
+    <!--_____ Path of the Knight _____-->
+
+    <FCP.Ranks.RankTierDef>
+        <defName>FCP_Rank_Lyons_Knight</defName>
+        <label>Knight</label>
+        <description>Knights of the Pride are front-line soldiers, trained to defend wasteland communities as much as to fight for them.</description>
+        <pathName>Path of the Knight</pathName>
+        <minDaysInRank>6</minDaysInRank>
+        <skillRequirements>
+            <Shooting>4</Shooting>
+        </skillRequirements>
+        <grantHediff>FCP_Hediff_Lyons_Rank_Knight</grantHediff>
+        <trainingXpPerHour>
+            <Shooting>400</Shooting>
+            <Melee>75</Melee>
+        </trainingXpPerHour>
+        <discipline>Combat</discipline>
+        <correspondingRoyalTitle MayRequire="Ludeon.RimWorld.Royalty">FCP_Title_Lyons_Knight</correspondingRoyalTitle>
+        <nextTierOptions>
+            <li>FCP_Rank_Lyons_KnightCaptain</li>
+        </nextTierOptions>
+    </FCP.Ranks.RankTierDef>
+
+    <FCP.Ranks.RankTierDef>
+        <defName>FCP_Rank_Lyons_KnightCaptain</defName>
+        <label>Knight Captain</label>
+        <description>Knight Captains lead squads of the Pride's Knights on independent patrols through the ruins of the Capital Wasteland.</description>
+        <minDaysInRank>8</minDaysInRank>
+        <skillRequirements>
+            <Shooting>7</Shooting>
+        </skillRequirements>
+        <grantHediff>FCP_Hediff_Lyons_Rank_KnightCaptain</grantHediff>
+        <trainingXpPerHour>
+            <Shooting>600</Shooting>
+            <Melee>100</Melee>
+        </trainingXpPerHour>
+        <expedition>FCP_Expedition_Lyons_Novice</expedition>
+        <discipline>Combat</discipline>
+        <correspondingRoyalTitle MayRequire="Ludeon.RimWorld.Royalty">FCP_Title_Lyons_Knight_Captain</correspondingRoyalTitle>
+        <nextTierOptions>
+            <li>FCP_Rank_Lyons_Paladin</li>
+        </nextTierOptions>
+    </FCP.Ranks.RankTierDef>
+
+    <FCP.Ranks.RankTierDef>
+        <defName>FCP_Rank_Lyons_Paladin</defName>
+        <label>Paladin</label>
+        <description>Paladins have proven themselves in enough engagements to be trusted with the Citadel's finest equipment and its most dangerous rescues.</description>
+        <minDaysInRank>11</minDaysInRank>
+        <skillRequirements>
+            <Shooting>10</Shooting>
+            <Medicine>4</Medicine>
+        </skillRequirements>
+        <grantHediff>FCP_Hediff_Lyons_Rank_Paladin</grantHediff>
+        <trainingXpPerHour>
+            <Shooting>750</Shooting>
+            <Melee>150</Melee>
+            <Medicine>75</Medicine>
+        </trainingXpPerHour>
+        <expedition>FCP_Expedition_Lyons_Veteran</expedition>
+        <discipline>Combat</discipline>
+        <correspondingRoyalTitle MayRequire="Ludeon.RimWorld.Royalty">FCP_Title_Lyons_Paladin</correspondingRoyalTitle>
+        <nextTierOptions>
+            <li>FCP_Rank_Lyons_ShieldPaladin</li>
+        </nextTierOptions>
+    </FCP.Ranks.RankTierDef>
+
+    <FCP.Ranks.RankTierDef>
+        <defName>FCP_Rank_Lyons_ShieldPaladin</defName>
+        <label>Shield Paladin</label>
+        <description>The Shield Paladins are the Pride's elite - the living shield between wasteland communities and the dangers that threaten them.</description>
+        <minDaysInRank>14</minDaysInRank>
+        <skillRequirements>
+            <Shooting>13</Shooting>
+            <Medicine>6</Medicine>
+        </skillRequirements>
+        <minSquiresTrained>1</minSquiresTrained>
+        <grantHediff>FCP_Hediff_Lyons_Rank_ShieldPaladin</grantHediff>
+        <trainingXpPerHour>
+            <Shooting>850</Shooting>
+            <Melee>150</Melee>
+            <Medicine>100</Medicine>
+        </trainingXpPerHour>
+        <expedition>FCP_Expedition_Lyons_Elite</expedition>
+        <discipline>Combat</discipline>
+        <correspondingRoyalTitle MayRequire="Ludeon.RimWorld.Royalty">FCP_Title_Lyons_Pride_Shield</correspondingRoyalTitle>
+        <correspondingIdeoRole MayRequire="Ludeon.RimWorld.Ideology">FCP_IdeoRole_Lyons_Shield</correspondingIdeoRole>
+        <nextTierOptions>
+            <li>FCP_Rank_Lyons_StarPaladin</li>
+        </nextTierOptions>
+    </FCP.Ranks.RankTierDef>
+
+    <FCP.Ranks.RankTierDef>
+        <defName>FCP_Rank_Lyons_StarPaladin</defName>
+        <label>Star Paladin</label>
+        <description>Star Paladins are chosen for extraordinary service, serving as personal bodyguards to the Pride's leadership or leading its most critical rescues.</description>
+        <minDaysInRank>18</minDaysInRank>
+        <skillRequirements>
+            <Shooting>16</Shooting>
+            <Medicine>7</Medicine>
+        </skillRequirements>
+        <minSquiresTrained>2</minSquiresTrained>
+        <grantHediff>FCP_Hediff_Lyons_Rank_StarPaladin</grantHediff>
+        <trainingXpPerHour>
+            <Shooting>950</Shooting>
+            <Melee>200</Melee>
+            <Medicine>100</Medicine>
+        </trainingXpPerHour>
+        <expedition>FCP_Expedition_Lyons_Elite</expedition>
+        <discipline>Combat</discipline>
+        <correspondingRoyalTitle MayRequire="Ludeon.RimWorld.Royalty">FCP_Title_Lyons_Star_Paladin</correspondingRoyalTitle>
+        <nextTierOptions>
+            <li>FCP_Rank_Lyons_Sentinel</li>
+        </nextTierOptions>
+    </FCP.Ranks.RankTierDef>
+
+    <FCP.Ranks.RankTierDef>
+        <defName>FCP_Rank_Lyons_Sentinel</defName>
+        <label>Sentinel</label>
+        <description>Sentinel is reserved for the Pride's most distinguished soldier, a rank below only Lyons' Champion and traditionally held by the Elder's own kin.</description>
+        <minDaysInRank>22</minDaysInRank>
+        <skillRequirements>
+            <Shooting>18</Shooting>
+            <Medicine>8</Medicine>
+        </skillRequirements>
+        <minSquiresTrained>2</minSquiresTrained>
+        <minMissionsCompleted>2</minMissionsCompleted>
+        <grantHediff>FCP_Hediff_Lyons_Rank_Sentinel</grantHediff>
+        <trainingXpPerHour>
+            <Shooting>1050</Shooting>
+            <Melee>200</Melee>
+            <Medicine>125</Medicine>
+        </trainingXpPerHour>
+        <expedition>FCP_Expedition_Lyons_Sentinel</expedition>
+        <discipline>Combat</discipline>
+        <correspondingRoyalTitle MayRequire="Ludeon.RimWorld.Royalty">FCP_Title_Lyons_Sentinel</correspondingRoyalTitle>
+        <nextTierOptions>
+            <li>FCP_Rank_Lyons_Champion</li>
+        </nextTierOptions>
+    </FCP.Ranks.RankTierDef>
+
+    <!--_____ Path of the Scribe _____-->
+
+    <FCP.Ranks.RankTierDef>
+        <defName>FCP_Rank_Lyons_Scribe</defName>
+        <label>Scribe</label>
+        <description>Lyons' Pride Scribes keep the Citadel's laboratories running, splitting their time between preserving technology and treating the wounded the Pride brings home.</description>
+        <pathName>Path of the Scribe</pathName>
+        <minDaysInRank>6</minDaysInRank>
+        <skillRequirements>
+            <Intellectual>4</Intellectual>
+        </skillRequirements>
+        <grantHediff>FCP_Hediff_Lyons_Rank_Scribe</grantHediff>
+        <trainingXpPerHour>
+            <Crafting>400</Crafting>
+            <Intellectual>150</Intellectual>
+            <Medicine>75</Medicine>
+        </trainingXpPerHour>
+        <discipline>Scholarly</discipline>
+        <correspondingRoyalTitle MayRequire="Ludeon.RimWorld.Royalty">FCP_Title_Lyons_Scribe</correspondingRoyalTitle>
+        <nextTierOptions>
+            <li>FCP_Rank_Lyons_HeadScribe</li>
+        </nextTierOptions>
+    </FCP.Ranks.RankTierDef>
+
+    <FCP.Ranks.RankTierDef>
+        <defName>FCP_Rank_Lyons_HeadScribe</defName>
+        <label>Head Scribe</label>
+        <description>The Head Scribe runs the Citadel's laboratories outright, balancing research against the constant demand to treat and re-equip the Pride's wounded.</description>
+        <minDaysInRank>16</minDaysInRank>
+        <skillRequirements>
+            <Intellectual>14</Intellectual>
+            <Medicine>8</Medicine>
+        </skillRequirements>
+        <minSquiresTrained>2</minSquiresTrained>
+        <grantHediff>FCP_Hediff_Lyons_Rank_HeadScribe</grantHediff>
+        <trainingXpPerHour>
+            <Crafting>900</Crafting>
+            <Intellectual>300</Intellectual>
+            <Medicine>150</Medicine>
+        </trainingXpPerHour>
+        <expedition>FCP_Expedition_Lyons_Veteran</expedition>
+        <discipline>Scholarly</discipline>
+        <correspondingRoyalTitle MayRequire="Ludeon.RimWorld.Royalty">FCP_Title_Lyons_Head_Scribe</correspondingRoyalTitle>
+        <nextTierOptions>
+            <li>FCP_Rank_Lyons_Champion</li>
+        </nextTierOptions>
+    </FCP.Ranks.RankTierDef>
+
+    <!--_____ Summit _____-->
+
+    <FCP.Ranks.RankTierDef>
+        <defName>FCP_Rank_Lyons_Champion</defName>
+        <label>Lyons' Champion</label>
+        <description>The pinnacle of Lyons' Pride, carrying on Elder Lyons' legacy through action rather than doctrine - compassion over dogma, humanity over tradition.</description>
+        <minDaysInRank>26</minDaysInRank>
+        <skillRequirements>
+            <Social>10</Social>
+        </skillRequirements>
+        <minMissionsCompleted>3</minMissionsCompleted>
+        <grantHediff>FCP_Hediff_Lyons_Rank_Champion</grantHediff>
+        <trainingXpPerHour>
+            <Shooting>1150</Shooting>
+            <Medicine>150</Medicine>
+            <Social>150</Social>
+        </trainingXpPerHour>
+        <expedition>FCP_Expedition_Lyons_Sentinel</expedition>
+        <correspondingRoyalTitle MayRequire="Ludeon.RimWorld.Royalty">FCP_Title_Lyons_Champion</correspondingRoyalTitle>
+        <isCommanderTier>true</isCommanderTier>
+        <auraRadius>16</auraRadius>
+        <auraHediff>FCP_Hediff_Lyons_Champion_Presence</auraHediff>
+        <rallyHediff>FCP_Hediff_Lyons_Champion_Rally</rallyHediff>
+        <rallyCooldownDays>2</rallyCooldownDays>
+    </FCP.Ranks.RankTierDef>
+
+</Defs>

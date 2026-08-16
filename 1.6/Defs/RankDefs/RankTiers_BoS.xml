@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <!--__________ Brotherhood Ranks __________-->
+
+    <!--_____ Trunk _____-->
+
+    <FCP.Ranks.RankTierDef>
+        <defName>FCP_Rank_BoS_Initiate</defName>
+        <label>Initiate</label>
+        <description>The lowest rank in the Brotherhood. Initiates are in training, learning the Brotherhood's ways and proving their worth.</description>
+        <correspondingRoyalTitle MayRequire="Ludeon.RimWorld.Royalty">FCP_Title_BoS_Initiate</correspondingRoyalTitle>
+        <nextTierOptions>
+            <li>FCP_Rank_BoS_Squire</li>
+        </nextTierOptions>
+    </FCP.Ranks.RankTierDef>
+
+    <FCP.Ranks.RankTierDef>
+        <defName>FCP_Rank_BoS_Squire</defName>
+        <label>Squire</label>
+        <description>Squires shadow full members of the Brotherhood, running errands and learning the trade before they're old enough to choose a path.</description>
+        <minDaysInRank>3</minDaysInRank>
+        <correspondingRoyalTitle MayRequire="Ludeon.RimWorld.Royalty">FCP_Title_BoS_Squire</correspondingRoyalTitle>
+        <nextTierOptions>
+            <li>FCP_Rank_BoS_Aspirant</li>
+        </nextTierOptions>
+    </FCP.Ranks.RankTierDef>
+
+    <FCP.Ranks.RankTierDef>
+        <defName>FCP_Rank_BoS_Aspirant</defName>
+        <label>Aspirant</label>
+        <description>Aspirants stand at the fork in the road every Brotherhood member faces: the sword or the quill.</description>
+        <minDaysInRank>5</minDaysInRank>
+        <correspondingRoyalTitle MayRequire="Ludeon.RimWorld.Royalty">FCP_Title_BoS_Aspirant</correspondingRoyalTitle>
+        <nextTierOptions>
+            <li>FCP_Rank_BoS_KnightInitiate</li>
+            <li>FCP_Rank_BoS_ScribeInitiate</li>
+        </nextTierOptions>
+    </FCP.Ranks.RankTierDef>
+
+    <!--_____ Path of the Sword _____-->
+
+    <FCP.Ranks.RankTierDef>
+        <defName>FCP_Rank_BoS_KnightInitiate</defName>
+        <label>Knight Initiate</label>
+        <description>Having chosen the path of the sword, a Knight Initiate drills in power armor operation and combat doctrine.</description>
+        <pathName>Path of the Sword</pathName>
+        <minDaysInRank>5</minDaysInRank>
+        <skillRequirements>
+            <Shooting>3</Shooting>
+        </skillRequirements>
+        <grantHediff>FCP_Hediff_BoS_Rank_KnightInitiate</grantHediff>
+        <trainingXpPerHour>
+            <Shooting>300</Shooting>
+            <Melee>50</Melee>
+        </trainingXpPerHour>
+        <discipline>Combat</discipline>
+        <correspondingRoyalTitle MayRequire="Ludeon.RimWorld.Royalty">FCP_Title_BoS_Knight_Initiate</correspondingRoyalTitle>
+        <nextTierOptions>
+            <li>FCP_Rank_BoS_Knight</li>
+        </nextTierOptions>
+    </FCP.Ranks.RankTierDef>
+
+    <FCP.Ranks.RankTierDef>
+        <defName>FCP_Rank_BoS_Knight</defName>
+        <label>Knight</label>
+        <description>Knights are the Brotherhood's front-line warriors, fully trained in combat operations and power armor maintenance.</description>
+        <minDaysInRank>7</minDaysInRank>
+        <skillRequirements>
+            <Shooting>6</Shooting>
+        </skillRequirements>
+        <grantHediff>FCP_Hediff_BoS_Rank_Knight</grantHediff>
+        <trainingXpPerHour>
+            <Shooting>600</Shooting>
+            <Melee>100</Melee>
+        </trainingXpPerHour>
+        <expedition>FCP_Expedition_BoS_Novice</expedition>
+        <discipline>Combat</discipline>
+        <correspondingRoyalTitle MayRequire="Ludeon.RimWorld.Royalty">FCP_Title_BoS_Knight</correspondingRoyalTitle>
+        <nextTierOptions>
+            <li>FCP_Rank_BoS_SeniorKnight</li>
+        </nextTierOptions>
+    </FCP.Ranks.RankTierDef>
+
+    <FCP.Ranks.RankTierDef>
+        <defName>FCP_Rank_BoS_SeniorKnight</defName>
+        <label>Senior Knight</label>
+        <description>Senior Knights have logged years of field service, earning the trust to lead smaller patrols.</description>
+        <minDaysInRank>10</minDaysInRank>
+        <skillRequirements>
+            <Shooting>9</Shooting>
+            <Melee>4</Melee>
+        </skillRequirements>
+        <grantHediff>FCP_Hediff_BoS_Rank_SeniorKnight</grantHediff>
+        <trainingXpPerHour>
+            <Shooting>700</Shooting>
+            <Melee>150</Melee>
+        </trainingXpPerHour>
+        <expedition>FCP_Expedition_BoS_Novice</expedition>
+        <discipline>Combat</discipline>
+        <correspondingRoyalTitle MayRequire="Ludeon.RimWorld.Royalty">FCP_Title_BoS_Senior_Knight</correspondingRoyalTitle>
+        <nextTierOptions>
+            <li>FCP_Rank_BoS_KnightCommander</li>
+        </nextTierOptions>
+    </FCP.Ranks.RankTierDef>
+
+    <FCP.Ranks.RankTierDef>
+        <defName>FCP_Rank_BoS_KnightCommander</defName>
+        <label>Knight Commander</label>
+        <description>Knight Commanders answer for entire squads in the field, the last rank before Paladin.</description>
+        <minDaysInRank>12</minDaysInRank>
+        <skillRequirements>
+            <Shooting>11</Shooting>
+            <Social>4</Social>
+        </skillRequirements>
+        <grantHediff>FCP_Hediff_BoS_Rank_KnightCommander</grantHediff>
+        <trainingXpPerHour>
+            <Shooting>800</Shooting>
+            <Melee>150</Melee>
+            <Social>50</Social>
+        </trainingXpPerHour>
+        <expedition>FCP_Expedition_BoS_Veteran</expedition>
+        <discipline>Combat</discipline>
+        <correspondingRoyalTitle MayRequire="Ludeon.RimWorld.Royalty">FCP_Title_BoS_Knight_Commander</correspondingRoyalTitle>
+        <nextTierOptions>
+            <li>FCP_Rank_BoS_Paladin</li>
+        </nextTierOptions>
+    </FCP.Ranks.RankTierDef>
+
+    <FCP.Ranks.RankTierDef>
+        <defName>FCP_Rank_BoS_Paladin</defName>
+        <label>Paladin</label>
+        <description>Paladins are the Brotherhood's elite warriors and field commanders, clad in the finest power armor.</description>
+        <minDaysInRank>15</minDaysInRank>
+        <skillRequirements>
+            <Shooting>13</Shooting>
+            <Melee>8</Melee>
+        </skillRequirements>
+        <grantHediff>FCP_Hediff_BoS_Rank_Paladin</grantHediff>
+        <trainingXpPerHour>
+            <Shooting>900</Shooting>
+            <Melee>200</Melee>
+        </trainingXpPerHour>
+        <expedition>FCP_Expedition_BoS_Veteran</expedition>
+        <discipline>Combat</discipline>
+        <correspondingRoyalTitle MayRequire="Ludeon.RimWorld.Royalty">FCP_Title_BoS_Paladin</correspondingRoyalTitle>
+        <correspondingIdeoRole MayRequire="Ludeon.RimWorld.Ideology">FCP_IdeoRole_Paladin</correspondingIdeoRole>
+        <nextTierOptions>
+            <li>FCP_Rank_BoS_SeniorPaladin</li>
+        </nextTierOptions>
+    </FCP.Ranks.RankTierDef>
+
+    <FCP.Ranks.RankTierDef>
+        <defName>FCP_Rank_BoS_SeniorPaladin</defName>
+        <label>Senior Paladin</label>
+        <description>Senior Paladins have led enough operations to be trusted with independent command.</description>
+        <minDaysInRank>15</minDaysInRank>
+        <skillRequirements>
+            <Shooting>15</Shooting>
+        </skillRequirements>
+        <grantHediff>FCP_Hediff_BoS_Rank_SeniorPaladin</grantHediff>
+        <trainingXpPerHour>
+            <Shooting>1000</Shooting>
+            <Melee>200</Melee>
+        </trainingXpPerHour>
+        <expedition>FCP_Expedition_BoS_Veteran</expedition>
+        <discipline>Combat</discipline>
+        <correspondingRoyalTitle MayRequire="Ludeon.RimWorld.Royalty">FCP_Title_BoS_Senior_Paladin</correspondingRoyalTitle>
+        <nextTierOptions>
+            <li>FCP_Rank_BoS_HeadPaladin</li>
+        </nextTierOptions>
+    </FCP.Ranks.RankTierDef>
+
+    <FCP.Ranks.RankTierDef>
+        <defName>FCP_Rank_BoS_HeadPaladin</defName>
+        <label>Head Paladin</label>
+        <description>The Head Paladin commands the chapter's military arm, directing Paladins and Knights alike.</description>
+        <minDaysInRank>20</minDaysInRank>
+        <skillRequirements>
+            <Shooting>16</Shooting>
+            <Social>8</Social>
+        </skillRequirements>
+        <minSquiresTrained>2</minSquiresTrained>
+        <grantHediff>FCP_Hediff_BoS_Rank_HeadPaladin</grantHediff>
+        <trainingXpPerHour>
+            <Shooting>1000</Shooting>
+            <Melee>200</Melee>
+            <Social>100</Social>
+        </trainingXpPerHour>
+        <expedition>FCP_Expedition_BoS_Elite</expedition>
+        <discipline>Combat</discipline>
+        <correspondingRoyalTitle MayRequire="Ludeon.RimWorld.Royalty">FCP_Title_BoS_Head_Paladin</correspondingRoyalTitle>
+        <nextTierOptions>
+            <li>FCP_Rank_BoS_StarPaladin</li>
+        </nextTierOptions>
+    </FCP.Ranks.RankTierDef>
+
+    <FCP.Ranks.RankTierDef>
+        <defName>FCP_Rank_BoS_StarPaladin</defName>
+        <label>Star Paladin</label>
+        <description>Star Paladins are chosen for extraordinary service, often serving as personal bodyguards or leading critical missions.</description>
+        <minDaysInRank>20</minDaysInRank>
+        <skillRequirements>
+            <Shooting>18</Shooting>
+            <Melee>12</Melee>
+        </skillRequirements>
+        <grantHediff>FCP_Hediff_BoS_Rank_StarPaladin</grantHediff>
+        <trainingXpPerHour>
+            <Shooting>1100</Shooting>
+            <Melee>250</Melee>
+        </trainingXpPerHour>
+        <expedition>FCP_Expedition_BoS_Elite</expedition>
+        <discipline>Combat</discipline>
+        <correspondingRoyalTitle MayRequire="Ludeon.RimWorld.Royalty">FCP_Title_BoS_Star_Paladin</correspondingRoyalTitle>
+        <nextTierOptions>
+            <li>FCP_Rank_BoS_Sentinel</li>
+        </nextTierOptions>
+    </FCP.Ranks.RankTierDef>
+
+    <FCP.Ranks.RankTierDef>
+        <defName>FCP_Rank_BoS_Sentinel</defName>
+        <label>Sentinel</label>
+        <description>Sentinel is reserved for the chapter's most distinguished and experienced soldier, a rank below only the Elder.</description>
+        <minDaysInRank>25</minDaysInRank>
+        <skillRequirements>
+            <Shooting>20</Shooting>
+        </skillRequirements>
+        <minSquiresTrained>3</minSquiresTrained>
+        <minMissionsCompleted>3</minMissionsCompleted>
+        <grantHediff>FCP_Hediff_BoS_Rank_Sentinel</grantHediff>
+        <trainingXpPerHour>
+            <Shooting>1200</Shooting>
+            <Melee>250</Melee>
+        </trainingXpPerHour>
+        <expedition>FCP_Expedition_BoS_Sentinel</expedition>
+        <discipline>Combat</discipline>
+        <correspondingRoyalTitle MayRequire="Ludeon.RimWorld.Royalty">FCP_Title_BoS_Sentinel</correspondingRoyalTitle>
+        <nextTierOptions>
+            <li>FCP_Rank_BoS_Elder</li>
+        </nextTierOptions>
+    </FCP.Ranks.RankTierDef>
+
+    <!--_____ Path of the Quill _____-->
+
+    <FCP.Ranks.RankTierDef>
+        <defName>FCP_Rank_BoS_ScribeInitiate</defName>
+        <label>Scribe Initiate</label>
+        <description>Having chosen the path of the quill, a Scribe Initiate is assigned to the archives and workshops.</description>
+        <pathName>Path of the Quill</pathName>
+        <minDaysInRank>5</minDaysInRank>
+        <skillRequirements>
+            <Intellectual>3</Intellectual>
+        </skillRequirements>
+        <grantHediff>FCP_Hediff_BoS_Rank_ScribeInitiate</grantHediff>
+        <trainingXpPerHour>
+            <Crafting>400</Crafting>
+            <Intellectual>100</Intellectual>
+        </trainingXpPerHour>
+        <discipline>Scholarly</discipline>
+        <correspondingRoyalTitle MayRequire="Ludeon.RimWorld.Royalty">FCP_Title_BoS_Scribe_Initiate</correspondingRoyalTitle>
+        <nextTierOptions>
+            <li>FCP_Rank_BoS_Scribe</li>
+        </nextTierOptions>
+    </FCP.Ranks.RankTierDef>
+
+    <FCP.Ranks.RankTierDef>
+        <defName>FCP_Rank_BoS_Scribe</defName>
+        <label>Scribe</label>
+        <description>Scribes are the Brotherhood's scholars and technicians, dedicated to preserving pre-War technology.</description>
+        <minDaysInRank>7</minDaysInRank>
+        <skillRequirements>
+            <Intellectual>6</Intellectual>
+        </skillRequirements>
+        <grantHediff>FCP_Hediff_BoS_Rank_Scribe</grantHediff>
+        <trainingXpPerHour>
+            <Crafting>800</Crafting>
+            <Intellectual>200</Intellectual>
+            <Medicine>100</Medicine>
+        </trainingXpPerHour>
+        <expedition>FCP_Expedition_BoS_Novice</expedition>
+        <discipline>Scholarly</discipline>
+        <correspondingRoyalTitle MayRequire="Ludeon.RimWorld.Royalty">FCP_Title_BoS_Scribe</correspondingRoyalTitle>
+        <nextTierOptions>
+            <li>FCP_Rank_BoS_SeniorScribe</li>
+        </nextTierOptions>
+    </FCP.Ranks.RankTierDef>
+
+    <FCP.Ranks.RankTierDef>
+        <defName>FCP_Rank_BoS_SeniorScribe</defName>
+        <label>Senior Scribe</label>
+        <description>Senior Scribes have succeeded on projects of real consequence, taking on research leadership.</description>
+        <minDaysInRank>10</minDaysInRank>
+        <skillRequirements>
+            <Intellectual>9</Intellectual>
+            <Crafting>4</Crafting>
+        </skillRequirements>
+        <grantHediff>FCP_Hediff_BoS_Rank_SeniorScribe</grantHediff>
+        <trainingXpPerHour>
+            <Crafting>900</Crafting>
+            <Intellectual>250</Intellectual>
+            <Medicine>100</Medicine>
+        </trainingXpPerHour>
+        <expedition>FCP_Expedition_BoS_Novice</expedition>
+        <discipline>Scholarly</discipline>
+        <correspondingRoyalTitle MayRequire="Ludeon.RimWorld.Royalty">FCP_Title_BoS_Senior_Scribe</correspondingRoyalTitle>
+        <nextTierOptions>
+            <li>FCP_Rank_BoS_Proctor</li>
+        </nextTierOptions>
+    </FCP.Ranks.RankTierDef>
+
+    <FCP.Ranks.RankTierDef>
+        <defName>FCP_Rank_BoS_Proctor</defName>
+        <label>Proctor</label>
+        <description>A Proctor oversees an entire order of Scribes, approving their projects and assigning the right minds to the right work.</description>
+        <minDaysInRank>20</minDaysInRank>
+        <skillRequirements>
+            <Intellectual>15</Intellectual>
+        </skillRequirements>
+        <minSquiresTrained>2</minSquiresTrained>
+        <grantHediff>FCP_Hediff_BoS_Rank_Proctor</grantHediff>
+        <trainingXpPerHour>
+            <Crafting>900</Crafting>
+            <Intellectual>300</Intellectual>
+            <Social>100</Social>
+        </trainingXpPerHour>
+        <expedition>FCP_Expedition_BoS_Veteran</expedition>
+        <discipline>Scholarly</discipline>
+        <correspondingRoyalTitle MayRequire="Ludeon.RimWorld.Royalty">FCP_Title_BoS_Proctor</correspondingRoyalTitle>
+        <nextTierOptions>
+            <li>FCP_Rank_BoS_HeadScribe</li>
+        </nextTierOptions>
+    </FCP.Ranks.RankTierDef>
+
+    <FCP.Ranks.RankTierDef>
+        <defName>FCP_Rank_BoS_HeadScribe</defName>
+        <label>Head Scribe</label>
+        <description>The Head Scribe is the highest-ranking civilian authority in the chapter.</description>
+        <minDaysInRank>25</minDaysInRank>
+        <skillRequirements>
+            <Intellectual>18</Intellectual>
+        </skillRequirements>
+        <minSquiresTrained>3</minSquiresTrained>
+        <minMissionsCompleted>3</minMissionsCompleted>
+        <grantHediff>FCP_Hediff_BoS_Rank_HeadScribe</grantHediff>
+        <trainingXpPerHour>
+            <Crafting>1000</Crafting>
+            <Intellectual>350</Intellectual>
+            <Social>100</Social>
+        </trainingXpPerHour>
+        <expedition>FCP_Expedition_BoS_Sentinel</expedition>
+        <discipline>Scholarly</discipline>
+        <correspondingRoyalTitle MayRequire="Ludeon.RimWorld.Royalty">FCP_Title_BoS_Head_Scribe</correspondingRoyalTitle>
+        <nextTierOptions>
+            <li>FCP_Rank_BoS_Elder</li>
+        </nextTierOptions>
+    </FCP.Ranks.RankTierDef>
+
+    <!--_____ Summit _____-->
+
+    <FCP.Ranks.RankTierDef>
+        <defName>FCP_Rank_BoS_Elder</defName>
+        <label>Elder</label>
+        <description>The Elder is the supreme commander of a Brotherhood chapter, responsible for all strategic decisions and the chapter's overall direction.</description>
+        <minDaysInRank>30</minDaysInRank>
+        <skillRequirements>
+            <Social>10</Social>
+        </skillRequirements>
+        <grantHediff>FCP_Hediff_BoS_Rank_Elder</grantHediff>
+        <trainingXpPerHour>
+            <Shooting>1200</Shooting>
+            <Intellectual>350</Intellectual>
+            <Social>150</Social>
+        </trainingXpPerHour>
+        <expedition>FCP_Expedition_BoS_Sentinel</expedition>
+        <correspondingRoyalTitle MayRequire="Ludeon.RimWorld.Royalty">FCP_Title_BoS_Elder</correspondingRoyalTitle>
+        <isCommanderTier>true</isCommanderTier>
+        <auraRadius>16</auraRadius>
+        <auraHediff>FCP_Hediff_BoS_Elder_Presence</auraHediff>
+        <rallyHediff>FCP_Hediff_BoS_Elder_Rally</rallyHediff>
+        <rallyCooldownDays>2</rallyCooldownDays>
+    </FCP.Ranks.RankTierDef>
+
+</Defs>

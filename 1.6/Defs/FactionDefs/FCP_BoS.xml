@@ -188,6 +188,11 @@
 					<li>FCP_Enlistment_BoS</li>
 				</enlistOptionsDefs>
 			</li>
+			<li Class="FCP.Ranks.FactionExtension_RankTracks">
+				<rankTracks>
+					<li>FCP_RankTrack_BoS</li>
+				</rankTracks>
+			</li>
 			<li Class="FCP.Currencies.CurrencyReplacement">
 				<currency>FCP_Currency_BoS_Scrip</currency>
 			</li>

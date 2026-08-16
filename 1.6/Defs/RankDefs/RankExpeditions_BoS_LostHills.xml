@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <!--__________ Lost Hills Rank Expeditions __________-->
+
+    <!-- Veteran -->
+
+    <FCP.Ranks.RankExpeditionDef>
+        <defName>FCP_Expedition_LostHills_Veteran</defName>
+        <label>reclamation run</label>
+        <description>A deep patrol into contested territory to recover pre-War technology worthy of the founding chapter's archives.</description>
+        <durationDays>6~8</durationDays>
+        <xpReward>
+            <Shooting>400</Shooting>
+            <Intellectual>150</Intellectual>
+        </xpReward>
+        <lootMaker>FCP_BoSExpeditionLootMaker</lootMaker>
+        <lootMarketValueRange>150~350</lootMarketValueRange>
+        <siteRevealChance>0.25</siteRevealChance>
+        <failureChance>0.1</failureChance>
+        <returnFlavorKeys>
+            <li>FCP_Rank_Expedition_LostHills_Veteran_1</li>
+            <li>FCP_Rank_Expedition_LostHills_Veteran_2</li>
+            <li>FCP_Rank_Expedition_LostHills_Veteran_3</li>
+            <li>FCP_Rank_Expedition_LostHills_Veteran_4</li>
+        </returnFlavorKeys>
+    </FCP.Ranks.RankExpeditionDef>
+
+    <!-- Elite -->
+
+    <FCP.Ranks.RankExpeditionDef>
+        <defName>FCP_Expedition_LostHills_Elite</defName>
+        <label>bloodline trial</label>
+        <description>A solo operation deep into dangerous territory, the kind only a Senior Paladin of proven bloodline is trusted to run alone.</description>
+        <durationDays>8~10</durationDays>
+        <xpReward>
+            <Shooting>600</Shooting>
+            <Intellectual>200</Intellectual>
+        </xpReward>
+        <lootMaker>FCP_BoSExpeditionLootMaker</lootMaker>
+        <lootMarketValueRange>300~600</lootMarketValueRange>
+        <siteRevealChance>0.35</siteRevealChance>
+        <failureChance>0.08</failureChance>
+        <returnFlavorKeys>
+            <li>FCP_Rank_Expedition_LostHills_Elite_1</li>
+            <li>FCP_Rank_Expedition_LostHills_Elite_2</li>
+            <li>FCP_Rank_Expedition_LostHills_Elite_3</li>
+            <li>FCP_Rank_Expedition_LostHills_Elite_4</li>
+        </returnFlavorKeys>
+    </FCP.Ranks.RankExpeditionDef>
+
+    <!-- Sentinel -->
+
+    <FCP.Ranks.RankExpeditionDef>
+        <defName>FCP_Expedition_LostHills_Sentinel</defName>
+        <label>Codex expedition</label>
+        <description>A long-range expedition undertaken in the name of the original Codex, the kind of mission that decides what the Western Chapter remembers and what it lets the wasteland keep.</description>
+        <durationDays>10~14</durationDays>
+        <xpReward>
+            <Shooting>800</Shooting>
+            <Intellectual>250</Intellectual>
+        </xpReward>
+        <lootMaker>FCP_BoSExpeditionLootMaker</lootMaker>
+        <lootMarketValueRange>500~900</lootMarketValueRange>
+        <siteRevealChance>0.5</siteRevealChance>
+        <failureChance>0.05</failureChance>
+        <returnFlavorKeys>
+            <li>FCP_Rank_Expedition_LostHills_Sentinel_1</li>
+            <li>FCP_Rank_Expedition_LostHills_Sentinel_2</li>
+            <li>FCP_Rank_Expedition_LostHills_Sentinel_3</li>
+            <li>FCP_Rank_Expedition_LostHills_Sentinel_4</li>
+        </returnFlavorKeys>
+    </FCP.Ranks.RankExpeditionDef>
+
+</Defs>

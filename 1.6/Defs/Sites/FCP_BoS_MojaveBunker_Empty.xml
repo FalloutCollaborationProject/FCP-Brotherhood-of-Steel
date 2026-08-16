@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <!--__________ Mojave Bunker Shell __________-->
+
+    <ThingDef ParentName="BuildingBase" Name="FCP_BoS_MojaveBunker_Entrance_North">
+        <defName>FCP_BoS_MojaveBunker_Entrance_North</defName>
+        <label>bunker breach (north)</label>
+        <description>A collapsed section of a Brotherhood of Steel bunker, breached from above. The passage leads down into an abandoned, stripped-out facility.</description>
+        <size>(5,5)</size>
+        <useHitPoints>false</useHitPoints>
+        <thingClass>FCP.PocketMaps.PresettableMapPortal</thingClass>
+        <rotatable>false</rotatable>
+        <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+        <canOverlapZones>false</canOverlapZones>
+        <tickerType>Normal</tickerType>
+        <graphicData>
+            <graphicClass>Graphic_Single</graphicClass>
+            <texPath>FCP_Bunker_Entrance</texPath>
+            <drawSize>(5, 5)</drawSize>
+        </graphicData>
+        <altitudeLayer>FloorEmplacement</altitudeLayer>
+        <fillPercent>0</fillPercent>
+        <passability>Impassable</passability>
+        <holdsRoof>true</holdsRoof>
+        <destroyable>false</destroyable>
+        <building>
+            <isEdifice>true</isEdifice>
+            <deconstructible>false</deconstructible>
+            <isTargetable>false</isTargetable>
+            <isInert>true</isInert>
+            <claimable>false</claimable>
+            <expandHomeArea>false</expandHomeArea>
+        </building>
+        <portal>
+            <pocketMapGenerator>FCPBlank</pocketMapGenerator>
+            <exitDef>BoS_Bunker_Exit</exitDef>
+        </portal>
+        <statBases>
+            <Flammability>0</Flammability>
+        </statBases>
+        <inspectorTabs>
+            <li>ITab_ContentsMapPortal</li>
+        </inspectorTabs>
+        <modExtensions>
+            <li Class="FCP.PocketMaps.ModExtensionPresettablePocketMap">
+                <prefabDefs>
+                    <li>FCP_BoS_MojaveBunker_Empty</li>
+                </prefabDefs>
+                <abandonedMessage>This section of the bunker has caved in and is no longer accessible.</abandonedMessage>
+            </li>
+        </modExtensions>
+    </ThingDef>
+
+    <ThingDef ParentName="FCP_BoS_MojaveBunker_Entrance_North">
+        <defName>FCP_BoS_MojaveBunker_Entrance_South</defName>
+        <label>bunker breach (south)</label>
+        <description>A second breach into the same abandoned Brotherhood of Steel bunker, some distance from the other. The passage leads down into an abandoned, stripped-out facility.</description>
+    </ThingDef>
+
+    <FCP.PocketMaps.PocketMapPrefabDef>
+        <defName>FCP_BoS_MojaveBunker_Empty</defName>
+        <floorDef>FCP_Floor_BunkerStraightGrills</floorDef>
+        <size>(22,16)</size>
+        <things>
+
+            <FCP_Wall_Bunker>
+                <rects>
+                    <li>(0,0,21,0)</li>
+                    <li>(0,15,21,15)</li>
+                    <li>(0,0,0,15)</li>
+                    <li>(21,0,21,15)</li>
+                    <li>(1,7,2,7)</li>
+                    <li>(4,7,9,7)</li>
+                    <li>(11,7,16,7)</li>
+                    <li>(18,7,20,7)</li>
+                    <li>(1,9,2,9)</li>
+                    <li>(4,9,9,9)</li>
+                    <li>(11,9,20,9)</li>
+                    <li>(7,1,7,6)</li>
+                    <li>(14,1,14,6)</li>
+                    <li>(7,10,7,14)</li>
+                </rects>
+            </FCP_Wall_Bunker>
+
+            <Door>
+                <rects>
+                    <li>(3,7,3,7)</li>
+                    <li>(10,7,10,7)</li>
+                    <li>(17,7,17,7)</li>
+                    <li>(3,9,3,9)</li>
+                    <li>(10,9,10,9)</li>
+                </rects>
+                <stuff>Steel</stuff>
+            </Door>
+
+            <BoS_Bunker_Exit>
+                <position>(2,0,2)</position>
+            </BoS_Bunker_Exit>
+            <BoS_Bunker_Exit>
+                <position>(2,0,12)</position>
+            </BoS_Bunker_Exit>
+
+        </things>
+    </FCP.PocketMaps.PocketMapPrefabDef>
+
+</Defs>

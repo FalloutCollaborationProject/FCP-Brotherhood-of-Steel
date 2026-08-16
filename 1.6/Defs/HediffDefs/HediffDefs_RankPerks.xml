@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <!--__________ Rank Perks __________-->
+
+    <HediffDef Name="FCP_Hediff_BoS_RankBase" Abstract="True">
+        <hediffClass>HediffWithComps</hediffClass>
+        <isBad>false</isBad>
+        <tendable>false</tendable>
+        <scenarioCanAdd>false</scenarioCanAdd>
+        <maxSeverity>1</maxSeverity>
+        <initialSeverity>1</initialSeverity>
+    </HediffDef>
+
+    <HediffDef ParentName="FCP_Hediff_BoS_RankBase">
+        <defName>FCP_Hediff_BoS_Rank_KnightInitiate</defName>
+        <label>Knight Initiate training</label>
+        <description>Basic power armor drilling has sharpened this pawn's aim.</description>
+        <stages>
+            <li>
+                <statOffsets>
+                    <ShootingAccuracyPawn>1</ShootingAccuracyPawn>
+                </statOffsets>
+            </li>
+        </stages>
+    </HediffDef>
+
+    <HediffDef ParentName="FCP_Hediff_BoS_RankBase">
+        <defName>FCP_Hediff_BoS_Rank_ScribeInitiate</defName>
+        <label>Scribe Initiate training</label>
+        <description>Archive work has sharpened this pawn's research instincts.</description>
+        <stages>
+            <li>
+                <statOffsets>
+                    <ResearchSpeed>0.03</ResearchSpeed>
+                </statOffsets>
+            </li>
+        </stages>
+    </HediffDef>
+
+    <HediffDef ParentName="FCP_Hediff_BoS_RankBase">
+        <defName>FCP_Hediff_BoS_Rank_Knight</defName>
+        <label>Knight training</label>
+        <description>Full combat training with the Brotherhood's power armor doctrine.</description>
+        <stages>
+            <li>
+                <statOffsets>
+                    <ShootingAccuracyPawn>3</ShootingAccuracyPawn>
+                </statOffsets>
+            </li>
+        </stages>
+    </HediffDef>
+
+    <HediffDef ParentName="FCP_Hediff_BoS_RankBase">
+        <defName>FCP_Hediff_BoS_Rank_Scribe</defName>
+        <label>Scribe training</label>
+        <description>Full technical training in the preservation of pre-War technology.</description>
+        <stages>
+            <li>
+                <statOffsets>
+                    <ResearchSpeed>0.05</ResearchSpeed>
+                </statOffsets>
+            </li>
+        </stages>
+    </HediffDef>
+
+    <HediffDef ParentName="FCP_Hediff_BoS_RankBase">
+        <defName>FCP_Hediff_BoS_Rank_SeniorKnight</defName>
+        <label>Senior Knight training</label>
+        <description>Years of field service have honed both aim and blade.</description>
+        <stages>
+            <li>
+                <statOffsets>
+                    <ShootingAccuracyPawn>4</ShootingAccuracyPawn>
+                    <MeleeHitChance>3</MeleeHitChance>
+                </statOffsets>
+            </li>
+        </stages>
+    </HediffDef>
+
+    <HediffDef ParentName="FCP_Hediff_BoS_RankBase">
+        <defName>FCP_Hediff_BoS_Rank_SeniorScribe</defName>
+        <label>Senior Scribe training</label>
+        <description>Leadership on real projects has sharpened this pawn's technical eye.</description>
+        <stages>
+            <li>
+                <statOffsets>
+                    <ResearchSpeed>0.08</ResearchSpeed>
+                </statOffsets>
+            </li>
+        </stages>
+    </HediffDef>
+
+    <HediffDef ParentName="FCP_Hediff_BoS_RankBase">
+        <defName>FCP_Hediff_BoS_Rank_KnightCommander</defName>
+        <label>Knight Commander training</label>
+        <description>Command experience over a full squad in the field.</description>
+        <stages>
+            <li>
+                <statOffsets>
+                    <ShootingAccuracyPawn>5</ShootingAccuracyPawn>
+                    <SocialImpact>0.05</SocialImpact>
+                </statOffsets>
+            </li>
+        </stages>
+    </HediffDef>
+
+    <HediffDef ParentName="FCP_Hediff_BoS_RankBase">
+        <defName>FCP_Hediff_BoS_Rank_Paladin</defName>
+        <label>Paladin training</label>
+        <description>Elite combat training and tactical command experience.</description>
+        <stages>
+            <li>
+                <statOffsets>
+                    <ShootingAccuracyPawn>6</ShootingAccuracyPawn>
+                    <MeleeHitChance>5</MeleeHitChance>
+                    <ArmorRating_Sharp>0.05</ArmorRating_Sharp>
+                </statOffsets>
+            </li>
+        </stages>
+    </HediffDef>
+
+    <HediffDef ParentName="FCP_Hediff_BoS_RankBase">
+        <defName>FCP_Hediff_BoS_Rank_SeniorPaladin</defName>
+        <label>Senior Paladin training</label>
+        <description>Independent command over multiple operations.</description>
+        <stages>
+            <li>
+                <statOffsets>
+                    <ShootingAccuracyPawn>7</ShootingAccuracyPawn>
+                </statOffsets>
+            </li>
+        </stages>
+    </HediffDef>
+
+    <HediffDef ParentName="FCP_Hediff_BoS_RankBase">
+        <defName>FCP_Hediff_BoS_Rank_HeadPaladin</defName>
+        <label>Head Paladin training</label>
+        <description>Command of the chapter's entire military arm.</description>
+        <stages>
+            <li>
+                <statOffsets>
+                    <ShootingAccuracyPawn>8</ShootingAccuracyPawn>
+                    <SocialImpact>0.08</SocialImpact>
+                </statOffsets>
+            </li>
+        </stages>
+    </HediffDef>
+
+    <HediffDef ParentName="FCP_Hediff_BoS_RankBase">
+        <defName>FCP_Hediff_BoS_Rank_Proctor</defName>
+        <label>Proctor training</label>
+        <description>Oversight of an entire order of Scribes.</description>
+        <stages>
+            <li>
+                <statOffsets>
+                    <ResearchSpeed>0.12</ResearchSpeed>
+                    <SocialImpact>0.08</SocialImpact>
+                </statOffsets>
+            </li>
+        </stages>
+    </HediffDef>
+
+    <HediffDef ParentName="FCP_Hediff_BoS_RankBase">
+        <defName>FCP_Hediff_BoS_Rank_StarPaladin</defName>
+        <label>Star Paladin training</label>
+        <description>Selected for extraordinary service and critical missions.</description>
+        <stages>
+            <li>
+                <statOffsets>
+                    <ShootingAccuracyPawn>9</ShootingAccuracyPawn>
+                    <MeleeHitChance>8</MeleeHitChance>
+                </statOffsets>
+            </li>
+        </stages>
+    </HediffDef>
+
+    <HediffDef ParentName="FCP_Hediff_BoS_RankBase">
+        <defName>FCP_Hediff_BoS_Rank_Sentinel</defName>
+        <label>Sentinel training</label>
+        <description>The chapter's most distinguished and experienced soldier.</description>
+        <stages>
+            <li>
+                <statOffsets>
+                    <ShootingAccuracyPawn>10</ShootingAccuracyPawn>
+                    <ArmorRating_Sharp>0.1</ArmorRating_Sharp>
+                </statOffsets>
+            </li>
+        </stages>
+    </HediffDef>
+
+    <HediffDef ParentName="FCP_Hediff_BoS_RankBase">
+        <defName>FCP_Hediff_BoS_Rank_HeadScribe</defName>
+        <label>Head Scribe training</label>
+        <description>The chapter's highest civilian authority.</description>
+        <stages>
+            <li>
+                <statOffsets>
+                    <ResearchSpeed>0.18</ResearchSpeed>
+                    <SocialImpact>0.1</SocialImpact>
+                </statOffsets>
+            </li>
+        </stages>
+    </HediffDef>
+
+    <HediffDef ParentName="FCP_Hediff_BoS_RankBase">
+        <defName>FCP_Hediff_BoS_Rank_Elder</defName>
+        <label>Elder training</label>
+        <description>Command of an entire Brotherhood chapter.</description>
+        <stages>
+            <li>
+                <statOffsets>
+                    <ResearchSpeed>0.1</ResearchSpeed>
+                    <SocialImpact>0.1</SocialImpact>
+                    <ArmorRating_Sharp>0.05</ArmorRating_Sharp>
+                </statOffsets>
+            </li>
+        </stages>
+    </HediffDef>
+
+    <!-- Elder Presence Aura -->
+
+    <HediffDef>
+        <defName>FCP_Hediff_BoS_Elder_Presence</defName>
+        <hediffClass>HediffWithComps</hediffClass>
+        <label>Elder's presence</label>
+        <description>The Elder leads from the field. Nearby Brotherhood members fight with steadier hands.</description>
+        <isBad>false</isBad>
+        <tendable>false</tendable>
+        <scenarioCanAdd>false</scenarioCanAdd>
+        <maxSeverity>1</maxSeverity>
+        <initialSeverity>1</initialSeverity>
+        <comps>
+            <li Class="HediffCompProperties_Disappears">
+                <disappearsAfterTicks>310</disappearsAfterTicks>
+                <showRemainingTime>false</showRemainingTime>
+            </li>
+        </comps>
+        <stages>
+            <li>
+                <statOffsets>
+                    <MoveSpeed>0.2</MoveSpeed>
+                    <MeleeHitChance>3</MeleeHitChance>
+                    <MeleeDodgeChance>0.05</MeleeDodgeChance>
+                </statOffsets>
+            </li>
+        </stages>
+    </HediffDef>
+
+    <!-- Elder Rally -->
+
+    <HediffDef>
+        <defName>FCP_Hediff_BoS_Elder_Rally</defName>
+        <hediffClass>HediffWithComps</hediffClass>
+        <label>rallied</label>
+        <description>The Elder has called the chapter to arms. A surge of speed and morale answers the call.</description>
+        <isBad>false</isBad>
+        <tendable>false</tendable>
+        <scenarioCanAdd>false</scenarioCanAdd>
+        <maxSeverity>1</maxSeverity>
+        <initialSeverity>1</initialSeverity>
+        <comps>
+            <li Class="HediffCompProperties_Disappears">
+                <disappearsAfterTicks>2500</disappearsAfterTicks>
+                <showRemainingTime>true</showRemainingTime>
+            </li>
+        </comps>
+        <stages>
+            <li>
+                <statOffsets>
+                    <MoveSpeed>1</MoveSpeed>
+                    <MeleeDodgeChance>0.1</MeleeDodgeChance>
+                    <ShootingAccuracyPawn>3</ShootingAccuracyPawn>
+                </statOffsets>
+            </li>
+        </stages>
+    </HediffDef>
+
+</Defs>

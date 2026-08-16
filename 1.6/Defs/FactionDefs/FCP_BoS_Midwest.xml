@@ -139,6 +139,16 @@
 			<li Class="FCP.Currencies.CurrencyReplacement">
 				<currency>FCP_Currency_BoS_Scrip</currency>
 			</li>
+			<li Class="FCP.Enlist.FactionEnlistOptions">
+				<enlistOptionsDefs>
+					<li>FCP_Enlistment_Midwest</li>
+				</enlistOptionsDefs>
+			</li>
+			<li Class="FCP.Ranks.FactionExtension_RankTracks">
+				<rankTracks>
+					<li>FCP_RankTrack_BoS_Midwest</li>
+				</rankTracks>
+			</li>
 			<li Class="FCP.Core.Shuttles.FactionModExtension">
 				<transportShipDef>FCP_BoS_Vertibird</transportShipDef>
 				<minDistanceBetweenShuttles>10</minDistanceBetweenShuttles>

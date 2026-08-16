@@ -92,7 +92,7 @@
         </workDisables>
     </BackstoryDef>
 
-    <!-- Scribe Cabbot -->
+    <!-- Initiate Cabbot -->
 
     <BackstoryDef>
         <defName>FCP_Character_Backstory_Cabbot_Child</defName>
@@ -116,9 +116,9 @@
 
     <BackstoryDef>
         <defName>FCP_Character_Backstory_Cabbot_Adult</defName>
-        <title>Master Librarian</title>
-        <titleShort>Librarian</titleShort>
-        <baseDesc>[PAWN_nameDef] became the chief librarian at Lost Hills, managing the Brotherhood's vast collection of pre-war knowledge. [PAWN_pronoun] is the go-to expert for finding specific information and has memorized the location of thousands of documents. [PAWN_pronoun] takes great pride in helping others access the information they need.</baseDesc>
+        <title>Entrance Greeter</title>
+        <titleShort>Greeter</titleShort>
+        <baseDesc>[PAWN_nameDef] is the Brotherhood's official greeter, posted at the entrance to screen every wastelander who comes asking to join. [PAWN_possessive] easygoing manner puts visitors at ease right up until [PAWN_pronoun] turns them away toward the Glow on the High Elder's orders. [PAWN_pronoun] studies under Vree in whatever hours are left, turning a love of books into the beginnings of a real scribe's career.</baseDesc>
         <bodyTypeMale>Thin</bodyTypeMale>
         <bodyTypeFemale>Thin</bodyTypeFemale>
         <slot>Adulthood</slot>
@@ -195,9 +195,9 @@
 
     <BackstoryDef>
         <defName>FCP_Character_Backstory_Michael_Adult</defName>
-        <title>Gate Guardian</title>
-        <titleShort>Guardian</titleShort>
-        <baseDesc>[PAWN_nameDef] serves as an Initiate guarding the entrance to Lost Hills. [PAWN_pronoun] is responsible for screening visitors and protecting the base from threats. Though still low in rank, [PAWN_pronoun] takes [PAWN_possessive] duties seriously and dreams of one day becoming a full Paladin.</baseDesc>
+        <title>Quartermaster</title>
+        <titleShort>Quartermaster</titleShort>
+        <baseDesc>[PAWN_nameDef] runs the storeroom out of an office wedged between the training chamber and the shelves themselves, and holds the line on procedure for every last systolic motivator that passes through it. [PAWN_pronoun] can't authorize an issuance without Talus, Rhombus, or the High Elder signing off, but nothing leaves inventory unlogged on [PAWN_possessive] watch.</baseDesc>
         <bodyTypeMale>Male</bodyTypeMale>
         <bodyTypeFemale>Male</bodyTypeFemale>
         <slot>Adulthood</slot>
@@ -248,15 +248,15 @@
         </skillGains>
     </BackstoryDef>
 
-    <!-- Senior Paladin Matthew -->
+    <!-- Paladin Jennifer -->
 
     <BackstoryDef>
         <defName>FCP_Character_Backstory_Matthew_Child</defName>
         <title>West Coast Wanderer</title>
         <titleShort>Wanderer</titleShort>
         <baseDesc>[PAWN_nameDef] spent [PAWN_possessive] youth traveling the West Coast with [PAWN_possessive] Brotherhood family. [PAWN_pronoun] learned about the various settlements and factions, developing an understanding of the wasteland beyond Lost Hills. This experience gave [PAWN_objective] a broader perspective than many Brotherhood members.</baseDesc>
-        <bodyTypeMale>Male</bodyTypeMale>
-        <bodyTypeFemale>Male</bodyTypeFemale>
+        <bodyTypeMale>Female</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <slot>Childhood</slot>
         <spawnCategories>
             <li>FCP_Character_Backstory_Matthew_Child</li>
@@ -269,11 +269,11 @@
 
     <BackstoryDef>
         <defName>FCP_Character_Backstory_Matthew_Adult</defName>
-        <title>Senior Paladin</title>
-        <titleShort>Senior Paladin</titleShort>
-        <baseDesc>[PAWN_nameDef] rose to the rank of Senior Paladin and was assigned to the Brotherhood outpost in San Francisco. [PAWN_pronoun] helps maintain Brotherhood interests on the frontier while keeping contact with Lost Hills. [PAWN_possessive] experience and rank make [PAWN_objective] a valuable asset to the organization.</baseDesc>
-        <bodyTypeMale>Male</bodyTypeMale>
-        <bodyTypeFemale>Male</bodyTypeFemale>
+        <title>Brotherhood Paladin</title>
+        <titleShort>Paladin</titleShort>
+        <baseDesc>[PAWN_nameDef] earned the rank of Paladin through dedication and combat prowess, and now rotates between guard duty at Lost Hills and escort runs to the San Francisco outpost. [PAWN_possessive] instructors expect a Senior Paladin's bars within a few years if [PAWN_pronoun] keeps up the pace.</baseDesc>
+        <bodyTypeMale>Female</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <slot>Adulthood</slot>
         <spawnCategories>
             <li>FCP_Character_Backstory_Matthew_Adult</li>
@@ -285,13 +285,13 @@
         </skillGains>
     </BackstoryDef>
 
-    <!-- Scribe Lorraine -->
+    <!-- Dr. Lorri -->
 
     <BackstoryDef>
         <defName>FCP_Character_Backstory_Lorraine_Child</defName>
         <title>Technical Prodigy</title>
         <titleShort>Prodigy</titleShort>
-        <baseDesc>[PAWN_nameDef] showed exceptional technical aptitude from a young age. [PAWN_pronoun] could disassemble and repair complex devices with ease, impressing the Brotherhood's scribes. [PAWN_pronoun] received specialized training in technology and recruitment assessment.</baseDesc>
+        <baseDesc>[PAWN_nameDef] showed exceptional technical aptitude from a young age. [PAWN_pronoun] could disassemble and repair complex devices with ease, impressing the Brotherhood's scribes, though it was steady hands and a calm bedside manner that eventually pointed [PAWN_objective] toward medicine instead of the workshops.</baseDesc>
         <bodyTypeMale>Female</bodyTypeMale>
         <bodyTypeFemale>Female</bodyTypeFemale>
         <slot>Childhood</slot>
@@ -306,9 +306,9 @@
 
     <BackstoryDef>
         <defName>FCP_Character_Backstory_Lorraine_Adult</defName>
-        <title>Recruitment Officer</title>
-        <titleShort>Recruiter</titleShort>
-        <baseDesc>[PAWN_nameDef] serves as a Scribe in the Brotherhood's San Francisco outpost, focusing on recruitment efforts. [PAWN_pronoun] evaluates potential recruits and determines if they have the skills and dedication the Brotherhood needs. [PAWN_possessive] assessment abilities have brought many valuable members into the organization.</baseDesc>
+        <title>Chief Physician</title>
+        <titleShort>Physician</titleShort>
+        <baseDesc>[PAWN_nameDef] serves as Lost Hills' chief physician, the Scribe every Paladin and Initiate alike ends up in front of sooner or later. [PAWN_pronoun] treats radiation sickness, gunshot wounds, and power armor injuries with equal patience, and keeps the bunker's aging medical stock running long past when it should have failed.</baseDesc>
         <bodyTypeMale>Female</bodyTypeMale>
         <bodyTypeFemale>Female</bodyTypeFemale>
         <slot>Adulthood</slot>
@@ -317,8 +317,523 @@
         </spawnCategories>
         <skillGains>
             <Intellectual>5</Intellectual>
-            <Crafting>4</Crafting>
+            <Medicine>5</Medicine>
+            <Social>3</Social>
+        </skillGains>
+    </BackstoryDef>
+
+    <!-- High Elder John Maxson -->
+
+    <BackstoryDef>
+        <defName>FCP_Character_Backstory_HighElder_Maxson_Child</defName>
+        <title>Maxson Bloodline</title>
+        <titleShort>Bloodline</titleShort>
+        <baseDesc>[PAWN_nameDef] was born into the Brotherhood's founding bloodline, grandson of the man who led the survivors out of Mariposa. From childhood [PAWN_pronoun] was drilled harder than anyone else at Lost Hills - nobody was going to say the name Maxson got him anywhere he hadn't earned.</baseDesc>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Hulk</bodyTypeFemale>
+        <slot>Childhood</slot>
+        <spawnCategories>
+            <li>FCP_Character_Backstory_HighElder_Maxson_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>4</Shooting>
+            <Melee>3</Melee>
+            <Social>2</Social>
+        </skillGains>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>FCP_Character_Backstory_HighElder_Maxson_Adult</defName>
+        <title>High Elder</title>
+        <titleShort>High Elder</titleShort>
+        <baseDesc>[PAWN_nameDef] rose to Head Paladin on pure merit before the Council convinced [PAWN_objective] to take the High Elder's seat - the third of [PAWN_possessive] bloodline to hold it. [PAWN_pronoun] moderates the Council of Elders, casts the tiebreaking vote, and answers for every decision the Western Chapter makes.</baseDesc>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Hulk</bodyTypeFemale>
+        <slot>Adulthood</slot>
+        <spawnCategories>
+            <li>FCP_Character_Backstory_HighElder_Maxson_Adult</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>7</Shooting>
+            <Melee>5</Melee>
+            <Social>5</Social>
+        </skillGains>
+        <forcedTraits>
+            <Tough>0</Tough>
+        </forcedTraits>
+    </BackstoryDef>
+
+    <!-- Knight Thomas -->
+
+    <BackstoryDef>
+        <defName>FCP_Character_Backstory_Knight_Thomas_Child</defName>
+        <title>Sparring Partner</title>
+        <titleShort>Sparring Partner</titleShort>
+        <baseDesc>[PAWN_nameDef] was the Aspirant every instructor paired with the slow learners, patient enough not to humiliate them and stubborn enough to make them improve anyway. [PAWN_pronoun] never resented the assignment.</baseDesc>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Hulk</bodyTypeFemale>
+        <slot>Childhood</slot>
+        <spawnCategories>
+            <li>FCP_Character_Backstory_Knight_Thomas_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>2</Shooting>
+            <Melee>3</Melee>
+            <Social>1</Social>
+        </skillGains>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>FCP_Character_Backstory_Knight_Thomas_Adult</defName>
+        <title>Combat Instructor</title>
+        <titleShort>Instructor</titleShort>
+        <baseDesc>[PAWN_nameDef] made Knight and stayed in the training chamber by choice, drilling the next class of Aspirants under Senior Paladin Talus's watch. [PAWN_pronoun] would rather build ten competent soldiers than chase glory as one.</baseDesc>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Hulk</bodyTypeFemale>
+        <slot>Adulthood</slot>
+        <spawnCategories>
+            <li>FCP_Character_Backstory_Knight_Thomas_Adult</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>5</Shooting>
+            <Melee>6</Melee>
+            <Social>2</Social>
+        </skillGains>
+    </BackstoryDef>
+
+    <!-- Knight Paul -->
+
+    <BackstoryDef>
+        <defName>FCP_Character_Backstory_Knight_Paul_Child</defName>
+        <title>Late Bloomer</title>
+        <titleShort>Late Bloomer</titleShort>
+        <baseDesc>[PAWN_nameDef] was an unremarkable Aspirant who took longer than most to clear the fork, but nobody who trained alongside [PAWN_objective] ever doubted [PAWN_possessive] nerve under pressure.</baseDesc>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Male</bodyTypeFemale>
+        <slot>Childhood</slot>
+        <spawnCategories>
+            <li>FCP_Character_Backstory_Knight_Paul_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>2</Shooting>
+            <Melee>2</Melee>
+        </skillGains>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>FCP_Character_Backstory_Knight_Paul_Adult</defName>
+        <title>Patrol Knight</title>
+        <titleShort>Knight</titleShort>
+        <baseDesc>[PAWN_nameDef] pulls patrol rotations around the Lost Hills perimeter, one of the Chapter's steady hands rather than its stars. [PAWN_pronoun] has never once missed a shift.</baseDesc>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Male</bodyTypeFemale>
+        <slot>Adulthood</slot>
+        <spawnCategories>
+            <li>FCP_Character_Backstory_Knight_Paul_Adult</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>5</Shooting>
+            <Melee>4</Melee>
+        </skillGains>
+    </BackstoryDef>
+
+    <!-- Knight Kyle -->
+
+    <BackstoryDef>
+        <defName>FCP_Character_Backstory_Knight_Kyle_Child</defName>
+        <title>Scrapper</title>
+        <titleShort>Scrapper</titleShort>
+        <baseDesc>[PAWN_nameDef] got into more sparring-ring fights than any Aspirant on record, most of them unofficial. [PAWN_possessive] instructors eventually gave up trying to stop it and started betting on the outcomes instead.</baseDesc>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Male</bodyTypeFemale>
+        <slot>Childhood</slot>
+        <spawnCategories>
+            <li>FCP_Character_Backstory_Knight_Kyle_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>4</Melee>
+            <Shooting>1</Shooting>
+        </skillGains>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>FCP_Character_Backstory_Knight_Kyle_Adult</defName>
+        <title>Patrol Knight</title>
+        <titleShort>Knight</titleShort>
+        <baseDesc>[PAWN_nameDef] made Knight on raw aggression as much as skill, and still takes every excuse to volunteer for the rougher assignments. [PAWN_pronoun] gets along better with a rifle than with paperwork.</baseDesc>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Male</bodyTypeFemale>
+        <slot>Adulthood</slot>
+        <spawnCategories>
+            <li>FCP_Character_Backstory_Knight_Kyle_Adult</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>6</Melee>
+            <Shooting>3</Shooting>
+        </skillGains>
+    </BackstoryDef>
+
+    <!-- Initiate Jerry -->
+
+    <BackstoryDef>
+        <defName>FCP_Character_Backstory_Initiate_Jerry_Child</defName>
+        <title>Newest Face</title>
+        <titleShort>Newest Face</titleShort>
+        <baseDesc>[PAWN_nameDef] is the youngest Initiate at Lost Hills, still getting used to the weight of the Codex's expectations. [PAWN_pronoun] follows Cabbot around every chance [PAWN_pronoun] gets, hoping some of the older Initiate's ease with the work will rub off.</baseDesc>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Male</bodyTypeFemale>
+        <slot>Childhood</slot>
+        <spawnCategories>
+            <li>FCP_Character_Backstory_Initiate_Jerry_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>1</Shooting>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>FCP_Character_Backstory_Initiate_Jerry_Adult</defName>
+        <title>Entrance Initiate</title>
+        <titleShort>Initiate</titleShort>
+        <baseDesc>[PAWN_nameDef] stands the entrance rotation alongside Cabbot, screening wastelanders and reciting the same rehearsed lines about the Brotherhood's mission. [PAWN_pronoun] hasn't decided yet whether [PAWN_pronoun] wants the sword or the quill.</baseDesc>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Male</bodyTypeFemale>
+        <slot>Adulthood</slot>
+        <spawnCategories>
+            <li>FCP_Character_Backstory_Initiate_Jerry_Adult</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>2</Shooting>
+            <Intellectual>3</Intellectual>
+        </skillGains>
+    </BackstoryDef>
+
+    <!--_____ Hidden Valley Bunker (Mojave Chapter) Character Backstories -->
+
+    <!-- Elder Nolan McNamara -->
+
+    <BackstoryDef>
+        <defName>FCP_Character_Backstory_McNamara_Child</defName>
+        <title>Second Generation</title>
+        <titleShort>Second Gen</titleShort>
+        <baseDesc>[PAWN_nameDef] was raised on stories of the chapter's defeat at HELIOS One, taught that caution was the price of survival in a wasteland that had already broken the Brotherhood once. [PAWN_pronoun] took that lesson more seriously than most.</baseDesc>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Male</bodyTypeFemale>
+        <slot>Childhood</slot>
+        <spawnCategories>
+            <li>FCP_Character_Backstory_McNamara_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>2</Shooting>
+            <Social>3</Social>
+        </skillGains>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>FCP_Character_Backstory_McNamara_Adult</defName>
+        <title>Elder</title>
+        <titleShort>Elder</titleShort>
+        <baseDesc>[PAWN_nameDef] leads the Mojave Chapter from Hidden Valley, and put the bunker on lockdown years ago, certain the NCR was still hunting Brotherhood survivors. The chapter's isolation has cost them standing and resources ever since, and not everyone under [PAWN_possessive] command still agrees with the call.</baseDesc>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Male</bodyTypeFemale>
+        <slot>Adulthood</slot>
+        <spawnCategories>
+            <li>FCP_Character_Backstory_McNamara_Adult</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>5</Shooting>
+            <Social>7</Social>
+        </skillGains>
+    </BackstoryDef>
+
+    <!-- Head Paladin Edgar Hardin -->
+
+    <BackstoryDef>
+        <defName>FCP_Character_Backstory_Hardin_Child</defName>
+        <title>Impatient Recruit</title>
+        <titleShort>Recruit</titleShort>
+        <baseDesc>[PAWN_nameDef] never had much patience for waiting things out. Even as a young Knight, [PAWN_pronoun] argued that the chapter's caution looked a lot like decline dressed up as strategy.</baseDesc>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Hulk</bodyTypeFemale>
+        <slot>Childhood</slot>
+        <spawnCategories>
+            <li>FCP_Character_Backstory_Hardin_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>4</Shooting>
+            <Melee>3</Melee>
+        </skillGains>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>FCP_Character_Backstory_Hardin_Adult</defName>
+        <title>Head Paladin</title>
+        <titleShort>Head Paladin</titleShort>
+        <baseDesc>[PAWN_nameDef] commands the Mojave Chapter's Paladins and Knights, and has grown convinced that Elder McNamara's lockdown is bleeding the Brotherhood dry. [PAWN_pronoun] is searching the Codex for whatever [PAWN_pronoun] needs to force a change in leadership, by the book if possible.</baseDesc>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Hulk</bodyTypeFemale>
+        <slot>Adulthood</slot>
+        <spawnCategories>
+            <li>FCP_Character_Backstory_Hardin_Adult</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>7</Shooting>
+            <Melee>5</Melee>
             <Social>4</Social>
+        </skillGains>
+        <forcedTraits>
+            <Tough>0</Tough>
+        </forcedTraits>
+    </BackstoryDef>
+
+    <!-- Senior Paladin Ramos -->
+
+    <BackstoryDef>
+        <defName>FCP_Character_Backstory_Ramos_Child</defName>
+        <title>Survivor of HELIOS</title>
+        <titleShort>Survivor</titleShort>
+        <baseDesc>[PAWN_nameDef] was among the Paladins who made it out of the disaster at HELIOS One, and has never stopped treating every entrance and approach like it could be the next ambush.</baseDesc>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Hulk</bodyTypeFemale>
+        <slot>Childhood</slot>
+        <spawnCategories>
+            <li>FCP_Character_Backstory_Ramos_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>4</Shooting>
+            <Melee>3</Melee>
+        </skillGains>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>FCP_Character_Backstory_Ramos_Adult</defName>
+        <title>Head of Security</title>
+        <titleShort>Security Chief</titleShort>
+        <baseDesc>[PAWN_nameDef] commands security for the Hidden Valley bunker, personally guarding the entrance and running the patrols McNamara still permits outside. [PAWN_possessive] vigilance is the only reason the lockdown hasn't cost the chapter more than it already has.</baseDesc>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Hulk</bodyTypeFemale>
+        <slot>Adulthood</slot>
+        <spawnCategories>
+            <li>FCP_Character_Backstory_Ramos_Adult</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>7</Shooting>
+            <Melee>5</Melee>
+        </skillGains>
+    </BackstoryDef>
+
+    <!-- Senior Knight Lorenzo -->
+
+    <BackstoryDef>
+        <defName>FCP_Character_Backstory_Lorenzo_Child</defName>
+        <title>Bunker-Born</title>
+        <titleShort>Bunker-Born</titleShort>
+        <baseDesc>[PAWN_nameDef] was born to two Brotherhood soldiers inside Hidden Valley itself and has never known another home. [PAWN_pronoun] grew up taking machines apart just to see how the bunker kept itself running.</baseDesc>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Male</bodyTypeFemale>
+        <slot>Childhood</slot>
+        <spawnCategories>
+            <li>FCP_Character_Backstory_Lorenzo_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Crafting>4</Crafting>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>FCP_Character_Backstory_Lorenzo_Adult</defName>
+        <title>Maintenance Chief</title>
+        <titleShort>Maintenance</titleShort>
+        <baseDesc>[PAWN_nameDef] heads maintenance and manufacturing out of the bunker workshop, repairing weapons and armor for every Knight and Paladin in the chapter. [PAWN_pronoun] recently flagged the bunker's failing air filtration to Elder McNamara before it became a crisis - typical of [PAWN_possessive] work catching problems early.</baseDesc>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Male</bodyTypeFemale>
+        <slot>Adulthood</slot>
+        <spawnCategories>
+            <li>FCP_Character_Backstory_Lorenzo_Adult</li>
+        </spawnCategories>
+        <skillGains>
+            <Crafting>7</Crafting>
+            <Intellectual>4</Intellectual>
+            <Shooting>3</Shooting>
+        </skillGains>
+    </BackstoryDef>
+
+    <!-- Head Scribe Lars Taggart -->
+
+    <BackstoryDef>
+        <defName>FCP_Character_Backstory_Taggart_Child</defName>
+        <title>Reluctant Scholar</title>
+        <titleShort>Scholar</titleShort>
+        <baseDesc>[PAWN_nameDef] tested into the Scribe track on raw aptitude, not enthusiasm, and it showed. [PAWN_pronoun] always did just enough to pass, never more.</baseDesc>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <slot>Childhood</slot>
+        <spawnCategories>
+            <li>FCP_Character_Backstory_Taggart_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>3</Intellectual>
+        </skillGains>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>FCP_Character_Backstory_Taggart_Adult</defName>
+        <title>Figurehead Head Scribe</title>
+        <titleShort>Head Scribe</titleShort>
+        <baseDesc>[PAWN_nameDef] holds the title of Head Scribe but does little to earn it, leaving the research, cataloging, and tech processing to Senior Scribe Schuler while [PAWN_pronoun] tends [PAWN_possessive] own projects. Nobody has managed to force the issue yet.</baseDesc>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <slot>Adulthood</slot>
+        <spawnCategories>
+            <li>FCP_Character_Backstory_Taggart_Adult</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>6</Intellectual>
+            <Social>2</Social>
+        </skillGains>
+    </BackstoryDef>
+
+    <!-- Knight Torres (Hidden Valley) -->
+
+    <BackstoryDef>
+        <defName>FCP_Character_Backstory_HVTorres_Child</defName>
+        <title>Range Regular</title>
+        <titleShort>Regular</titleShort>
+        <baseDesc>[PAWN_nameDef] spent more hours on the shooting range than in the classroom, and could field-strip a service rifle before [PAWN_pronoun] could properly recite the Codex.</baseDesc>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <slot>Childhood</slot>
+        <spawnCategories>
+            <li>FCP_Character_Backstory_HVTorres_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>3</Shooting>
+            <Crafting>2</Crafting>
+        </skillGains>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>FCP_Character_Backstory_HVTorres_Adult</defName>
+        <title>Quartermaster</title>
+        <titleShort>Quartermaster</titleShort>
+        <baseDesc>[PAWN_nameDef] staffs the armory and shooting range on the bunker's first floor, issuing and maintaining the chapter's weapons with the same discipline the Brotherhood expects of everything else. [PAWN_pronoun] knows the condition of every rifle in Hidden Valley from memory.</baseDesc>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <slot>Adulthood</slot>
+        <spawnCategories>
+            <li>FCP_Character_Backstory_HVTorres_Adult</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>5</Shooting>
+            <Crafting>4</Crafting>
+        </skillGains>
+    </BackstoryDef>
+
+    <!-- Paladin Sato -->
+
+    <BackstoryDef>
+        <defName>FCP_Character_Backstory_Sato_Child</defName>
+        <title>Tinkerer</title>
+        <titleShort>Tinkerer</titleShort>
+        <baseDesc>[PAWN_nameDef] took to weapon and armor repair early, trading favors for spare parts long before [PAWN_pronoun] ever wore power armor of [PAWN_possessive] own.</baseDesc>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Male</bodyTypeFemale>
+        <slot>Childhood</slot>
+        <spawnCategories>
+            <li>FCP_Character_Backstory_Sato_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Crafting>3</Crafting>
+            <Shooting>2</Shooting>
+        </skillGains>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>FCP_Character_Backstory_Sato_Adult</defName>
+        <title>Roving Repairman</title>
+        <titleShort>Repairman</titleShort>
+        <baseDesc>[PAWN_nameDef] rotates through the Brotherhood's Mojave safehouses every few days, repairing gear for caps and keeping half-broken equipment in the field. [PAWN_pronoun] takes the destruction of any Brotherhood post personally - especially Hidden Valley itself.</baseDesc>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Male</bodyTypeFemale>
+        <slot>Adulthood</slot>
+        <spawnCategories>
+            <li>FCP_Character_Backstory_Sato_Adult</li>
+        </spawnCategories>
+        <skillGains>
+            <Crafting>6</Crafting>
+            <Shooting>4</Shooting>
+        </skillGains>
+    </BackstoryDef>
+
+    <!-- Senior Scribe Schuler -->
+
+    <BackstoryDef>
+        <defName>FCP_Character_Backstory_Schuler_Child</defName>
+        <title>Overachiever</title>
+        <titleShort>Overachiever</titleShort>
+        <baseDesc>[PAWN_nameDef] finished every assignment early and asked for more, a habit that made [PAWN_objective] indispensable long before [PAWN_pronoun] earned any real rank.</baseDesc>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <slot>Childhood</slot>
+        <spawnCategories>
+            <li>FCP_Character_Backstory_Schuler_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>4</Intellectual>
+        </skillGains>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>FCP_Character_Backstory_Schuler_Adult</defName>
+        <title>Senior Scribe</title>
+        <titleShort>Senior Scribe</titleShort>
+        <baseDesc>[PAWN_nameDef] does the work Head Scribe Taggart's title implies he does - research, cataloging, tech processing - and has stopped expecting credit for it. [PAWN_possessive] competence is the only reason the archive still functions at all.</baseDesc>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <slot>Adulthood</slot>
+        <spawnCategories>
+            <li>FCP_Character_Backstory_Schuler_Adult</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>7</Intellectual>
+            <Crafting>3</Crafting>
+        </skillGains>
+    </BackstoryDef>
+
+    <!-- Scribe Ibsen -->
+
+    <BackstoryDef>
+        <defName>FCP_Character_Backstory_Ibsen_Child</defName>
+        <title>Terminal Prodigy</title>
+        <titleShort>Prodigy</titleShort>
+        <baseDesc>[PAWN_nameDef] took to pre-War computer systems faster than anyone [PAWN_possessive] instructors had trained, coaxing dead terminals back to life for fun.</baseDesc>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <slot>Childhood</slot>
+        <spawnCategories>
+            <li>FCP_Character_Backstory_Ibsen_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>4</Intellectual>
+        </skillGains>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>FCP_Character_Backstory_Ibsen_Adult</defName>
+        <title>Archivist</title>
+        <titleShort>Archivist</titleShort>
+        <baseDesc>[PAWN_nameDef] keeps the data archives near the Elder's chambers running, and has spent weeks fighting a pre-War computer virus that surfaced after a patrol brought back an infected holotape. [PAWN_pronoun] can spot the virus jumping between terminals before most people notice anything's wrong.</baseDesc>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <slot>Adulthood</slot>
+        <spawnCategories>
+            <li>FCP_Character_Backstory_Ibsen_Adult</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>6</Intellectual>
+            <Social>2</Social>
         </skillGains>
     </BackstoryDef>
 

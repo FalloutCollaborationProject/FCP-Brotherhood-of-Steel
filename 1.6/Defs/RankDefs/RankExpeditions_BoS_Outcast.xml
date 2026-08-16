@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <!--__________ Outcast Remnants Rank Expeditions __________-->
+
+    <!-- Loot -->
+
+    <ThingSetMakerDef>
+        <defName>FCP_OutcastExpeditionLootMaker</defName>
+        <root Class="ThingSetMaker_MarketValue">
+            <fixedParams>
+                <filter>
+                    <thingDefs>
+                        <li>FCP_Currency_Caps</li>
+                        <li>Steel</li>
+                        <li>ComponentIndustrial</li>
+                        <li>MedicineIndustrial</li>
+                        <li>Neutroamine</li>
+                    </thingDefs>
+                </filter>
+            </fixedParams>
+        </root>
+    </ThingSetMakerDef>
+
+    <!-- Veteran -->
+
+    <FCP.Ranks.RankExpeditionDef>
+        <defName>FCP_Expedition_Outcast_Veteran</defName>
+        <label>salvage run</label>
+        <description>A tasked run into contested ruins to recover technology before anyone else gets to it.</description>
+        <durationDays>6~8</durationDays>
+        <xpReward>
+            <Shooting>350</Shooting>
+            <Intellectual>200</Intellectual>
+        </xpReward>
+        <lootMaker>FCP_OutcastExpeditionLootMaker</lootMaker>
+        <lootMarketValueRange>150~350</lootMarketValueRange>
+        <siteRevealChance>0.25</siteRevealChance>
+        <failureChance>0.1</failureChance>
+        <returnFlavorKeys>
+            <li>FCP_Rank_Expedition_Outcast_Veteran_1</li>
+            <li>FCP_Rank_Expedition_Outcast_Veteran_2</li>
+            <li>FCP_Rank_Expedition_Outcast_Veteran_3</li>
+            <li>FCP_Rank_Expedition_Outcast_Veteran_4</li>
+        </returnFlavorKeys>
+    </FCP.Ranks.RankExpeditionDef>
+
+    <!-- Elite -->
+
+    <FCP.Ranks.RankExpeditionDef>
+        <defName>FCP_Expedition_Outcast_Elite</defName>
+        <label>true Codex operation</label>
+        <description>A solo operation deep into dangerous territory, the kind only a proven Defender or Recon Specialist is trusted to run alone.</description>
+        <durationDays>8~10</durationDays>
+        <xpReward>
+            <Shooting>500</Shooting>
+            <Intellectual>350</Intellectual>
+        </xpReward>
+        <lootMaker>FCP_OutcastExpeditionLootMaker</lootMaker>
+        <lootMarketValueRange>300~600</lootMarketValueRange>
+        <siteRevealChance>0.35</siteRevealChance>
+        <failureChance>0.08</failureChance>
+        <returnFlavorKeys>
+            <li>FCP_Rank_Expedition_Outcast_Elite_1</li>
+            <li>FCP_Rank_Expedition_Outcast_Elite_2</li>
+            <li>FCP_Rank_Expedition_Outcast_Elite_3</li>
+            <li>FCP_Rank_Expedition_Outcast_Elite_4</li>
+        </returnFlavorKeys>
+    </FCP.Ranks.RankExpeditionDef>
+
+</Defs>

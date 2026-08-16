@@ -50,7 +50,7 @@
     <!-- Power Armor Base -->
 
     <PawnKindDef ParentName="FCP_BoSkindBase" Name="FCP_BoS_PowerArmorBase" Abstract="True">
-        <apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
+        <apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
 		<weaponTags>
             <li>FCP_BoS_Heavy_Weapon</li>
 		</weaponTags>
@@ -68,7 +68,7 @@
     <!-- Lyons Pride Power Armor Base -->
 
     <PawnKindDef ParentName="FCP_BoSkindBase" Name="FCP_BoS_Lyons_PowerArmorBase" Abstract="True">
-        <apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
+        <apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
         <defaultFactionDef>FCP_Faction_BoS_Lyons_Pride_Remnants</defaultFactionDef>
         <apparelRequired>
             <li MayRequire="Rick.FCP.PowerArmor">FCP_Apparel_Power_Armor_Frame</li>
@@ -84,7 +84,7 @@
     <!-- Outcast Power Armor Base -->
 
     <PawnKindDef ParentName="FCP_BoSkindBase" Name="FCP_BoS_Outcast_PowerArmorBase" Abstract="True">
-        <apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
+        <apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
         <defaultFactionDef>FCP_Faction_BoS_Outcast_Remnants</defaultFactionDef>
         <apparelRequired>
             <li MayRequire="Rick.FCP.PowerArmor">FCP_Apparel_Power_Armor_Frame</li>
@@ -109,8 +109,8 @@
         <gearHealthRange>0.5~1.8</gearHealthRange>
         <weaponMoney>900~1200</weaponMoney>
         <apparelRequired>
-            <li>FCP_Apparel_BoS_Appalachia_Fatigues</li>
-            <li>FCP_Apparel_BoS_Appalachia_Beret</li>
+            <li>FCP_Apparel_BoS_Brotherhood_Fatigues</li>
+            <li>FCP_Apparel_BoS_Squire_Hat</li>
             <!-- add Combat Armor right arm but with the BoS logo here -->
         </apparelRequired>
         <apparelDisallowTags>
@@ -172,8 +172,8 @@
         <gearHealthRange>0.5~1.8</gearHealthRange>
         <weaponMoney>900~1200</weaponMoney>
         <apparelRequired>
-            <li>FCP_Apparel_BoS_Appalachia_Fatigues</li>
-            <li>FCP_Apparel_BoS_Appalachia_Beret</li>
+            <li>FCP_Apparel_BoS_Brotherhood_Fatigues</li>
+            <li>FCP_Apparel_BoS_Squire_Hat</li>
             <!-- add Combat Armor right arm but with the BoS logo here -->
         </apparelRequired>
         <apparelDisallowTags>

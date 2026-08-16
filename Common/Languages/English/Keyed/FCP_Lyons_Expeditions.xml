@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<!--__________ Expedition Return Flavor Text __________-->
+
+	<!-- Novice -->
+
+	<FCP_Rank_Expedition_Lyons_Novice_1>{PAWN} checked in on a settlement the Pride watches over and found everyone still standing.</FCP_Rank_Expedition_Lyons_Novice_1>
+	<FCP_Rank_Expedition_Lyons_Novice_2>{PAWN} logged a quiet patrol - a few raiders scattered at the sight of Pride colors, nothing worth a report to the Citadel.</FCP_Rank_Expedition_Lyons_Novice_2>
+	<FCP_Rank_Expedition_Lyons_Novice_3>{PAWN} handed out spare medicine to a caravan that had run dry, then moved on before nightfall.</FCP_Rank_Expedition_Lyons_Novice_3>
+	<FCP_Rank_Expedition_Lyons_Novice_4>{PAWN} walked the ruins near a settlement, chased off a pack of ferals, and came back with dust in every seam.</FCP_Rank_Expedition_Lyons_Novice_4>
+
+	<!-- Veteran -->
+
+	<FCP_Rank_Expedition_Lyons_Veteran_1>{PAWN} broke a raider blockade holding a settlement hostage and stayed long enough to see the gates reopen.</FCP_Rank_Expedition_Lyons_Veteran_1>
+	<FCP_Rank_Expedition_Lyons_Veteran_2>{PAWN} tracked down a missing caravan, fought off the slavers who'd taken it, and brought the survivors home.</FCP_Rank_Expedition_Lyons_Veteran_2>
+	<FCP_Rank_Expedition_Lyons_Veteran_3>{PAWN} spent the trip treating the wounded at an outlying settlement, leaving them better stocked than before.</FCP_Rank_Expedition_Lyons_Veteran_3>
+	<FCP_Rank_Expedition_Lyons_Veteran_4>{PAWN} came back limping but standing, with two rescued settlers walking behind.</FCP_Rank_Expedition_Lyons_Veteran_4>
+
+	<!-- Elite -->
+
+	<FCP_Rank_Expedition_Lyons_Elite_1>{PAWN} went in alone where a squad would've drawn too much attention, and got everyone out alive.</FCP_Rank_Expedition_Lyons_Elite_1>
+	<FCP_Rank_Expedition_Lyons_Elite_2>{PAWN} ran the operation exactly as planned - in, secure the innocent, out before anything organized a response.</FCP_Rank_Expedition_Lyons_Elite_2>
+	<FCP_Rank_Expedition_Lyons_Elite_3>{PAWN} spent the better part of two weeks in hostile territory and returned with word the Citadel will want to hear.</FCP_Rank_Expedition_Lyons_Elite_3>
+	<FCP_Rank_Expedition_Lyons_Elite_4>{PAWN} didn't say much about what happened out there, just handed off the survivors and asked for a debrief later.</FCP_Rank_Expedition_Lyons_Elite_4>
+
+	<!-- Sentinel -->
+
+	<FCP_Rank_Expedition_Lyons_Sentinel_1>{PAWN} pushed past the edge of any territory the Pride patrols, looking for anyone left to protect.</FCP_Rank_Expedition_Lyons_Sentinel_1>
+	<FCP_Rank_Expedition_Lyons_Sentinel_2>{PAWN} came back from the deep wastes with a full report and word of a settlement worth the Pride's protection.</FCP_Rank_Expedition_Lyons_Sentinel_2>
+	<FCP_Rank_Expedition_Lyons_Sentinel_3>{PAWN} spent nearly two weeks beyond contact and returned with news that will matter to Elder Lyons himself.</FCP_Rank_Expedition_Lyons_Sentinel_3>
+	<FCP_Rank_Expedition_Lyons_Sentinel_4>{PAWN} walked back into the Citadel looking like the wasteland itself, carrying proof of who was saved out there.</FCP_Rank_Expedition_Lyons_Sentinel_4>
+
+</LanguageData>

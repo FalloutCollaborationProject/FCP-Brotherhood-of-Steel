@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<!--__________ Enlistments with Factions Letter Text __________-->
+
+	<!--_____ Lyons' Pride Remnants _____-->
+
+	<!-- Enlistment Options -->
+
+	<FCP_Lyons_Enlist_Letter_Title>You have Enlisted into the {FACTION_name}.</FCP_Lyons_Enlist_Letter_Title>
+	<FCP_Lyons_Enlist_Letter_Label>Welcome, Recruit. Elder Lyons doesn't ask what you can recover - he asks who you can protect. That's the only Codex that matters here.\n\nYou'll draw a standard salary every week for you and your team, along with provisions collected at our holdouts when you're not out in the Wasteland. Our numbers have dwindled, but our resolve hasn't. Fight like it.\n\n -For the people</FCP_Lyons_Enlist_Letter_Label>
+	<FCP_Lyons_Enlist_Button_Label>Enlist into the {FACTION_name}.</FCP_Lyons_Enlist_Button_Label>
+	<FCP_Lyons_Enlist_Button_Desc>Sign a new contract with the {FACTION_name}.</FCP_Lyons_Enlist_Button_Desc>
+	<FCP_Lyons_Enlist_Requrements_Not_Satisfied>You need a minimum of 10 goodwill, currently you have only {0} goodwill.</FCP_Lyons_Enlist_Requrements_Not_Satisfied>
+	<FCP_Lyons_Enlisted_With_Key>Enlisted with: the {FACTION_name}</FCP_Lyons_Enlisted_With_Key>
+
+	<!-- Mission Options -->
+
+	<FCP_Lyons_Missions_Label>Tasks</FCP_Lyons_Missions_Label>
+	<FCP_Lyons_Missions_Desc>Task descriptions</FCP_Lyons_Missions_Desc>
+	<FCP_Lyons_Menu_Missions_Desc>While leaving the holdout you ask around about any potential tasks that need doing.</FCP_Lyons_Menu_Missions_Desc>
+	<FCP_Lyons_Menu_Missions_Select_Quest>Select a Task: </FCP_Lyons_Menu_Missions_Select_Quest>
+	<FCP_Lyons_Menu_Missions_Start_Quest>Accept Task</FCP_Lyons_Menu_Missions_Start_Quest>
+	<FCP_Lyons_Menu_Missions_Collect_Bounty>Collect Reward</FCP_Lyons_Menu_Missions_Collect_Bounty>
+	<FCP_Lyons_Not_Enough_Money>Not enough caps</FCP_Lyons_Not_Enough_Money>
+
+	<!-- Salary Options -->
+
+	<FCP_Lyons_Salary_Label>Wages</FCP_Lyons_Salary_Label>
+	<FCP_Lyons_Salary_Desc>You are entitled to collect wages from this faction every 14 days.</FCP_Lyons_Salary_Desc>
+
+	<!-- Provision Options -->
+
+	<FCP_Lyons_Provisions_Label>Provisions</FCP_Lyons_Provisions_Label>
+	<FCP_Lyons_Provisions_Desc>Provisions will arrive via your caravan inventory every 10 days:\n\n- ×5 BoS Food Crate</FCP_Lyons_Provisions_Desc>
+
+	<FCP_Lyons_Provisions_Label_Standard_Issue>Standard Issue</FCP_Lyons_Provisions_Label_Standard_Issue>
+	<FCP_Lyons_Provisions_Desc_Standard_Issue>Pride standard issue gear will arrive via your caravan inventory every 45 days:\n\n- ×1 BoS Weapon Crate\n- ×1 BoS Tech Resource Crate\n- ×2 Lyons' Pride Uniform Crate</FCP_Lyons_Provisions_Desc_Standard_Issue>
+
+	<!-- Storage Options -->
+
+	<FCP_Lyons_Storage_Label>Storage</FCP_Lyons_Storage_Label>
+	<FCP_Lyons_Storage_Desc>Store items from your caravan to your faction stash. Faction stashes transfer across all of the faction's outposts and will save contents even if you are no longer enlisted.</FCP_Lyons_Storage_Desc>
+
+	<!-- Work Options -->
+
+	<FCP_Lyons_Part_Time_Job_Label>Part-Time Job</FCP_Lyons_Part_Time_Job_Label>
+	<FCP_Lyons_Part_Time_Job_Desc>Pull additional duties and cover for your Pride brothers for $10 an hour.</FCP_Lyons_Part_Time_Job_Desc>
+	<FCP_Lyons_Hospital_Label>Hospital</FCP_Lyons_Hospital_Label>
+	<FCP_Lyons_Hospital_Desc>Check in with the holdout's hospital. This service tends to all of your team with industrial medicine. Immunity gain is also increased while your team is in the hospital.</FCP_Lyons_Hospital_Desc>
+	<FCP_Lyons_Knight_Training_Label>Training: Knight training</FCP_Lyons_Knight_Training_Label>
+	<FCP_Lyons_Knight_Training_Desc>Train with the Pride's Knights and Paladins, with hourly experience gain on the following skills:\n\n- Shooting, Melee, Medicine\n\nHourly experience gain stops when this faction is resting at night.</FCP_Lyons_Knight_Training_Desc>
+	<FCP_Lyons_Scribe_Training_Label>Training: Scribe training</FCP_Lyons_Scribe_Training_Label>
+	<FCP_Lyons_Scribe_Training_Desc>Train in the Citadel's laboratories, with hourly experience gain on the following skills:\n\n- Crafting\n- Intellectual\n- Medicine\n\nHourly experience gain stops when this faction is resting at night.</FCP_Lyons_Scribe_Training_Desc>
+
+	<!-- Bounty Options -->
+
+	<FCP_Lyons_Turn_In_Label>Turn in</FCP_Lyons_Turn_In_Label>
+	<FCP_Lyons_Turn_In_Desc>Turn in war prisoners and high value targets to Lyons' Pride holdouts.\n\n -Turning over any hostile pawns do not result in a slavery debuff-</FCP_Lyons_Turn_In_Desc>
+	<FCP_Lyons_Turn_In_Trader_Name>Citadel Warden</FCP_Lyons_Turn_In_Trader_Name>
+
+	<!-- Resign Options -->
+
+	<FCP_Lyons_Resign_Menu_Text>You will resign from the {FACTION_name} effective immediately. (-25 in relations)</FCP_Lyons_Resign_Menu_Text>
+	<FCP_Lyons_Resign_Letter_Title>Resigned</FCP_Lyons_Resign_Letter_Title>
+	<FCP_Lyons_Resign_Letter_Label>Resign</FCP_Lyons_Resign_Letter_Label>
+	<FCP_Lyons_Resign_Button_Label>You have successfully resigned from the {FACTION_name}. (-25 relations)</FCP_Lyons_Resign_Button_Label>
+	<FCP_Lyons_Resign_Button_Desc>Leave this faction.</FCP_Lyons_Resign_Button_Desc>
+	<FCP_Lyons_Enlisted_To_Hostile_Faction>cannot join because you are enlisted with their enemy, {HOSTILEFACTION_name}</FCP_Lyons_Enlisted_To_Hostile_Faction>
+
+	<!-- Kicked Out Options -->
+
+	<FCP_Lyons_Kick_Out_Letter_Title>Kicked out</FCP_Lyons_Kick_Out_Letter_Title>
+	<FCP_Lyons_Kick_Out_Label_Title>An order for your contract's immediate termination from service has been filed by {LEADER_nameDef}. You have been kicked out from the {FACTION_name}.</FCP_Lyons_Kick_Out_Label_Title>
+
+	<!-- Reinforcement Options -->
+
+	<FCP_Lyons_Reinforcements_Button_Label>Reinforcements</FCP_Lyons_Reinforcements_Button_Label>
+	<FCP_Lyons_Reinforcements_Button_Desc>Call for reinforcements from your faction. The number of Knights and Paladins they send depends on your current relations.</FCP_Lyons_Reinforcements_Button_Desc>
+
+</LanguageData>

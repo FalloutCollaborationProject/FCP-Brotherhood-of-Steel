@@ -140,8 +140,10 @@
 					<li>FCP_Character_Lyons_Paladin_Gunny</li>
 					<li>FCP_Character_Lyons_Paladin_Glade</li>
 					<li>FCP_Character_Lyons_Paladin_Kodiak</li>
+					<li>FCP_Character_Lyons_Paladin_Vargas</li>
 					<li>FCP_Character_Lyons_Knight_Captain_Gallows</li>
 					<li>FCP_Character_Lyons_Knight_Captain_Dusk</li>
+					<li>FCP_Character_Lyons_Knight_Captain_Colvin</li>
 				</characterDefs>
 				<characterChance>0.35</characterChance>
 			</li>
@@ -155,6 +157,7 @@
 				</options>
 				<characterDefs>
 					<li>FCP_Character_Lyons_Scribe_Rothchild</li>
+					<li>FCP_Character_Lyons_Scribe_Peabody</li>
 				</characterDefs>
 				<characterChance>0.25</characterChance>
 			</li>
@@ -195,6 +198,16 @@
                     <li>FCP_Faction_BoS_Outcast_Remnants</li>
                 </hostileFactionDefs>
             </li>
+			<li Class="FCP.Enlist.FactionEnlistOptions">
+				<enlistOptionsDefs>
+					<li>FCP_Enlistment_Lyons</li>
+				</enlistOptionsDefs>
+			</li>
+			<li Class="FCP.Ranks.FactionExtension_RankTracks">
+				<rankTracks>
+					<li>FCP_RankTrack_Lyons_Pride</li>
+				</rankTracks>
+			</li>
 			<li Class="FCP.Core.Shuttles.FactionModExtension">
 				<transportShipDef>FCP_BoS_Lyons_Pride_Vertibird</transportShipDef>
 				<minDistanceBetweenShuttles>10</minDistanceBetweenShuttles>

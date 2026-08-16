@@ -408,4 +408,40 @@
         </skillGains>
     </BackstoryDef>
 
+    <!-- Senior Scribe Neriah -->
+
+    <BackstoryDef>
+        <defName>FCP_Character_Backstory_Neriah_Child</defName>
+        <title>Lab Assistant</title>
+        <titleShort>Assistant</titleShort>
+        <baseDesc>[PAWN_nameDef] spent [PAWN_possessive] childhood assisting in the Prydwen's medical bay, drawn to biology over machinery from an early age.</baseDesc>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <slot>Childhood</slot>
+        <spawnCategories>
+            <li>FCP_Character_Backstory_Neriah_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>4</Intellectual>
+            <Medicine>2</Medicine>
+        </skillGains>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>FCP_Character_Backstory_Neriah_Adult</defName>
+        <title>Biological Researcher</title>
+        <titleShort>Researcher</titleShort>
+        <baseDesc>[PAWN_nameDef] heads biological research aboard the Prydwen, studying everything from feral ghoul pathology to super mutant physiology in search of anything the Brotherhood can turn into a weapon or a cure. [PAWN_possessive] lab is one of the few places on the airship nobody interrupts without knocking.</baseDesc>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <slot>Adulthood</slot>
+        <spawnCategories>
+            <li>FCP_Character_Backstory_Neriah_Adult</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>7</Intellectual>
+            <Medicine>5</Medicine>
+        </skillGains>
+    </BackstoryDef>
+
 </Defs>

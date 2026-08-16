@@ -196,6 +196,7 @@
     <WorldObjectDef ParentName="FCP_BoS_TravelingVertibirdBase">
         <defName>FCP_BoS_TravelingVertibird</defName>
         <label>BoS vertibird</label>
+        <expandingIconTexture>Things/Vehicles/Shuttles/BoSVertibird/FCP_BoS_Light_Vertibird_a</expandingIconTexture>
     </WorldObjectDef>
 
     <!-- BoS Outcast Vertibird -->
@@ -203,6 +204,7 @@
     <WorldObjectDef ParentName="FCP_BoS_TravelingVertibirdBase">
         <defName>FCP_BoS_Outcast_TravelingVertibird</defName>
         <label>BoS outcast vertibird</label>
+        <expandingIconTexture>Things/Vehicles/Shuttles/OutcastVertibird/FCP_Outcast_Vertibird</expandingIconTexture>
     </WorldObjectDef>
 
     <!-- BoS Lyons Pride Vertibird -->
@@ -210,6 +212,7 @@
     <WorldObjectDef ParentName="FCP_BoS_TravelingVertibirdBase">
         <defName>FCP_BoS_Lyons_TravelingVertibird</defName>
         <label>BoS lyons pride vertibird</label>
+        <expandingIconTexture>Things/Vehicles/Shuttles/LyonVertibird/FCP_Lyons_Vertibird</expandingIconTexture>
     </WorldObjectDef>
 
     <!--_____ Skyfaller Defs _____-->

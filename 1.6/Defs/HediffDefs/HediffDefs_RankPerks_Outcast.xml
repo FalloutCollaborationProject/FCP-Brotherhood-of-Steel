@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <!--__________ Outcast Remnants Rank Perks __________-->
+
+    <HediffDef Name="FCP_Hediff_Outcast_RankBase" Abstract="True">
+        <hediffClass>HediffWithComps</hediffClass>
+        <isBad>false</isBad>
+        <tendable>false</tendable>
+        <scenarioCanAdd>false</scenarioCanAdd>
+        <maxSeverity>1</maxSeverity>
+        <initialSeverity>1</initialSeverity>
+    </HediffDef>
+
+    <HediffDef ParentName="FCP_Hediff_Outcast_RankBase">
+        <defName>FCP_Hediff_Outcast_Rank_Defender</defName>
+        <label>Outcast Defender training</label>
+        <description>Combat drilling focused on securing technology and holding fortified camps.</description>
+        <stages>
+            <li>
+                <statOffsets>
+                    <ShootingAccuracyPawn>6</ShootingAccuracyPawn>
+                    <ArmorRating_Sharp>0.04</ArmorRating_Sharp>
+                </statOffsets>
+            </li>
+        </stages>
+    </HediffDef>
+
+    <HediffDef ParentName="FCP_Hediff_Outcast_RankBase">
+        <defName>FCP_Hediff_Outcast_Rank_ReconSpecialist</defName>
+        <label>Outcast Recon Specialist training</label>
+        <description>Solo scouting and salvage-site analysis, trading heavy armor for a sharper eye.</description>
+        <stages>
+            <li>
+                <statOffsets>
+                    <ResearchSpeed>0.15</ResearchSpeed>
+                    <MoveSpeed>0.15</MoveSpeed>
+                </statOffsets>
+            </li>
+        </stages>
+    </HediffDef>
+
+    <HediffDef ParentName="FCP_Hediff_Outcast_RankBase">
+        <defName>FCP_Hediff_Outcast_Rank_Protector</defName>
+        <label>Outcast Protector training</label>
+        <description>Iron discipline over the whole Outcast cadre, mastering both combat and technology recovery.</description>
+        <stages>
+            <li>
+                <statOffsets>
+                    <ShootingAccuracyPawn>8</ShootingAccuracyPawn>
+                    <ResearchSpeed>0.2</ResearchSpeed>
+                    <ArmorRating_Sharp>0.06</ArmorRating_Sharp>
+                </statOffsets>
+            </li>
+        </stages>
+    </HediffDef>
+
+    <!-- Protector Presence Aura -->
+
+    <HediffDef>
+        <defName>FCP_Hediff_Outcast_Protector_Presence</defName>
+        <hediffClass>HediffWithComps</hediffClass>
+        <label>the Protector's presence</label>
+        <description>The Protector leads with iron discipline. Nearby Outcasts hold the line with steadier hands.</description>
+        <isBad>false</isBad>
+        <tendable>false</tendable>
+        <scenarioCanAdd>false</scenarioCanAdd>
+        <maxSeverity>1</maxSeverity>
+        <initialSeverity>1</initialSeverity>
+        <comps>
+            <li Class="HediffCompProperties_Disappears">
+                <disappearsAfterTicks>310</disappearsAfterTicks>
+                <showRemainingTime>false</showRemainingTime>
+            </li>
+        </comps>
+        <stages>
+            <li>
+                <statOffsets>
+                    <MoveSpeed>0.2</MoveSpeed>
+                    <ShootingAccuracyPawn>3</ShootingAccuracyPawn>
+                    <MeleeDodgeChance>0.05</MeleeDodgeChance>
+                </statOffsets>
+            </li>
+        </stages>
+    </HediffDef>
+
+    <!-- Protector Rally -->
+
+    <HediffDef>
+        <defName>FCP_Hediff_Outcast_Protector_Rally</defName>
+        <hediffClass>HediffWithComps</hediffClass>
+        <label>rallied</label>
+        <description>The Protector has called the Outcasts to arms. A surge of speed and discipline answers the call.</description>
+        <isBad>false</isBad>
+        <tendable>false</tendable>
+        <scenarioCanAdd>false</scenarioCanAdd>
+        <maxSeverity>1</maxSeverity>
+        <initialSeverity>1</initialSeverity>
+        <comps>
+            <li Class="HediffCompProperties_Disappears">
+                <disappearsAfterTicks>2500</disappearsAfterTicks>
+                <showRemainingTime>true</showRemainingTime>
+            </li>
+        </comps>
+        <stages>
+            <li>
+                <statOffsets>
+                    <MoveSpeed>1</MoveSpeed>
+                    <MeleeDodgeChance>0.1</MeleeDodgeChance>
+                    <ShootingAccuracyPawn>3</ShootingAccuracyPawn>
+                </statOffsets>
+            </li>
+        </stages>
+    </HediffDef>
+
+</Defs>

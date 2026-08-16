@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
     <!--__________ Unique Commonwealth PawnKinds __________-->
@@ -573,6 +573,61 @@
                 </li>
                 <li MayRequire="Rick.FCP.PreWarFood">
                     <thingDef>FCP_Food_Sugar_Bombs</thingDef>
+                    <countRange>2~3</countRange>
+                </li>
+                <li MayRequire="Rick.FCP.NukaCola">
+                    <thingDef>FCP_Nuka_Cola</thingDef>
+                    <countRange>1~2</countRange>
+                </li>
+            </subOptionsChooseOne>
+        </inventoryOptions>
+    </PawnKindDef>
+
+    <!-- Senior Scribe Neriah -->
+
+    <PawnKindDef ParentName="FCP_BoSkindBase">
+        <defName>FCP_Unique_Pawnkind_Senior_Scribe_Neriah</defName>
+        <label>Senior Scribe Neriah</label>
+        <defaultFactionDef>FCP_Faction_BoS</defaultFactionDef>
+        <combatPower>38</combatPower>
+        <itemQuality>Excellent</itemQuality>
+        <gearHealthRange>0.9~1.0</gearHealthRange>
+        <weaponMoney>1000~1400</weaponMoney>
+        <weaponTags>
+            <li MayRequire="Rick.FCP.EnergyWeapons">FCP_Laser_Weapon</li>
+        </weaponTags>
+        <apparelRequired>
+            <li>FCP_Apparel_BoS_Science_Scribe</li>
+        </apparelRequired>
+        <apparelDisallowTags>
+            <li>FCP_Power_Armor_Helmet</li>
+            <li>FCP_Power_Armor</li>
+        </apparelDisallowTags>
+        <initialWillRange>4~5</initialWillRange>
+        <initialResistanceRange>18~26</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Character_Backstory_Neriah_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Character_Backstory_Neriah_Adult</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <inventoryOptions>
+            <skipChance>0.0</skipChance>
+            <subOptionsChooseOne>
+                <li>
+                    <thingDef>FCP_Currency_BoS_Scrip</thingDef>
+                    <countRange>70~130</countRange>
+                </li>
+                <li MayRequire="Rick.FCP.Chems">
+                    <thingDef>FCP_Chem_Stimpak</thingDef>
+                    <countRange>1~3</countRange>
+                </li>
+                <li MayRequire="Rick.FCP.PreWarFood">
+                    <thingDef>FCP_Food_Cram</thingDef>
                     <countRange>2~3</countRange>
                 </li>
                 <li MayRequire="Rick.FCP.NukaCola">

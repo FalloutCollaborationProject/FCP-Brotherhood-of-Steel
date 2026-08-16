@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<!--__________ Enlistments with Factions Letter Text __________-->
+
+	<!--_____ Midwestern Brotherhood _____-->
+
+	<!-- Enlistment Options -->
+
+	<FCP_Midwest_Enlist_Letter_Title>You have Enlisted into the {FACTION_name}.</FCP_Midwest_Enlist_Letter_Title>
+	<FCP_Midwest_Enlist_Letter_Label>Recruit, welcome to the Steel Vanguard. Doesn't matter where you came from - tribal, wastelander, doesn't matter. What matters is what you do now.\n\nYou'll draw a standard salary every week for you and your team, plus provisions you can collect at any of our outposts when you're not out expanding our territory. We've got more ground to hold than any other chapter, so pull your weight.\n\n -Ad Victoriam</FCP_Midwest_Enlist_Letter_Label>
+	<FCP_Midwest_Enlist_Button_Label>Enlist into the {FACTION_name}.</FCP_Midwest_Enlist_Button_Label>
+	<FCP_Midwest_Enlist_Button_Desc>Sign a new contract with the {FACTION_name}.</FCP_Midwest_Enlist_Button_Desc>
+	<FCP_Midwest_Enlist_Requrements_Not_Satisfied>You need a minimum of 10 goodwill, currently you have only {0} goodwill.</FCP_Midwest_Enlist_Requrements_Not_Satisfied>
+	<FCP_Midwest_Enlisted_With_Key>Enlisted with: the {FACTION_name}</FCP_Midwest_Enlisted_With_Key>
+
+	<!-- Mission Options -->
+
+	<FCP_Midwest_Missions_Label>Tasks</FCP_Midwest_Missions_Label>
+	<FCP_Midwest_Missions_Desc>Task descriptions</FCP_Midwest_Missions_Desc>
+	<FCP_Midwest_Menu_Missions_Desc>While leaving the outpost you ask around about any potential tasks that need doing.</FCP_Midwest_Menu_Missions_Desc>
+	<FCP_Midwest_Menu_Missions_Select_Quest>Select a Task: </FCP_Midwest_Menu_Missions_Select_Quest>
+	<FCP_Midwest_Menu_Missions_Start_Quest>Accept Task</FCP_Midwest_Menu_Missions_Start_Quest>
+	<FCP_Midwest_Menu_Missions_Collect_Bounty>Collect Reward</FCP_Midwest_Menu_Missions_Collect_Bounty>
+	<FCP_Midwest_Not_Enough_Money>Not enough scrip</FCP_Midwest_Not_Enough_Money>
+
+	<!-- Salary Options -->
+
+	<FCP_Midwest_Salary_Label>Wages</FCP_Midwest_Salary_Label>
+	<FCP_Midwest_Salary_Desc>You are entitled to collect wages from this faction every 14 days.</FCP_Midwest_Salary_Desc>
+
+	<!-- Provision Options -->
+
+	<FCP_Midwest_Provisions_Label>Provisions</FCP_Midwest_Provisions_Label>
+	<FCP_Midwest_Provisions_Desc>Provisions will arrive via your caravan inventory every 10 days:\n\n- ×6 BoS Food Crate</FCP_Midwest_Provisions_Desc>
+
+	<FCP_Midwest_Provisions_Label_Standard_Issue>Standard Issue</FCP_Midwest_Provisions_Label_Standard_Issue>
+	<FCP_Midwest_Provisions_Desc_Standard_Issue>Steel Vanguard standard issue gear will arrive via your caravan inventory every 45 days:\n\n- ×2 BoS Weapon Crate\n- ×2 BoS Tech Resource Crate\n- ×2 BoS Uniform Crate</FCP_Midwest_Provisions_Desc_Standard_Issue>
+
+	<!-- Storage Options -->
+
+	<FCP_Midwest_Storage_Label>Storage</FCP_Midwest_Storage_Label>
+	<FCP_Midwest_Storage_Desc>Store items from your caravan to your faction stash. Faction stashes transfer across all of the faction's outposts and will save contents even if you are no longer enlisted.</FCP_Midwest_Storage_Desc>
+
+	<!-- Work Options -->
+
+	<FCP_Midwest_Part_Time_Job_Label>Part-Time Job</FCP_Midwest_Part_Time_Job_Label>
+	<FCP_Midwest_Part_Time_Job_Desc>Pull additional duties and cover for your Vanguard brothers for $10 an hour.</FCP_Midwest_Part_Time_Job_Desc>
+	<FCP_Midwest_Hospital_Label>Hospital</FCP_Midwest_Hospital_Label>
+	<FCP_Midwest_Hospital_Desc>Check in with the outpost's hospital. This service tends to all of your team with industrial medicine. Immunity gain is also increased while your team is in the hospital.</FCP_Midwest_Hospital_Desc>
+	<FCP_Midwest_Knight_Training_Label>Training: Vanguard training</FCP_Midwest_Knight_Training_Label>
+	<FCP_Midwest_Knight_Training_Desc>Train with the Steel Vanguard's mixed ranks of tribals and wastelanders, with hourly experience gain on the following skills:\n\n- Shooting, Melee, Social\n\nHourly experience gain stops when this faction is resting at night.</FCP_Midwest_Knight_Training_Desc>
+
+	<!-- Bounty Options -->
+
+	<FCP_Midwest_Turn_In_Label>Turn in</FCP_Midwest_Turn_In_Label>
+	<FCP_Midwest_Turn_In_Desc>Turn in war prisoners and high value targets to Steel Vanguard outposts.\n\n -Turning over any hostile pawns do not result in a slavery debuff-</FCP_Midwest_Turn_In_Desc>
+	<FCP_Midwest_Turn_In_Trader_Name>Garrison Warden</FCP_Midwest_Turn_In_Trader_Name>
+
+	<!-- Resign Options -->
+
+	<FCP_Midwest_Resign_Menu_Text>You will resign from the {FACTION_name} effective immediately. (-25 in relations)</FCP_Midwest_Resign_Menu_Text>
+	<FCP_Midwest_Resign_Letter_Title>Resigned</FCP_Midwest_Resign_Letter_Title>
+	<FCP_Midwest_Resign_Letter_Label>Resign</FCP_Midwest_Resign_Letter_Label>
+	<FCP_Midwest_Resign_Button_Label>You have successfully resigned from the {FACTION_name}. (-25 relations)</FCP_Midwest_Resign_Button_Label>
+	<FCP_Midwest_Resign_Button_Desc>Leave this faction.</FCP_Midwest_Resign_Button_Desc>
+	<FCP_Midwest_Enlisted_To_Hostile_Faction>cannot join because you are enlisted with their enemy, {HOSTILEFACTION_name}</FCP_Midwest_Enlisted_To_Hostile_Faction>
+
+	<!-- Kicked Out Options -->
+
+	<FCP_Midwest_Kick_Out_Letter_Title>Kicked out</FCP_Midwest_Kick_Out_Letter_Title>
+	<FCP_Midwest_Kick_Out_Label_Title>An order for your contract's immediate termination from service has been filed by {LEADER_nameDef}. You have been kicked out from the {FACTION_name}.</FCP_Midwest_Kick_Out_Label_Title>
+
+	<!-- Reinforcement Options -->
+
+	<FCP_Midwest_Reinforcements_Button_Label>Reinforcements</FCP_Midwest_Reinforcements_Button_Label>
+	<FCP_Midwest_Reinforcements_Button_Desc>Call for reinforcements from your faction. The number of Knights and Paladins they send depends on your current relations.</FCP_Midwest_Reinforcements_Button_Desc>
+
+</LanguageData>

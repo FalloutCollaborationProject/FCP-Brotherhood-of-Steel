@@ -16,6 +16,10 @@
                 <factionDef>FCP_Faction_BoS_Player</factionDef>
             </playerFaction>
             <parts>
+
+                <li Class="FCP.Core.GOAT.ScenPart_GOATExam">
+                    <def>FCP_GOATExam</def>
+                </li>
                 <!-- Config pages -->
                 <li Class="ScenPart_ConfigPage_ConfigureStartingPawns_KindDefs">
                     <def>ConfigurePawnsKindDefs</def>
@@ -116,9 +120,10 @@
                     <count>50</count>
                 </li>
                 <!-- Game start dialog -->
-                <li Class="ScenPart_GameStartDialog">
+                <li Class="FCP.Core.ScenPart_TerminalStartDialog">
                     <def>GameStartDialog</def>
-                    <text>The vertibird's warning klaxons are still ringing in your ears as you pull yourself from the wreckage. Your mission to investigate pre-war technology sites has taken an unexpected turn.\n\nYou are Brotherhood of Steel. Knights, scribes, and initiates bound by the Codex. Your duty is clear: secure technology, establish order, and ensure the mistakes of the Old World are never repeated.\n\nSteel be with you, Brothers and Sisters.</text>
+                    <title>Crash Site</title>
+                    <text>It is the year [FCP_Year]. The vertibird's warning klaxons are still ringing in your ears as you pull yourself from the wreckage. Your mission to investigate pre-war technology sites has taken an unexpected turn.\n\nYou are Brotherhood of Steel. Knights, scribes, and initiates bound by the Codex. Your duty is clear: secure technology, establish order, and ensure the mistakes of the Old World are never repeated.\n\nSteel be with you, Brothers and Sisters.</text>
                     <closeSound>GameStartSting</closeSound>
                 </li>
             </parts>
@@ -138,6 +143,10 @@
                 <factionDef>FCP_Faction_BoS_Lyons_Pride_Remnants_Player</factionDef>
             </playerFaction>
             <parts>
+
+                <li Class="FCP.Core.GOAT.ScenPart_GOATExam">
+                    <def>FCP_GOATExam</def>
+                </li>
                 <!-- Config pages -->
                 <li Class="ScenPart_ConfigPage_ConfigureStartingPawns_KindDefs">
                     <def>ConfigurePawnsKindDefs</def>
@@ -168,7 +177,7 @@
                 <li Class="FCP.Enlist.ScenPart_StartEnlisted">
                     <def>FCP_StartEnlisted</def>
                     <factionDef>FCP_Faction_BoS_Lyons_Pride_Remnants</factionDef>
-                    <enlistOptionsDef>FCP_Enlistment_BoS</enlistOptionsDef>
+                    <enlistOptionsDef>FCP_Enlistment_Lyons</enlistOptionsDef>
                 </li>
                 <!-- Map generation -->
                 <li Class="ScenPart_CreateIncident">
@@ -215,9 +224,10 @@
                     <count>300</count>
                 </li>
                 <!-- Game start dialog -->
-                <li Class="ScenPart_GameStartDialog">
+                <li Class="FCP.Core.ScenPart_TerminalStartDialog">
                     <def>GameStartDialog</def>
-                    <text>Elder Lyons taught you that technology means nothing if it doesn't serve the people. His daughter Sarah led you into battle not for artifacts, but for lives.\n\nNow the orthodox Brotherhood has reclaimed the Capital Wasteland, and there's no place for "Lyons' sentimentalists" in their ranks. You've fled east, carrying his teachings and the scars of too many hard choices.\n\nBuild a new chapter. Prove that the Brotherhood can be a beacon of hope, not just a vault of the past.</text>
+                    <title>Sentimentalists</title>
+                    <text>It is the year [FCP_Year]. Elder Lyons taught you that technology means nothing if it doesn't serve the people. His daughter Sarah led you into battle not for artifacts, but for lives.\n\nNow the orthodox Brotherhood has reclaimed the Capital Wasteland, and there's no place for "Lyons' sentimentalists" in their ranks. You've fled east, carrying his teachings and the scars of too many hard choices.\n\nBuild a new chapter. Prove that the Brotherhood can be a beacon of hope, not just a vault of the past.</text>
                     <closeSound>GameStartSting</closeSound>
                 </li>
 
@@ -238,6 +248,10 @@
                 <factionDef>FCP_Faction_BoS_Outcast_Remnants_Player</factionDef>
             </playerFaction>
             <parts>
+
+                <li Class="FCP.Core.GOAT.ScenPart_GOATExam">
+                    <def>FCP_GOATExam</def>
+                </li>
                 <!-- Player starting stuff spawn method-->
                 <li Class="FCP.Core.Shuttles.ScenPart_PlayerPawnsArriveInShuttle">
                     <def>FCP_PlayerPawnsArriveInShuttle</def>
@@ -245,7 +259,7 @@
                 <li Class="FCP.Enlist.ScenPart_StartEnlisted">
                     <def>FCP_StartEnlisted</def>
                     <factionDef>FCP_Faction_BoS_Outcast_Remnants</factionDef>
-                    <enlistOptionsDef>FCP_Enlistment_BoS</enlistOptionsDef>
+                    <enlistOptionsDef>FCP_Enlistment_Outcast</enlistOptionsDef>
                 </li>
                 <!-- Configure pawns -->
                 <li Class="ScenPart_ConfigPage_ConfigureStartingPawns_KindDefs">
@@ -336,9 +350,10 @@
                     <count>100</count>
                 </li>
                 <!-- Game start dialog -->
-                <li Class="ScenPart_GameStartDialog">
+                <li Class="FCP.Core.ScenPart_TerminalStartDialog">
                     <def>GameStartDialog</def>
-                    <text>The Codex is clear: technology must be preserved, controlled, and kept from those who would misuse it. Elder Lyons betrayed that sacred duty, wasting Brotherhood lives and resources on worthless wastelanders.\n\nYou are the Outcasts - the true Brotherhood. While others compromised, you held the line. Now you'll build a chapter that remembers what the Brotherhood was meant to be.\n\nLet the tech-hoarders think you heartless. History will prove you right.</text>
+                    <title>True Brotherhood</title>
+                    <text>It is the year [FCP_Year]. The Codex is clear: technology must be preserved, controlled, and kept from those who would misuse it. Elder Lyons betrayed that sacred duty, wasting Brotherhood lives and resources on worthless wastelanders.\n\nYou are the Outcasts - the true Brotherhood. While others compromised, you held the line. Now you'll build a chapter that remembers what the Brotherhood was meant to be.\n\nLet the tech-hoarders think you heartless. History will prove you right.</text>
                     <closeSound>GameStartSting</closeSound>
                 </li>
 
@@ -359,6 +374,10 @@
                 <factionDef>FCP_Faction_BoS_Player</factionDef>
             </playerFaction>
             <parts>
+
+                <li Class="FCP.Core.GOAT.ScenPart_GOATExam">
+                    <def>FCP_GOATExam</def>
+                </li>
                 <!-- Player starting stuff spawn method-->
                 <li Class="FCP.Core.Shuttles.ScenPart_PlayerPawnsArriveInShuttle">
                     <def>FCP_PlayerPawnsArriveInShuttle</def>
@@ -457,9 +476,10 @@
                     <count>100</count>
                 </li>
                 <!-- Game start dialog -->
-                <li Class="ScenPart_GameStartDialog">
+                <li Class="FCP.Core.ScenPart_TerminalStartDialog">
                     <def>GameStartDialog</def>
-                    <text>Appalachia taught you hard lessons. You watched fellow Brothers and Sisters fall to radiation, disease, and creatures that should only exist in nightmares. You saw what happens when the Brotherhood's reach exceeds its grasp.\n\nBut you survived. You learned. You adapted.\n\nNow you're far from those irradiated hills, but the lessons remain. Build a chapter that's strong enough to matter, smart enough to survive, and flexible enough to face whatever this world throws at you.\n\nThe Brotherhood evolves, or it dies. Time to prove which one you are.</text>
+                    <title>Lessons Learned</title>
+                    <text>It is the year [FCP_Year]. Appalachia taught you hard lessons. You watched fellow Brothers and Sisters fall to radiation, disease, and creatures that should only exist in nightmares. You saw what happens when the Brotherhood's reach exceeds its grasp.\n\nBut you survived. You learned. You adapted.\n\nNow you're far from those irradiated hills, but the lessons remain. Build a chapter that's strong enough to matter, smart enough to survive, and flexible enough to face whatever this world throws at you.\n\nThe Brotherhood evolves, or it dies. Time to prove which one you are.</text>
                     <closeSound>GameStartSting</closeSound>
                 </li>
 
@@ -480,6 +500,10 @@
                 <factionDef>FCP_Faction_BoS_Mojave_Player</factionDef>
             </playerFaction>
             <parts>
+
+                <li Class="FCP.Core.GOAT.ScenPart_GOATExam">
+                    <def>FCP_GOATExam</def>
+                </li>
                 <!-- Player starting stuff spawn method-->
                 <li Class="FCP.Core.Shuttles.ScenPart_PlayerPawnsArriveInShuttle">
                     <def>FCP_PlayerPawnsArriveInShuttle</def>
@@ -568,9 +592,10 @@
                     <count>20</count>
                 </li>
                 <!-- Game start dialog -->
-                <li Class="ScenPart_GameStartDialog">
+                <li Class="FCP.Core.ScenPart_TerminalStartDialog">
                     <def>GameStartDialog</def>
-                    <text>The Hidden Valley bunker that once sheltered you is now a tomb of metal and failed dreams. Elder Elijah's obsession with the Sierra Madre, the schism with the NCR, years of isolation - it all led to this moment of desperate exodus. You carry what little you could salvage: worn recon armor, a handful of energy weapons, and the bitter knowledge of what the Brotherhood once was. The Mojave sun beats down mercilessly, but it's nothing compared to the weight of rebuilding from ashes. The old ways failed. Perhaps it's time to forge new ones.</text>
+                    <title>Exodus</title>
+                    <text>It is the year [FCP_Year]. The Hidden Valley bunker that once sheltered you is now a tomb of metal and failed dreams. Elder Elijah's obsession with the Sierra Madre, the schism with the NCR, years of isolation - it all led to this moment of desperate exodus.\n\nYou carry what little you could salvage: worn recon armor, a handful of energy weapons, and the bitter knowledge of what the Brotherhood once was. The Mojave sun beats down mercilessly, but it's nothing compared to the weight of rebuilding from ashes.\n\nThe old ways failed. Perhaps it's time to forge new ones.</text>
                     <closeSound>GameStartSting</closeSound>
                 </li>
             </parts>

@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <!--__________ Midwestern Brotherhood Ranks __________-->
+
+    <FCP.Ranks.RankTierDef>
+        <defName>FCP_Rank_Midwest_Initiate</defName>
+        <label>Initiate</label>
+        <description>The newest recruits of the Midwestern Brotherhood, tribal and wastelander alike, drilled together from day one.</description>
+        <correspondingRoyalTitle MayRequire="Ludeon.RimWorld.Royalty">FCP_Title_BoS_Initiate</correspondingRoyalTitle>
+        <nextTierOptions>
+            <li>FCP_Rank_Midwest_Squire</li>
+        </nextTierOptions>
+    </FCP.Ranks.RankTierDef>
+
+    <FCP.Ranks.RankTierDef>
+        <defName>FCP_Rank_Midwest_Squire</defName>
+        <label>Squire</label>
+        <description>Squires run errands and learn the Vanguard's doctrine before being trusted with power armor of their own.</description>
+        <minDaysInRank>3</minDaysInRank>
+        <correspondingRoyalTitle MayRequire="Ludeon.RimWorld.Royalty">FCP_Title_BoS_Squire</correspondingRoyalTitle>
+        <nextTierOptions>
+            <li>FCP_Rank_Midwest_KnightInitiate</li>
+        </nextTierOptions>
+    </FCP.Ranks.RankTierDef>
+
+    <FCP.Ranks.RankTierDef>
+        <defName>FCP_Rank_Midwest_KnightInitiate</defName>
+        <label>Knight Initiate</label>
+        <description>Knight Initiates drill in power armor operation and combat doctrine, the Midwestern Brotherhood's sole track to advancement.</description>
+        <minDaysInRank>5</minDaysInRank>
+        <skillRequirements>
+            <Shooting>3</Shooting>
+        </skillRequirements>
+        <grantHediff>FCP_Hediff_Midwest_Rank_KnightInitiate</grantHediff>
+        <trainingXpPerHour>
+            <Shooting>300</Shooting>
+            <Melee>50</Melee>
+        </trainingXpPerHour>
+        <discipline>Combat</discipline>
+        <correspondingRoyalTitle MayRequire="Ludeon.RimWorld.Royalty">FCP_Title_BoS_Knight_Initiate</correspondingRoyalTitle>
+        <nextTierOptions>
+            <li>FCP_Rank_Midwest_Knight</li>
+        </nextTierOptions>
+    </FCP.Ranks.RankTierDef>
+
+    <FCP.Ranks.RankTierDef>
+        <defName>FCP_Rank_Midwest_Knight</defName>
+        <label>Knight</label>
+        <description>Knights are the Vanguard's front line, expected to hold ground across a territory too large for isolationism.</description>
+        <minDaysInRank>7</minDaysInRank>
+        <skillRequirements>
+            <Shooting>6</Shooting>
+        </skillRequirements>
+        <grantHediff>FCP_Hediff_Midwest_Rank_Knight</grantHediff>
+        <trainingXpPerHour>
+            <Shooting>600</Shooting>
+            <Melee>100</Melee>
+        </trainingXpPerHour>
+        <expedition>FCP_Expedition_Midwest_Novice</expedition>
+        <discipline>Combat</discipline>
+        <correspondingRoyalTitle MayRequire="Ludeon.RimWorld.Royalty">FCP_Title_BoS_Knight</correspondingRoyalTitle>
+        <nextTierOptions>
+            <li>FCP_Rank_Midwest_SeniorKnight</li>
+        </nextTierOptions>
+    </FCP.Ranks.RankTierDef>
+
+    <FCP.Ranks.RankTierDef>
+        <defName>FCP_Rank_Midwest_SeniorKnight</defName>
+        <label>Senior Knight</label>
+        <description>Senior Knights have proven themselves across the Vanguard's sprawling frontier, trusted to lead mixed squads of tribals and wastelanders alike.</description>
+        <minDaysInRank>10</minDaysInRank>
+        <skillRequirements>
+            <Shooting>9</Shooting>
+            <Social>3</Social>
+        </skillRequirements>
+        <grantHediff>FCP_Hediff_Midwest_Rank_SeniorKnight</grantHediff>
+        <trainingXpPerHour>
+            <Shooting>700</Shooting>
+            <Melee>150</Melee>
+            <Social>50</Social>
+        </trainingXpPerHour>
+        <expedition>FCP_Expedition_Midwest_Novice</expedition>
+        <discipline>Combat</discipline>
+        <correspondingRoyalTitle MayRequire="Ludeon.RimWorld.Royalty">FCP_Title_BoS_Senior_Knight</correspondingRoyalTitle>
+        <nextTierOptions>
+            <li>FCP_Rank_Midwest_KnightCommander</li>
+        </nextTierOptions>
+    </FCP.Ranks.RankTierDef>
+
+    <FCP.Ranks.RankTierDef>
+        <defName>FCP_Rank_Midwest_KnightCommander</defName>
+        <label>Knight Commander</label>
+        <description>Knight Commanders answer for entire companies spread across the Midwest, the last rank before Paladin.</description>
+        <minDaysInRank>12</minDaysInRank>
+        <skillRequirements>
+            <Shooting>11</Shooting>
+            <Social>5</Social>
+        </skillRequirements>
+        <grantHediff>FCP_Hediff_Midwest_Rank_KnightCommander</grantHediff>
+        <trainingXpPerHour>
+            <Shooting>800</Shooting>
+            <Melee>150</Melee>
+            <Social>75</Social>
+        </trainingXpPerHour>
+        <expedition>FCP_Expedition_Midwest_Veteran</expedition>
+        <discipline>Combat</discipline>
+        <correspondingRoyalTitle MayRequire="Ludeon.RimWorld.Royalty">FCP_Title_BoS_Knight_Commander</correspondingRoyalTitle>
+        <nextTierOptions>
+            <li>FCP_Rank_Midwest_Paladin</li>
+        </nextTierOptions>
+    </FCP.Ranks.RankTierDef>
+
+    <FCP.Ranks.RankTierDef>
+        <defName>FCP_Rank_Midwest_Paladin</defName>
+        <label>Paladin</label>
+        <description>Paladins are the Vanguard's elite field commanders, leading major expansion campaigns and welcoming worthy outsiders into the ranks.</description>
+        <minDaysInRank>15</minDaysInRank>
+        <skillRequirements>
+            <Shooting>13</Shooting>
+            <Social>7</Social>
+        </skillRequirements>
+        <minSquiresTrained>1</minSquiresTrained>
+        <grantHediff>FCP_Hediff_Midwest_Rank_Paladin</grantHediff>
+        <trainingXpPerHour>
+            <Shooting>900</Shooting>
+            <Melee>200</Melee>
+            <Social>100</Social>
+        </trainingXpPerHour>
+        <expedition>FCP_Expedition_Midwest_Elite</expedition>
+        <discipline>Combat</discipline>
+        <correspondingRoyalTitle MayRequire="Ludeon.RimWorld.Royalty">FCP_Title_BoS_Paladin</correspondingRoyalTitle>
+        <correspondingIdeoRole MayRequire="Ludeon.RimWorld.Ideology">FCP_IdeoRole_Paladin</correspondingIdeoRole>
+        <nextTierOptions>
+            <li>FCP_Rank_Midwest_SeniorPaladin</li>
+        </nextTierOptions>
+    </FCP.Ranks.RankTierDef>
+
+    <FCP.Ranks.RankTierDef>
+        <defName>FCP_Rank_Midwest_SeniorPaladin</defName>
+        <label>Senior Paladin</label>
+        <description>Senior Paladins have led enough campaigns to be trusted with independent command of entire settlements.</description>
+        <minDaysInRank>18</minDaysInRank>
+        <skillRequirements>
+            <Shooting>15</Shooting>
+            <Social>9</Social>
+        </skillRequirements>
+        <minSquiresTrained>2</minSquiresTrained>
+        <grantHediff>FCP_Hediff_Midwest_Rank_SeniorPaladin</grantHediff>
+        <trainingXpPerHour>
+            <Shooting>1000</Shooting>
+            <Melee>200</Melee>
+            <Social>100</Social>
+        </trainingXpPerHour>
+        <expedition>FCP_Expedition_Midwest_Elite</expedition>
+        <discipline>Combat</discipline>
+        <correspondingRoyalTitle MayRequire="Ludeon.RimWorld.Royalty">FCP_Title_BoS_Senior_Paladin</correspondingRoyalTitle>
+        <nextTierOptions>
+            <li>FCP_Rank_Midwest_Sentinel</li>
+        </nextTierOptions>
+    </FCP.Ranks.RankTierDef>
+
+    <FCP.Ranks.RankTierDef>
+        <defName>FCP_Rank_Midwest_Sentinel</defName>
+        <label>Sentinel</label>
+        <description>Sentinel is reserved for the Vanguard's most distinguished soldier, a rank below only the General.</description>
+        <minDaysInRank>22</minDaysInRank>
+        <skillRequirements>
+            <Shooting>18</Shooting>
+            <Social>10</Social>
+        </skillRequirements>
+        <minSquiresTrained>2</minSquiresTrained>
+        <minMissionsCompleted>2</minMissionsCompleted>
+        <grantHediff>FCP_Hediff_Midwest_Rank_Sentinel</grantHediff>
+        <trainingXpPerHour>
+            <Shooting>1100</Shooting>
+            <Melee>250</Melee>
+            <Social>125</Social>
+        </trainingXpPerHour>
+        <expedition>FCP_Expedition_Midwest_Sentinel</expedition>
+        <discipline>Combat</discipline>
+        <correspondingRoyalTitle MayRequire="Ludeon.RimWorld.Royalty">FCP_Title_BoS_Sentinel</correspondingRoyalTitle>
+        <nextTierOptions>
+            <li>FCP_Rank_Midwest_General</li>
+        </nextTierOptions>
+    </FCP.Ranks.RankTierDef>
+
+    <FCP.Ranks.RankTierDef>
+        <defName>FCP_Rank_Midwest_General</defName>
+        <label>General</label>
+        <description>The General commands the Midwestern Brotherhood's entire sprawling territory, answering for expansion, recruitment, and defense of a frontier too large for isolationism.</description>
+        <minDaysInRank>28</minDaysInRank>
+        <skillRequirements>
+            <Shooting>20</Shooting>
+            <Social>13</Social>
+        </skillRequirements>
+        <minSquiresTrained>3</minSquiresTrained>
+        <minMissionsCompleted>3</minMissionsCompleted>
+        <grantHediff>FCP_Hediff_Midwest_Rank_General</grantHediff>
+        <trainingXpPerHour>
+            <Shooting>1200</Shooting>
+            <Melee>250</Melee>
+            <Social>150</Social>
+        </trainingXpPerHour>
+        <expedition>FCP_Expedition_Midwest_Sentinel</expedition>
+        <discipline>Combat</discipline>
+        <correspondingRoyalTitle MayRequire="Ludeon.RimWorld.Royalty">FCP_Title_BoS_Midwest_General</correspondingRoyalTitle>
+        <isCommanderTier>true</isCommanderTier>
+        <auraRadius>16</auraRadius>
+        <auraHediff>FCP_Hediff_Midwest_General_Presence</auraHediff>
+        <rallyHediff>FCP_Hediff_Midwest_General_Rally</rallyHediff>
+        <rallyCooldownDays>2</rallyCooldownDays>
+    </FCP.Ranks.RankTierDef>
+
+</Defs>

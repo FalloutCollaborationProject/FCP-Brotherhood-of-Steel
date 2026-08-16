@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<!--__________ Expedition Return Flavor Text __________-->
+
+	<!-- Veteran -->
+
+	<FCP_Rank_Expedition_Outcast_Veteran_1>{PAWN} cleared a scav den squatting on an old research site and stripped it before anyone else could.</FCP_Rank_Expedition_Outcast_Veteran_1>
+	<FCP_Rank_Expedition_Outcast_Veteran_2>{PAWN} tracked down a rumored tech cache, fought off the ferals guarding it, and hauled out what was left intact.</FCP_Rank_Expedition_Outcast_Veteran_2>
+	<FCP_Rank_Expedition_Outcast_Veteran_3>{PAWN} spent the run cataloging a collapsed facility, marking what's worth a return trip.</FCP_Rank_Expedition_Outcast_Veteran_3>
+	<FCP_Rank_Expedition_Outcast_Veteran_4>{PAWN} came back with a cracked visor and a pre-War terminal that still boots.</FCP_Rank_Expedition_Outcast_Veteran_4>
+
+	<!-- Elite -->
+
+	<FCP_Rank_Expedition_Outcast_Elite_1>{PAWN} went in alone where a squad would've drawn too much attention, and came out with the objective secured.</FCP_Rank_Expedition_Outcast_Elite_1>
+	<FCP_Rank_Expedition_Outcast_Elite_2>{PAWN} ran the operation exactly to plan - in, recover the tech, out before anything organized a response.</FCP_Rank_Expedition_Outcast_Elite_2>
+	<FCP_Rank_Expedition_Outcast_Elite_3>{PAWN} spent the better part of two weeks in hostile territory and returned with data worth the Protector's attention.</FCP_Rank_Expedition_Outcast_Elite_3>
+	<FCP_Rank_Expedition_Outcast_Elite_4>{PAWN} didn't say much about what happened out there, just filed the recovered tech and asked for a debrief later.</FCP_Rank_Expedition_Outcast_Elite_4>
+
+</LanguageData>

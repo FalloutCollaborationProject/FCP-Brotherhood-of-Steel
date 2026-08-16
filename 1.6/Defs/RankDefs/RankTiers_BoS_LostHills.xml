@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <!--__________ Lost Hills Ranks __________-->
+
+    <!--_____ Trunk _____-->
+
+    <FCP.Ranks.RankTierDef>
+        <defName>FCP_Rank_LostHills_Initiate</defName>
+        <label>Initiate</label>
+        <description>The lowest rank at Lost Hills. Initiates are drilled hard and fast - the Western Chapter has no patience for slow learners.</description>
+        <correspondingRoyalTitle MayRequire="Ludeon.RimWorld.Royalty">FCP_Title_BoS_Initiate</correspondingRoyalTitle>
+        <nextTierOptions>
+            <li>FCP_Rank_LostHills_Squire</li>
+        </nextTierOptions>
+    </FCP.Ranks.RankTierDef>
+
+    <FCP.Ranks.RankTierDef>
+        <defName>FCP_Rank_LostHills_Squire</defName>
+        <label>Squire</label>
+        <description>Squires shadow full Brothers of the Western Chapter, learning the Codex before they're trusted to choose their path.</description>
+        <minDaysInRank>4</minDaysInRank>
+        <correspondingRoyalTitle MayRequire="Ludeon.RimWorld.Royalty">FCP_Title_BoS_Squire</correspondingRoyalTitle>
+        <nextTierOptions>
+            <li>FCP_Rank_LostHills_Aspirant</li>
+        </nextTierOptions>
+    </FCP.Ranks.RankTierDef>
+
+    <FCP.Ranks.RankTierDef>
+        <defName>FCP_Rank_LostHills_Aspirant</defName>
+        <label>Aspirant</label>
+        <description>Aspirants at Lost Hills face the same fork every Brotherhood member does, but the Western Chapter expects them to clear it fast - there is no separate Knight Initiate or Scribe Initiate stage here, only readiness.</description>
+        <minDaysInRank>6</minDaysInRank>
+        <correspondingRoyalTitle MayRequire="Ludeon.RimWorld.Royalty">FCP_Title_BoS_Aspirant</correspondingRoyalTitle>
+        <nextTierOptions>
+            <li>FCP_Rank_LostHills_Knight</li>
+            <li>FCP_Rank_LostHills_Scribe</li>
+        </nextTierOptions>
+    </FCP.Ranks.RankTierDef>
+
+    <!--_____ Path of the Paladin _____-->
+
+    <FCP.Ranks.RankTierDef>
+        <defName>FCP_Rank_LostHills_Knight</defName>
+        <label>Knight</label>
+        <description>Knights hold the Western Chapter's day-to-day posts - armory, storeroom, entrance watch - commissioned soldiers who haven't yet earned power armor of their own.</description>
+        <pathName>Path of the Paladin</pathName>
+        <minDaysInRank>10</minDaysInRank>
+        <skillRequirements>
+            <Shooting>8</Shooting>
+        </skillRequirements>
+        <grantHediff>FCP_Hediff_LostHills_Rank_Knight</grantHediff>
+        <trainingXpPerHour>
+            <Shooting>700</Shooting>
+            <Melee>125</Melee>
+        </trainingXpPerHour>
+        <discipline>Combat</discipline>
+        <correspondingRoyalTitle MayRequire="Ludeon.RimWorld.Royalty">FCP_Title_BoS_Knight</correspondingRoyalTitle>
+        <nextTierOptions>
+            <li>FCP_Rank_LostHills_Paladin</li>
+        </nextTierOptions>
+    </FCP.Ranks.RankTierDef>
+
+    <FCP.Ranks.RankTierDef>
+        <defName>FCP_Rank_LostHills_Paladin</defName>
+        <label>Paladin</label>
+        <description>A Knight who proves themselves is made a Paladin outright, clad in the finest power armor the Western Chapter can field - Lost Hills has no interest in dragging that step out.</description>
+        <pathName>Path of the Paladin</pathName>
+        <minDaysInRank>15</minDaysInRank>
+        <skillRequirements>
+            <Shooting>13</Shooting>
+        </skillRequirements>
+        <grantHediff>FCP_Hediff_LostHills_Rank_Paladin</grantHediff>
+        <trainingXpPerHour>
+            <Shooting>950</Shooting>
+            <Melee>200</Melee>
+        </trainingXpPerHour>
+        <expedition>FCP_Expedition_LostHills_Veteran</expedition>
+        <discipline>Combat</discipline>
+        <correspondingRoyalTitle MayRequire="Ludeon.RimWorld.Royalty">FCP_Title_BoS_Paladin</correspondingRoyalTitle>
+        <correspondingIdeoRole MayRequire="Ludeon.RimWorld.Ideology">FCP_IdeoRole_Paladin</correspondingIdeoRole>
+        <nextTierOptions>
+            <li>FCP_Rank_LostHills_SeniorPaladin</li>
+        </nextTierOptions>
+    </FCP.Ranks.RankTierDef>
+
+    <FCP.Ranks.RankTierDef>
+        <defName>FCP_Rank_LostHills_SeniorPaladin</defName>
+        <label>Senior Paladin</label>
+        <description>Senior Paladins have proven their bloodline and their blade both, trusted with independent command of Western Chapter patrols.</description>
+        <minDaysInRank>18</minDaysInRank>
+        <skillRequirements>
+            <Shooting>16</Shooting>
+        </skillRequirements>
+        <minSquiresTrained>1</minSquiresTrained>
+        <grantHediff>FCP_Hediff_LostHills_Rank_SeniorPaladin</grantHediff>
+        <trainingXpPerHour>
+            <Shooting>1050</Shooting>
+            <Melee>250</Melee>
+        </trainingXpPerHour>
+        <expedition>FCP_Expedition_LostHills_Elite</expedition>
+        <discipline>Combat</discipline>
+        <correspondingRoyalTitle MayRequire="Ludeon.RimWorld.Royalty">FCP_Title_BoS_Senior_Paladin</correspondingRoyalTitle>
+        <nextTierOptions>
+            <li>FCP_Rank_LostHills_HeadPaladin</li>
+        </nextTierOptions>
+    </FCP.Ranks.RankTierDef>
+
+    <FCP.Ranks.RankTierDef>
+        <defName>FCP_Rank_LostHills_HeadPaladin</defName>
+        <label>Head Paladin</label>
+        <description>The Head Paladin commands every Knight and Paladin the Western Chapter fields, second only to the Elder in matters of war.</description>
+        <minDaysInRank>22</minDaysInRank>
+        <skillRequirements>
+            <Shooting>18</Shooting>
+            <Social>6</Social>
+        </skillRequirements>
+        <minSquiresTrained>2</minSquiresTrained>
+        <minMissionsCompleted>2</minMissionsCompleted>
+        <grantHediff>FCP_Hediff_LostHills_Rank_HeadPaladin</grantHediff>
+        <trainingXpPerHour>
+            <Shooting>1150</Shooting>
+            <Melee>250</Melee>
+            <Social>75</Social>
+        </trainingXpPerHour>
+        <expedition>FCP_Expedition_LostHills_Sentinel</expedition>
+        <discipline>Combat</discipline>
+        <correspondingRoyalTitle MayRequire="Ludeon.RimWorld.Royalty">FCP_Title_BoS_Head_Paladin</correspondingRoyalTitle>
+        <nextTierOptions>
+            <li>FCP_Rank_LostHills_Elder</li>
+        </nextTierOptions>
+    </FCP.Ranks.RankTierDef>
+
+    <!--_____ Path of the Scribe _____-->
+
+    <FCP.Ranks.RankTierDef>
+        <defName>FCP_Rank_LostHills_Scribe</defName>
+        <label>Scribe</label>
+        <description>Lost Hills' Scribes are keepers of the original Codex itself, the most exacting archivists the Brotherhood has ever produced.</description>
+        <pathName>Path of the Scribe</pathName>
+        <minDaysInRank>15</minDaysInRank>
+        <skillRequirements>
+            <Intellectual>13</Intellectual>
+        </skillRequirements>
+        <grantHediff>FCP_Hediff_LostHills_Rank_Scribe</grantHediff>
+        <trainingXpPerHour>
+            <Crafting>900</Crafting>
+            <Intellectual>300</Intellectual>
+            <Medicine>100</Medicine>
+        </trainingXpPerHour>
+        <expedition>FCP_Expedition_LostHills_Veteran</expedition>
+        <discipline>Scholarly</discipline>
+        <correspondingRoyalTitle MayRequire="Ludeon.RimWorld.Royalty">FCP_Title_BoS_Scribe</correspondingRoyalTitle>
+        <nextTierOptions>
+            <li>FCP_Rank_LostHills_SeniorScribe</li>
+        </nextTierOptions>
+    </FCP.Ranks.RankTierDef>
+
+    <FCP.Ranks.RankTierDef>
+        <defName>FCP_Rank_LostHills_SeniorScribe</defName>
+        <label>Senior Scribe</label>
+        <description>Senior Scribes have earned real research authority - running their own projects, diagnosing what the Head Scribe doesn't have time for, and covering for those who neglect their own duties.</description>
+        <minDaysInRank>18</minDaysInRank>
+        <skillRequirements>
+            <Intellectual>16</Intellectual>
+        </skillRequirements>
+        <grantHediff>FCP_Hediff_LostHills_Rank_SeniorScribe</grantHediff>
+        <trainingXpPerHour>
+            <Crafting>950</Crafting>
+            <Intellectual>325</Intellectual>
+            <Medicine>125</Medicine>
+        </trainingXpPerHour>
+        <expedition>FCP_Expedition_LostHills_Elite</expedition>
+        <discipline>Scholarly</discipline>
+        <correspondingRoyalTitle MayRequire="Ludeon.RimWorld.Royalty">FCP_Title_BoS_Senior_Scribe</correspondingRoyalTitle>
+        <nextTierOptions>
+            <li>FCP_Rank_LostHills_HeadScribe</li>
+        </nextTierOptions>
+    </FCP.Ranks.RankTierDef>
+
+    <FCP.Ranks.RankTierDef>
+        <defName>FCP_Rank_LostHills_HeadScribe</defName>
+        <label>Head Scribe</label>
+        <description>The Head Scribe holds the original Codex itself in trust, answering only to the Elder for what is preserved and what is left to the wasteland.</description>
+        <minDaysInRank>25</minDaysInRank>
+        <skillRequirements>
+            <Intellectual>19</Intellectual>
+        </skillRequirements>
+        <minSquiresTrained>2</minSquiresTrained>
+        <minMissionsCompleted>2</minMissionsCompleted>
+        <grantHediff>FCP_Hediff_LostHills_Rank_HeadScribe</grantHediff>
+        <trainingXpPerHour>
+            <Crafting>1050</Crafting>
+            <Intellectual>400</Intellectual>
+            <Social>100</Social>
+        </trainingXpPerHour>
+        <expedition>FCP_Expedition_LostHills_Sentinel</expedition>
+        <discipline>Scholarly</discipline>
+        <correspondingRoyalTitle MayRequire="Ludeon.RimWorld.Royalty">FCP_Title_BoS_Head_Scribe</correspondingRoyalTitle>
+        <nextTierOptions>
+            <li>FCP_Rank_LostHills_Elder</li>
+        </nextTierOptions>
+    </FCP.Ranks.RankTierDef>
+
+    <!--_____ Summit _____-->
+
+    <FCP.Ranks.RankTierDef>
+        <defName>FCP_Rank_LostHills_Elder</defName>
+        <label>Elder</label>
+        <description>The Elder of Lost Hills claims supreme authority over every Brotherhood chapter, founding bloodline and Codex both behind their word.</description>
+        <minDaysInRank>30</minDaysInRank>
+        <skillRequirements>
+            <Social>12</Social>
+        </skillRequirements>
+        <grantHediff>FCP_Hediff_LostHills_Rank_Elder</grantHediff>
+        <trainingXpPerHour>
+            <Shooting>1250</Shooting>
+            <Intellectual>400</Intellectual>
+            <Social>150</Social>
+        </trainingXpPerHour>
+        <expedition>FCP_Expedition_LostHills_Sentinel</expedition>
+        <correspondingRoyalTitle MayRequire="Ludeon.RimWorld.Royalty">FCP_Title_BoS_Elder</correspondingRoyalTitle>
+        <isCommanderTier>true</isCommanderTier>
+        <auraRadius>16</auraRadius>
+        <auraHediff>FCP_Hediff_LostHills_Elder_Presence</auraHediff>
+        <rallyHediff>FCP_Hediff_LostHills_Elder_Rally</rallyHediff>
+        <rallyCooldownDays>2</rallyCooldownDays>
+    </FCP.Ranks.RankTierDef>
+
+</Defs>

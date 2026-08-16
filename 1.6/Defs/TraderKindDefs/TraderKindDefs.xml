@@ -211,13 +211,6 @@
                 <countRange>2~4</countRange>
             </li>
 
-            <!-- B35C Helmet -->
-
-            <li Class="StockGenerator_SingleDef">
-                <thingDef>FCP_Apparel_BoS_B35C_Helmet</thingDef>
-                <countRange>1~2</countRange>
-            </li>
-
             <!-- Combat Armor Helmet -->
 
             <li Class="StockGenerator_SingleDef" MayRequire="Rick.FCP.Wastelanders">

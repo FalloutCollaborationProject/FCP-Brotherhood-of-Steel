@@ -1,9 +1,46 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
     <!--__________ Fallout 1 & 2 Characters __________-->
 
     <!--_____ Lost Hills Brotherhood of Steel _____-->
+
+    <!-- High Elder John Maxson -->
+
+    <FCP.Core.CharacterDef>
+        <defName>FCP_Character_Lost_Hills_High_Elder_Maxson</defName>
+        <pawnKind>FCP_Unique_Pawnkind_HighElder_John_Maxson</pawnKind>
+        <xenotype>Baseliner</xenotype>
+        <faction>FCP_Faction_BoS_Lost_Hills</faction>
+        <roles>
+            <li Class="FCP.Core.CharacterRole_FactionLeader">
+                <seniority>1010</seniority>
+            </li>
+        </roles>
+        <definitions>
+            <!-- Rank -->
+            <li Class="FCP.Core.CharacterRankDefinition">
+                <tier>FCP_Rank_LostHills_Elder</tier>
+            </li>
+            <!-- Bio -->
+            <li Class="FCP.Core.CharacterStoryDefinition">
+                <firstName>John</firstName>
+                <lastName>Maxson</lastName>
+                <nickname>High Elder Maxson</nickname>
+                <gender>Male</gender>
+                <age>65</age>
+            </li>
+            <!-- Appearance -->
+            <li Class="FCP.Core.CharacterAppearanceDefinition">
+                <hairColor>(120, 115, 110)</hairColor>
+                <hairDef>FCP_Hair_Buzz_Cut</hairDef>
+                <beardDef>NoBeard</beardDef>
+                <skinColorOverride>(190, 165, 140)</skinColorOverride>
+                <headTypeDef>Male_AverageNormal</headTypeDef>
+                <bodyTypeDef>Hulk</bodyTypeDef>
+            </li>
+        </definitions>
+    </FCP.Core.CharacterDef>
 
     <!-- Head Paladin Rhombus -->
 
@@ -18,6 +55,10 @@
             </li>
         </roles>
         <definitions>
+            <!-- Rank -->
+            <li Class="FCP.Core.CharacterRankDefinition">
+                <tier>FCP_Rank_LostHills_HeadPaladin</tier>
+            </li>
             <!-- Bio -->
             <li Class="FCP.Core.CharacterStoryDefinition">
                 <firstName />
@@ -51,6 +92,10 @@
             </li>
         </roles>
         <definitions>
+            <!-- Rank -->
+            <li Class="FCP.Core.CharacterRankDefinition">
+                <tier>FCP_Rank_LostHills_HeadScribe</tier>
+            </li>
             <!-- Bio -->
             <li Class="FCP.Core.CharacterStoryDefinition">
                 <firstName />
@@ -71,7 +116,7 @@
         </definitions>
     </FCP.Core.CharacterDef>
 
-    <!-- Scribe Cabbot -->
+    <!-- Initiate Cabbot -->
 
     <FCP.Core.CharacterDef>
         <defName>FCP_Character_Lost_Hills_Scribe_Cabbot</defName>
@@ -84,11 +129,15 @@
             </li>
         </roles>
         <definitions>
+            <!-- Rank -->
+            <li Class="FCP.Core.CharacterRankDefinition">
+                <tier>FCP_Rank_LostHills_Initiate</tier>
+            </li>
             <!-- Bio -->
             <li Class="FCP.Core.CharacterStoryDefinition">
                 <firstName />
                 <lastName>Cabbot</lastName>
-                <nickname>Scribe Cabbot</nickname>
+                <nickname>Initiate Cabbot</nickname>
                 <gender>Male</gender>
                 <age>42</age>
             </li>
@@ -117,6 +166,10 @@
             </li>
         </roles>
         <definitions>
+            <!-- Rank -->
+            <li Class="FCP.Core.CharacterRankDefinition">
+                <tier>FCP_Rank_LostHills_Paladin</tier>
+            </li>
             <!-- Bio -->
             <li Class="FCP.Core.CharacterStoryDefinition">
                 <firstName />
@@ -137,7 +190,7 @@
         </definitions>
     </FCP.Core.CharacterDef>
 
-    <!-- Initiate Michael -->
+    <!-- Quartermaster Michael -->
 
     <FCP.Core.CharacterDef>
         <defName>FCP_Character_Lost_Hills_Initiate_Michael</defName>
@@ -150,13 +203,17 @@
             </li>
         </roles>
         <definitions>
+            <!-- Rank -->
+            <li Class="FCP.Core.CharacterRankDefinition">
+                <tier>FCP_Rank_LostHills_Knight</tier>
+            </li>
             <!-- Bio -->
             <li Class="FCP.Core.CharacterStoryDefinition">
                 <firstName>Michael</firstName>
                 <lastName />
-                <nickname>Initiate Michael</nickname>
+                <nickname>Quartermaster Michael</nickname>
                 <gender>Male</gender>
-                <age>24</age>
+                <age>28</age>
             </li>
             <!-- Appearance -->
             <li Class="FCP.Core.CharacterAppearanceDefinition">
@@ -170,7 +227,7 @@
         </definitions>
     </FCP.Core.CharacterDef>
 
-    <!-- Paladin Talus -->
+    <!-- Senior Paladin Talus -->
 
     <FCP.Core.CharacterDef>
         <defName>FCP_Character_Lost_Hills_Paladin_Talus</defName>
@@ -183,11 +240,15 @@
             </li>
         </roles>
         <definitions>
+            <!-- Rank -->
+            <li Class="FCP.Core.CharacterRankDefinition">
+                <tier>FCP_Rank_LostHills_SeniorPaladin</tier>
+            </li>
             <!-- Bio -->
             <li Class="FCP.Core.CharacterStoryDefinition">
                 <firstName />
                 <lastName>Talus</lastName>
-                <nickname>Paladin Talus</nickname>
+                <nickname>Senior Paladin Talus</nickname>
                 <gender>Male</gender>
                 <age>40</age>
             </li>
@@ -203,7 +264,7 @@
         </definitions>
     </FCP.Core.CharacterDef>
 
-    <!-- Senior Paladin Matthew -->
+    <!-- Paladin Jennifer -->
 
     <FCP.Core.CharacterDef>
         <defName>FCP_Character_Lost_Hills_Senior_Paladin_Matthew</defName>
@@ -216,27 +277,31 @@
             </li>
         </roles>
         <definitions>
+            <!-- Rank -->
+            <li Class="FCP.Core.CharacterRankDefinition">
+                <tier>FCP_Rank_LostHills_Paladin</tier>
+            </li>
             <!-- Bio -->
             <li Class="FCP.Core.CharacterStoryDefinition">
-                <firstName>Matthew</firstName>
+                <firstName>Jennifer</firstName>
                 <lastName />
-                <nickname>Senior Paladin Matthew</nickname>
-                <gender>Male</gender>
-                <age>48</age>
+                <nickname>Paladin Jennifer</nickname>
+                <gender>Female</gender>
+                <age>33</age>
             </li>
             <!-- Appearance -->
             <li Class="FCP.Core.CharacterAppearanceDefinition">
-                <hairColor>(110, 100, 90)</hairColor>
-                <hairDef>Mop</hairDef>
-                <beardDef>Full</beardDef>
-                <skinColorOverride>(180, 155, 130)</skinColorOverride>
-                <headTypeDef>Male_AverageNormal</headTypeDef>
-                <bodyTypeDef>Male</bodyTypeDef>
+                <hairColor>(110, 90, 70)</hairColor>
+                <hairDef>Bob</hairDef>
+                <beardDef>NoBeard</beardDef>
+                <skinColorOverride>(195, 170, 145)</skinColorOverride>
+                <headTypeDef>Female_AverageNormal</headTypeDef>
+                <bodyTypeDef>Female</bodyTypeDef>
             </li>
         </definitions>
     </FCP.Core.CharacterDef>
 
-    <!-- Scribe Lorraine -->
+    <!-- Dr. Lorri -->
 
     <FCP.Core.CharacterDef>
         <defName>FCP_Character_Lost_Hills_Scribe_Lorraine</defName>
@@ -249,11 +314,15 @@
             </li>
         </roles>
         <definitions>
+            <!-- Rank -->
+            <li Class="FCP.Core.CharacterRankDefinition">
+                <tier>FCP_Rank_LostHills_SeniorScribe</tier>
+            </li>
             <!-- Bio -->
             <li Class="FCP.Core.CharacterStoryDefinition">
-                <firstName>Lorraine</firstName>
-                <lastName />
-                <nickname>Scribe Lorraine</nickname>
+                <firstName />
+                <lastName>Lorri</lastName>
+                <nickname>Dr. Lorri</nickname>
                 <gender>Female</gender>
                 <age>36</age>
             </li>
@@ -265,6 +334,154 @@
                 <skinColorOverride>(200, 175, 150)</skinColorOverride>
                 <headTypeDef>Female_AverageNormal</headTypeDef>
                 <bodyTypeDef>Female</bodyTypeDef>
+            </li>
+        </definitions>
+    </FCP.Core.CharacterDef>
+
+    <!-- Knight Thomas -->
+
+    <FCP.Core.CharacterDef>
+        <defName>FCP_Character_Lost_Hills_Paladin_Thomas</defName>
+        <pawnKind>FCP_Unique_Pawnkind_Paladin_Thomas</pawnKind>
+        <xenotype>Baseliner</xenotype>
+        <faction>FCP_Faction_BoS_Lost_Hills</faction>
+        <roles>
+            <li Class="FCP.Core.CharacterRole_FactionLeader">
+                <seniority>993</seniority>
+            </li>
+        </roles>
+        <definitions>
+            <!-- Rank -->
+            <li Class="FCP.Core.CharacterRankDefinition">
+                <tier>FCP_Rank_LostHills_Knight</tier>
+            </li>
+            <!-- Bio -->
+            <li Class="FCP.Core.CharacterStoryDefinition">
+                <firstName>Thomas</firstName>
+                <lastName />
+                <nickname>Knight Thomas</nickname>
+                <gender>Male</gender>
+                <age>33</age>
+            </li>
+            <!-- Appearance -->
+            <li Class="FCP.Core.CharacterAppearanceDefinition">
+                <hairColor>(70, 55, 40)</hairColor>
+                <hairDef>FCP_Hair_Buzz_Cut</hairDef>
+                <beardDef>Moustache</beardDef>
+                <skinColorOverride>(175, 145, 120)</skinColorOverride>
+                <headTypeDef>Male_AverageNormal</headTypeDef>
+                <bodyTypeDef>Hulk</bodyTypeDef>
+            </li>
+        </definitions>
+    </FCP.Core.CharacterDef>
+
+    <!-- Knight Paul -->
+
+    <FCP.Core.CharacterDef>
+        <defName>FCP_Character_Lost_Hills_Aspirant_Paul</defName>
+        <pawnKind>FCP_Unique_Pawnkind_Aspirant_Paul</pawnKind>
+        <xenotype>Baseliner</xenotype>
+        <faction>FCP_Faction_BoS_Lost_Hills</faction>
+        <roles>
+            <li Class="FCP.Core.CharacterRole_FactionLeader">
+                <seniority>992</seniority>
+            </li>
+        </roles>
+        <definitions>
+            <!-- Rank -->
+            <li Class="FCP.Core.CharacterRankDefinition">
+                <tier>FCP_Rank_LostHills_Knight</tier>
+            </li>
+            <!-- Bio -->
+            <li Class="FCP.Core.CharacterStoryDefinition">
+                <firstName>Paul</firstName>
+                <lastName />
+                <nickname>Knight Paul</nickname>
+                <gender>Male</gender>
+                <age>25</age>
+            </li>
+            <!-- Appearance -->
+            <li Class="FCP.Core.CharacterAppearanceDefinition">
+                <hairColor>(80, 65, 50)</hairColor>
+                <hairDef>FCP_Hair_Buzz_Cut</hairDef>
+                <beardDef>NoBeard</beardDef>
+                <skinColorOverride>(190, 165, 140)</skinColorOverride>
+                <headTypeDef>Male_AverageNormal</headTypeDef>
+                <bodyTypeDef>Male</bodyTypeDef>
+            </li>
+        </definitions>
+    </FCP.Core.CharacterDef>
+
+    <!-- Knight Kyle -->
+
+    <FCP.Core.CharacterDef>
+        <defName>FCP_Character_Lost_Hills_Aspirant_Kyle</defName>
+        <pawnKind>FCP_Unique_Pawnkind_Aspirant_Kyle</pawnKind>
+        <xenotype>Baseliner</xenotype>
+        <faction>FCP_Faction_BoS_Lost_Hills</faction>
+        <roles>
+            <li Class="FCP.Core.CharacterRole_FactionLeader">
+                <seniority>991</seniority>
+            </li>
+        </roles>
+        <definitions>
+            <!-- Rank -->
+            <li Class="FCP.Core.CharacterRankDefinition">
+                <tier>FCP_Rank_LostHills_Knight</tier>
+            </li>
+            <!-- Bio -->
+            <li Class="FCP.Core.CharacterStoryDefinition">
+                <firstName>Kyle</firstName>
+                <lastName />
+                <nickname>Knight Kyle</nickname>
+                <gender>Male</gender>
+                <age>24</age>
+            </li>
+            <!-- Appearance -->
+            <li Class="FCP.Core.CharacterAppearanceDefinition">
+                <hairColor>(60, 45, 35)</hairColor>
+                <hairDef>Shaved</hairDef>
+                <beardDef>NoBeard</beardDef>
+                <skinColorOverride>(165, 135, 110)</skinColorOverride>
+                <headTypeDef>Male_AverageNormal</headTypeDef>
+                <bodyTypeDef>Male</bodyTypeDef>
+            </li>
+        </definitions>
+    </FCP.Core.CharacterDef>
+
+    <!-- Initiate Jerry -->
+
+    <FCP.Core.CharacterDef>
+        <defName>FCP_Character_Lost_Hills_Initiate_Jerry</defName>
+        <pawnKind>FCP_Unique_Pawnkind_Initiate_Jerry</pawnKind>
+        <xenotype>Baseliner</xenotype>
+        <faction>FCP_Faction_BoS_Lost_Hills</faction>
+        <roles>
+            <li Class="FCP.Core.CharacterRole_FactionLeader">
+                <seniority>990</seniority>
+            </li>
+        </roles>
+        <definitions>
+            <!-- Rank -->
+            <li Class="FCP.Core.CharacterRankDefinition">
+                <tier>FCP_Rank_LostHills_Initiate</tier>
+            </li>
+            <!-- Bio -->
+            <li Class="FCP.Core.CharacterStoryDefinition">
+                <firstName>Jerry</firstName>
+                <lastName />
+                <nickname>Initiate Jerry</nickname>
+                <gender>Male</gender>
+                <age>19</age>
+            </li>
+            <!-- Appearance -->
+            <li Class="FCP.Core.CharacterAppearanceDefinition">
+                <hairColor>(100, 85, 65)</hairColor>
+                <hairDef>Messy</hairDef>
+                <beardDef>NoBeard</beardDef>
+                <skinColorOverride>(205, 180, 155)</skinColorOverride>
+                <headTypeDef>Male_AverageNormal</headTypeDef>
+                <bodyTypeDef>Male</bodyTypeDef>
             </li>
         </definitions>
     </FCP.Core.CharacterDef>

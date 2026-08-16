@@ -12,6 +12,15 @@
     </supportedVersions>
     <modDependencies>
         <li>
+            <packageId>Ludeon.RimWorld.Odyssey</packageId>
+            <displayName>Odyssey</displayName>
+        </li>
+        <li>
+            <packageId>Rick.FCPPocketMap</packageId>
+            <displayName>FCP - Pocket Maps</displayName>
+            <downloadUrl>https://github.com/FalloutCollaborationProject/FCP-PocketMaps</downloadUrl>
+        </li>
+        <li>
             <packageId>Rick.FCP.Core.Tools</packageId>
             <displayName>FCP - Tools</displayName>
             <downloadUrl>https://github.com/FalloutCollaborationProject/FCP-Tools</downloadUrl>
@@ -31,14 +40,28 @@
             <displayName>FCP - Wastelanders</displayName>
             <downloadUrl>https://github.com/FalloutCollaborationProject/FCP-Wastelanders</downloadUrl>
         </li>
+        <li>
+            <packageId>Rick.FCP.Furniture</packageId>
+            <displayName>FCP - Furniture</displayName>
+            <downloadUrl>https://github.com/FalloutCollaborationProject/FCP-Furniture</downloadUrl>
+        </li>
+        <li>
+            <packageId>Rick.FCP.Lore</packageId>
+            <displayName>FCP - Lore</displayName>
+            <downloadUrl>https://github.com/FalloutCollaborationProject/FCP-Lore</downloadUrl>
+        </li>
     </modDependencies>
     <loadAfter>
+        <li>Ludeon.RimWorld.Odyssey</li>
+        <li>Rick.FCPPocketMap</li>
         <li>Rick.FCP.Core.Tools</li>
         <li>Rick.FCP.BallisticWeapons</li>
         <li>Rick.FCP.EnergyWeapons</li>
         <li>Rick.FCP.PowerArmor</li>
         <li>Rick.FCP.Wastelanders</li>
         <li>Rick.FCP.Robotics</li>
+        <li>Rick.FCP.Furniture</li>
+        <li>Rick.FCP.Lore</li>
     </loadAfter>
 
 </ModMetaData>

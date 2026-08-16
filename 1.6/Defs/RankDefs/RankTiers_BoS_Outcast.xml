@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <!--__________ Outcast Remnants Ranks __________-->
+
+    <FCP.Ranks.RankTierDef>
+        <defName>FCP_Rank_Outcast_Specialist</defName>
+        <label>Specialist</label>
+        <description>The entry rank for Outcasts, proven in their commitment to technology recovery above all else.</description>
+        <minDaysInRank>4</minDaysInRank>
+        <correspondingRoyalTitle MayRequire="Ludeon.RimWorld.Royalty">FCP_Title_Outcast_Specialist</correspondingRoyalTitle>
+        <nextTierOptions>
+            <li>FCP_Rank_Outcast_Defender</li>
+            <li>FCP_Rank_Outcast_ReconSpecialist</li>
+        </nextTierOptions>
+    </FCP.Ranks.RankTierDef>
+
+    <!--_____ Path of the Defender _____-->
+
+    <FCP.Ranks.RankTierDef>
+        <defName>FCP_Rank_Outcast_Defender</defName>
+        <label>Defender</label>
+        <description>Defenders are the Outcasts' combat specialists, securing technology and holding fortified camps against all comers.</description>
+        <pathName>Path of the Defender</pathName>
+        <minDaysInRank>10</minDaysInRank>
+        <skillRequirements>
+            <Shooting>10</Shooting>
+        </skillRequirements>
+        <grantHediff>FCP_Hediff_Outcast_Rank_Defender</grantHediff>
+        <trainingXpPerHour>
+            <Shooting>800</Shooting>
+            <Melee>150</Melee>
+        </trainingXpPerHour>
+        <expedition>FCP_Expedition_Outcast_Veteran</expedition>
+        <discipline>Combat</discipline>
+        <correspondingRoyalTitle MayRequire="Ludeon.RimWorld.Royalty">FCP_Title_Outcast_Defender</correspondingRoyalTitle>
+        <correspondingIdeoRole MayRequire="Ludeon.RimWorld.Ideology">FCP_IdeoRole_Outcast_Defender</correspondingIdeoRole>
+        <nextTierOptions>
+            <li>FCP_Rank_Outcast_Protector</li>
+        </nextTierOptions>
+    </FCP.Ranks.RankTierDef>
+
+    <!--_____ Path of the Recon Specialist _____-->
+
+    <FCP.Ranks.RankTierDef>
+        <defName>FCP_Rank_Outcast_ReconSpecialist</defName>
+        <label>Recon Specialist</label>
+        <description>Recon Specialists range far from Outcast camps alone, scouting salvage sites and mapping threats before a Defender squad is ever committed.</description>
+        <pathName>Path of the Recon Specialist</pathName>
+        <minDaysInRank>10</minDaysInRank>
+        <skillRequirements>
+            <Intellectual>8</Intellectual>
+        </skillRequirements>
+        <grantHediff>FCP_Hediff_Outcast_Rank_ReconSpecialist</grantHediff>
+        <trainingXpPerHour>
+            <Intellectual>500</Intellectual>
+            <Shooting>400</Shooting>
+        </trainingXpPerHour>
+        <expedition>FCP_Expedition_Outcast_Veteran</expedition>
+        <discipline>Scholarly</discipline>
+        <correspondingRoyalTitle MayRequire="Ludeon.RimWorld.Royalty">FCP_Title_Outcast_Recon_Specialist</correspondingRoyalTitle>
+        <nextTierOptions>
+            <li>FCP_Rank_Outcast_Protector</li>
+        </nextTierOptions>
+    </FCP.Ranks.RankTierDef>
+
+    <!--_____ Summit _____-->
+
+    <FCP.Ranks.RankTierDef>
+        <defName>FCP_Rank_Outcast_Protector</defName>
+        <label>Protector</label>
+        <description>The Protector leads the Outcasts with iron discipline, the purest form of the Brotherhood's original mission and no tolerance for compromise.</description>
+        <minDaysInRank>18</minDaysInRank>
+        <skillRequirements>
+            <Shooting>14</Shooting>
+            <Intellectual>10</Intellectual>
+        </skillRequirements>
+        <minMissionsCompleted>2</minMissionsCompleted>
+        <grantHediff>FCP_Hediff_Outcast_Rank_Protector</grantHediff>
+        <trainingXpPerHour>
+            <Shooting>1000</Shooting>
+            <Intellectual>600</Intellectual>
+        </trainingXpPerHour>
+        <expedition>FCP_Expedition_Outcast_Elite</expedition>
+        <correspondingRoyalTitle MayRequire="Ludeon.RimWorld.Royalty">FCP_Title_Outcast_Protector</correspondingRoyalTitle>
+        <isCommanderTier>true</isCommanderTier>
+        <auraRadius>16</auraRadius>
+        <auraHediff>FCP_Hediff_Outcast_Protector_Presence</auraHediff>
+        <rallyHediff>FCP_Hediff_Outcast_Protector_Rally</rallyHediff>
+        <rallyCooldownDays>2</rallyCooldownDays>
+    </FCP.Ranks.RankTierDef>
+
+</Defs>

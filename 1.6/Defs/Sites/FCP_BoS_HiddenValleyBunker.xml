@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <!--__________ Hidden Valley Bunker Entrance __________-->
+
+    <ThingDef ParentName="BuildingBase">
+        <defName>FCP_BoS_HiddenValleyBunker_Entrance</defName>
+        <label>Hidden Valley bunker entrance</label>
+        <description>A concealed entrance built into the rock face, leading down to the Brotherhood of Steel's Hidden Valley bunker. Heavy blast doors guard the passage to the chapter's underground halls.</description>
+        <size>(5,5)</size>
+        <useHitPoints>false</useHitPoints>
+        <thingClass>FCP.PocketMaps.PresettableMapPortal</thingClass>
+        <rotatable>false</rotatable>
+        <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+        <canOverlapZones>false</canOverlapZones>
+        <tickerType>Normal</tickerType>
+        <graphicData>
+            <graphicClass>Graphic_Single</graphicClass>
+            <texPath>FCP_Bunker_Entrance</texPath>
+            <drawSize>(5, 5)</drawSize>
+        </graphicData>
+        <altitudeLayer>FloorEmplacement</altitudeLayer>
+        <fillPercent>0</fillPercent>
+        <passability>Impassable</passability>
+        <holdsRoof>true</holdsRoof>
+        <destroyable>false</destroyable>
+        <building>
+            <isEdifice>true</isEdifice>
+            <deconstructible>false</deconstructible>
+            <isTargetable>false</isTargetable>
+            <isInert>true</isInert>
+            <claimable>false</claimable>
+            <expandHomeArea>false</expandHomeArea>
+        </building>
+        <portal>
+            <pocketMapGenerator>FCP_BoS_HiddenValleyBunker_MapGen</pocketMapGenerator>
+            <exitDef>BoS_Bunker_Exit</exitDef>
+        </portal>
+        <statBases>
+            <Flammability>0</Flammability>
+        </statBases>
+        <inspectorTabs>
+            <li>ITab_ContentsMapPortal</li>
+        </inspectorTabs>
+        <modExtensions>
+            <li Class="FCP.PocketMaps.ModExtensionPresettablePocketMap">
+                <prefabDefs>
+                    <li>FCP_BoS_HiddenValleyBunker_L1</li>
+                </prefabDefs>
+                <abandonedMessage>The bunker blast door has been sealed shut and is no longer accessible.</abandonedMessage>
+            </li>
+        </modExtensions>
+    </ThingDef>
+
+    <!--__________ Hidden Valley Bunker Map Generation __________-->
+
+    <GenStepDef>
+        <defName>FCP_BoS_HiddenValleyBunker_NamedPawns</defName>
+        <order>600</order>
+        <genStep Class="FCP.BrotherhoodOfSteel.GenStep_HiddenValleyNamedPawns">
+            <pawns>
+                <li>
+                    <character>FCP_Character_HiddenValley_McNamara</character>
+                    <position>(20,0,15)</position>
+                </li>
+                <li>
+                    <character>FCP_Character_HiddenValley_Hardin</character>
+                    <position>(28,0,15)</position>
+                </li>
+                <li>
+                    <character>FCP_Character_HiddenValley_Ramos</character>
+                    <position>(17,0,15)</position>
+                </li>
+                <li>
+                    <character>FCP_Character_HiddenValley_Lorenzo</character>
+                    <position>(22,0,17)</position>
+                </li>
+                <li>
+                    <character>FCP_Character_HiddenValley_Taggart</character>
+                    <position>(26,0,17)</position>
+                </li>
+                <li>
+                    <character>FCP_Character_HiddenValley_Torres</character>
+                    <position>(32,0,16)</position>
+                </li>
+                <li>
+                    <character>FCP_Character_HiddenValley_Sato</character>
+                    <position>(30,0,18)</position>
+                </li>
+                <li>
+                    <character>FCP_Character_HiddenValley_Schuler</character>
+                    <position>(24,0,16)</position>
+                </li>
+                <li>
+                    <character>FCP_Character_HiddenValley_Ibsen</character>
+                    <position>(19,0,18)</position>
+                </li>
+            </pawns>
+        </genStep>
+    </GenStepDef>
+
+    <MapGeneratorDef>
+        <defName>FCP_BoS_HiddenValleyBunker_MapGen</defName>
+        <label>Hidden Valley bunker</label>
+        <isUnderground>true</isUnderground>
+        <disableCallAid>true</disableCallAid>
+        <pocketMapProperties>
+            <biome>Underground</biome>
+            <temperature>15</temperature>
+            <canBeCleaned>true</canBeCleaned>
+        </pocketMapProperties>
+        <genSteps>
+            <li>PresettableMapEntrance</li>
+            <li>FCP_BoS_HiddenValleyBunker_NamedPawns</li>
+        </genSteps>
+    </MapGeneratorDef>
+
+</Defs>

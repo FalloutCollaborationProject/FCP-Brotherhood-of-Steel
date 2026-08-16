@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<!--__________ Expedition Return Flavor Text __________-->
+
+	<!-- Novice -->
+
+	<FCP_Rank_Expedition_Novice_1>{PAWN} swept a stretch of ruins for salvage, keeping to cover and avoiding anything that looked hungry.</FCP_Rank_Expedition_Novice_1>
+	<FCP_Rank_Expedition_Novice_2>{PAWN} logged a quiet patrol - a few scavvers scattered at the sight of the armor, nothing worth a report back to Lost Hills.</FCP_Rank_Expedition_Novice_2>
+	<FCP_Rank_Expedition_Novice_3>{PAWN} picked through a collapsed pre-War structure, filling a pack with whatever hadn't rusted through.</FCP_Rank_Expedition_Novice_3>
+	<FCP_Rank_Expedition_Novice_4>{PAWN} walked the perimeter, charted a few new landmarks, and came back with dust in every seam of the armor.</FCP_Rank_Expedition_Novice_4>
+
+	<!-- Veteran -->
+
+	<FCP_Rank_Expedition_Veteran_1>{PAWN} cleared out a nest of raiders holed up in an old maintenance depot and stripped it of anything the Brotherhood could use.</FCP_Rank_Expedition_Veteran_1>
+	<FCP_Rank_Expedition_Veteran_2>{PAWN} tracked down a rumored tech cache, fought off a pack of ferals guarding the entrance, and hauled out what was left intact.</FCP_Rank_Expedition_Veteran_2>
+	<FCP_Rank_Expedition_Veteran_3>{PAWN} spent the trip mapping an old highway network, marking safe routes for future caravans.</FCP_Rank_Expedition_Veteran_3>
+	<FCP_Rank_Expedition_Veteran_4>{PAWN} came back limping but standing, a busted pre-War terminal slung over one shoulder.</FCP_Rank_Expedition_Veteran_4>
+
+	<!-- Elite -->
+
+	<FCP_Rank_Expedition_Elite_1>{PAWN} went in alone where a squad would've drawn too much attention, and came out the other side with the mission done.</FCP_Rank_Expedition_Elite_1>
+	<FCP_Rank_Expedition_Elite_2>{PAWN} ran the deep strike exactly as planned - in, secure the objective, out before anything organized a response.</FCP_Rank_Expedition_Elite_2>
+	<FCP_Rank_Expedition_Elite_3>{PAWN} spent the better part of two weeks in hostile territory and returned with intel Lost Hills will want to hear.</FCP_Rank_Expedition_Elite_3>
+	<FCP_Rank_Expedition_Elite_4>{PAWN} didn't say much about what happened out there, just handed over the recovered tech and asked for a debrief later.</FCP_Rank_Expedition_Elite_4>
+
+	<!-- Sentinel-tier -->
+
+	<FCP_Rank_Expedition_Sentinel_1>{PAWN} pushed past the edge of any Brotherhood map, charting ground no chapter has set foot on in living memory.</FCP_Rank_Expedition_Sentinel_1>
+	<FCP_Rank_Expedition_Sentinel_2>{PAWN} came back from the unmapped wastes with a full report and coordinates worth sending a proper expedition to follow up on.</FCP_Rank_Expedition_Sentinel_2>
+	<FCP_Rank_Expedition_Sentinel_3>{PAWN} spent nearly two weeks beyond contact, and returned with word of something out there worth the Brotherhood's attention.</FCP_Rank_Expedition_Sentinel_3>
+	<FCP_Rank_Expedition_Sentinel_4>{PAWN} walked back into the chapter looking like the wasteland itself, carrying proof of what was found at the edge of the map.</FCP_Rank_Expedition_Sentinel_4>
+
+</LanguageData>

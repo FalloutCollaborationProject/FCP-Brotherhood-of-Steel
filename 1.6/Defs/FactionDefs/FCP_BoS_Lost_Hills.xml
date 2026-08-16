@@ -109,11 +109,15 @@
 					<FCP_Pawnkind_BoS_Lost_Hills_Paladin>8</FCP_Pawnkind_BoS_Lost_Hills_Paladin>
 				</options>
 				<characterDefs>
+					<li>FCP_Character_Lost_Hills_High_Elder_Maxson</li>
 					<li>FCP_Character_Lost_Hills_Head_Paladin_Rhombus</li>
 					<li>FCP_Character_Lost_Hills_Senior_Paladin_Matthew</li>
 					<li>FCP_Character_Lost_Hills_Paladin_Mathia</li>
 					<li>FCP_Character_Lost_Hills_Paladin_Talus</li>
+					<li>FCP_Character_Lost_Hills_Paladin_Thomas</li>
 					<li>FCP_Character_Lost_Hills_Initiate_Michael</li>
+					<li>FCP_Character_Lost_Hills_Aspirant_Paul</li>
+					<li>FCP_Character_Lost_Hills_Aspirant_Kyle</li>
 				</characterDefs>
 				<characterChance>0.35</characterChance>
 			</li>
@@ -127,6 +131,7 @@
 					<li>FCP_Character_Lost_Hills_Head_Scribe_Vree</li>
 					<li>FCP_Character_Lost_Hills_Scribe_Cabbot</li>
 					<li>FCP_Character_Lost_Hills_Scribe_Lorraine</li>
+					<li>FCP_Character_Lost_Hills_Initiate_Jerry</li>
 				</characterDefs>
 				<characterChance>0.25</characterChance>
 			</li>
@@ -152,6 +157,16 @@
             </li>
 			<li Class="FCP.Currencies.CurrencyReplacement">
 				<currency>FCP_Currency_BoS_Scrip</currency>
+			</li>
+			<li Class="FCP.Enlist.FactionEnlistOptions">
+				<enlistOptionsDefs>
+					<li>FCP_Enlistment_LostHills</li>
+				</enlistOptionsDefs>
+			</li>
+			<li Class="FCP.Ranks.FactionExtension_RankTracks">
+				<rankTracks>
+					<li>FCP_RankTrack_BoS_LostHills</li>
+				</rankTracks>
 			</li>
 			<li Class="FCP.Core.Shuttles.FactionModExtension">
 				<transportShipDef>FCP_BoS_Vertibird</transportShipDef>

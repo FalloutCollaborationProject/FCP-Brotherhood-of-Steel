@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <!--__________ Lyons' Pride Rank Expeditions __________-->
+
+    <!-- Loot -->
+
+    <ThingSetMakerDef>
+        <defName>FCP_LyonsExpeditionLootMaker</defName>
+        <root Class="ThingSetMaker_MarketValue">
+            <fixedParams>
+                <filter>
+                    <thingDefs>
+                        <li>FCP_Currency_Caps</li>
+                        <li>Steel</li>
+                        <li>ComponentIndustrial</li>
+                        <li>MedicineIndustrial</li>
+                        <li>Neutroamine</li>
+                    </thingDefs>
+                </filter>
+            </fixedParams>
+        </root>
+    </ThingSetMakerDef>
+
+    <!-- Novice -->
+
+    <FCP.Ranks.RankExpeditionDef>
+        <defName>FCP_Expedition_Lyons_Novice</defName>
+        <label>rescue patrol</label>
+        <description>A short patrol through the ruins to check on settlements the Pride has promised to protect.</description>
+        <durationDays>3~5</durationDays>
+        <xpReward>
+            <Shooting>200</Shooting>
+        </xpReward>
+        <lootMaker>FCP_LyonsExpeditionLootMaker</lootMaker>
+        <lootMarketValueRange>50~150</lootMarketValueRange>
+        <siteRevealChance>0.15</siteRevealChance>
+        <failureChance>0.12</failureChance>
+        <returnFlavorKeys>
+            <li>FCP_Rank_Expedition_Lyons_Novice_1</li>
+            <li>FCP_Rank_Expedition_Lyons_Novice_2</li>
+            <li>FCP_Rank_Expedition_Lyons_Novice_3</li>
+            <li>FCP_Rank_Expedition_Lyons_Novice_4</li>
+        </returnFlavorKeys>
+    </FCP.Ranks.RankExpeditionDef>
+
+    <!-- Veteran -->
+
+    <FCP.Ranks.RankExpeditionDef>
+        <defName>FCP_Expedition_Lyons_Veteran</defName>
+        <label>relief operation</label>
+        <description>A longer operation into contested territory to pull a community out from under a raider blockade.</description>
+        <durationDays>6~8</durationDays>
+        <xpReward>
+            <Shooting>400</Shooting>
+            <Medicine>150</Medicine>
+        </xpReward>
+        <lootMaker>FCP_LyonsExpeditionLootMaker</lootMaker>
+        <lootMarketValueRange>150~350</lootMarketValueRange>
+        <siteRevealChance>0.25</siteRevealChance>
+        <failureChance>0.1</failureChance>
+        <returnFlavorKeys>
+            <li>FCP_Rank_Expedition_Lyons_Veteran_1</li>
+            <li>FCP_Rank_Expedition_Lyons_Veteran_2</li>
+            <li>FCP_Rank_Expedition_Lyons_Veteran_3</li>
+            <li>FCP_Rank_Expedition_Lyons_Veteran_4</li>
+        </returnFlavorKeys>
+    </FCP.Ranks.RankExpeditionDef>
+
+    <!-- Elite -->
+
+    <FCP.Ranks.RankExpeditionDef>
+        <defName>FCP_Expedition_Lyons_Elite</defName>
+        <label>shield operation</label>
+        <description>A solo operation deep into dangerous territory, the kind only a Shield Paladin is trusted to run alone.</description>
+        <durationDays>8~10</durationDays>
+        <xpReward>
+            <Shooting>600</Shooting>
+            <Medicine>200</Medicine>
+        </xpReward>
+        <lootMaker>FCP_LyonsExpeditionLootMaker</lootMaker>
+        <lootMarketValueRange>300~600</lootMarketValueRange>
+        <siteRevealChance>0.35</siteRevealChance>
+        <failureChance>0.08</failureChance>
+        <returnFlavorKeys>
+            <li>FCP_Rank_Expedition_Lyons_Elite_1</li>
+            <li>FCP_Rank_Expedition_Lyons_Elite_2</li>
+            <li>FCP_Rank_Expedition_Lyons_Elite_3</li>
+            <li>FCP_Rank_Expedition_Lyons_Elite_4</li>
+        </returnFlavorKeys>
+    </FCP.Ranks.RankExpeditionDef>
+
+    <!-- Sentinel -->
+
+    <FCP.Ranks.RankExpeditionDef>
+        <defName>FCP_Expedition_Lyons_Sentinel</defName>
+        <label>champion's errand</label>
+        <description>A long-range operation carried out in Elder Lyons' name, the kind of mission that proves compassion still has teeth.</description>
+        <durationDays>10~14</durationDays>
+        <xpReward>
+            <Shooting>800</Shooting>
+            <Medicine>250</Medicine>
+        </xpReward>
+        <lootMaker>FCP_LyonsExpeditionLootMaker</lootMaker>
+        <lootMarketValueRange>500~900</lootMarketValueRange>
+        <siteRevealChance>0.5</siteRevealChance>
+        <failureChance>0.05</failureChance>
+        <returnFlavorKeys>
+            <li>FCP_Rank_Expedition_Lyons_Sentinel_1</li>
+            <li>FCP_Rank_Expedition_Lyons_Sentinel_2</li>
+            <li>FCP_Rank_Expedition_Lyons_Sentinel_3</li>
+            <li>FCP_Rank_Expedition_Lyons_Sentinel_4</li>
+        </returnFlavorKeys>
+    </FCP.Ranks.RankExpeditionDef>
+
+</Defs>

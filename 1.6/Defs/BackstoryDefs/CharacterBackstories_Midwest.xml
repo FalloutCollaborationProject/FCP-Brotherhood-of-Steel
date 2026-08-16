@@ -69,9 +69,9 @@
 
     <BackstoryDef>
         <defName>FCP_Character_Backstory_Dekker_Adult</defName>
-        <title>Paladin Lord</title>
-        <titleShort>Paladin Lord</titleShort>
-        <baseDesc>[PAWN_nameDef] earned the title of Paladin Lord through countless battles across the Midwest. [PAWN_pronoun] commands multiple squads and leads critical missions deep into hostile territory. [PAWN_possessive] warriors would follow [PAWN_objective] into hell itself, knowing [PAWN_pronoun] would never abandon them.</baseDesc>
+        <title>General</title>
+        <titleShort>General</titleShort>
+        <baseDesc>[PAWN_nameDef] took command of the Midwestern Brotherhood at St. Louis when General Barnaky was captured leading squads into the fight against Gammorin's Army. Where [PAWN_possessive] predecessor carried old prejudices, [PAWN_pronoun] judges soldiers on competence alone, and expects the same professionalism from everyone under [PAWN_possessive] command regardless of where they came from.</baseDesc>
         <bodyTypeMale>Hulk</bodyTypeMale>
         <bodyTypeFemale>Hulk</bodyTypeFemale>
         <slot>Adulthood</slot>
@@ -369,6 +369,47 @@
             <Melee>5</Melee>
             <Crafting>6</Crafting>
         </skillGains>
+    </BackstoryDef>
+
+    <!-- Paladin Ryczek (Sarge) -->
+
+    <BackstoryDef>
+        <defName>FCP_Character_Backstory_Ryczek_Child</defName>
+        <title>Rebellious Cadet</title>
+        <titleShort>Cadet</titleShort>
+        <baseDesc>[PAWN_nameDef] was one of the young paladins-in-training who chafed against the West Coast Brotherhood's isolationism, arguing that hoarding technology helped nobody. [PAWN_pronoun] volunteered for the eastward expedition the first chance [PAWN_pronoun] got.</baseDesc>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Hulk</bodyTypeFemale>
+        <slot>Childhood</slot>
+        <spawnCategories>
+            <li>FCP_Character_Backstory_Ryczek_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>4</Shooting>
+            <Melee>3</Melee>
+            <Social>2</Social>
+        </skillGains>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>FCP_Character_Backstory_Ryczek_Adult</defName>
+        <title>Drill Instructor</title>
+        <titleShort>Sarge</titleShort>
+        <baseDesc>[PAWN_nameDef] lost an eye when [PAWN_possessive] detachment's airships went down in a storm over the Illinois wastes, stranding the survivors who'd go on to found the Midwestern Brotherhood. Now [PAWN_pronoun] runs the training division, turning tribals and wastelanders alike into soldiers with a voice that carries across the entire yard.</baseDesc>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Hulk</bodyTypeFemale>
+        <slot>Adulthood</slot>
+        <spawnCategories>
+            <li>FCP_Character_Backstory_Ryczek_Adult</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>7</Shooting>
+            <Melee>6</Melee>
+            <Social>4</Social>
+        </skillGains>
+        <forcedTraits>
+            <Tough>0</Tough>
+        </forcedTraits>
     </BackstoryDef>
 
 </Defs>
