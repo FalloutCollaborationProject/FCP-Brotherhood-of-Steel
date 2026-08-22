@@ -35,11 +35,6 @@
             <displayName>FCP - Wastelanders</displayName>
             <downloadUrl>https://github.com/FalloutCollaborationProject/FCP-Wastelanders</downloadUrl>
         </li>
-        <li>
-            <packageId>Rick.FCP.Lore</packageId>
-            <displayName>FCP - Lore</displayName>
-            <downloadUrl>https://github.com/FalloutCollaborationProject/FCP-Lore</downloadUrl>
-        </li>
     </modDependencies>
     <loadAfter>
         <li>Ludeon.RimWorld.Odyssey</li>

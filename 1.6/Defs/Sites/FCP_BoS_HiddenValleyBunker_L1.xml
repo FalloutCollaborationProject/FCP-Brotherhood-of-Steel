@@ -260,7 +260,7 @@
             </FCP_Turret_Machinegun_MkII>
 
             <!-- Terminal (Avg.) -->
-            <FCP_Production_Old_Wall_Terminal>
+            <FCP_Production_Old_Wall_Terminal MayRequire="Rick.FCP.Lore">
                 <position>(3,0,18)</position>
             </FCP_Production_Old_Wall_Terminal>
             <FCP_Furniture_Bunker_Chair MayRequire="Rick.FCP.Furniture">
@@ -268,7 +268,7 @@
             </FCP_Furniture_Bunker_Chair>
 
             <!-- Lorenzo's terminal (Avg.) -->
-            <FCP_Production_Clean_Wall_Terminal>
+            <FCP_Production_Clean_Wall_Terminal MayRequire="Rick.FCP.Lore">
                 <position>(10,0,18)</position>
             </FCP_Production_Clean_Wall_Terminal>
             <FCP_Furniture_Bunker_Chair MayRequire="Rick.FCP.Furniture">

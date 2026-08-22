@@ -119,6 +119,7 @@
 				<kindDef>Combat</kindDef>
 				<options>
 					<FCP_Pawnkind_BoS_Outcast_Defender>5</FCP_Pawnkind_BoS_Outcast_Defender>
+					<FCP_Pawnkind_BoS_Outcast_Recon_Specialist>2</FCP_Pawnkind_BoS_Outcast_Recon_Specialist>
 					<FCP_Pawnkind_BoS_Outcast_Protector>1</FCP_Pawnkind_BoS_Outcast_Protector>
 					<FCP_Pawnkind_Protectron MayRequire="Rick.FCP.Robotics">2</FCP_Pawnkind_Protectron>
 					<FCP_Pawnkind_Securitron_Normal MayRequire="Rick.FCP.Robotics">1</FCP_Pawnkind_Securitron_Normal>
@@ -136,6 +137,7 @@
 				<options>
 					<FCP_Pawnkind_BoS_Outcast_Specialist>7</FCP_Pawnkind_BoS_Outcast_Specialist>
 					<FCP_Pawnkind_BoS_Outcast_Defender>3</FCP_Pawnkind_BoS_Outcast_Defender>
+					<FCP_Pawnkind_BoS_Outcast_Recon_Specialist>1</FCP_Pawnkind_BoS_Outcast_Recon_Specialist>
 					<FCP_Pawnkind_BoS_Outcast_Protector>1</FCP_Pawnkind_BoS_Outcast_Protector>
 					<FCP_Pawnkind_Protectron MayRequire="Rick.FCP.Robotics">2</FCP_Pawnkind_Protectron>
 					<FCP_Pawnkind_Securitron_Normal MayRequire="Rick.FCP.Robotics">1</FCP_Pawnkind_Securitron_Normal>
@@ -148,7 +150,7 @@
 			<li>
 				<kindDef>Trader</kindDef>
 				<traders>
-					<FCP_Pawnkind_BoS_Scribe_Proctor>1</FCP_Pawnkind_BoS_Scribe_Proctor>
+					<FCP_Pawnkind_BoS_Outcast_Scribe_Proctor>1</FCP_Pawnkind_BoS_Outcast_Scribe_Proctor>
 				</traders>
 				<carriers>
 					<FCP_Animal_Brahmin>6</FCP_Animal_Brahmin>
@@ -156,6 +158,7 @@
 				<guards>
 					<FCP_Pawnkind_BoS_Outcast_Specialist>7</FCP_Pawnkind_BoS_Outcast_Specialist>
 					<FCP_Pawnkind_BoS_Outcast_Defender>3</FCP_Pawnkind_BoS_Outcast_Defender>
+					<FCP_Pawnkind_BoS_Outcast_Recon_Specialist>1</FCP_Pawnkind_BoS_Outcast_Recon_Specialist>
 					<FCP_Pawnkind_BoS_Outcast_Protector>1</FCP_Pawnkind_BoS_Outcast_Protector>
 				</guards>
 			</li>
@@ -164,6 +167,7 @@
 				<options>
 					<FCP_Pawnkind_BoS_Outcast_Specialist>7</FCP_Pawnkind_BoS_Outcast_Specialist>
 					<FCP_Pawnkind_BoS_Outcast_Defender>3</FCP_Pawnkind_BoS_Outcast_Defender>
+					<FCP_Pawnkind_BoS_Outcast_Recon_Specialist>1</FCP_Pawnkind_BoS_Outcast_Recon_Specialist>
 					<FCP_Pawnkind_BoS_Outcast_Protector>1</FCP_Pawnkind_BoS_Outcast_Protector>
 					<FCP_Pawnkind_Protectron MayRequire="Rick.FCP.Robotics">2</FCP_Pawnkind_Protectron>
 					<FCP_Pawnkind_Securitron_Normal MayRequire="Rick.FCP.Robotics">1</FCP_Pawnkind_Securitron_Normal>
