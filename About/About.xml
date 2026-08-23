@@ -30,11 +30,6 @@
             <displayName>FCP - Energy Weapons</displayName>
             <downloadUrl>https://github.com/FalloutCollaborationProject/FCP-EnergyWeapons</downloadUrl>
         </li>
-        <li>
-            <packageId>Rick.FCP.Wastelanders</packageId>
-            <displayName>FCP - Wastelanders</displayName>
-            <downloadUrl>https://github.com/FalloutCollaborationProject/FCP-Wastelanders</downloadUrl>
-        </li>
     </modDependencies>
     <loadAfter>
         <li>Ludeon.RimWorld.Odyssey</li>

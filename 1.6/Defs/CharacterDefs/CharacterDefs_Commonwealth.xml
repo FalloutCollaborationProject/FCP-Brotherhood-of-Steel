@@ -198,6 +198,9 @@
         <xenotype>Baseliner</xenotype>
         <faction>FCP_Faction_BoS</faction>
         <roles>
+            <li Class="FCP.Core.CharacterRole_FactionLeader">
+                <seniority>700</seniority>
+            </li>
         </roles>
         <definitions>
             <!-- Rank -->

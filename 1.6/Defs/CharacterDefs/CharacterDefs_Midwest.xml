@@ -13,6 +13,9 @@
         <xenotype>Baseliner</xenotype>
         <faction>FCP_Faction_BoS_Midwest</faction>
         <roles>
+            <li Class="FCP.Core.CharacterRole_FactionLeader">
+                <seniority>1000</seniority>
+            </li>
         </roles>
         <definitions>
             <!-- Rank -->
@@ -47,6 +50,9 @@
         <xenotype>Baseliner</xenotype>
         <faction>FCP_Faction_BoS_Midwest</faction>
         <roles>
+            <li Class="FCP.Core.CharacterRole_FactionLeader">
+                <seniority>999</seniority>
+            </li>
         </roles>
         <definitions>
             <!-- Rank -->
@@ -81,6 +87,9 @@
         <xenotype>Baseliner</xenotype>
         <faction>FCP_Faction_BoS_Midwest</faction>
         <roles>
+            <li Class="FCP.Core.CharacterRole_FactionLeader">
+                <seniority>800</seniority>
+            </li>
         </roles>
         <definitions>
             <!-- Rank -->
@@ -115,6 +124,9 @@
         <xenotype>Baseliner</xenotype>
         <faction>FCP_Faction_BoS_Midwest</faction>
         <roles>
+            <li Class="FCP.Core.CharacterRole_FactionLeader">
+                <seniority>900</seniority>
+            </li>
         </roles>
         <definitions>
             <!-- Rank -->
@@ -149,6 +161,9 @@
         <xenotype>Baseliner</xenotype>
         <faction>FCP_Faction_BoS_Midwest</faction>
         <roles>
+            <li Class="FCP.Core.CharacterRole_FactionLeader">
+                <seniority>799</seniority>
+            </li>
         </roles>
         <definitions>
             <!-- Rank -->
@@ -183,6 +198,9 @@
         <xenotype>Baseliner</xenotype>
         <faction>FCP_Faction_BoS_Midwest</faction>
         <roles>
+            <li Class="FCP.Core.CharacterRole_FactionLeader">
+                <seniority>500</seniority>
+            </li>
         </roles>
         <definitions>
             <!-- Bio -->
@@ -213,6 +231,9 @@
         <xenotype>Baseliner</xenotype>
         <faction>FCP_Faction_BoS_Midwest</faction>
         <roles>
+            <li Class="FCP.Core.CharacterRole_FactionLeader">
+                <seniority>700</seniority>
+            </li>
         </roles>
         <definitions>
             <!-- Rank -->
@@ -247,6 +268,9 @@
         <xenotype>Baseliner</xenotype>
         <faction>FCP_Faction_BoS_Midwest</faction>
         <roles>
+            <li Class="FCP.Core.CharacterRole_FactionLeader">
+                <seniority>600</seniority>
+            </li>
         </roles>
         <definitions>
             <!-- Rank -->
