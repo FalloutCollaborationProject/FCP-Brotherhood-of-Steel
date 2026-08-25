@@ -707,7 +707,7 @@
         <bodyTypeFemale>Female</bodyTypeFemale>
         <title>Brotherhood Paladin</title>
         <titleShort>Paladin</titleShort>
-        <description>To most Paladins, war is about territory and power. To [PAWN_nameDef], war is about preservation. Every Brotherhood battle is another step toward reclaiming what was lost. While others waste their time with bloodshed, [PAWN_pronoun] ensures that old-world technology is protected. Whether it be a crashed Enclave vertibird or a pre-war archive, [PAWN_pronoun] will stop at nothing to secure it—even if it means disobeying orders.</description>
+        <description>Most Paladins fight for territory and power. [PAWN_nameDef] fights to save what's left of the old world. Every battle is another chance to recover something worth keeping, a crashed Enclave vertibird, a pre-war archive, it doesn't matter which. [PAWN_pronoun] will disobey a direct order to secure it if that's what it takes.</description>
         <skillGains>
             <Shooting>5</Shooting>
             <Intellectual>3</Intellectual>
@@ -964,7 +964,7 @@
         <bodyTypeFemale>Female</bodyTypeFemale>
         <title>Brotherhood Elder</title>
         <titleShort>Elder</titleShort>
-        <description>[PAWN_nameDef] became an Elder not through political maneuvering, but through sheer competence and unwavering dedication to the Brotherhood's ideals. [PAWN_pronoun] has led countless expeditions into the wasteland, secured vital technology caches, and negotiated with both allies and enemies. Though [PAWN_possessive] body shows the wear of decades in power armor, [PAWN_possessive] mind remains sharp and [PAWN_possessive] resolve unshakeable. To [PAWN_objective], the Brotherhood is not just an organization—it is humanity's last hope.</description>
+        <description>[PAWN_nameDef] earned the Elder's seat through competence, not politics, and decades of dedication to the Brotherhood's ideals. [PAWN_pronoun] has led countless expeditions into the wasteland, secured vital technology caches, and negotiated with allies and enemies alike. [PAWN_possessive] body carries the wear of decades in power armor, but [PAWN_possessive] mind is as sharp and [PAWN_possessive] resolve as unshakeable as ever. For [PAWN_objective], the Brotherhood is humanity's last hope.</description>
         <skillGains>
             <Shooting>4</Shooting>
             <Social>6</Social>
@@ -991,7 +991,7 @@
         <bodyTypeFemale>Female</bodyTypeFemale>
         <title>Brotherhood Elder</title>
         <titleShort>Elder</titleShort>
-        <description>Power corrupts, and [PAWN_nameDef] has felt its influence. What began as righteous leadership of a Brotherhood chapter slowly transformed into authoritarian control. [PAWN_pronoun] justifies every harsh decision, every sacrifice of subordinates, as necessary for the greater good. The Brotherhood's mission has become [PAWN_possessive] personal crusade, and [PAWN_pronoun] will crush anyone—within or without the organization—who stands in [PAWN_possessive] way. Some whisper that [PAWN_pronoun] has forgotten what they're fighting to preserve.</description>
+        <description>Power corrupts, and [PAWN_nameDef] has felt it. What started as righteous leadership of a Brotherhood chapter has curdled into authoritarian control. Every harsh decision, every subordinate sacrificed, gets justified as necessary for the greater good. The Brotherhood's mission has become [PAWN_possessive] personal crusade, and [PAWN_pronoun] will crush anyone in the way, friend or enemy. Some whisper [PAWN_pronoun] has forgotten what [PAWN_pronoun] was even fighting to preserve.</description>
         <skillGains>
             <Shooting>5</Shooting>
             <Social>4</Social>
