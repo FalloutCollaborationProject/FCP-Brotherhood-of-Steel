@@ -11,13 +11,13 @@
 	<FCP_Midwest_Enlist_Letter_Label>Recruit, welcome to the Steel Vanguard. Doesn't matter where you came from - tribal, wastelander, doesn't matter. What matters is what you do now.\n\nYou'll draw a standard salary every week for you and your team, plus provisions you can collect at any of our outposts when you're not out expanding our territory. We've got more ground to hold than any other chapter, so pull your weight.\n\n -Ad Victoriam</FCP_Midwest_Enlist_Letter_Label>
 	<FCP_Midwest_Enlist_Button_Label>Enlist into the {FACTION_name}.</FCP_Midwest_Enlist_Button_Label>
 	<FCP_Midwest_Enlist_Button_Desc>Sign a new contract with the {FACTION_name}.</FCP_Midwest_Enlist_Button_Desc>
-	<FCP_Midwest_Enlist_Requrements_Not_Satisfied>You need a minimum of 10 goodwill, currently you have only {0} goodwill.</FCP_Midwest_Enlist_Requrements_Not_Satisfied>
+	<FCP_Midwest_Enlist_Requrements_Not_Satisfied>You need a minimum of 10 goodwill; currently you have only {0} goodwill.</FCP_Midwest_Enlist_Requrements_Not_Satisfied>
 	<FCP_Midwest_Enlisted_With_Key>Enlisted with: the {FACTION_name}</FCP_Midwest_Enlisted_With_Key>
 
 	<!-- Mission Options -->
 
 	<FCP_Midwest_Missions_Label>Tasks</FCP_Midwest_Missions_Label>
-	<FCP_Midwest_Missions_Desc>Task descriptions</FCP_Midwest_Missions_Desc>
+	<FCP_Midwest_Missions_Desc>Take on tasks for the {FACTION_name}. Completing a task earns you a bounty reward.</FCP_Midwest_Missions_Desc>
 	<FCP_Midwest_Menu_Missions_Desc>While leaving the outpost you ask around about any potential tasks that need doing.</FCP_Midwest_Menu_Missions_Desc>
 	<FCP_Midwest_Menu_Missions_Select_Quest>Select a Task: </FCP_Midwest_Menu_Missions_Select_Quest>
 	<FCP_Midwest_Menu_Missions_Start_Quest>Accept Task</FCP_Midwest_Menu_Missions_Start_Quest>
@@ -35,7 +35,7 @@
 	<FCP_Midwest_Provisions_Desc>Provisions will arrive via your caravan inventory every 10 days:\n\n- ×6 BoS Food Crate</FCP_Midwest_Provisions_Desc>
 
 	<FCP_Midwest_Provisions_Label_Standard_Issue>Standard Issue</FCP_Midwest_Provisions_Label_Standard_Issue>
-	<FCP_Midwest_Provisions_Desc_Standard_Issue>Steel Vanguard standard issue gear will arrive via your caravan inventory every 45 days:\n\n- ×2 BoS Weapon Crate\n- ×2 BoS Tech Resource Crate\n- ×2 BoS Uniform Crate</FCP_Midwest_Provisions_Desc_Standard_Issue>
+	<FCP_Midwest_Provisions_Desc_Standard_Issue>Steel Vanguard standard issue gear will arrive via your caravan inventory every 45 days:\n\n- ×2 BoS Standard Weapon Crate\n- ×2 BoS Standard Tech Resource Crate\n- ×2 BoS Standard Uniform Crate</FCP_Midwest_Provisions_Desc_Standard_Issue>
 
 	<!-- Storage Options -->
 
@@ -45,16 +45,16 @@
 	<!-- Work Options -->
 
 	<FCP_Midwest_Part_Time_Job_Label>Part-Time Job</FCP_Midwest_Part_Time_Job_Label>
-	<FCP_Midwest_Part_Time_Job_Desc>Pull additional duties and cover for your Vanguard brothers for $10 an hour.</FCP_Midwest_Part_Time_Job_Desc>
+	<FCP_Midwest_Part_Time_Job_Desc>Pull additional duties and cover for your Vanguard brothers for 10 silver an hour.</FCP_Midwest_Part_Time_Job_Desc>
 	<FCP_Midwest_Hospital_Label>Hospital</FCP_Midwest_Hospital_Label>
 	<FCP_Midwest_Hospital_Desc>Check in with the outpost's hospital. This service tends to all of your team with industrial medicine. Immunity gain is also increased while your team is in the hospital.</FCP_Midwest_Hospital_Desc>
 	<FCP_Midwest_Knight_Training_Label>Training: Vanguard training</FCP_Midwest_Knight_Training_Label>
-	<FCP_Midwest_Knight_Training_Desc>Train with the Steel Vanguard's mixed ranks of tribals and wastelanders, with hourly experience gain on the following skills:\n\n- Shooting, Melee, Social\n\nHourly experience gain stops when this faction is resting at night.</FCP_Midwest_Knight_Training_Desc>
+	<FCP_Midwest_Knight_Training_Desc>Train with the Steel Vanguard's mixed ranks of tribals and wastelanders, with hourly experience gain on the following skills:\n\n- Shooting\n- Melee\n- Social\n\nHourly experience gain stops when this faction is resting at night.</FCP_Midwest_Knight_Training_Desc>
 
 	<!-- Bounty Options -->
 
 	<FCP_Midwest_Turn_In_Label>Turn in</FCP_Midwest_Turn_In_Label>
-	<FCP_Midwest_Turn_In_Desc>Turn in war prisoners and high value targets to Steel Vanguard outposts.\n\n -Turning over any hostile pawns do not result in a slavery debuff-</FCP_Midwest_Turn_In_Desc>
+	<FCP_Midwest_Turn_In_Desc>Turn in war prisoners and high value targets to Steel Vanguard outposts.\n\n -Turning over any hostile pawns does not result in a slavery debuff-</FCP_Midwest_Turn_In_Desc>
 	<FCP_Midwest_Turn_In_Trader_Name>Garrison Warden</FCP_Midwest_Turn_In_Trader_Name>
 
 	<!-- Resign Options -->
@@ -74,6 +74,6 @@
 	<!-- Reinforcement Options -->
 
 	<FCP_Midwest_Reinforcements_Button_Label>Reinforcements</FCP_Midwest_Reinforcements_Button_Label>
-	<FCP_Midwest_Reinforcements_Button_Desc>Call for reinforcements from your faction. The number of Knights and Paladins they send depends on your current relations.</FCP_Midwest_Reinforcements_Button_Desc>
+	<FCP_Midwest_Reinforcements_Button_Desc>Call for reinforcements from your faction. The number of Vanguard troops they send depends on your current relations.</FCP_Midwest_Reinforcements_Button_Desc>
 
 </LanguageData>

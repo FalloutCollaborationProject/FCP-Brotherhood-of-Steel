@@ -153,13 +153,6 @@
                 <countRange>2~4</countRange>
             </li>
 
-            <!-- B35C Armor -->
-
-            <li Class="StockGenerator_SingleDef">
-                <thingDef>FCP_Apparel_BoS_B35C_Armor</thingDef>
-                <countRange>1~2</countRange>
-            </li>
-
             <!-- Reinforced Combat Armor -->
 
             <li Class="StockGenerator_SingleDef" MayRequire="Rick.FCP.Wastelanders">
@@ -316,11 +309,6 @@
             <li Class="StockGenerator_SingleDef" MayRequire="Rick.FCP.ExplosiveWeapons">
                 <thingDef>FCP_Grenade_Plasma</thingDef>
                 <countRange>2~5</countRange>
-            </li>
-
-            <li Class="StockGenerator_SingleDef" MayRequire="Rick.FCP.ExplosiveWeapons">
-                <thingDef>FCP_Grenade_Pulse</thingDef>
-                <countRange>2~4</countRange>
             </li>
 
             <li Class="StockGenerator_SingleDef" MayRequire="Rick.FCP.ExplosiveWeapons">

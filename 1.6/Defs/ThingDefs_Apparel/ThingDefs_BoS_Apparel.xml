@@ -877,59 +877,6 @@
 
     <!--___ Misc ___-->
 
-    <!-- B35C Armor -->
-
-    <ThingDef ParentName="FCP_Armor_Machineable_Base">
-        <defName>FCP_Apparel_BoS_B35C_Armor</defName>
-        <label>BoS B35C Armor</label>
-        <description>A vacuum-sealed asbestos jumpsuit covering the entire body. Its purpose is twofold: it allows the user to actually operate the armor and protect soft tissue from moving parts inside the suit and heat. Unlike the BOS uniform, the Recon Armor provides decent protection on its own and is often used by Brotherhood agents on scouting missions or other situations where the clunky and loud power armor would draw too much attention.</description>
-        <graphicData>
-            <texPath>Things/Apparel/BoS_Armor/BoS_B35C_Armor/FCP_BoS_B35C_Armor</texPath>
-            <graphicClass>Graphic_Single</graphicClass>
-            <drawSize>0.90</drawSize>
-        </graphicData>
-        <recipeMaker>
-            <researchPrerequisite>FCP_Research_BoS_Specialized_Armor</researchPrerequisite>
-            <skillRequirements>
-                <Crafting>4</Crafting>
-            </skillRequirements>
-        </recipeMaker>
-        <costList>
-            <Steel>50</Steel>
-        </costList>
-        <statBases>
-            <MaxHitPoints>120</MaxHitPoints>
-            <ArmorRating_Sharp>0.98</ArmorRating_Sharp>
-            <ArmorRating_Blunt>0.49</ArmorRating_Blunt>
-            <WorkToMake>6000</WorkToMake>
-            <Mass>2</Mass>
-            <Insulation_Cold>3.0</Insulation_Cold>
-            <Insulation_Heat>2.3</Insulation_Heat>
-            <EquipDelay>3</EquipDelay>
-        </statBases>
-        <apparel>
-            <bodyPartGroups>
-                <li>Torso</li>
-                <li>Shoulders</li>
-                <li>Arms</li>
-                <li>Legs</li>
-            </bodyPartGroups>
-            <wornGraphicPath>Things/Apparel/BoS_Armor/BoS_B35C_Armor/FCP_BoS_B35C_Armor</wornGraphicPath>
-            <layers>
-                <li>OnSkin</li>
-                <li>Middle</li>
-            </layers>
-            <tags>
-                <li>FCP_BoS_Apparel</li>
-            </tags>
-        </apparel>
-        <comps>
-            <li Class="FCP.Core.CompProperties_LabelColored">
-                <rarity>Rare</rarity>
-            </li>
-        </comps>
-    </ThingDef>
-
     <!--___ West Coast ___-->
 
     <!-- Classic Combat Armor Reinforced -->

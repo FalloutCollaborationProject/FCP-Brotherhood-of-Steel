@@ -11,13 +11,13 @@
 	<FCP_LostHills_Enlist_Letter_Label>Initiate, this is a message from the Elder's office. You have passed your trials and been accepted into the Western Chapter - the founding order, keepers of the true Codex. We do not extend this honor lightly.\n\nYou will be issued a standard salary every week for you and your team, along with provisions that can be collected at our bunkers when you are not on patrol or recovering lost technology. Lost Hills maintains some of the most advanced facilities in the wasteland - use them wisely, and do not disgrace the bloodline.\n\n -Ad Victoriam</FCP_LostHills_Enlist_Letter_Label>
 	<FCP_LostHills_Enlist_Button_Label>Enlist into the {FACTION_name}.</FCP_LostHills_Enlist_Button_Label>
 	<FCP_LostHills_Enlist_Button_Desc>Sign a new contract with the {FACTION_name}.</FCP_LostHills_Enlist_Button_Desc>
-	<FCP_LostHills_Enlist_Requrements_Not_Satisfied>You need a minimum of 10 goodwill, currently you have only {0} goodwill.</FCP_LostHills_Enlist_Requrements_Not_Satisfied>
+	<FCP_LostHills_Enlist_Requrements_Not_Satisfied>You need a minimum of 10 goodwill; currently you have only {0} goodwill.</FCP_LostHills_Enlist_Requrements_Not_Satisfied>
 	<FCP_LostHills_Enlisted_With_Key>Enlisted with: the {FACTION_name}</FCP_LostHills_Enlisted_With_Key>
 
 	<!-- Mission Options -->
 
 	<FCP_LostHills_Missions_Label>Tasks</FCP_LostHills_Missions_Label>
-	<FCP_LostHills_Missions_Desc>Task descriptions</FCP_LostHills_Missions_Desc>
+	<FCP_LostHills_Missions_Desc>Take on tasks for the {FACTION_name}. Completing a task earns you a bounty reward.</FCP_LostHills_Missions_Desc>
 	<FCP_LostHills_Menu_Missions_Desc>While leaving the bunker you ask around about any potential tasks that need doing.</FCP_LostHills_Menu_Missions_Desc>
 	<FCP_LostHills_Menu_Missions_Select_Quest>Select a Task: </FCP_LostHills_Menu_Missions_Select_Quest>
 	<FCP_LostHills_Menu_Missions_Start_Quest>Accept Task</FCP_LostHills_Menu_Missions_Start_Quest>
@@ -35,7 +35,7 @@
 	<FCP_LostHills_Provisions_Desc>Provisions will arrive via your caravan inventory every 10 days:\n\n- ×6 BoS Food Crate</FCP_LostHills_Provisions_Desc>
 
 	<FCP_LostHills_Provisions_Label_Standard_Issue>Standard Issue</FCP_LostHills_Provisions_Label_Standard_Issue>
-	<FCP_LostHills_Provisions_Desc_Standard_Issue>Western Chapter standard issue gear will arrive via your caravan inventory every 45 days:\n\n- ×2 BoS Weapon Crate\n- ×2 BoS Tech Resource Crate\n- ×2 BoS Uniform Crate</FCP_LostHills_Provisions_Desc_Standard_Issue>
+	<FCP_LostHills_Provisions_Desc_Standard_Issue>Western Chapter standard issue gear will arrive via your caravan inventory every 45 days:\n\n- ×2 BoS Standard Weapon Crate\n- ×2 BoS Standard Tech Resource Crate\n- ×2 BoS Standard Uniform Crate</FCP_LostHills_Provisions_Desc_Standard_Issue>
 
 	<!-- Storage Options -->
 
@@ -45,18 +45,18 @@
 	<!-- Work Options -->
 
 	<FCP_LostHills_Part_Time_Job_Label>Part-Time Job</FCP_LostHills_Part_Time_Job_Label>
-	<FCP_LostHills_Part_Time_Job_Desc>Pull additional duties and cover for your Paladin and Scribe brothers for $10 an hour.</FCP_LostHills_Part_Time_Job_Desc>
+	<FCP_LostHills_Part_Time_Job_Desc>Pull additional duties and cover for your Paladin and Scribe brothers for 10 silver an hour.</FCP_LostHills_Part_Time_Job_Desc>
 	<FCP_LostHills_Hospital_Label>Hospital</FCP_LostHills_Hospital_Label>
 	<FCP_LostHills_Hospital_Desc>Check in with the bunker's hospital. This service tends to all of your team with industrial medicine. Immunity gain is also increased while your team is in the hospital.</FCP_LostHills_Hospital_Desc>
 	<FCP_LostHills_Paladin_Training_Label>Training: Paladin training</FCP_LostHills_Paladin_Training_Label>
-	<FCP_LostHills_Paladin_Training_Desc>Train under the Western Chapter's elite drill instructors, with hourly experience gain on the following skills:\n\n- Shooting, Melee\n\nHourly experience gain stops when this faction is resting at night.</FCP_LostHills_Paladin_Training_Desc>
+	<FCP_LostHills_Paladin_Training_Desc>Train under the Western Chapter's elite drill instructors, with hourly experience gain on the following skills:\n\n- Shooting\n- Melee\n\nHourly experience gain stops when this faction is resting at night.</FCP_LostHills_Paladin_Training_Desc>
 	<FCP_LostHills_Scribe_Training_Label>Training: Scribe training</FCP_LostHills_Scribe_Training_Label>
 	<FCP_LostHills_Scribe_Training_Desc>Train among the keepers of the original Codex, with hourly experience gain on the following skills:\n\n- Crafting\n- Intellectual\n- Medicine\n\nHourly experience gain stops when this faction is resting at night.</FCP_LostHills_Scribe_Training_Desc>
 
 	<!-- Bounty Options -->
 
 	<FCP_LostHills_Turn_In_Label>Turn in</FCP_LostHills_Turn_In_Label>
-	<FCP_LostHills_Turn_In_Desc>Turn in war prisoners and high value targets to Western Chapter facilities.\n\n -Turning over any hostile pawns do not result in a slavery debuff-</FCP_LostHills_Turn_In_Desc>
+	<FCP_LostHills_Turn_In_Desc>Turn in war prisoners and high value targets to Western Chapter facilities.\n\n -Turning over any hostile pawns does not result in a slavery debuff-</FCP_LostHills_Turn_In_Desc>
 	<FCP_LostHills_Turn_In_Trader_Name>Bunker Warden</FCP_LostHills_Turn_In_Trader_Name>
 
 	<!-- Resign Options -->

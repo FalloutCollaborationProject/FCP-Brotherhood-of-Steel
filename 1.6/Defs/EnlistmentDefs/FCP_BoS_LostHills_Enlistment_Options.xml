@@ -7,6 +7,7 @@
 
     <FCP.Enlist.FactionEnlistOptionsDef>
         <defName>FCP_Enlistment_LostHills</defName>
+        <label>Lost Hills Chapter</label>
         <minGoodwillRequrementToEnlist>10</minGoodwillRequrementToEnlist>
         <enlistGoodwillGain>5</enlistGoodwillGain>
         <minGoodwillUponEnlist>75</minGoodwillUponEnlist>

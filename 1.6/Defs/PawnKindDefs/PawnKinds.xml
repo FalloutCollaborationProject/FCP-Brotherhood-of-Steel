@@ -815,7 +815,8 @@
                     <li>FCP_Backstory_BoS_Child</li>
                 </categoriesChildhood>
                 <categoriesAdulthood>
-                    <li>FCP_Backstory_BoS_Sentinel</li>
+                    <li>FCP_Backstory_BoS</li>
+                    <li>FCP_Backstory_BoS_Paladins</li>
                 </categoriesAdulthood>
             </li>
         </backstoryFiltersOverride>
@@ -857,7 +858,7 @@
                     <li>FCP_Backstory_BoS_Child</li>
                 </categoriesChildhood>
                 <categoriesAdulthood>
-                    <li>FCP_Backstory_BoS_Scribe</li>
+                    <li>FCP_Backstory_BoS_Scribes</li>
                 </categoriesAdulthood>
             </li>
         </backstoryFiltersOverride>
@@ -917,7 +918,7 @@
                     <li>FCP_Backstory_BoS_Child</li>
                 </categoriesChildhood>
                 <categoriesAdulthood>
-                    <li>FCP_Backstory_BoS_Scribe</li>
+                    <li>FCP_Backstory_BoS_Scribes</li>
                 </categoriesAdulthood>
             </li>
         </backstoryFiltersOverride>
@@ -976,7 +977,7 @@
                     <li>FCP_Backstory_BoS_Child</li>
                 </categoriesChildhood>
                 <categoriesAdulthood>
-                    <li>FCP_Backstory_BoS_Scribe</li>
+                    <li>FCP_Backstory_BoS_Scribes</li>
                 </categoriesAdulthood>
             </li>
         </backstoryFiltersOverride>
@@ -1117,7 +1118,7 @@
                     <li>FCP_Backstory_BoS_Child</li>
                 </categoriesChildhood>
                 <categoriesAdulthood>
-                    <li>FCP_Backstory_BoS_Scribe</li>
+                    <li>FCP_Backstory_BoS_Scribes</li>
                 </categoriesAdulthood>
             </li>
         </backstoryFiltersOverride>
