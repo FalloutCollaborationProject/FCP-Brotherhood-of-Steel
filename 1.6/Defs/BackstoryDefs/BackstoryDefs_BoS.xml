@@ -1092,8 +1092,8 @@
         <defName>FCP_Backstory_BoS_Paladins_Kid</defName>
         <identifier>FCP_Backstory_BoS_Paladins_Kid</identifier>
         <slot>Childhood</slot>
-        <title>Paladin’s Kid</title>
-        <titleShort>Paladin’s Kid</titleShort>
+        <title>Paladin's Kid</title>
+        <titleShort>Paladin's Kid</titleShort>
         <description>[PAWN_nameDef] was the child of an esteemed paladin of the Brotherhood of Steel. [PAWN_pronoun] trained harder than most other squires, as [PAWN_pronoun] wished to surpass the renown of [PAWN_possessive] parent. The constant training and learning combined with a somewhat aloof attitude towards [PAWN_possessive] peers left [PAWN_objective] somewhat isolated.</description>
         <skillGains>
             <Shooting>4</Shooting>
