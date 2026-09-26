@@ -45,6 +45,9 @@
             </li>
         </backstoryFiltersOverride>
         <pawnGroupDevelopmentStage>Adult</pawnGroupDevelopmentStage>
+        <forcedTraits>
+            <FCP_Trait_BoS_Zealot>0</FCP_Trait_BoS_Zealot>
+        </forcedTraits>
     </PawnKindDef>
 
     <!-- Power Armor Base -->

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <ThoughtDef>
+        <defName>FCP_Thought_BoSZealot_DislikesInstitute</defName>
+        <thoughtClass>Thought_SituationalSocial</thoughtClass>
+        <workerClass>FCP.Core.Thoughts.ThoughtWorker_BoSZealot_DislikesInstitute</workerClass>
+        <validWhileDespawned>true</validWhileDespawned>
+        <stages>
+            <li>
+                <label>Institute loyalist</label>
+                <description>{0} still takes orders from an organization that builds abominations underground and calls it progress. The Codex has a word for that kind of technology, and it isn't a kind one.</description>
+                <baseOpinionOffset>-10</baseOpinionOffset>
+            </li>
+        </stages>
+    </ThoughtDef>
+
+    <ThoughtDef>
+        <defName>FCP_Thought_BoSZealot_DislikesRailroad</defName>
+        <thoughtClass>Thought_SituationalSocial</thoughtClass>
+        <workerClass>FCP.Core.Thoughts.ThoughtWorker_BoSZealot_DislikesRailroad</workerClass>
+        <validWhileDespawned>true</validWhileDespawned>
+        <stages>
+            <li>
+                <label>Railroad sympathizer</label>
+                <description>{0} spends what's left of their conscience smuggling Institute hardware across the Commonwealth and calling it mercy. It's still dangerous technology loose in the wrong hands.</description>
+                <baseOpinionOffset>-10</baseOpinionOffset>
+            </li>
+        </stages>
+    </ThoughtDef>
+
+</Defs>

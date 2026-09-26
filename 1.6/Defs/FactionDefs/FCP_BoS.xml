@@ -181,6 +181,8 @@
 			<li Class="FCP.Factions.FactionExtension_PermanentlyHostileTo">
 				<hostileFactionDefs>
 					<li MayRequire="Rick.FCP.Enclave">FCP_Faction_Enclave</li>
+					<li MayRequire="Rick.FCP.Institute">FCP_Faction_Institute</li>
+					<li MayRequire="Rick.FCP.Railroad">FCP_Faction_Railroad</li>
 				</hostileFactionDefs>
 			</li>
 			<li Class="FCP.Enlist.FactionEnlistOptions">

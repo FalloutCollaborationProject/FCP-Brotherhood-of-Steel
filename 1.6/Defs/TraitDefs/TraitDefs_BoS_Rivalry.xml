@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <TraitDef>
+        <defName>FCP_Trait_BoS_Zealot</defName>
+        <commonality>0</commonality>
+        <degreeDatas>
+            <li>
+                <label>Brotherhood zealot</label>
+                <description>{PAWN_nameDef} hasn't forgotten the Codex, or what it says about synths and the fools who'd set them loose. Technology belongs in disciplined hands, and {PAWN_nameDef} still believes {PAWN_possessive} hands qualify.</description>
+                <statFactors>
+                    <SocialImpact>0.9</SocialImpact>
+                </statFactors>
+                <statOffsets>
+                    <ShootingAccuracyPawn>2</ShootingAccuracyPawn>
+                </statOffsets>
+            </li>
+        </degreeDatas>
+        <conflictingTraits>
+            <li MayRequire="Rick.FCP.Institute">FCP_Trait_Institute_Loyalist</li>
+            <li MayRequire="Rick.FCP.Railroad">FCP_Trait_Railroad_Sympathizer</li>
+        </conflictingTraits>
+    </TraitDef>
+
+</Defs>
