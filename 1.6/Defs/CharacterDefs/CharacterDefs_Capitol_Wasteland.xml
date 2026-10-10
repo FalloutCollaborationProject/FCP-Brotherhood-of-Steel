@@ -34,7 +34,7 @@
             <li Class="FCP.Core.CharacterAppearanceDefinition">
                 <hairColor>(200, 200, 200)</hairColor>
                 <hairDef>FCP_Hair_Balding</hairDef>
-                <beardDef>Bushy</beardDef>
+                <beardDef>FCP_Beard_Survivalist</beardDef>
                 <skinColorOverride>(220, 195, 170)</skinColorOverride>
                 <headTypeDef>Male_AverageNormal</headTypeDef>
                 <bodyTypeDef>Male</bodyTypeDef>
@@ -182,7 +182,7 @@
             <li Class="FCP.Core.CharacterAppearanceDefinition">
                 <hairColor>(110, 85, 60)</hairColor>
                 <hairDef>FCP_Hair_Buzz_Cut</hairDef>
-                <beardDef>NoBeard</beardDef>
+                <beardDef>FCP_Beard_Mephistopheles</beardDef>
                 <skinColorOverride>(180, 150, 120)</skinColorOverride>
                 <headTypeDef>Male_AverageNormal</headTypeDef>
                 <bodyTypeDef>Male</bodyTypeDef>
@@ -404,7 +404,7 @@
             <li Class="FCP.Core.CharacterAppearanceDefinition">
                 <hairColor>(50, 40, 35)</hairColor>
                 <hairDef>FCP_Hair_Buzz_Cut</hairDef>
-                <beardDef>NoBeard</beardDef>
+                <beardDef>FCP_Beard_Machiavellian</beardDef>
                 <skinColorOverride>(175, 145, 120)</skinColorOverride>
                 <headTypeDef>Male_AverageNormal</headTypeDef>
                 <bodyTypeDef>Male</bodyTypeDef>
