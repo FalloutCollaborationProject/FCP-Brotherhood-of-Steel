@@ -905,7 +905,7 @@
             <ToxicResistance>0.30</ToxicResistance>
         </equippedStatOffsets>
         <apparel>
-            <bodyPartGroups>
+            <bodyPartGroups Inherit="False">
                 <li>Torso</li>
                 <li>Shoulders</li>
                 <li>Arms</li>
