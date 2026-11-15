@@ -912,7 +912,7 @@
                 <li>Legs</li>
             </bodyPartGroups>
             <wornGraphicPath>Things/Apparel/BoS_Armor/BoS_Classic_Combat_Armor_Reinforced/FCP_BoS_Reinforced_Combat_Armor</wornGraphicPath>
-            <layers>
+            <layers Inherit="False">
                 <li>Middle</li>
                 <li>OnSkin</li>
             </layers>
