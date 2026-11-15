@@ -51,6 +51,7 @@
                 </li>
                 <li Class="FCP.Core.RadiantQuests.QuestNode_GetFactionFromList">
                     <storeAs>enemyFaction</storeAs>
+                    <mustBeNonHostile>false</mustBeNonHostile>
                     <factionDefs>
                         <li>FCP_Faction_MastersArmy</li>
                         <li>FCP_Faction_Vault87</li>

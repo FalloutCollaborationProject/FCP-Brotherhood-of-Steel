@@ -455,7 +455,7 @@
 
     <!-- BoS Outcast Recon Hood -->
 
-    <ThingDef ParentName="FCP_Hat_Makeable_Base">
+    <ThingDef ParentName="FCP_Armor_Helmet_Makeable_Base">
         <defName>FCP_Apparel_BoS_Outcast_Recon_Hood</defName>
         <label>BoS Outcast Recon Hood</label>
         <description>A tactical hood worn by Brotherhood Outcast reconnaissance specialists. This hood features enhanced optics integration, communication equipment, and environmental protection systems modified to Outcast specifications for extended field operations behind enemy lines.</description>
