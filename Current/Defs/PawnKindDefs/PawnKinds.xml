@@ -205,6 +205,10 @@
         <inventoryOptions>
             <skipChance>0.70</skipChance>
             <subOptionsChooseOne>
+                <li>
+                    <thingDef>MealSurvivalPack</thingDef>
+                    <countRange>1</countRange>
+                </li>
                 <li MayRequire="Rick.FCP.Chems">
                     <thingDef>FCP_Chem_Stimpak</thingDef>
                     <countRange>1~2</countRange>
@@ -656,6 +660,10 @@
     <inventoryOptions>
         <skipChance>0.60</skipChance>
         <subOptionsChooseOne>
+            <li>
+                <thingDef>MealSurvivalPack</thingDef>
+                <countRange>1</countRange>
+            </li>
             <li MayRequire="Rick.FCP.Chems">
                 <thingDef>FCP_Chem_Stimpak</thingDef>
                 <countRange>3~4</countRange>
@@ -711,6 +719,10 @@
     <inventoryOptions>
         <skipChance>0.65</skipChance>
         <subOptionsChooseOne>
+            <li>
+                <thingDef>MealSurvivalPack</thingDef>
+                <countRange>1</countRange>
+            </li>
             <li MayRequire="Rick.FCP.Chems">
                 <thingDef>FCP_Chem_Stimpak</thingDef>
                 <countRange>2~3</countRange>
@@ -775,6 +787,10 @@
     <inventoryOptions>
         <skipChance>0.70</skipChance>
         <subOptionsChooseOne>
+            <li>
+                <thingDef>MealSurvivalPack</thingDef>
+                <countRange>1</countRange>
+            </li>
             <li MayRequire="Rick.FCP.Chems">
                 <thingDef>FCP_Chem_Stimpak</thingDef>
                 <countRange>1~2</countRange>
@@ -868,6 +884,10 @@
     <inventoryOptions>
         <skipChance>0.70</skipChance>
         <subOptionsChooseOne>
+            <li>
+                <thingDef>MealSurvivalPack</thingDef>
+                <countRange>1</countRange>
+            </li>
             <li MayRequire="Rick.FCP.Chems">
                 <thingDef>FCP_Chem_Stimpak</thingDef>
                 <countRange>1~2</countRange>
@@ -928,6 +948,10 @@
     <inventoryOptions>
         <skipChance>0.70</skipChance>
         <subOptionsChooseOne>
+            <li>
+                <thingDef>MealSurvivalPack</thingDef>
+                <countRange>1</countRange>
+            </li>
             <li MayRequire="Rick.FCP.Chems">
                 <thingDef>FCP_Chem_Stimpak</thingDef>
                 <countRange>1~2</countRange>
@@ -1028,6 +1052,10 @@
     <inventoryOptions>
         <skipChance>0.60</skipChance>
         <subOptionsChooseOne>
+            <li>
+                <thingDef>MealSurvivalPack</thingDef>
+                <countRange>1</countRange>
+            </li>
             <li MayRequire="Rick.FCP.Chems">
                 <thingDef>FCP_Chem_Stimpak</thingDef>
                 <countRange>3~4</countRange>
@@ -1128,6 +1156,10 @@
         <inventoryOptions>
             <skipChance>0.70</skipChance>
             <subOptionsChooseOne>
+                <li>
+                    <thingDef>MealSurvivalPack</thingDef>
+                    <countRange>1</countRange>
+                </li>
                 <li MayRequire="Rick.FCP.Chems">
                     <thingDef>FCP_Chem_Stimpak</thingDef>
                     <countRange>1~2</countRange>
@@ -1185,6 +1217,10 @@
         <inventoryOptions>
             <skipChance>0.70</skipChance>
             <subOptionsChooseOne>
+                <li>
+                    <thingDef>MealSurvivalPack</thingDef>
+                    <countRange>1</countRange>
+                </li>
                 <li MayRequire="Rick.FCP.Chems">
                     <thingDef>FCP_Chem_Stimpak</thingDef>
                     <countRange>1~2</countRange>
@@ -1233,6 +1269,10 @@
     <inventoryOptions>
         <skipChance>0.65</skipChance>
         <subOptionsChooseOne>
+            <li>
+                <thingDef>MealSurvivalPack</thingDef>
+                <countRange>1</countRange>
+            </li>
             <li MayRequire="Rick.FCP.Chems">
                 <thingDef>FCP_Chem_Stimpak</thingDef>
                 <countRange>2~3</countRange>
@@ -1286,6 +1326,10 @@
         <inventoryOptions>
         <skipChance>0.60</skipChance>
         <subOptionsChooseOne>
+            <li>
+                <thingDef>MealSurvivalPack</thingDef>
+                <countRange>1</countRange>
+            </li>
             <li MayRequire="Rick.FCP.Chems">
                 <thingDef>FCP_Chem_Stimpak</thingDef>
                 <countRange>3~4</countRange>
@@ -1342,6 +1386,10 @@
     <inventoryOptions>
         <skipChance>0.70</skipChance>
         <subOptionsChooseOne>
+            <li>
+                <thingDef>MealSurvivalPack</thingDef>
+                <countRange>1</countRange>
+            </li>
             <li MayRequire="Rick.FCP.Chems">
                 <thingDef>FCP_Chem_Stimpak</thingDef>
                 <countRange>1~2</countRange>
@@ -1399,6 +1447,10 @@
     <inventoryOptions>
         <skipChance>0.70</skipChance>
         <subOptionsChooseOne>
+            <li>
+                <thingDef>MealSurvivalPack</thingDef>
+                <countRange>1</countRange>
+            </li>
             <li MayRequire="Rick.FCP.Chems">
                 <thingDef>FCP_Chem_Stimpak</thingDef>
                 <countRange>1~2</countRange>
@@ -1475,6 +1527,10 @@
         <inventoryOptions>
             <skipChance>0.65</skipChance>
             <subOptionsChooseOne>
+                <li>
+                    <thingDef>MealSurvivalPack</thingDef>
+                    <countRange>1</countRange>
+                </li>
                 <li MayRequire="Rick.FCP.Chems">
                     <thingDef>FCP_Chem_Stimpak</thingDef>
                     <countRange>2~3</countRange>
@@ -1531,6 +1587,10 @@
         <inventoryOptions>
             <skipChance>0.70</skipChance>
             <subOptionsChooseOne>
+                <li>
+                    <thingDef>MealSurvivalPack</thingDef>
+                    <countRange>1</countRange>
+                </li>
                 <li MayRequire="Rick.FCP.Chems">
                     <thingDef>FCP_Chem_Stimpak</thingDef>
                     <countRange>1~2</countRange>
@@ -1582,6 +1642,10 @@
         <inventoryOptions>
             <skipChance>0.70</skipChance>
             <subOptionsChooseOne>
+                <li>
+                    <thingDef>MealSurvivalPack</thingDef>
+                    <countRange>1</countRange>
+                </li>
                 <li MayRequire="Rick.FCP.Chems">
                     <thingDef>FCP_Chem_Stimpak</thingDef>
                     <countRange>1~2</countRange>
@@ -1633,6 +1697,10 @@
         <inventoryOptions>
             <skipChance>0.70</skipChance>
             <subOptionsChooseOne>
+                <li>
+                    <thingDef>MealSurvivalPack</thingDef>
+                    <countRange>1</countRange>
+                </li>
                 <li MayRequire="Rick.FCP.Chems">
                     <thingDef>FCP_Chem_Stimpak</thingDef>
                     <countRange>1~2</countRange>
@@ -1684,6 +1752,10 @@
         <inventoryOptions>
             <skipChance>0.60</skipChance>
             <subOptionsChooseOne>
+                <li>
+                    <thingDef>MealSurvivalPack</thingDef>
+                    <countRange>1</countRange>
+                </li>
                 <li MayRequire="Rick.FCP.Chems">
                     <thingDef>FCP_Chem_Stimpak</thingDef>
                     <countRange>3~4</countRange>
@@ -1730,6 +1802,10 @@
         <inventoryOptions>
             <skipChance>0.70</skipChance>
             <subOptionsChooseOne>
+                <li>
+                    <thingDef>MealSurvivalPack</thingDef>
+                    <countRange>1</countRange>
+                </li>
                 <li MayRequire="Rick.FCP.Chems">
                     <thingDef>FCP_Chem_Stimpak</thingDef>
                     <countRange>1~2</countRange>
@@ -1836,6 +1912,10 @@
     <inventoryOptions>
         <skipChance>0.65</skipChance>
         <subOptionsChooseOne>
+            <li>
+                <thingDef>MealSurvivalPack</thingDef>
+                <countRange>1</countRange>
+            </li>
             <li MayRequire="Rick.FCP.Chems">
                 <thingDef>FCP_Chem_Stimpak</thingDef>
                 <countRange>2~3</countRange>
@@ -1945,6 +2025,10 @@
     <inventoryOptions>
         <skipChance>0.65</skipChance>
         <subOptionsChooseOne>
+            <li>
+                <thingDef>MealSurvivalPack</thingDef>
+                <countRange>1</countRange>
+            </li>
             <li MayRequire="Rick.FCP.Chems">
                 <thingDef>FCP_Chem_Stimpak</thingDef>
                 <countRange>2~3</countRange>
@@ -2014,6 +2098,10 @@
     <inventoryOptions>
         <skipChance>0.60</skipChance>
         <subOptionsChooseOne>
+            <li>
+                <thingDef>MealSurvivalPack</thingDef>
+                <countRange>1</countRange>
+            </li>
             <li MayRequire="Rick.FCP.Chems">
                 <thingDef>FCP_Chem_Stimpak</thingDef>
                 <countRange>3~4</countRange>
